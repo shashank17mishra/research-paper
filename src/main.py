@@ -14,6 +14,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import List
 
+# Ensure repository root is in sys.path when executed directly as `python src/main.py`
+_REPO_ROOT = Path(__file__).resolve().parent.parent
+if str(_REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(_REPO_ROOT))
+
 from src.analyzer import analyze_paper
 from src.archive import (
     generate_daily_markdown_report,

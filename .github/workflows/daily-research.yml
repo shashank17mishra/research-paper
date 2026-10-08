@@ -56,6 +56,8 @@ jobs:
           pytest tests/ -v
 
       - name: Execute Daily Tech Intelligence Pipeline
+        env:
+          PYTHONPATH: .
         run: |
           EXTRA_ARGS=""
           if [ "${{ inputs.dry_run }}" = "true" ]; then
@@ -64,7 +66,7 @@ jobs:
           if [ -n "${{ inputs.max_papers }}" ]; then
             EXTRA_ARGS="$EXTRA_ARGS --max-papers ${{ inputs.max_papers }}"
           fi
-          python src/main.py $EXTRA_ARGS
+          python -m src.main $EXTRA_ARGS
 
       - name: Check for Changes and Commit
         if: ${{ inputs.dry_run != true }}
