@@ -287,13 +287,43 @@ def render_template_spotlight(data: Dict[str, Any], output_path: Path) -> bool:
             color=SPOT_INK, va="top", linespacing=1.35, zorder=3
         )
 
-        # Concepts Tags inside Right Box
-        ax.plot([g2_x + 0.020, g2_x + col_w - 0.020], [bottom_y - 0.120, bottom_y - 0.120], color=SPOT_BORDER, linewidth=0.8)
+        # Concepts Separator Line & Header
+        sep_y = bottom_y - 0.108
+        ax.plot([g2_x + 0.020, g2_x + col_w - 0.020], [sep_y, sep_y], color=SPOT_BORDER, linewidth=0.8)
+        
         ax.text(
-            g2_x + 0.020, bottom_y - 0.135, "ACTIVE CONCEPTS: " + " • ".join(concepts_list[:5]),
+            g2_x + 0.020, sep_y - 0.014, "ACTIVE CONCEPTS",
             fontproperties=get_sans_prop(7, weight="bold"),
             color=SPOT_TERRACOTTA, zorder=3
         )
+
+        # Dynamic concept chips wrapped cleanly within the card width
+        cur_x = g2_x + 0.020
+        chip_y = sep_y - 0.034
+        chip_h = 0.016
+        max_box_x = g2_x + col_w - 0.020
+
+        top_concepts = [c.strip() for c in concepts_list if c.strip()][:6]
+        for c_text in top_concepts:
+            c_w = min(0.018 + len(c_text) * 0.0055, 0.160)
+            if cur_x + c_w > max_box_x:
+                cur_x = g2_x + 0.020
+                chip_y -= 0.022
+                if chip_y - chip_h < bottom_y - 0.178:
+                    break
+
+            c_box = FancyBboxPatch(
+                (cur_x, chip_y - chip_h), c_w, chip_h,
+                boxstyle="round,pad=0.001,rounding_size=0.004",
+                facecolor="#FEF3C7", edgecolor="#FCD34D", linewidth=0.8, zorder=3
+            )
+            ax.add_patch(c_box)
+            ax.text(
+                cur_x + c_w / 2.0, chip_y - chip_h / 2.0, c_text,
+                fontproperties=get_sans_prop(6.5, weight="bold"),
+                color=SPOT_INK, ha="center", va="center", zorder=4
+            )
+            cur_x += c_w + 0.008
 
         # -------------------------------------------------------------
         # 4. FOOTER

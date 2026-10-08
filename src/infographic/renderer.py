@@ -60,12 +60,12 @@ def derive_daily_insight(papers: List[Any]) -> tuple[str, str]:
 def render_infographic(
     data: Dict[str, Any],
     output_path: Path,
-    template: str = "modern",
+    template: str = "spotlight",
 ) -> bool:
     """
     Renders an infographic using the specified template ('editorial', 'modern', or 'spotlight').
     """
-    renderer_func = TEMPLATES.get(template.lower(), render_template_modern)
+    renderer_func = TEMPLATES.get(template.lower(), render_template_spotlight)
     return renderer_func(data, output_path)
 
 
@@ -80,7 +80,7 @@ def generate_daily_infographic(
     Generates the primary infographic and all 3 template variants in the destination directory.
 
     Outputs:
-      - output_path (primary, defaults to modern template)
+      - output_path (primary, defaults to spotlight template)
       - output_path.parent / 'infographic_editorial.png'
       - output_path.parent / 'infographic_modern.png'
       - output_path.parent / 'infographic_spotlight.png'
@@ -128,8 +128,8 @@ def generate_daily_infographic(
         render_template_modern(data, modern_path)
         render_template_spotlight(data, spotlight_path)
 
-        # 2. Render primary output_path with chosen or default template
-        chosen = template if template in TEMPLATES else "modern"
+        # 2. Render primary output_path with chosen or default template (spotlight)
+        chosen = template if template in TEMPLATES else "spotlight"
         success = render_infographic(data, output_path, template=chosen)
 
         logger.info(f"Generated all 3 infographic templates successfully in {output_path.parent}")

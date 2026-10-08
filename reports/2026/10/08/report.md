@@ -16,9 +16,9 @@ Topics:
 
 ### Visual Intelligence Templates
 
-* **Template 2: Modern Tech Studio (Primary)**: [View High-Res](infographic_modern.png)
+* **Template 3: Gen-Z Spotlight Broadside (Primary)**: [View High-Res](infographic_spotlight.png)
+* **Template 2: Modern Tech Studio**: [View High-Res](infographic_modern.png)
 * **Template 1: Editorial Research Journal**: [View High-Res](infographic_editorial.png)
-* **Template 3: Gen-Z Spotlight Broadside**: [View High-Res](infographic_spotlight.png)
 
 ---
 

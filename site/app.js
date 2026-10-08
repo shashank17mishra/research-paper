@@ -238,7 +238,7 @@ function toggleInsights(panelId) {
   }
 }
 
-let currentTemplate = 'modern';
+let currentTemplate = 'spotlight';
 
 window.switchInfographicTemplate = function(tmpl) {
   currentTemplate = tmpl;

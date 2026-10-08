@@ -14,6 +14,12 @@ Topics:
 
 ![Daily Research Infographic](infographic.png)
 
+### Visual Intelligence Templates
+
+* **Template 3: Gen-Z Spotlight Broadside (Primary)**: [View High-Res](infographic_spotlight.png)
+* **Template 2: Modern Tech Studio**: [View High-Res](infographic_modern.png)
+* **Template 1: Editorial Research Journal**: [View High-Res](infographic_editorial.png)
+
 ---
 
 ## 1. Spatial-Temporal Vision Transformers for Robust Quadruped Locomotion in Rugged Terrains

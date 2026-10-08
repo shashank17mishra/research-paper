@@ -63,9 +63,9 @@ def generate_daily_markdown_report(
         lines.append("")
         lines.append("### Visual Intelligence Templates")
         lines.append("")
-        lines.append("* **Template 2: Modern Tech Studio (Primary)**: [View High-Res](infographic_modern.png)")
+        lines.append("* **Template 3: Gen-Z Spotlight Broadside (Primary)**: [View High-Res](infographic_spotlight.png)")
+        lines.append("* **Template 2: Modern Tech Studio**: [View High-Res](infographic_modern.png)")
         lines.append("* **Template 1: Editorial Research Journal**: [View High-Res](infographic_editorial.png)")
-        lines.append("* **Template 3: Gen-Z Spotlight Broadside**: [View High-Res](infographic_spotlight.png)")
         lines.append("")
 
     lines.append("---")
