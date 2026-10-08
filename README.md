@@ -83,45 +83,6 @@ The system runs entirely autonomously via **GitHub Actions** (`.github/workflows
 
 ---
 
-## Repository Structure
-
-```text
-daily-tech-intelligence/
-├── .github/
-│   └── workflows/
-│       └── daily-research.yml
-├── archive/
-│   ├── 2026/
-│   │   └── 10/
-│   └── index.json
-├── assets/
-│   └── illustrations/
-│       ├── ed_book_stack.png
-│       ├── ed_chip.png
-│       ├── ed_quadruped.png
-│       ├── ed_warehouse.png
-│       ├── mod_chip.png
-│       ├── mod_header_laptop.png
-│       ├── mod_quadruped.png
-│       ├── mod_warehouse.png
-│       ├── researcher_laptop.png
-│       ├── vignette_01_search.png
-│       ├── vignette_02_notes.png
-│       ├── vignette_03_code.png
-│       ├── vignette_04_rain.png
-│       ├── vignette_05_read.png
-│       ├── vignette_06_coffee.png
-│       ├── vignette_07_dog.png
-│       ├── vignette_08_plant.png
-│       └── walking_figure.png
-├── config/
-│   ├── config.yaml
-│   └── topics.yaml
-├── data/
-│   ├── papers.json
-│   └── statistics.json
-├── reports/
-```
 
 ---
 
