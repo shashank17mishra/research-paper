@@ -12,7 +12,7 @@
 
 ## Latest Report
 
-📅 **[08 October 2026 Report](reports/2026/10/08/report.md)** — *3 new breakthrough papers analyzed today.*
+📅 **[08 October 2026 Report](reports/2026/10/08/report.md)** — *10 new breakthrough papers analyzed today.*
 
 [Read Full Report →](reports/2026/10/08/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
@@ -24,10 +24,10 @@
 
 | Metric | Count |
 | :--- | :---: |
-| **Papers Analyzed Today** | `3` |
-| **Artificial Intelligence (AI)** | `2` |
+| **Papers Analyzed Today** | `10` |
+| **Artificial Intelligence (AI)** | `5` |
 | **Machine Learning (ML)** | `2` |
-| **Robotics** | `2` |
+| **Robotics** | `8` |
 | **IoT & Edge AI** | `1` |
 
 ---
@@ -36,18 +36,20 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Autonomous Multi-Agent Task Allocation in Partially Observable Industria...** | `Artificial Intelligence` | `0.88` | [arXiv](https://arxiv.org/abs/2403.09101) |
-| 2 | **MicroQuant: Sub-Milliwatt Deep Learning Inference for Distributed Edge I...** | `IoT & Edge AI` | `0.91` | [arXiv](https://arxiv.org/abs/2403.05678) |
-| 3 | **Spatial-Temporal Vision Transformers for Robust Quadruped Locomotion in ...** | `Robotics` | `0.96` | [arXiv](https://arxiv.org/abs/2403.01234) |
+| 1 | **Robotic Boomerang Throwing via Model-Based Release Design** | `Robotics` | `0.70` | [arXiv](https://arxiv.org/abs/2610.10472v1) |
+| 2 | **EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided C...** | `Robotics` | `0.73` | [arXiv](https://arxiv.org/abs/2610.10498v1) |
+| 3 | **Long-WAM: Scaling the Context of World-Action Models** | `Robotics` | `0.73` | [arXiv](https://arxiv.org/abs/2610.10528v1) |
+| 4 | **RoboPrompt: Intuitive Robot Policy Steering with Sparse Human Input** | `Robotics` | `0.73` | [arXiv](https://arxiv.org/abs/2610.10534v1) |
+| 5 | **LOCAA: An Agentic System for Automated Lossy Compressor Tuning** | `Artificial Intelligence` | `0.74` | [arXiv](https://arxiv.org/abs/2610.10487v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `3`
-- **Total Operational Runs**: `11 days`
+- **Total Papers Analyzed**: `13`
+- **Total Operational Runs**: `12 days`
 - **Categories Tracked**: `5 categories`
-- **Primary Focus Areas**: Robotics, IoT & Edge AI, Artificial Intelligence
+- **Primary Focus Areas**: Robotics, Artificial Intelligence, IoT & Edge AI, Machine Learning
 
 ---
 
@@ -83,6 +85,45 @@ The system runs entirely autonomously via **GitHub Actions** (`.github/workflows
 
 ---
 
+## Repository Structure
+
+```text
+daily-tech-intelligence/
+├── .github/
+│   └── workflows/
+│       └── daily-research.yml
+├── archive/
+│   ├── 2026/
+│   │   └── 10/
+│   └── index.json
+├── assets/
+│   └── illustrations/
+│       ├── ed_book_stack.png
+│       ├── ed_chip.png
+│       ├── ed_quadruped.png
+│       ├── ed_warehouse.png
+│       ├── mod_chip.png
+│       ├── mod_header_laptop.png
+│       ├── mod_quadruped.png
+│       ├── mod_warehouse.png
+│       ├── researcher_laptop.png
+│       ├── vignette_01_search.png
+│       ├── vignette_02_notes.png
+│       ├── vignette_03_code.png
+│       ├── vignette_04_rain.png
+│       ├── vignette_05_read.png
+│       ├── vignette_06_coffee.png
+│       ├── vignette_07_dog.png
+│       ├── vignette_08_plant.png
+│       └── walking_figure.png
+├── config/
+│   ├── config.yaml
+│   └── topics.yaml
+├── data/
+│   ├── papers.json
+│   └── statistics.json
+├── reports/
+```
 
 ---
 

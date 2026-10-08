@@ -110,5 +110,482 @@
       "limitations": "Communication overhead scales quadratically if local agent density exceeds 50 units in close proximity."
     },
     "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.10409",
+    "raw_id": "http://arxiv.org/abs/2610.10409v1",
+    "title": "RobotWorld: Benchmarking Multimodal Agents for Robot Use Across Diverse Tasks and Embodiments",
+    "authors": [
+      "Zhiqin Yang",
+      "Chenxin Li",
+      "Xiaomeng Hu",
+      "Yibin Liu",
+      "Weidong Huang",
+      "Jiankai Sun",
+      "Haitao Li",
+      "Zijian Wu",
+      "Yuzhi Huang",
+      "Fanding Huang",
+      "Hanwen Sun",
+      "Jiashun Liu",
+      "Jingqi Tong",
+      "Mingxin Huang",
+      "Shaoli Hu",
+      "Shijue Huang",
+      "Tianyi Bai",
+      "Xinyuan Wang",
+      "Yunlong Lin",
+      "Zhengyang Tang",
+      "Zhexin Zhang",
+      "Zhuo Chen",
+      "Xierui Song",
+      "Juntao Dai",
+      "Boyuan Chen",
+      "Jiaming Ji",
+      "Fangneng Zhan",
+      "Mengkang Hu",
+      "Wei Xue",
+      "Yonggang Zhang",
+      "Han Hu",
+      "Tsung-Yi Ho",
+      "Yike Guo"
+    ],
+    "published_date": "2026-10-07T16:55:24Z",
+    "updated_date": "2026-10-07T16:55:24Z",
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "abstract": "General-purpose agents increasingly write code, use tools, and complete complex digital tasks, raising the question of how far these capabilities carry into the physical world. To investigate this, we introduce RobotWorld, a challenging simulation testbed for robot use: turning instructions and observations into physical task execution through robot interfaces. Its 84 tasks span manipulation, mobile manipulation, locomotion, driving, and aerial control, with explicit interaction budgets and executable success checks. By analysing task outcomes alongside execution traces, we identify both the capabilities that transfer and the gaps that prevent reliable completion. Furthermore, we find that current agents can construct sophisticated perception and control workflows, including image segmentation, camera calibration, spatial estimation, and dynamics-based computation. These capabilities, however, do not consistently compose into successful behaviour: agents lose task-relevant object states despite reaching commanded poses, fail to correct ineffective actions, recover too late, or mistake unfinished tasks for completion. This uneven transfer also differs across models: Astra succeeds more often on spatial and constrained-contact goals, whereas Opus 5.5 succeeds more often on continuous-balance and timed-interaction goals. By linking these outcomes to execution behaviour, RobotWorld provides both a rigorous proving ground and an empirical account of the remaining capability gaps, thereby establishing concrete targets for training and designing more reliable physical-world agents.",
+    "url": "https://arxiv.org/abs/2610.10409v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.10409v1",
+    "relevance_score": 0.807,
+    "processed_date": "2026-10-08",
+    "summary": "These capabilities, however, do not consistently compose into successful behaviour: agents lose task-relevant object states despite reaching commanded poses, fail to correct ineffective actions, recover too late, or mistake unfinished tasks for completion. To investigate this, we introduce RobotWorld, a challenging simulation testbed for robot use: turning instructions and observations into physical task execution through robot interfaces. Its 84 tasks span manipulation, mobile manipulation, locomotion, driving, and aerial control, with explicit interaction budgets and executable success checks. By linking these outcomes to execution behaviour, RobotWorld provides both a rigorous proving ground and an empirical account of the remaining capability gaps, thereby establishing concrete targets for training and designing more reliable physical-world agents.",
+    "key_concepts": [
+      "Manipulation",
+      "Account Remaining",
+      "Actions Recover",
+      "Aerial Control",
+      "Alongside Execution",
+      "Astra Succeeds"
+    ],
+    "insights": {
+      "problem": "These capabilities, however, do not consistently compose into successful behaviour: agents lose task-relevant object states despite reaching commanded poses, fail to correct ineffective actions, recover too late, or mistake unfinished tasks for completion.",
+      "approach": "To investigate this, we introduce RobotWorld, a challenging simulation testbed for robot use: turning instructions and observations into physical task execution through robot interfaces.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Account Remaining.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2610.10479",
+    "raw_id": "http://arxiv.org/abs/2610.10479v1",
+    "title": "Agentic RSR: Real-to-Sim-to-Real through Scene Reconstruction and Execution-Grounded Robot Policies",
+    "authors": [
+      "Yihan Li",
+      "Yating Feng",
+      "Shengjiu Sun",
+      "Jianing Chen",
+      "Hao Ren",
+      "Bowen Yang",
+      "Weisheng Xu",
+      "Qiwei Wu",
+      "Hui Cheng",
+      "Renjing Xu"
+    ],
+    "published_date": "2026-10-07T17:37:20Z",
+    "updated_date": "2026-10-07T17:37:20Z",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "abstract": "A simulation of a real robot workspace must preserve task-relevant interactions, while policies developed in it must operate on observations available to the real robot. Yet scene reconstruction and policy development are often treated separately. We present Agentic Real-to-Sim-to-Real (Agentic RSR), a framework that links scene reconstruction, policy development, and real-robot execution through the same manipulation task. Given a workspace video, a task description, and a known robot model, an agent recovers metric scale, iteratively refines the scene using visual feedback, and checks task-relevant interactions in MuJoCo. A coding agent then develops an executable policy, progressing from privileged object poses to visual observations and randomized simulation. The policy can interleave multiple observations and actions within one invocation, while the agent uses execution feedback to continue, retry, or revise its approach. A shared task-level interface carries the policy and accumulated experience to the real robot, where fresh observations and safety checks guide execution. Across 18 reconstructed scenes involving two robots, the mean four-view Depth MAE against reference depth estimates is 0.1057 m, the mean Lab ΔE_{76} is 11.04, and the mean grayscale SSIM is 0.6990. In real-robot experiments, the aggregate task success rate reaches 80% of the simulation task success rate, indicating substantial retention of simulated performance on hardware. Code and reconstructed scene data will be made publicly available.",
+    "url": "https://arxiv.org/abs/2610.10479v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.10479v1",
+    "relevance_score": 0.787,
+    "processed_date": "2026-10-08",
+    "summary": "Addressing critical demands in Robotics, this research investigates a simulation of a real robot workspace must preserve task-relevant interactions, while policies developed in it must operate on observations available to the real robot. We present Agentic Real-to-Sim-to-Real (Agentic RSR), a framework that links scene reconstruction, policy development, and real-robot execution through the same manipulation task. Code and reconstructed scene data will be made publicly available. A simulation of a real robot workspace must preserve task-relevant interactions, while policies developed in it must operate on observations available to the real robot. Yet scene reconstruction and policy development are often treated separately.",
+    "key_concepts": [
+      "Sim-to-Real Transfer",
+      "Manipulation",
+      "Scene Reconstruction",
+      "Policy Development",
+      "Real Robot",
+      "Reconstruction Policy"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+      "approach": "We present Agentic Real-to-Sim-to-Real (Agentic RSR), a framework that links scene reconstruction, policy development, and real-robot execution through the same manipulation task.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Sim-to-Real Transfer, Manipulation.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2610.10507",
+    "raw_id": "http://arxiv.org/abs/2610.10507v1",
+    "title": "RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing",
+    "authors": [
+      "Yilun Hao",
+      "Krishna Sayana",
+      "Isabella Ye",
+      "James S Ren",
+      "Sukhdeep Sodhi",
+      "Craig Boutilier",
+      "Chuchu Fan"
+    ],
+    "published_date": "2026-10-07T17:51:08Z",
+    "updated_date": "2026-10-07T17:51:08Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Large language models are increasingly applied to tasks grounded in long, heterogeneous information sources. Conventional Retrieval-Augmented Generation (RAG) relies on fixed similarity-based retrieval, while agentic variants adapt queries and tool use but remain largely retrieval-centric. However, in many tasks, the evidence required for a solution is not explicitly present in any single source item. Instead, it must be derived through filtering, aggregation, or computation across multiple source items. In this work, we introduce RECAST (Routing Evidence through Computation, Access, and Synthesized Tools), a learned framework that formulates evidence construction as a sequential decision process over heterogeneous retrieval and computation operations, allowing evidence to be actively derived rather than merely retrieved. A lightweight RouterLM iteratively selects and formulates primitive operations or specifies customized operations for a frozen CompilerLM to translate into executable code. Once it judges the evidence sufficient, RouterLM passes the accepted evidence to a frozen AnswerLM to produce the final solution. We train RouterLM with supervised fine-tuning (SFT) followed by group relative policy optimization (GRPO). Across six heterogeneous benchmark families, RECAST achieves a mean success rate of 75.6%, outperforming the strongest large-model baseline by 15.9%. Moreover, training enables the Qwen3.5-9B RouterLM to outperform a training-free Gemini 3.5 Flash RouterLM by 5.0%. On three held-out benchmarks, RECAST improves over the strongest baseline by 15.0% on average, demonstrating strong zero-shot generalization across tasks and heterogeneous source representations.",
+    "url": "https://arxiv.org/abs/2610.10507v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.10507v1",
+    "relevance_score": 0.761,
+    "processed_date": "2026-10-08",
+    "summary": "However, in many tasks, the evidence required for a solution is not explicitly present in any single source item. In this work, we introduce RECAST (Routing Evidence through Computation, Access, and Synthesized Tools), a learned framework that formulates evidence construction as a sequential decision process over heterogeneous retrieval and computation operations, allowing evidence to be actively derived rather than merely retrieved. On three held-out benchmarks, RECAST improves over the strongest baseline by 15.0% on average, demonstrating strong zero-shot generalization across tasks and heterogeneous source representations. Large language models are increasingly applied to tasks grounded in long, heterogeneous information sources. Conventional Retrieval-Augmented Generation (RAG) relies on fixed similarity-based retrieval, while agentic variants adapt queries and tool use but remain largely retrieval-centric.",
+    "key_concepts": [
+      "Zero-shot",
+      "Retrieval-augmented Generation",
+      "Accepted Evidence",
+      "Access Synthesized",
+      "Achieves Mean",
+      "Actively Derived"
+    ],
+    "insights": {
+      "problem": "However, in many tasks, the evidence required for a solution is not explicitly present in any single source item.",
+      "approach": "In this work, we introduce RECAST (Routing Evidence through Computation, Access, and Synthesized Tools), a learned framework that formulates evidence construction as a sequential decision process over heterogeneous retrieval and computation operations, allowing evidence to be actively derived rather than merely retrieved.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Retrieval-augmented Generation.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2610.10489",
+    "raw_id": "http://arxiv.org/abs/2610.10489v1",
+    "title": "HuMBLE: Human Motion-Driven Behavior Learning for Embodied Locomotion",
+    "authors": [
+      "Mike Zhang",
+      "Dongho Kang",
+      "Kevin Bergamin",
+      "Nicola Burger",
+      "Robin Deits",
+      "Jonathan Foster",
+      "Bilal Hammoud",
+      "Katie Hughes",
+      "Francesco Iacobelli",
+      "Twan Koolen",
+      "M. Eva Mungai",
+      "Zach Nobles",
+      "Shane Rozen-Levy",
+      "Jean Pierre Sleiman",
+      "Fangzhou Yu",
+      "Yunbo Zhang",
+      "Alfred Rizzi",
+      "Jessica Hodgins",
+      "Scott Kuindersma",
+      "Yeuhi Abe",
+      "Sylvain Bertrand",
+      "Farbod Farshidian"
+    ],
+    "published_date": "2026-10-07T17:45:17Z",
+    "updated_date": "2026-10-07T17:45:17Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "abstract": "Despite recent advances in humanoid locomotion, controllers optimized for command tracking and robustness tend to produce mechanical gaits, whereas controllers tied to human motion data often fail to generalize to commands outside the data distribution. This work introduces a learning framework that balances these competing objectives to synthesize real-time steerable, robust, and biomimetic locomotion policies from human data. Using an in-house curated locomotion dataset covering diverse speeds and directions, we first learn a natural locomotion prior policy through a teacher-student distillation process. Specifically, we train a full-body reference-conditioned policy with Reinforcement Learning (RL), then distill it into a lightweight prior policy conditioned solely on proprioception and a planar torso-velocity steering command. Next, we fine-tune the prior policy with multi-task RL to expand command coverage and robustness beyond the data distribution, pairing a goal-conditioned task that tracks arbitrary commands with a reference-guided task that tracks the human data as an explicit style regularizer. We validate our framework on three humanoid robots: the Boston Dynamics Atlas R1, Atlas D1, and Unitree G1. Experimental results demonstrate robust performance across real-world scenarios, including direct user-controlled locomotion in indoor and outdoor environments, and integration as the locomotion layer within hierarchical control stacks. Benchmarks against Tabula Rasa RL policies trained without human data and ablation studies confirm that our framework yields a lightweight, deployable policy that reconstructs coordinated whole-body behavior from a steering command, retaining the human gait characteristics while remaining robust and fully steerable.",
+    "url": "https://arxiv.org/abs/2610.10489v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.10489v1",
+    "relevance_score": 0.747,
+    "processed_date": "2026-10-08",
+    "summary": "Despite recent advances in humanoid locomotion, controllers optimized for command tracking and robustness tend to produce mechanical gaits, whereas controllers tied to human motion data often fail to generalize to commands outside the data distribution. We validate our framework on three humanoid robots: the Boston Dynamics Atlas R1, Atlas D1, and Unitree G1. Using an in-house curated locomotion dataset covering diverse speeds and directions, we first learn a natural locomotion prior policy through a teacher-student distillation process. Benchmarks against Tabula Rasa RL policies trained without human data and ablation studies confirm that our framework yields a lightweight, deployable policy that reconstructs coordinated whole-body behavior from a steering command, retaining the human gait characteristics while remaining robust and fully steerable.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Behavior Steering",
+      "Prior Policy",
+      "Steering Command",
+      "Train Full-body",
+      "User-controlled Locomotion"
+    ],
+    "insights": {
+      "problem": "Despite recent advances in humanoid locomotion, controllers optimized for command tracking and robustness tend to produce mechanical gaits, whereas controllers tied to human motion data often fail to generalize to commands outside the data distribution.",
+      "approach": "We validate our framework on three humanoid robots: the Boston Dynamics Atlas R1, Atlas D1, and Unitree G1.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Behavior Steering.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2610.10515",
+    "raw_id": "http://arxiv.org/abs/2610.10515v1",
+    "title": "RoboJEPA: Scaling Robotic Latent World Models",
+    "authors": [
+      "Artem Zholus",
+      "Nicolas Beltran-Velez",
+      "Jianhao Yuan",
+      "Sarath Chandar",
+      "Tushar Nagarajan",
+      "Daniel Severo",
+      "Koustuv Sinha",
+      "Michal Drozdzal",
+      "Adriana Romero Soriano",
+      "Jeannette Bohg",
+      "Nicolas Ballas",
+      "Mahmoud Assran"
+    ],
+    "published_date": "2026-10-07T17:54:42Z",
+    "updated_date": "2026-10-07T17:54:42Z",
+    "categories": [
+      "cs.AI",
+      "cs.RO"
+    ],
+    "abstract": "Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data, and compute, an open problem that slows progress in the field. In this work we present RoboJEPA, a world model based on the Joint Embedding Predictive Architecture (JEPA) and trained on a large-scale dataset spanning 12 robotic embodiments. We show that RoboJEPA's imagination error, the error of its latent rollouts, follows a second-order power law in compute, allowing us to predict model quality well beyond the scale at which the law is fit. We further show that downstream robotic planning performance improves predictably with compute, and that imagination error is strongly correlated with it, making it a reliable proxy for real-robot evaluation. Finally, we demonstrate that latent world models can be deployed zero-shot as robotic agents, planning toward a single goal image to solve tasks requiring long-horizon planning on real hardware. We release all model checkpoints together with our training and robot deployment code. To our knowledge, this is the first work to establish scaling laws for multi-embodiment robotic world models trained on real robot data, and RoboJEPA, at 8B parameters, is the largest JEPA predictor model trained to date.",
+    "url": "https://arxiv.org/abs/2610.10515v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.10515v1",
+    "relevance_score": 0.736,
+    "processed_date": "2026-10-08",
+    "summary": "In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data, and compute, an open problem that slows progress in the field. In this work we present RoboJEPA, a world model based on the Joint Embedding Predictive Architecture (JEPA) and trained on a large-scale dataset spanning 12 robotic embodiments. To our knowledge, this is the first work to establish scaling laws for multi-embodiment robotic world models trained on real robot data, and RoboJEPA, at 8B parameters, is the largest JEPA predictor model trained to date. Latent world models have shown a remarkable ability to predict future states and to plan in the real world.",
+    "key_concepts": [
+      "World Model",
+      "Scaling Laws",
+      "Joint Embedding Predictive Architecture",
+      "Zero-shot",
+      "Latent World",
+      "Compute Imagination"
+    ],
+    "insights": {
+      "problem": "In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data, and compute, an open problem that slows progress in the field.",
+      "approach": "In this work we present RoboJEPA, a world model based on the Joint Embedding Predictive Architecture (JEPA) and trained on a large-scale dataset spanning 12 robotic embodiments.",
+      "key_innovation": "Formulates an integrated mechanism leveraging World Model, Scaling Laws.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.10487",
+    "raw_id": "http://arxiv.org/abs/2610.10487v1",
+    "title": "LOCAA: An Agentic System for Automated Lossy Compressor Tuning",
+    "authors": [
+      "Khondoker Mirazul Mumenin",
+      "Dong Dai",
+      "Sheng Di",
+      "Franck Cappello",
+      "Jinzhen Wang"
+    ],
+    "published_date": "2026-10-07T17:44:31Z",
+    "updated_date": "2026-10-07T17:44:31Z",
+    "categories": [
+      "cs.DC"
+    ],
+    "abstract": "Large-scale scientific simulations generate substantial data volumes, making lossy compression essential for reducing storage and data movement costs. However, users configure compressors through numerical error bounds (EBs) while often evaluating results using quality metrics and end-to-end performance. Because the relationship between an EB and these outcomes varies across datasets and compressors, identifying a suitable configuration typically requires exhaustive search, which can be time-consuming and computationally demanding. We present LOCAA, an Large language model-based scientific lossy compression auto-tuning agent that performs compression-in-the-loop search using tool-integrated execution, compressor-aware guidance, and persistent memory. LOCAA supports user-defined objectives and constraints without requiring a specialized search strategy. We evaluate LOCAA across three scientific applications, five compressors, and three use cases: fixed-ratio compression, compression tuning under multiple quality constraints, and compression tuning under quality and time constraints. For fixed-ratio search across twelve fields from two applications, LOCAA requires 1.98x fewer evaluation trials than binary search and 5.03x fewer than FRaZ on average. For compression ratio maximization under joint Peak Signal-to-Noise Ratio (PSNR) and Structural Similarity Index Measure constraints across six fields from the Community Earth System Model application, LOCAA reduces the average evaluation trials from 61.5 using binary search to 17, corresponding to a 72.4% reduction. Persistent memory further reduces the average number of trials by 27.9% across multiple timesteps of the same field. These results demonstrate the potential of tool-augmented LLM agents to provide flexible and efficient compressor tuning across diverse scientific data and user-defined objectives.",
+    "url": "https://arxiv.org/abs/2610.10487v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.10487v1",
+    "relevance_score": 0.736,
+    "processed_date": "2026-10-08",
+    "summary": "However, users configure compressors through numerical error bounds (EBs) while often evaluating results using quality metrics and end-to-end performance. We present LOCAA, an Large language model-based scientific lossy compression auto-tuning agent that performs compression-in-the-loop search using tool-integrated execution, compressor-aware guidance, and persistent memory. Because the relationship between an EB and these outcomes varies across datasets and compressors, identifying a suitable configuration typically requires exhaustive search, which can be time-consuming and computationally demanding. These results demonstrate the potential of tool-augmented LLM agents to provide flexible and efficient compressor tuning across diverse scientific data and user-defined objectives. Large-scale scientific simulations generate substantial data volumes, making lossy compression essential for reducing storage and data movement costs.",
+    "key_concepts": [
+      "Large Language Model",
+      "Binary Search",
+      "Compression Tuning",
+      "Lossy Compression",
+      "Persistent Memory",
+      "Tuning Multiple"
+    ],
+    "insights": {
+      "problem": "However, users configure compressors through numerical error bounds (EBs) while often evaluating results using quality metrics and end-to-end performance.",
+      "approach": "We present LOCAA, an Large language model-based scientific lossy compression auto-tuning agent that performs compression-in-the-loop search using tool-integrated execution, compressor-aware guidance, and persistent memory.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Large Language Model, Binary Search.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Low-power edge AI devices, embedded IoT sensor networks, and distributed on-device inference.",
+      "limitations": "LOCAA supports user-defined objectives and constraints without requiring a specialized search strategy."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.10534",
+    "raw_id": "http://arxiv.org/abs/2610.10534v1",
+    "title": "RoboPrompt: Intuitive Robot Policy Steering with Sparse Human Input",
+    "authors": [
+      "Yanwen Zou",
+      "Chenyang Shi",
+      "Guoxuan Xu",
+      "Wenye Yu",
+      "Wendi Chen",
+      "Ye Pan",
+      "Cewu Lu",
+      "Chuan Wen"
+    ],
+    "published_date": "2026-10-07T17:58:53Z",
+    "updated_date": "2026-10-07T17:58:53Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "abstract": "End-to-end robot policies trained through imitation learning remain constrained by limited data diversity, making reliable zero-shot deployment in real-world settings challenging. Shared-autonomy methods enable human correction through teleoperation, but specialized hardware and operator training hinder deployment at scale. Other approaches incorporate human guidance as additional policy inputs, often requiring architectural changes and dedicated training for steerability, which limits their applicability across policies. We present RoboPrompt, a general-purpose, lightweight robot policy steering system that enables users to guide policy behavior through intuitive, sparse inputs, including drawn traces, target points, and coarse directional instructions. RoboPrompt decouples human-intention translation from the underlying policy: a reusable module converts human guidance into action drafts, which are refined through the diffusion or flow-matching dynamics of the base policy. By controlling action generation in noise space, RoboPrompt balances human intent with the policy prior without modifying the base policy architecture or fine-tuning it for steerability. Experiments demonstrate effective steering across Diffusion Policy, π_{0.5}, and FastWAM. We further use steered rollouts for online policy improvement through DAgger. After 2-3 rounds of iteration, average success rates increase by 15.5\\% for π_{0.5} across three tasks and by 21.3\\% across three policies(Diffusion Policy, π_{0.5}, FastWAM) on the Insert Bread task, while average human intervention counts decrease by 44.0\\% (2.86 to 1.60) and 81.9\\% (2.60 to 0.47), respectively.",
+    "url": "https://arxiv.org/abs/2610.10534v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.10534v1",
+    "relevance_score": 0.73,
+    "processed_date": "2026-10-08",
+    "summary": "Addressing critical demands in Robotics, this research investigates end-to-end robot policies trained through imitation learning remain constrained by limited data diversity, making reliable zero-shot deployment in real-world settings challenging. We present RoboPrompt, a general-purpose, lightweight robot policy steering system that enables users to guide policy behavior through intuitive, sparse inputs, including drawn traces, target points, and coarse directional instructions. Experiments demonstrate effective steering across Diffusion Policy, π_{0.5}, and FastWAM. After 2-3 rounds of iteration, average success rates increase by 15.5\\% for π_{0.5} across three tasks and by 21.3\\% across three policies(Diffusion Policy, π_{0.5}, FastWAM) on the Insert Bread task, while average human intervention counts decrease by 44.0\\% (2.86 to 1.60) and 81.9\\% (2.60 to 0.47), respectively.",
+    "key_concepts": [
+      "Imitation Learning",
+      "Policy Steering",
+      "Diffusion Policy",
+      "Zero-shot Deployment",
+      "Base Policy",
+      "Policy Fastwam"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+      "approach": "We present RoboPrompt, a general-purpose, lightweight robot policy steering system that enables users to guide policy behavior through intuitive, sparse inputs, including drawn traces, target points, and coarse directional instructions.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Imitation Learning, Policy Steering.",
+      "results": "Experiments demonstrate effective steering across Diffusion Policy, π_{0.5}, and FastWAM.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2610.10528",
+    "raw_id": "http://arxiv.org/abs/2610.10528v1",
+    "title": "Long-WAM: Scaling the Context of World-Action Models",
+    "authors": [
+      "Wei Huang",
+      "Bohan Zhang",
+      "Chenzhi Liu",
+      "Isabella Liu",
+      "Shuai Yang",
+      "Weian Mao",
+      "Luozhou Wang",
+      "Yicheng Xiao",
+      "Weifeng Lin",
+      "Qixin Hu",
+      "Bryan Chu",
+      "Sifei Liu",
+      "Linxi Fan",
+      "Xiaojuan Qi",
+      "Song Han",
+      "Yukang Chen"
+    ],
+    "published_date": "2026-10-07T17:58:04Z",
+    "updated_date": "2026-10-07T17:58:04Z",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "abstract": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foundation is pretrained autoregressively (AR). We first learn causal prediction from robot and egocentric videos without action labels, then preserve this history-to-future structure during world-action adaptation. On RoboCasa GR-1, increasing context from 0.0 to 19.2 seconds raises success from 63.3% to 78.7%, whereas a bidirectionally pretrained initialization shows no net gain; robot-domain AR pretraining further raises peak success on GR-1 and LIBERO-Long. Long-WAM also achieves the best results among compared methods on LIBERO-Long, RoboTwin 2.0, and DOMINO. Streaming observation encoding, asynchronous execution, and hardware-specific acceleration enable deployment on RTX 5090, DGX Spark, and Jetson AGX Thor without dropping future prediction; on RTX 5090, each action chunk, including future-video latent prediction, takes 107.4 ms. Real-time deployment on Unitree G1 and YAM supports dynamic and long-horizon manipulation, including 95% success on dynamic cup stacking, where Pi0.5 and Fast-WAM succeed in none of 20 trials. As a memory-informed executor, Long-WAM also complements higher-level planning in composite tasks.",
+    "url": "https://arxiv.org/abs/2610.10528v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.10528v1",
+    "relevance_score": 0.73,
+    "processed_date": "2026-10-08",
+    "summary": "Addressing critical demands in Robotics, this research investigates real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foundation is pretrained autoregressively (AR). As a memory-informed executor, Long-WAM also complements higher-level planning in composite tasks. Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action.",
+    "key_concepts": [
+      "Manipulation",
+      "Acceleration Enable",
+      "Access History",
+      "Achieves Best",
+      "Action Chunk",
+      "Action Labels"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+      "approach": "We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Acceleration Enable.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2610.10498",
+    "raw_id": "http://arxiv.org/abs/2610.10498v1",
+    "title": "EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution",
+    "authors": [
+      "Python Song",
+      "Zhixuan Liang",
+      "Kelsey Fu",
+      "Mengdi Wang",
+      "Junfeng Yang",
+      "Shilong Liu"
+    ],
+    "published_date": "2026-10-07T17:48:02Z",
+    "updated_date": "2026-10-07T17:48:02Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Robot foundation models provide strong visuomotor control, yet their performance can degrade when object positions or task instructions change. Further improvements often require post-training on substantial robot data, which can be costly to collect through methods such as teleoperation. Agentic harnesses can adapt around the model, but current self-evolving harnesses use robot trials inefficiently when deciding which code and skill changes to pursue. We introduce EmbodiedRSI, a self-evolving agentic harness that autonomously decides where to explore next and turns the resulting physical interaction into improved code and skills. EmbodiedRSI realizes this through a Fast-Slow Dual-System Architecture, in which competing code and skill hypotheses are maintained in a Hypothesis Graph. Value-of-Information Experiment Selection chooses physical experiments that can distinguish these hypotheses. Their outcomes guide Code-Skill Co-Evolution. The Slow System builds Hierarchical Memory, and Reward-Grounded Memory Learning selects effective memory according to their value for later Fast-System improvement. On RoboCasa365, EmbodiedRSI reaches 77.0% overall success and 71.3% on Composite-Unseen, compared with 40.1% for the best baseline. EmbodiedRSI also reaches 86.8% overall success on LIBERO-Pro. Beyond benchmark performance, EmbodiedRSI transfers zero-shot to real-world robot, achieving 71.3% overall success across multiple challenging tasks.",
+    "url": "https://arxiv.org/abs/2610.10498v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.10498v1",
+    "relevance_score": 0.73,
+    "processed_date": "2026-10-08",
+    "summary": "Further improvements often require post-training on substantial robot data, which can be costly to collect through methods such as teleoperation. We introduce EmbodiedRSI, a self-evolving agentic harness that autonomously decides where to explore next and turns the resulting physical interaction into improved code and skills. Agentic harnesses can adapt around the model, but current self-evolving harnesses use robot trials inefficiently when deciding which code and skill changes to pursue. Beyond benchmark performance, EmbodiedRSI transfers zero-shot to real-world robot, achieving 71.3% overall success across multiple challenging tasks. Robot foundation models provide strong visuomotor control, yet their performance can degrade when object positions or task instructions change.",
+    "key_concepts": [
+      "Zero-shot",
+      "According Value",
+      "Achieving Overall",
+      "Agentic Harnesses",
+      "Autonomously Decides",
+      "Builds Hierarchical"
+    ],
+    "insights": {
+      "problem": "Further improvements often require post-training on substantial robot data, which can be costly to collect through methods such as teleoperation.",
+      "approach": "We introduce EmbodiedRSI, a self-evolving agentic harness that autonomously decides where to explore next and turns the resulting physical interaction into improved code and skills.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, According Value.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2610.10472",
+    "raw_id": "http://arxiv.org/abs/2610.10472v1",
+    "title": "Robotic Boomerang Throwing via Model-Based Release Design",
+    "authors": [
+      "Yang Liu",
+      "Colin Jones",
+      "Aude Billard"
+    ],
+    "published_date": "2026-10-07T17:34:36Z",
+    "updated_date": "2026-10-07T17:34:36Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "abstract": "Throwing objects that generate aerodynamic lift can greatly extend robot throwing beyond ballistic flight. A returning boomerang is a challenging example because its flight depends strongly on the release velocity, attitude, and spin, while robotic manipulators cannot readily reproduce the rapid motions used in human throwing. We present a model-based framework for robotic boomerang throwing centered on the release state. We identify the boomerang flight dynamics in stages to predict how flight changes across design variations. To systematically design the robot throwing motion, we screen candidate parameters according to how strongly and consistently they control release spin under uncertain contact conditions. These models are then used to design the throwing motion and boomerang for a 6-DoF manipulator with limited joint speeds. To our knowledge, this is the first robotic manipulator to generate a returning boomerang flight. In the demonstrated returning trial, the boomerang is released at 51 rad/s (8.1 rev/s), reaches 2.03 m from the robot base, and returns to touch down 0.31 m from the base. The successful release differs significantly from the measured human throws, showing that a robot need not imitate human throwing motion to achieve a returning flight. The project page is available at https://robot-boomerang.github.io",
+    "url": "https://arxiv.org/abs/2610.10472v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.10472v1",
+    "relevance_score": 0.701,
+    "processed_date": "2026-10-08",
+    "summary": "Addressing critical demands in Robotics, this research investigates throwing objects that generate aerodynamic lift can greatly extend robot throwing beyond ballistic flight. We present a model-based framework for robotic boomerang throwing centered on the release state. The project page is available at https://robot-boomerang.github.io Throwing objects that generate aerodynamic lift can greatly extend robot throwing beyond ballistic flight. A returning boomerang is a challenging example because its flight depends strongly on the release velocity, attitude, and spin, while robotic manipulators cannot readily reproduce the rapid motions used in human throwing. We identify the boomerang flight dynamics in stages to predict how flight changes across design variations.",
+    "key_concepts": [
+      "According Strongly",
+      "Achieve Returning",
+      "Aerodynamic Lift",
+      "Attitude Spin",
+      "Available Https",
+      "Ballistic Flight"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+      "approach": "We present a model-based framework for robotic boomerang throwing centered on the release state.",
+      "key_innovation": "Formulates an integrated mechanism leveraging According Strongly, Achieve Returning.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
   }
 ]
