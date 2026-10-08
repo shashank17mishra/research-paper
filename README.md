@@ -12,7 +12,7 @@
 
 ## Latest Report
 
-📅 **[08 October 2026 Report](reports/2026/10/08/report.md)** — *0 new breakthrough papers analyzed today.*
+📅 **[08 October 2026 Report](reports/2026/10/08/report.md)** — *3 new breakthrough papers analyzed today.*
 
 [Read Full Report →](reports/2026/10/08/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
@@ -24,11 +24,11 @@
 
 | Metric | Count |
 | :--- | :---: |
-| **Papers Analyzed Today** | `0` |
-| **Artificial Intelligence (AI)** | `0` |
-| **Machine Learning (ML)** | `0` |
-| **Robotics** | `0` |
-| **IoT & Edge AI** | `0` |
+| **Papers Analyzed Today** | `3` |
+| **Artificial Intelligence (AI)** | `2` |
+| **Machine Learning (ML)** | `2` |
+| **Robotics** | `2` |
+| **IoT & Edge AI** | `1` |
 
 ---
 
@@ -45,7 +45,7 @@
 ## Project Statistics
 
 - **Total Papers Analyzed**: `3`
-- **Total Operational Runs**: `2 days`
+- **Total Operational Runs**: `7 days`
 - **Categories Tracked**: `5 categories`
 - **Primary Focus Areas**: Robotics, IoT & Edge AI, Artificial Intelligence
 
@@ -107,20 +107,20 @@ daily-tech-intelligence/
 │   ├── seed_demo_data.py
 │   └── test_pipeline.py
 ├── src/
+│   ├── infographic/
+│   │   ├── __init__.py
+│   │   ├── charts.py
+│   │   ├── illustrations.py
+│   │   ├── layout.py
+│   │   ├── palette.py
+│   │   ├── renderer.py
+│   │   └── typography.py
 │   ├── __init__.py
 │   ├── analyzer.py
 │   ├── archive.py
 │   ├── concepts.py
 │   ├── config.py
 │   ├── fetcher.py
-│   ├── filter.py
-│   ├── infographic.py
-│   ├── main.py
-│   ├── readme.py
-│   ├── scorer.py
-│   ├── summarizer.py
-│   └── utils.py
-├── tests/
 ```
 
 ---
