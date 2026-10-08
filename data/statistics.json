@@ -1,6 +1,6 @@
 {
   "total_papers": 18,
-  "total_runs": 13,
+  "total_runs": 14,
   "last_run_date": "2026-10-08",
   "categories_breakdown": {
     "cs.RO": 11,
@@ -19,6 +19,6 @@
     "IoT & Edge AI": 1
   },
   "daily_counts": {
-    "2026-10-08": 48
+    "2026-10-08": 51
   }
 }

@@ -12,7 +12,7 @@
 
 ## Latest Report
 
-📅 **[08 October 2026 Report](reports/2026/10/08/report.md)** — *5 new breakthrough papers analyzed today.*
+📅 **[08 October 2026 Report](reports/2026/10/08/report.md)** — *3 new breakthrough papers analyzed today.*
 
 [Read Full Report →](reports/2026/10/08/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
@@ -24,11 +24,11 @@
 
 | Metric | Count |
 | :--- | :---: |
-| **Papers Analyzed Today** | `5` |
-| **Artificial Intelligence (AI)** | `3` |
-| **Machine Learning (ML)** | `4` |
+| **Papers Analyzed Today** | `3` |
+| **Artificial Intelligence (AI)** | `2` |
+| **Machine Learning (ML)** | `2` |
 | **Robotics** | `2` |
-| **IoT & Edge AI** | `0` |
+| **IoT & Edge AI** | `1` |
 
 ---
 
@@ -47,7 +47,7 @@
 ## Project Statistics
 
 - **Total Papers Analyzed**: `18`
-- **Total Operational Runs**: `13 days`
+- **Total Operational Runs**: `14 days`
 - **Categories Tracked**: `8 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, IoT & Edge AI
 

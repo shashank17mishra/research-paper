@@ -205,31 +205,42 @@ def render_template_spotlight(data: Dict[str, Any], output_path: Path) -> bool:
             )
 
             # Right Column: Score Gauge & Why It Matters Box
-            r_col_x = 0.720
+            r_col_x = 0.710
+            score_box_w = 0.210
+            score_box_h = 0.042
+
             # Score Gauge Pill
             score_box = FancyBboxPatch(
-                (r_col_x, ry - 0.055), 0.180, 0.038,
+                (r_col_x, ry - 0.057), score_box_w, score_box_h,
                 boxstyle="round,pad=0.002,rounding_size=0.006",
                 facecolor="#F4EFE6", edgecolor=SPOT_BORDER, linewidth=1.0, zorder=3
             )
             ax.add_patch(score_box)
 
+            # Two-line stacked label on the left (prevents any text collision)
             ax.text(
-                r_col_x + 0.018, ry - 0.036, "RELEVANCE SCORE",
-                fontproperties=get_sans_prop(6.5, weight="bold"),
+                r_col_x + 0.016, ry - 0.029, "RELEVANCE",
+                fontproperties=get_sans_prop(6.2, weight="bold"),
                 color=SPOT_INK_MUTED, va="center", zorder=4
             )
             ax.text(
-                r_col_x + 0.160, ry - 0.036, f"{score:.2f}",
+                r_col_x + 0.016, ry - 0.044, "SCORE",
+                fontproperties=get_sans_prop(6.2, weight="bold"),
+                color=SPOT_INK_MUTED, va="center", zorder=4
+            )
+
+            # High-contrast bold score value on the right
+            ax.text(
+                r_col_x + score_box_w - 0.016, ry - 0.036, f"{score:.2f}",
                 fontproperties=get_serif_prop(14, weight="bold"),
                 color=SPOT_INK, ha="right", va="center", zorder=4
             )
 
             # "Why it matters" callout
             why_text = synthesize_why_it_matters(insights, primary_topic)
-            why_wrap = wrap_text_lines(f"Why it matters: {why_text}", max_chars=28, max_lines=3)
+            why_wrap = wrap_text_lines(f"Why it matters: {why_text}", max_chars=32, max_lines=3)
             ax.text(
-                r_col_x, ry - 0.075, why_wrap,
+                r_col_x, ry - 0.076, why_wrap,
                 fontproperties=get_serif_prop(8, style="italic"),
                 color=INK_SECONDARY, va="top", linespacing=1.25, zorder=4
             )
