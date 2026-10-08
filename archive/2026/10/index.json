@@ -1,6 +1,6 @@
 {
   "month": "2026-10",
-  "total_papers": 13,
+  "total_papers": 18,
   "papers": [
     {
       "arxiv_id": "2403.01234",
@@ -590,6 +590,205 @@
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.10421",
+      "raw_id": "http://arxiv.org/abs/2610.10421v1",
+      "title": "AirGroundVLN: A Large-Scale Benchmark for Goal-Oriented Air-Ground Collaborative Vision-and-Language Navigation",
+      "authors": [
+        "Zhenxuan Zeng",
+        "Qingle Wu",
+        "Wei Suo",
+        "Maojia Wu",
+        "Bairong Zhang",
+        "Hangzheng Yu",
+        "Peng Wang"
+      ],
+      "published_date": "2026-10-07T17:01:20Z",
+      "updated_date": "2026-10-07T17:01:20Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Goal-oriented Vision-and-Language Navigation (VLN) requires agents to locate and reach targets described in natural language without prescribed routes. Air--ground collaboration is valuable for tasks requiring both wide-area search and fine-grained localization. However, systematic study of goal-oriented air--ground collaborative VLN remains limited by the lack of large-scale, diverse benchmarks and two core challenges: 1) substantial differences between aerial and ground views, together with useful observations becoming unavailable as navigation proceeds, make it difficult to maintain spatially consistent context across platforms and over time; and 2) asymmetric spatial observability makes ground perception locally detailed but spatially limited and aerial perception broad but locally coarse, limiting the reliability of single-platform planning. To address these limitations, we introduce AirGroundVLN, a benchmark containing 10,281 navigation episodes and 955 target instances across 19 Unreal Engine environments, with seen/unseen splits and an aerial-visibility protocol for systematic evaluation. Alongside the benchmark, we propose AG-CoNAV, a trainable reference framework comprising two key components: Spatiotemporally Anchored Collaborative Memory (SACM) and Aerial-Guided Regional-to-Local Planning (AGRLP). SACM maintains and retrieves spatially consistent historical context across aerial and ground observations. Meanwhile, AGRLP combines regional aerial guidance with fine-grained ground navigation. Extensive experiments demonstrate the effectiveness of AG-CoNAV and establish AirGroundVLN as a comprehensive benchmark for future exploration.",
+      "url": "https://arxiv.org/abs/2610.10421v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10421v1",
+      "relevance_score": 0.701,
+      "processed_date": "2026-10-08",
+      "summary": "However, systematic study of goal-oriented air--ground collaborative VLN remains limited by the lack of large-scale, diverse benchmarks and two core challenges: 1) substantial differences between aerial and ground views, together with useful observations becoming unavailable as navigation proceeds, make it difficult to maintain spatially consistent context across platforms and over time; and 2) asymmetric spatial observability makes ground perception locally detailed but spatially limited and aerial perception broad but locally coarse, limiting the reliability of single-platform planning. To address these limitations, we introduce AirGroundVLN, a benchmark containing 10,281 navigation episodes and 955 target instances across 19 Unreal Engine environments, with seen/unseen splits and an aerial-visibility protocol for systematic evaluation. Extensive experiments demonstrate the effectiveness of AG-CoNAV and establish AirGroundVLN as a comprehensive benchmark for future exploration.",
+      "key_concepts": [
+        "Vision-and-language Navigation",
+        "Aerial Ground",
+        "Aerial-guided Regional-to-local",
+        "Aerial-visibility Protocol",
+        "Ag-conav Establish",
+        "Ag-conav Trainable"
+      ],
+      "insights": {
+        "problem": "However, systematic study of goal-oriented air--ground collaborative VLN remains limited by the lack of large-scale, diverse benchmarks and two core challenges: 1) substantial differences between aerial and ground views, together with useful observations becoming unavailable as navigation proceeds, make it difficult to maintain spatially consistent context across platforms and over time; and 2) asymmetric spatial observability makes ground perception locally detailed but spatially limited and aerial perception broad but locally coarse, limiting the reliability of single-platform planning.",
+        "approach": "To address these limitations, we introduce AirGroundVLN, a benchmark containing 10,281 navigation episodes and 955 target instances across 19 Unreal Engine environments, with seen/unseen splits and an aerial-visibility protocol for systematic evaluation.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Vision-and-language Navigation, Aerial Ground.",
+        "results": "Extensive experiments demonstrate the effectiveness of AG-CoNAV and establish AirGroundVLN as a comprehensive benchmark for future exploration.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "To address these limitations, we introduce AirGroundVLN, a benchmark containing 10,281 navigation episodes and 955 target instances across 19 Unreal Engine environments, with seen/unseen splits and an aerial-visibility protocol for systematic evaluation."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.10536",
+      "raw_id": "http://arxiv.org/abs/2610.10536v1",
+      "title": "Decoupling Exploration from Optimization in RLVR",
+      "authors": [
+        "Saif Punjwani",
+        "Micah Goldblum"
+      ],
+      "published_date": "2026-10-07T17:59:26Z",
+      "updated_date": "2026-10-07T17:59:26Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Modern language models undergo reinforcement learning with verifiable rewards (RLVR) on top of already-trained checkpoints. A key promise of RLVR is the discovery of new reasoning strategies. In principle, a model can sample novel ideas absent from its prior training data. In practice, however, augmenting RLVR with strong novelty incentives has seen limited success and can degrade model quality. Because verifiable rewards supervise only a narrow slice of the model's knowledge and behavior, such degradations are difficult to recover from. Instead, we decouple exploration from optimization in a framework we call Exploration-Distillation (ExpDis). We train one or more explorer policies with a novelty bonus in the reward, filter their trajectories for correctness and quality, and distill them into a separate student policy. The student policy is then trained without a novelty bonus. We repeat the above procedure for several rounds, alternating between exploration and optimization. This decoupling allows us to aggressively scale exploration without degrading the student policy. Across seven mathematical reasoning benchmarks and two model families, ExpDis outperforms DAPO at the same wall-clock budget. Moreover, we observe improved pass@k scaling, indicating that ExpDis produces models that generate more diverse correct solutions.",
+      "url": "https://arxiv.org/abs/2610.10536v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10536v1",
+      "relevance_score": 0.696,
+      "processed_date": "2026-10-08",
+      "summary": "In practice, however, augmenting RLVR with strong novelty incentives has seen limited success and can degrade model quality. A key promise of RLVR is the discovery of new reasoning strategies. In principle, a model can sample novel ideas absent from its prior training data. Across seven mathematical reasoning benchmarks and two model families, ExpDis outperforms DAPO at the same wall-clock budget. Moreover, we observe improved pass@k scaling, indicating that ExpDis produces models that generate more diverse correct solutions. Modern language models undergo reinforcement learning with verifiable rewards (RLVR) on top of already-trained checkpoints. Because verifiable rewards supervise only a narrow slice of the model's knowledge and behavior, such degradations are difficult to recover from.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Absent Prior",
+        "Alternating Exploration",
+        "Augmenting Rlvr",
+        "Behavior Degradations",
+        "Bonus Repeat"
+      ],
+      "insights": {
+        "problem": "In practice, however, augmenting RLVR with strong novelty incentives has seen limited success and can degrade model quality.",
+        "approach": "A key promise of RLVR is the discovery of new reasoning strategies.",
+        "key_innovation": "In principle, a model can sample novel ideas absent from its prior training data.",
+        "results": "Across seven mathematical reasoning benchmarks and two model families, ExpDis outperforms DAPO at the same wall-clock budget.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.10447",
+      "raw_id": "http://arxiv.org/abs/2610.10447v1",
+      "title": "A Good Self-Teacher Meets the Student Where They Are: Joint On-Policy Learning and Teaching",
+      "authors": [
+        "Randy Ardywibowo",
+        "Arnav Dalal",
+        "Jiantao Jiao"
+      ],
+      "published_date": "2026-10-07T17:19:19Z",
+      "updated_date": "2026-10-07T17:19:19Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Reinforcement Learning (RL) from outcome rewards suffers from sparse supervision, particularly on difficult, long-horizon tasks where successful trajectories are rare and costly to generate. On-Policy Distillation (OPD) offers an attractive alternative by providing dense token-level supervision from a stronger teacher along the student's own generations. Self-distillation methods further remove the need for a separate teacher model by conditioning the same policy on privileged information to serve as its own teacher. However, privileged conditioning alone does not guarantee that the resulting distillation update improves the student. Indeed, privileged information can lead the teacher to solve tasks through shortcuts unavailable to the student, producing supervision poorly matched to the student's current behavior. Consequently, even a higher-performing teacher can provide guidance that degrades student performance. To address this, we analyze how the choice of privileged teacher affects the student's update. We derive a necessary and sufficient condition for the teacher's local distillation update to be a positive multiple of the student's reward gradient. Our analysis suggests that the teacher should not only perform well on the task, but also provide guidance suited to the student's current capabilities. This characterization motivates a practical teacher-training surrogate that combines outcome rewards with token-level Kullback-Leibler (KL) regularization toward the student. Based on this result, we propose Joint On-Policy Learning and Teaching (JOLT), which jointly trains a single policy in two roles: a privileged teacher using a KL-regularized objective, and an unprivileged student using dense on-policy distillation. Across mathematical reasoning, coding, tool use, and terminal use, JOLT improves training efficiency and performance, with further gains from student rewards.",
+      "url": "https://arxiv.org/abs/2610.10447v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10447v1",
+      "relevance_score": 0.696,
+      "processed_date": "2026-10-08",
+      "summary": "Reinforcement Learning (RL) from outcome rewards suffers from sparse supervision, particularly on difficult, long-horizon tasks where successful trajectories are rare and costly to generate. To address this, we analyze how the choice of privileged teacher affects the student's update. Self-distillation methods further remove the need for a separate teacher model by conditioning the same policy on privileged information to serve as its own teacher. Across mathematical reasoning, coding, tool use, and terminal use, JOLT improves training efficiency and performance, with further gains from student rewards. On-Policy Distillation (OPD) offers an attractive alternative by providing dense token-level supervision from a stronger teacher along the student's own generations.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Behavior Consequently",
+        "Distillation Update",
+        "On-policy Distillation",
+        "Outcome Rewards",
+        "Privileged Information"
+      ],
+      "insights": {
+        "problem": "Reinforcement Learning (RL) from outcome rewards suffers from sparse supervision, particularly on difficult, long-horizon tasks where successful trajectories are rare and costly to generate.",
+        "approach": "To address this, we analyze how the choice of privileged teacher affects the student's update.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Behavior Consequently.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.10407",
+      "raw_id": "http://arxiv.org/abs/2610.10407v1",
+      "title": "SOTA: Stock Options Trading Agents Guided by Option-Implied Return Distributions",
+      "authors": [
+        "Yizhen Xie",
+        "Mengyang Liu"
+      ],
+      "published_date": "2026-10-07T16:55:05Z",
+      "updated_date": "2026-10-07T16:55:05Z",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "q-fin.PM",
+        "q-fin.TR"
+      ],
+      "abstract": "As option markets grow and AI advances, agentic systems for option trading are gaining increasing attention. Language-model-based agents can reason over contextual information such as news, but option trading presents a particularly challenging decision problem: a single stock can have thousands of contracts, and the agent must decide both which contracts to trade and how to combine them. Existing approaches often sidestep this complexity by restricting the policy to a fixed strategy structure, such as a straddle, limiting their ability to switch strategies as market conditions change. We present SOTA (Stock Options Trading Agents), an agentic trading framework for structured option-strategy selection. SOTA abstracts the large option universe into strategy-level decisions while deterministic resolvers handle portfolio implementation. We develop SOTA by post-training Qwen3.8-27B with supervised fine-tuning followed by reinforcement learning. SOTA is evaluated on options on nine large-cap U.S. equities and SPY against rule-based and machine-learning strategy selectors in the same trading environment. Over a six-month out-of-sample period, SOTA earns an 18.3% total return with a Sharpe ratio of 1.60 and a maximum drawdown of 8.96%. We also document an asymmetric role of news: news improves frontier-teacher trajectories, but retaining news during reinforcement learning reduces out-of-sample return from 18.3% to -2.7%.",
+      "url": "https://arxiv.org/abs/2610.10407v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10407v1",
+      "relevance_score": 0.696,
+      "processed_date": "2026-10-08",
+      "summary": "Language-model-based agents can reason over contextual information such as news, but option trading presents a particularly challenging decision problem: a single stock can have thousands of contracts, and the agent must decide both which contracts to trade and how to combine them. We present SOTA (Stock Options Trading Agents), an agentic trading framework for structured option-strategy selection. We present SOTA (Stock Options Trading Agents), an agentic trading framework for structured option-strategy selection. We also document an asymmetric role of news: news improves frontier-teacher trajectories, but retaining news during reinforcement learning reduces out-of-sample return from 18.3% to -2.7%. As option markets grow and AI advances, agentic systems for option trading are gaining increasing attention.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Abstracts Large",
+        "Advances Agentic",
+        "Agent Decide",
+        "Agentic Trading",
+        "Approaches Sidestep"
+      ],
+      "insights": {
+        "problem": "Language-model-based agents can reason over contextual information such as news, but option trading presents a particularly challenging decision problem: a single stock can have thousands of contracts, and the agent must decide both which contracts to trade and how to combine them.",
+        "approach": "We present SOTA (Stock Options Trading Agents), an agentic trading framework for structured option-strategy selection.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Abstracts Large.",
+        "results": "We present SOTA (Stock Options Trading Agents), an agentic trading framework for structured option-strategy selection.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.10526",
+      "raw_id": "http://arxiv.org/abs/2610.10526v1",
+      "title": "Rephrase Before You Act: Characterizing and Mitigating Language Sensitivity in Vision-Language-Action Models",
+      "authors": [
+        "Mikey Watts",
+        "Yuchen Cui"
+      ],
+      "published_date": "2026-10-07T17:57:38Z",
+      "updated_date": "2026-10-07T17:57:38Z",
+      "categories": [
+        "cs.RO",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Vision-language-action models (VLAs) are strikingly sensitive to instruction phrasing and do not inherit the language robustness of the vision-language models they are built on. A one-word edit can move success by tens of points: π_{0.5} turns on a LIBERO stove 100% of the time for \"switch on the stove\" and 2% for \"switch on the hot plate\", and a π_0 checkpoint finetuned with rephrase augmentation still shows swings of up to 61 points. We characterize this sensitivity with statistically tested single-edit swings and an oracle phrase search, which shows that phrasing alone nearly closes the 21-point gap between in-distribution and out-of-distribution tasks. We then reduce it without modifying the policy. Because the sensitivity is systematic, it can be expressed as explicit rules: we score many phrasings of a few training tasks, have a large language model distill the evidence into ten to twenty rephrasing rules, and at deployment rewrite each incoming instruction once under these rules. The rules improve the frozen π_0 by 16 to 27% relative on twelve held-out tasks across adversarial, VLM-generated, and human-generated phrasings, with gains concentrated on out-of-distribution tasks. The pipeline replicates on π_{0.5} and LIBERO, lifting in-finetune success from 93.6% to 97.8%. The method requires no retraining and no per-step verification, and applies zero-shot to unseen tasks and instructions. Project website: https://sttawm.github.io/rephrase-before-you-act",
+      "url": "https://arxiv.org/abs/2610.10526v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.10526v1",
+      "relevance_score": 0.687,
+      "processed_date": "2026-10-08",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates vision-language-action models (vlas) are strikingly sensitive to instruction phrasing and do not inherit the language robustness of the vision-language models they are built on. A one-word edit can move success by tens of points: π_{0.5} turns on a LIBERO stove 100% of the time for \"switch on the stove\" and 2% for \"switch on the hot plate\", and a π_0 checkpoint finetuned with rephrase augmentation still shows swings of up to 61 points. A one-word edit can move success by tens of points: π_{0.5} turns on a LIBERO stove 100% of the time for \"switch on the stove\" and 2% for \"switch on the hot plate\", and a π_0 checkpoint finetuned with rephrase augmentation still shows swings of up to 61 points. Project website: https://sttawm.github.io/rephrase-before-you-act",
+      "key_concepts": [
+        "Zero-shot",
+        "Large Language Model",
+        "Adversarial Vlm-generated",
+        "Augmentation Shows",
+        "Built One-word",
+        "Characterize Sensitivity"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "A one-word edit can move success by tens of points: π_{0.5} turns on a LIBERO stove 100% of the time for \"switch on the stove\" and 2% for \"switch on the hot plate\", and a π_0 checkpoint finetuned with rephrase augmentation still shows swings of up to 61 points.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Large Language Model.",
+        "results": "A one-word edit can move success by tens of points: π_{0.5} turns on a LIBERO stove 100% of the time for \"switch on the stove\" and 2% for \"switch on the hot plate\", and a π_0 checkpoint finetuned with rephrase augmentation still shows swings of up to 61 points.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
     }
   ]
 }

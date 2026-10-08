@@ -12,7 +12,7 @@
 
 ## Latest Report
 
-📅 **[08 October 2026 Report](reports/2026/10/08/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[08 October 2026 Report](reports/2026/10/08/report.md)** — *5 new breakthrough papers analyzed today.*
 
 [Read Full Report →](reports/2026/10/08/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
@@ -24,11 +24,11 @@
 
 | Metric | Count |
 | :--- | :---: |
-| **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `5` |
-| **Machine Learning (ML)** | `2` |
-| **Robotics** | `8` |
-| **IoT & Edge AI** | `1` |
+| **Papers Analyzed Today** | `5` |
+| **Artificial Intelligence (AI)** | `3` |
+| **Machine Learning (ML)** | `4` |
+| **Robotics** | `2` |
+| **IoT & Edge AI** | `0` |
 
 ---
 
@@ -36,20 +36,20 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Robotic Boomerang Throwing via Model-Based Release Design** | `Robotics` | `0.70` | [arXiv](https://arxiv.org/abs/2610.10472v1) |
-| 2 | **EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided C...** | `Robotics` | `0.73` | [arXiv](https://arxiv.org/abs/2610.10498v1) |
-| 3 | **Long-WAM: Scaling the Context of World-Action Models** | `Robotics` | `0.73` | [arXiv](https://arxiv.org/abs/2610.10528v1) |
-| 4 | **RoboPrompt: Intuitive Robot Policy Steering with Sparse Human Input** | `Robotics` | `0.73` | [arXiv](https://arxiv.org/abs/2610.10534v1) |
-| 5 | **LOCAA: An Agentic System for Automated Lossy Compressor Tuning** | `Artificial Intelligence` | `0.74` | [arXiv](https://arxiv.org/abs/2610.10487v1) |
+| 1 | **Rephrase Before You Act: Characterizing and Mitigating Language Sensitiv...** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2610.10526v1) |
+| 2 | **SOTA: Stock Options Trading Agents Guided by Option-Implied Return Distr...** | `Machine Learning` | `0.70` | [arXiv](https://arxiv.org/abs/2610.10407v1) |
+| 3 | **A Good Self-Teacher Meets the Student Where They Are: Joint On-Policy Le...** | `Machine Learning` | `0.70` | [arXiv](https://arxiv.org/abs/2610.10447v1) |
+| 4 | **Decoupling Exploration from Optimization in RLVR** | `Artificial Intelligence` | `0.70` | [arXiv](https://arxiv.org/abs/2610.10536v1) |
+| 5 | **AirGroundVLN: A Large-Scale Benchmark for Goal-Oriented Air-Ground Colla...** | `Robotics` | `0.70` | [arXiv](https://arxiv.org/abs/2610.10421v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `13`
-- **Total Operational Runs**: `12 days`
-- **Categories Tracked**: `5 categories`
-- **Primary Focus Areas**: Robotics, Artificial Intelligence, IoT & Edge AI, Machine Learning
+- **Total Papers Analyzed**: `18`
+- **Total Operational Runs**: `13 days`
+- **Categories Tracked**: `8 categories`
+- **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, IoT & Edge AI
 
 ---
 
