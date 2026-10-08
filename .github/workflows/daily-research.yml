@@ -71,8 +71,8 @@ jobs:
       - name: Check for Changes and Commit
         if: ${{ inputs.dry_run != true }}
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action [Daily Tech Intel]"
+          git config --local user.email "shashank17oct2003@gmail.com"
+          git config --local user.name "shashank mishra"
           
           # Stage updated datasets, reports, archives, and README
           git add data/ archive/ reports/ site/ README.md
