@@ -1,8 +1,9 @@
 """
-Editorial Infographic Design System
-====================================
+Infographic Design System
+=========================
 Modular infographic package providing print-grade editorial layouts,
-ink scientific illustrations, typography, and palette utilities.
+modern studio layouts, and spotlight broadside templates with data-driven
+graphs, charts, and authentic illustration assets.
 """
 
 from src.infographic.palette import (
@@ -17,16 +18,18 @@ from src.infographic.palette import (
     get_category_color,
 )
 from src.infographic.renderer import (
+    TEMPLATES,
     derive_daily_insight,
     generate_daily_infographic,
-    render_editorial_infographic,
+    render_infographic,
 )
-from src.infographic.layout import compute_editorial_layout
+from src.infographic.template_editorial import render_template_editorial as render_editorial_infographic
 
 __all__ = [
     "generate_daily_infographic",
+    "render_infographic",
     "render_editorial_infographic",
-    "compute_editorial_layout",
+    "TEMPLATES",
     "derive_daily_insight",
     "PAPER_BG",
     "PAPER_BORDER",

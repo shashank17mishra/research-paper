@@ -238,18 +238,42 @@ function toggleInsights(panelId) {
   }
 }
 
+let currentTemplate = 'modern';
+
+window.switchInfographicTemplate = function(tmpl) {
+  currentTemplate = tmpl;
+  ['modern', 'editorial', 'spotlight'].forEach(t => {
+    const btn = document.getElementById(`btn-tmpl-${t}`);
+    if (btn) {
+      if (t === tmpl) {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+    }
+  });
+  renderLatestInfographic();
+};
+
 function renderLatestInfographic() {
   const infoImg = document.getElementById('daily-infographic-img');
   if (!infoImg) return;
   if (appStats.last_run_date) {
     const [y, m, d] = appStats.last_run_date.split('-');
+    const filename = currentTemplate === 'editorial' ? 'infographic_editorial.png' :
+                     currentTemplate === 'spotlight' ? 'infographic_spotlight.png' :
+                     'infographic_modern.png';
     // Try site-local reports path first, fallback to parent relative path
-    infoImg.src = `reports/${y}/${m}/${d}/infographic.png`;
+    infoImg.src = `reports/${y}/${m}/${d}/${filename}`;
     infoImg.onerror = () => {
-      infoImg.src = `../reports/${y}/${m}/${d}/infographic.png`;
+      infoImg.src = `../reports/${y}/${m}/${d}/${filename}`;
       infoImg.onerror = () => {
-        const wrap = document.getElementById('infographic-container');
-        if (wrap) wrap.style.display = 'none';
+        // Fallback to primary infographic
+        infoImg.src = `reports/${y}/${m}/${d}/infographic.png`;
+        infoImg.onerror = () => {
+          const wrap = document.getElementById('infographic-container');
+          if (wrap) wrap.style.display = 'none';
+        };
       };
     };
   }

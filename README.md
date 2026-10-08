@@ -45,7 +45,7 @@
 ## Project Statistics
 
 - **Total Papers Analyzed**: `3`
-- **Total Operational Runs**: `7 days`
+- **Total Operational Runs**: `10 days`
 - **Categories Tracked**: `5 categories`
 - **Primary Focus Areas**: Robotics, IoT & Edge AI, Artificial Intelligence
 
@@ -94,6 +94,26 @@ daily-tech-intelligence/
 │   ├── 2026/
 │   │   └── 10/
 │   └── index.json
+├── assets/
+│   └── illustrations/
+│       ├── ed_book_stack.png
+│       ├── ed_chip.png
+│       ├── ed_quadruped.png
+│       ├── ed_warehouse.png
+│       ├── mod_chip.png
+│       ├── mod_header_laptop.png
+│       ├── mod_quadruped.png
+│       ├── mod_warehouse.png
+│       ├── researcher_laptop.png
+│       ├── vignette_01_search.png
+│       ├── vignette_02_notes.png
+│       ├── vignette_03_code.png
+│       ├── vignette_04_rain.png
+│       ├── vignette_05_read.png
+│       ├── vignette_06_coffee.png
+│       ├── vignette_07_dog.png
+│       ├── vignette_08_plant.png
+│       └── walking_figure.png
 ├── config/
 │   ├── config.yaml
 │   └── topics.yaml
@@ -101,26 +121,6 @@ daily-tech-intelligence/
 │   ├── papers.json
 │   └── statistics.json
 ├── reports/
-│   └── 2026/
-│       └── 10/
-├── scripts/
-│   ├── seed_demo_data.py
-│   └── test_pipeline.py
-├── src/
-│   ├── infographic/
-│   │   ├── __init__.py
-│   │   ├── charts.py
-│   │   ├── illustrations.py
-│   │   ├── layout.py
-│   │   ├── palette.py
-│   │   ├── renderer.py
-│   │   └── typography.py
-│   ├── __init__.py
-│   ├── analyzer.py
-│   ├── archive.py
-│   ├── concepts.py
-│   ├── config.py
-│   ├── fetcher.py
 ```
 
 ---
