@@ -64,6 +64,24 @@ def generate_repo_tree_repr(root_dir: Path) -> str:
         )
 
 
+def get_github_repo_slug(default: str = "shashank17mishra/research-paper") -> str:
+    """Detects GitHub repository owner/name from git remote origin or returns default."""
+    try:
+        import subprocess
+        out = subprocess.check_output(
+            ["git", "config", "--get", "remote.origin.url"],
+            text=True,
+            stderr=subprocess.DEVNULL
+        ).strip()
+        if "github.com" in out:
+            cleaned = out.split("github.com")[-1].lstrip("/:").rstrip(".git")
+            if cleaned:
+                return cleaned
+    except Exception:
+        pass
+    return default
+
+
 def build_readme_content(
     today_papers: List[Paper],
     all_papers: List[Dict[str, Any]],
@@ -96,6 +114,7 @@ def build_readme_content(
     latest_five = list(reversed(latest_five))
 
     repo_tree_text = generate_repo_tree_repr(repo_root)
+    repo_slug = get_github_repo_slug()
 
     lines = [
         "# Daily Tech Intelligence",
@@ -103,7 +122,7 @@ def build_readme_content(
         "> **Autonomous Technical Research Intelligence System**  ",
         "> Researches, analyzes, synthesizes, visualizes, and publishes state-of-the-art AI, ML, Robotics, and IoT papers every day at **₹0/month cost**.",
         "",
-        "[![Daily Research Workflow](https://github.com/daily-tech-intelligence/daily-tech-intelligence/actions/workflows/daily-research.yml/badge.svg)](https://github.com/daily-tech-intelligence/daily-tech-intelligence/actions/workflows/daily-research.yml)",
+        f"[![Daily Research Workflow](https://github.com/{repo_slug}/actions/workflows/daily-research.yml/badge.svg)](https://github.com/{repo_slug}/actions/workflows/daily-research.yml)",
         "![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)",
         "![Cost: ₹0/month](https://img.shields.io/badge/Cost-%E2%82%B90%2Fmonth-brightgreen.svg)",
         "![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)",

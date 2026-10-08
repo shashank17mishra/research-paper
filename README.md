@@ -3,7 +3,7 @@
 > **Autonomous Technical Research Intelligence System**  
 > Researches, analyzes, synthesizes, visualizes, and publishes state-of-the-art AI, ML, Robotics, and IoT papers every day at **₹0/month cost**.
 
-[![Daily Research Workflow](https://github.com/daily-tech-intelligence/daily-tech-intelligence/actions/workflows/daily-research.yml/badge.svg)](https://github.com/daily-tech-intelligence/daily-tech-intelligence/actions/workflows/daily-research.yml)
+[![Daily Research Workflow](https://github.com/shashank17mishra/research-paper/actions/workflows/daily-research.yml/badge.svg)](https://github.com/shashank17mishra/research-paper/actions/workflows/daily-research.yml)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Cost: ₹0/month](https://img.shields.io/badge/Cost-%E2%82%B90%2Fmonth-brightgreen.svg)
 ![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)
