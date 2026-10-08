@@ -1,0 +1,100 @@
+name: Daily Research Intelligence Pipeline
+
+on:
+  schedule:
+    # 01:00 UTC = 06:30 AM IST (every morning)
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Run in dry-run mode (no commits or persistent saves)'
+        required: false
+        default: false
+        type: boolean
+      max_papers:
+        description: 'Number of papers to select (default: 10)'
+        required: false
+        default: '10'
+        type: string
+
+# Ensure write permissions to commit updates and deploy to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "daily-research-workflow"
+  cancel-in-progress: false
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt -r requirements-dev.txt
+
+      - name: Run Quality Test Suite
+        run: |
+          pytest tests/ -v
+
+      - name: Execute Daily Tech Intelligence Pipeline
+        run: |
+          EXTRA_ARGS=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            EXTRA_ARGS="$EXTRA_ARGS --dry-run"
+          fi
+          if [ -n "${{ inputs.max_papers }}" ]; then
+            EXTRA_ARGS="$EXTRA_ARGS --max-papers ${{ inputs.max_papers }}"
+          fi
+          python src/main.py $EXTRA_ARGS
+
+      - name: Check for Changes and Commit
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action [Daily Tech Intel]"
+          
+          # Stage updated datasets, reports, archives, and README
+          git add data/ archive/ reports/ site/ README.md
+          
+          TODAY=$(date +'%Y-%m-%d')
+          if git diff --staged --quiet; then
+            echo "No new research papers or modifications to commit today."
+          else
+            git commit -m "chore: daily research update - ${TODAY} [skip ci]"
+            git push
+            echo "Successfully committed and pushed daily research intelligence for ${TODAY}."
+          fi
+
+      - name: Setup GitHub Pages
+        if: ${{ inputs.dry_run != true }}
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages Artifact
+        if: ${{ inputs.dry_run != true }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'site/'
+
+      - name: Deploy to GitHub Pages
+        if: ${{ inputs.dry_run != true }}
+        id: deployment
+        uses: actions/deploy-pages@v4

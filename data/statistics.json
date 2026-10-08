@@ -1,0 +1,20 @@
+{
+  "total_papers": 3,
+  "total_runs": 2,
+  "last_run_date": "2026-10-08",
+  "categories_breakdown": {
+    "cs.RO": 2,
+    "cs.AI": 2,
+    "cs.LG": 2,
+    "cs.CV": 1,
+    "cs.DC": 1
+  },
+  "topics_breakdown": {
+    "Robotics": 1,
+    "IoT & Edge AI": 1,
+    "Artificial Intelligence": 1
+  },
+  "daily_counts": {
+    "2026-10-08": 6
+  }
+}

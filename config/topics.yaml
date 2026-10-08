@@ -1,0 +1,129 @@
+# Configurable Topic and Keyword Taxonomy for Research Relevance Scoring
+
+topics:
+  - id: "ai"
+    label: "Artificial Intelligence"
+    category_codes: ["cs.AI"]
+    weight: 1.0
+
+  - id: "ml"
+    label: "Machine Learning"
+    category_codes: ["cs.LG", "stat.ML"]
+    weight: 1.0
+
+  - id: "robotics"
+    label: "Robotics"
+    category_codes: ["cs.RO"]
+    weight: 1.1
+
+  - id: "iot"
+    label: "IoT & Edge AI"
+    category_codes: ["cs.DC", "cs.NI", "eess.SP"]
+    weight: 1.1
+
+  - id: "cv"
+    label: "Computer Vision"
+    category_codes: ["cs.CV"]
+    weight: 0.95
+
+  - id: "nlp"
+    label: "Natural Language Processing"
+    category_codes: ["cs.CL"]
+    weight: 0.95
+
+  - id: "genai"
+    label: "Generative AI"
+    category_codes: ["cs.AI", "cs.LG", "cs.CL", "cs.CV"]
+    weight: 1.0
+
+# Keyword Groups for High-Precision Scoring
+keyword_groups:
+  AI_KEYWORDS:
+    - "artificial intelligence"
+    - "autonomous agent"
+    - "agentic"
+    - "multi-agent"
+    - "reasoning"
+    - "planning"
+    - "knowledge graph"
+    - "neuro-symbolic"
+    - "decision making"
+    - "cognitive"
+
+  ML_KEYWORDS:
+    - "machine learning"
+    - "deep learning"
+    - "transformer"
+    - "diffusion model"
+    - "reinforcement learning"
+    - "representation learning"
+    - "foundation model"
+    - "few-shot"
+    - "zero-shot"
+    - "supervised learning"
+    - "unsupervised learning"
+    - "self-supervised"
+    - "neural network"
+    - "fine-tuning"
+    - "distillation"
+
+  ROBOTICS_KEYWORDS:
+    - "robot"
+    - "robotics"
+    - "manipulator"
+    - "manipulation"
+    - "sim-to-real"
+    - "trajectory planning"
+    - "slam"
+    - "quadruped"
+    - "humanoid"
+    - "actuator"
+    - "locomotion"
+    - "autonomous vehicle"
+    - "navigation"
+    - "dexterous"
+    - "tactile sensing"
+
+  IOT_KEYWORDS:
+    - "internet of things"
+    - "iot"
+    - "edge computing"
+    - "edge ai"
+    - "embedded systems"
+    - "tinyml"
+    - "sensor network"
+    - "microcontroller"
+    - "low-power"
+    - "fog computing"
+    - "on-device learning"
+    - "neuromorphic"
+    - "quantization"
+
+  CV_KEYWORDS:
+    - "computer vision"
+    - "object detection"
+    - "segmentation"
+    - "point cloud"
+    - "nerf"
+    - "gaussian splatting"
+    - "3d reconstruction"
+    - "pose estimation"
+    - "optical flow"
+
+  NLP_KEYWORDS:
+    - "natural language processing"
+    - "large language model"
+    - "llm"
+    - "retrieval-augmented generation"
+    - "rag"
+    - "tokenization"
+    - "sentiment analysis"
+    - "semantic parsing"
+
+# Component Weights in Relevance Score Formula (Normalized to 0.0 - 1.0)
+scoring_weights:
+  keyword_match: 0.35
+  topic_match: 0.20
+  category_match: 0.20
+  recency_score: 0.15
+  title_relevance: 0.10

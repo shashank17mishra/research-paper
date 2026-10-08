@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Tech Intelligence | Autonomous AI, Robotics & IoT Research</title>
+  <meta name="description" content="Autonomous open-source research intelligence system analyzing and synthesizing breakthrough AI, ML, Robotics, and IoT papers daily.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand" id="brand-logo">
+        <div class="brand-icon">Δ</div>
+        <span class="brand-title">Daily Tech Intelligence</span>
+        <span class="brand-badge">Autonomous</span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#feed" class="active">Latest Research</a></li>
+          <li><a href="#infographics">Infographics</a></li>
+          <li><a href="#statistics">Statistics</a></li>
+          <li><a href="https://github.com/daily-tech-intelligence/daily-tech-intelligence" target="_blank" rel="noopener" class="btn-github">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+            GitHub
+          </a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="container">
+    <section class="hero">
+      <span class="hero-tag">₹0/Month • 100% Open Source Architecture</span>
+      <h1>Autonomous Tech Research Intelligence</h1>
+      <p>Tracking, filtering, synthesizing, and visualizing cutting-edge arXiv research across Artificial Intelligence, Machine Learning, Robotics, and IoT every day.</p>
+
+      <!-- Key Metrics Counters -->
+      <div class="stats-grid" id="statistics">
+        <div class="stat-card">
+          <div class="stat-val" id="stat-total-papers">--</div>
+          <div class="stat-lbl">Total Papers Analyzed</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val" id="stat-total-runs">--</div>
+          <div class="stat-lbl">Days Active</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val" id="stat-total-cats">--</div>
+          <div class="stat-lbl">Categories Covered</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val" id="stat-last-updated" style="font-size: 1.6rem; line-height: 1.6;">--</div>
+          <div class="stat-lbl">Last Pipeline Run</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Search & Filter Controls -->
+    <section class="toolbar" id="search-section">
+      <div class="search-row">
+        <div class="search-input-wrapper">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="search-input" class="search-input" placeholder="Search papers by title, author, key concept, or methodology...">
+        </div>
+        <select id="sort-select" class="sort-select">
+          <option value="score">Sort by: Highest Relevance</option>
+          <option value="date">Sort by: Publication Date</option>
+        </select>
+      </div>
+
+      <div class="filter-pills">
+        <button class="pill-btn active" data-category="all">All Topics</button>
+        <button class="pill-btn" data-category="Artificial Intelligence">Artificial Intelligence</button>
+        <button class="pill-btn" data-category="Machine Learning">Machine Learning</button>
+        <button class="pill-btn" data-category="Robotics">Robotics</button>
+        <button class="pill-btn" data-category="IoT">IoT & Edge AI</button>
+        <button class="pill-btn" data-category="Computer Vision">Computer Vision</button>
+        <button class="pill-btn" data-category="Natural Language Processing">NLP</button>
+      </div>
+    </section>
+
+    <!-- Research Feed Section -->
+    <section id="feed">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+        <h2 style="font-size: 1.5rem; font-weight: 700;">Curated Research Papers</h2>
+        <span id="results-count" style="color: var(--text-muted); font-size: 0.9rem; font-weight: 500;">Loading...</span>
+      </div>
+
+      <div id="papers-feed" class="papers-feed">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- Daily Infographic Section -->
+    <section id="infographics" class="infographic-section">
+      <h2 style="font-size: 1.6rem; font-weight: 700; margin-bottom: 12px;">Daily Research Infographic</h2>
+      <p style="color: var(--text-muted); margin-bottom: 24px;">Generated autonomously via Matplotlib and Pillow for social intelligence sharing.</p>
+      
+      <div class="infographic-wrapper" id="infographic-container">
+        <img id="daily-infographic-img" src="" alt="Daily Tech Intelligence Infographic" class="infographic-img">
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>Daily Tech Intelligence &bull; Fully Automated GitHub Actions Pipeline &bull; Licensed under MIT</p>
+      <p style="margin-top: 8px;">Built with Python, arXiv Official API, and GitHub Pages at ₹0/month operational expense.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

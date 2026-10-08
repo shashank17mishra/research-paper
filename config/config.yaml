@@ -1,0 +1,44 @@
+# Daily Tech Intelligence Configuration
+
+# Execution parameters
+papers_per_day: 10
+minimum_relevance_score: 0.40
+fetch_limit: 60
+
+# ArXiv Target Categories
+arxiv_categories:
+  - cs.AI   # Artificial Intelligence
+  - cs.LG   # Machine Learning
+  - cs.CV   # Computer Vision
+  - cs.CL   # Computation and Language (NLP)
+  - cs.RO   # Robotics
+  - cs.NE   # Neural and Evolutionary Computing
+  - cs.DC   # Distributed, Parallel, and Cluster Computing (Edge/IoT)
+
+# Network & Rate Limiting
+user_agent: "DailyTechIntelligenceBot/1.0 (+https://github.com/daily-tech-intelligence)"
+request_timeout_seconds: 30
+max_retries: 3
+retry_backoff_seconds: 4
+
+# Storage Paths
+paths:
+  data_file: "data/papers.json"
+  statistics_file: "data/statistics.json"
+  reports_dir: "reports"
+  archive_dir: "archive"
+  site_dir: "site"
+  config_dir: "config"
+
+# Summary & Extraction Settings
+summary:
+  target_word_min: 100
+  target_word_max: 200
+  max_key_concepts: 6
+
+# Infographic Settings
+infographic:
+  width: 1200
+  height: 1200
+  dpi: 150
+  theme: "dark"
