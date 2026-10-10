@@ -1,6 +1,6 @@
 {
   "month": "2026-10",
-  "total_papers": 18,
+  "total_papers": 28,
   "papers": [
     {
       "arxiv_id": "2403.01234",
@@ -789,6 +789,438 @@
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.12465",
+      "raw_id": "http://arxiv.org/abs/2610.12465v1",
+      "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+      "authors": [
+        "Octi Zhang",
+        "Mateo Guaman Castro",
+        "Patrick Yin",
+        "Ignacio Dagnino",
+        "Abhishek Gupta",
+        "Rosario Scalise",
+        "Byron Boots"
+      ],
+      "published_date": "2026-10-08T17:59:50Z",
+      "updated_date": "2026-10-08T17:59:50Z",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "abstract": "General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, current RL pipelines depend on engineering-heavy, per-task structural priors such as shaped rewards and demonstrations. Recent work has shown that diverse simulator resets, combined with massively parallel simulation, can alleviate much of this engineering burden on several manipulation problems. However, we find that naively scaling this paradigm to more precise or dynamic problems remains non-trivial. While simulator resets can help with exploration, uniformly sampling over this distribution wastes a growing fraction of learning experience on task configurations the policy has already mastered or cannot yet attempt. This makes it challenging to see the expected benefits of scaling parallel environments for RL, since much of the learning signal in a batch is wasted during learning. To mitigate this, we introduce Success Guided Sampling (SGS), a simple adaptive sampler that concentrates RL training on task configurations around the frontier of the policy's capabilities. Doing so allows large-scale simulated RL to make the most out of the experience in a batch, enabling much more effective scaling to large-scale parallel simulation. Across experiments using up to 2^{20} (over one million) parallel environments, SGS enables RL to solve challenging multi-terrain quadruped locomotion and contact-rich assembly tasks that prior methods fail to solve. Finally, we distill the learned manipulation policies into RGB-based policies and demonstrate zero-shot transfer to several challenging assembly tasks on real hardware. Project website: https://sgs-rl.github.io/.",
+      "url": "https://arxiv.org/abs/2610.12465v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12465v1",
+      "relevance_score": 0.837,
+      "processed_date": "2026-10-10",
+      "summary": "However, we find that naively scaling this paradigm to more precise or dynamic problems remains non-trivial. To mitigate this, we introduce Success Guided Sampling (SGS), a simple adaptive sampler that concentrates RL training on task configurations around the frontier of the policy's capabilities. Across experiments using up to 2^{20} (over one million) parallel environments, SGS enables RL to solve challenging multi-terrain quadruped locomotion and contact-rich assembly tasks that prior methods fail to solve. Project website: https://sgs-rl.github.io/. General-purpose robots must perform a wide range of tasks from agile locomotion to dexterous manipulation. While sim-to-real reinforcement learning (RL) has proven to be a useful tool for this goal, current RL pipelines depend on engineering-heavy, per-task structural priors such as shaped rewards and demonstrations.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Sim-to-Real Transfer",
+        "Zero-shot",
+        "Dexterous Manipulation",
+        "Manipulation",
+        "Parallel Environments"
+      ],
+      "insights": {
+        "problem": "However, we find that naively scaling this paradigm to more precise or dynamic problems remains non-trivial.",
+        "approach": "To mitigate this, we introduce Success Guided Sampling (SGS), a simple adaptive sampler that concentrates RL training on task configurations around the frontier of the policy's capabilities.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Sim-to-Real Transfer.",
+        "results": "Across experiments using up to 2^{20} (over one million) parallel environments, SGS enables RL to solve challenging multi-terrain quadruped locomotion and contact-rich assembly tasks that prior methods fail to solve.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.12440",
+      "raw_id": "http://arxiv.org/abs/2610.12440v1",
+      "title": "Generative Neural Retargeting for Human-to-Robot Dexterous Manipulation",
+      "authors": [
+        "Dechen Gao",
+        "Yue Yang",
+        "Ben Abbatematteo",
+        "Nathan Godwin",
+        "Pengcheng Wang",
+        "Roger Boldu",
+        "Steven Man",
+        "Zhiyang Dou",
+        "Chuan Qin",
+        "Sho Nakagome",
+        "Eric Whitmire"
+      ],
+      "published_date": "2026-10-08T17:57:58Z",
+      "updated_date": "2026-10-08T17:57:58Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Human demonstrations are a scalable data source for learning dexterous manipulation, but the embodiment gap prevents human motion from being executed directly on robots. Inverse kinematics (IK) retargets human motion to robots efficiently but ignores dynamics, often producing infeasible motions. Reinforcement learning (RL) and sampling-based model predictive control (MPC) are commonly employed to yield dynamically feasible motions, but both are sample-inefficient and sensitive to hyperparameters. RL suffers from costly and unstable training and tedious reward engineering; MPC avoids policy optimization, yet retargets each trajectory in isolation, and solving one does not make the next easier. Sampling cost grows rapidly with dataset size and task difficulty. We hypothesize that dynamically feasible trajectories concentrate near a low-dimensional manifold shared across demonstrations, so that retargeting can be reduced to sampling from that manifold, conditioned on human motion, rather than solving a fresh optimization problem for every demonstration. We propose \\textbf{Generative Neural Retargeting} (GNR), which uses a flow matching model to sample feasible trajectories. GNR outperforms MPC with only 8.5\\% of the samples required by MPC, achieving a success rate of 56.20\\% compared to 27.20\\% for MPC. GNR can be used for scalable and efficient retargeting of large-scale, long-horizon, and millimeter precision human demonstrations: by applying GNR within a real-to-sim data engine, we produce a dexterous manipulation dataset with dense contact-force labels, spanning 223k demonstrations and 3.3k object geometries.",
+      "url": "https://arxiv.org/abs/2610.12440v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12440v1",
+      "relevance_score": 0.801,
+      "processed_date": "2026-10-10",
+      "summary": "Reinforcement learning (RL) and sampling-based model predictive control (MPC) are commonly employed to yield dynamically feasible motions, but both are sample-inefficient and sensitive to hyperparameters. We propose \\textbf{Generative Neural Retargeting} (GNR), which uses a flow matching model to sample feasible trajectories. GNR outperforms MPC with only 8.5\\% of the samples required by MPC, achieving a success rate of 56.20\\% compared to 27.20\\% for MPC. GNR can be used for scalable and efficient retargeting of large-scale, long-horizon, and millimeter precision human demonstrations: by applying GNR within a real-to-sim data engine, we produce a dexterous manipulation dataset with dense contact-force labels, spanning 223k demonstrations and 3.3k object geometries.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Dexterous Manipulation",
+        "Manipulation",
+        "Dynamically Feasible",
+        "Feasible Trajectories",
+        "Shared Demonstrations Retargeting"
+      ],
+      "insights": {
+        "problem": "Reinforcement learning (RL) and sampling-based model predictive control (MPC) are commonly employed to yield dynamically feasible motions, but both are sample-inefficient and sensitive to hyperparameters.",
+        "approach": "We propose \\textbf{Generative Neural Retargeting} (GNR), which uses a flow matching model to sample feasible trajectories.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Dexterous Manipulation.",
+        "results": "GNR outperforms MPC with only 8.5\\% of the samples required by MPC, achieving a success rate of 56.20\\% compared to 27.20\\% for MPC.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.12470",
+      "raw_id": "http://arxiv.org/abs/2610.12470v1",
+      "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
+      "authors": [
+        "Jusuk Lee",
+        "Sungha Kim",
+        "Yeonsoo Park",
+        "Jonguk Cheon",
+        "Yoonkyo Jung",
+        "Yongjun You",
+        "H. Jin Kim",
+        "Jia-Bin Huang",
+        "Furong Huang",
+        "Youngseok Jang",
+        "Seungjae Lee"
+      ],
+      "published_date": "2026-10-08T17:59:58Z",
+      "updated_date": "2026-10-08T17:59:58Z",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "abstract": "While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions. Such strict motion matching often limits generalization to initial object poses, goal poses, and grasps not shown in the video. Alternatively, discovering a policy via reinforcement learning (RL) allows for broad generalization, but without prior guidance, it struggles with high-dimensional exploration in complex, multi-stage tasks. To address these coupled generalization and exploration challenges, we present Dex-One2Many, a real-to-sim-to-real framework that learns a generalizable dexterous manipulation policy from a single human video. Our key insight is to abstract the video into sequential scene graphs that guide RL, enabling efficient exploration while preserving broad generalizability. The graphs serve as generative constraints for sampling diverse reset states and provide dense rewards for each stage. Because the graphs constrain relations rather than exact poses, these reset states cover object poses and grasps beyond the video, while initializing each stage from them with dense rewards keeps exploration short and guided. Trained entirely in simulation, Dex-One2Many transfers zero-shot to a real multi-fingered hand. Across five tool-use and manipulation tasks, Dex-One2Many exceeds baselines by 6.5% in seen configurations, while its robust generalization widens this gap to 71% in unseen scenarios.",
+      "url": "https://arxiv.org/abs/2610.12470v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12470v1",
+      "relevance_score": 0.79,
+      "processed_date": "2026-10-10",
+      "summary": "While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions. To address these coupled generalization and exploration challenges, we present Dex-One2Many, a real-to-sim-to-real framework that learns a generalizable dexterous manipulation policy from a single human video. Alternatively, discovering a policy via reinforcement learning (RL) allows for broad generalization, but without prior guidance, it struggles with high-dimensional exploration in complex, multi-stage tasks. Across five tool-use and manipulation tasks, Dex-One2Many exceeds baselines by 6.5% in seen configurations, while its robust generalization widens this gap to 71% in unseen scenarios.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Sim-to-Real Transfer",
+        "Zero-shot",
+        "Dexterous Manipulation",
+        "Manipulation",
+        "Abstract Video"
+      ],
+      "insights": {
+        "problem": "While learning dexterous manipulation from a single human video offers a promising alternative to costly robot demonstrations, many recent methods predominantly imitate demonstrated motions.",
+        "approach": "To address these coupled generalization and exploration challenges, we present Dex-One2Many, a real-to-sim-to-real framework that learns a generalizable dexterous manipulation policy from a single human video.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Sim-to-Real Transfer.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "The graphs serve as generative constraints for sampling diverse reset states and provide dense rewards for each stage."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.12435",
+      "raw_id": "http://arxiv.org/abs/2610.12435v1",
+      "title": "VioLA: Learning Generalist Humanoid Control Policies from Human Data",
+      "authors": [
+        "Mert Albaba",
+        "Jens Beißwenger",
+        "Anna Manasyan",
+        "Daniel Marta",
+        "Michael J. Black",
+        "Wieland Brendel",
+        "Andreas Krause",
+        "Georg Martius",
+        "Martin Riedmiller"
+      ],
+      "published_date": "2026-10-08T17:57:27Z",
+      "updated_date": "2026-10-08T17:57:27Z",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "abstract": "Teaching a humanoid to follow instructions with its whole body runs into two obstacles. Its action space is large and tightly coupled: legs, arms, and fingers must move together while the robot keeps its balance, which makes joint-level actions hard to learn. And humanoid demonstrations are scarce, so current humanoid generalist policies do not follow new instructions out of the box and are fine-tuned on teleoperated demonstrations of each task before deployment. Human demonstrations exist in far larger numbers, but a person's motion is not a robot command. We remove both obstacles by changing what the generalist policy predicts. We introduce VioLA, a generalist humanoid policy that predicts body and hand motion latents instead of joint commands. A pretrained body- and hand-controller execute these latents on the robot. Their corresponding motion encoders map human and robot motion into the same latent spaces. A human recording is therefore labeled in the policy's action space, and the training demonstration pool contains 140.6 million frames, 93.2% of them human. As a result, VioLA follows locomotion instructions on the real robot zero-shot, without task-specific fine-tuning, reaching 100% success where GR00T N1.7 and Ψ_0 reach 16.7% and 0%, respectively. It also reaches 88.6% manipulation success without task-specific fine-tuning. The same approach works across two VLA and one world-action model backbones. A generalist policy trained on human demonstrations alone performs locomotion tasks on the real robot zero-shot. Code and checkpoints will be released.",
+      "url": "https://arxiv.org/abs/2610.12435v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12435v1",
+      "relevance_score": 0.79,
+      "processed_date": "2026-10-10",
+      "summary": "Its action space is large and tightly coupled: legs, arms, and fingers must move together while the robot keeps its balance, which makes joint-level actions hard to learn. We introduce VioLA, a generalist humanoid policy that predicts body and hand motion latents instead of joint commands. And humanoid demonstrations are scarce, so current humanoid generalist policies do not follow new instructions out of the box and are fine-tuned on teleoperated demonstrations of each task before deployment. Code and checkpoints will be released. Teaching a humanoid to follow instructions with its whole body runs into two obstacles. Human demonstrations exist in far larger numbers, but a person's motion is not a robot command.",
+      "key_concepts": [
+        "World-action Model",
+        "Zero-shot",
+        "Manipulation",
+        "Action Space",
+        "Generalist Policy",
+        "Policy Predicts"
+      ],
+      "insights": {
+        "problem": "Its action space is large and tightly coupled: legs, arms, and fingers must move together while the robot keeps its balance, which makes joint-level actions hard to learn.",
+        "approach": "We introduce VioLA, a generalist humanoid policy that predicts body and hand motion latents instead of joint commands.",
+        "key_innovation": "Formulates an integrated mechanism leveraging World-action Model, Zero-shot.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.12386",
+      "raw_id": "http://arxiv.org/abs/2610.12386v1",
+      "title": "ARC: A Reasoning Recipe for Robot Foundation Models",
+      "authors": [
+        "Gokul Puthumanaillam",
+        "Tao Sun",
+        "Elie Aljalbout",
+        "Moritz Reuss",
+        "Zhaoshuo Li",
+        "Fabio Ramos",
+        "Ankit Goyal",
+        "Jenai Xuning Yang"
+      ],
+      "published_date": "2026-10-08T17:38:04Z",
+      "updated_date": "2026-10-08T17:38:04Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "abstract": "The prevailing approach to improving robot foundation models (RFMs) relies on larger models, more robot demonstrations, and costly training at scale. We show that there exists an effective and efficient complementary approach: the right reasoning recipe can substantially improve the zero-shot task performance of existing state-of-the-art RFMs. We refer to this recipe as ARC. It consists of three key ingredients: a reasoning trace, a scalable automatic labeling pipeline, and a strategy for adapting pretrained RFMs to use these traces for control. First, we find that effective reasoning traces should be grounded in the robot's next action and explain its causal structure: why the action is appropriate and what effect it should produce. Second, we show that these traces can be generated automatically from existing demonstrations, enabling us to construct ARC-Trace-DROID from DROID without collecting new robot data. Third, we show how state-of-the-art VLAs such as π_{0.5} and WAMs such as Cosmos3-Nano-Policy can learn to use these traces for control, with fine-tuning and inference tailored to each model's architecture and capabilities. Using ARC, we obtain gains in zero-shot RFM performance that, to our knowledge, are unprecedented without additional robot demonstrations or foundation-scale training. The adapted models establish a new state of the art on RoboLab-120 and MolmoSpaces, with gains of up to 50 percentage points on RoboLab-Reasoning-50. On real robots, ARC improves π_{0.5}'s task success by 82.2 percentage points. Project website: https://arc-robot-reasoning.github.io/",
+      "url": "https://arxiv.org/abs/2610.12386v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12386v1",
+      "relevance_score": 0.787,
+      "processed_date": "2026-10-10",
+      "summary": "The prevailing approach to improving robot foundation models (RFMs) relies on larger models, more robot demonstrations, and costly training at scale. We show that there exists an effective and efficient complementary approach: the right reasoning recipe can substantially improve the zero-shot task performance of existing state-of-the-art RFMs. Using ARC, we obtain gains in zero-shot RFM performance that, to our knowledge, are unprecedented without additional robot demonstrations or foundation-scale training. The adapted models establish a new state of the art on RoboLab-120 and MolmoSpaces, with gains of up to 50 percentage points on RoboLab-Reasoning-50. Project website: https://arc-robot-reasoning.github.io/ We refer to this recipe as ARC.",
+      "key_concepts": [
+        "Zero-shot",
+        "Action Appropriate",
+        "Action Explain",
+        "Adapting Pretrained",
+        "Additional Robot",
+        "Arc Consists"
+      ],
+      "insights": {
+        "problem": "The prevailing approach to improving robot foundation models (RFMs) relies on larger models, more robot demonstrations, and costly training at scale.",
+        "approach": "We show that there exists an effective and efficient complementary approach: the right reasoning recipe can substantially improve the zero-shot task performance of existing state-of-the-art RFMs.",
+        "key_innovation": "Using ARC, we obtain gains in zero-shot RFM performance that, to our knowledge, are unprecedented without additional robot demonstrations or foundation-scale training.",
+        "results": "The adapted models establish a new state of the art on RoboLab-120 and MolmoSpaces, with gains of up to 50 percentage points on RoboLab-Reasoning-50.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.12424",
+      "raw_id": "http://arxiv.org/abs/2610.12424v1",
+      "title": "RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments",
+      "authors": [
+        "Zimo Wen",
+        "Yijin Chen",
+        "Yuxuan Cao",
+        "Wendi Chen",
+        "Yanwen Zou",
+        "Wenye Yu",
+        "Fuhang Kuang",
+        "Han Xue",
+        "Jun Lv",
+        "Chuan Wen",
+        "Cewu Lu"
+      ],
+      "published_date": "2026-10-08T17:55:12Z",
+      "updated_date": "2026-10-08T17:55:12Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "abstract": "A generalist robot should not only perform diverse tasks but also improve through experience, turning what it learns during execution into capabilities that later tasks can reuse. Robot agents that act through code can already repair programs from execution feedback, yet it remains a central challenge to organize this experience around the task structure that gives it meaning, so that each repair is attributed to the responsible capability, supported by execution evidence, and validated before it is reused. We introduce RoboRSI, a robot self-improvement system built on Top-Down Skill Refinement (TSR). TSR decomposes tasks into compound, atomic, and base skills with scoped responsibilities and explicit input--output contracts, attributes each execution outcome to the responsible branch, and confines revision to that branch. Building upon this structure, a Manager, Planner, Engineer, and Reviewer coordinate planning, execution, diagnosis, and the validated release of new skills, while people steer the process through objectives and corrections; stable skill sequences are further consolidated into reusable compound skills. On a mobile manipulator, RoboRSI develops multi-object household cleanup over 104 rounds. In simulation, it achieves the highest success rate on LIBERO, LIBERO-PRO, LIBERO-Plus, and RoboTwin, exceeding the strongest baseline by 2.7 to 11.0 percentage points.",
+      "url": "https://arxiv.org/abs/2610.12424v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12424v1",
+      "relevance_score": 0.744,
+      "processed_date": "2026-10-10",
+      "summary": "Robot agents that act through code can already repair programs from execution feedback, yet it remains a central challenge to organize this experience around the task structure that gives it meaning, so that each repair is attributed to the responsible capability, supported by execution evidence, and validated before it is reused. We introduce RoboRSI, a robot self-improvement system built on Top-Down Skill Refinement (TSR). In simulation, it achieves the highest success rate on LIBERO, LIBERO-PRO, LIBERO-Plus, and RoboTwin, exceeding the strongest baseline by 2.7 to 11.0 percentage points. A generalist robot should not only perform diverse tasks but also improve through experience, turning what it learns during execution into capabilities that later tasks can reuse.",
+      "key_concepts": [
+        "Achieves Highest",
+        "Act Code",
+        "Atomic Base",
+        "Attributed Responsible",
+        "Attributes Execution",
+        "Base Skills"
+      ],
+      "insights": {
+        "problem": "Robot agents that act through code can already repair programs from execution feedback, yet it remains a central challenge to organize this experience around the task structure that gives it meaning, so that each repair is attributed to the responsible capability, supported by execution evidence, and validated before it is reused.",
+        "approach": "We introduce RoboRSI, a robot self-improvement system built on Top-Down Skill Refinement (TSR).",
+        "key_innovation": "Formulates an integrated mechanism leveraging Achieves Highest, Act Code.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.12368",
+      "raw_id": "http://arxiv.org/abs/2610.12368v1",
+      "title": "LiteNWM: Efficient Latent World Models for Onboard Visual Navigation in the Wild",
+      "authors": [
+        "Linkai Liu",
+        "Yuntian Zhang",
+        "Zhenshan Bing",
+        "Chen Chen",
+        "Lingjuan Lyu",
+        "Shangguang Wang",
+        "Mengwei Xu",
+        "Dongqi Cai"
+      ],
+      "published_date": "2026-10-08T17:29:04Z",
+      "updated_date": "2026-10-08T17:29:04Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Direct visual navigation policies generate trajectories efficiently but do not explicitly evaluate their future consequences. Generative navigation world models provide this foresight through visual rollouts, which are costly when evaluating multiple candidates. We present LiteNWM, a latent navigation world model that shares visual encoding across candidates and jointly predicts their action-conditioned future representations at multiple horizons, while a learned scorer uses these predictions to select trajectories. In offline evaluations on RECON, SCAND, and SACSoN, LiteNWM reduces macro-averaged trajectory error by 17.56% relative to NoMaD+NWM-XL and achieves a 128.00-fold end-to-end speedup on an RTX 5090. The same evaluator transfers from NoMaD to MBRA without proposer-specific retraining, reducing MBRA's macro-averaged trajectory error by 16.2%. In real-robot experiments in unseen indoor and outdoor environments, LiteNWM improves navigation success from 43.3% to 83.3% relative to NoMaD. These results demonstrate that LiteNWM can be deployed for future-aware planning and closed-loop navigation on a physical robot.",
+      "url": "https://arxiv.org/abs/2610.12368v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12368v1",
+      "relevance_score": 0.744,
+      "processed_date": "2026-10-10",
+      "summary": "Generative navigation world models provide this foresight through visual rollouts, which are costly when evaluating multiple candidates. We present LiteNWM, a latent navigation world model that shares visual encoding across candidates and jointly predicts their action-conditioned future representations at multiple horizons, while a learned scorer uses these predictions to select trajectories. These results demonstrate that LiteNWM can be deployed for future-aware planning and closed-loop navigation on a physical robot. Direct visual navigation policies generate trajectories efficiently but do not explicitly evaluate their future consequences. In offline evaluations on RECON, SCAND, and SACSoN, LiteNWM reduces macro-averaged trajectory error by 17.56% relative to NoMaD+NWM-XL and achieves a 128.00-fold end-to-end speedup on an RTX 5090.",
+      "key_concepts": [
+        "World Model",
+        "Achieves Fold",
+        "Candidates Jointly",
+        "Closed-loop Navigation",
+        "Consequences Generative",
+        "Costly Evaluating"
+      ],
+      "insights": {
+        "problem": "Generative navigation world models provide this foresight through visual rollouts, which are costly when evaluating multiple candidates.",
+        "approach": "We present LiteNWM, a latent navigation world model that shares visual encoding across candidates and jointly predicts their action-conditioned future representations at multiple horizons, while a learned scorer uses these predictions to select trajectories.",
+        "key_innovation": "Formulates an integrated mechanism leveraging World Model, Achieves Fold.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.12448",
+      "raw_id": "http://arxiv.org/abs/2610.12448v1",
+      "title": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
+      "authors": [
+        "Adrian Bulat",
+        "Yassine Ouali",
+        "Georgios Tzimiropoulos"
+      ],
+      "published_date": "2026-10-08T17:58:36Z",
+      "updated_date": "2026-10-08T17:58:36Z",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation. reViT restores depth-specific transformations by representing the FFN at each recurrent depth as a convex combination of a small shared expert bank. A continuous normalized-depth coordinate programs this mixture, defining a resampleable trajectory through FFN parameter space. We evaluate this design in two regimes: supervised ImageNet-1k training and distillation from a DINOv2 teacher. Across both regimes, controlled adaptations identify weight-space merging as the strongest tested MoE family at a matching one-FFN budget, ahead of the token-dispatch and output-mixture alternatives. Trained from scratch, reViT-B/16 attains DeiT III accuracy with about 70\\% fewer stored parameters. An 8-experts model distilled using only the teacher's output features retains nearly all of its DINOv2 teacher's linear-probe accuracy and transfers across classification, segmentation, and depth prediction. Elastic-depth training allows one checkpoint (trained model) to operate at multiple tested depths by resampling the same normalized coordinate interval. For fixed-depth deployment, the recurrent block can be materialized as a conventional dense graph, removing online routing and merging without changing the one-FFN-per-depth compute but expanding deployment storage.",
+      "url": "https://arxiv.org/abs/2610.12448v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12448v1",
+      "relevance_score": 0.73,
+      "processed_date": "2026-10-10",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates in this work, we show that a single transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference flops without intermediate feature distillation. In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation. A continuous normalized-depth coordinate programs this mixture, defining a resampleable trajectory through FFN parameter space. For fixed-depth deployment, the recurrent block can be materialized as a conventional dense graph, removing online routing and merging without changing the one-FFN-per-depth compute but expanding deployment storage.",
+      "key_concepts": [
+        "Accuracy Fewer",
+        "Accuracy Full-depth",
+        "Accuracy Transfers",
+        "Adaptations Identify",
+        "Ahead Token-dispatch",
+        "Applied Recurrently"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "In this work, we show that a single Transformer block, applied recurrently, can match the accuracy of a full-depth vision encoder at comparable inference FLOPs without intermediate feature distillation.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Accuracy Fewer, Accuracy Full-depth.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.12457",
+      "raw_id": "http://arxiv.org/abs/2610.12457v1",
+      "title": "SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation",
+      "authors": [
+        "Jiayu Wang",
+        "Yue Yu",
+        "Bin Zhu",
+        "Zhiyao Yang",
+        "Jingjing Chen"
+      ],
+      "published_date": "2026-10-08T17:59:20Z",
+      "updated_date": "2026-10-08T17:59:20Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Frontier multimodal foundation models (e.g., GPT-6 Astra) have recently shown strong potential for direct robotic control, yet their performance on fine manipulation remains limited. We argue that an important source of failure is not necessarily insufficient policy capability, but insufficient spatial observability, where task-critical spatial relationships may be poorly revealed by the existing physical camera setup. We introduce SpatialHarness, a test-time embodied harness that provides test-time spatial scaffolding for fine robotic manipulation without policy fine-tuning or changes to the physical sensing setup. SpatialHarness maintains an online simulated scene synchronized with real-world execution, identifies task-critical spatial relationships, and renders complementary virtual views that expose them to a frozen multimodal policy. To keep the simulated scene aligned during interaction, we develop interaction-aware scene synchronization that distinguishes static, held, and transition modes. We evaluate SpatialHarness on four real-robot manipulation tasks spanning precise geometric alignment, object-relative placement, and articulated-object interaction. Using the same frozen GPT-6 Astra policy, SpatialHarness substantially improves task success, including from 26.7% to 66.7% on plug insertion and from 0% to 100% on Tower of Hanoi. These results indicate that improving spatial observability at test time can unlock fine-manipulation capabilities already present in strong multimodal foundation models. Project website: https://emilia113.github.io/SpatialHarness/.",
+      "url": "https://arxiv.org/abs/2610.12457v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12457v1",
+      "relevance_score": 0.724,
+      "processed_date": "2026-10-10",
+      "summary": "Addressing critical demands in Robotics, this research investigates frontier multimodal foundation models (e.g., gpt-6 astra) have recently shown strong potential for direct robotic control, yet their performance on fine manipulation remains limited. We introduce SpatialHarness, a test-time embodied harness that provides test-time spatial scaffolding for fine robotic manipulation without policy fine-tuning or changes to the physical sensing setup. Project website: https://emilia113.github.io/SpatialHarness/. Frontier multimodal foundation models (e.g., GPT-6 Astra) have recently shown strong potential for direct robotic control, yet their performance on fine manipulation remains limited. We argue that an important source of failure is not necessarily insufficient policy capability, but insufficient spatial observability, where task-critical spatial relationships may be poorly revealed by the existing physical camera setup.",
+      "key_concepts": [
+        "Manipulation",
+        "Test-time Spatial",
+        "Gpt- Astra",
+        "Multimodal Foundation",
+        "Simulated Scene",
+        "Spatial Observability"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We introduce SpatialHarness, a test-time embodied harness that provides test-time spatial scaffolding for fine robotic manipulation without policy fine-tuning or changes to the physical sensing setup.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Test-time Spatial.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.12404",
+      "raw_id": "http://arxiv.org/abs/2610.12404v1",
+      "title": "A Physics-Informed Collision Learning Framework for Collaborative Robot Motion Generation",
+      "authors": [
+        "Chen Cai",
+        "Steven Liu"
+      ],
+      "published_date": "2026-10-08T17:45:04Z",
+      "updated_date": "2026-10-08T17:45:04Z",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "abstract": "Close-proximity multi-arm manipulation requires collision models that are both geometrically accurate and differentiable enough for real-time optimization. Classical geometry checkers provide reliable distances but are difficult to use inside gradient-based model predictive control, while conservative proxy models can restrict tightly coupled motion. We present PI-UDF, a physics-informed unified differentiable framework for body-to-body collision distance prediction between articulated robots. PI-UDF combines analytical forward kinematics with learnable link-geometry embeddings and a shared residual network to predict pairwise inter-arm distances directly from robot configurations. To improve safety-critical fidelity, we combine quota-driven boundary mining with an asymmetric boundary-crossing penalty that emphasizes false-safe sign errors near the collision boundary. The learned distance field is integrated into nonlinear MPC as a differentiable inter-arm clearance term. We validate the framework on a real dual-Franka platform through high-speed close-proximity 14-DoF dual-arm swapping, sustained single-arm dynamic evasion, and dynamic-evasion planning configurations with frozen, predicted, and target-switching treatments of the moving arm. Hardware experiments and offline Drake/FCL replay show that PI-UDF provides a differentiable inter-arm clearance estimate suitable for closed-loop collision-aware collaborative robot motion generation.",
+      "url": "https://arxiv.org/abs/2610.12404v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12404v1",
+      "relevance_score": 0.724,
+      "processed_date": "2026-10-10",
+      "summary": "Classical geometry checkers provide reliable distances but are difficult to use inside gradient-based model predictive control, while conservative proxy models can restrict tightly coupled motion. We present PI-UDF, a physics-informed unified differentiable framework for body-to-body collision distance prediction between articulated robots. Hardware experiments and offline Drake/FCL replay show that PI-UDF provides a differentiable inter-arm clearance estimate suitable for closed-loop collision-aware collaborative robot motion generation. Close-proximity multi-arm manipulation requires collision models that are both geometrically accurate and differentiable enough for real-time optimization. PI-UDF combines analytical forward kinematics with learnable link-geometry embeddings and a shared residual network to predict pairwise inter-arm distances directly from robot configurations.",
+      "key_concepts": [
+        "Manipulation",
+        "Accurate Differentiable",
+        "Analytical Forward",
+        "Arm Hardware",
+        "Articulated Robots",
+        "Asymmetric Boundary-crossing"
+      ],
+      "insights": {
+        "problem": "Classical geometry checkers provide reliable distances but are difficult to use inside gradient-based model predictive control, while conservative proxy models can restrict tightly coupled motion.",
+        "approach": "We present PI-UDF, a physics-informed unified differentiable framework for body-to-body collision distance prediction between articulated robots.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Accurate Differentiable.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
     }
   ]
 }

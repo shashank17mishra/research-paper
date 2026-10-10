@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[08 October 2026 Report](reports/2026/10/08/report.md)** — *3 new breakthrough papers analyzed today.*
+📅 **[10 October 2026 Report](reports/2026/10/10/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/08/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/10/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/08/infographic.png)](reports/2026/10/08/infographic.png)
+[![Daily Infographic](reports/2026/10/10/infographic.png)](reports/2026/10/10/infographic.png)
 
 ---
 
@@ -24,11 +24,11 @@
 
 | Metric | Count |
 | :--- | :---: |
-| **Papers Analyzed Today** | `3` |
+| **Papers Analyzed Today** | `10` |
 | **Artificial Intelligence (AI)** | `2` |
-| **Machine Learning (ML)** | `2` |
-| **Robotics** | `2` |
-| **IoT & Edge AI** | `1` |
+| **Machine Learning (ML)** | `3` |
+| **Robotics** | `9` |
+| **IoT & Edge AI** | `0` |
 
 ---
 
@@ -36,19 +36,19 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Rephrase Before You Act: Characterizing and Mitigating Language Sensitiv...** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2610.10526v1) |
-| 2 | **SOTA: Stock Options Trading Agents Guided by Option-Implied Return Distr...** | `Machine Learning` | `0.70` | [arXiv](https://arxiv.org/abs/2610.10407v1) |
-| 3 | **A Good Self-Teacher Meets the Student Where They Are: Joint On-Policy Le...** | `Machine Learning` | `0.70` | [arXiv](https://arxiv.org/abs/2610.10447v1) |
-| 4 | **Decoupling Exploration from Optimization in RLVR** | `Artificial Intelligence` | `0.70` | [arXiv](https://arxiv.org/abs/2610.10536v1) |
-| 5 | **AirGroundVLN: A Large-Scale Benchmark for Goal-Oriented Air-Ground Colla...** | `Robotics` | `0.70` | [arXiv](https://arxiv.org/abs/2610.10421v1) |
+| 1 | **A Physics-Informed Collision Learning Framework for Collaborative Robot ...** | `Robotics` | `0.72` | [arXiv](https://arxiv.org/abs/2610.12404v1) |
+| 2 | **SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation** | `Robotics` | `0.72` | [arXiv](https://arxiv.org/abs/2610.12457v1) |
+| 3 | **One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Pro...** | `Machine Learning` | `0.73` | [arXiv](https://arxiv.org/abs/2610.12448v1) |
+| 4 | **LiteNWM: Efficient Latent World Models for Onboard Visual Navigation in ...** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2610.12368v1) |
+| 5 | **RoboRSI: Stable, efficient, and reusable robot self-evolution in complex...** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2610.12424v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `18`
-- **Total Operational Runs**: `14 days`
-- **Categories Tracked**: `8 categories`
+- **Total Papers Analyzed**: `28`
+- **Total Operational Runs**: `15 days`
+- **Categories Tracked**: `9 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, IoT & Edge AI
 
 ---
