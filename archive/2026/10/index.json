@@ -1,6 +1,6 @@
 {
   "month": "2026-10",
-  "total_papers": 28,
+  "total_papers": 38,
   "papers": [
     {
       "arxiv_id": "2403.01234",
@@ -1221,6 +1221,433 @@
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.12407",
+      "raw_id": "http://arxiv.org/abs/2610.12407v1",
+      "title": "LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC",
+      "authors": [
+        "Shashank Hegde",
+        "Alexander Popov",
+        "Elie Aljalbout",
+        "Nikolai Smolyanskiy"
+      ],
+      "published_date": "2026-10-08T17:46:03Z",
+      "updated_date": "2026-10-08T17:46:03Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "World action models (WAMs) predict actions and future observations, typically from a reconstruction-based representation that carries noisy, redundant information which can complicate downstream predictions. We introduce LeWAM, a bidirectional transformer for forward, backward, inverse dynamics and policy prediction, on a decoder-free JEPA latent trained end-to-end through all four modes. We see the following benefits: 1) Alignment: linear probes read robot and object state from LeWAM's latent better than from a regular Le World Model (a forward-only JEPA world model), while the latent ignores visual distractors as well as LeWM does and far better than a reconstruction-based WAM. 2) Acting: Closed-loop evaluations of LeWAM match a regular flow-matching policy trained on the same encoder at matched size, while also providing a world model. 3) Planning: Sampling raw actions when planning with WAMs lets MPC exploit dynamics-model inaccuracies; planning in the noise space of the policy head instead improves the closed-loop performance of these WAMs.",
+      "url": "https://arxiv.org/abs/2610.12407v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12407v1",
+      "relevance_score": 0.698,
+      "processed_date": "2026-10-11",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates world action models (wams) predict actions and future observations, typically from a reconstruction-based representation that carries noisy, redundant information which can complicate downstream predictions. We introduce LeWAM, a bidirectional transformer for forward, backward, inverse dynamics and policy prediction, on a decoder-free JEPA latent trained end-to-end through all four modes. We see the following benefits: 1) Alignment: linear probes read robot and object state from LeWAM's latent better than from a regular Le World Model (a forward-only JEPA world model), while the latent ignores visual distractors as well as LeWM does and far better than a reconstruction-based WAM. 3) Planning: Sampling raw actions when planning with WAMs lets MPC exploit dynamics-model inaccuracies; planning in the noise space of the policy head instead improves the closed-loop performance of these WAMs.",
+      "key_concepts": [
+        "World Model",
+        "Acting Closed-loop",
+        "Actions Planning",
+        "Alignment Linear",
+        "Backward Inverse",
+        "Benefits Alignment"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "We introduce LeWAM, a bidirectional transformer for forward, backward, inverse dynamics and policy prediction, on a decoder-free JEPA latent trained end-to-end through all four modes.",
+        "key_innovation": "Formulates an integrated mechanism leveraging World Model, Acting Closed-loop.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.12431",
+      "raw_id": "http://arxiv.org/abs/2610.12431v1",
+      "title": "Control-Ready Uncertainty for Trajectory Diffusion",
+      "authors": [
+        "Zhiwei Xue",
+        "Jia Yue Kam",
+        "Jinhang Qiu",
+        "Yifeng Cheng",
+        "Ege Gursoy",
+        "Jiaming Wang",
+        "Vincent Bonnet",
+        "Harold Soh"
+      ],
+      "published_date": "2026-10-08T17:57:01Z",
+      "updated_date": "2026-10-08T17:57:01Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Diffusion models can represent complex, multimodal trajectory distributions, but extracting uncertainty from them typically requires costly Monte Carlo sampling. This limits their use in real-time control, where robots must rapidly assess risk and maintain safety margins. We introduce Score-Curvature for Online Precision Estimation (SCOPE), a lightweight module that augments diffusion trajectory models with control-ready uncertainty. SCOPE learns a structured precision matrix around each nominal trajectory by distilling score-curvature information and producing calibrated Gaussian tubes with low overhead and without repeated Monte Carlo sampling. These tubes provide per-timestep covariance estimates that can be used both as predicted occupancy for moving agents and as adaptive exploration guides for robot control. We evaluate SCOPE with mode-conditioned multimodal diffusion backbones in pedestrian forecasting, crowd navigation, Maze2D control, and real-world Franka Panda manipulation. Across these settings, SCOPE provides fast uncertainty estimation, which leads to better closed-loop performance. Project page: https://zackaxue.github.io/SCOPE-project-page/",
+      "url": "https://arxiv.org/abs/2610.12431v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12431v1",
+      "relevance_score": 0.692,
+      "processed_date": "2026-10-11",
+      "summary": "Diffusion models can represent complex, multimodal trajectory distributions, but extracting uncertainty from them typically requires costly Monte Carlo sampling. We introduce Score-Curvature for Online Precision Estimation (SCOPE), a lightweight module that augments diffusion trajectory models with control-ready uncertainty. Project page: https://zackaxue.github.io/SCOPE-project-page/ This limits their use in real-time control, where robots must rapidly assess risk and maintain safety margins. SCOPE learns a structured precision matrix around each nominal trajectory by distilling score-curvature information and producing calibrated Gaussian tubes with low overhead and without repeated Monte Carlo sampling. These tubes provide per-timestep covariance estimates that can be used both as predicted occupancy for moving agents and as adaptive exploration guides for robot control.",
+      "key_concepts": [
+        "Manipulation",
+        "Adaptive Exploration",
+        "Assess Risk",
+        "Augments Diffusion",
+        "Backbones Pedestrian",
+        "Better Closed-loop"
+      ],
+      "insights": {
+        "problem": "Diffusion models can represent complex, multimodal trajectory distributions, but extracting uncertainty from them typically requires costly Monte Carlo sampling.",
+        "approach": "We introduce Score-Curvature for Online Precision Estimation (SCOPE), a lightweight module that augments diffusion trajectory models with control-ready uncertainty.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Adaptive Exploration.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "SCOPE learns a structured precision matrix around each nominal trajectory by distilling score-curvature information and producing calibrated Gaussian tubes with low overhead and without repeated Monte Carlo sampling."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.12442",
+      "raw_id": "http://arxiv.org/abs/2610.12442v1",
+      "title": "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
+      "authors": [
+        "Suhwan Cho",
+        "Yonwoo Choi",
+        "Soongjin Kim",
+        "Jicheol Park",
+        "Taegyu Lim"
+      ],
+      "published_date": "2026-10-08T17:58:03Z",
+      "updated_date": "2026-10-08T17:58:03Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Current state-of-the-art methods reconstruct the scene explicitly by estimating depth, lifting the video into a point cloud, and re-rendering it from the egocentric camera to condition a video diffusion model. This deterministic mapping assigns each pixel to a single reprojected location, which preserves texture but translates depth errors into misplaced content. We ask what a video diffusion model should receive as its condition and propose a lifting-free answer: a learned view synthesizer, an LVSM-style transformer fine-tuned to render the egocentric view directly without depth, point clouds, or reprojection, resolving cross-view correspondence internally. In contrast, its probabilistic mapping averages each region over candidate source locations according to a learned correspondence distribution, preserving structure while fine texture is averaged away. We argue that this trade-off suits a diffusion generator, whose denoising training excels at restoring detail, so an effective condition should prioritize structural alignment over sharpness. This distribution's concentration also yields a per-region confidence, used both to mask low-confidence regions and to guide the generator toward high-confidence areas during early layout-forming denoising steps. Our approach consistently outperforms the state-of-the-art explicit pipeline and generalizes to other datasets without retraining. The synthesizer thus supplies view structure, and the diffusion model its detail.",
+      "url": "https://arxiv.org/abs/2610.12442v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12442v1",
+      "relevance_score": 0.678,
+      "processed_date": "2026-10-11",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Our approach consistently outperforms the state-of-the-art explicit pipeline and generalizes to other datasets without retraining. Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved. Our approach consistently outperforms the state-of-the-art explicit pipeline and generalizes to other datasets without retraining. The synthesizer thus supplies view structure, and the diffusion model its detail.",
+      "key_concepts": [
+        "Diffusion Model",
+        "Point Cloud",
+        "Suits Diffusion Generator",
+        "Supplies View",
+        "Synthesis Cameras",
+        "Synthesizer Lvsm-style"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "Our approach consistently outperforms the state-of-the-art explicit pipeline and generalizes to other datasets without retraining.",
+        "key_innovation": "Generating an egocentric video from a single exocentric recording is a challenging case of novel view synthesis, as the two cameras share little overlap and much of the target view is unobserved.",
+        "results": "Our approach consistently outperforms the state-of-the-art explicit pipeline and generalizes to other datasets without retraining.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "We argue that this trade-off suits a diffusion generator, whose denoising training excels at restoring detail, so an effective condition should prioritize structural alignment over sharpness."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.12402",
+      "raw_id": "http://arxiv.org/abs/2610.12402v1",
+      "title": "SpaceCast-Bench: Evaluating Predictive Spatial Reasoning in Vision-Language Models",
+      "authors": [
+        "Hongxing Li",
+        "Jinyue Su",
+        "Dingming Li",
+        "Wenqi Zhang",
+        "Weiming Lu",
+        "Jun Xiao",
+        "Yueting Zhuang",
+        "Yongliang Shen"
+      ],
+      "published_date": "2026-10-08T17:44:17Z",
+      "updated_date": "2026-10-08T17:44:17Z",
+      "categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "abstract": "Existing spatial reasoning benchmarks mainly test spatial perception: reading off relations already visible in the input. Yet real-world spatial intelligence demands predictive spatial reasoning: constructing a scene from observations, anticipating how an intervention changes it, and reasoning about the unseen outcome. We introduce SpaceCast-Bench, the first benchmark to directly and diagnostically evaluate this capability. Built around an observe-transform-infer framework, its 3,862 questions from 182 real-world scenes span 16 task types at three levels: static perception, local prediction, and global prediction, progressively requiring scene understanding, spatial state updating, and relational inference over unobserved outcomes. Evaluating 21 models exposes a stark gap: the strongest model reaches only 58.0% against 87.2% human performance, while spatially specialized models remain near random chance. Controlled analyses further reveal that bridge views are critical for integrating distributed observations, and that explicit 3D evidence benefits models more reliably than generated outcome images or videos. Fine-tuning on our programmatically generated data lifts Qwen3-VL-4B from 34.0% to 65.7% with macro-average gains across six out-of-domain benchmarks.",
+      "url": "https://arxiv.org/abs/2610.12402v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12402v1",
+      "relevance_score": 0.669,
+      "processed_date": "2026-10-11",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates existing spatial reasoning benchmarks mainly test spatial perception: reading off relations already visible in the input. We introduce SpaceCast-Bench, the first benchmark to directly and diagnostically evaluate this capability. Controlled analyses further reveal that bridge views are critical for integrating distributed observations, and that explicit 3D evidence benefits models more reliably than generated outcome images or videos. Existing spatial reasoning benchmarks mainly test spatial perception: reading off relations already visible in the input. Yet real-world spatial intelligence demands predictive spatial reasoning: constructing a scene from observations, anticipating how an intervention changes it, and reasoning about the unseen outcome.",
+      "key_concepts": [
+        "Spatial Reasoning",
+        "Analyses Reveal",
+        "Anticipating Intervention",
+        "Bridge Views",
+        "Built Observe-transform-infer",
+        "Capability Built"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "We introduce SpaceCast-Bench, the first benchmark to directly and diagnostically evaluate this capability.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Spatial Reasoning, Analyses Reveal.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.12451",
+      "raw_id": "http://arxiv.org/abs/2610.12451v1",
+      "title": "VersaCamVLA: Camera-Configurable VLA Policies for Robotic Manipulation",
+      "authors": [
+        "Boyao Han",
+        "Chen Shi",
+        "Jingjing Qian",
+        "ZhuoTan Tian",
+        "Li Jiang"
+      ],
+      "published_date": "2026-10-08T17:58:47Z",
+      "updated_date": "2026-10-08T17:58:47Z",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "Vision-Language-Action (VLA) models have emerged as powerful foundations for robotic manipulation, but their reliance on fixed camera configurations during training makes them brittle to changes in camera count or pose during deployment. To overcome these limitations, we propose VersaCamVLA, a camera-configurable framework that decouples camera-set representation from action learning. VersaCamVLA learns a unified scene-token interface that maps an arbitrary, variable set of posed RGB views into fixed-size latent scene tokens. This is achieved via multi-signal target-view prediction and Wrist-Augmented Pose Sampling (WAPS), which leverages natural wrist-camera motion for free pose diversity. At deployment, a lightweight spatial encoder injects these compact scene tokens into a pretrained base VLA as a supplementary visual condition, requiring no explicit 3D sensing or novel-view rendering. Experiments on RoboTwin, LIBERO, and a real-robot platform demonstrate that VersaCamVLA consistently outperforms prior VLA methods and direct multi-view baselines, maintaining robust performance across varying camera counts and unseen camera poses.",
+      "url": "https://arxiv.org/abs/2610.12451v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12451v1",
+      "relevance_score": 0.663,
+      "processed_date": "2026-10-11",
+      "summary": "Addressing critical demands in Robotics, this research investigates vision-language-action (vla) models have emerged as powerful foundations for robotic manipulation, but their reliance on fixed camera configurations during training makes them brittle to changes in camera count or pose during deployment. To overcome these limitations, we propose VersaCamVLA, a camera-configurable framework that decouples camera-set representation from action learning. At deployment, a lightweight spatial encoder injects these compact scene tokens into a pretrained base VLA as a supplementary visual condition, requiring no explicit 3D sensing or novel-view rendering. Experiments on RoboTwin, LIBERO, and a real-robot platform demonstrate that VersaCamVLA consistently outperforms prior VLA methods and direct multi-view baselines, maintaining robust performance across varying camera counts and unseen camera poses.",
+      "key_concepts": [
+        "Manipulation",
+        "Achieved Multi-signal",
+        "Action Learning",
+        "Arbitrary Variable",
+        "Base Vla",
+        "Baselines Maintaining"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "To overcome these limitations, we propose VersaCamVLA, a camera-configurable framework that decouples camera-set representation from action learning.",
+        "key_innovation": "At deployment, a lightweight spatial encoder injects these compact scene tokens into a pretrained base VLA as a supplementary visual condition, requiring no explicit 3D sensing or novel-view rendering.",
+        "results": "Experiments on RoboTwin, LIBERO, and a real-robot platform demonstrate that VersaCamVLA consistently outperforms prior VLA methods and direct multi-view baselines, maintaining robust performance across varying camera counts and unseen camera poses.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "To overcome these limitations, we propose VersaCamVLA, a camera-configurable framework that decouples camera-set representation from action learning."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.12369",
+      "raw_id": "http://arxiv.org/abs/2610.12369v1",
+      "title": "Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improvement",
+      "authors": [
+        "Kairui Hu",
+        "Siyuan Hu",
+        "Fangzhou Hong",
+        "Zhaoxi Chen",
+        "Ziwei Liu"
+      ],
+      "published_date": "2026-10-08T17:29:08Z",
+      "updated_date": "2026-10-08T17:29:08Z",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "abstract": "Most robot policies keep a model in the control loop: a VLA maps observations to actions, and an Agent Harness, such as Agent-as-Policy or Harness VLA queries a VLM for decision making at run time. We propose a different view: the embodied world is an Embodied Turing Machine, whose tape is the robot and environment state and rules are the policy. If this state can be represented accurately, the decision making can be written entirely in code. We therefore propose Code-Only-as-Policy (COAP): code measures and tracks the robot, environment, and task state from camera images and proprioception, and makes every decision from it. The same code applies across episodes, and different tasks share one library without a VLM or VLA in the loop. Compared with VLAs and Agent Harnesses, we analyze three advantages of COAP: (i) Explicit State: the state can be stored in code; (ii) Execution: code makes decision making controllable, recovers from failures flexibly, and runs fast and cheaply online; (iii) Extensibility: new tasks reuse, inherit, or extend the shared library, so capabilities can accumulate over tasks. These advantages make COAP a suitable medium for recursive self-improvement (RSI): coding agents develop the library in a closed loop, and each change is explicit and controllable. On RoboDojo's 42 bimanual tasks, the resulting library reaches a success rate of 70.24% without a model at test time. The upper bound of COAP lies in how accurately the state is represented for decision making and how robust the code logic is. We thus propose COAP as a new paradigm for embodied tasks; since it applies across episodes, it can also serve as an efficient data engine for VLAs and Agent Harnesses.",
+      "url": "https://arxiv.org/abs/2610.12369v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12369v1",
+      "relevance_score": 0.662,
+      "processed_date": "2026-10-11",
+      "summary": "Addressing critical demands in Robotics, this research investigates most robot policies keep a model in the control loop: a vla maps observations to actions, and an agent harness, such as agent-as-policy or harness vla queries a vlm for decision making at run time. We propose a different view: the embodied world is an Embodied Turing Machine, whose tape is the robot and environment state and rules are the policy. We thus propose COAP as a new paradigm for embodied tasks; since it applies across episodes, it can also serve as an efficient data engine for VLAs and Agent Harnesses. If this state can be represented accurately, the decision making can be written entirely in code.",
+      "key_concepts": [
+        "Turing Machine",
+        "Agent Harnesses",
+        "Applies Episodes",
+        "Makes Decision",
+        "Robot Environment",
+        "State Represented"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We propose a different view: the embodied world is an Embodied Turing Machine, whose tape is the robot and environment state and rules are the policy.",
+        "key_innovation": "We thus propose COAP as a new paradigm for embodied tasks; since it applies across episodes, it can also serve as an efficient data engine for VLAs and Agent Harnesses.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.12458",
+      "raw_id": "http://arxiv.org/abs/2610.12458v1",
+      "title": "OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning",
+      "authors": [
+        "Zhongyu Yang",
+        "Jiale Tao",
+        "Ruitao Chen",
+        "Zuhao Yang",
+        "Yingfang Yuan",
+        "Xueliang Zhao",
+        "Auden",
+        "Kai Wang",
+        "Shuai Shao",
+        "Biao Wang",
+        "Steve Yves",
+        "Qinglin Lu"
+      ],
+      "published_date": "2026-10-08T17:59:21Z",
+      "updated_date": "2026-10-08T17:59:21Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Multimodal large language models (MLLMs) are rapidly evolving toward continuous audio--visual reasoning, creating an urgent need for evaluations that expose their capability limits. Audio--visual captioning is an ideal diagnostic task, yet current benchmarks face a coupled trade-off: whole-caption scores provide coverage without localization, local probes provide localization without coverage, and unconstrained LLM judges introduce instability. We introduce OmniCapBench (Omni-Video Caption Benchmark), a benchmark that reframes audio--visual caption evaluation as a deep-structured diagnostic framework. OmniCapBench shifts the prediction target from free-form text to sets of atomic, verifiable evaluation units across three tracks: entity references, visual shots, and audio events, enabling reliable scoring with deterministic constraint checks and localized LLM-based semantic comparisons. With 786 densely annotated videos, OmniCapBench effectively distinguishes MLLM perception errors, including temporal grounding failures, identity drift, cross-modal misalignment, and hallucinated descriptions. Evaluating frontier MLLMs reveals strong local perception but weak long-horizon audio--visual reasoning, particularly in identity drift and cross-modal misalignment, providing a fine-grained roadmap for omnimodal development.",
+      "url": "https://arxiv.org/abs/2610.12458v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12458v1",
+      "relevance_score": 0.649,
+      "processed_date": "2026-10-11",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates multimodal large language models (mllms) are rapidly evolving toward continuous audio--visual reasoning, creating an urgent need for evaluations that expose their capability limits. We introduce OmniCapBench (Omni-Video Caption Benchmark), a benchmark that reframes audio--visual caption evaluation as a deep-structured diagnostic framework. Evaluating frontier MLLMs reveals strong local perception but weak long-horizon audio--visual reasoning, particularly in identity drift and cross-modal misalignment, providing a fine-grained roadmap for omnimodal development. Multimodal large language models (MLLMs) are rapidly evolving toward continuous audio--visual reasoning, creating an urgent need for evaluations that expose their capability limits. Audio--visual captioning is an ideal diagnostic task, yet current benchmarks face a coupled trade-off: whole-caption scores provide coverage without localization, local probes provide localization without coverage, and unconstrained LLM judges introduce instability.",
+      "key_concepts": [
+        "Annotated Videos",
+        "Atomic Verifiable",
+        "Audio Events",
+        "Audio--visual Captioning",
+        "Audio--visual Reasoning",
+        "Capability Limits"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "We introduce OmniCapBench (Omni-Video Caption Benchmark), a benchmark that reframes audio--visual caption evaluation as a deep-structured diagnostic framework.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Annotated Videos, Atomic Verifiable.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Audio--visual captioning is an ideal diagnostic task, yet current benchmarks face a coupled trade-off: whole-caption scores provide coverage without localization, local probes provide localization without coverage, and unconstrained LLM judges introduce instability."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.12432",
+      "raw_id": "http://arxiv.org/abs/2610.12432v1",
+      "title": "FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems",
+      "authors": [
+        "Songyuan Zhang",
+        "Baljeet Singh",
+        "Sarthak Ranjeet Kaingade",
+        "Chuchu Fan",
+        "Bryan Trinh"
+      ],
+      "published_date": "2026-10-08T17:57:06Z",
+      "updated_date": "2026-10-08T17:57:06Z",
+      "categories": [
+        "cs.RO",
+        "cs.LG",
+        "eess.SY"
+      ],
+      "abstract": "Safe reinforcement learning commonly places safety and task performance in the same policy objective, where they can introduce competing updates. Safety filters separate them at action execution, but classical designs require an analytic safety function and dynamics model, and standard minimal-intervention filters are myopic to long-horizon task return because they minimize only instantaneous action deviation. Hard projections are also undefined when no safe action exists. We present FAITH, a feasibility-aware, model-free framework that approximates the optimal state-action safety value and amortizes minimal-intervention filtering with a feedforward network. The task policy optimizes the task return through the filtered dynamics, which recovers the feasible constrained problem without a competing safety term in the task-policy update. When no action satisfies the learned safety condition, the same filter approaches the action with minimum predicted peak harm. On a double integrator example and a Safety Gym environment, FAITH achieves the highest return among methods with no feasible-start violations and matches the lowest harm from infeasible starts. On a 29-DoF humanoid, it reaches a 99.95% safety rate while retaining 97% of the unfiltered return in Walking-Avoid, and obtains the highest measured safety rate in Push-Avoid by learning to sacrifice balancing and fall away from the protected region. The same policies are also demonstrated on a real-world Unitree G1 humanoid.",
+      "url": "https://arxiv.org/abs/2610.12432v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12432v1",
+      "relevance_score": 0.649,
+      "processed_date": "2026-10-11",
+      "summary": "The task policy optimizes the task return through the filtered dynamics, which recovers the feasible constrained problem without a competing safety term in the task-policy update. We present FAITH, a feasibility-aware, model-free framework that approximates the optimal state-action safety value and amortizes minimal-intervention filtering with a feedforward network. Hard projections are also undefined when no safe action exists. The same policies are also demonstrated on a real-world Unitree G1 humanoid. Safe reinforcement learning commonly places safety and task performance in the same policy objective, where they can introduce competing updates. Safety filters separate them at action execution, but classical designs require an analytic safety function and dynamics model, and standard minimal-intervention filters are myopic to long-horizon task return because they minimize only instantaneous action deviation.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Safety Rate",
+        "Task-policy Update",
+        "Term Task-policy",
+        "Undefined Safe",
+        "Unfiltered Return"
+      ],
+      "insights": {
+        "problem": "The task policy optimizes the task return through the filtered dynamics, which recovers the feasible constrained problem without a competing safety term in the task-policy update.",
+        "approach": "We present FAITH, a feasibility-aware, model-free framework that approximates the optimal state-action safety value and amortizes minimal-intervention filtering with a feedforward network.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Safety Rate.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.12393",
+      "raw_id": "http://arxiv.org/abs/2610.12393v1",
+      "title": "HRIL: Learning Multimodal Synergy via Higher-Order Tensor Modeling",
+      "authors": [
+        "Qun Dai",
+        "Liangjian Wen",
+        "Jiang Duan",
+        "Yong Dai",
+        "Dongkai Wang",
+        "Maolin Wang",
+        "Mingjie Wang",
+        "Jianzhuang Liu",
+        "He Yan",
+        "Zhao Kang"
+      ],
+      "published_date": "2026-10-08T17:39:45Z",
+      "updated_date": "2026-10-08T17:39:45Z",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Self-supervised multimodal representation learning has achieved remarkable success across diverse domains, yet capturing synergistic information remains challenging due to the complexity of cross-modal interactions. Unlike the shared information across individual modalities, synergy arises when task-relevant signals emerge only from the joint configuration of multiple modalities and cannot be recovered from any modality in isolation. This work focuses on how to preserve the information capacity for such synergistic signals in multimodal representations. The key observation is that synergistic information is reflected in higher-order statistical dependence among modalities, which provides a principled target for explicitly modeling joint interactions. Motivated by this insight, we propose Higher-order Representation and Information Learning (HRIL), which constructs an empirical cross-moment tensor over modality embeddings to represent multi-way interactions. HRIL employs Tucker decomposition to obtain a core tensor, complemented by a synergy-aware regularizer that prevents energy concentration and preserves higher-order coupling capacity for synergistic information capture. Experiments on the controlled synergy task and real-world benchmarks demonstrate consistent improvements over existing multimodal contrastive methods, with notable gains on tasks dominated by synergistic interactions. Code is released at https://github.com/brightest66/HRIL.",
+      "url": "https://arxiv.org/abs/2610.12393v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12393v1",
+      "relevance_score": 0.649,
+      "processed_date": "2026-10-11",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates self-supervised multimodal representation learning has achieved remarkable success across diverse domains, yet capturing synergistic information remains challenging due to the complexity of cross-modal interactions. Motivated by this insight, we propose Higher-order Representation and Information Learning (HRIL), which constructs an empirical cross-moment tensor over modality embeddings to represent multi-way interactions. This work focuses on how to preserve the information capacity for such synergistic signals in multimodal representations. Code is released at https://github.com/brightest66/HRIL. Self-supervised multimodal representation learning has achieved remarkable success across diverse domains, yet capturing synergistic information remains challenging due to the complexity of cross-modal interactions.",
+      "key_concepts": [
+        "Representation Learning",
+        "Achieved Remarkable",
+        "Arises Task-relevant",
+        "Capacity Synergistic",
+        "Capturing Synergistic",
+        "Challenging Complexity"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "Motivated by this insight, we propose Higher-order Representation and Information Learning (HRIL), which constructs an empirical cross-moment tensor over modality embeddings to represent multi-way interactions.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Representation Learning, Achieved Remarkable.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.12367",
+      "raw_id": "http://arxiv.org/abs/2610.12367v1",
+      "title": "Which Skill to Distill? SGUID: Selecting a Compact Skill Bank for Model-Skill Co-Evolution",
+      "authors": [
+        "Yuhan Liu",
+        "Xiyao Ma",
+        "Zhongkai Sun",
+        "Xu Han",
+        "Chengyuan Ma",
+        "Benjamin Z. Yao",
+        "Chenlei Guo"
+      ],
+      "published_date": "2026-10-08T17:27:53Z",
+      "updated_date": "2026-10-08T17:27:53Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Skills, reusable procedural guidance added at inference, can substantially improve LLM downstream performance (Li et al., 2026). Prior work retrieves skills from a bank by semantic relevance, then uses them as inference-time patches or for model distillation. The individual utility of each skill, however, is largely neglected. We first show that, in on-policy distillation where skill-conditioned policies serve as teachers, fewer than 25% of retrieved skills provide useful distillation signals. We then propose SGUID, a method for selecting a compact subset of skills for distillation. SGUID retains a skill only if it consistently yields effective learning signals during training. The selected skills are then distilled to produce a better model. Our results show that not all skills are worth distilling. Across four models from the Olmo and Qwen families, distilling 6 selected skills matches or exceeds full-bank distillation in mean avg@12 on three of the four models, and on all four after a second round that distills 3 newly selected skills, while the full banks are up to 11x larger. Importantly, SGUID supports stable model-skill co-evolution: after a distillation round, a new candidate bank is curated from the updated model's rollouts, and SGUID selects which skills to internalize next. In the second round, this loop selects 3 new skills and improves Qwen3-8B from 64.3% to 66.3%. The selection step is essential for stability: on Qwen3-4B, naively updating the model with unfiltered skills degrades performance, including a 0.3 percentage point drop on HMMT25, whereas SGUID improves HMMT25 by 0.5 points after the first round and 1.1 points after the second. These results identify skill selection as the key mechanism for stable model-skill co-evolution.",
+      "url": "https://arxiv.org/abs/2610.12367v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.12367v1",
+      "relevance_score": 0.648,
+      "processed_date": "2026-10-11",
+      "summary": "The individual utility of each skill, however, is largely neglected. Prior work retrieves skills from a bank by semantic relevance, then uses them as inference-time patches or for model distillation. Our results show that not all skills are worth distilling. These results identify skill selection as the key mechanism for stable model-skill co-evolution. Skills, reusable procedural guidance added at inference, can substantially improve LLM downstream performance (Li et al., 2026). We first show that, in on-policy distillation where skill-conditioned policies serve as teachers, fewer than 25% of retrieved skills provide useful distillation signals. We then propose SGUID, a method for selecting a compact subset of skills for distillation.",
+      "key_concepts": [
+        "Model-skill Co-evolution",
+        "Selected Skills",
+        "Skills Distillation",
+        "Skills Distilled",
+        "Skills Improves",
+        "Skills Matches"
+      ],
+      "insights": {
+        "problem": "The individual utility of each skill, however, is largely neglected.",
+        "approach": "Prior work retrieves skills from a bank by semantic relevance, then uses them as inference-time patches or for model distillation.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Model-skill Co-evolution, Selected Skills.",
+        "results": "Our results show that not all skills are worth distilling.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
     }
   ]
 }

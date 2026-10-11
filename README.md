@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[10 October 2026 Report](reports/2026/10/10/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[11 October 2026 Report](reports/2026/10/11/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/10/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/11/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/10/infographic.png)](reports/2026/10/10/infographic.png)
+[![Daily Infographic](reports/2026/10/11/infographic.png)](reports/2026/10/11/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `2` |
-| **Machine Learning (ML)** | `3` |
-| **Robotics** | `9` |
+| **Artificial Intelligence (AI)** | `4` |
+| **Machine Learning (ML)** | `4` |
+| **Robotics** | `5` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **A Physics-Informed Collision Learning Framework for Collaborative Robot ...** | `Robotics` | `0.72` | [arXiv](https://arxiv.org/abs/2610.12404v1) |
-| 2 | **SpatialHarness: Test-Time Spatial Scaffolding for Fine Robotic Manipulation** | `Robotics` | `0.72` | [arXiv](https://arxiv.org/abs/2610.12457v1) |
-| 3 | **One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Pro...** | `Machine Learning` | `0.73` | [arXiv](https://arxiv.org/abs/2610.12448v1) |
-| 4 | **LiteNWM: Efficient Latent World Models for Onboard Visual Navigation in ...** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2610.12368v1) |
-| 5 | **RoboRSI: Stable, efficient, and reusable robot self-evolution in complex...** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2610.12424v1) |
+| 1 | **Which Skill to Distill? SGUID: Selecting a Compact Skill Bank for Model-...** | `Machine Learning` | `0.65` | [arXiv](https://arxiv.org/abs/2610.12367v1) |
+| 2 | **HRIL: Learning Multimodal Synergy via Higher-Order Tensor Modeling** | `Machine Learning` | `0.65` | [arXiv](https://arxiv.org/abs/2610.12393v1) |
+| 3 | **FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems** | `Robotics` | `0.65` | [arXiv](https://arxiv.org/abs/2610.12432v1) |
+| 4 | **OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Au...** | `Artificial Intelligence` | `0.65` | [arXiv](https://arxiv.org/abs/2610.12458v1) |
+| 5 | **Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improve...** | `Robotics` | `0.66` | [arXiv](https://arxiv.org/abs/2610.12369v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `28`
-- **Total Operational Runs**: `15 days`
+- **Total Papers Analyzed**: `38`
+- **Total Operational Runs**: `16 days`
 - **Categories Tracked**: `9 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, IoT & Edge AI
 
