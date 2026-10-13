@@ -1,6 +1,6 @@
 {
   "month": "2026-10",
-  "total_papers": 38,
+  "total_papers": 48,
   "papers": [
     {
       "arxiv_id": "2403.01234",
@@ -1645,6 +1645,416 @@
         "key_innovation": "Formulates an integrated mechanism leveraging Model-skill Co-evolution, Selected Skills.",
         "results": "Our results show that not all skills are worth distilling.",
         "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.13862",
+      "raw_id": "http://arxiv.org/abs/2610.13862v1",
+      "title": "BT-Agent: Deploying Onboard Robot Agents with Behavior Trees and Multi-Fidelity Evaluation",
+      "authors": [
+        "Fabio Hübel",
+        "Adam Lilja",
+        "Yue Yin",
+        "Siming He",
+        "Claire Tomlin",
+        "Shankar Sastry",
+        "Jonas Frey",
+        "Marco Pavone"
+      ],
+      "published_date": "2026-10-09T17:08:45Z",
+      "updated_date": "2026-10-09T17:08:45Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Deploying language-model agents onboard mobile robots requires task reasoning and responsive execution within limited compute and memory. We propose BT-Agent, an onboard architecture combining LLM-driven task decisions with predefined behavior-tree (BT) skills. These skills enforce execution conditions and return structured failure feedback. We demonstrate fully onboard operation with a 9B model on a quadruped across five task categories. Intervention tests show that local checks stop ongoing navigation without waiting for another model decision, while the agent remains active to retry or report constraints. To compare agent designs efficiently, we introduce a 161-task multi-fidelity benchmark, evaluated in text on all tasks and in Habitat on 39. Text supports 10.9\\times higher evaluation throughput, while simulation reveals how perception and motion failures change task outcomes. BT-Agent's largest success gains over the strongest Act/ReAct baseline occur at 4B and 9B: approximately 10 and 5 percentage points. Ablations identify structured tool calls and informative failure feedback as the most useful components.",
+      "url": "https://arxiv.org/abs/2610.13862v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13862v1",
+      "relevance_score": 0.785,
+      "processed_date": "2026-10-13",
+      "summary": "Addressing critical demands in Robotics, this research investigates deploying language-model agents onboard mobile robots requires task reasoning and responsive execution within limited compute and memory. We propose BT-Agent, an onboard architecture combining LLM-driven task decisions with predefined behavior-tree (BT) skills. These skills enforce execution conditions and return structured failure feedback. Ablations identify structured tool calls and informative failure feedback as the most useful components. Deploying language-model agents onboard mobile robots requires task reasoning and responsive execution within limited compute and memory. We demonstrate fully onboard operation with a 9B model on a quadruped across five task categories. Intervention tests show that local checks stop ongoing navigation without waiting for another model decision, while the agent remains active to retry or report constraints.",
+      "key_concepts": [
+        "Ablations Identify",
+        "Act React",
+        "Active Retry",
+        "Agent Designs",
+        "Approximately Percentage",
+        "Behavior-tree Skills"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We propose BT-Agent, an onboard architecture combining LLM-driven task decisions with predefined behavior-tree (BT) skills.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Ablations Identify, Act React.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Intervention tests show that local checks stop ongoing navigation without waiting for another model decision, while the agent remains active to retry or report constraints."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.13849",
+      "raw_id": "http://arxiv.org/abs/2610.13849v1",
+      "title": "HorizonNav: Geometry-Guided Video Diffusion for Anticipatory 3D Robot Navigation",
+      "authors": [
+        "Hajira Amjad",
+        "Valerii Serpiva",
+        "Viacheslav Liubimov",
+        "Didar Seyidov",
+        "Dzmitry Tsetserukou"
+      ],
+      "published_date": "2026-10-09T16:57:08Z",
+      "updated_date": "2026-10-09T16:57:08Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "We present HorizonNav, a video diffusion-based framework for anticipatory robot navigation that transforms a single RGB image and a text prompt into a geometrically aligned representation of plausible surrounding 3D space. Given the initial observation and a textual description of the reconstruction objective, a vision-language model, guided by designed instructions, interprets the scene and constructs structured prompts for a video diffusion model. The resulting video sequence provides plausible future observations of the environment, which are subsequently processed using monocular ORB-SLAM3 for camera pose estimation and Video Depth Anything for dense depth prediction. Our central contribution is a geometry-guided depth alignment stage that combines the estimated camera poses with triangulated visual landmarks to constrain dense depth predictions across multiple views. This alignment improves the geometric consistency of the reconstructed 3D environment, addressing inconsistencies that temporal coherence of the generated video alone cannot resolve. The experimental evaluation of navigation in imagined 3D environment shows that across a 19-scene horizon study, planning-feasible scenes increase from 13/19 at P20 to 15/19 at P81, while successful RRT trials increase from 62/90 to 75/90. In a separate corridor study, 6 of 25 evaluable generated-camera trajectories violate the reconstructed collision constraints; RRT planner recovers feasible alternatives in 5 of those 6 cases. A larger archive contains 58 usable reconstructions from 67 attempted cases, of which 36 support a downstream plan and 22 do not, exposing reconstruction and free-space failure modes rather than hiding them without lidar. Across 15 corridor reconstructions, the mean reconstruction error is approximately 0.30 m at matched structural landmarks.",
+      "url": "https://arxiv.org/abs/2610.13849v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13849v1",
+      "relevance_score": 0.765,
+      "processed_date": "2026-10-13",
+      "summary": "Addressing critical demands in Robotics, this research investigates we present horizonnav, a video diffusion-based framework for anticipatory robot navigation that transforms a single rgb image and a text prompt into a geometrically aligned representation of plausible surrounding 3d space. We present HorizonNav, a video diffusion-based framework for anticipatory robot navigation that transforms a single RGB image and a text prompt into a geometrically aligned representation of plausible surrounding 3D space. The resulting video sequence provides plausible future observations of the environment, which are subsequently processed using monocular ORB-SLAM3 for camera pose estimation and Video Depth Anything for dense depth prediction. Across 15 corridor reconstructions, the mean reconstruction error is approximately 0.30 m at matched structural landmarks.",
+      "key_concepts": [
+        "Robot Navigation",
+        "Diffusion Model",
+        "Video Diffusion",
+        "Alternatives Cases",
+        "Anticipatory Robot",
+        "Approximately Matched"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We present HorizonNav, a video diffusion-based framework for anticipatory robot navigation that transforms a single RGB image and a text prompt into a geometrically aligned representation of plausible surrounding 3D space.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Robot Navigation, Diffusion Model.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "In a separate corridor study, 6 of 25 evaluable generated-camera trajectories violate the reconstructed collision constraints; RRT planner recovers feasible alternatives in 5 of those 6 cases."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.13816",
+      "raw_id": "http://arxiv.org/abs/2610.13816v1",
+      "title": "Dream to Remember: Continual Steering of Generalist Robot Policies with World Models",
+      "authors": [
+        "Bahey Tharwat",
+        "Iman Nematollahi",
+        "Marvin Alles",
+        "Xingyuan Zhang",
+        "Akshay L Chandra",
+        "Abhinav Valada"
+      ],
+      "published_date": "2026-10-09T16:28:01Z",
+      "updated_date": "2026-10-09T16:28:01Z",
+      "categories": [
+        "cs.RO",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "Generalist robot policies are trained with imitation learning and are bounded by the quality and coverage of their demonstrations. Reinforcement learning can improve and extend them, either by fine-tuning the policy weights or by training a small module to steer the input noise of a frozen generative policy. When tasks arrive sequentially, both approaches suffer from catastrophic forgetting. Fine-tuning on a task degrades prior tasks, and steering only shifts forgetting to the shared steering module. We propose Dream to Remember (D2R), which continually steers a frozen generalist policy toward new tasks, while retaining its earlier skills. As the steering module learns a new task, a frozen pretrained world model rehearses prior tasks through imagined rollouts, anchoring the module to its earlier behavior without a replay buffer or new data. When the world model is faithful enough, D2R learns the new task entirely in imagination. Otherwise, it learns the task in the environment while using the world model only to rehearse prior tasks. On CALVIN, D2R improves eight tasks in sequence entirely in imagination, raising average success from 63.7% to 74.8%, while LoRA fine-tuning on the same sequence drops it to 11.7%. With a frozen off-the-shelf generalist policy and world model, π_0 and A2World, D2R learns unseen LIBERO-90 tasks in the environment while keeping π_0's performance on the LIBERO suites it was fine-tuned on, even though the world model is not accurate enough for policy optimization. Finally, on a real Franka robot, D2R improves three tasks in sequence entirely in imagination while retaining the earlier improvements.",
+      "url": "https://arxiv.org/abs/2610.13816v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13816v1",
+      "relevance_score": 0.706,
+      "processed_date": "2026-10-13",
+      "summary": "When tasks arrive sequentially, both approaches suffer from catastrophic forgetting. We propose Dream to Remember (D2R), which continually steers a frozen generalist policy toward new tasks, while retaining its earlier skills. Finally, on a real Franka robot, D2R improves three tasks in sequence entirely in imagination while retaining the earlier improvements. Generalist robot policies are trained with imitation learning and are bounded by the quality and coverage of their demonstrations. Reinforcement learning can improve and extend them, either by fine-tuning the policy weights or by training a small module to steer the input noise of a frozen generative policy. Fine-tuning on a task degrades prior tasks, and steering only shifts forgetting to the shared steering module.",
+      "key_concepts": [
+        "World Model",
+        "Imitation Learning",
+        "Reinforcement Learning",
+        "Entirely Imagination",
+        "Generalist Policy",
+        "Retaining Earlier"
+      ],
+      "insights": {
+        "problem": "When tasks arrive sequentially, both approaches suffer from catastrophic forgetting.",
+        "approach": "We propose Dream to Remember (D2R), which continually steers a frozen generalist policy toward new tasks, while retaining its earlier skills.",
+        "key_innovation": "Formulates an integrated mechanism leveraging World Model, Imitation Learning.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.13945",
+      "raw_id": "http://arxiv.org/abs/2610.13945v1",
+      "title": "Splat2Act: From Captured Scenes to Personalized VLA Manipulation",
+      "authors": [
+        "Xiaomeng Ye",
+        "Krishna Jaganathan",
+        "Gyubeum Lim",
+        "Gunjan Chhablani",
+        "Muhammad Zubair Irshad",
+        "Zsolt Kira"
+      ],
+      "published_date": "2026-10-09T17:59:06Z",
+      "updated_date": "2026-10-09T17:59:06Z",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "abstract": "A user who brings a generalist manipulation policy into their home or office wants it to pick up their objects from their shelves, counters, and tables. Yet even a strong generalist like π_{0.5} achieves 0% pickup success in our captured deployment scenes without adaptation, and collecting real demonstrations in every user's environment is prohibitively expensive. We present Splat2Act, an automated real-to-sim-to-real pipeline that personalizes a pretrained vision-language-action (VLA) policy to a specific scene and object set using only a handheld phone scan and images of the user's objects. Unlike prior real-to-sim work that reconstructs individual tabletops, Splat2Act operates on building-scale indoor environments: it builds a photorealistic digital twin with 3D Gaussian Splatting and collision geometry, automatically discovers tabletop and non-tabletop receptacles, constructs feasible pickup tasks, and generates successful demonstrations with a privileged simulation oracle, with only scene and object capture required from a human. Applied to 101 scanned campus environments with a median navigable area of 104.87 m^2 and 7 receptacles, the pipeline yields 852 receptacles and over 68,000 pickup demonstrations. We fine-tune π_{0.5} in two stages: Stage 1 adapts to hundreds of public object assets, drawn either from the deployment scene alone or from all 101 scenes; Stage 2 personalizes to the user's own objects on the deployment scene's receptacles. Our strongest personalized policy reaches 62.5% aggregate pickup success in the target scene. Deployed on a real Stretch 3, the same policy achieves 63.9% success on a 12-task subset, closely tracking its 66.7% simulated success on those tasks. These results suggest that automated real-to-sim-to-real training can personalize VLA manipulation policies using only simulation-oracle data.",
+      "url": "https://arxiv.org/abs/2610.13945v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13945v1",
+      "relevance_score": 0.681,
+      "processed_date": "2026-10-13",
+      "summary": "Addressing critical demands in Robotics, this research investigates a user who brings a generalist manipulation policy into their home or office wants it to pick up their objects from their shelves, counters, and tables. We present Splat2Act, an automated real-to-sim-to-real pipeline that personalizes a pretrained vision-language-action (VLA) policy to a specific scene and object set using only a handheld phone scan and images of the user's objects. These results suggest that automated real-to-sim-to-real training can personalize VLA manipulation policies using only simulation-oracle data. A user who brings a generalist manipulation policy into their home or office wants it to pick up their objects from their shelves, counters, and tables.",
+      "key_concepts": [
+        "Sim-to-Real Transfer",
+        "Manipulation",
+        "Gaussian Splatting",
+        "Applied Scanned Campus",
+        "Area Receptacles",
+        "Assets Drawn"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We present Splat2Act, an automated real-to-sim-to-real pipeline that personalizes a pretrained vision-language-action (VLA) policy to a specific scene and object set using only a handheld phone scan and images of the user's objects.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Sim-to-Real Transfer, Manipulation.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.13915",
+      "raw_id": "http://arxiv.org/abs/2610.13915v1",
+      "title": "Where to Look Matters: Rethinking Sub-Volume Sampling in 3D Medical Self-supervised Learning",
+      "authors": [
+        "Junkai Liu",
+        "Le Zhang"
+      ],
+      "published_date": "2026-10-09T17:51:47Z",
+      "updated_date": "2026-10-09T17:51:47Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Self-supervised learning on 3D medical images commonly relies on random sub-volume sampling during pretraining. However, random cropping implicitly treats all spatial regions as equally worth observing, despite anatomical priors and spatial redundancy that make regions inherently unequal in their value for representation learning. To this end, we first show through controlled crop-quality manipulations that better sub-volumes lead to better downstream transfer, revealing the observation policy as an overlooked bottleneck in 3D medical SSL. Motivated by this finding, we revisit sub-volume sampling as a \\emph{where-to-look} problem. We propose \\textbf{\\method}, a plug-and-play framework that replaces random cropping with an offline coarse-to-fine probe bank guided by \\textit{anatomy-awareness}, \\textit{informativeness}, and \\textit{diversity}. We instantiate \\method as a lightweight \\lite variant using geometric and image-statistical cues, and a diagnostic \\feat variant using frozen visual features, to examine whether lightweight volume-intrinsic priors suffice or richer semantic cues reliably provide additional value. Extensive experiments across multiple 3D medical SSL backbones and downstream tasks demonstrate that \\method-\\lite consistently improves transfer performance over random sampling. Mechanistic analyses further attribute these gains to more anatomically plausible and informative observations, reduced spatial redundancy, more efficient learning dynamics, and more structured representations.",
+      "url": "https://arxiv.org/abs/2610.13915v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13915v1",
+      "relevance_score": 0.666,
+      "processed_date": "2026-10-13",
+      "summary": "However, random cropping implicitly treats all spatial regions as equally worth observing, despite anatomical priors and spatial redundancy that make regions inherently unequal in their value for representation learning. We propose \\textbf{\\method}, a plug-and-play framework that replaces random cropping with an offline coarse-to-fine probe bank guided by \\textit{anatomy-awareness}, \\textit{informativeness}, and \\textit{diversity}. To this end, we first show through controlled crop-quality manipulations that better sub-volumes lead to better downstream transfer, revealing the observation policy as an overlooked bottleneck in 3D medical SSL. Mechanistic analyses further attribute these gains to more anatomically plausible and informative observations, reduced spatial redundancy, more efficient learning dynamics, and more structured representations.",
+      "key_concepts": [
+        "Representation Learning",
+        "Self-supervised Learning",
+        "Sub-volume Sampling",
+        "Attribute Gains Anatomically",
+        "Backbones Downstream",
+        "Bank Guided"
+      ],
+      "insights": {
+        "problem": "However, random cropping implicitly treats all spatial regions as equally worth observing, despite anatomical priors and spatial redundancy that make regions inherently unequal in their value for representation learning.",
+        "approach": "We propose \\textbf{\\method}, a plug-and-play framework that replaces random cropping with an offline coarse-to-fine probe bank guided by \\textit{anatomy-awareness}, \\textit{informativeness}, and \\textit{diversity}.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Representation Learning, Self-supervised Learning.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.13857",
+      "raw_id": "http://arxiv.org/abs/2610.13857v1",
+      "title": "Revisiting the Task of Building Damage Assessment by Satellite Imaging",
+      "authors": [
+        "Anthony Cioppa",
+        "Virgile Blua",
+        "Sébastien Piérard",
+        "Pietro Ceccato",
+        "Marc Van Droogenbroeck"
+      ],
+      "published_date": "2026-10-09T17:07:03Z",
+      "updated_date": "2026-10-09T17:07:03Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Natural disasters such as earthquakes, tropical storms, and floods cause extensive damage to buildings, and rapid, reliable damage maps are essential to guide emergency response. Automating this task, referred to as building damage assessment (BDA), from satellite imagery, has become an active research topic at the intersection of remote sensing, computer vision, and machine learning, particularly since supervised deep learning methods were shown to outperform earlier handcrafted approaches. Yet, despite a decade of intense activity and the release of several large-scale datasets, the field lacks a shared foundation. This chapter revisits the task of BDA from first principles, organized around three pillars: data, evaluation, and methods. We first clarify the candidate task for- mulations and argue for a sensor-agnostic, instance-based definition that tolerates missing pre-event imagery. We then review existing datasets along the axes of sensing modality, temporal configuration, and geographic coverage. On the evaluation side, we show that prevailing practices, largely based on a single aggregate score, are theoretically fragile, and we lay the foundations of a more informative, ranking-based, multi-score protocol. We further review methods ranging from task-specific deep networks to recent Earth observation foundation models, noticing that generalization to unseen events and regions remains an open difficulty. Finally, we discuss how these elements can inform the organization of a BDA challenge, including cross-validation, challenge, and private data-sharing setups designed to build trust between developers and users.",
+      "url": "https://arxiv.org/abs/2610.13857v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13857v1",
+      "relevance_score": 0.666,
+      "processed_date": "2026-10-13",
+      "summary": "Yet, despite a decade of intense activity and the release of several large-scale datasets, the field lacks a shared foundation. Automating this task, referred to as building damage assessment (BDA), from satellite imagery, has become an active research topic at the intersection of remote sensing, computer vision, and machine learning, particularly since supervised deep learning methods were shown to outperform earlier handcrafted approaches. Finally, we discuss how these elements can inform the organization of a BDA challenge, including cross-validation, challenge, and private data-sharing setups designed to build trust between developers and users. Natural disasters such as earthquakes, tropical storms, and floods cause extensive damage to buildings, and rapid, reliable damage maps are essential to guide emergency response.",
+      "key_concepts": [
+        "Active Research",
+        "Activity Release",
+        "Aggregate Score",
+        "Approaches Despite",
+        "Argue Sensor-agnostic",
+        "Assessment Bda"
+      ],
+      "insights": {
+        "problem": "Yet, despite a decade of intense activity and the release of several large-scale datasets, the field lacks a shared foundation.",
+        "approach": "Automating this task, referred to as building damage assessment (BDA), from satellite imagery, has become an active research topic at the intersection of remote sensing, computer vision, and machine learning, particularly since supervised deep learning methods were shown to outperform earlier handcrafted approaches.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Active Research, Activity Release.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.13947",
+      "raw_id": "http://arxiv.org/abs/2610.13947v1",
+      "title": "Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipeline and Benchmark",
+      "authors": [
+        "Xudong Cai",
+        "Ruijie Zhu",
+        "Haoliang Shang",
+        "Ruining Li",
+        "Marc Pollefeys",
+        "Shangzhe Wu",
+        "Andrea Vedaldi",
+        "Chuanxia Zheng"
+      ],
+      "published_date": "2026-10-09T17:59:41Z",
+      "updated_date": "2026-10-09T17:59:41Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "In this paper, we study physically grounded articulated 3D asset generation---moving the goal from reproducing how objects look to capturing how they move and function. Inspired by the literature on procedural and agentic generation, we present Artisan, a system that extends the latest method Articraft by introducing a multi-agent pipeline with physical simulation feedback, enabling comprehensive attributes beyond geometry, appearance, and physically plausible articulation, such as collision-free motion, stability under gravity, and accurate mass and material properties. Furthermore, we construct a unified benchmark spanning four key aspects: spatial fidelity, physical plausibility, downstream task performance, and overall quality. The benchmark encompasses 100 reference assets from ArtVIP and LightWheel, 50 stability prompts, and 50 ABO objects with reference masses, with protocols evaluating various metrics. Through extensive evaluation of more than 10 representative models, Artisan achieves competitive spatial fidelity while attaining the lowest collision rates and highest stability rates among the evaluated methods. Together, our system and benchmark establish insights for advancing 3D generation towards physically plausible, functionally usable assets.",
+      "url": "https://arxiv.org/abs/2610.13947v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13947v1",
+      "relevance_score": 0.657,
+      "processed_date": "2026-10-13",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates in this paper, we study physically grounded articulated 3d asset generation---moving the goal from reproducing how objects look to capturing how they move and function. Inspired by the literature on procedural and agentic generation, we present Artisan, a system that extends the latest method Articraft by introducing a multi-agent pipeline with physical simulation feedback, enabling comprehensive attributes beyond geometry, appearance, and physically plausible articulation, such as collision-free motion, stability under gravity, and accurate mass and material properties. Furthermore, we construct a unified benchmark spanning four key aspects: spatial fidelity, physical plausibility, downstream task performance, and overall quality. Together, our system and benchmark establish insights for advancing 3D generation towards physically plausible, functionally usable assets.",
+      "key_concepts": [
+        "Abo Objects",
+        "Accurate Mass",
+        "Achieves Competitive",
+        "Advancing Generation",
+        "Agentic Generation",
+        "Appearance Physically"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "Inspired by the literature on procedural and agentic generation, we present Artisan, a system that extends the latest method Articraft by introducing a multi-agent pipeline with physical simulation feedback, enabling comprehensive attributes beyond geometry, appearance, and physically plausible articulation, such as collision-free motion, stability under gravity, and accurate mass and material properties.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Abo Objects, Accurate Mass.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.13929",
+      "raw_id": "http://arxiv.org/abs/2610.13929v1",
+      "title": "Chronos Policy: Learning Robot Policies on Physical Time",
+      "authors": [
+        "Changhao Wang",
+        "Jaden Clark",
+        "Shuran Song"
+      ],
+      "published_date": "2026-10-09T17:55:20Z",
+      "updated_date": "2026-10-09T17:55:20Z",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "abstract": "Robot policies often convert sensing and control into fixed-rate observation-action sequences, leaving physical time implicit in sequence position. This assumption breaks when observation rates or delays vary, or when inference latency changes. We introduce Chronos Policy, which makes physical time explicit by conditioning on observation capture times and desired action execution times. We study two ways to incorporate time into a diffusion transformer: adding timestamp embeddings to token features, or encoding physical time in positional encoding through time-aware rotary positional encodings (time-aware RoPE). We find that time-aware RoPE is more robust, allowing attention to depend directly on physical time while keeping token content unchanged. During training, we temporally randomize which observations are sampled and when the action chunk begins, exposing the policy to a wider range of sensing and execution schedules that may occur during deployments. This also enables learning from asynchronous, multi-rate data without forcing all measurements onto a fixed temporal grid. Across simulation and real-world experiments, Chronos Policy improves performance on dynamic tasks, where observation-to-action timing is critical, and on multisensory tasks, where the relative timing between observations matters. On standard quasi-static tasks, it preserves nominal performance while improving robustness to changes in sensing and inference timing.",
+      "url": "https://arxiv.org/abs/2610.13929v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13929v1",
+      "relevance_score": 0.651,
+      "processed_date": "2026-10-13",
+      "summary": "Addressing critical demands in Robotics, this research investigates robot policies often convert sensing and control into fixed-rate observation-action sequences, leaving physical time implicit in sequence position. We introduce Chronos Policy, which makes physical time explicit by conditioning on observation capture times and desired action execution times. On standard quasi-static tasks, it preserves nominal performance while improving robustness to changes in sensing and inference timing. Robot policies often convert sensing and control into fixed-rate observation-action sequences, leaving physical time implicit in sequence position. This assumption breaks when observation rates or delays vary, or when inference latency changes. We study two ways to incorporate time into a diffusion transformer: adding timestamp embeddings to token features, or encoding physical time in positional encoding through time-aware rotary positional encodings (time-aware RoPE).",
+      "key_concepts": [
+        "Chronos Policy",
+        "Physical Time",
+        "Action Chunk",
+        "Action Execution",
+        "Adding Timestamp",
+        "Assumption Breaks"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We introduce Chronos Policy, which makes physical time explicit by conditioning on observation capture times and desired action execution times.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Chronos Policy, Physical Time.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.13860",
+      "raw_id": "http://arxiv.org/abs/2610.13860v1",
+      "title": "Make It Flow: Animating Water in 3D Gaussian Splatting Scenes",
+      "authors": [
+        "Kjell Keune",
+        "Florian Hahlbohm",
+        "Jannis Möller",
+        "Susana Castillo",
+        "Martin Eisemann",
+        "Marcus Magnor"
+      ],
+      "published_date": "2026-10-09T17:08:02Z",
+      "updated_date": "2026-10-09T17:08:02Z",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "abstract": "Explicit 3D scene representations such as 3D Gaussian Splatting (3DGS) have recently enabled high-quality, real-time novel view synthesis. However, these methods assume static scenes, limiting realism in the presence of dynamic phenomena ubiquitous in real-world environments. While coherent motion (e.g., humans or vehicles) can be captured and reconstructed, high-frequency effects such as flowing water remain intractable under casual capture conditions, where dense multi-view, high-speed acquisition is not feasible. We present a method to animate water in static 3DGS scenes, enabling visually plausible motion without requiring dynamic capture or physical simulation. Our approach estimates 2D optical flow from reference images or model renderings and lifts it into a consistent 3D Eulerian motion field. We propose a cinemagraph-inspired algorithm that applies this motion field to deform Gaussian primitives, producing temporally seamless looping animations. The resulting representation retains real-time rendering performance, significantly enhances perceptual realism, and preserves free-viewpoint navigation within the scene. We evaluate our method on a newly captured dataset of in-the-wild waterfall scenes and demonstrate clear improvements over prior work in dynamic Gaussian splatting and 3D cinemagraph generation in visual quality and computational efficiency.",
+      "url": "https://arxiv.org/abs/2610.13860v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13860v1",
+      "relevance_score": 0.639,
+      "processed_date": "2026-10-13",
+      "summary": "However, these methods assume static scenes, limiting realism in the presence of dynamic phenomena ubiquitous in real-world environments. We present a method to animate water in static 3DGS scenes, enabling visually plausible motion without requiring dynamic capture or physical simulation. Explicit 3D scene representations such as 3D Gaussian Splatting (3DGS) have recently enabled high-quality, real-time novel view synthesis. While coherent motion (e.g., humans or vehicles) can be captured and reconstructed, high-frequency effects such as flowing water remain intractable under casual capture conditions, where dense multi-view, high-speed acquisition is not feasible. We evaluate our method on a newly captured dataset of in-the-wild waterfall scenes and demonstrate clear improvements over prior work in dynamic Gaussian splatting and 3D cinemagraph generation in visual quality and computational efficiency.",
+      "key_concepts": [
+        "Gaussian Splatting",
+        "Acquisition Feasible",
+        "Algorithm Applies",
+        "Animate Water",
+        "Animations Resulting",
+        "Applies Motion"
+      ],
+      "insights": {
+        "problem": "However, these methods assume static scenes, limiting realism in the presence of dynamic phenomena ubiquitous in real-world environments.",
+        "approach": "We present a method to animate water in static 3DGS scenes, enabling visually plausible motion without requiring dynamic capture or physical simulation.",
+        "key_innovation": "Explicit 3D scene representations such as 3D Gaussian Splatting (3DGS) have recently enabled high-quality, real-time novel view synthesis.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "However, these methods assume static scenes, limiting realism in the presence of dynamic phenomena ubiquitous in real-world environments."
+      },
+      "primary_topic": "Computer Vision"
+    },
+    {
+      "arxiv_id": "2610.13935",
+      "raw_id": "http://arxiv.org/abs/2610.13935v1",
+      "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
+      "authors": [
+        "Bhanu Tokas",
+        "Rahul Nair",
+        "Rockwell Jackson",
+        "Hannah Kerner"
+      ],
+      "published_date": "2026-10-09T17:56:59Z",
+      "updated_date": "2026-10-09T17:56:59Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regression models. They require access to model weights or large concept-annotated datasets, and most methods cannot provide image-level attribution. We propose Hide and Seek (HnS), a new method for concept-level attribution that does not require access to model weights or labeled concept datasets. HnS can interpret a wide range of vision models. Given a concept and image set, HnS retrieves concept-aligned images using a vision-language model, localizes the concept within each image, masks the localized region, and measures attribution from the change in the black-box model's output between the original and masked images. This enables faithful attribution by directly measuring the model's behavior and supporting local attributions. We validated HnS on CelebA and COCO-Stuff. Compared to existing methods, HnS showed better agreement with ground-truth attributions. We demonstrated the applicability of HnS on diverse tasks, including image captioning and satellite image segmentation, where no existing concept attribution method can be used. We provided our anonymous code in the supplementary material.",
+      "url": "https://arxiv.org/abs/2610.13935v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.13935v1",
+      "relevance_score": 0.637,
+      "processed_date": "2026-10-13",
+      "summary": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. We propose Hide and Seek (HnS), a new method for concept-level attribution that does not require access to model weights or labeled concept datasets. Existing concept-based methods can only interpret classification and regression models. We provided our anonymous code in the supplementary material. Concept-based attribution methods interpret models using human-understandable concepts. They require access to model weights or large concept-annotated datasets, and most methods cannot provide image-level attribution. HnS can interpret a wide range of vision models. Given a concept and image set, HnS retrieves concept-aligned images using a vision-language model, localizes the concept within each image, masks the localized region, and measures attribution from the change in the black-box model's output between the original and masked images.",
+      "key_concepts": [
+        "Agreement Ground-truth",
+        "Anonymous Code",
+        "Applicability Hns",
+        "Attribution Change",
+        "Attribution Directly",
+        "Attribution Methods"
+      ],
+      "insights": {
+        "problem": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models.",
+        "approach": "We propose Hide and Seek (HnS), a new method for concept-level attribution that does not require access to model weights or labeled concept datasets.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Agreement Ground-truth, Anonymous Code.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "Machine Learning"

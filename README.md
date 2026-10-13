@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[11 October 2026 Report](reports/2026/10/11/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[13 October 2026 Report](reports/2026/10/13/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/11/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/13/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/11/infographic.png)](reports/2026/10/11/infographic.png)
+[![Daily Infographic](reports/2026/10/13/infographic.png)](reports/2026/10/13/infographic.png)
 
 ---
 
@@ -25,7 +25,7 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `4` |
+| **Artificial Intelligence (AI)** | `2` |
 | **Machine Learning (ML)** | `4` |
 | **Robotics** | `5` |
 | **IoT & Edge AI** | `0` |
@@ -36,20 +36,20 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Which Skill to Distill? SGUID: Selecting a Compact Skill Bank for Model-...** | `Machine Learning` | `0.65` | [arXiv](https://arxiv.org/abs/2610.12367v1) |
-| 2 | **HRIL: Learning Multimodal Synergy via Higher-Order Tensor Modeling** | `Machine Learning` | `0.65` | [arXiv](https://arxiv.org/abs/2610.12393v1) |
-| 3 | **FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems** | `Robotics` | `0.65` | [arXiv](https://arxiv.org/abs/2610.12432v1) |
-| 4 | **OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Au...** | `Artificial Intelligence` | `0.65` | [arXiv](https://arxiv.org/abs/2610.12458v1) |
-| 5 | **Embodied Turing Machines: Stateful Code for Robot Recursive Self-Improve...** | `Robotics` | `0.66` | [arXiv](https://arxiv.org/abs/2610.12369v1) |
+| 1 | **Hide and Seek: HIDE Concepts to SEEK explanations for black box models** | `Machine Learning` | `0.64` | [arXiv](https://arxiv.org/abs/2610.13935v1) |
+| 2 | **Make It Flow: Animating Water in 3D Gaussian Splatting Scenes** | `Computer Vision` | `0.64` | [arXiv](https://arxiv.org/abs/2610.13860v1) |
+| 3 | **Chronos Policy: Learning Robot Policies on Physical Time** | `Robotics` | `0.65` | [arXiv](https://arxiv.org/abs/2610.13929v1) |
+| 4 | **Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipelin...** | `Artificial Intelligence` | `0.66` | [arXiv](https://arxiv.org/abs/2610.13947v1) |
+| 5 | **Revisiting the Task of Building Damage Assessment by Satellite Imaging** | `Machine Learning` | `0.67` | [arXiv](https://arxiv.org/abs/2610.13857v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `38`
-- **Total Operational Runs**: `16 days`
-- **Categories Tracked**: `9 categories`
-- **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, IoT & Edge AI
+- **Total Papers Analyzed**: `48`
+- **Total Operational Runs**: `17 days`
+- **Categories Tracked**: `10 categories`
+- **Primary Focus Areas**: Robotics, Machine Learning, Artificial Intelligence, IoT & Edge AI
 
 ---
 
