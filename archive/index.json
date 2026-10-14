@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-13T07:27:27.892866",
-  "total_entries": 48,
+  "updated_at": "2026-10-14T05:54:37.093973",
+  "total_entries": 58,
   "months": [
     "2026-10"
   ],
@@ -2061,6 +2061,444 @@
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.18774",
+      "raw_id": "http://arxiv.org/abs/2610.18774v1",
+      "title": "GreenWAM: A World Foundation Model for Robotics",
+      "authors": [
+        "Gennady Sidorov",
+        "Valerii Kornilov",
+        "Denis Grankin",
+        "Polina Fedotova",
+        "Aleksey Postnikov"
+      ],
+      "published_date": "2026-10-13T17:31:29Z",
+      "updated_date": "2026-10-13T17:31:29Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "A robot needs a world model that predicts how its actions will change the scene and a policy that chooses those actions. Models are usually built and evaluated for only one of these roles, and every robot records its actions in its own format. We ask whether one robot world model can serve both roles across different bodies, and what makes this work. We present GreenWAM, a world foundation model for robotics, together with the recipe that produces it: (1) a shared anatomical action space that describes 20 robot families, from bimanual arms to dexterous humanoids, in common joint coordinates; (2) joint training on these families in visual, action-conditioned and world-action modes; and (3) policies that split an action expert off the generator. As a world model, GreenWAM attains top-tier trajectory, depth and 3D accuracy on WorldArena 1.0, ahead of every world-action model and video generator in our comparison. As a policy, it scores among the top entries of the RoboTwin 2.0 leaderboard, reaches the highest zero-shot LIBERO-plus success among the compared methods and is competitive with dedicated vision-language-action and world-action policies on CALVIN and LIBERO. We further adapt GreenWAM to a real humanoid, where it succeeds more often than policies adapted from π_{0.5} and from Cosmos 3 Edge, and distill it into a single-step policy for real-time control. Controlled experiments yield three findings: robot specialization improves world prediction and control together; an action expert helps when split off at the start of adaptation; and keeping world-model modes during policy adaptation preserves robustness to scene changes.",
+      "url": "https://arxiv.org/abs/2610.18774v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.18774v1",
+      "relevance_score": 0.863,
+      "processed_date": "2026-10-14",
+      "summary": "Addressing critical demands in Robotics, this research investigates a robot needs a world model that predicts how its actions will change the scene and a policy that chooses those actions. We present GreenWAM, a world foundation model for robotics, together with the recipe that produces it: (1) a shared anatomical action space that describes 20 robot families, from bimanual arms to dexterous humanoids, in common joint coordinates; (2) joint training on these families in visual, action-conditioned and world-action modes; and (3) policies that split an action expert off the generator. We ask whether one robot world model can serve both roles across different bodies, and what makes this work. Controlled experiments yield three findings: robot specialization improves world prediction and control together; an action expert helps when split off at the start of adaptation; and keeping world-model modes during policy adaptation preserves robustness to scene changes.",
+      "key_concepts": [
+        "World Model",
+        "World-action Model",
+        "Foundation Model",
+        "Zero-shot",
+        "World Foundation",
+        "Action Expert"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We present GreenWAM, a world foundation model for robotics, together with the recipe that produces it: (1) a shared anatomical action space that describes 20 robot families, from bimanual arms to dexterous humanoids, in common joint coordinates; (2) joint training on these families in visual, action-conditioned and world-action modes; and (3) policies that split an action expert off the generator.",
+        "key_innovation": "Formulates an integrated mechanism leveraging World Model, World-action Model.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.18874",
+      "raw_id": "http://arxiv.org/abs/2610.18874v1",
+      "title": "ChunkAct: Action Chunking for Agentic Robotics",
+      "authors": [
+        "Bingxin Xu",
+        "Wenrui Bao",
+        "Xinxin Liu",
+        "Jiawei Zhou",
+        "Yuzhang Shang",
+        "Emilio Ferrara"
+      ],
+      "published_date": "2026-10-13T17:59:57Z",
+      "updated_date": "2026-10-13T17:59:57Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and thereby generalizes to new tasks without retraining. This generality comes at a steep price in efficiency. Every primitive requires a round of LLM reasoning over the full interaction history, so the cost of an episode grows with the number of primitives. We find this reasoning largely redundant: once a sub-goal is chosen, its primitives follow a routine already prescribed by memory. We present ChunkAct, which introduces action chunking to agentic robotics. Online, a single call launches a chunk of chained primitives, which executes autonomously and returns control only upon failure. Offline, ChunkAct compiles the memory into these chunks, so execution is memory-free at test time and the planner is reserved for decisions that require reasoning. LLM computation therefore scales with the number of decisions rather than the number of primitives. On LIBERO-Pro, ChunkAct improves task success by 5.0 points over the state of the art in agentic robotics while requiring 2.9x fewer LLM calls, 4.4x fewer input tokens, and 2.3x fewer output tokens.",
+      "url": "https://arxiv.org/abs/2610.18874v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.18874v1",
+      "relevance_score": 0.83,
+      "processed_date": "2026-10-14",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates agentic robotics places a large language model (llm) agent in the robot control loop, where it composes perception, motion, and vision-language-action (vla) tools under the guidance of a memory and thereby generalizes to new tasks without retraining. We present ChunkAct, which introduces action chunking to agentic robotics. Every primitive requires a round of LLM reasoning over the full interaction history, so the cost of an episode grows with the number of primitives. On LIBERO-Pro, ChunkAct improves task success by 5.0 points over the state of the art in agentic robotics while requiring 2.9x fewer LLM calls, 4.4x fewer input tokens, and 2.3x fewer output tokens.",
+      "key_concepts": [
+        "Large Language Model",
+        "Action Chunking",
+        "Agentic Robotics",
+        "Agent Robot",
+        "Art Agentic",
+        "Autonomously Returns"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "We present ChunkAct, which introduces action chunking to agentic robotics.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Large Language Model, Action Chunking.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.18792",
+      "raw_id": "http://arxiv.org/abs/2610.18792v1",
+      "title": "SEAR: Self-Evolving Agentic Robotics",
+      "authors": [
+        "Xinyi Wang",
+        "Bangzheng Li",
+        "Hanyu Wang",
+        "Lin Zhang",
+        "Andrea Yaoyun Cui",
+        "Zhenggang Tang",
+        "Shyamal Buch",
+        "Dejia Xu"
+      ],
+      "published_date": "2026-10-13T17:40:20Z",
+      "updated_date": "2026-10-13T17:40:20Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Frontier language-model agents can now improve robots on their own: they write control code, test it, and keep what works as skills and memories for the next task. We introduce SEAR (Self-Evolving Agentic Robotics), a framework and benchmark built around two questions. Is the agent really learning, or just trying more often? And does what it learns still help on new tasks, in a new simulator, and on a real robot? The framework runs an agent in three modes: it writes code that becomes the policy (code-as-policy), acts live in the control loop (agent-as-policy), or works as a researcher that fine-tunes a vision-language-action model (auto-research). The benchmark adds controls that separate retained experience from repeated attempts, familiar tasks, privileged simulator state, larger budgets, and luck. Across seven frontier language models, 330 simulated and five physical tasks, and over four years of agent runtime, we highlight three findings. First, the learning curve of a robotic agent depends both on the overall time budget and the task difficulty relative to model capability. Harder tasks make longer sessions worthwhile; on easier tasks, re-rolling short attempts does just as well. Second, control code and shared routines transfer across tasks and simulators, while task-specific solutions do not. On a real robot, we observe a performance gap between agent-designed practice and novel human-designed scenes. Third, different models evolve more effectively in different ways. Some do best acting live, others writing code first. And a text-only model keeps pace with a comparable multimodal one: perception helps with error assessment, but agentic reasoning and tool use can matter more. We release the benchmark and codebase to support future research.",
+      "url": "https://arxiv.org/abs/2610.18792v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.18792v1",
+      "relevance_score": 0.781,
+      "processed_date": "2026-10-14",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates frontier language-model agents can now improve robots on their own: they write control code, test it, and keep what works as skills and memories for the next task. We introduce SEAR (Self-Evolving Agentic Robotics), a framework and benchmark built around two questions. On a real robot, we observe a performance gap between agent-designed practice and novel human-designed scenes. Is the agent really learning, or just trying more often? We release the benchmark and codebase to support future research. Frontier language-model agents can now improve robots on their own: they write control code, test it, and keep what works as skills and memories for the next task.",
+      "key_concepts": [
+        "Control Code",
+        "Real Robot",
+        "State Larger Budgets",
+        "Task-specific Solutions Real",
+        "Test Works"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "We introduce SEAR (Self-Evolving Agentic Robotics), a framework and benchmark built around two questions.",
+        "key_innovation": "On a real robot, we observe a performance gap between agent-designed practice and novel human-designed scenes.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.18780",
+      "raw_id": "http://arxiv.org/abs/2610.18780v1",
+      "title": "BLADE: Auditing Information Use for Failure Attribution in LLM Multi-Agent Systems",
+      "authors": [
+        "Xiaoguang Guo",
+        "Yaohao Long",
+        "Chuxu Zhang"
+      ],
+      "published_date": "2026-10-13T17:34:34Z",
+      "updated_date": "2026-10-13T17:34:34Z",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Large language model multi-agent systems extend individual agents' capabilities through collaboration across specialized roles, tools, and workflows. Yet collaboration makes failures harder to diagnose: one agent may misinterpret a correct result while others carry the mistake forward. Failure attribution therefore seeks to identify the responsible agent and decisive error step. Recent methods trace dependencies, but knowing where information came from is not the same as knowing where it went wrong. We introduce BLADE (Blame Localization via Audited Dependency Evidence), a training-free framework that moves beyond tracing information to auditing its use. Using Jev for structured probabilistic judgments, BLADE uses dependency probabilities to select relevant source-decision handoffs for auditing. At these handoffs, it examines whether receiving decisions use their sources faithfully and within task requirements, distinguishing error introduction, propagation, and repair. These findings inform a global diagnosis that considers all execution steps. Without reference answers, BLADE achieves the best or tied-best step accuracy among eight strategies under a shared Jev decision interface on 1,228 failed runs across five Who&When and Who&When Pro subsets, outperforming All-at-once by 2.2-11.1 percentage points. Making responsibility evidence explicit offers a path toward more interpretable and reliable agentic systems.",
+      "url": "https://arxiv.org/abs/2610.18780v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.18780v1",
+      "relevance_score": 0.781,
+      "processed_date": "2026-10-14",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates large language model multi-agent systems extend individual agents' capabilities through collaboration across specialized roles, tools, and workflows. We introduce BLADE (Blame Localization via Audited Dependency Evidence), a training-free framework that moves beyond tracing information to auditing its use. Failure attribution therefore seeks to identify the responsible agent and decisive error step. Making responsibility evidence explicit offers a path toward more interpretable and reliable agentic systems. Large language model multi-agent systems extend individual agents' capabilities through collaboration across specialized roles, tools, and workflows. Yet collaboration makes failures harder to diagnose: one agent may misinterpret a correct result while others carry the mistake forward.",
+      "key_concepts": [
+        "Large Language Model",
+        "Accuracy Strategies",
+        "Achieves Best",
+        "Agent Decisive",
+        "Agent Misinterpret",
+        "All-at-once Percentage"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "We introduce BLADE (Blame Localization via Audited Dependency Evidence), a training-free framework that moves beyond tracing information to auditing its use.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Large Language Model, Accuracy Strategies.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.18822",
+      "raw_id": "http://arxiv.org/abs/2610.18822v1",
+      "title": "EgoMatrix: Physically Faithful Dexterous Robot Demonstrations from Egocentric Human Videos",
+      "authors": [
+        "Ziheng Wang",
+        "Yanming Shao",
+        "Ting Mao",
+        "Kaihan Chen",
+        "Yiqun Wang",
+        "Xuanye Wu",
+        "Yao Mu"
+      ],
+      "published_date": "2026-10-13T17:51:46Z",
+      "updated_date": "2026-10-13T17:51:46Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Egocentric human videos offer a scalable alternative to robot teleoperation for collecting dexterous manipulation data. However, two challenges limit their use as reliable training data: accurate hand-object interaction (HOI) reconstruction from monocular RGB and high-quality robot demonstrations, especially visual observations. We present EgoMatrix, an end-to-end data engine that converts monocular egocentric human videos into bimanual dexterous trajectories and paired robot observation videos, with the trajectories directly replayable on real robots. It reconstructs HOI with emphasis on relative geometry and contact rather than exact metric scene recovery, then uses retargeting and reinforcement learning (RL) to reproduce the demonstrated tasks in simulation. We jointly render robot hands and objects from these simulated trajectories to produce physically faithful observations synchronized with state and control records. Rendering the same trajectories in diverse, task-compatible backgrounds expands paired training data while preserving robot-object motion and contact. Across TACO, OakInk2, and self-collected data, EgoMatrix achieves 54.84% end-to-end success in simulation versus 14.52% for the strongest baseline. Reconstruction reaches state-of-the-art performance on most metrics of the two public benchmarks. Qualitative results show more faithful hand-object interactions than prior methods, while feature-space analysis shows closer alignment with real-robot observations than GPT-6 Astra.Our project page is available at https://spikew726.github.io/EgoMatrix/.",
+      "url": "https://arxiv.org/abs/2610.18822v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.18822v1",
+      "relevance_score": 0.775,
+      "processed_date": "2026-10-14",
+      "summary": "However, two challenges limit their use as reliable training data: accurate hand-object interaction (HOI) reconstruction from monocular RGB and high-quality robot demonstrations, especially visual observations. We present EgoMatrix, an end-to-end data engine that converts monocular egocentric human videos into bimanual dexterous trajectories and paired robot observation videos, with the trajectories directly replayable on real robots. Qualitative results show more faithful hand-object interactions than prior methods, while feature-space analysis shows closer alignment with real-robot observations than GPT-6 Astra.Our project page is available at https://spikew726.github.io/EgoMatrix/. Egocentric human videos offer a scalable alternative to robot teleoperation for collecting dexterous manipulation data. It reconstructs HOI with emphasis on relative geometry and contact rather than exact metric scene recovery, then uses retargeting and reinforcement learning (RL) to reproduce the demonstrated tasks in simulation.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Dexterous Manipulation",
+        "Manipulation",
+        "Success Simulation",
+        "Synchronized State",
+        "Task-compatible Backgrounds"
+      ],
+      "insights": {
+        "problem": "However, two challenges limit their use as reliable training data: accurate hand-object interaction (HOI) reconstruction from monocular RGB and high-quality robot demonstrations, especially visual observations.",
+        "approach": "We present EgoMatrix, an end-to-end data engine that converts monocular egocentric human videos into bimanual dexterous trajectories and paired robot observation videos, with the trajectories directly replayable on real robots.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Dexterous Manipulation.",
+        "results": "Qualitative results show more faithful hand-object interactions than prior methods, while feature-space analysis shows closer alignment with real-robot observations than GPT-6 Astra.Our project page is available at https://spikew726.github.io/EgoMatrix/.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.18818",
+      "raw_id": "http://arxiv.org/abs/2610.18818v1",
+      "title": "Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs",
+      "authors": [
+        "Divyanshu Bathla",
+        "Parag Singla",
+        "Jitin Singla"
+      ],
+      "published_date": "2026-10-13T17:50:18Z",
+      "updated_date": "2026-10-13T17:50:18Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Pre-trained Large Language Model (LLMs) are effective on many tasks in zero-shot and few-shot settings. For machine translation of low-resource languages, the obvious options are few-shot prompting and fine-tuning on a small parallel set. We ask: what if moderate amounts of low-resource monolingual data are also available? We argue that, rather than continued pretraining, a more effective use of this data is the pre-LLM era technique of back-translation (BT). The current fine-tuned LLM translates monolingual sentences in each language, and the resulting pairs train it in the reverse direction. Updates on the parallel set are interleaved for stable learning. With 1K parallel pairs on Odia and Swahili, BT beats continued pretraining into the low-resource language by 7.7 to 16.4 XCOMET-XXL points in domain. With beam-decoded intermediate translations, it also beats a model with 10 time more parallel data. In-context examples retrieved from the parallel data further improve BT. We also analyze the source, quality and amount of monolingual text. Across five low-resource languages, with Hindi as a high-resource control, and two 3B backbones, BT improves translation into the low-resource language by 16 to 173% XCOMET-XXL over parallel-only fine-tuning. Blind human evaluation on Odia and Sanskrit agrees with the automatic metrics.",
+      "url": "https://arxiv.org/abs/2610.18818v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.18818v1",
+      "relevance_score": 0.769,
+      "processed_date": "2026-10-14",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates pre-trained large language model (llms) are effective on many tasks in zero-shot and few-shot settings. For machine translation of low-resource languages, the obvious options are few-shot prompting and fine-tuning on a small parallel set. We ask: what if moderate amounts of low-resource monolingual data are also available? Blind human evaluation on Odia and Sanskrit agrees with the automatic metrics. Pre-trained Large Language Model (LLMs) are effective on many tasks in zero-shot and few-shot settings. We argue that, rather than continued pretraining, a more effective use of this data is the pre-LLM era technique of back-translation (BT).",
+      "key_concepts": [
+        "Zero-shot",
+        "Large Language Model",
+        "Agrees Automatic",
+        "Amounts Low-resource",
+        "Analyze Source",
+        "Ask Moderate"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "For machine translation of low-resource languages, the obvious options are few-shot prompting and fine-tuning on a small parallel set.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Large Language Model.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.18872",
+      "raw_id": "http://arxiv.org/abs/2610.18872v1",
+      "title": "EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulation In Situ",
+      "authors": [
+        "Yunsong Zhou",
+        "Xuekun Jiang",
+        "Haiqi Shen",
+        "Hangxu Liu",
+        "Chaojian Shi",
+        "Yujie Liu",
+        "Jingyuan Li",
+        "Haoran Yang",
+        "Jiafei Cao",
+        "Dongzhan Zhou",
+        "Dong Wang",
+        "Yao Mu",
+        "Chunhua Shen",
+        "Weinan Zhang"
+      ],
+      "published_date": "2026-10-13T17:59:55Z",
+      "updated_date": "2026-10-13T17:59:55Z",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "abstract": "Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold. Scaling collection across diverse environments, in turn, favors lightweight, portable capture systems. Yet, existing datasets provide only partial views of this coordination. Thus, we introduce EgoExplorer, a 100-hour vision-motion-touch observatory of human loco-manipulation built with a wearable system. With an emphasis on professional activities, its continuous recordings align egocentric video with reconstructed whole-body motion, fine-grained finger articulation, and tactile observations, accompanied by step-level descriptions. To achieve this coverage with sparse body sensing, we develop the Calibrate-Complete-Constrain pipeline. Concretely, reusable calibration fixes participant geometry and sensor attachments before motion inference to disentangle mounting offsets from articulation. A temporal prior then completes unobserved joint motion, while layered constraints promote measurement agreement, temporal continuity, and geometric consistency, properties that motion plausibility alone does not guarantee. Against tracker-fitted references, the method reduces body-point error by 71.9% relative to the strongest baseline; matched evaluations also show gains in hand stability and contact estimation. Preliminary studies explore multimodal generation and conditioning alongside humanoid retargeting with whole-body control in simulation.",
+      "url": "https://arxiv.org/abs/2610.18872v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.18872v1",
+      "relevance_score": 0.738,
+      "processed_date": "2026-10-14",
+      "summary": "Addressing critical demands in Robotics, this research investigates learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold. Thus, we introduce EgoExplorer, a 100-hour vision-motion-touch observatory of human loco-manipulation built with a wearable system. Yet, existing datasets provide only partial views of this coordination. Preliminary studies explore multimodal generation and conditioning alongside humanoid retargeting with whole-body control in simulation. Learning humanoid loco-manipulation from human demonstrations rests on observing how locomotion, posture, and object interaction evolve together as tasks unfold. Scaling collection across diverse environments, in turn, favors lightweight, portable capture systems.",
+      "key_concepts": [
+        "Manipulation",
+        "Accompanied Step-level",
+        "Achieve Coverage",
+        "Activities Continuous",
+        "Agreement Temporal",
+        "Align Egocentric"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "Thus, we introduce EgoExplorer, a 100-hour vision-motion-touch observatory of human loco-manipulation built with a wearable system.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Accompanied Step-level.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "A temporal prior then completes unobserved joint motion, while layered constraints promote measurement agreement, temporal continuity, and geometric consistency, properties that motion plausibility alone does not guarantee."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.18790",
+      "raw_id": "http://arxiv.org/abs/2610.18790v1",
+      "title": "EqC: Equilibrium Energy Control for Introspective Lifelong Robot Learning",
+      "authors": [
+        "Haodong Yang",
+        "Runhan Huang",
+        "Bowen Zhang",
+        "Iofai Lei",
+        "Zunzhe Zhang",
+        "Xiangcheng Zhang",
+        "Shaoting Zhu",
+        "Linzhan Mou",
+        "Yicheng Liu",
+        "Hang Zhao"
+      ],
+      "published_date": "2026-10-13T17:39:36Z",
+      "updated_date": "2026-10-13T17:39:36Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Long-term robot autonomy depends on more than effective action generation: a policy must recognize when its behavior is no longer sufficiently supported and use assistance to improve. We introduce Equilibrium Energy Control (EqC), a framework for introspective lifelong robot learning built around an explicit conditional energy landscape. EqC casts generative action refinement as equilibrium-seeking optimization, while the geometry of the refinement process reveals whether the generated behavior remains consistent with the learned landscape. This competence signal enables Energy-Gated DAgger, where persistent energy-consistency violations trigger expert takeover and the resulting recovery trajectories are aggregated for subsequent policy updates. EqC integrates naturally into both Diffusion Transformer policies and flow-matching-based vision-language-action (VLA) policies. Across simulation and real-world bimanual manipulation, EqC matches or improves control performance and robustness while enabling timely intervention near the policy's competence boundary. A real-world study further shows how these interventions progressively expand the range of situations handled autonomously, providing a practical path from static generative controllers toward self-improving robot systems.",
+      "url": "https://arxiv.org/abs/2610.18790v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.18790v1",
+      "relevance_score": 0.738,
+      "processed_date": "2026-10-14",
+      "summary": "Addressing critical demands in Robotics, this research investigates long-term robot autonomy depends on more than effective action generation: a policy must recognize when its behavior is no longer sufficiently supported and use assistance to improve. We introduce Equilibrium Energy Control (EqC), a framework for introspective lifelong robot learning built around an explicit conditional energy landscape. EqC casts generative action refinement as equilibrium-seeking optimization, while the geometry of the refinement process reveals whether the generated behavior remains consistent with the learned landscape. A real-world study further shows how these interventions progressively expand the range of situations handled autonomously, providing a practical path from static generative controllers toward self-improving robot systems.",
+      "key_concepts": [
+        "Manipulation",
+        "Action Generation",
+        "Action Refinement",
+        "Aggregated Subsequent",
+        "Assistance Improve",
+        "Autonomy Depends"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We introduce Equilibrium Energy Control (EqC), a framework for introspective lifelong robot learning built around an explicit conditional energy landscape.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Action Generation.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.18835",
+      "raw_id": "http://arxiv.org/abs/2610.18835v1",
+      "title": "RoboSimStudio: An Interactive Toolkit for Rapid Real2Sim of Robot Manipulation Tasks",
+      "authors": [
+        "Kaiyuan Chen",
+        "Shuangyu Xie",
+        "Uksang Yoo",
+        "Xinyue Zhu",
+        "Cael Magner",
+        "Alvin Zhu",
+        "Daehwa Kim",
+        "Eric Heiden",
+        "Erwin Coumans",
+        "Miles Macklin",
+        "Spencer Huang",
+        "Ken Goldberg"
+      ],
+      "published_date": "2026-10-13T17:55:14Z",
+      "updated_date": "2026-10-13T17:55:14Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.GR",
+        "cs.LG"
+      ],
+      "abstract": "It is difficult to accurately model the physics of the interaction between a robot and the objects it manipulates, including contact mechanics, coupled contact dynamics, deformations, stiffness and friction. We present RoboSimStudio (RSS), an interactive toolkit that makes choices of solver, contact model, and physical parameters explicit and editable, allowing both humans and coding agents to iteratively refine simulations based on observed physical behavior. We implement RSS with the open Newton physics simulation system and describe experiments with human-guided real2sim using (1) visual evaluation, (2) force-feedback and (3) agentic Real2Sim2Real. Code, video and additional information can be found on the project website.",
+      "url": "https://arxiv.org/abs/2610.18835v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.18835v1",
+      "relevance_score": 0.728,
+      "processed_date": "2026-10-14",
+      "summary": "It is difficult to accurately model the physics of the interaction between a robot and the objects it manipulates, including contact mechanics, coupled contact dynamics, deformations, stiffness and friction. We present RoboSimStudio (RSS), an interactive toolkit that makes choices of solver, contact model, and physical parameters explicit and editable, allowing both humans and coding agents to iteratively refine simulations based on observed physical behavior. We implement RSS with the open Newton physics simulation system and describe experiments with human-guided real2sim using (1) visual evaluation, (2) force-feedback and (3) agentic Real2Sim2Real. Code, video and additional information can be found on the project website.",
+      "key_concepts": [
+        "Manipulation",
+        "Additional Information",
+        "Agentic Code",
+        "Behavior Implement",
+        "Choices Solver",
+        "Code Video"
+      ],
+      "insights": {
+        "problem": "It is difficult to accurately model the physics of the interaction between a robot and the objects it manipulates, including contact mechanics, coupled contact dynamics, deformations, stiffness and friction.",
+        "approach": "We present RoboSimStudio (RSS), an interactive toolkit that makes choices of solver, contact model, and physical parameters explicit and editable, allowing both humans and coding agents to iteratively refine simulations based on observed physical behavior.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Additional Information.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.18861",
+      "raw_id": "http://arxiv.org/abs/2610.18861v1",
+      "title": "Hybrid Reasoning Agents",
+      "authors": [
+        "Jiaru Zou",
+        "Yunzhe Qi",
+        "Sirui Chen",
+        "Federico Bianchi",
+        "Shang Zhu",
+        "Pan Lu",
+        "Jingrui He",
+        "James Zou"
+      ],
+      "published_date": "2026-10-13T17:59:31Z",
+      "updated_date": "2026-10-13T17:59:31Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient internal medium but lacks native tool access and reasoning transparency. We bridge these two directions with Hybrid Reasoning Agents (HybridAgents), which dynamically navigate between latent reasoning and text-based interaction throughout a unified generation process. Architecturally, a lightweight HybridLink enables seamless transitions between text and latent modes, while the agent's continuous working memory preserves lossless hybrid context across multiple turns. These designs preserve tool-integrated agentic capabilities while making latent thoughts directly inspectable. Building on this architecture, we further develop dedicated post-training algorithms for hybrid reasoning: HybridSFT stabilizes tool-integrated hybrid generation by teaching the backbone to coordinate with HybridLink, then HybridRL scales reasoning by learning when to think in latent space and when to act through text. We evaluate HybridAgent at 3 model scales across 11 benchmarks covering mathematics, science, medicine, search, and agentic reasoning. Compared with frontier LLM Agents and agentic frameworks spanning both text-based and latent methods, HybridAgent consistently improves performance by 10.4%, while delivering 35.5%-54.7% token reduction, 1.8x-2.6x faster inference, and 2.7x-3.7x cost savings. Code and data are available at https://github.com/togethercomputer/HybridAgent.",
+      "url": "https://arxiv.org/abs/2610.18861v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.18861v1",
+      "relevance_score": 0.724,
+      "processed_date": "2026-10-14",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates how can we build an agent that thinks beyond human language, yet still acts through it in the external environment?. How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? We bridge these two directions with Hybrid Reasoning Agents (HybridAgents), which dynamically navigate between latent reasoning and text-based interaction throughout a unified generation process. Code and data are available at https://github.com/togethercomputer/HybridAgent. Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient internal medium but lacks native tool access and reasoning transparency.",
+      "key_concepts": [
+        "Hybrid Reasoning",
+        "Latent Reasoning",
+        "Teaching Backbone Coordinate",
+        "Text Evaluate",
+        "Text Latent",
+        "Text-based Latent"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "How can we build an agent that thinks beyond human language, yet still acts through it in the external environment?",
+        "key_innovation": "Formulates an integrated mechanism leveraging Hybrid Reasoning, Latent Reasoning.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
     }
   ]
 }

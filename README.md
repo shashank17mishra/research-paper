@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[13 October 2026 Report](reports/2026/10/13/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[14 October 2026 Report](reports/2026/10/14/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/13/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/14/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/13/infographic.png)](reports/2026/10/13/infographic.png)
+[![Daily Infographic](reports/2026/10/14/infographic.png)](reports/2026/10/14/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `2` |
-| **Machine Learning (ML)** | `4` |
-| **Robotics** | `5` |
+| **Artificial Intelligence (AI)** | `6` |
+| **Machine Learning (ML)** | `3` |
+| **Robotics** | `7` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,20 +36,20 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Hide and Seek: HIDE Concepts to SEEK explanations for black box models** | `Machine Learning` | `0.64` | [arXiv](https://arxiv.org/abs/2610.13935v1) |
-| 2 | **Make It Flow: Animating Water in 3D Gaussian Splatting Scenes** | `Computer Vision` | `0.64` | [arXiv](https://arxiv.org/abs/2610.13860v1) |
-| 3 | **Chronos Policy: Learning Robot Policies on Physical Time** | `Robotics` | `0.65` | [arXiv](https://arxiv.org/abs/2610.13929v1) |
-| 4 | **Towards Physically Grounded Articulated 3D Assets: A Multi-Agent Pipelin...** | `Artificial Intelligence` | `0.66` | [arXiv](https://arxiv.org/abs/2610.13947v1) |
-| 5 | **Revisiting the Task of Building Damage Assessment by Satellite Imaging** | `Machine Learning` | `0.67` | [arXiv](https://arxiv.org/abs/2610.13857v1) |
+| 1 | **Hybrid Reasoning Agents** | `Artificial Intelligence` | `0.72` | [arXiv](https://arxiv.org/abs/2610.18861v1) |
+| 2 | **RoboSimStudio: An Interactive Toolkit for Rapid Real2Sim of Robot Manipu...** | `Robotics` | `0.73` | [arXiv](https://arxiv.org/abs/2610.18835v1) |
+| 3 | **EqC: Equilibrium Energy Control for Introspective Lifelong Robot Learning** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2610.18790v1) |
+| 4 | **EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulati...** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2610.18872v1) |
+| 5 | **Back-Translation Still Matters: Leveraging Monolingual Data for Low-Reso...** | `Machine Learning` | `0.77` | [arXiv](https://arxiv.org/abs/2610.18818v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `48`
-- **Total Operational Runs**: `17 days`
+- **Total Papers Analyzed**: `58`
+- **Total Operational Runs**: `18 days`
 - **Categories Tracked**: `10 categories`
-- **Primary Focus Areas**: Robotics, Machine Learning, Artificial Intelligence, IoT & Edge AI
+- **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, IoT & Edge AI
 
 ---
 
