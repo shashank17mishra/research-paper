@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[14 October 2026 Report](reports/2026/10/14/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[15 October 2026 Report](reports/2026/10/15/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/14/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/15/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/14/infographic.png)](reports/2026/10/14/infographic.png)
+[![Daily Infographic](reports/2026/10/15/infographic.png)](reports/2026/10/15/infographic.png)
 
 ---
 
@@ -26,8 +26,8 @@
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
 | **Artificial Intelligence (AI)** | `6` |
-| **Machine Learning (ML)** | `3` |
-| **Robotics** | `7` |
+| **Machine Learning (ML)** | `4` |
+| **Robotics** | `6` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,19 +36,19 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Hybrid Reasoning Agents** | `Artificial Intelligence` | `0.72` | [arXiv](https://arxiv.org/abs/2610.18861v1) |
-| 2 | **RoboSimStudio: An Interactive Toolkit for Rapid Real2Sim of Robot Manipu...** | `Robotics` | `0.73` | [arXiv](https://arxiv.org/abs/2610.18835v1) |
-| 3 | **EqC: Equilibrium Energy Control for Introspective Lifelong Robot Learning** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2610.18790v1) |
-| 4 | **EgoExplorer: A Vision-Motion-Touch Observatory for Human Loco-Manipulati...** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2610.18872v1) |
-| 5 | **Back-Translation Still Matters: Leveraging Monolingual Data for Low-Reso...** | `Machine Learning` | `0.77` | [arXiv](https://arxiv.org/abs/2610.18818v1) |
+| 1 | **Physical Time as a Missing Dimension of Robot Policy Memory Dynamics** | `Robotics` | `0.69` | [arXiv](https://arxiv.org/abs/2610.20524v1) |
+| 2 | **PerSo: Investigating Facets of LLMs' Social Intelligence in Real-World P...** | `Artificial Intelligence` | `0.69` | [arXiv](https://arxiv.org/abs/2610.20548v1) |
+| 3 | **Tiered-Resolution Volumetric Mapping for Real-Time Simultaneous Planning...** | `Artificial Intelligence` | `0.70` | [arXiv](https://arxiv.org/abs/2610.20476v1) |
+| 4 | **SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-A...** | `Robotics` | `0.71` | [arXiv](https://arxiv.org/abs/2610.20609v1) |
+| 5 | **One Task, Many Interfaces: Simple Cross-Interface Consistency Training I...** | `Natural Language Processing` | `0.72` | [arXiv](https://arxiv.org/abs/2610.20576v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `58`
-- **Total Operational Runs**: `18 days`
-- **Categories Tracked**: `10 categories`
+- **Total Papers Analyzed**: `68`
+- **Total Operational Runs**: `19 days`
+- **Categories Tracked**: `11 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, IoT & Edge AI
 
 ---

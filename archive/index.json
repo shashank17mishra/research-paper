@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-14T05:54:37.093973",
-  "total_entries": 58,
+  "updated_at": "2026-10-15T05:39:07.731504",
+  "total_entries": 68,
   "months": [
     "2026-10"
   ],
@@ -2499,6 +2499,427 @@
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.20606",
+      "raw_id": "http://arxiv.org/abs/2610.20606v1",
+      "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
+      "authors": [
+        "Huixuan Cheng",
+        "Bike Zhang",
+        "Shankar Sastry",
+        "Koushil Sreenath"
+      ],
+      "published_date": "2026-10-14T17:59:52Z",
+      "updated_date": "2026-10-14T17:59:52Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to directly modeling the distribution of their learned weights and generating functional networks in weight space. In this work, we investigate whether high-performing humanoid control networks can be generatively modeled directly through their weights. We adopt a latent diffusion framework that couples a linear autoencoder with a Diffusion Transformer. The autoencoder compresses actor network parameters into a compact latent space, and the Diffusion Transformer models the distribution of these latents. Trained on networks collected from reinforcement learning for the Unitree G1 robot, our approach generates deployable networks that perform various motions in the real world, including walking, dancing, and spin kick. Beyond generation, we further study the learned weight space to better understand the structure captured by these humanoid control networks. We identify a structural principle in the first-layer weights that consistently reflects the robot's kinematic prior. Notably, this kinematic prior emerges under both Reinforcement Learning (RL) and Imitation Learning (IL) training, suggesting that it is not specific to a particular optimization process but may instead reflect common knowledge associated with humanoid embodiment. Together, these results demonstrate the feasibility of generative modeling in humanoid network weight space, while providing initial insights into the information encoded by their learned weights. Additional results are available on our project website: https://humanoid-weight-diffusion.github.io/",
+      "url": "https://arxiv.org/abs/2610.20606v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20606v1",
+      "relevance_score": 0.795,
+      "processed_date": "2026-10-15",
+      "summary": "However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to directly modeling the distribution of their learned weights and generating functional networks in weight space. In this work, we investigate whether high-performing humanoid control networks can be generatively modeled directly through their weights. Additional results are available on our project website: https://humanoid-weight-diffusion.github.io/ Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. We adopt a latent diffusion framework that couples a linear autoencoder with a Diffusion Transformer. The autoencoder compresses actor network parameters into a compact latent space, and the Diffusion Transformer models the distribution of these latents.",
+      "key_concepts": [
+        "Imitation Learning",
+        "Reinforcement Learning",
+        "Attention Given Directly",
+        "Control Networks",
+        "Diffusion Transformer",
+        "Humanoid Control"
+      ],
+      "insights": {
+        "problem": "However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to directly modeling the distribution of their learned weights and generating functional networks in weight space.",
+        "approach": "In this work, we investigate whether high-performing humanoid control networks can be generatively modeled directly through their weights.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Imitation Learning, Reinforcement Learning.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.20560",
+      "raw_id": "http://arxiv.org/abs/2610.20560v1",
+      "title": "PhySGA: A Physics-Space Grounded Agentic Framework for Generalizable and Interactive 3D Composition",
+      "authors": [
+        "Weichen Lyu",
+        "Chong Xia",
+        "Mingyu Dong",
+        "Long Xu",
+        "Shengjun Zhang",
+        "Yueqi Duan"
+      ],
+      "published_date": "2026-10-14T17:47:24Z",
+      "updated_date": "2026-10-14T17:47:24Z",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "3D object composition is pivotal to digital content creation and robot simulation, while also serving as a critical testbed for physical intelligence in foundation models. Previous methods either leverage large language models to directly predict object coordinates, or utilize generative diffusion priors to synthesize composite images for visual alignment, both of which rely on static priors in digital spaces. However, these methods consistently struggle with complex compositions such as precise hanging, gravity-driven settling and hidden containment, as these tasks require interactive construction processes involving global planning, fine-grained alignment, and physical simulation. To address these challenges, we propose PhySGA, a Physics-Space Grounded Agentic Framework for 3D composition via agent exploration and physical simulation, enabling the universal interactive assembly of rigid, articulated, and deformable objects. Directly applying vanilla LLMs or VLMs to this task proves insufficient, as current models inherently lack grounded physical understanding and interactive construction experience. To overcome this limitation, we design a collaborative feedforward-feedback architecture: an Assembly Agent focuses on geometric and kinematic reasoning for global step planning and coarse adjustment, while a Critic Agent reasons over contact dynamics for simulator state diagnosis and fine-grained closed-loop correction. Furthermore, Action Routers map semantic planning and analysis onto executable physical primitives within the simulator, while a task-specific Self-Evolving Skill Library distills historical trial-and-error feedback into reusable experiences, boosting success rates and minimizing exploration attempts. Extensive experiments within Isaac Sim demonstrate that PhySGA significantly surpasses existing methods in relation fidelity, physical plausibility, and visual quality.",
+      "url": "https://arxiv.org/abs/2610.20560v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20560v1",
+      "relevance_score": 0.781,
+      "processed_date": "2026-10-15",
+      "summary": "However, these methods consistently struggle with complex compositions such as precise hanging, gravity-driven settling and hidden containment, as these tasks require interactive construction processes involving global planning, fine-grained alignment, and physical simulation. To address these challenges, we propose PhySGA, a Physics-Space Grounded Agentic Framework for 3D composition via agent exploration and physical simulation, enabling the universal interactive assembly of rigid, articulated, and deformable objects. Extensive experiments within Isaac Sim demonstrate that PhySGA significantly surpasses existing methods in relation fidelity, physical plausibility, and visual quality. 3D object composition is pivotal to digital content creation and robot simulation, while also serving as a critical testbed for physical intelligence in foundation models.",
+      "key_concepts": [
+        "Agent Focuses Geometric",
+        "Agent Reasons",
+        "Alignment Physical",
+        "Interactive Construction",
+        "Physical Simulation",
+        "Testbed Physical"
+      ],
+      "insights": {
+        "problem": "However, these methods consistently struggle with complex compositions such as precise hanging, gravity-driven settling and hidden containment, as these tasks require interactive construction processes involving global planning, fine-grained alignment, and physical simulation.",
+        "approach": "To address these challenges, we propose PhySGA, a Physics-Space Grounded Agentic Framework for 3D composition via agent exploration and physical simulation, enabling the universal interactive assembly of rigid, articulated, and deformable objects.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Agent Focuses Geometric, Agent Reasons.",
+        "results": "Extensive experiments within Isaac Sim demonstrate that PhySGA significantly surpasses existing methods in relation fidelity, physical plausibility, and visual quality.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "To overcome this limitation, we design a collaborative feedforward-feedback architecture: an Assembly Agent focuses on geometric and kinematic reasoning for global step planning and coarse adjustment, while a Critic Agent reasons over contact dynamics for simulator state diagnosis and fine-grained closed-loop correction."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.20607",
+      "raw_id": "http://arxiv.org/abs/2610.20607v1",
+      "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
+      "authors": [
+        "Zhefei Gong",
+        "Hefeifei Jiang",
+        "Zehao Wang",
+        "Jiachen Li"
+      ],
+      "published_date": "2026-10-14T17:59:52Z",
+      "updated_date": "2026-10-14T17:59:52Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules. In this paper, we propose HiRe-MoMa (Hierarchical Residual Mobile Manipulation), a systematic framework for stable and sample-efficient real-world fine-tuning of complex MoMa systems. At its core, HiRe-MoMa adopts a Hierarchical Residual Architecture that fine-tunes a frozen base policy. A Policy-Agnostic Residual learns additive corrections atop the base policy, while Hierarchical Decoupling splits the residual into mobile-base and manipulator-arm heads with unidirectional conditioning, mitigating gradient interference and aligning corrections with the platform's physical hierarchy. To improve sample efficiency in data-expensive real-world settings, we propose Expert-Guided Value Alignment, which leverages sparse human interventions with under 20% training coverage to reshape the critic's value landscape, effectively guiding autonomous exploration through expert priors. Extensive real-world experiments on the TIAGo++ platform demonstrate that HiRe-MoMa consistently enhances task performance with only around 30 minutes of online interaction, regardless of the base policy architecture. To our knowledge, this is among the first frameworks to enable efficient on-robot fine-tuning for mobile manipulation in the real world, providing a practical paradigm for deploying complex robotic systems in dynamic, human-centric environments. Further details can be found on our project website: https://hire-moma.github.io/",
+      "url": "https://arxiv.org/abs/2610.20607v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20607v1",
+      "relevance_score": 0.755,
+      "processed_date": "2026-10-15",
+      "summary": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules. In this paper, we propose HiRe-MoMa (Hierarchical Residual Mobile Manipulation), a systematic framework for stable and sample-efficient real-world fine-tuning of complex MoMa systems. At its core, HiRe-MoMa adopts a Hierarchical Residual Architecture that fine-tunes a frozen base policy. Further details can be found on our project website: https://hire-moma.github.io/ A Policy-Agnostic Residual learns additive corrections atop the base policy, while Hierarchical Decoupling splits the residual into mobile-base and manipulator-arm heads with unidirectional conditioning, mitigating gradient interference and aligning corrections with the platform's physical hierarchy.",
+      "key_concepts": [
+        "Manipulation",
+        "Hierarchical Residual",
+        "Atop Base",
+        "Base Policy",
+        "Real-world Fine-tuning",
+        "Splits Residual"
+      ],
+      "insights": {
+        "problem": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules.",
+        "approach": "In this paper, we propose HiRe-MoMa (Hierarchical Residual Mobile Manipulation), a systematic framework for stable and sample-efficient real-world fine-tuning of complex MoMa systems.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Hierarchical Residual.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.20552",
+      "raw_id": "http://arxiv.org/abs/2610.20552v1",
+      "title": "KinoGen: Customizable Humanoid Loco-Manipulation References via Kinematically Grounded Video Generation",
+      "authors": [
+        "Qi Wu",
+        "Lulu Zhao",
+        "Sanghyun Hahn",
+        "Rishi Yennu",
+        "Emmy Yang",
+        "Dingqi Zhang",
+        "Tao Pang",
+        "Jiuguang Wang",
+        "Kuan Fang"
+      ],
+      "published_date": "2026-10-14T17:43:32Z",
+      "updated_date": "2026-10-14T17:43:32Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "We present KinoGen, a framework that synthesizes customizable humanoid loco-manipulation references through kinematically grounded video generation. KinoGen conditions a pretrained video generator on calibrated renders of the target robot and object in a simulated task instance and recovers the reference by fitting the same models to the generated two-view video, so that the reference lies in the robot configuration space by construction without a human body proxy or retargeting. Body, hand, and object priors initialize the reconstruction, and direct optimization against cross-view evidence refines it. Since an edited keyframe is simply another rendered state, a user can prescribe a goal object pose, regenerate the video around the edited keyframe, and obtain a reference that satisfies the pose exactly. Across eight loco-manipulation tasks, KinoGen yields lower penetration and foot skating than video-based baselines and preserves over 90% of annotated contacts, and its customized references satisfy every prescribed target with substantially less penetration than direct interpolation. Tracking policies trained on the synthesized references are deployed on a Unitree G1 humanoid with dexterous hands. Project webpage: https://kinogen-humanoid.github.io/.",
+      "url": "https://arxiv.org/abs/2610.20552v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20552v1",
+      "relevance_score": 0.755,
+      "processed_date": "2026-10-15",
+      "summary": "Addressing critical demands in Robotics, this research investigates we present kinogen, a framework that synthesizes customizable humanoid loco-manipulation references through kinematically grounded video generation. We present KinoGen, a framework that synthesizes customizable humanoid loco-manipulation references through kinematically grounded video generation. Body, hand, and object priors initialize the reconstruction, and direct optimization against cross-view evidence refines it. Project webpage: https://kinogen-humanoid.github.io/. KinoGen conditions a pretrained video generator on calibrated renders of the target robot and object in a simulated task instance and recovers the reference by fitting the same models to the generated two-view video, so that the reference lies in the robot configuration space by construction without a human body proxy or retargeting.",
+      "key_concepts": [
+        "Manipulation",
+        "Customizable Humanoid",
+        "Annotated Contacts",
+        "Baselines Preserves",
+        "Body Hand",
+        "Body Proxy"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We present KinoGen, a framework that synthesizes customizable humanoid loco-manipulation references through kinematically grounded video generation.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Customizable Humanoid.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.20533",
+      "raw_id": "http://arxiv.org/abs/2610.20533v1",
+      "title": "Generative Representation Learning for Scalable Latent Tokenization",
+      "authors": [
+        "Alan Baade",
+        "Kyle Sargent",
+        "Vincent Sitzmann",
+        "Eric Ryan Chan",
+        "Justin Johnson",
+        "Li Fei-Fei",
+        "Gordon Wetzstein"
+      ],
+      "published_date": "2026-10-14T17:29:09Z",
+      "updated_date": "2026-10-14T17:29:09Z",
+      "categories": [
+        "cs.LG",
+        "cs.CV"
+      ],
+      "abstract": "We introduce an approach for self-supervised representation learning designed to be used as a tokenizer for generative modeling. Our objective supervises a representation loss by factorizing the pointwise mutual information of the data, which we estimate by taking information differences between conditional predictions from a learned generative model. We justify our algorithm theoretically and empirically, demonstrating that our generative approach to representation learning avoids dimensional collapse and feature suppression in cases where commonly used methods like DINO and LeJEPA fail. Moreover, we show our representation learning technique is scalable; expending more compute leads to predictably better latent tokenization. For the first time, we perform a careful analysis of the combined flop efficiency of tokenizer and generative model and demonstrate that our approach is a compute-optimal improvement over direct diffusion for pixel-space generation, obtaining an FID-50K of 2.18 with JiT-L. Applied to ImageNet and the text-to-image dataset GPIC, we show tokenizer encoder scaling laws for diffusability, where extrapolating our approach achieves representations in 7x fewer FLOPs than DINOv2 on ImageNet and 8x fewer FLOPs than WebSSL on GPIC.",
+      "url": "https://arxiv.org/abs/2610.20533v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20533v1",
+      "relevance_score": 0.724,
+      "processed_date": "2026-10-15",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates we introduce an approach for self-supervised representation learning designed to be used as a tokenizer for generative modeling. We introduce an approach for self-supervised representation learning designed to be used as a tokenizer for generative modeling. For the first time, we perform a careful analysis of the combined flop efficiency of tokenizer and generative model and demonstrate that our approach is a compute-optimal improvement over direct diffusion for pixel-space generation, obtaining an FID-50K of 2.18 with JiT-L. We justify our algorithm theoretically and empirically, demonstrating that our generative approach to representation learning avoids dimensional collapse and feature suppression in cases where commonly used methods like DINO and LeJEPA fail. Applied to ImageNet and the text-to-image dataset GPIC, we show tokenizer encoder scaling laws for diffusability, where extrapolating our approach achieves representations in 7x fewer FLOPs than DINOv2 on ImageNet and 8x fewer FLOPs than WebSSL on GPIC.",
+      "key_concepts": [
+        "Scaling Laws",
+        "Representation Learning",
+        "Achieves Representations",
+        "Algorithm Theoretically",
+        "Avoids Dimensional",
+        "Better Latent"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We introduce an approach for self-supervised representation learning designed to be used as a tokenizer for generative modeling.",
+        "key_innovation": "For the first time, we perform a careful analysis of the combined flop efficiency of tokenizer and generative model and demonstrate that our approach is a compute-optimal improvement over direct diffusion for pixel-space generation, obtaining an FID-50K of 2.18 with JiT-L.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.20576",
+      "raw_id": "http://arxiv.org/abs/2610.20576v1",
+      "title": "One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness",
+      "authors": [
+        "Artin Tajdini",
+        "Manpreet Kaur",
+        "Peng Qi"
+      ],
+      "published_date": "2026-10-14T17:56:06Z",
+      "updated_date": "2026-10-14T17:56:06Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Post-training binds the competence of an LLM agent to the interface it was trained on. Semantics-preserving perturbations of that interface, such as renaming an action or changing the notation, leave the underlying task unchanged yet make the agent worse at it. Scoring each sample independently means interface randomization only broadens this dependence from a single interface to the training interface distribution, so out-of-distribution perturbations still degrade the agent. We propose Cross-Interface Policy Regularization (CIPR), a self-supervised objective that replaces action names with uninformative identifiers and presents each training sample under two interfaces in which equivalent actions are identified by construction. CIPR penalizes the KL divergence between the action distributions induced under the two interfaces, so the policy behaves consistently across them. We evaluate CIPR in both supervised and reinforcement-learning post-training, where it improves robustness. On agentic function calling, held-out interface perturbations reduce the accuracy of a post-trained agent by nearly 25%, and CIPR recovers 10.5% while leaving accuracy on the unchanged interface intact.",
+      "url": "https://arxiv.org/abs/2610.20576v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20576v1",
+      "relevance_score": 0.717,
+      "processed_date": "2026-10-15",
+      "summary": "Addressing critical demands in Natural Language Processing, this research investigates post-training binds the competence of an llm agent to the interface it was trained on. We propose Cross-Interface Policy Regularization (CIPR), a self-supervised objective that replaces action names with uninformative identifiers and presents each training sample under two interfaces in which equivalent actions are identified by construction. Scoring each sample independently means interface randomization only broadens this dependence from a single interface to the training interface distribution, so out-of-distribution perturbations still degrade the agent. On agentic function calling, held-out interface perturbations reduce the accuracy of a post-trained agent by nearly 25%, and CIPR recovers 10.5% while leaving accuracy on the unchanged interface intact.",
+      "key_concepts": [
+        "Accuracy Post-trained",
+        "Accuracy Unchanged",
+        "Action Changing",
+        "Action Distributions",
+        "Action Names",
+        "Actions Identified"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+        "approach": "We propose Cross-Interface Policy Regularization (CIPR), a self-supervised objective that replaces action names with uninformative identifiers and presents each training sample under two interfaces in which equivalent actions are identified by construction.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Accuracy Post-trained, Accuracy Unchanged.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2610.20609",
+      "raw_id": "http://arxiv.org/abs/2610.20609v1",
+      "title": "SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-Aware End-to-End Autonomous Driving",
+      "authors": [
+        "Shaoyuan Xie",
+        "Zihan Zhang",
+        "Jingxuan Wang",
+        "Jiashu Qu",
+        "Xiaoqing Liang",
+        "Lingdong Kong",
+        "Junchi Lu",
+        "Henrik I. Christensen",
+        "Qi Alfred Chen"
+      ],
+      "published_date": "2026-10-14T17:59:56Z",
+      "updated_date": "2026-10-14T17:59:56Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Vision-Language-Action (VLA) models are gaining attention in autonomous driving, inheriting commonsense priors from large language models (LLMs) and widening the navigation interface from a fixed command set to free-form natural-language instructions. However, this open-ended interface exposes a new vulnerability surface: an inattentive driver may issue instructions that are unsafe given the current scene, and a malicious user may issue dangerous ones on purpose. We present the first benchmark suite that evaluates navigation following and conflict awareness together, along with adversarial robustness. Existing VLAs fall short on both: SimLingo completes no language-instructed lane change in closed loop, and all models degrade sharply under conflicting signals. We propose SafeDriveVLA, the first driving VLA that (1) explicitly predicts a three-level navigation-compliance mode to decouple conflict reasoning from action generation, and (2) uses navigation-conditioned world model dreaming to inform this prediction. Unlike prior world models that roll out expert or planned actions, ours dreams of strictly following the navigation signal, showing when following is safe. SafeDriveVLA reaches 88.16 Driving Score (DS) and 68.64% Success Rate (SR) on Bench2Drive, lifts closed-loop language following by 49.3% and reduces collisions under unsafe instructions from 60 to 38 compared to the best SimLingo variant. Video demonstrations are available on our project page.",
+      "url": "https://arxiv.org/abs/2610.20609v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20609v1",
+      "relevance_score": 0.709,
+      "processed_date": "2026-10-15",
+      "summary": "However, this open-ended interface exposes a new vulnerability surface: an inattentive driver may issue instructions that are unsafe given the current scene, and a malicious user may issue dangerous ones on purpose. We present the first benchmark suite that evaluates navigation following and conflict awareness together, along with adversarial robustness. Video demonstrations are available on our project page. Vision-Language-Action (VLA) models are gaining attention in autonomous driving, inheriting commonsense priors from large language models (LLMs) and widening the navigation interface from a fixed command set to free-form natural-language instructions. Existing VLAs fall short on both: SimLingo completes no language-instructed lane change in closed loop, and all models degrade sharply under conflicting signals.",
+      "key_concepts": [
+        "World Model",
+        "Autonomous Driving",
+        "Action Generation",
+        "Actions Dreams",
+        "Adversarial Robustness",
+        "Attention Autonomous"
+      ],
+      "insights": {
+        "problem": "However, this open-ended interface exposes a new vulnerability surface: an inattentive driver may issue instructions that are unsafe given the current scene, and a malicious user may issue dangerous ones on purpose.",
+        "approach": "We present the first benchmark suite that evaluates navigation following and conflict awareness together, along with adversarial robustness.",
+        "key_innovation": "Formulates an integrated mechanism leveraging World Model, Autonomous Driving.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "However, this open-ended interface exposes a new vulnerability surface: an inattentive driver may issue instructions that are unsafe given the current scene, and a malicious user may issue dangerous ones on purpose."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.20476",
+      "raw_id": "http://arxiv.org/abs/2610.20476v1",
+      "title": "Tiered-Resolution Volumetric Mapping for Real-Time Simultaneous Planning and Mapping on Natural Outdoor Environments",
+      "authors": [
+        "Afonso E. Carvalho",
+        "David Portugal",
+        "Paulo Peixoto",
+        "George Kantor"
+      ],
+      "published_date": "2026-10-14T16:51:35Z",
+      "updated_date": "2026-10-14T16:51:35Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Real-time volumetric mapping for a planning robot is dominated by the cost of integrating and storing information at the finest resolution, yet only a small fraction of any map ever lies on or near a path the planner actually considers. We exploit this with a tiered-resolution mapping mechanism that integrates LiDAR into a single map structure at two resolutions simultaneously: fine inside a corridor around the robot's current plan, and coarse everywhere else. As opposed to traditional navigation pipelines where path planning uses the mapping result and provides no feedback, we propose a feedback loop where planning also informs mapping to dynamically integrate information at different leaf resolutions. Across two real-world teleoperated datasets, replayed and scored offline against an independent full-resolution map, the tiered maps are 13-15x smaller and require 6-8x less integration CPU time than a uniform fine map, while producing paths at a similar cost per meter as the ones generated from fine resolution maps on both scenarios. A uniform coarse map reaches the same size savings but its path quality collapses (+210% cost per meter) on the harder scenario, because it over-discretizes terrain the robot must traverse. Tiering approximates the coarse map's cheapness without its failure mode.",
+      "url": "https://arxiv.org/abs/2610.20476v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20476v1",
+      "relevance_score": 0.704,
+      "processed_date": "2026-10-15",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates real-time volumetric mapping for a planning robot is dominated by the cost of integrating and storing information at the finest resolution, yet only a small fraction of any map ever lies on or near a path the planner actually considers. As opposed to traditional navigation pipelines where path planning uses the mapping result and provides no feedback, we propose a feedback loop where planning also informs mapping to dynamically integrate information at different leaf resolutions. Tiering approximates the coarse map's cheapness without its failure mode. Real-time volumetric mapping for a planning robot is dominated by the cost of integrating and storing information at the finest resolution, yet only a small fraction of any map ever lies on or near a path the planner actually considers.",
+      "key_concepts": [
+        "Actually Considers",
+        "Approximates Coarse",
+        "Cheapness Failure",
+        "Coarse Map",
+        "Coarse Opposed",
+        "Collapses Cost"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "As opposed to traditional navigation pipelines where path planning uses the mapping result and provides no feedback, we propose a feedback loop where planning also informs mapping to dynamically integrate information at different leaf resolutions.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Actually Considers, Approximates Coarse.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.20548",
+      "raw_id": "http://arxiv.org/abs/2610.20548v1",
+      "title": "PerSo: Investigating Facets of LLMs' Social Intelligence in Real-World Persuasion Scenarios",
+      "authors": [
+        "Ali Zamani",
+        "Soroush Esfahanian",
+        "Erfan Shahabi",
+        "Mohammad Taher Pilehvar",
+        "Azadeh Shakery",
+        "Yadollah Yaghoobzadeh"
+      ],
+      "published_date": "2026-10-14T17:39:35Z",
+      "updated_date": "2026-10-14T17:39:35Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.SI"
+      ],
+      "abstract": "Understanding the social intelligence of large language models (LLMs) is increasingly important for applications involving human-AI interaction and multi-agent environments. Social intelligence comprises two aspects: cognitive intelligence, the ability to infer others' mental states, and behavioral intelligence, the ability to select appropriate social actions based on these inferences to achieve social goals. Persuasion provides a natural testbed in which both aspects are simultaneously at play, yet prior benchmarks typically evaluate them in isolation using synthetic scenarios. We introduce PerSo, a benchmark that evaluates both aspects on real-world persuasion dialogues from Reddit's ChangeMyView community, using an LLM-in-the-loop pipeline to construct the evaluation tasks, validated through human annotation. Our evaluation of diverse LLMs shows that performance generally scales with model size but varies across dimensions. The strongest LLM slightly surpasses the best observed human performance on the behavioral task, while the best human participant remains ahead on the cognitive task.",
+      "url": "https://arxiv.org/abs/2610.20548v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20548v1",
+      "relevance_score": 0.691,
+      "processed_date": "2026-10-15",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates understanding the social intelligence of large language models (llms) is increasingly important for applications involving human-ai interaction and multi-agent environments. We introduce PerSo, a benchmark that evaluates both aspects on real-world persuasion dialogues from Reddit's ChangeMyView community, using an LLM-in-the-loop pipeline to construct the evaluation tasks, validated through human annotation. The strongest LLM slightly surpasses the best observed human performance on the behavioral task, while the best human participant remains ahead on the cognitive task. Understanding the social intelligence of large language models (LLMs) is increasingly important for applications involving human-AI interaction and multi-agent environments.",
+      "key_concepts": [
+        "Social Intelligence",
+        "Achieve Social",
+        "Ahead Cognitive",
+        "Applications Involving",
+        "Appropriate Social",
+        "Aspects Cognitive"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "We introduce PerSo, a benchmark that evaluates both aspects on real-world persuasion dialogues from Reddit's ChangeMyView community, using an LLM-in-the-loop pipeline to construct the evaluation tasks, validated through human annotation.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Social Intelligence, Achieve Social.",
+        "results": "The strongest LLM slightly surpasses the best observed human performance on the behavioral task, while the best human participant remains ahead on the cognitive task.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.20524",
+      "raw_id": "http://arxiv.org/abs/2610.20524v1",
+      "title": "Physical Time as a Missing Dimension of Robot Policy Memory Dynamics",
+      "authors": [
+        "Yushen Liang",
+        "Yue Peng",
+        "Baosheng Jin",
+        "Tianluo Zhang",
+        "Xinyu Zhang",
+        "Shuyi Zhou",
+        "Zhuoran Chen",
+        "Xinqi Liu",
+        "Shenji Wan"
+      ],
+      "published_date": "2026-10-14T17:24:13Z",
+      "updated_date": "2026-10-14T17:24:13Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Existing robot policy memories typically evolve with observation sequences, implicitly treating each update as the same amount of physical time. Yet identical observation histories can span different durations and require different actions, exposing physical time as a missing dimension of policy memory. We introduce Temporal Flow Policy (TFP), which learns memory dynamics to retain past events and evolve the memory state over measured time intervals. Observations and prior memory determine the content and time scales of each transition; elapsed time determines how far the state advances. TFP conditions diffusion and flow-matching policies through this memory state and is trained with their native imitation objectives. We evaluate TFP with Diffusion Policy and π_{0.5} through controlled comparisons of memory designs. These experiments show that successful timing depends on both measured intervals and retained history. TFP achieves higher average success than the recurrent and state-space memories we equip with the same intervals and than a variant that feeds the interval to a learned gate. Memory readouts recover the time since an event and motion information after occlusion. Changing the supplied intervals systematically delays or advances actions, linking time inputs to behavior. Real-robot tasks requiring timing or memory, together with LIBERO evaluations, demonstrate benefits in physical and general manipulation. These results suggest viewing robot memory not as stored observation history, but as a state that retains past events and evolves with physical time.",
+      "url": "https://arxiv.org/abs/2610.20524v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.20524v1",
+      "relevance_score": 0.689,
+      "processed_date": "2026-10-15",
+      "summary": "Addressing critical demands in Robotics, this research investigates existing robot policy memories typically evolve with observation sequences, implicitly treating each update as the same amount of physical time. We introduce Temporal Flow Policy (TFP), which learns memory dynamics to retain past events and evolve the memory state over measured time intervals. These results suggest viewing robot memory not as stored observation history, but as a state that retains past events and evolves with physical time. Existing robot policy memories typically evolve with observation sequences, implicitly treating each update as the same amount of physical time. Yet identical observation histories can span different durations and require different actions, exposing physical time as a missing dimension of policy memory.",
+      "key_concepts": [
+        "Diffusion Policy",
+        "Manipulation",
+        "Physical Time",
+        "Behavior Real-robot",
+        "Benefits Physical",
+        "Memory State"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We introduce Temporal Flow Policy (TFP), which learns memory dynamics to retain past events and evolve the memory state over measured time intervals.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Diffusion Policy, Manipulation.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
     }
   ]
 }
