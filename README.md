@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[15 October 2026 Report](reports/2026/10/15/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[16 October 2026 Report](reports/2026/10/16/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/15/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/16/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/15/infographic.png)](reports/2026/10/15/infographic.png)
+[![Daily Infographic](reports/2026/10/16/infographic.png)](reports/2026/10/16/infographic.png)
 
 ---
 
@@ -26,7 +26,7 @@
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
 | **Artificial Intelligence (AI)** | `6` |
-| **Machine Learning (ML)** | `4` |
+| **Machine Learning (ML)** | `3` |
 | **Robotics** | `6` |
 | **IoT & Edge AI** | `0` |
 
@@ -36,19 +36,19 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Physical Time as a Missing Dimension of Robot Policy Memory Dynamics** | `Robotics` | `0.69` | [arXiv](https://arxiv.org/abs/2610.20524v1) |
-| 2 | **PerSo: Investigating Facets of LLMs' Social Intelligence in Real-World P...** | `Artificial Intelligence` | `0.69` | [arXiv](https://arxiv.org/abs/2610.20548v1) |
-| 3 | **Tiered-Resolution Volumetric Mapping for Real-Time Simultaneous Planning...** | `Artificial Intelligence` | `0.70` | [arXiv](https://arxiv.org/abs/2610.20476v1) |
-| 4 | **SafeDriveVLA: Navigation-Conditioned World Model Dreaming for Conflict-A...** | `Robotics` | `0.71` | [arXiv](https://arxiv.org/abs/2610.20609v1) |
-| 5 | **One Task, Many Interfaces: Simple Cross-Interface Consistency Training I...** | `Natural Language Processing` | `0.72` | [arXiv](https://arxiv.org/abs/2610.20576v1) |
+| 1 | **MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Lear...** | `Artificial Intelligence` | `0.71` | [arXiv](https://arxiv.org/abs/2610.22344v1) |
+| 2 | **CoDA: Co-Evolution of Data Engines and Action Policies** | `Robotics` | `0.72` | [arXiv](https://arxiv.org/abs/2610.22362v1) |
+| 3 | **Training Reasoning Models to Generate Diverse Scientific Ideas** | `Artificial Intelligence` | `0.72` | [arXiv](https://arxiv.org/abs/2610.22324v1) |
+| 4 | **Value as Memory: Online Value-Guided Post-training for General Robot Pol...** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2610.22368v1) |
+| 5 | **Learning to Steer LLM Agents and Multi-Agent Systems** | `Artificial Intelligence` | `0.77` | [arXiv](https://arxiv.org/abs/2610.22316v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `68`
-- **Total Operational Runs**: `19 days`
-- **Categories Tracked**: `11 categories`
+- **Total Papers Analyzed**: `78`
+- **Total Operational Runs**: `20 days`
+- **Categories Tracked**: `12 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, IoT & Edge AI
 
 ---
