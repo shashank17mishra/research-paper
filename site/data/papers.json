@@ -3372,5 +3372,454 @@
       "limitations": "Not specified in the available abstract."
     },
     "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.22372",
+    "raw_id": "http://arxiv.org/abs/2610.22372v1",
+    "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+    "authors": [
+      "Zhixu Li",
+      "Keqian Tang",
+      "Litian Gong",
+      "Jingyu Yao",
+      "Wenqian Zhang",
+      "Tianze Xu",
+      "Zehao Wang",
+      "Yuping Wang",
+      "Junge Zhang",
+      "Jiachen Li"
+    ],
+    "published_date": "2026-10-15T17:59:59Z",
+    "updated_date": "2026-10-15T17:59:59Z",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "abstract": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating task completion from preference satisfaction. We introduce LIBERO-PeRM, a benchmark for preference learning in embodied agents. LIBERO-PeRM studies five questions: 1) how policies follow preferences in zero-shot settings; 2) how they learn single preferences from demonstrations; 3) how efficiently they acquire preferences as demonstrations increase; 4) how learned preferences generalize across layouts and tasks; and 5) how policies compose preferences and behave under conflicts. We propose a controlled formulation and taxonomy of observable preferences in simulation, covering motion, skill, and user-profile choices. This formulation is restricted to language-expressible preferences that can be instantiated in LIBERO without changing the task goal, evaluated automatically, and reused across tasks. Building on LIBERO, our procedural pipeline generates paired demonstrations with and without preferences. We create five task suites (312 tasks) with high-quality demonstrations, rich metadata, and preference-satisfaction metrics. Experiments show that current VLA policies struggle with zero-shot personalization, while SFT makes preferences learnable. Mixed training achieves better no-preference retention than sequential adaptation and improves performance with contextual prompts compared with preference-only training, but can weaken motion-preference learning; preference generalization, decomposition, and conflict handling remain difficult. The code, datasets, and demos can be found on the project website: https://libero-perm.github.io/.",
+    "url": "https://arxiv.org/abs/2610.22372v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.22372v1",
+    "relevance_score": 0.683,
+    "processed_date": "2026-10-18",
+    "summary": "Mixed training achieves better no-preference retention than sequential adaptation and improves performance with contextual prompts compared with preference-only training, but can weaken motion-preference learning; preference generalization, decomposition, and conflict handling remain difficult. We introduce LIBERO-PeRM, a benchmark for preference learning in embodied agents. The code, datasets, and demos can be found on the project website: https://libero-perm.github.io/. Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating task completion from preference satisfaction. LIBERO-PeRM studies five questions: 1) how policies follow preferences in zero-shot settings; 2) how they learn single preferences from demonstrations; 3) how efficiently they acquire preferences as demonstrations increase; 4) how learned preferences generalize across layouts and tasks; and 5) how policies compose preferences and behave under conflicts.",
+    "key_concepts": [
+      "Zero-shot",
+      "Manipulation",
+      "Preferences Demonstrations",
+      "Taxonomy Observable",
+      "Transition Household",
+      "True Practicality"
+    ],
+    "insights": {
+      "problem": "Mixed training achieves better no-preference retention than sequential adaptation and improves performance with contextual prompts compared with preference-only training, but can weaken motion-preference learning; preference generalization, decomposition, and conflict handling remain difficult.",
+      "approach": "We introduce LIBERO-PeRM, a benchmark for preference learning in embodied agents.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Manipulation.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "This formulation is restricted to language-expressible preferences that can be instantiated in LIBERO without changing the task goal, evaluated automatically, and reused across tasks."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2610.22341",
+    "raw_id": "http://arxiv.org/abs/2610.22341v1",
+    "title": "3DCodeVerse: Exploring 3D Worlds as Code",
+    "authors": [
+      "Yipeng Gao",
+      "Ziyao Zeng",
+      "Jinfa Huang",
+      "Yijiang Li",
+      "Haolin Xiong",
+      "Wang Qin",
+      "Xinlei Yu",
+      "Youheng Yao",
+      "Jie Zhang",
+      "Kun-Yu Lin",
+      "Rong Liu",
+      "Yinyuan Zhao",
+      "Yajie Zhao",
+      "Meiqi Guo",
+      "Jiebo Luo",
+      "Lei Shu",
+      "Yunhao Ge",
+      "Xinyu Hu",
+      "Laurent Itti"
+    ],
+    "published_date": "2026-10-15T17:56:07Z",
+    "updated_date": "2026-10-15T17:56:07Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "abstract": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D executable code. We build this corpus by collecting open-source data, converting specialized representations, and generating new programs with coding agents. Each program is packaged with the source files and associated assets required for execution in its declared environment, along with available descriptions and verification records. Second, we develop the 3DCodeVerse Harness, a multi-agent directed acyclic graph framework for generating and refining 3D content. It uses execution checks, spatial measurements, and visual feedback to automatically evaluate and revise generated programs without human feedback during generation. Third, we conduct systematic empirical studies of 3D coding, establishing baselines with fine-tuned open models and deriving practical guidance through component-level analyses of our harness. Extensive experiments demonstrate that fine-tuning on our dataset significantly improves the 3D coding capabilities of open-source models. Notably, our 3DCodeVerse harness achieves a 90% win rate against Claude Design (3D Object) in pairwise human evaluations, when both are utilized by Claude Opus 5.5.",
+    "url": "https://arxiv.org/abs/2610.22341v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.22341v1",
+    "relevance_score": 0.678,
+    "processed_date": "2026-10-18",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates we introduce 3dcodeverse, a research ecosystem that enables coding agents to create editable and verifiable 3d content at scale. We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. Extensive experiments demonstrate that fine-tuning on our dataset significantly improves the 3D coding capabilities of open-source models. Notably, our 3DCodeVerse harness achieves a 90% win rate against Claude Design (3D Object) in pairwise human evaluations, when both are utilized by Claude Opus 5.5. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding.",
+    "key_concepts": [
+      "Achieves Win",
+      "Acyclic Graph",
+      "Analyses Harness",
+      "Assets Required",
+      "Associated Assets",
+      "Automated Verification"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Achieves Win, Acyclic Graph.",
+      "results": "Extensive experiments demonstrate that fine-tuning on our dataset significantly improves the 3D coding capabilities of open-source models.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.22293",
+    "raw_id": "http://arxiv.org/abs/2610.22293v1",
+    "title": "Towards Continual Learning: Mitigating Forgetting With Subspace Tuning",
+    "authors": [
+      "Arnav Chavan",
+      "Kusha Sareen",
+      "Rishabh Tiwari",
+      "Abhranil Chandra",
+      "Johan Obando-Ceron",
+      "Kurt Keutzer",
+      "Scott Niekum",
+      "Inderjit S Dhillon",
+      "Devvrit Khatri"
+    ],
+    "published_date": "2026-10-15T17:44:43Z",
+    "updated_date": "2026-10-15T17:44:43Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "abstract": "Large language models (LLMs) acquire new skills through fine-tuning, but it can destroy capabilities they already have: catastrophic forgetting remains a central obstacle to continual learning in LLMs. Recent works connect forgetting to how far, and along which directions, fine-tuning moves the weights. On-policy methods such as reinforcement learning and on-policy distillation avoid updating the principal singular directions of weight matrices and thus forget less. In contrast, SFT concentrates updates along these directions and is susceptible to catastrophic forgetting. In this work, we introduce Subspace Tuning (SST), which restricts each weight update to the bottom singular subspace, eliminating changes along the principal directions. SST is optimizer-agnostic and composes well with fine-tuning recipes including SFT and self-distillation. SST combines tight subspace protection, dense gradient estimation, and a simple refresh mechanism, enabling stronger learning than prior orthogonal fine-tuning methods. With these mechanisms, protecting as much as 99\\% of the weight subspace substantially improves retention while preserving strong target-task performance. This behavior strengthens with model and data size and nearly eliminates forgetting in the large-model regime. SST also keeps the model close to its base distribution, inducing 2--4\\times less KL drift than the baseline recipes. Overall, SST advances the learning--forgetting Pareto frontier, making it a practical default for fine-tuning pre-trained language models.",
+    "url": "https://arxiv.org/abs/2610.22293v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.22293v1",
+    "relevance_score": 0.678,
+    "processed_date": "2026-10-18",
+    "summary": "Addressing critical demands in Machine Learning, this research investigates large language models (llms) acquire new skills through fine-tuning, but it can destroy capabilities they already have: catastrophic forgetting remains a central obstacle to continual learning in llms. In this work, we introduce Subspace Tuning (SST), which restricts each weight update to the bottom singular subspace, eliminating changes along the principal directions. On-policy methods such as reinforcement learning and on-policy distillation avoid updating the principal singular directions of weight matrices and thus forget less. Overall, SST advances the learning--forgetting Pareto frontier, making it a practical default for fine-tuning pre-trained language models.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Catastrophic Forgetting",
+      "Subspace Tuning Sst",
+      "Substantially Improves",
+      "Susceptible Catastrophic",
+      "Tight Subspace Protection"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+      "approach": "In this work, we introduce Subspace Tuning (SST), which restricts each weight update to the bottom singular subspace, eliminating changes along the principal directions.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Catastrophic Forgetting.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2610.22356",
+    "raw_id": "http://arxiv.org/abs/2610.22356v1",
+    "title": "DK-VLM: Geometry as Position for Spatial Reasoning in Vision-Language Models",
+    "authors": [
+      "Han Su",
+      "Meng Tian",
+      "Tianyu Huang",
+      "Mingyu Gao",
+      "Lennox Wei",
+      "Dongxu Li",
+      "Jianhua Han",
+      "Hang Xu",
+      "Xiaohe Wu",
+      "Wangmeng Zuo"
+    ],
+    "published_date": "2026-10-15T17:58:15Z",
+    "updated_date": "2026-10-15T17:58:15Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "Vision-language models still struggle to understand 3D spatial relations across views and update spatial judgments as the observer moves. A common approach fuses 3D reconstruction features into visual tokens, but aligning these features with pretrained semantic representations remains challenging under limited spatial supervision. We propose DK-VLM with Dual-Kernel Attention, which computes attention from both a visual token's input position and its geometric position in the scene. A semantic kernel retains the pretrained model's native attention and positional encoding, while a separate geometric kernel uses estimated 3D points and camera poses to directly modulate attention through point displacements and relative view transformations. Then, a learned gate fuses their outputs. Geometry thus enters attention as position rather than as fused reconstruction features. We further introduce Reference-Frame Composition (RC) supervision to train the model to update its reference frame across successive judgments. It provides stepwise turn and heading targets derived from verified single-step annotations. Among the compared methods, DK-VLM-8B achieves the highest average score across six spatial benchmarks and the highest overall scores on VSI-Bench (74.33) and ReVSI-32 (58.28). RC supervision further improves multi-step spatial reasoning, while the full model preserves general video understanding. Project page: https://sumuru789.github.io/DK-VLM-website/.",
+    "url": "https://arxiv.org/abs/2610.22356v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.22356v1",
+    "relevance_score": 0.669,
+    "processed_date": "2026-10-18",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates vision-language models still struggle to understand 3d spatial relations across views and update spatial judgments as the observer moves. We propose DK-VLM with Dual-Kernel Attention, which computes attention from both a visual token's input position and its geometric position in the scene. Project page: https://sumuru789.github.io/DK-VLM-website/. Vision-language models still struggle to understand 3D spatial relations across views and update spatial judgments as the observer moves. A common approach fuses 3D reconstruction features into visual tokens, but aligning these features with pretrained semantic representations remains challenging under limited spatial supervision. A semantic kernel retains the pretrained model's native attention and positional encoding, while a separate geometric kernel uses estimated 3D points and camera poses to directly modulate attention through point displacements and relative view transformations.",
+    "key_concepts": [
+      "Achieves Highest",
+      "Aligning Features",
+      "Annotations Compared",
+      "Attention Computes",
+      "Attention Point",
+      "Attention Position"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "We propose DK-VLM with Dual-Kernel Attention, which computes attention from both a visual token's input position and its geometric position in the scene.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Achieves Highest, Aligning Features.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.22355",
+    "raw_id": "http://arxiv.org/abs/2610.22355v1",
+    "title": "OmniVerifier-C1: Decomposed Graded Verifier for Rule-Governed Generative World Modeling",
+    "authors": [
+      "Bowei Liu",
+      "Xinchen Zhang",
+      "Xuhuan Li",
+      "Tianlin Zhang",
+      "Kaian Jiang",
+      "Jingwei Liu",
+      "Congyang Zhao",
+      "Yifei Qian",
+      "Junhong Liu",
+      "Zhiheng Li",
+      "Yujiu Yang",
+      "Yang Cai",
+      "Ling Yang"
+    ],
+    "published_date": "2026-10-15T17:58:04Z",
+    "updated_date": "2026-10-15T17:58:04Z",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Generative visual verifiers play a crucial role in advancing multimodal intelligence. To enhance the robustness of visual verifiers in complex multimodal scenarios involving compositional requirements, we move beyond conventional binary verifiers that produce only True/False discrete judgments and introduce a verifier that automatically decomposes complex prompts or environmental rules into fine-grained components and assigns pointwise scores to provide a continuous and more informative critique signal. Our experiments further demonstrate that these structured and interpretable outputs improve the verifier's generalization to out-of-domain multimodal critic tasks. To train this verifier, we introduce a Decoupled RL training strategy that jointly optimizes sub-question-level binary judgment and global alignment scoring, using precise local feedback to develop fine-grained verification capabilities that provide a foundation for reliable continuous scoring at the global level. Under a general reinforcement learning framework, we first empirically demonstrate that the proposed pointwise graded verifier significantly outperforms binary verifiers in traditional text-to-image scenarios. We then extend our investigation to rule-governed generative world modeling where generative models are leveraged for world simulation and world reasoning under explicit rules. From a theoretical standpoint, we further show that a pairwise verification paradigm yields more accurate critiques than the pointwise formulation when ground-truth images are available, with empirical results on diverse structured world-modeling tasks such as Maze and Sudoku further validating the effectiveness of our approach. Overall, our findings suggest a key insight: the transition from generative models to structured world-modeling agents critically hinges on the availability of accurate pairwise graded visual verifiers.",
+    "url": "https://arxiv.org/abs/2610.22355v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.22355v1",
+    "relevance_score": 0.669,
+    "processed_date": "2026-10-18",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates generative visual verifiers play a crucial role in advancing multimodal intelligence. To train this verifier, we introduce a Decoupled RL training strategy that jointly optimizes sub-question-level binary judgment and global alignment scoring, using precise local feedback to develop fine-grained verification capabilities that provide a foundation for reliable continuous scoring at the global level. Under a general reinforcement learning framework, we first empirically demonstrate that the proposed pointwise graded verifier significantly outperforms binary verifiers in traditional text-to-image scenarios. Overall, our findings suggest a key insight: the transition from generative models to structured world-modeling agents critically hinges on the availability of accurate pairwise graded visual verifiers.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Binary Verifiers",
+      "Structured World-modeling",
+      "Traditional Text-to-image",
+      "Train Verifier",
+      "True False"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "To train this verifier, we introduce a Decoupled RL training strategy that jointly optimizes sub-question-level binary judgment and global alignment scoring, using precise local feedback to develop fine-grained verification capabilities that provide a foundation for reliable continuous scoring at the global level.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Binary Verifiers.",
+      "results": "Under a general reinforcement learning framework, we first empirically demonstrate that the proposed pointwise graded verifier significantly outperforms binary verifiers in traditional text-to-image scenarios.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.22292",
+    "raw_id": "http://arxiv.org/abs/2610.22292v1",
+    "title": "CAT-alyzing Honesty: Continuous Adversarial Training for Transferable LLM Honesty",
+    "authors": [
+      "Yuan-Chen Chang",
+      "Niklas Herbster",
+      "Gauthier Gidel",
+      "Tommaso Tosato"
+    ],
+    "published_date": "2026-10-15T17:43:47Z",
+    "updated_date": "2026-10-15T17:43:47Z",
+    "categories": [
+      "cs.LG",
+      "cs.CL",
+      "cs.CY"
+    ],
+    "abstract": "Large language models (LLMs) are becoming prevalent in scenarios where honesty is critical. However, despite alignment training, these models still exhibit dishonest behaviour, such as outputting claims that contradict some knowledge or are not supported by what is accessible in context. We introduce Continuous Adversarial Training for Consistent Honesty (CATCH), inspired by a method originally developed to robustly refuse harmful queries. CATCH trains the model towards an honest answer and away from a dishonest one while maintaining the model's capabilities. We evaluate two architectures (Llama-3.3-70B-Instruct and Qwen3-3.6-27B). We show that trained with only hundreds of targets built from self-reporting scenarios, CATCH learns an honest behaviour that robustly generalizes and transfers across distinct benchmarks. It consistently reduces dishonesty under pressure on MASK, increases confessions in the multi-agent game of Among Us, and improves the discovery rates of the model's hidden behaviours in AuditBench. We show that CATCH outperforms prompting and supervised fine-tuning in improving honesty, and it is on par with state-of-the-art honesty activation steering. However, CATCH surpasses honesty steering in maintaining utility, thanks to a novel choice of utility data.",
+    "url": "https://arxiv.org/abs/2610.22292v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.22292v1",
+    "relevance_score": 0.658,
+    "processed_date": "2026-10-18",
+    "summary": "However, despite alignment training, these models still exhibit dishonest behaviour, such as outputting claims that contradict some knowledge or are not supported by what is accessible in context. We introduce Continuous Adversarial Training for Consistent Honesty (CATCH), inspired by a method originally developed to robustly refuse harmful queries. However, CATCH surpasses honesty steering in maintaining utility, thanks to a novel choice of utility data. We show that CATCH outperforms prompting and supervised fine-tuning in improving honesty, and it is on par with state-of-the-art honesty activation steering. Large language models (LLMs) are becoming prevalent in scenarios where honesty is critical. CATCH trains the model towards an honest answer and away from a dishonest one while maintaining the model's capabilities.",
+    "key_concepts": [
+      "Accessible Context",
+      "Activation Steering",
+      "Answer Away",
+      "Architectures Llama-",
+      "Auditbench Catch",
+      "Away Dishonest"
+    ],
+    "insights": {
+      "problem": "However, despite alignment training, these models still exhibit dishonest behaviour, such as outputting claims that contradict some knowledge or are not supported by what is accessible in context.",
+      "approach": "We introduce Continuous Adversarial Training for Consistent Honesty (CATCH), inspired by a method originally developed to robustly refuse harmful queries.",
+      "key_innovation": "However, CATCH surpasses honesty steering in maintaining utility, thanks to a novel choice of utility data.",
+      "results": "We show that CATCH outperforms prompting and supervised fine-tuning in improving honesty, and it is on par with state-of-the-art honesty activation steering.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Natural Language Processing"
+  },
+  {
+    "arxiv_id": "2610.22287",
+    "raw_id": "http://arxiv.org/abs/2610.22287v1",
+    "title": "Learning Rational Strategies for Temporal Objectives in Multi-Agent Systems",
+    "authors": [
+      "Omar Adalat",
+      "Edwin Hamel-De le Court",
+      "Francesco Belardinelli"
+    ],
+    "published_date": "2026-10-15T17:42:52Z",
+    "updated_date": "2026-10-15T17:42:52Z",
+    "categories": [
+      "cs.LG",
+      "cs.LO",
+      "cs.MA"
+    ],
+    "abstract": "We study rational synthesis for stochastic multi-agent systems with unknown dynamics, where each agent is equipped with its own probabilistic temporal objective specified using Probabilistic Linear Temporal Logic on Finite Traces (\\mathsf{PLTL}_f}). We impose solution concepts (e.g., Nash equilibrium, subgame-perfect equilibrium) as constraints on the joint strategy profile, using payoffs derived from each agent's probability of satisfying its temporal objective. In particular, we formulate per-agent rational synthesis as finding a strategy profile -- if one exists -- such that (i) the designated agent's probabilistic temporal constraint is satisfied, and (ii) the profile represents a stable solution under a chosen solution concept. We give conditional convergence guarantees for tabular Nash-Q learning, certify satisfaction with simultaneous finite-sample confidence bounds, and assess strategic stability with approximate best-response checking. Our approach operates in a stochastic \\emph{Multi-Agent Reinforcement Learning} (MARL) environment, where model-free learning algorithms attempt to attain extremal satisfaction probabilities for temporal objectives automatically compiled into reward automata. Our approach is empirically validated using 8 general-sum concurrent stochastic games.",
+    "url": "https://arxiv.org/abs/2610.22287v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.22287v1",
+    "relevance_score": 0.643,
+    "processed_date": "2026-10-18",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates we study rational synthesis for stochastic multi-agent systems with unknown dynamics, where each agent is equipped with its own probabilistic temporal objective specified using probabilistic linear temporal logic on finite traces (\\mathsf{pltl}_f}). In particular, we formulate per-agent rational synthesis as finding a strategy profile -- if one exists -- such that (i) the designated agent's probabilistic temporal constraint is satisfied, and (ii) the profile represents a stable solution under a chosen solution concept. Our approach is empirically validated using 8 general-sum concurrent stochastic games. We study rational synthesis for stochastic multi-agent systems with unknown dynamics, where each agent is equipped with its own probabilistic temporal objective specified using Probabilistic Linear Temporal Logic on Finite Traces (\\mathsf{PLTL}_f}).",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Temporal Objective",
+      "Agent Equipped",
+      "Agent Probabilistic",
+      "Agent Probability",
+      "Algorithms Attempt"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "In particular, we formulate per-agent rational synthesis as finding a strategy profile -- if one exists -- such that (i) the designated agent's probabilistic temporal constraint is satisfied, and (ii) the profile represents a stable solution under a chosen solution concept.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Temporal Objective.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "We impose solution concepts (e.g., Nash equilibrium, subgame-perfect equilibrium) as constraints on the joint strategy profile, using payoffs derived from each agent's probability of satisfying its temporal objective."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.22298",
+    "raw_id": "http://arxiv.org/abs/2610.22298v1",
+    "title": "AI Consilium: a Benchmark of LLM Clinical Multidisciplinary Second Opinions",
+    "authors": [
+      "Alexey A. Bokov",
+      "Ivan I. Panin",
+      "Nikolay B. Nechaev",
+      "Mikhail Yu. Valkov",
+      "Valeria Yu. Chernina",
+      "Natalia Gombolevskaya",
+      "Ayyaz Hussain",
+      "Vladimir M. Agafonov",
+      "Victor A. Gombolevskiy",
+      "Aleksandr V. Nesterov",
+      "Iaroslav R. Bespalov",
+      "Ivan V. Oseledets",
+      "Dmitry V. Dylov"
+    ],
+    "published_date": "2026-10-15T17:46:37Z",
+    "updated_date": "2026-10-15T17:46:37Z",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Large language models (LLMs) can generate differential diagnoses for complex cases, but a useful second opinion must also be factually grounded, clinically coherent, actionable, and safe. We developed a multidimensional benchmark using 300 diagnostically resolved NEJM--MedQA cases: 110 for physician reference ratings and Judge calibration and 190 for held-out evaluation. Eight single-model pipelines generated independent role-specific opinions and interactive-consilium reports under free-form and structured clinical-reasoning conditions. A physician-calibrated LLM Judge evaluated 3,040 final reports and the corresponding structured primary-role outputs. Model identity separated report quality more strongly than response format. Structured final reports had higher overall mean scores in seven of eight model pipelines, with their clearest advantage in management (2.740 vs. 2.436). Compared with the structured pre-consilium primary-role opinion, the complete structured synthesis had higher pooled scores across all five shared criteria, with the largest increases in problem prioritization, factual grounding, and reasoning coherence. GPT-5.6-Sol led every evaluated component and reached consensus in the fewest review rounds. These findings show that the benchmark can distinguish model capability, the contribution of multidisciplinary synthesis, criterion-specific effects of response structure, deliberation dynamics, and inference requirements within one common-case evaluation.",
+    "url": "https://arxiv.org/abs/2610.22298v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.22298v1",
+    "relevance_score": 0.642,
+    "processed_date": "2026-10-18",
+    "summary": "Compared with the structured pre-consilium primary-role opinion, the complete structured synthesis had higher pooled scores across all five shared criteria, with the largest increases in problem prioritization, factual grounding, and reasoning coherence. We developed a multidimensional benchmark using 300 diagnostically resolved NEJM--MedQA cases: 110 for physician reference ratings and Judge calibration and 190 for held-out evaluation. Eight single-model pipelines generated independent role-specific opinions and interactive-consilium reports under free-form and structured clinical-reasoning conditions. These findings show that the benchmark can distinguish model capability, the contribution of multidisciplinary synthesis, criterion-specific effects of response structure, deliberation dynamics, and inference requirements within one common-case evaluation.",
+    "key_concepts": [
+      "Actionable Safe",
+      "Advantage Management",
+      "Calibration Held-out",
+      "Capability Contribution",
+      "Cases Physician",
+      "Cases Useful"
+    ],
+    "insights": {
+      "problem": "Compared with the structured pre-consilium primary-role opinion, the complete structured synthesis had higher pooled scores across all five shared criteria, with the largest increases in problem prioritization, factual grounding, and reasoning coherence.",
+      "approach": "We developed a multidimensional benchmark using 300 diagnostically resolved NEJM--MedQA cases: 110 for physician reference ratings and Judge calibration and 190 for held-out evaluation.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Actionable Safe, Advantage Management.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Natural Language Processing"
+  },
+  {
+    "arxiv_id": "2610.22322",
+    "raw_id": "http://arxiv.org/abs/2610.22322v1",
+    "title": "Learning Self-Orchestration in Decentralized Agent Swarms",
+    "authors": [
+      "Guowei Xu",
+      "Zhenting Qi",
+      "Amani Kiruga",
+      "Himabindu Lakkaraju",
+      "Yilun Du"
+    ],
+    "published_date": "2026-10-15T17:51:57Z",
+    "updated_date": "2026-10-15T17:51:57Z",
+    "categories": [
+      "cs.MA",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "The capabilities of an agent swarm depend on both its individual members and how they coordinate. Yet existing multi-agent systems often train agents within fixed orchestration structures, separating the learning of individual capabilities from the organization of collective behavior. We introduce market-based post-training (MPT), a framework for jointly learning action policies and self-orchestration in decentralized agent swarms. Agents express their willingness to participate through bids, which determine who acts and how collective outcomes provide local training credit. Learning both action and bidding behavior allows individual capabilities and patterns of participation to adapt together without a central coordinating agent. We evaluate MPT on embodied crafting, robot navigation, and deep research. Results show gains over monolithic post-training and confirm that agent participation indeed evolves with learning. With the same post-trained action policies, learned self-orchestration outperforms alternative coordination strategies. Ablations show that both action and bidding benefit from learning, and that learned bids provide more effective action-training signals. Beyond the original training objectives, trained swarms adapt faster to related tasks and achieve better performance with larger populations at inference time. Larger populations also suffer smaller performance losses under agent dropout, demonstrating that learned self-orchestration supports reuse, scaling, and robustness in decentralized agent swarms. Code and trained models are available at https://github.com/Embodied-Minds-Lab/MPT.",
+    "url": "https://arxiv.org/abs/2610.22322v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.22322v1",
+    "relevance_score": 0.639,
+    "processed_date": "2026-10-18",
+    "summary": "Larger populations also suffer smaller performance losses under agent dropout, demonstrating that learned self-orchestration supports reuse, scaling, and robustness in decentralized agent swarms. We introduce market-based post-training (MPT), a framework for jointly learning action policies and self-orchestration in decentralized agent swarms. Results show gains over monolithic post-training and confirm that agent participation indeed evolves with learning. Code and trained models are available at https://github.com/Embodied-Minds-Lab/MPT. The capabilities of an agent swarm depend on both its individual members and how they coordinate. Yet existing multi-agent systems often train agents within fixed orchestration structures, separating the learning of individual capabilities from the organization of collective behavior.",
+    "key_concepts": [
+      "Robot Navigation",
+      "Agent Swarms",
+      "Decentralized Agent",
+      "Action Bidding",
+      "Action Policies",
+      "Individual Capabilities"
+    ],
+    "insights": {
+      "problem": "Larger populations also suffer smaller performance losses under agent dropout, demonstrating that learned self-orchestration supports reuse, scaling, and robustness in decentralized agent swarms.",
+      "approach": "We introduce market-based post-training (MPT), a framework for jointly learning action policies and self-orchestration in decentralized agent swarms.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Robot Navigation, Agent Swarms.",
+      "results": "Results show gains over monolithic post-training and confirm that agent participation indeed evolves with learning.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2610.22335",
+    "raw_id": "http://arxiv.org/abs/2610.22335v1",
+    "title": "Illumination-Aware Active Perception for Spacecraft Inspection",
+    "authors": [
+      "Sagarika Rao Valluri",
+      "Benjamin Riviere"
+    ],
+    "published_date": "2026-10-15T17:54:03Z",
+    "updated_date": "2026-10-15T17:54:03Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "abstract": "Harsh and rapidly varying orbital illumination introduces failure modes during spacecraft inspection. Existing planners rely on line-of-sight inspection metrics which perform occlusion checks against a known target and conflate geometric visibility with task-relevant information. These metrics overlook illumination effects including eclipse, self-shadowing, and specular reflection from spacecraft materials and tend to declare components as inspected despite the corresponding images lacking sufficient information. We propose an inspection-planning framework that replaces geometric visibility with a learned measure of camera information derived from a classifier variational autoencoder (VAE) that operates directly on the captured image. The encoder model is trained to classify spacecraft surface components from rendered patches, and its total latent variance is used to learn the varying illumination of said components, replacing binary visibility checks with a continuous, image-grounded quantity. We evaluate the approach by implementing a Guidance, Navigation, and Control architecture in a photorealistic physics simulator, and vary lighting and viewing geometries with multiple orbits. We show that, although all approaches successfully maximize their own objective, our approach results in better illumination: a mean brightness of 0.57, with 81.6\\% of observations above 0.25, compared with 0.02 (3.0\\%) for geometric planning with an illumination band and 0.04 (6.0\\%) for purely geometric planning.",
+    "url": "https://arxiv.org/abs/2610.22335v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.22335v1",
+    "relevance_score": 0.629,
+    "processed_date": "2026-10-18",
+    "summary": "These metrics overlook illumination effects including eclipse, self-shadowing, and specular reflection from spacecraft materials and tend to declare components as inspected despite the corresponding images lacking sufficient information. We propose an inspection-planning framework that replaces geometric visibility with a learned measure of camera information derived from a classifier variational autoencoder (VAE) that operates directly on the captured image. We show that, although all approaches successfully maximize their own objective, our approach results in better illumination: a mean brightness of 0.57, with 81.6\\% of observations above 0.25, compared with 0.02 (3.0\\%) for geometric planning with an illumination band and 0.04 (6.0\\%) for purely geometric planning.",
+    "key_concepts": [
+      "Approaches Successfully",
+      "Autoencoder Vae",
+      "Band Purely",
+      "Better Illumination",
+      "Brightness Observations",
+      "Camera Information"
+    ],
+    "insights": {
+      "problem": "These metrics overlook illumination effects including eclipse, self-shadowing, and specular reflection from spacecraft materials and tend to declare components as inspected despite the corresponding images lacking sufficient information.",
+      "approach": "We propose an inspection-planning framework that replaces geometric visibility with a learned measure of camera information derived from a classifier variational autoencoder (VAE) that operates directly on the captured image.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Approaches Successfully, Autoencoder Vae.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
   }
 ]

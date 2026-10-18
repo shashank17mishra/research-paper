@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[16 October 2026 Report](reports/2026/10/16/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[18 October 2026 Report](reports/2026/10/18/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/16/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/18/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/16/infographic.png)](reports/2026/10/16/infographic.png)
+[![Daily Infographic](reports/2026/10/18/infographic.png)](reports/2026/10/18/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `6` |
-| **Machine Learning (ML)** | `3` |
-| **Robotics** | `6` |
+| **Artificial Intelligence (AI)** | `9` |
+| **Machine Learning (ML)** | `4` |
+| **Robotics** | `3` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,20 +36,20 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Lear...** | `Artificial Intelligence` | `0.71` | [arXiv](https://arxiv.org/abs/2610.22344v1) |
-| 2 | **CoDA: Co-Evolution of Data Engines and Action Policies** | `Robotics` | `0.72` | [arXiv](https://arxiv.org/abs/2610.22362v1) |
-| 3 | **Training Reasoning Models to Generate Diverse Scientific Ideas** | `Artificial Intelligence` | `0.72` | [arXiv](https://arxiv.org/abs/2610.22324v1) |
-| 4 | **Value as Memory: Online Value-Guided Post-training for General Robot Pol...** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2610.22368v1) |
-| 5 | **Learning to Steer LLM Agents and Multi-Agent Systems** | `Artificial Intelligence` | `0.77` | [arXiv](https://arxiv.org/abs/2610.22316v1) |
+| 1 | **Illumination-Aware Active Perception for Spacecraft Inspection** | `Artificial Intelligence` | `0.63` | [arXiv](https://arxiv.org/abs/2610.22335v1) |
+| 2 | **Learning Self-Orchestration in Decentralized Agent Swarms** | `Robotics` | `0.64` | [arXiv](https://arxiv.org/abs/2610.22322v1) |
+| 3 | **AI Consilium: a Benchmark of LLM Clinical Multidisciplinary Second Opinions** | `Natural Language Processing` | `0.64` | [arXiv](https://arxiv.org/abs/2610.22298v1) |
+| 4 | **Learning Rational Strategies for Temporal Objectives in Multi-Agent Systems** | `Artificial Intelligence` | `0.64` | [arXiv](https://arxiv.org/abs/2610.22287v1) |
+| 5 | **CAT-alyzing Honesty: Continuous Adversarial Training for Transferable LL...** | `Natural Language Processing` | `0.66` | [arXiv](https://arxiv.org/abs/2610.22292v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `78`
-- **Total Operational Runs**: `20 days`
-- **Categories Tracked**: `12 categories`
-- **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, IoT & Edge AI
+- **Total Papers Analyzed**: `88`
+- **Total Operational Runs**: `21 days`
+- **Categories Tracked**: `14 categories`
+- **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 
 ---
 
