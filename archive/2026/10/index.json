@@ -1,6 +1,6 @@
 {
   "month": "2026-10",
-  "total_papers": 88,
+  "total_papers": 98,
   "papers": [
     {
       "arxiv_id": "2403.01234",
@@ -3821,6 +3821,412 @@
         "key_innovation": "Formulates an integrated mechanism leveraging Approaches Successfully, Autoencoder Vae.",
         "results": "Not specified in the available abstract.",
         "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.23849",
+      "raw_id": "http://arxiv.org/abs/2610.23849v1",
+      "title": "Blind Precise Assembly: Proprioceptive Sim-to-Real Peg-in-Hole for Diverse Parts",
+      "authors": [
+        "Antonia Bronars",
+        "Younghyo Park",
+        "Kushal Kedia",
+        "Pulkit Agrawal"
+      ],
+      "published_date": "2026-10-16T17:58:48Z",
+      "updated_date": "2026-10-16T17:58:48Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Every robot already carries high-resolution contact sensors: its own joints. Legged robots and humanoids exploit them to walk, run, and track whole-body motions without vision, but there the contacts are large and forceful. Is joint sensing also enough for precise, contact-rich assembly, where the robot must find a millimeter-scale opening, mesh gear teeth, or catch a thread through light contact? We study this question by training blind assembly policies that observe only a short history of joint positions, velocities, and their own actions, without visual, force, torque, or tactile sensing. The poses of both the fixture and the part are unknown to the policy, and the grasp is randomized substantially. The policy must therefore assemble the parts through contact, sensed exclusively through its own proprioception. Trained with reinforcement learning entirely in simulation over randomized parts, grasps, and contacts, such policies learn peg insertion, gear meshing, and nut threading. The peg insertion policy transfers zero-shot to the real world and inserts pegs of different shapes and sizes in 73% of trials. Controlled comparisons with matched visual policies in simulation show that blind policies generalize far better to unseen part shapes and sizes, though they can be slower. Training such policies needs thousands of different assemblies, each simulated with its clearance intact, so we also release an open-source generator that builds them procedurally from exact convex pieces for MuJoCo; it is more accurate and faster than convex decomposition or MuJoCo's signed-distance collision. Videos and interactive simulations are at https://younghyopark.me/blind-proprioceptive-assembly/.",
+      "url": "https://arxiv.org/abs/2610.23849v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23849v1",
+      "relevance_score": 0.757,
+      "processed_date": "2026-10-19",
+      "summary": "Addressing critical demands in Robotics, this research investigates every robot already carries high-resolution contact sensors: its own joints. Legged robots and humanoids exploit them to walk, run, and track whole-body motions without vision, but there the contacts are large and forceful. Is joint sensing also enough for precise, contact-rich assembly, where the robot must find a millimeter-scale opening, mesh gear teeth, or catch a thread through light contact? Videos and interactive simulations are at https://younghyopark.me/blind-proprioceptive-assembly/. Every robot already carries high-resolution contact sensors: its own joints. We study this question by training blind assembly policies that observe only a short history of joint positions, velocities, and their own actions, without visual, force, torque, or tactile sensing.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Sim-to-Real Transfer",
+        "Zero-shot",
+        "Peg Insertion",
+        "Shapes Sizes",
+        "Tactile Sensing"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "Legged robots and humanoids exploit them to walk, run, and track whole-body motions without vision, but there the contacts are large and forceful.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Sim-to-Real Transfer.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.23722",
+      "raw_id": "http://arxiv.org/abs/2610.23722v1",
+      "title": "Beyond Large Language Models: A Mental World Model Framework for Mental Modeling, Simulation, Evolution, and Interpretability",
+      "authors": [
+        "Qingshi Wang"
+      ],
+      "published_date": "2026-10-16T16:42:11Z",
+      "updated_date": "2026-10-16T16:42:11Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Understanding and simulating how subjective cognition and mental states emerge, evolve, and shape behavior is essential for advancing artificial intelligence toward deeper social cognition and general intelligence. Existing large language models (LLMs) and Theory of Mind (ToM) methods primarily infer mental states from linguistic information, lacking unified mechanisms for subjective world construction, cognitive-psychological interactions, dynamic evolution, and historical dependencies. This paper introduces the Mental World Model (MWM) and its implementation, the Multi-Branch Mental Evolution Architecture (MMEA), which explicitly constructs subjective worlds, models interactions between cognition and mental states, and simulates continuous mental evolution shaped by historical experiences. On DynToM and RecToM, MMEA achieves 96.48% and 94.00% accuracy, respectively, outperforming leading LLMs and specialized ToM methods. Additional experiments demonstrate improvements of 28.7, 39.3, and 16.6 percentage points in mental state and behavior prediction, long-sequence prediction, and implicit mental state inference, respectively. The results demonstrate that MMEA provides an interpretable framework for continuous mental modeling, enabling AI to move beyond surface-level semantic representations to infer individuals' underlying mental states from linguistic information and dynamically simulate their internal cognitive processes and evolution over time. MWM also provides a promising foundation for causal reasoning, personalized AI, sustained human-AI interaction, and future advances toward artificial general intelligence (AGI).",
+      "url": "https://arxiv.org/abs/2610.23722v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23722v1",
+      "relevance_score": 0.718,
+      "processed_date": "2026-10-19",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates understanding and simulating how subjective cognition and mental states emerge, evolve, and shape behavior is essential for advancing artificial intelligence toward deeper social cognition and general intelligence. Existing large language models (LLMs) and Theory of Mind (ToM) methods primarily infer mental states from linguistic information, lacking unified mechanisms for subjective world construction, cognitive-psychological interactions, dynamic evolution, and historical dependencies. Additional experiments demonstrate improvements of 28.7, 39.3, and 16.6 percentage points in mental state and behavior prediction, long-sequence prediction, and implicit mental state inference, respectively. MWM also provides a promising foundation for causal reasoning, personalized AI, sustained human-AI interaction, and future advances toward artificial general intelligence (AGI).",
+      "key_concepts": [
+        "World Model",
+        "Cognition Mental",
+        "Continuous Mental",
+        "General Intelligence",
+        "Linguistic Information",
+        "Mental Evolution"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "Existing large language models (LLMs) and Theory of Mind (ToM) methods primarily infer mental states from linguistic information, lacking unified mechanisms for subjective world construction, cognitive-psychological interactions, dynamic evolution, and historical dependencies.",
+        "key_innovation": "Formulates an integrated mechanism leveraging World Model, Cognition Mental.",
+        "results": "Additional experiments demonstrate improvements of 28.7, 39.3, and 16.6 percentage points in mental state and behavior prediction, long-sequence prediction, and implicit mental state inference, respectively.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.23787",
+      "raw_id": "http://arxiv.org/abs/2610.23787v1",
+      "title": "DLite: History-free Speculative Decoding for Agentic AI",
+      "authors": [
+        "Jiaming Xu",
+        "Hanzhen Wang",
+        "Tianlang Zhao",
+        "Jiewen Xiao",
+        "Chengze Yuan",
+        "Jiayi Pan",
+        "Yongkang Zhou",
+        "Jiancai Ye",
+        "Yu Wang",
+        "Guohao Dai"
+      ],
+      "published_date": "2026-10-16T17:18:54Z",
+      "updated_date": "2026-10-16T17:18:54Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Speculative decoding has become a mainstream technique for accelerating large language model (LLM) inference by using a lightweight draft model to generate candidate tokens that are subsequently verified by the target model. However, agentic workloads introduce long and continuously evolving contexts and frequent multi-turn interactions. Under such workloads, we observe that existing draft models suffer from up to an 80% degradation in acceptance length, while maintaining their historical KV cache introduces substantial system overhead. In this paper, we identify the growing historical context as a common source of both problems and introduce DLite, a history-free speculative decoding framework for agentic AI. DLite directly reuses contextual hidden states from the target model and performs local speculative prediction without explicitly maintaining the historical context, transforming an increasingly complex modeling problem into local simple prediction problem. A lightweight sequential head further restores intra-block causal dependencies with low overhead. To effectively train this heterogeneous history-free architecture, we introduce a tailored two-stage training strategy. Experiments on general-purpose, long-context and agentic workloads show that DLite achieves 2-6 acceptance length and outperforms the state-of-the-art speculative decoding method, DSpark, up to 70%.",
+      "url": "https://arxiv.org/abs/2610.23787v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23787v1",
+      "relevance_score": 0.698,
+      "processed_date": "2026-10-19",
+      "summary": "However, agentic workloads introduce long and continuously evolving contexts and frequent multi-turn interactions. To effectively train this heterogeneous history-free architecture, we introduce a tailored two-stage training strategy. Experiments on general-purpose, long-context and agentic workloads show that DLite achieves 2-6 acceptance length and outperforms the state-of-the-art speculative decoding method, DSpark, up to 70%. Speculative decoding has become a mainstream technique for accelerating large language model (LLM) inference by using a lightweight draft model to generate candidate tokens that are subsequently verified by the target model. Under such workloads, we observe that existing draft models suffer from up to an 80% degradation in acceptance length, while maintaining their historical KV cache introduces substantial system overhead.",
+      "key_concepts": [
+        "Large Language Model",
+        "Speculative Decoding",
+        "Accelerating Large",
+        "Acceptance Length",
+        "Achieves Acceptance",
+        "Agentic Dlite"
+      ],
+      "insights": {
+        "problem": "However, agentic workloads introduce long and continuously evolving contexts and frequent multi-turn interactions.",
+        "approach": "To effectively train this heterogeneous history-free architecture, we introduce a tailored two-stage training strategy.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Large Language Model, Speculative Decoding.",
+        "results": "Experiments on general-purpose, long-context and agentic workloads show that DLite achieves 2-6 acceptance length and outperforms the state-of-the-art speculative decoding method, DSpark, up to 70%.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Under such workloads, we observe that existing draft models suffer from up to an 80% degradation in acceptance length, while maintaining their historical KV cache introduces substantial system overhead."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.23813",
+      "raw_id": "http://arxiv.org/abs/2610.23813v1",
+      "title": "MOSS: Multimodal Origami Swamp Robot System",
+      "authors": [
+        "T. Lan",
+        "A. Babgei",
+        "L. Romanello",
+        "M. Kovac",
+        "S. F. Armanini"
+      ],
+      "published_date": "2026-10-16T17:35:24Z",
+      "updated_date": "2026-10-16T17:35:24Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Robotic systems for environmental monitoring and ecological surveying in wetlands and swamps must operate across diverse terrestrial and aquatic conditions. Conventional fixed-geometry wheels cannot adapt their contact geometry to these varying conditions. This work presents MOSS (Multimodal Origami Swamp Robot System), a compact amphibious robotic platform with 3D-printed origami wheels. The compact crank mechanism switches the wheel between contracted and expanded configurations, changing its width, body diameter, and fin orientation simultaneously. The contracted configuration is better suited to efficient rolling on firmer ground, whereas the expanded configuration provides greater contact and terrain engagement on softer surfaces. MOSS was evaluated on soil, sand, mud with varying water content, and water, in addition to in-motion morphing and terrestrial-aquatic transition tests. The more energy-efficient wheel configuration depended on terrain. The contracted configuration achieved a lower cost of transport on firmer soil and mud, whereas the expanded configuration performed better on wetter mud, sand, and water, reducing the cost of transport by up to 29%. Expanded wheels also reduced slip in wet mud and reduced both slip and hub sinkage in sand. MOSS successfully completed configuration changes in 1.95 \\pm 0.11 s and demonstrated continuous locomotion across soil-mud-water transitions. Outdoor trials further demonstrated operation across natural deformable terrain and water. These results show that adaptive wheel geometry provides terrain-dependent locomotion benefits and enables a single compact platform to traverse substantially different terrestrial and aquatic conditions.",
+      "url": "https://arxiv.org/abs/2610.23813v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23813v1",
+      "relevance_score": 0.683,
+      "processed_date": "2026-10-19",
+      "summary": "Addressing critical demands in Robotics, this research investigates robotic systems for environmental monitoring and ecological surveying in wetlands and swamps must operate across diverse terrestrial and aquatic conditions. Conventional fixed-geometry wheels cannot adapt their contact geometry to these varying conditions. The contracted configuration achieved a lower cost of transport on firmer soil and mud, whereas the expanded configuration performed better on wetter mud, sand, and water, reducing the cost of transport by up to 29%. These results show that adaptive wheel geometry provides terrain-dependent locomotion benefits and enables a single compact platform to traverse substantially different terrestrial and aquatic conditions.",
+      "key_concepts": [
+        "Aquatic Conditions",
+        "Contracted Configuration",
+        "Cost Transport",
+        "Expanded Configuration",
+        "Reduced Slip",
+        "Terrestrial Aquatic"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "Conventional fixed-geometry wheels cannot adapt their contact geometry to these varying conditions.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Aquatic Conditions, Contracted Configuration.",
+        "results": "The contracted configuration achieved a lower cost of transport on firmer soil and mud, whereas the expanded configuration performed better on wetter mud, sand, and water, reducing the cost of transport by up to 29%.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.23715",
+      "raw_id": "http://arxiv.org/abs/2610.23715v1",
+      "title": "The Cognitive Cost of LLM Writing: A Reading-Time Comparison with Human Text",
+      "authors": [
+        "Kamer Cekini",
+        "Elisabetta Biondi",
+        "Chiara Boldrini",
+        "Andrea Passarella",
+        "Marco Conti"
+      ],
+      "published_date": "2026-10-16T16:35:41Z",
+      "updated_date": "2026-10-16T16:35:41Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Although linguistic differences between human-written and Large Language Model (LLM)-generated texts have been extensively studied, their implications for the cognitive effort involved in reading remain less explored. In psycholinguistics, reading time is commonly used as an indirect measure of cognitive processing effort. Building on this perspective, we investigate whether human-written texts and their LLM-generated rewrites exhibit differences in predicted reading time that may reflect differences in processing demands for readers. To this end, we introduce RoBERTa-RT, a model trained on human eye-tracking data to predict word-level reading times. We evaluate the model on both internal and external test sets, construct a paired dataset of 496 human-written articles and their LLM-generated rewrites, and apply RoBERTa-RT to compare their predicted reading times. Our findings show that LLM-generated rewrites tend to be shorter and have slightly lower predicted total reading times, while exhibiting higher predicted reading times per word. These differences are associated with systematic linguistic changes, including longer and less frequent words, greater lexical diversity, and higher contextual predictability. From a cognitive perspective, our findings suggest that LLM-generated writing may redistribute reading demands: reducing the amount of text to process while increasing the predicted processing effort associated with individual words. This highlights the importance of considering not only the linguistic characteristics of machine-generated content, but also its potential implications for human cognitive processing.",
+      "url": "https://arxiv.org/abs/2610.23715v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23715v1",
+      "relevance_score": 0.671,
+      "processed_date": "2026-10-19",
+      "summary": "Although linguistic differences between human-written and Large Language Model (LLM)-generated texts have been extensively studied, their implications for the cognitive effort involved in reading remain less explored. To this end, we introduce RoBERTa-RT, a model trained on human eye-tracking data to predict word-level reading times. Building on this perspective, we investigate whether human-written texts and their LLM-generated rewrites exhibit differences in predicted reading time that may reflect differences in processing demands for readers. This highlights the importance of considering not only the linguistic characteristics of machine-generated content, but also its potential implications for human cognitive processing. In psycholinguistics, reading time is commonly used as an indirect measure of cognitive processing effort.",
+      "key_concepts": [
+        "Large Language Model",
+        "Cognitive Processing",
+        "Llm-generated Rewrites",
+        "Predicted Reading",
+        "Processing Effort",
+        "Reading Time"
+      ],
+      "insights": {
+        "problem": "Although linguistic differences between human-written and Large Language Model (LLM)-generated texts have been extensively studied, their implications for the cognitive effort involved in reading remain less explored.",
+        "approach": "To this end, we introduce RoBERTa-RT, a model trained on human eye-tracking data to predict word-level reading times.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Large Language Model, Cognitive Processing.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2610.23820",
+      "raw_id": "http://arxiv.org/abs/2610.23820v1",
+      "title": "CocoRNA: Collective RNA Design with Cooperative Multi-agent Reinforcement Learning",
+      "authors": [
+        "Tianmeng Hu",
+        "Biao Luo",
+        "Ke Li"
+      ],
+      "published_date": "2026-10-16T17:43:25Z",
+      "updated_date": "2026-10-16T17:43:25Z",
+      "categories": [
+        "cs.LG",
+        "cs.MA"
+      ],
+      "abstract": "Designing RNA sequences that reliably fold into specific secondary structures is essential for understanding their biological functions but remains a challenging computational problem. We propose CocoRNA, a cooperative multi-agent reinforcement learning framework for RNA inverse design. CocoRNA simplifies the design task by decomposing it into smaller sub-problems, each solved collaboratively by multiple agents. This approach reduces the complexity of the problem and improves the exploration of design policies. During training, a centralized critic uses global structural information to guide the agents, enabling them to jointly optimize their design strategies. As a result, CocoRNA learns high-quality RNA design policies that generalize effectively to unseen structures without additional training. Experiments on the Rfam dataset demonstrate that CocoRNA substantially outperforms state-of-the-art methods in both success rate and design speed. Further experiments on other biological sequence design tasks highlight the effectiveness and broad potential of CocoRNA for complex design tasks.",
+      "url": "https://arxiv.org/abs/2610.23820v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23820v1",
+      "relevance_score": 0.649,
+      "processed_date": "2026-10-19",
+      "summary": "Designing RNA sequences that reliably fold into specific secondary structures is essential for understanding their biological functions but remains a challenging computational problem. We propose CocoRNA, a cooperative multi-agent reinforcement learning framework for RNA inverse design. Experiments on the Rfam dataset demonstrate that CocoRNA substantially outperforms state-of-the-art methods in both success rate and design speed. Further experiments on other biological sequence design tasks highlight the effectiveness and broad potential of CocoRNA for complex design tasks. CocoRNA simplifies the design task by decomposing it into smaller sub-problems, each solved collaboratively by multiple agents. This approach reduces the complexity of the problem and improves the exploration of design policies.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Biological Functions",
+        "Biological Sequence",
+        "Broad Potential",
+        "Challenging Computational",
+        "Cocorna Complex"
+      ],
+      "insights": {
+        "problem": "Designing RNA sequences that reliably fold into specific secondary structures is essential for understanding their biological functions but remains a challenging computational problem.",
+        "approach": "We propose CocoRNA, a cooperative multi-agent reinforcement learning framework for RNA inverse design.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Biological Functions.",
+        "results": "Experiments on the Rfam dataset demonstrate that CocoRNA substantially outperforms state-of-the-art methods in both success rate and design speed.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.23796",
+      "raw_id": "http://arxiv.org/abs/2610.23796v1",
+      "title": "FuTransformer: FP8 prefill and INT4 decode for Llama-style inference on Hopper",
+      "authors": [
+        "Wei Wang"
+      ],
+      "published_date": "2026-10-16T17:22:01Z",
+      "updated_date": "2026-10-16T17:22:01Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Transformer prefill reuses weights across tokens and is dominated by matrix multiplication and activation data movement; single-token decode has limited reuse and is dominated by weight and KV-cache reads. We present FUTRANSFORMER, a CUDA implementation of a Llama-style Transformer block for NVIDIA Hopper GPUs. It applies CODA's GEMM-plus-epilogue approach to inference, adding direct KV-cache placement, folding the fixed RMSNorm gain into weights, writing FP8 output directly with delayed scaling, and supporting prefill without padding. Decode uses INT4 projection weights and an INT4 KV-cache copy. Weights and keys follow Tensor Core fragment layouts for direct dequantization into MMA operands without full intermediate tiles. A block-diagonal Hadamard transform reduces cache quantization error from outlier channels. On one H100, prefill is up to 1.48x faster than compiled PyTorch FP8 and reaches 1.29 PFLOP/s. For gate/up projection with SwiGLU at the 8B shape, our BF16 path is 1.13x faster than CODA. Our FP8 path is 2.02-2.18x faster than the evaluated BF16 CODA path. Across 8B and 70B shapes at batches 1-32, INT4 decode is 1.3-2.4x faster than the faster of PyTorch's BF16 and INT4 blocks at each point: 2.1-3.3x faster than compiled, CUDA-graphed BF16 and 1.3-6.3x faster than the same block using PyTorch's INT4 projection kernel, which targets a single query row and loses to BF16 at batch 32. It is also 31-51% faster than our FP8 path. Complete Llama-3.1-8B decode takes 2.8 ms per step at batch one, versus 8.1 ms for the compiled transformers implementation. Decoding every WikiText-2 token through the INT4 weight path raises perplexity from 6.24 to 7.23 with round-to-nearest weights or 6.99 with GPTQ in the same format; the rotated INT4 cache adds 0.20. The kernels match a quantized reference computation within 0.001 perplexity.",
+      "url": "https://arxiv.org/abs/2610.23796v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23796v1",
+      "relevance_score": 0.649,
+      "processed_date": "2026-10-19",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates transformer prefill reuses weights across tokens and is dominated by matrix multiplication and activation data movement; single-token decode has limited reuse and is dominated by weight and kv-cache reads. We present FUTRANSFORMER, a CUDA implementation of a Llama-style Transformer block for NVIDIA Hopper GPUs. On one H100, prefill is up to 1.48x faster than compiled PyTorch FP8 and reaches 1.29 PFLOP/s. The kernels match a quantized reference computation within 0.001 perplexity. Transformer prefill reuses weights across tokens and is dominated by matrix multiplication and activation data movement; single-token decode has limited reuse and is dominated by weight and KV-cache reads.",
+      "key_concepts": [
+        "Quantization",
+        "Coda Path",
+        "Faster Compiled",
+        "Path Faster",
+        "Tokens Dominated",
+        "Transform Reduces"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We present FUTRANSFORMER, a CUDA implementation of a Llama-style Transformer block for NVIDIA Hopper GPUs.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Quantization, Coda Path.",
+        "results": "On one H100, prefill is up to 1.48x faster than compiled PyTorch FP8 and reaches 1.29 PFLOP/s.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.23841",
+      "raw_id": "http://arxiv.org/abs/2610.23841v1",
+      "title": "StopWatch: Goal Grounding for Object-goal Navigation",
+      "authors": [
+        "Xinhao Liu",
+        "Yunsheng Tian",
+        "Yuheng Qiu",
+        "Pieter Abbeel",
+        "Xi Chen",
+        "Guanya Shi",
+        "Chen Feng"
+      ],
+      "published_date": "2026-10-16T17:57:05Z",
+      "updated_date": "2026-10-16T17:57:05Z",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "Pretrained VLMs bring rich world knowledge and semantic priors to object-goal navigation, and fine-tuning a VLM into a navigation policy has become a common recipe. Despite this progress, success rates remain low, and it is unclear which capability these fine-tuned policies lack. Our diagnosis identifies goal grounding as the dominant failure. These policies explore well, yet often fail to notice that the goal is already in view or to estimate how far away it is. To address this failure, we ground the goal explicitly. Explicit grounding substantially improves success and reaches state-of-the-art results on six benchmarks across three scene collections. We also correct annotation defects in these benchmarks, so that future methods are evaluated more faithfully. Our analysis on the clean benchmarks shows that, with ground-truth grounding, our policy nearly matches the expert that generated its demonstrations, leaving the headroom in perception rather than policy learning. Our work points to goal grounding as a missing piece of object-goal navigation and offers a simple and effective solution to the task.",
+      "url": "https://arxiv.org/abs/2610.23841v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23841v1",
+      "relevance_score": 0.643,
+      "processed_date": "2026-10-19",
+      "summary": "Despite this progress, success rates remain low, and it is unclear which capability these fine-tuned policies lack. Despite this progress, success rates remain low, and it is unclear which capability these fine-tuned policies lack. Our diagnosis identifies goal grounding as the dominant failure. Our work points to goal grounding as a missing piece of object-goal navigation and offers a simple and effective solution to the task. Pretrained VLMs bring rich world knowledge and semantic priors to object-goal navigation, and fine-tuning a VLM into a navigation policy has become a common recipe. These policies explore well, yet often fail to notice that the goal is already in view or to estimate how far away it is.",
+      "key_concepts": [
+        "Goal Grounding",
+        "Object-goal Navigation",
+        "Address Failure",
+        "Annotation Defects",
+        "Away Address",
+        "Capability Fine-tuned"
+      ],
+      "insights": {
+        "problem": "Despite this progress, success rates remain low, and it is unclear which capability these fine-tuned policies lack.",
+        "approach": "Despite this progress, success rates remain low, and it is unclear which capability these fine-tuned policies lack.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Goal Grounding, Object-goal Navigation.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.23769",
+      "raw_id": "http://arxiv.org/abs/2610.23769v1",
+      "title": "Not All Actions Contribute Equally: Learning Precise Progress Estimation from Imprecise Demonstrations",
+      "authors": [
+        "Huanqian Wang",
+        "Boshi Tang",
+        "Botong Xiao",
+        "Jie Zhang",
+        "Yang Yue",
+        "Danhua Tao",
+        "Shiji Song",
+        "Gao Huang"
+      ],
+      "published_date": "2026-10-16T17:07:39Z",
+      "updated_date": "2026-10-16T17:07:39Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Progress estimators play an essential role in providing dense reward signals for reinforcement learning in robotic manipulation, but accurately assessing task progress can be much challenging. Existing methods heavily rely on expert data and naively assume that all actions within a demonstration contribute to task success. This assumption often breaks down in real-world scenarios, especially in high-precision manipulation, where subtle geometric errors can lead to task failure. Therefore, these methods can erroneously interpret human mistakes as meaningful progress, further corrupting progress learning. We argue that a key limitation is the lack of a global prior regarding task evaluation criteria, which is crucial for distinguishing meaningful progress from human mistakes. To this end, we propose PRIME, a novel progress estimator capable of learning precise progress estimation from imprecise demonstrations by aggregating experience across trajectories. PRIME constructs a weighted graph over observed states, connecting states across trajectories based on spatial proximity and visual consistency. Edge weights encode spatial distances as transition costs, and shortest-path search approximates the geodesic distance to success. Changes in this distance naturally distinguish advancement, stagnation, and setbacks without assuming monotonic progress over time. Extensive experiments in both simulation and real world on precise manipulation tasks show that PRIME is consistently effective across diverse tasks, and robust to data with varying degrees of suboptimality. Notably, the advantage of PRIME gets more pronounced in higher-precision scenarios, yielding up to a \\(5\\times\\) improvement in policy success rate over the SFT baselines on charger insertion.",
+      "url": "https://arxiv.org/abs/2610.23769v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23769v1",
+      "relevance_score": 0.643,
+      "processed_date": "2026-10-19",
+      "summary": "We argue that a key limitation is the lack of a global prior regarding task evaluation criteria, which is crucial for distinguishing meaningful progress from human mistakes. To this end, we propose PRIME, a novel progress estimator capable of learning precise progress estimation from imprecise demonstrations by aggregating experience across trajectories. To this end, we propose PRIME, a novel progress estimator capable of learning precise progress estimation from imprecise demonstrations by aggregating experience across trajectories. This assumption often breaks down in real-world scenarios, especially in high-precision manipulation, where subtle geometric errors can lead to task failure. Notably, the advantage of PRIME gets more pronounced in higher-precision scenarios, yielding up to a \\(5\\times\\) improvement in policy success rate over the SFT baselines on charger insertion.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Manipulation",
+        "Meaningful Progress",
+        "Stagnation Setbacks Assuming",
+        "States Connecting",
+        "States Trajectories"
+      ],
+      "insights": {
+        "problem": "We argue that a key limitation is the lack of a global prior regarding task evaluation criteria, which is crucial for distinguishing meaningful progress from human mistakes.",
+        "approach": "To this end, we propose PRIME, a novel progress estimator capable of learning precise progress estimation from imprecise demonstrations by aggregating experience across trajectories.",
+        "key_innovation": "To this end, we propose PRIME, a novel progress estimator capable of learning precise progress estimation from imprecise demonstrations by aggregating experience across trajectories.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Existing methods heavily rely on expert data and naively assume that all actions within a demonstration contribute to task success."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.23831",
+      "raw_id": "http://arxiv.org/abs/2610.23831v1",
+      "title": "Beyond the Answer: Student-Conditioned Trace Construction for Reasoning Distillation",
+      "authors": [
+        "Shaoang Li",
+        "Yanhang Shi",
+        "Yufei Li",
+        "Mingfu Liang",
+        "Frank Shyu",
+        "Sandeep Pandey",
+        "Luke Simon",
+        "Xi Liu",
+        "Jian Li"
+      ],
+      "published_date": "2026-10-16T17:52:58Z",
+      "updated_date": "2026-10-16T17:52:58Z",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "A reasoning trace can accompany a correct answer without providing effective supervision for a particular student. We study how to construct traces that improve learning beyond answer-only supervision by considering both their intermediate content and their accessibility to the target learner. We introduce ReDiST, a student-conditioned trace-construction and distillation framework for evidence-rich reasoning. Starting from the student's own attempts, ReDiST revises answer-correct drafts against the supplied evidence and repairs unsuccessful drafts with additional guidance from the verified answer. A frozen student-matched reader screens and ranks original and edited candidates using answer recovery and verified-answer probability, given the question, evidence, and candidate trace. We distill the selected targets while balancing trace and final-answer supervision with an auxiliary answer loss. Construction and selection occur offline, and inference uses only the distilled student. Experiments on question-answering benchmarks show that ReDiST can improve both source-task and cross-benchmark performance over answer-only, original-trace, and the evaluated trace-selection and rewriting baselines. Across supervision recipes, performance rankings can differ between source and transfer benchmarks, highlighting the importance of evaluating trace teaching utility across distributions.",
+      "url": "https://arxiv.org/abs/2610.23831v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.23831v1",
+      "relevance_score": 0.629,
+      "processed_date": "2026-10-19",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates a reasoning trace can accompany a correct answer without providing effective supervision for a particular student. We introduce ReDiST, a student-conditioned trace-construction and distillation framework for evidence-rich reasoning. Across supervision recipes, performance rankings can differ between source and transfer benchmarks, highlighting the importance of evaluating trace teaching utility across distributions. A reasoning trace can accompany a correct answer without providing effective supervision for a particular student. We study how to construct traces that improve learning beyond answer-only supervision by considering both their intermediate content and their accessibility to the target learner.",
+      "key_concepts": [
+        "Accessibility Target",
+        "Accompany Correct",
+        "Additional Guidance",
+        "Answer Frozen",
+        "Answer Loss",
+        "Answer Recovery"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "We introduce ReDiST, a student-conditioned trace-construction and distillation framework for evidence-rich reasoning.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Accessibility Target, Accompany Correct.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "Artificial Intelligence"
