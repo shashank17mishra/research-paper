@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-19T05:51:04.791196",
-  "total_entries": 98,
+  "updated_at": "2026-10-20T05:44:46.152281",
+  "total_entries": 108,
   "months": [
     "2026-10"
   ],
@@ -4233,6 +4233,457 @@
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.26855",
+      "raw_id": "http://arxiv.org/abs/2610.26855v1",
+      "title": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+      "authors": [
+        "Tianqi Liu",
+        "Hanfei Zhao",
+        "Qifeng Liang",
+        "Hui En Pang",
+        "Jiarui Xu",
+        "Sayang Mu",
+        "Penghao Qiu",
+        "YingSheng Zhang",
+        "Jun Wang",
+        "Ziang Cao",
+        "Mingze Sun",
+        "Yukang Cao",
+        "Fangzhou Hong",
+        "Zhaoxi Chen",
+        "Ziwei Liu"
+      ],
+      "published_date": "2026-10-19T17:59:55Z",
+      "updated_date": "2026-10-19T17:59:55Z",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, comprising 10k hours of egocentric human data and 3k hours of robot data with unified multimodal annotations and systematic quality control. A unified kinematic representation encodes locomotion through camera poses and manipulation through projected skeletons, with robot skeletons combining embodiment-specific forward kinematics with extensive manual keypoint annotation and correction. We also introduce Xp-Teleop, a long-horizon loco-manipulation benchmark based on high-quality dexterous humanoid teleoperation data. Evaluations demonstrate state-of-the-art performance across five cross-embodiment benchmarks (DreamDojo, Ψ_0, ω-HOME, Xp-Teleop, and AgiBot) and on held-out human egocentric video, from zero-shot inference to few-shot and full-data post-training. Scaling human pre-training data improves performance on both human and robot evaluations. After distillation, our model supports real-time, minute-long rollouts, enabling live VR interaction. Applications in policy evaluation, model-based planning, and world-action modeling further demonstrate the model's utility for embodied decision-making.",
+      "url": "https://arxiv.org/abs/2610.26855v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26855v1",
+      "relevance_score": 0.867,
+      "processed_date": "2026-10-20",
+      "summary": "Addressing critical demands in Robotics, this research investigates world models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision. We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments. We curate Xp-Data, comprising 10k hours of egocentric human data and 3k hours of robot data with unified multimodal annotations and systematic quality control. Applications in policy evaluation, model-based planning, and world-action modeling further demonstrate the model's utility for embodied decision-making. World models enable embodied agents to anticipate action consequences, yet jointly modeling locomotion and manipulation across diverse embodiments remains challenging due to heterogeneous action spaces and limited multimodal supervision.",
+      "key_concepts": [
+        "Foundation Model",
+        "Zero-shot",
+        "Manipulation",
+        "Diverse Embodiments",
+        "Systematic Quality",
+        "Unified Kinematic"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We present Ropedia W0, the first egocentric loco-manipulation world foundation model spanning humans and robots with diverse embodiments.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Foundation Model, Zero-shot.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.26854",
+      "raw_id": "http://arxiv.org/abs/2610.26854v1",
+      "title": "Physical Words: A Vocabulary for Structuring Latent Reasoning in Robot Manipulation",
+      "authors": [
+        "Jiaming Liu",
+        "Xinghao Zhu",
+        "Yiming Zhang",
+        "Shanghang Zhang",
+        "Yinxi Wang",
+        "Yichu Yang",
+        "Zhuoyang Liu",
+        "Dantong Niu",
+        "Soha Pouya",
+        "Juekun Li",
+        "Yan Chang"
+      ],
+      "published_date": "2026-10-19T17:59:54Z",
+      "updated_date": "2026-10-19T17:59:54Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Multimodal reasoning provides robotic foundation models with predictive context needed for reliable action generation. However, language-based reasoning captures task semantics but struggles to express fine-grained physical dynamics, while latent reasoning models future state evolution but offers limited structure for organizing these dynamics into reusable reasoning primitives. To bridge this gap, we introduce PhysWord, a reasoning-before-acting foundation model built on Physical Words, which use atomic action verbs as shared semantic anchors for continuous representations of physical dynamics. Specifically, PhysWord predicts upcoming atomic action words and directly aligns their contextual hidden states with latent targets derived from the corresponding future observations. Building on these primitives, we construct a temporally structured PhysWord space with visual and optional tactile variants of each action word. Autoregressively predicting Physical Words across future timesteps captures transitions between execution stages, providing structured multimodal context for action generation. PhysWord achieves state-of-the-art success rates of 90.3\\% on visuotactile UniVTAC and 99.6\\% on vision-based LIBERO-Long, and outperforms competing methods on real-world tasks using bimanual grippers and dexterous hands. Further evaluations demonstrate that our structured latent reasoning framework generalizes to unseen scenarios and enables long-horizon manipulation.",
+      "url": "https://arxiv.org/abs/2610.26854v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26854v1",
+      "relevance_score": 0.803,
+      "processed_date": "2026-10-20",
+      "summary": "However, language-based reasoning captures task semantics but struggles to express fine-grained physical dynamics, while latent reasoning models future state evolution but offers limited structure for organizing these dynamics into reusable reasoning primitives. To bridge this gap, we introduce PhysWord, a reasoning-before-acting foundation model built on Physical Words, which use atomic action verbs as shared semantic anchors for continuous representations of physical dynamics. PhysWord achieves state-of-the-art success rates of 90.3\\% on visuotactile UniVTAC and 99.6\\% on vision-based LIBERO-Long, and outperforms competing methods on real-world tasks using bimanual grippers and dexterous hands. Further evaluations demonstrate that our structured latent reasoning framework generalizes to unseen scenarios and enables long-horizon manipulation.",
+      "key_concepts": [
+        "Foundation Model",
+        "Manipulation",
+        "Latent Reasoning",
+        "Physical Words",
+        "Action Generation",
+        "Atomic Action"
+      ],
+      "insights": {
+        "problem": "However, language-based reasoning captures task semantics but struggles to express fine-grained physical dynamics, while latent reasoning models future state evolution but offers limited structure for organizing these dynamics into reusable reasoning primitives.",
+        "approach": "To bridge this gap, we introduce PhysWord, a reasoning-before-acting foundation model built on Physical Words, which use atomic action verbs as shared semantic anchors for continuous representations of physical dynamics.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Foundation Model, Manipulation.",
+        "results": "PhysWord achieves state-of-the-art success rates of 90.3\\% on visuotactile UniVTAC and 99.6\\% on vision-based LIBERO-Long, and outperforms competing methods on real-world tasks using bimanual grippers and dexterous hands.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.26852",
+      "raw_id": "http://arxiv.org/abs/2610.26852v1",
+      "title": "CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting",
+      "authors": [
+        "Zehao Wang",
+        "Jianpeng Yao",
+        "Yuping Wang",
+        "Yiping Li",
+        "Jiaqi Li",
+        "Zhixu Li",
+        "Kanghoon Lee",
+        "Jinfeng Wang",
+        "Cong Liu",
+        "Zhaowei Tan",
+        "Jinkyoo Park",
+        "Jiachen Li"
+      ],
+      "published_date": "2026-10-19T17:59:49Z",
+      "updated_date": "2026-10-19T17:59:49Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Reinforcement learning enables mobile robots to make fast and scalable navigation decisions in constrained human-shared environments. However, directly extending single-robot approaches to multi-robot settings often fails to ensure safety and efficiency, especially under occlusions and out-of-distribution (OOD) scenarios, where individual robots may overlook potential risks or make inaccurate predictions. Leveraging cooperation effectively for both prediction and navigation remains a major challenge. We propose CoopUQ, a multi-robot social navigation framework that bridges uncertainty-aware cooperative occupancy forecasting and robust decision making. CoopUQ predicts future occupancy grid maps through cross-robot spatiotemporal feature fusion and further leverages forecasts and their uncertainty to guide policy via constrained multi-agent reinforcement learning, where the cost penalizes navigation through regions predicted to be occupied or highly uncertain. This design enables the policy to adapt its risk sensitivity under distribution shifts. Experimental results across multiple Unity3D-based simulation environments with both in-distribution and OOD settings, including diverse layouts, pedestrian densities, and rushing behavior, demonstrate improved prediction performance and safety over representative baselines. Real-robot experiments further demonstrate its robustness across various scenes. Our code and videos are available at https://coopuq.github.io/.",
+      "url": "https://arxiv.org/abs/2610.26852v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26852v1",
+      "relevance_score": 0.803,
+      "processed_date": "2026-10-20",
+      "summary": "However, directly extending single-robot approaches to multi-robot settings often fails to ensure safety and efficiency, especially under occlusions and out-of-distribution (OOD) scenarios, where individual robots may overlook potential risks or make inaccurate predictions. We propose CoopUQ, a multi-robot social navigation framework that bridges uncertainty-aware cooperative occupancy forecasting and robust decision making. Leveraging cooperation effectively for both prediction and navigation remains a major challenge. Our code and videos are available at https://coopuq.github.io/. Reinforcement learning enables mobile robots to make fast and scalable navigation decisions in constrained human-shared environments. CoopUQ predicts future occupancy grid maps through cross-robot spatiotemporal feature fusion and further leverages forecasts and their uncertainty to guide policy via constrained multi-agent reinforcement learning, where the cost penalizes navigation through regions predicted to be occupied or highly uncertain.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Adapt Risk",
+        "Approaches Multi-robot",
+        "Available Https",
+        "Baselines Real-robot",
+        "Bridges Uncertainty-aware"
+      ],
+      "insights": {
+        "problem": "However, directly extending single-robot approaches to multi-robot settings often fails to ensure safety and efficiency, especially under occlusions and out-of-distribution (OOD) scenarios, where individual robots may overlook potential risks or make inaccurate predictions.",
+        "approach": "We propose CoopUQ, a multi-robot social navigation framework that bridges uncertainty-aware cooperative occupancy forecasting and robust decision making.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Adapt Risk.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "However, directly extending single-robot approaches to multi-robot settings often fails to ensure safety and efficiency, especially under occlusions and out-of-distribution (OOD) scenarios, where individual robots may overlook potential risks or make inaccurate predictions."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.26765",
+      "raw_id": "http://arxiv.org/abs/2610.26765v1",
+      "title": "HandsOn: A Large-Scale Simulation Benchmark for Generalizable Dexterous Manipulation",
+      "authors": [
+        "Tianwei Luo",
+        "Yiming He",
+        "Hongjin Wu",
+        "Ting Pan",
+        "Debin Ren",
+        "Haorui Guo",
+        "Junlin Yang",
+        "Yuxin Zuo",
+        "Zhehao Kou",
+        "Kaisen Yang",
+        "Zhuoqun Lai",
+        "Yi Ding",
+        "Jiale Yu",
+        "Yuchen Zhang",
+        "Zijie Qiu",
+        "Haozhan Li",
+        "Ning Ding"
+      ],
+      "published_date": "2026-10-19T17:22:48Z",
+      "updated_date": "2026-10-19T17:22:48Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "General-purpose manipulation requires reliable behavior across embodiments, objects, and task demands. We introduce HandsOn, a composable simulation platform and benchmark for cross-embodiment dexterous manipulation. It supports five robotic arms, six dexterous hands, and approximately 200 rigid, articulated, and deformable assets in randomized scenes. The benchmark pairs 18,000 curated human demonstrations with 66 human-verified tasks: Core-50 supports demonstration-based learning and execution tests, while Transfer-16 evaluates asset and relation transfer, skill composition, and deformable manipulation without target-task training demonstrations. Qualitative real-robot rollouts illustrate sim-to-real transfer. Across diffusion, vision-language-action, world-action, and prompted VLM-based methods, the best trained multi-task policy achieves 29.1% Core-50 success. Without benchmark finetuning, GPT-6 using move_eef for palm-and-finger control achieves 5.2% on Core-50 and 1.9% on Transfer-16 over 660 trials. Trained-policy stage diagnostics expose failures in contact establishment, action coordination, and maintaining achieved goals, with additional sequencing errors in composed tasks. HandsOn provides a shared basis for investigating manipulation generalization and the limits of reliable physical interaction.",
+      "url": "https://arxiv.org/abs/2610.26765v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26765v1",
+      "relevance_score": 0.775,
+      "processed_date": "2026-10-20",
+      "summary": "Addressing critical demands in Robotics, this research investigates general-purpose manipulation requires reliable behavior across embodiments, objects, and task demands. We introduce HandsOn, a composable simulation platform and benchmark for cross-embodiment dexterous manipulation. It supports five robotic arms, six dexterous hands, and approximately 200 rigid, articulated, and deformable assets in randomized scenes. HandsOn provides a shared basis for investigating manipulation generalization and the limits of reliable physical interaction. General-purpose manipulation requires reliable behavior across embodiments, objects, and task demands. The benchmark pairs 18,000 curated human demonstrations with 66 human-verified tasks: Core-50 supports demonstration-based learning and execution tests, while Transfer-16 evaluates asset and relation transfer, skill composition, and deformable manipulation without target-task training demonstrations.",
+      "key_concepts": [
+        "Sim-to-Real Transfer",
+        "Dexterous Manipulation",
+        "Manipulation",
+        "Achieved Goals",
+        "Achieves Core-",
+        "Action Coordination"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We introduce HandsOn, a composable simulation platform and benchmark for cross-embodiment dexterous manipulation.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Sim-to-Real Transfer, Dexterous Manipulation.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.26845",
+      "raw_id": "http://arxiv.org/abs/2610.26845v1",
+      "title": "Train An Imaginative Agent",
+      "authors": [
+        "Jiaxin Ge",
+        "Junyi Zhang",
+        "Tianning Chai",
+        "Hanjun Yoo",
+        "Chenyang Wang",
+        "Xiuyu Li",
+        "Weijia Shi",
+        "XuDong Wang",
+        "Sewon Min",
+        "Luke Zettlemoyer",
+        "Trevor Darrell",
+        "Haiwen Feng"
+      ],
+      "published_date": "2026-10-19T17:59:12Z",
+      "updated_date": "2026-10-19T17:59:12Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "A seemingly reasonable push in Sokoban can make the puzzle unsolvable. To avoid such mistakes, an agent has to anticipate the consequences of its actions before execution, especially when feedback from the real environment is sparse or actions are irreversible. We introduce Agentic Imagination (Agima), a training framework that trains an agent to imagine before acting, i.e. to be imaginative. Agima trains a single omni model to propose actions, generate images of their outcomes, and then reason over these imagined futures to decide what to execute in the real environment. Rather than committing to a single plan, the agent can simulate a sequence of actions, explore alternatives, and compare possible futures. We first use supervised fine-tuning (SFT) to unify policy and world modeling within a single omni model. This enables the agent to predict future outcomes and perform basic forms of imagination, such as forward thinking and counterfactual branching. We then use agentic reinforcement learning (RL) to teach the agent to reason with its imagined futures and use them effectively for planning. Across four environments spanning Maze2D, Sokoban, Pacman, and PushT, Agima generalizes to harder settings unseen during training. Trained with SFT alone on two-box Sokoban, Agima solves 40% of four-box puzzles while seeing the real board only once every five moves, compared with an action-only planner that only solves 2%. After RL, new behaviors emerge in how Agima uses its imagination: it learns a new unified format that was unseen during the SFT stage, learns to conduct forward thinking only when necessary, and branches more frequently at critical decision points. An agent that can picture where its actions lead can learn when and where to look ahead, that is, to plan. Project page: https://agima.net/.",
+      "url": "https://arxiv.org/abs/2610.26845v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26845v1",
+      "relevance_score": 0.761,
+      "processed_date": "2026-10-20",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates a seemingly reasonable push in sokoban can make the puzzle unsolvable. We introduce Agentic Imagination (Agima), a training framework that trains an agent to imagine before acting, i.e. to be imaginative. Project page: https://agima.net/. A seemingly reasonable push in Sokoban can make the puzzle unsolvable. To avoid such mistakes, an agent has to anticipate the consequences of its actions before execution, especially when feedback from the real environment is sparse or actions are irreversible. Agima trains a single omni model to propose actions, generate images of their outcomes, and then reason over these imagined futures to decide what to execute in the real environment.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Forward Thinking",
+        "Futures Use",
+        "Imagined Futures",
+        "Real Environment",
+        "Reason Imagined"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "We introduce Agentic Imagination (Agima), a training framework that trains an agent to imagine before acting, i.e. to be imaginative.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Forward Thinking.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.26805",
+      "raw_id": "http://arxiv.org/abs/2610.26805v1",
+      "title": "What Language Adds, and at What Cost: Four Controlled Probes of Pathology Vision-Language Models",
+      "authors": [
+        "Wenhao Zhang",
+        "Zhongliang Zhou",
+        "Yi Ping",
+        "Zirui Wang",
+        "Sheng Li"
+      ],
+      "published_date": "2026-10-19T17:48:31Z",
+      "updated_date": "2026-10-19T17:48:31Z",
+      "categories": [
+        "cs.CV",
+        "q-bio.QM"
+      ],
+      "abstract": "Vision--language models (VLMs) promise to make computational pathology queryable and able to draft reports, but how much language adds beyond the vision backbone is unclear, because almost every system is evaluated by its developers on test sets of their own choosing. We grade published evidence by how it was produced and test four claims with controlled probes that reuse released checkpoints and public data, varying one input at a time. Report text adds prognostic signal: adding a frozen embedding of the stage-redacted report to a slide embedding raises the pooled C-index by 0.019 for progression-free interval and by 0.016 for overall survival across 1{,}633 TCGA patients, and restoring the stage statement adds nothing. Prompts add no measurable accuracy at inference: with features and pooling fixed, zero-shot classification is statistically indistinguishable from a supervised linear probe for lung and renal cancer subtyping. Slide-level question answering is barely grounded: SlideChat answers 74.82\\% of SlideBench-VQA(TCGA) items correctly with the slide and 74.41\\% without it, whereas its language backbone alone reaches 43.52\\%. Paraphrasing leaves accuracy unchanged but flips 8--23\\% of answers. Self-reported gains from agentic navigation and few-shot language priors cannot yet be attributed to language. Language thus adds real but narrow value, and we propose minimum controls that would expose these failure modes in future evaluations.",
+      "url": "https://arxiv.org/abs/2610.26805v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26805v1",
+      "relevance_score": 0.761,
+      "processed_date": "2026-10-20",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates vision--language models (vlms) promise to make computational pathology queryable and able to draft reports, but how much language adds beyond the vision backbone is unclear, because almost every system is evaluated by its developers on test sets of their own choosing. Language thus adds real but narrow value, and we propose minimum controls that would expose these failure modes in future evaluations. Report text adds prognostic signal: adding a frozen embedding of the stage-redacted report to a slide embedding raises the pooled C-index by 0.019 for progression-free interval and by 0.016 for overall survival across 1{,}633 TCGA patients, and restoring the stage statement adds nothing.",
+      "key_concepts": [
+        "Zero-shot",
+        "Language Adds",
+        "Able Draft",
+        "Accuracy Inference",
+        "Accuracy Unchanged",
+        "Add Measurable"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "Language thus adds real but narrow value, and we propose minimum controls that would expose these failure modes in future evaluations.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Language Adds.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.26846",
+      "raw_id": "http://arxiv.org/abs/2610.26846v1",
+      "title": "GPT-6 Astra Is a Native Visuo-Tactile Policy for Contact-Rich Manipulation",
+      "authors": [
+        "Chen Yang",
+        "Linzhe Shi",
+        "Hang Zhang",
+        "Mu Xu",
+        "Jiansheng Fan",
+        "Chen Wang"
+      ],
+      "published_date": "2026-10-19T17:59:17Z",
+      "updated_date": "2026-10-19T17:59:17Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Recent advances in multimodal models have enabled GPT-6 Astra to perform robotic manipulation through in-context learning. Yet contact-rich control and tactile perception are often regarded as strengths of specialist policies, leaving open whether Astra can directly understand and use tactile observations. We provide, to our knowledge, the first demonstration that Astra directly interprets vision-based tactile images and uses their contact cues for manipulation. Tactile RGB images enter through its existing visual interface, enabling few-shot closed-loop control on nineteen simulated UniVTAC and OpenViTac tasks with 210 sampled scene seeds per setting. With visuo-tactile input, Astra achieves mean success rates of 93.8% and 81.8%, exceeding the strongest reported specialist baselines in our comparison by 22.9 and 13.1 percentage points, respectively. Vision-only performance also leads these baselines, reaching 76.3% and 80.6%. Trajectory analysis reveals active probing, cautious grasping, contact-guided alignment, and recovery, alongside difficulties with tangential loading and corrective execution. Our findings challenge the exclusivity of specialist policies in contact-rich manipulation and show that fine-grained vision can partially compensate for missing touch. They also identify vision-based tactile sensing as an interface for scaling contact understanding with foundation models and reveal signs of benchmark saturation. These results motivate joint visual-tactile pretraining, harder contact-rich evaluations, and physical-robot validation.",
+      "url": "https://arxiv.org/abs/2610.26846v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26846v1",
+      "relevance_score": 0.755,
+      "processed_date": "2026-10-20",
+      "summary": "Our findings challenge the exclusivity of specialist policies in contact-rich manipulation and show that fine-grained vision can partially compensate for missing touch. Yet contact-rich control and tactile perception are often regarded as strengths of specialist policies, leaving open whether Astra can directly understand and use tactile observations. We provide, to our knowledge, the first demonstration that Astra directly interprets vision-based tactile images and uses their contact cues for manipulation. These results motivate joint visual-tactile pretraining, harder contact-rich evaluations, and physical-robot validation. Recent advances in multimodal models have enabled GPT-6 Astra to perform robotic manipulation through in-context learning. Tactile RGB images enter through its existing visual interface, enabling few-shot closed-loop control on nineteen simulated UniVTAC and OpenViTac tasks with 210 sampled scene seeds per setting.",
+      "key_concepts": [
+        "Manipulation",
+        "Astra Directly",
+        "Specialist Policies",
+        "Tactile Sensing Interface",
+        "Tangential Loading",
+        "Touch Identify"
+      ],
+      "insights": {
+        "problem": "Our findings challenge the exclusivity of specialist policies in contact-rich manipulation and show that fine-grained vision can partially compensate for missing touch.",
+        "approach": "Yet contact-rich control and tactile perception are often regarded as strengths of specialist policies, leaving open whether Astra can directly understand and use tactile observations.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Astra Directly.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.26762",
+      "raw_id": "http://arxiv.org/abs/2610.26762v1",
+      "title": "DexOAK: Object-Aware Kinematic Retargeting",
+      "authors": [
+        "Federica Spinola",
+        "Robert Katzschmann",
+        "Cordelia Schmid"
+      ],
+      "published_date": "2026-10-19T17:20:10Z",
+      "updated_date": "2026-10-19T17:20:10Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "We introduce DexOAK, a learning-based object-aware kinematic retargeting framework for generating contact-consistent robot hand references from human motion-capture data. DexOAK first minimizes an interaction-graph Laplacian objective over a joint hand-object graph, so the robot reproduces the demonstrated object-relative interaction geometry rather than the human hand pose alone. These per-frame solutions form seed retargeted references, from which a feed-forward network conditioned on human keypoints and object point clouds learns the retargeting function. Object-aware finetuning then refines the network under contact, non-penetration, and self-collision losses that position the fingers on the demonstrated contacts and reduce artifacts destabilizing physics-based refinement. Once trained, the network transfers to unseen data by inference alone, without per-frame optimization. DexOAK references improve dynamic retargeting over the state-of-the-art across bimanual tasks with rigid and articulated objects. On the Inspire hand, success rises from 39.5% to 48.4% on OakInk-v2, and ADD-AUC rises from 62.7% to 77.9% on ARCTIC. Ablations trace the gains to object-aware kinematic retargeting and the amortized network refined with contact losses. Trained on OakInk-v2, it transfers to ARCTIC zero-shot and nears in-domain performance after fine-tuning. On hardware, 46/56 open-loop replays succeed across five tasks, enabling dexterous robot data generation from human data. Visualizations and interactive results are at: https://fspinola.github.io/dexoak/.",
+      "url": "https://arxiv.org/abs/2610.26762v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26762v1",
+      "relevance_score": 0.755,
+      "processed_date": "2026-10-20",
+      "summary": "Addressing critical demands in Robotics, this research investigates we introduce dexoak, a learning-based object-aware kinematic retargeting framework for generating contact-consistent robot hand references from human motion-capture data. We introduce DexOAK, a learning-based object-aware kinematic retargeting framework for generating contact-consistent robot hand references from human motion-capture data. These per-frame solutions form seed retargeted references, from which a feed-forward network conditioned on human keypoints and object point clouds learns the retargeting function. Visualizations and interactive results are at: https://fspinola.github.io/dexoak/. DexOAK first minimizes an interaction-graph Laplacian objective over a joint hand-object graph, so the robot reproduces the demonstrated object-relative interaction geometry rather than the human hand pose alone.",
+      "key_concepts": [
+        "Zero-shot",
+        "Kinematic Retargeting",
+        "Object-aware Kinematic",
+        "Success Rises",
+        "Trace Gains",
+        "Transfers Arctic"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We introduce DexOAK, a learning-based object-aware kinematic retargeting framework for generating contact-consistent robot hand references from human motion-capture data.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Kinematic Retargeting.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.26851",
+      "raw_id": "http://arxiv.org/abs/2610.26851v1",
+      "title": "Manga2Animate: An Agentic Framework for Faithful Manga Animation with Script and Storyboard Planning",
+      "authors": [
+        "Sheng-Wei Zhang",
+        "Hsi-An Chen",
+        "Yan-Ting Liou",
+        "Chih-Hsuan Chen",
+        "Shih-Chen Tseng",
+        "Yu-Lun Liu"
+      ],
+      "published_date": "2026-10-19T17:59:46Z",
+      "updated_date": "2026-10-19T17:59:46Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Adapting existing manga into coherent animation that stays faithful to the source is a valuable yet challenging task. Existing methods either access the manga mainly through text, losing its characters and art style, or feed manga pages directly into video generation models, which misinterpret the manga's structure and produce incorrect storylines. In this paper, we propose Manga2Animate, a multi-agent framework that grounds every stage of generation in the source manga. We decompose the task into two intermediate representations, an animation script and a visual storyboard. Each representation is produced by a creator agent and reviewed against the source panels by a paired reviewer agent. We tailor representation-specific selection and dual-level feedback to progressively refine both before synthesizing the final animation. Extensive experiments and a user study demonstrate that Manga2Animate produces animations more faithful to the source manga and more consistent across shots than state-of-the-art approaches. Project page: https://annchenn.github.io/Manga2Animate/",
+      "url": "https://arxiv.org/abs/2610.26851v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26851v1",
+      "relevance_score": 0.744,
+      "processed_date": "2026-10-20",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates adapting existing manga into coherent animation that stays faithful to the source is a valuable yet challenging task. In this paper, we propose Manga2Animate, a multi-agent framework that grounds every stage of generation in the source manga. Project page: https://annchenn.github.io/Manga2Animate/ Adapting existing manga into coherent animation that stays faithful to the source is a valuable yet challenging task. Existing methods either access the manga mainly through text, losing its characters and art style, or feed manga pages directly into video generation models, which misinterpret the manga's structure and produce incorrect storylines.",
+      "key_concepts": [
+        "Access Manga",
+        "Agent Reviewed",
+        "Agent Tailor",
+        "Animation Extensive",
+        "Animation Script",
+        "Animation Stays"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "In this paper, we propose Manga2Animate, a multi-agent framework that grounds every stage of generation in the source manga.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Access Manga, Agent Reviewed.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.26757",
+      "raw_id": "http://arxiv.org/abs/2610.26757v1",
+      "title": "Simulation Priors for Rapid Adaptation in Model-Based RL for Autonomous Racing",
+      "authors": [
+        "Adrian Remonda",
+        "Jiajun Xi",
+        "Nicklas Hansen",
+        "Marcus Greiff",
+        "Thomas Lew",
+        "John Talbot",
+        "John Subosits",
+        "Xiaolong Wang"
+      ],
+      "published_date": "2026-10-19T17:17:24Z",
+      "updated_date": "2026-10-19T17:17:24Z",
+      "categories": [
+        "cs.LG",
+        "cs.RO",
+        "eess.SY"
+      ],
+      "abstract": "Reinforcement learning enables learning high-performance control policies, but its reliance on extensive interaction limits deployment on physical systems where data collection is costly, and failures are unsafe. We introduce Prior-Informed Adaptation (PIA), an offline-to-online model-based RL framework that uses structured simulation priors for rapid adaptation. PIA pretrains a world model on heterogeneous low- and high-fidelity simulated trajectories, then adapts it with limited target-domain interaction using uncertainty-regularized planning. Rather than requiring an accurate simulator for policy transfer, PIA treats simulated trajectories as biased priors whose residual mismatch is corrected during online adaptation. We evaluate PIA in autonomous racing using high-fidelity simulation and on a real full-size autonomous race car. In simulation, PIA adapts faster across track and surface shifts than strong baselines, achieving lower lap times and fewer failures. On hardware, PIA achieves reliable few-shot adaptation with less than one hour of on-vehicle interaction.",
+      "url": "https://arxiv.org/abs/2610.26757v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.26757v1",
+      "relevance_score": 0.731,
+      "processed_date": "2026-10-20",
+      "summary": "Reinforcement learning enables learning high-performance control policies, but its reliance on extensive interaction limits deployment on physical systems where data collection is costly, and failures are unsafe. We introduce Prior-Informed Adaptation (PIA), an offline-to-online model-based RL framework that uses structured simulation priors for rapid adaptation. PIA pretrains a world model on heterogeneous low- and high-fidelity simulated trajectories, then adapts it with limited target-domain interaction using uncertainty-regularized planning. On hardware, PIA achieves reliable few-shot adaptation with less than one hour of on-vehicle interaction. Rather than requiring an accurate simulator for policy transfer, PIA treats simulated trajectories as biased priors whose residual mismatch is corrected during online adaptation.",
+      "key_concepts": [
+        "World Model",
+        "Reinforcement Learning",
+        "Autonomous Racing",
+        "Accurate Simulator",
+        "Achieves Reliable",
+        "Achieving Lower"
+      ],
+      "insights": {
+        "problem": "Reinforcement learning enables learning high-performance control policies, but its reliance on extensive interaction limits deployment on physical systems where data collection is costly, and failures are unsafe.",
+        "approach": "We introduce Prior-Informed Adaptation (PIA), an offline-to-online model-based RL framework that uses structured simulation priors for rapid adaptation.",
+        "key_innovation": "Formulates an integrated mechanism leveraging World Model, Reinforcement Learning.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
     }
   ]
 }

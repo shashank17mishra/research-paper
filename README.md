@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[19 October 2026 Report](reports/2026/10/19/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[20 October 2026 Report](reports/2026/10/20/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/19/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/20/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/19/infographic.png)](reports/2026/10/19/infographic.png)
+[![Daily Infographic](reports/2026/10/20/infographic.png)](reports/2026/10/20/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `5` |
+| **Artificial Intelligence (AI)** | `3` |
 | **Machine Learning (ML)** | `3` |
-| **Robotics** | `4` |
+| **Robotics** | `7` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,19 +36,19 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Beyond the Answer: Student-Conditioned Trace Construction for Reasoning ...** | `Artificial Intelligence` | `0.63` | [arXiv](https://arxiv.org/abs/2610.23831v1) |
-| 2 | **Not All Actions Contribute Equally: Learning Precise Progress Estimation...** | `Robotics` | `0.64` | [arXiv](https://arxiv.org/abs/2610.23769v1) |
-| 3 | **StopWatch: Goal Grounding for Object-goal Navigation** | `Robotics` | `0.64` | [arXiv](https://arxiv.org/abs/2610.23841v1) |
-| 4 | **FuTransformer: FP8 prefill and INT4 decode for Llama-style inference on ...** | `Machine Learning` | `0.65` | [arXiv](https://arxiv.org/abs/2610.23796v1) |
-| 5 | **CocoRNA: Collective RNA Design with Cooperative Multi-agent Reinforcemen...** | `Artificial Intelligence` | `0.65` | [arXiv](https://arxiv.org/abs/2610.23820v1) |
+| 1 | **Simulation Priors for Rapid Adaptation in Model-Based RL for Autonomous ...** | `Machine Learning` | `0.73` | [arXiv](https://arxiv.org/abs/2610.26757v1) |
+| 2 | **Manga2Animate: An Agentic Framework for Faithful Manga Animation with Sc...** | `Artificial Intelligence` | `0.74` | [arXiv](https://arxiv.org/abs/2610.26851v1) |
+| 3 | **DexOAK: Object-Aware Kinematic Retargeting** | `Robotics` | `0.76` | [arXiv](https://arxiv.org/abs/2610.26762v1) |
+| 4 | **GPT-6 Astra Is a Native Visuo-Tactile Policy for Contact-Rich Manipulation** | `Robotics` | `0.76` | [arXiv](https://arxiv.org/abs/2610.26846v1) |
+| 5 | **What Language Adds, and at What Cost: Four Controlled Probes of Patholog...** | `Machine Learning` | `0.76` | [arXiv](https://arxiv.org/abs/2610.26805v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `98`
-- **Total Operational Runs**: `22 days`
-- **Categories Tracked**: `14 categories`
+- **Total Papers Analyzed**: `108`
+- **Total Operational Runs**: `23 days`
+- **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 
 ---
