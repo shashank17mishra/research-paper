@@ -1,6 +1,6 @@
 {
   "month": "2026-10",
-  "total_papers": 108,
+  "total_papers": 118,
   "papers": [
     {
       "arxiv_id": "2403.01234",
@@ -4678,6 +4678,431 @@
         "key_innovation": "Formulates an integrated mechanism leveraging World Model, Reinforcement Learning.",
         "results": "Not specified in the available abstract.",
         "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.28589",
+      "raw_id": "http://arxiv.org/abs/2610.28589v1",
+      "title": "AgenticRoboRL: Bringing Coding-Agent Post-Training to Agentic Robotics",
+      "authors": [
+        "Xinxin Liu",
+        "Bingxin Xu",
+        "Wenrui Bao",
+        "Ming Li",
+        "Wentao Bao",
+        "Chen Chen",
+        "Yuzhang Shang"
+      ],
+      "published_date": "2026-10-20T17:41:09Z",
+      "updated_date": "2026-10-20T17:41:09Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Agentic robotics systems combine planners with robot harnesses to perform complex manipulation tasks. Recent work improves these systems through better harnesses and external memory, but relies on powerful closed-source models as planners and does not improve the planners' own capabilities. In contrast, coding agents have improved substantially by post-training the model itself. We therefore investigate whether post-training can also improve robot planners. However, applying it across robot harnesses requires accommodating different execution mechanisms, including VLA skill invocation and control-code generation. To this end, we introduce AgenticRoboRL, a framework for post-training robot planners across different harnesses. The training recipe combines supervised fine-tuning with multi-turn reinforcement learning. To accommodate different execution mechanisms, harness-specific adapters connect recorded planner interactions with task outcomes, enabling a common RL training pipeline while keeping execution components fixed. On LIBERO-PRO, AgenticRoboRL raises the success rate of a 9B-parameter planner from 18.1% to 71.0% without external memory, approaching the 72.1% achieved by Codex (GPT-5.5) with external memory. These results demonstrate post-training as an effective approach for improving robot planners. We will release the framework and trained planner checkpoints.",
+      "url": "https://arxiv.org/abs/2610.28589v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28589v1",
+      "relevance_score": 0.844,
+      "processed_date": "2026-10-21",
+      "summary": "However, applying it across robot harnesses requires accommodating different execution mechanisms, including VLA skill invocation and control-code generation. To this end, we introduce AgenticRoboRL, a framework for post-training robot planners across different harnesses. In contrast, coding agents have improved substantially by post-training the model itself. We will release the framework and trained planner checkpoints. Agentic robotics systems combine planners with robot harnesses to perform complex manipulation tasks. Recent work improves these systems through better harnesses and external memory, but relies on powerful closed-source models as planners and does not improve the planners' own capabilities. We therefore investigate whether post-training can also improve robot planners.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Manipulation",
+        "Agentic Robotics",
+        "Achieved Codex",
+        "Agenticroborl Raises",
+        "Applying Robot"
+      ],
+      "insights": {
+        "problem": "However, applying it across robot harnesses requires accommodating different execution mechanisms, including VLA skill invocation and control-code generation.",
+        "approach": "To this end, we introduce AgenticRoboRL, a framework for post-training robot planners across different harnesses.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Manipulation.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.28585",
+      "raw_id": "http://arxiv.org/abs/2610.28585v1",
+      "title": "SceneRig: An Agentic System for Simulation-Ready 3D Scene Reconstruction from Single Images",
+      "authors": [
+        "Rundong Luo",
+        "Yunong Liu",
+        "Di Cao",
+        "Matthew Tancik",
+        "Shyamal Buch",
+        "Colton Stearns",
+        "Wenqi Xian"
+      ],
+      "published_date": "2026-10-20T17:39:42Z",
+      "updated_date": "2026-10-20T17:39:42Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "Simulation is a powerful tool for robotics, but building diverse, simulation-ready scenes at scale remains difficult. Reconstructing scenes from single images is a promising alternative, but visual similarity alone is insufficient: objects must also be recovered, accurately placed, and physically grounded. Existing methods that rely on post-hoc physics settling often misplace objects, producing scenes that look correct but behave poorly under manipulation. We present SceneRig, an agentic system that turns a single image into an editable, simulation-ready scene. SceneRig combines geometric, visual, and physical tools to reconstruct a faithful 3D scene. An agent then performs edit-and-validate loops inside a physics simulator to achieve physical stability. Across diverse inputs, SceneRig improves instance segmentation, object-centric appearance, and 3D placement while keeping the reconstructed scenes physically stable. Furthermore, SceneRig is effective for downstream robotics: its scenes predict real-robot policy outcomes more accurately than the baseline method and more reliably support replay of recorded manipulations without trajectory adaptation.",
+      "url": "https://arxiv.org/abs/2610.28585v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28585v1",
+      "relevance_score": 0.823,
+      "processed_date": "2026-10-21",
+      "summary": "Simulation is a powerful tool for robotics, but building diverse, simulation-ready scenes at scale remains difficult. We present SceneRig, an agentic system that turns a single image into an editable, simulation-ready scene. Existing methods that rely on post-hoc physics settling often misplace objects, producing scenes that look correct but behave poorly under manipulation. Furthermore, SceneRig is effective for downstream robotics: its scenes predict real-robot policy outcomes more accurately than the baseline method and more reliably support replay of recorded manipulations without trajectory adaptation. Reconstructing scenes from single images is a promising alternative, but visual similarity alone is insufficient: objects must also be recovered, accurately placed, and physically grounded.",
+      "key_concepts": [
+        "Manipulation",
+        "Accurately Placed",
+        "Achieve Physical",
+        "Agent Performs",
+        "Agentic Turns",
+        "Alternative Visual"
+      ],
+      "insights": {
+        "problem": "Simulation is a powerful tool for robotics, but building diverse, simulation-ready scenes at scale remains difficult.",
+        "approach": "We present SceneRig, an agentic system that turns a single image into an editable, simulation-ready scene.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Accurately Placed.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.28626",
+      "raw_id": "http://arxiv.org/abs/2610.28626v1",
+      "title": "UniWALM: Unified World Action Language Model for Embodied Robot Control",
+      "authors": [
+        "Rahul Sajnani",
+        "Diego Romeres",
+        "Mingyuan Zhang",
+        "Kai Gao",
+        "Carl Qi",
+        "Baichuan Huang",
+        "Srinath Sridhar",
+        "Dylan Randle",
+        "Lillian J. Ratliff",
+        "Jose Barreiros",
+        "Manikantan Nambi",
+        "Jeroen Vanbaar"
+      ],
+      "published_date": "2026-10-20T17:59:04Z",
+      "updated_date": "2026-10-20T17:59:04Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "Motivated by the human ability to integrate experience across language, perception, and action, we introduce UniWALM, a unified world-action-language model that learns video, action, and language in a single shared representation, where each modality is both a conditioning signal and a supervision target. We ask: can jointly generating language enrich this shared representation, improving manipulation and supporting memory-dependent behavior? Unlike prior approaches that attach a reasoning or vision-language model to a video-action backbone and run them as distinct stages, UniWALM unifies all three modalities inside a single mixture-of-transformers backbone whose per-modality diffusion heads co-denoise synchronously, decoding subtask and textual memory in the same pass as action with no separate planning stage; the generated language is re-consumed on the next step, closing a language-as-memory loop without an external planner or memory bank. To keep the action stream reliable under this richer objective, we further introduce Flow Matching with Correction (FMC), a training objective that teaches recovery from perturbed action trajectories at no inference-time cost. UniWALM consistently improves over same-backbone baselines (e.g., FastWAM) on compositional pick-and-place (MolmoSpaces) and across the memory-dependent subset of RMBench, where it reaches 34.5% without any pretrained language or reasoning model and exceeds Mem-0's keyframe-equipped setup (28.5%) using only a single anchor frame. On a real-world Find-the-Item task, generating textual memory lifts success from 11.1% to 61.1%, while state-of-the-art VLAs stay at or below chance (<=33.3%).",
+      "url": "https://arxiv.org/abs/2610.28626v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28626v1",
+      "relevance_score": 0.781,
+      "processed_date": "2026-10-21",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates motivated by the human ability to integrate experience across language, perception, and action, we introduce uniwalm, a unified world-action-language model that learns video, action, and language in a single shared representation, where each modality is both a conditioning signal and a supervision target. Motivated by the human ability to integrate experience across language, perception, and action, we introduce UniWALM, a unified world-action-language model that learns video, action, and language in a single shared representation, where each modality is both a conditioning signal and a supervision target. Unlike prior approaches that attach a reasoning or vision-language model to a video-action backbone and run them as distinct stages, UniWALM unifies all three modalities inside a single mixture-of-transformers backbone whose per-modality diffusion heads co-denoise synchronously, decoding subtask and textual memory in the same pass as action with no separate planning stage; the generated language is re-consumed on the next step, closing a language-as-memory loop without an external planner or memory bank. On a real-world Find-the-Item task, generating textual memory lifts success from 11.1% to 61.1%, while state-of-the-art VLAs stay at or below chance (<=33.3%).",
+      "key_concepts": [
+        "Manipulation",
+        "Action Stream Reliable",
+        "Action Trajectories",
+        "Anchor Frame",
+        "Approaches Attach",
+        "Shared Representation"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "Motivated by the human ability to integrate experience across language, perception, and action, we introduce UniWALM, a unified world-action-language model that learns video, action, and language in a single shared representation, where each modality is both a conditioning signal and a supervision target.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Action Stream Reliable.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.28611",
+      "raw_id": "http://arxiv.org/abs/2610.28611v1",
+      "title": "Semantic Observability for Autonomous Systems Diagnostics",
+      "authors": [
+        "Jitendra Solanki",
+        "Anand Todkar",
+        "Ziran Min"
+      ],
+      "published_date": "2026-10-20T17:53:32Z",
+      "updated_date": "2026-10-20T17:53:32Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Modern distributed microservice deployments generate massive volumes of heterogeneous, multi-format observability logs across physically and logically partitioned infrastructure. Isolating root causes during cascading failures remains an arduous task for Site Reliability Engineers (SREs), bottlenecked by manual keyword filtering and disjointed temporal correlation across monitoring dashboards. We introduce Semantic Observability, an autonomous multi-agent framework that unifies disparate log streams into a dynamic, queryable Property Graph Database. By modeling physical infrastructure topologies, logical software dependencies, and chronological event sequences as attributed nodes and directed relations, it bridges the semantic gap inherent in flat, unstructured log repositories. Building on this unified substrate, we deploy a stateful multi-agent system orchestrated through Directed Cyclic Graphs (DCGs). The system autonomously navigates the topology, applying causal graph algorithms and temporal back-traversal to isolate the precise blast radius of anomalies. The pruned subgraph is then interpreted by a Large Language Model (LLM) reasoning engine to generate contextualized, code-level Root Cause Analyses (RCA) and actionable remediations. This paper establishes the foundational system architecture, formal relational ontology, and multi-agent control loops of Semantic Observability. We show conceptually how the framework eliminates ambient telemetry noise, reduces Mean Time to Resolution (MTTR), compresses LLM token consumption, and prevents structural hallucinations. We also specify an open-source validation framework on standard benchmarks (LogHub and Train-Ticket), laying the groundwork for a forthcoming companion paper on exhaustive quantitative evaluation and production benchmarking.",
+      "url": "https://arxiv.org/abs/2610.28611v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28611v1",
+      "relevance_score": 0.781,
+      "processed_date": "2026-10-21",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates modern distributed microservice deployments generate massive volumes of heterogeneous, multi-format observability logs across physically and logically partitioned infrastructure. We introduce Semantic Observability, an autonomous multi-agent framework that unifies disparate log streams into a dynamic, queryable Property Graph Database. We also specify an open-source validation framework on standard benchmarks (LogHub and Train-Ticket), laying the groundwork for a forthcoming companion paper on exhaustive quantitative evaluation and production benchmarking. Modern distributed microservice deployments generate massive volumes of heterogeneous, multi-format observability logs across physically and logically partitioned infrastructure. Isolating root causes during cascading failures remains an arduous task for Site Reliability Engineers (SREs), bottlenecked by manual keyword filtering and disjointed temporal correlation across monitoring dashboards.",
+      "key_concepts": [
+        "Large Language Model",
+        "Semantic Observability",
+        "Anomalies Pruned",
+        "Applying Causal",
+        "Time Resolution",
+        "Token Consumption"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "We introduce Semantic Observability, an autonomous multi-agent framework that unifies disparate log streams into a dynamic, queryable Property Graph Database.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Large Language Model, Semantic Observability.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.28586",
+      "raw_id": "http://arxiv.org/abs/2610.28586v1",
+      "title": "Capable Teacher, Myopic Scorer: Reward-Free Teacher Repair for Agentic On-Policy Distillation",
+      "authors": [
+        "Shu Zhao",
+        "Tan Yu"
+      ],
+      "published_date": "2026-10-20T17:40:08Z",
+      "updated_date": "2026-10-20T17:40:08Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Agentic on-policy distillation (OPD) trains a student agent on its own trajectories while a teacher scores every token. A natural explanation of where it goes wrong is compounding error: the student's mistakes carry its trajectories beyond the region where the teacher is reliable, so recent methods keep training inside that region, through episode-length curricula, teacher-guided turns, prefix replay, or teacher intervention where the two disagree. We show this explanation is incomplete. From the states where the student departs most from the teacher, the teacher's own takeovers still finish the task, yet the student trained on its token scores keeps running out of turns. We attribute this to the myopia of next-token scoring. The teacher rates each token without seeing where the episode ends, so its scores let through the safe, delaying moves that outcome-based RL would punish with zero reward, a penalty agentic OPD lacks. We call this difference between what the teacher does and what it scores the rollout-scorer gap. We propose Rollout-to-Scorer Distillation (R2S), which repairs the scorer before distillation by mining high-disagreement states from the untrained student, running teacher takeovers from them, keeping the states where enough takeovers pass a reward-free check such as consensus or an LLM judge, and fine-tuning the teacher to give its takeover-informed scores on every assistant token from the divergence turn onward, without the takeover in context. The repaired teacher is frozen as the sole scorer for standard OPD, requiring no task reward during repair or training. Across three environments, two teachers and four students, R2S outperforms three state-of-the-art agentic-OPD methods in all twelve teacher-student-environment cells, by 12.8 success points on average over the best of them in each cell. Project page: https://tree-shu-zhao.github.io/r2s/.",
+      "url": "https://arxiv.org/abs/2610.28586v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28586v1",
+      "relevance_score": 0.761,
+      "processed_date": "2026-10-21",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates agentic on-policy distillation (opd) trains a student agent on its own trajectories while a teacher scores every token. We propose Rollout-to-Scorer Distillation (R2S), which repairs the scorer before distillation by mining high-disagreement states from the untrained student, running teacher takeovers from them, keeping the states where enough takeovers pass a reward-free check such as consensus or an LLM judge, and fine-tuning the teacher to give its takeover-informed scores on every assistant token from the divergence turn onward, without the takeover in context. Across three environments, two teachers and four students, R2S outperforms three state-of-the-art agentic-OPD methods in all twelve teacher-student-environment cells, by 12.8 success points on average over the best of them in each cell. Project page: https://tree-shu-zhao.github.io/r2s/.",
+      "key_concepts": [
+        "Assistant Token",
+        "Attribute Myopia",
+        "Best Cell",
+        "Teacher Takeovers",
+        "Trains Student",
+        "Trajectories Region"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We propose Rollout-to-Scorer Distillation (R2S), which repairs the scorer before distillation by mining high-disagreement states from the untrained student, running teacher takeovers from them, keeping the states where enough takeovers pass a reward-free check such as consensus or an LLM judge, and fine-tuning the teacher to give its takeover-informed scores on every assistant token from the divergence turn onward, without the takeover in context.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Assistant Token, Attribute Myopia.",
+        "results": "Across three environments, two teachers and four students, R2S outperforms three state-of-the-art agentic-OPD methods in all twelve teacher-student-environment cells, by 12.8 success points on average over the best of them in each cell.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.28523",
+      "raw_id": "http://arxiv.org/abs/2610.28523v1",
+      "title": "VLM-Guided Contact Retargeting and Generative Partner Modeling for Humanoid-Human Interaction",
+      "authors": [
+        "Yuto Shibata",
+        "Kotaro Amaya",
+        "Kashu Yamazaki",
+        "Lalit Jayanti",
+        "Yoshimitsu Aoki",
+        "Mariko Isogawa",
+        "Katerina Fragkiadaki"
+      ],
+      "published_date": "2026-10-20T16:57:52Z",
+      "updated_date": "2026-10-20T16:57:52Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "Humanoid-human interaction requires robots to operate under severe partial observability: during close physical contact, the human partner is occluded, truncated, or outside the robot's field of view, causing pose estimation to fail and often necessitating external tracking or privileged human state. At the same time, heavy mutual occlusions introduce errors into the human-human motion-capture data used for learning. We present REACT, a framework for learning deployable humanoid-human interaction policies from human-human demonstrations. REACT treats semantic contact structure as the key supervisory signal connecting demonstration processing, interaction learning, and onboard control. First, a VLM-guided contact modeling and retargeting pipeline identifies semantically meaningful contacts and transfers them onto humanoid-human geometry while preserving interaction structure. Using these annotations, privileged interaction policies learn physically grounded behaviors through interaction-aware contact rewards and are then distilled into deployable egocentric depth policies trained entirely from onboard sensing using photorealistic human depth rendering. To address severe partial observability, we introduce generative partner-state modeling objectives that predict partner motion from occluded egocentric views. We evaluate REACT in simulation and on a real Unitree G1 humanoid across five contact-rich interactions. Semantic contact modeling substantially improves preservation of demonstrated interactions, while generative partner-state modeling improves contact recall on four of five interactions, most under heavy occlusion. On real hardware, REACT performs all five interactions using onboard sensing alone.",
+      "url": "https://arxiv.org/abs/2610.28523v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28523v1",
+      "relevance_score": 0.758,
+      "processed_date": "2026-10-21",
+      "summary": "Addressing critical demands in Robotics, this research investigates humanoid-human interaction requires robots to operate under severe partial observability: during close physical contact, the human partner is occluded, truncated, or outside the robot's field of view, causing pose estimation to fail and often necessitating external tracking or privileged human state. We present REACT, a framework for learning deployable humanoid-human interaction policies from human-human demonstrations. On real hardware, REACT performs all five interactions using onboard sensing alone. Humanoid-human interaction requires robots to operate under severe partial observability: during close physical contact, the human partner is occluded, truncated, or outside the robot's field of view, causing pose estimation to fail and often necessitating external tracking or privileged human state.",
+      "key_concepts": [
+        "Humanoid-human Interaction",
+        "Contact Modeling",
+        "Generative Partner-state",
+        "Interaction Policies",
+        "Onboard Sensing",
+        "Partial Observability"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We present REACT, a framework for learning deployable humanoid-human interaction policies from human-human demonstrations.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Humanoid-human Interaction, Contact Modeling.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.28613",
+      "raw_id": "http://arxiv.org/abs/2610.28613v1",
+      "title": "Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning",
+      "authors": [
+        "Zebin Xing",
+        "Yuhang Zheng",
+        "Yupeng Zheng",
+        "Yichen Zhang",
+        "Zichen Li",
+        "Shangqing Zhou",
+        "Yujie Zang",
+        "Yuchen Liu",
+        "Zhongpu Xia",
+        "Haoran Li",
+        "Qichao Zhang"
+      ],
+      "published_date": "2026-10-20T17:54:03Z",
+      "updated_date": "2026-10-20T17:54:03Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Evaluating and post-training robot policies through physical interaction is costly and difficult to scale, motivating action-conditioned world models as interactive simulators. However, visually plausible predictions can misrepresent contact dynamics, providing unreliable feedback for policy evaluation and learning. We introduce PhysCanvas, a state-consistent visuo-tactile world model for contact-rich robot manipulation. PhysCanvas unifies multi-view RGB, tactile images, marker displacement, task state, and actions within a unified vision space. All modalities share a video VAE and pretrained generative backbone, allowing optical touch to reuse visual and temporal priors. Motion images derived through forward kinematics and camera projection provide spatially aligned action conditioning, while an initial RGB anchor and updated reference observations guide sequential generation. Our consistency-aware post-training uses the frozen Scene Reward Model, Modality Reward Model, and State Reward Model to supervise scene preservation, visual-tactile compatibility, and agreement with real task outcomes. The resulting world model supports closed-loop policy rollouts for evaluation and provides imagined interactions and rewards for GRPO policy updates. Across four real-world manipulation tasks, when policies are rolled out in the world model, State Reward Model supervision increases the arithmetic mean of task-wise Pearson correlations between world-model and real-world success rates from 0.602 to 0.885. Policy post-training in the reward-guided world model further increases π_{0.5}'s mean real-world success rate from a 59.1% SFT baseline to 70.8%. These results demonstrate the value of unified multimodal modeling and consistency-aware post-training for robot policy evaluation and learning. Project page: https://zebinx.github.io/PhysCanvas_HomePage/.",
+      "url": "https://arxiv.org/abs/2610.28613v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28613v1",
+      "relevance_score": 0.729,
+      "processed_date": "2026-10-21",
+      "summary": "Evaluating and post-training robot policies through physical interaction is costly and difficult to scale, motivating action-conditioned world models as interactive simulators. We introduce PhysCanvas, a state-consistent visuo-tactile world model for contact-rich robot manipulation. Project page: https://zebinx.github.io/PhysCanvas_HomePage/. However, visually plausible predictions can misrepresent contact dynamics, providing unreliable feedback for policy evaluation and learning. PhysCanvas unifies multi-view RGB, tactile images, marker displacement, task state, and actions within a unified vision space. All modalities share a video VAE and pretrained generative backbone, allowing optical touch to reuse visual and temporal priors. Motion images derived through forward kinematics and camera projection provide spatially aligned action conditioning, while an initial RGB anchor and updated reference observations guide sequential generation.",
+      "key_concepts": [
+        "World Model",
+        "Manipulation",
+        "Consistency-aware Post-training",
+        "Post-training Robot",
+        "Real-world Success",
+        "State Reward"
+      ],
+      "insights": {
+        "problem": "Evaluating and post-training robot policies through physical interaction is costly and difficult to scale, motivating action-conditioned world models as interactive simulators.",
+        "approach": "We introduce PhysCanvas, a state-consistent visuo-tactile world model for contact-rich robot manipulation.",
+        "key_innovation": "Formulates an integrated mechanism leveraging World Model, Manipulation.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.28519",
+      "raw_id": "http://arxiv.org/abs/2610.28519v1",
+      "title": "Touch-JEPA: Tactile Representation Learning from Hand-Object Video with Limited Tactile Supervision",
+      "authors": [
+        "Minseong Kweon",
+        "Qiao Feng",
+        "Yiming Huang",
+        "Lingjie Liu"
+      ],
+      "published_date": "2026-10-20T16:56:11Z",
+      "updated_date": "2026-10-20T16:56:11Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Understanding contact and tactile magnitude in hand-object interaction is a key step toward physically intelligent systems, yet learning such representations is limited by the cost and restricted coverage of tactile measurements. We present Touch-JEPA, a framework for learning tactile representations from hand-object videos with limited tactile supervision. We first introduce a self-supervised pretraining objective that learns from video alone without tactile supervision. Using video-derived hand geometry, Touch-JEPA predicts masked visual features at corresponding hand-surface locations from spatial and temporal context, encouraging the representation to capture latent contact dynamics. We then extend this formulation to joint representation learning, where masked prediction is applied to all videos while tactile supervision is available only for a labeled subset, grounding the shared representation in measured contact and magnitude. With self-supervised pretraining alone, simple supervised readouts on frozen Touch-JEPA features outperform supervised baselines in contact discrimination and tactile magnitude estimation across three human-hand benchmarks, and transfer to robotic hands without robot tactile training data. Joint learning with limited tactile supervision further improves contact and magnitude estimation on the human-hand benchmarks. Together, these results show that hand-object video can provide scalable self-supervision for tactile representation learning, while limited tactile measurements provide complementary physical grounding.",
+      "url": "https://arxiv.org/abs/2610.28519v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28519v1",
+      "relevance_score": 0.724,
+      "processed_date": "2026-10-21",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates understanding contact and tactile magnitude in hand-object interaction is a key step toward physically intelligent systems, yet learning such representations is limited by the cost and restricted coverage of tactile measurements. We present Touch-JEPA, a framework for learning tactile representations from hand-object videos with limited tactile supervision. Together, these results show that hand-object video can provide scalable self-supervision for tactile representation learning, while limited tactile measurements provide complementary physical grounding. Understanding contact and tactile magnitude in hand-object interaction is a key step toward physically intelligent systems, yet learning such representations is limited by the cost and restricted coverage of tactile measurements.",
+      "key_concepts": [
+        "Representation Learning",
+        "Limited Tactile",
+        "Tactile Supervision",
+        "Contact Discrimination Tactile",
+        "Contact Dynamics",
+        "Contact Magnitude"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We present Touch-JEPA, a framework for learning tactile representations from hand-object videos with limited tactile supervision.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Representation Learning, Limited Tactile.",
+        "results": "Together, these results show that hand-object video can provide scalable self-supervision for tactile representation learning, while limited tactile measurements provide complementary physical grounding.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.28522",
+      "raw_id": "http://arxiv.org/abs/2610.28522v1",
+      "title": "DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems",
+      "authors": [
+        "Xialie Zhuang",
+        "Mingcong Lei",
+        "Zunhai Su",
+        "Ri Liu",
+        "Jianjin Li",
+        "Peixian Ma",
+        "Jia Pan",
+        "Ngai Wong",
+        "Guanhua Chen",
+        "Chuan-Wei Kuo"
+      ],
+      "published_date": "2026-10-20T16:57:49Z",
+      "updated_date": "2026-10-20T16:57:49Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Decision models support routing, guardrails, and output verification in LLM systems. However, item accuracy alone cannot establish whether models make correct decisions across controlled variations or assign reliable confidence to their predictions. We introduce DecisionPivot, a diagnostic benchmark comprising 48 tasks and 40,033 items across seven decision roles. Its core track contains 7,800 items from 13 generated task families, organized into contrast groups with computed answers verified by independently implemented solvers. The complementary reference track contains 32,233 items from 35 public test sets, preserving their original evaluation metrics. We evaluate 40 decision models and 14 general models using documented, model-specific protocols, assessing item and contrast-group accuracy, probability ordering, calibration, and empirical selective coverage. Our results reveal substantial differences obscured by aggregate scores: two 27B models separated by only 2.6 points on the reference track achieve contrast-group accuracies of 70.1% and 44.2%. Across 2,400 binary contrast pairs, Perplexity Decider correctly ranks the positive member above the negative member in 92.3% of pairs but answers both members correctly in only 74.1%, exposing a gap between probability ordering and decision correctness. Models with similar item accuracy also differ in the reliability of their high-confidence predictions. On a separate 1,296-item subset, GLM-5.3 achieves 93.5\\% contrast-group accuracy at a higher reasoning setting, compared with 81.5% at its lowest effort. By linking errors to pivotal details and difficulty levels, DecisionPivot provides fine-grained diagnostics of decision failures that aggregate evaluation alone cannot reveal.",
+      "url": "https://arxiv.org/abs/2610.28522v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28522v1",
+      "relevance_score": 0.708,
+      "processed_date": "2026-10-21",
+      "summary": "However, item accuracy alone cannot establish whether models make correct decisions across controlled variations or assign reliable confidence to their predictions. We introduce DecisionPivot, a diagnostic benchmark comprising 48 tasks and 40,033 items across seven decision roles. By linking errors to pivotal details and difficulty levels, DecisionPivot provides fine-grained diagnostics of decision failures that aggregate evaluation alone cannot reveal. Decision models support routing, guardrails, and output verification in LLM systems. Its core track contains 7,800 items from 13 generated task families, organized into contrast groups with computed answers verified by independently implemented solvers. The complementary reference track contains 32,233 items from 35 public test sets, preserving their original evaluation metrics.",
+      "key_concepts": [
+        "Achieves Contrast-group Accuracy",
+        "Contains Items",
+        "Item Accuracy",
+        "Probability Ordering",
+        "Reference Track",
+        "Test Sets"
+      ],
+      "insights": {
+        "problem": "However, item accuracy alone cannot establish whether models make correct decisions across controlled variations or assign reliable confidence to their predictions.",
+        "approach": "We introduce DecisionPivot, a diagnostic benchmark comprising 48 tasks and 40,033 items across seven decision roles.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Achieves Contrast-group Accuracy, Contains Items.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2610.28602",
+      "raw_id": "http://arxiv.org/abs/2610.28602v1",
+      "title": "Turning TS2Vec into a Foundation Model for Time Series Classification",
+      "authors": [
+        "Vasilii Feofanov",
+        "Zhenghan Tai",
+        "Andrei Ermakov",
+        "Irina Rish"
+      ],
+      "published_date": "2026-10-20T17:47:51Z",
+      "updated_date": "2026-10-20T17:47:51Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "TS2Vec is one of the strongest self-supervised methods for time series classification, introduced in 2022. It is designed to be trained anew on every dataset: self-supervised pre-training followed by linear probing. Since then, the field has shifted towards foundation models that reuse one encoder across datasets. Yet TS2Vec offers a compact convolutional architecture that operates directly on temporal samples and accepts variable-length inputs without resampling. We ask whether these properties can be retained when the encoder is pre-trained only once, and show that they can: TS2Vec can essentially be turned into a foundation model. Three changes suffice: pre-train on a synthetic corpus, feed the encoder a raw amplitude view and an instance-normalized shape view of the input through two small stems, and distill one specialist encoder per view into a single encoder. The result, TS2Vec-FM, is a 1.6M-parameter dilated convolutional network that, kept frozen, reaches 83.3% on UCR-128 and 75.3% on UEA-27 under linear probing, within 0.3 pp of MantisV2, the current state of the art, and above TS2Vec trained separately on each target dataset. What we find most interesting is how different TS2Vec-FM is from other foundation models in design: near-parity is reached without attention, without a patch tokenizer, and without intermediate-layer extraction, using an \"old-school\" convolutional encoder and a two-layer MLP stem.",
+      "url": "https://arxiv.org/abs/2610.28602v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.28602v1",
+      "relevance_score": 0.695,
+      "processed_date": "2026-10-21",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates ts2vec is one of the strongest self-supervised methods for time series classification, introduced in 2022. It is designed to be trained anew on every dataset: self-supervised pre-training followed by linear probing. Since then, the field has shifted towards foundation models that reuse one encoder across datasets. What we find most interesting is how different TS2Vec-FM is from other foundation models in design: near-parity is reached without attention, without a patch tokenizer, and without intermediate-layer extraction, using an \"old-school\" convolutional encoder and a two-layer MLP stem. TS2Vec is one of the strongest self-supervised methods for time series classification, introduced in 2022.",
+      "key_concepts": [
+        "Foundation Model",
+        "Accepts Variable-length",
+        "Amplitude View",
+        "Ask Properties",
+        "Attention Patch",
+        "Classification Introduced"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "It is designed to be trained anew on every dataset: self-supervised pre-training followed by linear probing.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Foundation Model, Accepts Variable-length.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "Machine Learning"

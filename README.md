@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[20 October 2026 Report](reports/2026/10/20/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[21 October 2026 Report](reports/2026/10/21/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/20/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/21/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/20/infographic.png)](reports/2026/10/20/infographic.png)
+[![Daily Infographic](reports/2026/10/21/infographic.png)](reports/2026/10/21/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `3` |
+| **Artificial Intelligence (AI)** | `7` |
 | **Machine Learning (ML)** | `3` |
-| **Robotics** | `7` |
+| **Robotics** | `5` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Simulation Priors for Rapid Adaptation in Model-Based RL for Autonomous ...** | `Machine Learning` | `0.73` | [arXiv](https://arxiv.org/abs/2610.26757v1) |
-| 2 | **Manga2Animate: An Agentic Framework for Faithful Manga Animation with Sc...** | `Artificial Intelligence` | `0.74` | [arXiv](https://arxiv.org/abs/2610.26851v1) |
-| 3 | **DexOAK: Object-Aware Kinematic Retargeting** | `Robotics` | `0.76` | [arXiv](https://arxiv.org/abs/2610.26762v1) |
-| 4 | **GPT-6 Astra Is a Native Visuo-Tactile Policy for Contact-Rich Manipulation** | `Robotics` | `0.76` | [arXiv](https://arxiv.org/abs/2610.26846v1) |
-| 5 | **What Language Adds, and at What Cost: Four Controlled Probes of Patholog...** | `Machine Learning` | `0.76` | [arXiv](https://arxiv.org/abs/2610.26805v1) |
+| 1 | **Turning TS2Vec into a Foundation Model for Time Series Classification** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2610.28602v1) |
+| 2 | **DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems** | `Natural Language Processing` | `0.71` | [arXiv](https://arxiv.org/abs/2610.28522v1) |
+| 3 | **Touch-JEPA: Tactile Representation Learning from Hand-Object Video with ...** | `Machine Learning` | `0.72` | [arXiv](https://arxiv.org/abs/2610.28519v1) |
+| 4 | **Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluatio...** | `Robotics` | `0.73` | [arXiv](https://arxiv.org/abs/2610.28613v1) |
+| 5 | **VLM-Guided Contact Retargeting and Generative Partner Modeling for Human...** | `Robotics` | `0.76` | [arXiv](https://arxiv.org/abs/2610.28523v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `108`
-- **Total Operational Runs**: `23 days`
+- **Total Papers Analyzed**: `118`
+- **Total Operational Runs**: `24 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 
