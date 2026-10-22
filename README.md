@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[21 October 2026 Report](reports/2026/10/21/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[22 October 2026 Report](reports/2026/10/22/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/21/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/22/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/21/infographic.png)](reports/2026/10/21/infographic.png)
+[![Daily Infographic](reports/2026/10/22/infographic.png)](reports/2026/10/22/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `7` |
-| **Machine Learning (ML)** | `3` |
-| **Robotics** | `5` |
+| **Artificial Intelligence (AI)** | `5` |
+| **Machine Learning (ML)** | `2` |
+| **Robotics** | `8` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Turning TS2Vec into a Foundation Model for Time Series Classification** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2610.28602v1) |
-| 2 | **DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems** | `Natural Language Processing` | `0.71` | [arXiv](https://arxiv.org/abs/2610.28522v1) |
-| 3 | **Touch-JEPA: Tactile Representation Learning from Hand-Object Video with ...** | `Machine Learning` | `0.72` | [arXiv](https://arxiv.org/abs/2610.28519v1) |
-| 4 | **Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluatio...** | `Robotics` | `0.73` | [arXiv](https://arxiv.org/abs/2610.28613v1) |
-| 5 | **VLM-Guided Contact Retargeting and Generative Partner Modeling for Human...** | `Robotics` | `0.76` | [arXiv](https://arxiv.org/abs/2610.28523v1) |
+| 1 | **DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonst...** | `Robotics` | `0.72` | [arXiv](https://arxiv.org/abs/2610.29997v1) |
+| 2 | **Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain...** | `Robotics` | `0.72` | [arXiv](https://arxiv.org/abs/2610.30080v1) |
+| 3 | **Charts as Epistemic Actions for Experience-Driven Agentic Data Analysis** | `Artificial Intelligence` | `0.72` | [arXiv](https://arxiv.org/abs/2610.30072v1) |
+| 4 | **TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodi...** | `Robotics` | `0.73` | [arXiv](https://arxiv.org/abs/2610.30043v1) |
+| 5 | **Rethinking Video Autoencoders for Interactive World Models** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2610.30129v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `118`
-- **Total Operational Runs**: `24 days`
+- **Total Papers Analyzed**: `128`
+- **Total Operational Runs**: `25 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 
