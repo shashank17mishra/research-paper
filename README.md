@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[22 October 2026 Report](reports/2026/10/22/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[23 October 2026 Report](reports/2026/10/23/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/22/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/23/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/22/infographic.png)](reports/2026/10/22/infographic.png)
+[![Daily Infographic](reports/2026/10/23/infographic.png)](reports/2026/10/23/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `5` |
-| **Machine Learning (ML)** | `2` |
-| **Robotics** | `8` |
+| **Artificial Intelligence (AI)** | `4` |
+| **Machine Learning (ML)** | `3` |
+| **Robotics** | `5` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **DONIC: Generalist Dexterous Bimanual Tracking Control from Human Demonst...** | `Robotics` | `0.72` | [arXiv](https://arxiv.org/abs/2610.29997v1) |
-| 2 | **Do Earth-Trained Humanoid Controllers Walk on the Moon? Gravity, Terrain...** | `Robotics` | `0.72` | [arXiv](https://arxiv.org/abs/2610.30080v1) |
-| 3 | **Charts as Epistemic Actions for Experience-Driven Agentic Data Analysis** | `Artificial Intelligence` | `0.72` | [arXiv](https://arxiv.org/abs/2610.30072v1) |
-| 4 | **TARSphere: A Robot-Oriented Full-Stack Framework for Long-Horizon Embodi...** | `Robotics` | `0.73` | [arXiv](https://arxiv.org/abs/2610.30043v1) |
-| 5 | **Rethinking Video Autoencoders for Interactive World Models** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2610.30129v1) |
+| 1 | **Same Luck, Different Choice: Twin-World Credit Assignment for Agentic Re...** | `Artificial Intelligence` | `0.69` | [arXiv](https://arxiv.org/abs/2610.31544v1) |
+| 2 | **Echo: Coupled Action and Task Status Signal Denoising for Vision Languag...** | `Robotics` | `0.71` | [arXiv](https://arxiv.org/abs/2610.31569v1) |
+| 3 | **Dispersive Tree Agreements for Multi-Robot Coordination** | `Robotics` | `0.71` | [arXiv](https://arxiv.org/abs/2610.31540v1) |
+| 4 | **OpenTac: An Open Ecosystem for Customizable, Scalable, and Transferable ...** | `Robotics` | `0.71` | [arXiv](https://arxiv.org/abs/2610.31661v1) |
+| 5 | **An Empirical Study of Recent Large Language Models for Knowledge Graph t...** | `Artificial Intelligence` | `0.71` | [arXiv](https://arxiv.org/abs/2610.31529v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `128`
-- **Total Operational Runs**: `25 days`
+- **Total Papers Analyzed**: `138`
+- **Total Operational Runs**: `26 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 
