@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[23 October 2026 Report](reports/2026/10/23/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[24 October 2026 Report](reports/2026/10/24/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/23/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/24/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/23/infographic.png)](reports/2026/10/23/infographic.png)
+[![Daily Infographic](reports/2026/10/24/infographic.png)](reports/2026/10/24/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `4` |
-| **Machine Learning (ML)** | `3` |
-| **Robotics** | `5` |
+| **Artificial Intelligence (AI)** | `5` |
+| **Machine Learning (ML)** | `6` |
+| **Robotics** | `1` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Same Luck, Different Choice: Twin-World Credit Assignment for Agentic Re...** | `Artificial Intelligence` | `0.69` | [arXiv](https://arxiv.org/abs/2610.31544v1) |
-| 2 | **Echo: Coupled Action and Task Status Signal Denoising for Vision Languag...** | `Robotics` | `0.71` | [arXiv](https://arxiv.org/abs/2610.31569v1) |
-| 3 | **Dispersive Tree Agreements for Multi-Robot Coordination** | `Robotics` | `0.71` | [arXiv](https://arxiv.org/abs/2610.31540v1) |
-| 4 | **OpenTac: An Open Ecosystem for Customizable, Scalable, and Transferable ...** | `Robotics` | `0.71` | [arXiv](https://arxiv.org/abs/2610.31661v1) |
-| 5 | **An Empirical Study of Recent Large Language Models for Knowledge Graph t...** | `Artificial Intelligence` | `0.71` | [arXiv](https://arxiv.org/abs/2610.31529v1) |
+| 1 | **On the Token Collapse Phenomenon in Textual Graph Soft Prompting** | `Natural Language Processing` | `0.63` | [arXiv](https://arxiv.org/abs/2610.31572v1) |
+| 2 | **HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction** | `Computer Vision` | `0.64` | [arXiv](https://arxiv.org/abs/2610.31635v1) |
+| 3 | **OmniRay: Camera-Agnostic Monocular 3D Reconstruction with Composite Ray ...** | `Computer Vision` | `0.64` | [arXiv](https://arxiv.org/abs/2610.31645v1) |
+| 4 | **Cost-Aware Abstention for LLM-Based IT Ticket Classification** | `Natural Language Processing` | `0.64` | [arXiv](https://arxiv.org/abs/2610.31657v1) |
+| 5 | **CellTrack-Bench: Microscopic Cell Tracking Benchmark for Vision-Language...** | `Artificial Intelligence` | `0.64` | [arXiv](https://arxiv.org/abs/2610.31566v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `138`
-- **Total Operational Runs**: `26 days`
+- **Total Papers Analyzed**: `148`
+- **Total Operational Runs**: `27 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 

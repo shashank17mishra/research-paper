@@ -5972,5 +5972,400 @@
       "limitations": "Not specified in the available abstract."
     },
     "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.31656",
+    "raw_id": "http://arxiv.org/abs/2610.31656v1",
+    "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
+    "authors": [
+      "Ali Najar",
+      "Hosein Hasani",
+      "Amir Kooshan Fattah",
+      "Yasamin Rajabi",
+      "Mahdieh Soleymani Baghshah"
+    ],
+    "published_date": "2026-10-22T17:58:27Z",
+    "updated_date": "2026-10-22T17:58:27Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "abstract": "Meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories. Classical recurrent agents compress experience into hidden states, while transformer-based agents retrieve from past trajectories at quadratic memory and computation cost. In this work, we propose Memory-Enhanced Test-Time Adaptation (METTA) for meta-reinforcement learning. It decomposes the fast adaptation phase into two temporal scales: a causal neural memory performs fine-grained within-episode adaptation with linear sequence complexity, while compact episode-level summaries support long-range cross-episode task inference without attending over the full interaction history. Moreover, equipping agents with neural memory provides sufficient expressive capacity and test-time training capability, enabling effective adaptation to unseen held-out tasks and task families at meta-test time. On unseen held-out Meta-World ML10/45 test environments, METTA achieves a success rate over 50\\% while maintaining a low training budget and short wall-clock time. On long-context sparse-reward PointMaze tasks, it outperforms transformer-based baselines by exhibiting more structured exploration behavior. These results show that METTA provides an efficient path toward more adaptive and scalable long-context meta-RL.",
+    "url": "https://arxiv.org/abs/2610.31656v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31656v1",
+    "relevance_score": 0.662,
+    "processed_date": "2026-10-24",
+    "summary": "Addressing critical demands in Machine Learning, this research investigates meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories. In this work, we propose Memory-Enhanced Test-Time Adaptation (METTA) for meta-reinforcement learning. On long-context sparse-reward PointMaze tasks, it outperforms transformer-based baselines by exhibiting more structured exploration behavior. These results show that METTA provides an efficient path toward more adaptive and scalable long-context meta-RL. Meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Achieves Success",
+      "Adapt Quickly",
+      "Adaptation Linear",
+      "Adaptation Metta",
+      "Adaptation Phase"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+      "approach": "In this work, we propose Memory-Enhanced Test-Time Adaptation (METTA) for meta-reinforcement learning.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Achieves Success.",
+      "results": "On long-context sparse-reward PointMaze tasks, it outperforms transformer-based baselines by exhibiting more structured exploration behavior.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2610.31646",
+    "raw_id": "http://arxiv.org/abs/2610.31646v1",
+    "title": "Low-Bit N-Gram Embeddings for Language Models",
+    "authors": [
+      "Stephen Chung",
+      "Wenyu Du"
+    ],
+    "published_date": "2026-10-22T17:56:13Z",
+    "updated_date": "2026-10-22T17:56:13Z",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Many recent open-weight language models use n-gram embedding tables to improve performance. These tables store learned representations of short token sequences, such as pairs or triples of consecutive tokens, which the model retrieves during processing. However, they can require substantial memory: DeepSeek-V4.1-Flash, for example, allocates 196 billion parameters to its Engram n-gram memory. We therefore investigate whether this memory cost can be reduced while preserving the performance improvement that the tables provide. We propose storing n-gram embeddings at low precision and systematically investigate different quantization methods and bit allocations across tables. Across nanochat-, Llama-, and GPT-2-family models trained from scratch, four-bit tables save approximately 75% of table memory while preserving more than 99% of the validation-loss improvement from adding the tables. Using fewer bits leads to a larger drop in performance, although we find that a short fine-tuning phase recovers a significant part of this loss. In addition, reinvesting the saved memory in larger tables can improve performance beyond that of the original full-precision tables while still using less memory. These table memory savings also extend to large existing models: on DeepSeek-V4.1-Flash and Qwen3.8-Flash-Next, low-bit tables save 47-55% of table memory, with perplexity increases of less than 1.2% and largely preserved downstream task performance. These findings establish low-bit precision as a practical way to reduce the memory requirements of n-gram embeddings and use the saved capacity to improve model performance.",
+    "url": "https://arxiv.org/abs/2610.31646v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31646v1",
+    "relevance_score": 0.662,
+    "processed_date": "2026-10-24",
+    "summary": "However, they can require substantial memory: DeepSeek-V4.1-Flash, for example, allocates 196 billion parameters to its Engram n-gram memory. We propose storing n-gram embeddings at low precision and systematically investigate different quantization methods and bit allocations across tables. These findings establish low-bit precision as a practical way to reduce the memory requirements of n-gram embeddings and use the saved capacity to improve model performance. Many recent open-weight language models use n-gram embedding tables to improve performance. These tables store learned representations of short token sequences, such as pairs or triples of consecutive tokens, which the model retrieves during processing. We therefore investigate whether this memory cost can be reduced while preserving the performance improvement that the tables provide.",
+    "key_concepts": [
+      "Quantization",
+      "N-gram Embeddings",
+      "Deepseek- Flash",
+      "Table Memory",
+      "Tables Improve",
+      "Tables Provide"
+    ],
+    "insights": {
+      "problem": "However, they can require substantial memory: DeepSeek-V4.1-Flash, for example, allocates 196 billion parameters to its Engram n-gram memory.",
+      "approach": "We propose storing n-gram embeddings at low precision and systematically investigate different quantization methods and bit allocations across tables.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Quantization, N-gram Embeddings.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2610.31636",
+    "raw_id": "http://arxiv.org/abs/2610.31636v1",
+    "title": "Can an Agent Debug a Web Corpus? Agentic Auditing of Slovak FineWeb2",
+    "authors": [
+      "Marek Šuppa",
+      "Ivan Vykopal",
+      "Jaroslav Kopčan"
+    ],
+    "published_date": "2026-10-22T17:52:22Z",
+    "updated_date": "2026-10-22T17:52:22Z",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Multilingual pipelines such as FineWeb2 apply one recipe across a thousand languages, leaving the failure modes of individual languages unanticipated. We use an LLM once, as a corpus debugger rather than a classifier: a tool-using agent explores the corpus through a read-only, budgeted API and compiles each finding into an executable test, which a native speaker then validates. On the 26.5M-document Slovak portion of FineWeb2, three runs costing \\2.21-\\2.84 each found seven findings over four phenomena. The largest is a machine-generated content farm of 1,408,437 documents (5.32%) that passed the pipeline's filters, 86.6% of it passing even stricter thresholds. Blinded labels support 6 of the 7 findings (defect rates .53-1.00 against .08 in a random control) and do not support one. The compiled suite scans the full corpus in 0.7 s of wall-clock time without a GPU, against \\12k-\\90k per LLM classification pass. The best static sampling baseline validates more selectors than any agent run, at under half the cost. The agent contributes exact prevalence, a precision estimate checked against sampled documents, an account of why the pipeline missed each slice, and a reusable test. We release the framework, Slovak test suite, validation data and agent trajectories.",
+    "url": "https://arxiv.org/abs/2610.31636v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31636v1",
+    "relevance_score": 0.662,
+    "processed_date": "2026-10-24",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates multilingual pipelines such as fineweb2 apply one recipe across a thousand languages, leaving the failure modes of individual languages unanticipated. We use an LLM once, as a corpus debugger rather than a classifier: a tool-using agent explores the corpus through a read-only, budgeted API and compiles each finding into an executable test, which a native speaker then validates. On the 26.5M-document Slovak portion of FineWeb2, three runs costing \\2.21-\\2.84 each found seven findings over four phenomena. We release the framework, Slovak test suite, validation data and agent trajectories. Multilingual pipelines such as FineWeb2 apply one recipe across a thousand languages, leaving the failure modes of individual languages unanticipated.",
+    "key_concepts": [
+      "Account Pipeline",
+      "Agent Contributes",
+      "Agent Explores",
+      "Agent Run",
+      "Agent Trajectories",
+      "Api Compiles"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "We use an LLM once, as a corpus debugger rather than a classifier: a tool-using agent explores the corpus through a read-only, budgeted API and compiles each finding into an executable test, which a native speaker then validates.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Account Pipeline, Agent Contributes.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.31539",
+    "raw_id": "http://arxiv.org/abs/2610.31539v1",
+    "title": "PYTHIA, a transferable machine learning framework for simultaneous defect and adsorption site optimization",
+    "authors": [
+      "Ioannis Kouroudis",
+      "Zhaosu Gu",
+      "Poonam",
+      "Leon Muller",
+      "Alessio Gagliardi"
+    ],
+    "published_date": "2026-10-22T16:46:46Z",
+    "updated_date": "2026-10-22T16:46:46Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "abstract": "Machine learning has permeated material optimization, providing high value. Nevertheless, its re- liance on a high number of samples limits its applicability to relatively explored material families. In this paper we extend the applicability of machine learning to novel and understudied materials through the PYTHIA (Probabilistic Yet Transferable Hierarchical Interaction Architecture) framework. Pythia utilizes two of the most powerful machine learning concepts, foundational models and transfer learning. We employ a complex foundational model trained on a large dataset of chemically similar molecules, on a target that is physically close to our prediction target. Then, we freeze the weights and perform subspace alignment with the use of a transformer layer and add uncertainty quantification with gaussian processes. These two layers can be trained on a limited dataset yet allow us to leverage the gained knowl- edge and the studied materials and complex architectures. The resulting model is used as a surrogate for a Bayesian Optimization scheme. To showcase the robustness of the framework, we applied it to the investigation of adsorption and defect optimization of two distinct systems. Not only were we able to correctly and efficiently identify the optimal adsorption sites of even complex a",
+    "url": "https://arxiv.org/abs/2610.31539v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31539v1",
+    "relevance_score": 0.661,
+    "processed_date": "2026-10-24",
+    "summary": "Addressing critical demands in Machine Learning, this research investigates machine learning has permeated material optimization, providing high value. Nevertheless, its re- liance on a high number of samples limits its applicability to relatively explored material families. In this paper we extend the applicability of machine learning to novel and understudied materials through the PYTHIA (Probabilistic Yet Transferable Hierarchical Interaction Architecture) framework. Not only were we able to correctly and efficiently identify the optimal adsorption sites of even complex a Machine learning has permeated material optimization, providing high value. Pythia utilizes two of the most powerful machine learning concepts, foundational models and transfer learning.",
+    "key_concepts": [
+      "Machine Learning",
+      "Able Correctly",
+      "Add Uncertainty",
+      "Adsorption Defect",
+      "Adsorption Sites",
+      "Alignment Use"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+      "approach": "Nevertheless, its re- liance on a high number of samples limits its applicability to relatively explored material families.",
+      "key_innovation": "In this paper we extend the applicability of machine learning to novel and understudied materials through the PYTHIA (Probabilistic Yet Transferable Hierarchical Interaction Architecture) framework.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2610.31670",
+    "raw_id": "http://arxiv.org/abs/2610.31670v1",
+    "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+    "authors": [
+      "Yunfei Xie",
+      "Howard H. Qian",
+      "Shiyi Lan",
+      "Kaiyu Hang",
+      "Chen Wei"
+    ],
+    "published_date": "2026-10-22T17:59:51Z",
+    "updated_date": "2026-10-22T17:59:51Z",
+    "categories": [
+      "cs.CV",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "abstract": "Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modalities such as vision and language converge toward a shared statistical model of reality. We ask whether motion trajectories form another such modality: as embodied models become more capable, should their sensory representations converge toward the structure of physical motion? To examine this, we propose Sensorimotor Alignment (S^2), a training-free offline metric that measures how well a model's sensory representation aligns with the geometry of physical motion. We find that S^2 correlates positively with downstream robot task success across embodied model families, making it a low-cost offline proxy for prioritizing models before closed-loop evaluation. S^2 can also identify promising vision-language model (VLM) backbones even before costly fine-tuning into vision-language-action models (VLAs). Beyond this correlation, S^2 offers representation-level explanations for phenomena observed in VLAs and world action models (WAMs). With S^2, we extend PRH to embodied models and make sensorimotor alignment empirically measurable, offering insight into why an embodied model succeeds beyond its closed-loop success rate.",
+    "url": "https://arxiv.org/abs/2610.31670v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31670v1",
+    "relevance_score": 0.642,
+    "processed_date": "2026-10-24",
+    "summary": "Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability. To examine this, we propose Sensorimotor Alignment (S^2), a training-free offline metric that measures how well a model's sensory representation aligns with the geometry of physical motion. We ask whether motion trajectories form another such modality: as embodied models become more capable, should their sensory representations converge toward the structure of physical motion? With S^2, we extend PRH to embodied models and make sensorimotor alignment empirically measurable, offering insight into why an embodied model succeeds beyond its closed-loop success rate. The Platonic Representation Hypothesis (PRH) suggests that as representations improve, different modalities such as vision and language converge toward a shared statistical model of reality.",
+    "key_concepts": [
+      "Sensorimotor Alignment",
+      "Alignment Empirically",
+      "Alignment Training-free",
+      "Ask Motion",
+      "Backbones Costly",
+      "Capability Platonic"
+    ],
+    "insights": {
+      "problem": "Robotic foundation models are typically evaluated through costly closed-loop rollouts, which motivates cheap offline proxies for model capability.",
+      "approach": "To examine this, we propose Sensorimotor Alignment (S^2), a training-free offline metric that measures how well a model's sensory representation aligns with the geometry of physical motion.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Sensorimotor Alignment, Alignment Empirically.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2610.31566",
+    "raw_id": "http://arxiv.org/abs/2610.31566v1",
+    "title": "CellTrack-Bench: Microscopic Cell Tracking Benchmark for Vision-Language Models",
+    "authors": [
+      "Ilan Theodoro",
+      "Jordão Bragantini",
+      "Loïc A. Royer"
+    ],
+    "published_date": "2026-10-22T17:09:12Z",
+    "updated_date": "2026-10-22T17:09:12Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "Large language models have shown outstanding performance on text-first tasks such as coding, math, and writing. Recent efforts are shifting models' training to include scientific problems that often live in highly specialized domains beyond text, such as protein structure and biological images. However, in these scenarios, their general-purpose accuracy compared with specialized algorithms remains in question. One such domain is cell tracking, which requires spatiotemporal awareness of cell dynamics. To evaluate this, we created a new benchmark, CellTrack-Bench, which assesses Vision-Language Models' (VLMs) cell-tracking-related performance against specialized trackers. The full benchmark draws from 15 standard cell-tracking datasets across four imaging modalities and comprises 1,537 problems corresponding to 9,041 cell-linking decisions. We selected a hard subset requiring greater reasoning effort by identifying failures shared across distinct algorithmic trackers. With this proposed dataset, we: (i) evaluated different environment harnesses for VLMs; (ii) benchmarked 9 frontier closed-source models and 13 open-weight models; and (iii) provided a detailed analysis of their failure modes. Code, the stored model outputs, and a pipeline that regenerates the benchmark from the source datasets are available at https://github.com/royerlab/celltrack-bench.",
+    "url": "https://arxiv.org/abs/2610.31566v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31566v1",
+    "relevance_score": 0.636,
+    "processed_date": "2026-10-24",
+    "summary": "However, in these scenarios, their general-purpose accuracy compared with specialized algorithms remains in question. Recent efforts are shifting models' training to include scientific problems that often live in highly specialized domains beyond text, such as protein structure and biological images. Code, the stored model outputs, and a pipeline that regenerates the benchmark from the source datasets are available at https://github.com/royerlab/celltrack-bench. Large language models have shown outstanding performance on text-first tasks such as coding, math, and writing. One such domain is cell tracking, which requires spatiotemporal awareness of cell dynamics. To evaluate this, we created a new benchmark, CellTrack-Bench, which assesses Vision-Language Models' (VLMs) cell-tracking-related performance against specialized trackers.",
+    "key_concepts": [
+      "Accuracy Compared",
+      "Algorithmic Trackers",
+      "Assesses Vision-language",
+      "Available Https",
+      "Awareness Cell",
+      "Benchmarked Frontier"
+    ],
+    "insights": {
+      "problem": "However, in these scenarios, their general-purpose accuracy compared with specialized algorithms remains in question.",
+      "approach": "Recent efforts are shifting models' training to include scientific problems that often live in highly specialized domains beyond text, such as protein structure and biological images.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Accuracy Compared, Algorithmic Trackers.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.31657",
+    "raw_id": "http://arxiv.org/abs/2610.31657v1",
+    "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+    "authors": [
+      "Sachin Gupta"
+    ],
+    "published_date": "2026-10-22T17:58:52Z",
+    "updated_date": "2026-10-22T17:58:52Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen policy once on held-out test data. On a public 47,837-ticket, eight-class corpus, we compare four trained non-LLM classifiers with four large language models under zero- and few-shot prompting. Under the illustrative cost model (c_ok, c_triage, c_wrong) = (0, 1, 5), TF-IDF with logistic regression and a threshold of 0.60 selected on calibration reduces test cost from 0.763 to 0.472, a 38.1% relative reduction (paired ratio-bootstrap 95% CI [35.7%, 40.4%]), while lowering wrong routes from 15.3% to 3.5%. Frozen calibration-selected policies also beat both always-route and always-defer on held-out test data in 14 of 16 settings in a post-hoc cost-parameter analysis. The strongest prompted configuration reaches 0.477 accuracy on a stratified 1,000-ticket test subset, versus 0.879 for fine-tuned DistilBERT on the same tickets. Isotonic lowers expected calibration error without reliably improving discrimination: GPT-4o-mini few-shot has one confidence value before and after recalibration and correctness AUROC 0.500. We therefore report correctness AUROC and tie-aware risk-coverage area alongside ECE. At the analytically derived break-even probability 0.80, seven prompted configurations defer all tickets; Haiku few-shot routes only 19/1,000. An LLM-only agreement control and margin/entropy rejection baselines further separate calibration from discrimination. The findings are scoped to this dataset, prompt design, model endpoints, and illustrative costs; the work is an evaluation framework, not a new abstention algorithm or universal deployment certification.",
+    "url": "https://arxiv.org/abs/2610.31657v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31657v1",
+    "relevance_score": 0.635,
+    "processed_date": "2026-10-24",
+    "summary": "Addressing critical demands in Natural Language Processing, this research investigates wrong automatic routing of an it support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen policy once on held-out test data. On a public 47,837-ticket, eight-class corpus, we compare four trained non-LLM classifiers with four large language models under zero- and few-shot prompting. The findings are scoped to this dataset, prompt design, model endpoints, and illustrative costs; the work is an evaluation framework, not a new abstention algorithm or universal deployment certification.",
+    "key_concepts": [
+      "Correctness Auroc",
+      "Held-out Test",
+      "Threshold Selected Calibration",
+      "Ticket Cost",
+      "Ticket Eight-class",
+      "Tickets Haiku Few-shot"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+      "approach": "We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen policy once on held-out test data.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Correctness Auroc, Held-out Test.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Natural Language Processing"
+  },
+  {
+    "arxiv_id": "2610.31645",
+    "raw_id": "http://arxiv.org/abs/2610.31645v1",
+    "title": "OmniRay: Camera-Agnostic Monocular 3D Reconstruction with Composite Ray Fields",
+    "authors": [
+      "Namitha Guruprasad",
+      "Abhay Yadav",
+      "Cheng Peng",
+      "Rama Chellappa",
+      "Anand Bhattad"
+    ],
+    "published_date": "2026-10-22T17:55:30Z",
+    "updated_date": "2026-10-22T17:55:30Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "Monocular models recover 3D geometry from a single image in one pass, but most assume a pinhole camera and produce distorted geometry on the wide-angle imagery produced by fisheye and panoramic lenses. Camera-aware models remove this assumption by predicting a per-pixel ray field. However, they represent different camera geometries using a single fixed basis to capture both the overall camera projection and its finer variations. We argue that camera geometry can be viewed as having a hierarchy of complexity for representing rays. We present OmniRay, a feed-forward model whose Ray Module is composed of three components: a monotone radial base that captures radially symmetric structure, a spherical-harmonic residual for smooth deviations from it, and a free-form residual for remaining local variation. These components are composed as successive rotations on the sphere, allowing the representation to accommodate diverse camera geometries. Given a single image, OmniRay predicts a ray direction and an up-to-scale radial distance for every pixel, from which a 3D point cloud is recovered without needing camera information at inference time. Extensive experiments across different camera configurations demonstrate that OmniRay establishes a new state-of-the-art in camera-agnostic monocular 3D reconstruction.",
+    "url": "https://arxiv.org/abs/2610.31645v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31645v1",
+    "relevance_score": 0.635,
+    "processed_date": "2026-10-24",
+    "summary": "However, they represent different camera geometries using a single fixed basis to capture both the overall camera projection and its finer variations. We present OmniRay, a feed-forward model whose Ray Module is composed of three components: a monotone radial base that captures radially symmetric structure, a spherical-harmonic residual for smooth deviations from it, and a free-form residual for remaining local variation. Extensive experiments across different camera configurations demonstrate that OmniRay establishes a new state-of-the-art in camera-agnostic monocular 3D reconstruction. Monocular models recover 3D geometry from a single image in one pass, but most assume a pinhole camera and produce distorted geometry on the wide-angle imagery produced by fisheye and panoramic lenses.",
+    "key_concepts": [
+      "Point Cloud",
+      "Accommodate Diverse",
+      "Argue Camera",
+      "Assume Pinhole",
+      "Assumption Predicting",
+      "Base Captures"
+    ],
+    "insights": {
+      "problem": "However, they represent different camera geometries using a single fixed basis to capture both the overall camera projection and its finer variations.",
+      "approach": "We present OmniRay, a feed-forward model whose Ray Module is composed of three components: a monotone radial base that captures radially symmetric structure, a spherical-harmonic residual for smooth deviations from it, and a free-form residual for remaining local variation.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Point Cloud, Accommodate Diverse.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Monocular models recover 3D geometry from a single image in one pass, but most assume a pinhole camera and produce distorted geometry on the wide-angle imagery produced by fisheye and panoramic lenses."
+    },
+    "primary_topic": "Computer Vision"
+  },
+  {
+    "arxiv_id": "2610.31635",
+    "raw_id": "http://arxiv.org/abs/2610.31635v1",
+    "title": "HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction",
+    "authors": [
+      "Zunnan Xu",
+      "Shangchen Zhou",
+      "Yihang Luo",
+      "Chen Change Loy"
+    ],
+    "published_date": "2026-10-22T17:51:10Z",
+    "updated_date": "2026-10-22T17:51:10Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "Feed-forward models accurately estimate camera motion and 3D geometry from short video windows. However, computational and memory costs prevent direct inference on sequences containing thousands of frames. Long videos must therefore be processed as overlapping chunks. This division produces independent local reconstructions with inconsistent coordinate frames and duplicate estimates of shared cameras. Achieving global consistency requires propagating constraints from adjacent overlaps and distant revisits across the sequence. This requirement naturally motivates pose graph optimization. However, the choice of graph level creates a trade-off. Chunk-level graphs efficiently resolve scale drift and close large loops. Yet, their rigid transformations cannot correct internal errors or conflicting frame predictions. Conversely, frame-level optimization offers local flexibility, but scaling it globally is computationally expensive and can break metric scale. HiP3R resolves this trade-off using a hierarchical pose graph. HiP3R first optimizes a robust chunk-level \\mathrm{Sim}(3) graph to establish the global layout and scale. It then holds this layout fixed and estimates one shared \\mathrm{SE}(3) camera per frame, turning overlapping window predictions into a single trajectory. Experiments across multiple benchmarks demonstrate the effectiveness of HiP3R in improving camera trajectories and 3D reconstruction. Our method applies to both chunk-based and streaming backends without additional training or fine-tuning. The codes are available at https://kkakkkka.github.io/HiP3R.",
+    "url": "https://arxiv.org/abs/2610.31635v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31635v1",
+    "relevance_score": 0.635,
+    "processed_date": "2026-10-24",
+    "summary": "However, computational and memory costs prevent direct inference on sequences containing thousands of frames. Our method applies to both chunk-based and streaming backends without additional training or fine-tuning. Long videos must therefore be processed as overlapping chunks. The codes are available at https://kkakkkka.github.io/HiP3R. Feed-forward models accurately estimate camera motion and 3D geometry from short video windows. This division produces independent local reconstructions with inconsistent coordinate frames and duplicate estimates of shared cameras. Achieving global consistency requires propagating constraints from adjacent overlaps and distant revisits across the sequence. This requirement naturally motivates pose graph optimization. However, the choice of graph level creates a trade-off.",
+    "key_concepts": [
+      "Pose Graph",
+      "Estimates Shared",
+      "Scaling Globally",
+      "Sequence Requirement",
+      "Sequences Containing",
+      "Shared Cameras Achieving"
+    ],
+    "insights": {
+      "problem": "However, computational and memory costs prevent direct inference on sequences containing thousands of frames.",
+      "approach": "Our method applies to both chunk-based and streaming backends without additional training or fine-tuning.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Pose Graph, Estimates Shared.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Achieving global consistency requires propagating constraints from adjacent overlaps and distant revisits across the sequence."
+    },
+    "primary_topic": "Computer Vision"
+  },
+  {
+    "arxiv_id": "2610.31572",
+    "raw_id": "http://arxiv.org/abs/2610.31572v1",
+    "title": "On the Token Collapse Phenomenon in Textual Graph Soft Prompting",
+    "authors": [
+      "Andrea Giuseppe Di Francesco",
+      "Rishabh Jain",
+      "Franco Maria Nardini",
+      "Nicola Tonellotto",
+      "Pietro Liò",
+      "Fabrizio Silvestri"
+    ],
+    "published_date": "2026-10-22T17:13:03Z",
+    "updated_date": "2026-10-22T17:13:03Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "abstract": "Recent methods for injecting graph structure into LLM prompts include graph soft prompting, in which a graph neural network (GNN) learns graph-specific tokens that capture relational information among entities in textual prompts. G-Retriever combines graph soft prompts with a verbalized description of the same graph to strengthen the textual prompt signal. We conduct an in-depth analysis of G-Retriever and uncover a pathological behavior we term token collapse. Across three benchmarks, three graph encoders, two LLM families, and both frozen and LoRA-adapted models, G-Retriever's graph tokens become almost indistinguishable across inputs. We provide evidence that the same failure is inherited by subsequent methods, even with multi-token pooling. Under the standard setup, swapping a token with the dataset mean, a token from another example, or one derived from a corrupted graph produces no resolved answer-level effect in accuracy. Moreover, a learned constant prompt that never accesses the graph matches or surpasses G-Retriever on all three benchmarks. These findings indicate that, rather than conveying graph content as intended, the collapsed token functions primarily as a generic soft prompt. We also examine conditions linked to this collapse and propose a two-stage procedure that yields non-collapsed tokens while maintaining competitive performance in most cases. However, token variability alone does not prove that the model uses graph information: via interventions and decoding probes, we show that depending on the configuration, a token can reflect the question, an answer prior, or graph-derived content that the LLM may or may not use. Overall, our results offer a practical approach to evaluating graph-token alignment rather than inferring it from task accuracy alone. Code to reproduce our experiments is available at https://github.com/difra100/Token_Collapse_KGQA.",
+    "url": "https://arxiv.org/abs/2610.31572v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31572v1",
+    "relevance_score": 0.634,
+    "processed_date": "2026-10-24",
+    "summary": "However, token variability alone does not prove that the model uses graph information: via interventions and decoding probes, we show that depending on the configuration, a token can reflect the question, an answer prior, or graph-derived content that the LLM may or may not use. G-Retriever combines graph soft prompts with a verbalized description of the same graph to strengthen the textual prompt signal. Moreover, a learned constant prompt that never accesses the graph matches or surpasses G-Retriever on all three benchmarks. Code to reproduce our experiments is available at https://github.com/difra100/Token_Collapse_KGQA. Recent methods for injecting graph structure into LLM prompts include graph soft prompting, in which a graph neural network (GNN) learns graph-specific tokens that capture relational information among entities in textual prompts.",
+    "key_concepts": [
+      "Graph Neural Network",
+      "Graph Soft",
+      "Token Collapse",
+      "Strengthen Textual",
+      "Structure LLM",
+      "Subsequent Methods"
+    ],
+    "insights": {
+      "problem": "However, token variability alone does not prove that the model uses graph information: via interventions and decoding probes, we show that depending on the configuration, a token can reflect the question, an answer prior, or graph-derived content that the LLM may or may not use.",
+      "approach": "G-Retriever combines graph soft prompts with a verbalized description of the same graph to strengthen the textual prompt signal.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Graph Neural Network, Graph Soft.",
+      "results": "Moreover, a learned constant prompt that never accesses the graph matches or surpasses G-Retriever on all three benchmarks.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Natural Language Processing"
   }
 ]
