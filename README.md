@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[24 October 2026 Report](reports/2026/10/24/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[25 October 2026 Report](reports/2026/10/25/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/24/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/25/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/24/infographic.png)](reports/2026/10/24/infographic.png)
+[![Daily Infographic](reports/2026/10/25/infographic.png)](reports/2026/10/25/infographic.png)
 
 ---
 
@@ -25,10 +25,10 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `5` |
+| **Artificial Intelligence (AI)** | `6` |
 | **Machine Learning (ML)** | `6` |
-| **Robotics** | `1` |
-| **IoT & Edge AI** | `0` |
+| **Robotics** | `2` |
+| **IoT & Edge AI** | `1` |
 
 ---
 
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **On the Token Collapse Phenomenon in Textual Graph Soft Prompting** | `Natural Language Processing` | `0.63` | [arXiv](https://arxiv.org/abs/2610.31572v1) |
-| 2 | **HiP3R: Hierarchical Pose Graphs for Long-Horizon 3D Reconstruction** | `Computer Vision` | `0.64` | [arXiv](https://arxiv.org/abs/2610.31635v1) |
-| 3 | **OmniRay: Camera-Agnostic Monocular 3D Reconstruction with Composite Ray ...** | `Computer Vision` | `0.64` | [arXiv](https://arxiv.org/abs/2610.31645v1) |
-| 4 | **Cost-Aware Abstention for LLM-Based IT Ticket Classification** | `Natural Language Processing` | `0.64` | [arXiv](https://arxiv.org/abs/2610.31657v1) |
-| 5 | **CellTrack-Bench: Microscopic Cell Tracking Benchmark for Vision-Language...** | `Artificial Intelligence` | `0.64` | [arXiv](https://arxiv.org/abs/2610.31566v1) |
+| 1 | **Causal Chain of Thought: Mitigating Attention Leakage via Context Isolation** | `Artificial Intelligence` | `0.56` | [arXiv](https://arxiv.org/abs/2610.31639v1) |
+| 2 | **A Fix for Softmax and Cross-Entropy** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2610.31642v1) |
+| 3 | **Direct Pass@k Optimization for Thought Pruning: Balancing Quality and Di...** | `Artificial Intelligence` | `0.56` | [arXiv](https://arxiv.org/abs/2610.31667v1) |
+| 4 | **EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents unde...** | `Natural Language Processing` | `0.58` | [arXiv](https://arxiv.org/abs/2610.31650v1) |
+| 5 | **BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing** | `IoT & Edge AI` | `0.58` | [arXiv](https://arxiv.org/abs/2610.31633v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `148`
-- **Total Operational Runs**: `27 days`
+- **Total Papers Analyzed**: `158`
+- **Total Operational Runs**: `28 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 

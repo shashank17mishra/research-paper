@@ -6367,5 +6367,414 @@
       "limitations": "Not specified in the available abstract."
     },
     "primary_topic": "Natural Language Processing"
+  },
+  {
+    "arxiv_id": "2610.31613",
+    "raw_id": "http://arxiv.org/abs/2610.31613v1",
+    "title": "Progress Probes P^2: Lightweight Runtime Monitoring for Vision-Language-Action Models",
+    "authors": [
+      "Atiksh Bhardwaj",
+      "Edward W. Duan",
+      "Junwon Seo",
+      "Prithwish Dan",
+      "Wei-Chiu Ma",
+      "Andrea Bajscy",
+      "Preston Culbertson"
+    ],
+    "published_date": "2026-10-22T17:40:19Z",
+    "updated_date": "2026-10-22T17:40:19Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "abstract": "Vision-Language-Action (VLA) models can perform diverse manipulation tasks directly from visual observations and natural language instructions, but they remain prone to mistakes and unpredictable failures. Deploying these policies without continuous human supervision will require robust runtime monitors that detect when the policy has gone off-course. Existing monitors use external foundation models, such as vision-language models (VLMs) to supervise the policy, introducing significant complexity and computational cost for monitoring at runtime. In this work, we investigate an alternate approach: \\textit{can a VLA's own internal activations provide the information needed to monitor its execution?} Our method trains linear probes on policy activations from demonstrations to estimate progress, then flags executions that deviate from expected progress. In experiments with the open-source VLA π_{0.5} and across simulated and real-world manipulation tasks, this approach is competitive with or outperforms VLM-based monitors in task failure detection, as well as methods which require failure data for training. These findings suggest that simple probes of VLA internals can be used to develop reliable runtime monitors, opening a path toward building policies that can act reliably and monitor their execution without external foundation models.",
+    "url": "https://arxiv.org/abs/2610.31613v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31613v1",
+    "relevance_score": 0.618,
+    "processed_date": "2026-10-25",
+    "summary": "Addressing critical demands in Robotics, this research investigates vision-language-action (vla) models can perform diverse manipulation tasks directly from visual observations and natural language instructions, but they remain prone to mistakes and unpredictable failures. In this work, we investigate an alternate approach: \\textit{can a VLA's own internal activations provide the information needed to monitor its execution?} Our method trains linear probes on policy activations from demonstrations to estimate progress, then flags executions that deviate from expected progress. In experiments with the open-source VLA π_{0.5} and across simulated and real-world manipulation tasks, this approach is competitive with or outperforms VLM-based monitors in task failure detection, as well as methods which require failure data for training. These findings suggest that simple probes of VLA internals can be used to develop reliable runtime monitors, opening a path toward building policies that can act reliably and monitor their execution without external foundation models.",
+    "key_concepts": [
+      "Manipulation",
+      "Act Reliably",
+      "Activations Demonstrations",
+      "Activations Provide",
+      "Building Policies",
+      "Complexity Computational"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+      "approach": "In this work, we investigate an alternate approach: \\textit{can a VLA's own internal activations provide the information needed to monitor its execution?} Our method trains linear probes on policy activations from demonstrations to estimate progress, then flags executions that deviate from expected progress.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Act Reliably.",
+      "results": "In experiments with the open-source VLA π_{0.5} and across simulated and real-world manipulation tasks, this approach is competitive with or outperforms VLM-based monitors in task failure detection, as well as methods which require failure data for training.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Existing monitors use external foundation models, such as vision-language models (VLMs) to supervise the policy, introducing significant complexity and computational cost for monitoring at runtime."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2610.31563",
+    "raw_id": "http://arxiv.org/abs/2610.31563v1",
+    "title": "When to Follow the Teacher: Advantage-Based On-Policy Distillation",
+    "authors": [
+      "Mahdi Sabbaghi",
+      "George Pappas",
+      "Hamed Hassani",
+      "Adel Javanmard"
+    ],
+    "published_date": "2026-10-22T17:05:21Z",
+    "updated_date": "2026-10-22T17:05:21Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "stat.ML"
+    ],
+    "abstract": "Online Policy Distillation (OPD) often outperforms offline methods such as Supervised Fine-Tuning (SFT) by training on trajectories sampled directly from the student. However, standard OPD trains the student to follow the teacher at every state of the trajectory, assuming that teacher guidance is always beneficial. We instead distinguish between what the teacher prefers and what actually helps the current student succeed. We introduce Advantage-Based On-Policy Distillation (AOPD), which weights teacher actions by their counterfactual advantage under the student. Teacher actions that improve the student's expected outcome are reinforced, while those that do not are downweighted. Directly computing these advantages requires trying alternative teacher actions at each step and running new rollouts from each. Instead, we show that the AOPD objective can be estimated using only standard student rollouts and their terminal rewards. Our estimator uses teacher importance weights on the student-sampled actions to provide unbiased advantage-weighted supervision, without any additional rollouts or reward evaluations. This allows AOPD to focus teacher supervision on actions that help the current student while preserving the rollout efficiency of standard OPD. Experiments on math, coding, and Medqa show gains over distillation and RL baselines in both external-teacher and self-distillation settings.",
+    "url": "https://arxiv.org/abs/2610.31563v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31563v1",
+    "relevance_score": 0.615,
+    "processed_date": "2026-10-25",
+    "summary": "However, standard OPD trains the student to follow the teacher at every state of the trajectory, assuming that teacher guidance is always beneficial. We introduce Advantage-Based On-Policy Distillation (AOPD), which weights teacher actions by their counterfactual advantage under the student. Online Policy Distillation (OPD) often outperforms offline methods such as Supervised Fine-Tuning (SFT) by training on trajectories sampled directly from the student. Experiments on math, coding, and Medqa show gains over distillation and RL baselines in both external-teacher and self-distillation settings. We instead distinguish between what the teacher prefers and what actually helps the current student succeed. Teacher actions that improve the student's expected outcome are reinforced, while those that do not are downweighted.",
+    "key_concepts": [
+      "Advantage-based On-policy",
+      "Actions Counterfactual",
+      "Actions Help",
+      "Actions Improve",
+      "Actions Provide",
+      "Actions Step"
+    ],
+    "insights": {
+      "problem": "However, standard OPD trains the student to follow the teacher at every state of the trajectory, assuming that teacher guidance is always beneficial.",
+      "approach": "We introduce Advantage-Based On-Policy Distillation (AOPD), which weights teacher actions by their counterfactual advantage under the student.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Advantage-based On-policy, Actions Counterfactual.",
+      "results": "Online Policy Distillation (OPD) often outperforms offline methods such as Supervised Fine-Tuning (SFT) by training on trajectories sampled directly from the student.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2610.31625",
+    "raw_id": "http://arxiv.org/abs/2610.31625v1",
+    "title": "Extending Harmonic Function Methods via Root Locus for Coordinated Path Generation",
+    "authors": [
+      "Matteo Frascarelli",
+      "Lucia Pallottino",
+      "Alberto Landi"
+    ],
+    "published_date": "2026-10-22T17:45:31Z",
+    "updated_date": "2026-10-22T17:45:31Z",
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "abstract": "We consider the offline generation of coordinated paths for N interchangeable robots and N goals in planar environments with polygonal obstacles. After a conformal map to a circular domain, starts and goals become the poles and zeros of a rational function R, and the paths are the branches of its Generalized Root Locus (GRL), i.e. the streamlines of the logarithmic potential -log R. We show that, for every phase outside a finite set of critical phases and a set of boundary phases, the induced gradient motion drives each robot to a distinct goal along pairwise disjoint paths that never reach the obstacles; the robot-goal assignment is produced by the construction, and with the gain used as a clock all robots move as the closed-loop roots of the GRL and arrive together at a prescribed time. Obstacles become streamlines through successive Milne-Thomson reflections, and for a finite number of reflections a finite test certifies safety for the potential that is actually computed. Reciprocal root-locus planning is recovered as a special case. The method is illustrated on two polygonal workspaces, 100 random instances compared with independent harmonic planning and artificial potentials, and a scene with ten robots and ten obstacles.",
+    "url": "https://arxiv.org/abs/2610.31625v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31625v1",
+    "relevance_score": 0.609,
+    "processed_date": "2026-10-25",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates we consider the offline generation of coordinated paths for n interchangeable robots and n goals in planar environments with polygonal obstacles. After a conformal map to a circular domain, starts and goals become the poles and zeros of a rational function R, and the paths are the branches of its Generalized Root Locus (GRL), i.e. the streamlines of the logarithmic potential -log R. We show that, for every phase outside a finite set of critical phases and a set of boundary phases, the induced gradient motion drives each robot to a distinct goal along pairwise disjoint paths that never reach the obstacles; the robot-goal assignment is produced by the construction, and with the gain used as a clock all robots move as the closed-loop roots of the GRL and arrive together at a prescribed time. The method is illustrated on two polygonal workspaces, 100 random instances compared with independent harmonic planning and artificial potentials, and a scene with ten robots and ten obstacles.",
+    "key_concepts": [
+      "Actually Computed",
+      "Arrive Prescribed",
+      "Artificial Potentials",
+      "Assignment Produced",
+      "Boundary Phases",
+      "Branches Generalized"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "After a conformal map to a circular domain, starts and goals become the poles and zeros of a rational function R, and the paths are the branches of its Generalized Root Locus (GRL), i.e. the streamlines of the logarithmic potential -log R.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Actually Computed, Arrive Prescribed.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.31651",
+    "raw_id": "http://arxiv.org/abs/2610.31651v1",
+    "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
+    "authors": [
+      "Ava Pun",
+      "Kevin Dai",
+      "Sally Chen",
+      "Maxwell Jones",
+      "Ruixuan Liu",
+      "Kangle Deng",
+      "Changliu Liu",
+      "Maneesh Agrawala",
+      "Deva Ramanan",
+      "Jun-Yan Zhu"
+    ],
+    "published_date": "2026-10-22T17:57:20Z",
+    "updated_date": "2026-10-22T17:57:20Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "Frontier coding agents are becoming increasingly adept at 3D modeling. Yet, they still face challenges when building objects meant to be assembled in the physical world, often creating invalid assemblies with floating, colliding, or disconnected parts. We argue that providing agents with tools for assembling builds and verifying their physical feasibility is sufficient for them to produce physically valid assemblies that still adhere to input prompts. Focusing on the domain of LEGO brick builds, we present BrickWright, a framework for generating physically feasible brick builds from text or image prompts using pre-trained agents, where a build is physically feasible if it uses only real parts, has no colliding or floating parts, and forms a connected structure if possible. BrickWright guides agents to create builds by writing code with BrickLayer, a Python toolkit with two main components: an ergonomic brick assembly API that halves inference cost compared to working in raw LDraw, and a validator that provides feedback on physical feasibility. Whereas baseline agents achieve physical validity rates ranging from only 9% (GPT-6 Luna) to 69% (GPT-6 Astra), BrickWright-guided agents achieve 100% validity on a sample of 512 prompts, while improving prompt adherence for lightweight agents and maintaining it for stronger agents. Additionally, they outperform specialized models on the text-to-brick task. Code is available on our project page: https://avalovelace1.github.io/brickwright/",
+    "url": "https://arxiv.org/abs/2610.31651v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31651v1",
+    "relevance_score": 0.584,
+    "processed_date": "2026-10-25",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates frontier coding agents are becoming increasingly adept at 3d modeling. Focusing on the domain of LEGO brick builds, we present BrickWright, a framework for generating physically feasible brick builds from text or image prompts using pre-trained agents, where a build is physically feasible if it uses only real parts, has no colliding or floating parts, and forms a connected structure if possible. We argue that providing agents with tools for assembling builds and verifying their physical feasibility is sufficient for them to produce physically valid assemblies that still adhere to input prompts. Code is available on our project page: https://avalovelace1.github.io/brickwright/",
+    "key_concepts": [
+      "Brick Builds",
+      "Physically Feasible",
+      "Physical Feasibility",
+      "Structure Possible Brickwright",
+      "Sufficient Produce",
+      "Toolkit Main"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "Focusing on the domain of LEGO brick builds, we present BrickWright, a framework for generating physically feasible brick builds from text or image prompts using pre-trained agents, where a build is physically feasible if it uses only real parts, has no colliding or floating parts, and forms a connected structure if possible.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Brick Builds, Physically Feasible.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.31640",
+    "raw_id": "http://arxiv.org/abs/2610.31640v1",
+    "title": "WorldForge V2: Eliciting Camera-Trajectory Alignment in Video Diffusion Models",
+    "authors": [
+      "Chenxi Song",
+      "Yanming Yang",
+      "Tong Zhao",
+      "Ruibo Li",
+      "Joey Tianyi Zhou",
+      "Chi Zhang"
+    ],
+    "published_date": "2026-10-22T17:53:03Z",
+    "updated_date": "2026-10-22T17:53:03Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "Video diffusion models have learned rich 3D/4D priors, making them promising for scene generation and video re-rendering. However, their use in spatial tasks is limited by imprecise camera control, spatial and temporal inconsistencies, and entangled camera motion with scene dynamics. Existing approaches, such as task-specific fine-tuning and post-process warping, often introduce visual artifacts, generalize poorly, or incur high computational costs. We propose WorldForge V2 to achieve accurate camera control while preserving the generative capabilities of pretrained video models. We first develop a training-free guidance framework using warped references to iteratively refine generation along a target camera path. Optical-flow analysis identifies motion-related latent channels for selective guidance, helping separate motion control from appearance. A dual-path strategy further compares guided and unguided predictions to correct artifacts from imperfect references. Together, these components guide viewpoint changes while preserving scene appearance and object motion. To reduce refinement costs, v-cache approximates the correction using the preceding denoising prediction, avoiding an additional model evaluation. We further extend motion localization from latent channels to network blocks and introduce Trajectory LoRA, which concentrates adaptation on blocks most responsive to trajectory guidance. A two-stage training strategy teaches these adapters to denoise the states encountered during guided generation, using limited supervision effectively. This enables reliable camera control with very little training data, with a single training scene already supporting generalization to unseen scenes. Quantitative and qualitative evaluations across multiple datasets show that our method achieves state-of-the-art generation quality and trajectory accuracy in camera-controlled video generation.",
+    "url": "https://arxiv.org/abs/2610.31640v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31640v1",
+    "relevance_score": 0.584,
+    "processed_date": "2026-10-25",
+    "summary": "However, their use in spatial tasks is limited by imprecise camera control, spatial and temporal inconsistencies, and entangled camera motion with scene dynamics. We propose WorldForge V2 to achieve accurate camera control while preserving the generative capabilities of pretrained video models. Quantitative and qualitative evaluations across multiple datasets show that our method achieves state-of-the-art generation quality and trajectory accuracy in camera-controlled video generation. Video diffusion models have learned rich 3D/4D priors, making them promising for scene generation and video re-rendering. Existing approaches, such as task-specific fine-tuning and post-process warping, often introduce visual artifacts, generalize poorly, or incur high computational costs.",
+    "key_concepts": [
+      "Camera Control",
+      "Latent Channels",
+      "Training-free Guidance",
+      "Trajectory Accuracy",
+      "Trajectory Guidance",
+      "Trajectory Lora Concentrates"
+    ],
+    "insights": {
+      "problem": "However, their use in spatial tasks is limited by imprecise camera control, spatial and temporal inconsistencies, and entangled camera motion with scene dynamics.",
+      "approach": "We propose WorldForge V2 to achieve accurate camera control while preserving the generative capabilities of pretrained video models.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Camera Control, Latent Channels.",
+      "results": "Quantitative and qualitative evaluations across multiple datasets show that our method achieves state-of-the-art generation quality and trajectory accuracy in camera-controlled video generation.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2610.31633",
+    "raw_id": "http://arxiv.org/abs/2610.31633v1",
+    "title": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing",
+    "authors": [
+      "Hayden Prairie",
+      "Jacob M. Ryan",
+      "Taylor Berg-Kirkpatrick",
+      "Daniel Y. Fu"
+    ],
+    "published_date": "2026-10-22T17:49:44Z",
+    "updated_date": "2026-10-22T17:49:44Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "abstract": "Looped architectures scale quality while keeping parameter count fixed by repeatedly passing activations through the same block of layers. During inference, each recurrence generates independent KV-caches, causing memory to grow linearly. To address this challenge, prior work has proposed KV-sharing (i.e., sharing KV-caches across depth), finding that, in some cases, the KV-cache of the final recurrence can be shared with the earlier recurrences without quality loss, a property we denote as KV-shareability. However, the mechanisms underlying KV-shareability remain poorly understood, with even identically trained looped architectures not consistently exhibiting it. In this paper, we study how KV-shareability can be enabled in looped models. We propose a two-stage method: in the first stage, we use stochastic depth during pretraining, which induces contractive residual dynamics that drive representations toward a common limit across recurrences. In the second stage, we propose BeNice!, a post-training method that broadcasts the final recurrence's KV-cache into the first recurrence, training it to produce compatible residuals while preserving the original model's quality. As a result, BeNice! enables KV-shareability while matching standard finetuning's unshared validation perplexity. Using BeNice!, we show that KV-sharing is complementary to alternative KV-compression methods, composing with memory-efficient sequence mixers (e.g., multi-latent attention, Kimi delta attention) and low-precision KV-cache quantization (e.g., fp8, mxfp8, nvfp4). Finally, in simulated low-memory, long-context inference, KV-sharing improves cache hit rates by up to 31.4%, increases throughput by up to 23.6%, and reduces p90 time-to-first-token by up to 83.6%.",
+    "url": "https://arxiv.org/abs/2610.31633v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31633v1",
+    "relevance_score": 0.578,
+    "processed_date": "2026-10-25",
+    "summary": "To address this challenge, prior work has proposed KV-sharing (i.e., sharing KV-caches across depth), finding that, in some cases, the KV-cache of the final recurrence can be shared with the earlier recurrences without quality loss, a property we denote as KV-shareability. We propose a two-stage method: in the first stage, we use stochastic depth during pretraining, which induces contractive residual dynamics that drive representations toward a common limit across recurrences. Finally, in simulated low-memory, long-context inference, KV-sharing improves cache hit rates by up to 31.4%, increases throughput by up to 23.6%, and reduces p90 time-to-first-token by up to 83.6%. Looped architectures scale quality while keeping parameter count fixed by repeatedly passing activations through the same block of layers.",
+    "key_concepts": [
+      "Quantization",
+      "Final Recurrence",
+      "Looped Architectures",
+      "Result Benice Enables",
+      "Sequence Mixers",
+      "Shared Earlier Recurrences"
+    ],
+    "insights": {
+      "problem": "To address this challenge, prior work has proposed KV-sharing (i.e., sharing KV-caches across depth), finding that, in some cases, the KV-cache of the final recurrence can be shared with the earlier recurrences without quality loss, a property we denote as KV-shareability.",
+      "approach": "We propose a two-stage method: in the first stage, we use stochastic depth during pretraining, which induces contractive residual dynamics that drive representations toward a common limit across recurrences.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Quantization, Final Recurrence.",
+      "results": "Finally, in simulated low-memory, long-context inference, KV-sharing improves cache hit rates by up to 31.4%, increases throughput by up to 23.6%, and reduces p90 time-to-first-token by up to 83.6%.",
+      "applications": "Low-power edge AI devices, embedded IoT sensor networks, and distributed on-device inference.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "IoT & Edge AI"
+  },
+  {
+    "arxiv_id": "2610.31650",
+    "raw_id": "http://arxiv.org/abs/2610.31650v1",
+    "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
+    "authors": [
+      "Qijin Zhang",
+      "Hanzhen Wang",
+      "Yuehan Zhao",
+      "Haoyu Dai",
+      "Yao Shu",
+      "Zhongxiang Dai",
+      "Shuang Qiu"
+    ],
+    "published_date": "2026-10-22T17:57:04Z",
+    "updated_date": "2026-10-22T17:57:04Z",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "abstract": "Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We introduce \\bench{}, an executable benchmark for evaluating unsafe execution, safety boundaries, and evidence recovery in LLM agents under missing evidence. It contains 300 matched unsafe/safe task pairs across six domains. By systematically suppressing critical facts, the benchmark measures unsafe execution under critical evidence omission and determines the minimum observed failure cardinality, including failures with full evidence and cases with no observed failure after exhaustive testing. An independent audit tool tests whether agents seek missing facts and then withhold prohibited actions while completing permissible tasks. The benchmark reveals substantial variation across the ten models in omission robustness, evidence acquisition, and appropriate action. Resistance to missing evidence does not necessarily translate into useful recovery. Recovery access reduces unsafe execution for all ten models, but agents differ in whether they actively obtain the missing facts and use them to act appropriately in both worlds.",
+    "url": "https://arxiv.org/abs/2610.31650v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31650v1",
+    "relevance_score": 0.577,
+    "processed_date": "2026-10-25",
+    "summary": "Addressing critical demands in Natural Language Processing, this research investigates tool-using language model agents rely on environmental facts to decide whether an action is permitted. We introduce \\bench{}, an executable benchmark for evaluating unsafe execution, safety boundaries, and evidence recovery in LLM agents under missing evidence. Recovery access reduces unsafe execution for all ten models, but agents differ in whether they actively obtain the missing facts and use them to act appropriately in both worlds. Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true.",
+    "key_concepts": [
+      "Missing Evidence",
+      "Access Reduces",
+      "Acquisition Appropriate",
+      "Act Appropriately",
+      "Action Permitted",
+      "Action Resistance"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+      "approach": "We introduce \\bench{}, an executable benchmark for evaluating unsafe execution, safety boundaries, and evidence recovery in LLM agents under missing evidence.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Missing Evidence, Access Reduces.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Natural Language Processing"
+  },
+  {
+    "arxiv_id": "2610.31667",
+    "raw_id": "http://arxiv.org/abs/2610.31667v1",
+    "title": "Direct Pass@k Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+    "authors": [
+      "Mahdi Salmani",
+      "Adel Javanmard",
+      "Devansh Gupta",
+      "Meisam Razaviyayn"
+    ],
+    "published_date": "2026-10-22T17:59:48Z",
+    "updated_date": "2026-10-22T17:59:48Z",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate solutions to completion can be computationally demanding, so recent work prunes the candidate pool after generating only a short prefix, committing further computation only to the surviving candidates. Existing pruning strategies divide broadly into two categories: Quality-based methods assign a score to each partial solution and discard those predicted to ultimately lead to an incorrect final solution, while diversity-based methods select partial solutions that follow different reasoning trajectories and are therefore likely to cover different final solutions. The tension between these two objectives is an instance of exploration versus exploitation, yet little to no prior work on pruning exposes this trade-off directly, let alone optimizes it. In this paper, we introduce a pruning procedure that addresses this trade-off directly by optimizing pass@k over the selected solution pool. In particular, it chooses the pool to maximize the probability that at least one of its partial solutions, when continued to completion, yields a correct answer. Because this objective simultaneously rewards high-quality partial solutions and penalizes redundancy among them, quality and diversity are naturally balanced by the criterion itself rather than through separate ad-hoc design choices. On eight open-weight reasoning models, our method outperforms existing quality-based and diversity-based pruning strategies. The gains are particularly pronounced when the pruning procedure keeps a moderate number of partial solutions for continued generation, highlighting the value of directly balancing quality and diversity during pruning.",
+    "url": "https://arxiv.org/abs/2610.31667v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31667v1",
+    "relevance_score": 0.564,
+    "processed_date": "2026-10-25",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. In this paper, we introduce a pruning procedure that addresses this trade-off directly by optimizing pass@k over the selected solution pool. On eight open-weight reasoning models, our method outperforms existing quality-based and diversity-based pruning strategies. The gains are particularly pronounced when the pruning procedure keeps a moderate number of partial solutions for continued generation, highlighting the value of directly balancing quality and diversity during pruning.",
+    "key_concepts": [
+      "Pruning",
+      "Candidate Solutions",
+      "Partial Solutions",
+      "Quality Diversity",
+      "Solutions Continued",
+      "Solutions Tension Objectives"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "In this paper, we introduce a pruning procedure that addresses this trade-off directly by optimizing pass@k over the selected solution pool.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Pruning, Candidate Solutions.",
+      "results": "On eight open-weight reasoning models, our method outperforms existing quality-based and diversity-based pruning strategies.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "The tension between these two objectives is an instance of exploration versus exploitation, yet little to no prior work on pruning exposes this trade-off directly, let alone optimizes it."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.31642",
+    "raw_id": "http://arxiv.org/abs/2610.31642v1",
+    "title": "A Fix for Softmax and Cross-Entropy",
+    "authors": [
+      "Jonathan T. Barron",
+      "Dan Gnanapragasam",
+      "Michael Tschannen"
+    ],
+    "published_date": "2026-10-22T17:54:56Z",
+    "updated_date": "2026-10-22T17:54:56Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "abstract": "Standard implementations of softmax, log-softmax, and cross-entropy have two numerical bugs. The first bug, Softmax Collapse, rounds the target logit's gradient to zero if that one logit is much larger than the others, resulting in gradients that no longer sum to zero. The second bug, Softmax Cancellation, occurs when student logits are close to teacher logits, and produces non-zero gradients even when the student and teacher logits are equal. We present simple implementations of log-softmax, softmax, and cross-entropy that fix both bugs. Our fix eliminates the previously-observed \"Slingshot\" phenomenon, speeds up grokking with weight decay, prevents accuracy collapse without weight decay, stops student networks from drifting away from the teacher during distillation, and shows that after memorization, logit growth is bounded by an equilibrium between weight decay and Adam's ε hyperparameter.",
+    "url": "https://arxiv.org/abs/2610.31642v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31642v1",
+    "relevance_score": 0.564,
+    "processed_date": "2026-10-25",
+    "summary": "Addressing critical demands in Machine Learning, this research investigates standard implementations of softmax, log-softmax, and cross-entropy have two numerical bugs. We present simple implementations of log-softmax, softmax, and cross-entropy that fix both bugs. The second bug, Softmax Cancellation, occurs when student logits are close to teacher logits, and produces non-zero gradients even when the student and teacher logits are equal. Our fix eliminates the previously-observed \"Slingshot\" phenomenon, speeds up grokking with weight decay, prevents accuracy collapse without weight decay, stops student networks from drifting away from the teacher during distillation, and shows that after memorization, logit growth is bounded by an equilibrium between weight decay and Adam's ε hyperparameter.",
+    "key_concepts": [
+      "Accuracy Collapse",
+      "Adam Hyperparameter",
+      "Away Teacher",
+      "Bounded Equilibrium",
+      "Bug Softmax",
+      "Bugs Bug"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+      "approach": "We present simple implementations of log-softmax, softmax, and cross-entropy that fix both bugs.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Accuracy Collapse, Adam Hyperparameter.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2610.31639",
+    "raw_id": "http://arxiv.org/abs/2610.31639v1",
+    "title": "Causal Chain of Thought: Mitigating Attention Leakage via Context Isolation",
+    "authors": [
+      "Gabriele Dominici",
+      "Teague McMillan",
+      "Fazl Barez",
+      "Marc Langheinrich",
+      "Martin Gjoreski"
+    ],
+    "published_date": "2026-10-22T17:52:56Z",
+    "updated_date": "2026-10-22T17:52:56Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "abstract": "Chain-of-thought (CoT) prompting elicits step-by-step rationales that appear to explain model predictions, but there is no guarantee these steps causally drive the final answer. In standard autoregressive generation, dense attention allows each reasoning step to attend to the full context, enabling the model to derive answers through direct lookup while generating plausible-sounding but post-hoc justifications. We introduce CausalCoT, an inference framework that enforces causal transparency by decomposing problems into a directed acyclic graph of atomic sub-questions, evaluating each node in an isolated context containing only its direct causal parents. This Markovian structure removes attention pathways to non-parent content, making downstream predictions sensitive to local reasoning rather than global context leakage. Across a diverse suite of reasoning benchmarks, CausalCoT preserves competitive predictive performance while improving explanation faithfulness, increasing causal sensitivity of intermediate reasoning steps by an average of 12 and up to 21 percentage points over the strongest baseline. The structured dependency graph additionally enables test-time interventions in which local corrections propagate predictably through downstream reasoning.",
+    "url": "https://arxiv.org/abs/2610.31639v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.31639v1",
+    "relevance_score": 0.564,
+    "processed_date": "2026-10-25",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates chain-of-thought (cot) prompting elicits step-by-step rationales that appear to explain model predictions, but there is no guarantee these steps causally drive the final answer. We introduce CausalCoT, an inference framework that enforces causal transparency by decomposing problems into a directed acyclic graph of atomic sub-questions, evaluating each node in an isolated context containing only its direct causal parents. Across a diverse suite of reasoning benchmarks, CausalCoT preserves competitive predictive performance while improving explanation faithfulness, increasing causal sensitivity of intermediate reasoning steps by an average of 12 and up to 21 percentage points over the strongest baseline. The structured dependency graph additionally enables test-time interventions in which local corrections propagate predictably through downstream reasoning.",
+    "key_concepts": [
+      "Acyclic Graph",
+      "Additionally Enables",
+      "Answer Standard",
+      "Answers Direct",
+      "Appear Explain",
+      "Atomic Sub-questions"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "We introduce CausalCoT, an inference framework that enforces causal transparency by decomposing problems into a directed acyclic graph of atomic sub-questions, evaluating each node in an isolated context containing only its direct causal parents.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Acyclic Graph, Additionally Enables.",
+      "results": "Across a diverse suite of reasoning benchmarks, CausalCoT preserves competitive predictive performance while improving explanation faithfulness, increasing causal sensitivity of intermediate reasoning steps by an average of 12 and up to 21 percentage points over the strongest baseline.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
   }
 ]
