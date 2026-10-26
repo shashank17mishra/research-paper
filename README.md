@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[25 October 2026 Report](reports/2026/10/25/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[26 October 2026 Report](reports/2026/10/26/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/25/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/26/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/25/infographic.png)](reports/2026/10/25/infographic.png)
+[![Daily Infographic](reports/2026/10/26/infographic.png)](reports/2026/10/26/infographic.png)
 
 ---
 
@@ -26,9 +26,9 @@
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
 | **Artificial Intelligence (AI)** | `6` |
-| **Machine Learning (ML)** | `6` |
-| **Robotics** | `2` |
-| **IoT & Edge AI** | `1` |
+| **Machine Learning (ML)** | `4` |
+| **Robotics** | `6` |
+| **IoT & Edge AI** | `0` |
 
 ---
 
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Causal Chain of Thought: Mitigating Attention Leakage via Context Isolation** | `Artificial Intelligence` | `0.56` | [arXiv](https://arxiv.org/abs/2610.31639v1) |
-| 2 | **A Fix for Softmax and Cross-Entropy** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2610.31642v1) |
-| 3 | **Direct Pass@k Optimization for Thought Pruning: Balancing Quality and Di...** | `Artificial Intelligence` | `0.56` | [arXiv](https://arxiv.org/abs/2610.31667v1) |
-| 4 | **EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents unde...** | `Natural Language Processing` | `0.58` | [arXiv](https://arxiv.org/abs/2610.31650v1) |
-| 5 | **BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing** | `IoT & Edge AI` | `0.58` | [arXiv](https://arxiv.org/abs/2610.31633v1) |
+| 1 | **Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes L...** | `Machine Learning` | `0.65` | [arXiv](https://arxiv.org/abs/2610.32951v1) |
+| 2 | **Measure Before You Train: Typed Decision Models vs. a Classical Baseline...** | `Natural Language Processing` | `0.65` | [arXiv](https://arxiv.org/abs/2610.32955v1) |
+| 3 | **ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback** | `Robotics` | `0.66` | [arXiv](https://arxiv.org/abs/2610.32966v1) |
+| 4 | **Robotic Optical Coherence Tomography-Guided Geometric Modeling of Soft T...** | `Robotics` | `0.68` | [arXiv](https://arxiv.org/abs/2610.32961v1) |
+| 5 | **RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Le...** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2610.32971v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `158`
-- **Total Operational Runs**: `28 days`
+- **Total Papers Analyzed**: `168`
+- **Total Operational Runs**: `29 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 
