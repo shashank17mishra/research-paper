@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[26 October 2026 Report](reports/2026/10/26/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[27 October 2026 Report](reports/2026/10/27/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/26/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/27/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/26/infographic.png)](reports/2026/10/26/infographic.png)
+[![Daily Infographic](reports/2026/10/27/infographic.png)](reports/2026/10/27/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `6` |
-| **Machine Learning (ML)** | `4` |
-| **Robotics** | `6` |
+| **Artificial Intelligence (AI)** | `8` |
+| **Machine Learning (ML)** | `5` |
+| **Robotics** | `5` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Where Rounding Happens Matters: Rounding-Location Alignment Stabilizes L...** | `Machine Learning` | `0.65` | [arXiv](https://arxiv.org/abs/2610.32951v1) |
-| 2 | **Measure Before You Train: Typed Decision Models vs. a Classical Baseline...** | `Natural Language Processing` | `0.65` | [arXiv](https://arxiv.org/abs/2610.32955v1) |
-| 3 | **ViT-H: Generative Video-To-Humanoid Control with Motion Tracking Feedback** | `Robotics` | `0.66` | [arXiv](https://arxiv.org/abs/2610.32966v1) |
-| 4 | **Robotic Optical Coherence Tomography-Guided Geometric Modeling of Soft T...** | `Robotics` | `0.68` | [arXiv](https://arxiv.org/abs/2610.32961v1) |
-| 5 | **RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Le...** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2610.32971v1) |
+| 1 | **Reva: Real-Time Vulnerability Detection through Contextual Probing of La...** | `Artificial Intelligence` | `0.68` | [arXiv](https://arxiv.org/abs/2610.35829v1) |
+| 2 | **Profiling a Frontier Agent with EBench: From Direct Control to Harness w...** | `Robotics` | `0.69` | [arXiv](https://arxiv.org/abs/2610.35832v1) |
+| 3 | **Understanding Jev-Style System One Models: Does Structure Reduce Selecti...** | `Artificial Intelligence` | `0.69` | [arXiv](https://arxiv.org/abs/2610.35826v1) |
+| 4 | **Multi-Objective Reinforcement Learning Using Routed Ensembles and Trajec...** | `Machine Learning` | `0.71` | [arXiv](https://arxiv.org/abs/2610.35733v1) |
+| 5 | **Learning Force-Reactive Humanoid Loco-Manipulation** | `Robotics` | `0.71` | [arXiv](https://arxiv.org/abs/2610.35862v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `168`
-- **Total Operational Runs**: `29 days`
+- **Total Papers Analyzed**: `178`
+- **Total Operational Runs**: `30 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 
