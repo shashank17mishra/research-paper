@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[27 October 2026 Report](reports/2026/10/27/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[28 October 2026 Report](reports/2026/10/28/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/27/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/28/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/27/infographic.png)](reports/2026/10/27/infographic.png)
+[![Daily Infographic](reports/2026/10/28/infographic.png)](reports/2026/10/28/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `8` |
-| **Machine Learning (ML)** | `5` |
-| **Robotics** | `5` |
+| **Artificial Intelligence (AI)** | `2` |
+| **Machine Learning (ML)** | `6` |
+| **Robotics** | `6` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Reva: Real-Time Vulnerability Detection through Contextual Probing of La...** | `Artificial Intelligence` | `0.68` | [arXiv](https://arxiv.org/abs/2610.35829v1) |
-| 2 | **Profiling a Frontier Agent with EBench: From Direct Control to Harness w...** | `Robotics` | `0.69` | [arXiv](https://arxiv.org/abs/2610.35832v1) |
-| 3 | **Understanding Jev-Style System One Models: Does Structure Reduce Selecti...** | `Artificial Intelligence` | `0.69` | [arXiv](https://arxiv.org/abs/2610.35826v1) |
-| 4 | **Multi-Objective Reinforcement Learning Using Routed Ensembles and Trajec...** | `Machine Learning` | `0.71` | [arXiv](https://arxiv.org/abs/2610.35733v1) |
-| 5 | **Learning Force-Reactive Humanoid Loco-Manipulation** | `Robotics` | `0.71` | [arXiv](https://arxiv.org/abs/2610.35862v1) |
+| 1 | **Leveraging Distributed Sensing and Hyperdimensional Computing for Non-Li...** | `Robotics` | `0.70` | [arXiv](https://arxiv.org/abs/2610.37519v1) |
+| 2 | **EnvSched: Environment-Aware Scheduling for Rollout-Efficient Agent Reinf...** | `Machine Learning` | `0.71` | [arXiv](https://arxiv.org/abs/2610.37609v1) |
+| 3 | **Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Eg...** | `Robotics` | `0.72` | [arXiv](https://arxiv.org/abs/2610.37509v1) |
+| 4 | **Collective Dynamics of Self-Reinforcement: How Cross-Task Coupling Drive...** | `Machine Learning` | `0.72` | [arXiv](https://arxiv.org/abs/2610.37553v1) |
+| 5 | **When, Where, and What to Correct: Human-Guided Adaptive Residual Correct...** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2610.37547v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `178`
-- **Total Operational Runs**: `30 days`
+- **Total Papers Analyzed**: `188`
+- **Total Operational Runs**: `31 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 
