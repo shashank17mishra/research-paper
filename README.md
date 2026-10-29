@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[28 October 2026 Report](reports/2026/10/28/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[29 October 2026 Report](reports/2026/10/29/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/28/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/29/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/28/infographic.png)](reports/2026/10/28/infographic.png)
+[![Daily Infographic](reports/2026/10/29/infographic.png)](reports/2026/10/29/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `2` |
+| **Artificial Intelligence (AI)** | `5` |
 | **Machine Learning (ML)** | `6` |
-| **Robotics** | `6` |
+| **Robotics** | `5` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Leveraging Distributed Sensing and Hyperdimensional Computing for Non-Li...** | `Robotics` | `0.70` | [arXiv](https://arxiv.org/abs/2610.37519v1) |
-| 2 | **EnvSched: Environment-Aware Scheduling for Rollout-Efficient Agent Reinf...** | `Machine Learning` | `0.71` | [arXiv](https://arxiv.org/abs/2610.37609v1) |
-| 3 | **Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Eg...** | `Robotics` | `0.72` | [arXiv](https://arxiv.org/abs/2610.37509v1) |
-| 4 | **Collective Dynamics of Self-Reinforcement: How Cross-Task Coupling Drive...** | `Machine Learning` | `0.72` | [arXiv](https://arxiv.org/abs/2610.37553v1) |
-| 5 | **When, Where, and What to Correct: Human-Guided Adaptive Residual Correct...** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2610.37547v1) |
+| 1 | **World Dreamer v5-lite: A Multi-Robot World Action Model with One Dreamer** | `Robotics` | `0.63` | [arXiv](https://arxiv.org/abs/2610.37518v1) |
+| 2 | **Predict the Swing, Match the Speed: Robotic Pipe Stabbing With Learned S...** | `Machine Learning` | `0.64` | [arXiv](https://arxiv.org/abs/2610.37535v1) |
+| 3 | **The Structure Gap: When More Data Cannot Replace Structured Reasoning** | `Artificial Intelligence` | `0.64` | [arXiv](https://arxiv.org/abs/2610.37523v1) |
+| 4 | **Learning Visuomotor Quadrotor Flight Through Dynamic Narrow Gaps via Dif...** | `Machine Learning` | `0.64` | [arXiv](https://arxiv.org/abs/2610.37557v1) |
+| 5 | **VideoLVR: Latent Visual Reasoning over Grounded Video Evidence** | `Artificial Intelligence` | `0.64` | [arXiv](https://arxiv.org/abs/2610.37613v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `188`
-- **Total Operational Runs**: `31 days`
+- **Total Papers Analyzed**: `198`
+- **Total Operational Runs**: `32 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 
