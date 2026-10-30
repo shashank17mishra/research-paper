@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[29 October 2026 Report](reports/2026/10/29/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[30 October 2026 Report](reports/2026/10/30/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/29/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/30/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/29/infographic.png)](reports/2026/10/29/infographic.png)
+[![Daily Infographic](reports/2026/10/30/infographic.png)](reports/2026/10/30/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `5` |
-| **Machine Learning (ML)** | `6` |
-| **Robotics** | `5` |
+| **Artificial Intelligence (AI)** | `4` |
+| **Machine Learning (ML)** | `2` |
+| **Robotics** | `4` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **World Dreamer v5-lite: A Multi-Robot World Action Model with One Dreamer** | `Robotics` | `0.63` | [arXiv](https://arxiv.org/abs/2610.37518v1) |
-| 2 | **Predict the Swing, Match the Speed: Robotic Pipe Stabbing With Learned S...** | `Machine Learning` | `0.64` | [arXiv](https://arxiv.org/abs/2610.37535v1) |
-| 3 | **The Structure Gap: When More Data Cannot Replace Structured Reasoning** | `Artificial Intelligence` | `0.64` | [arXiv](https://arxiv.org/abs/2610.37523v1) |
-| 4 | **Learning Visuomotor Quadrotor Flight Through Dynamic Narrow Gaps via Dif...** | `Machine Learning` | `0.64` | [arXiv](https://arxiv.org/abs/2610.37557v1) |
-| 5 | **VideoLVR: Latent Visual Reasoning over Grounded Video Evidence** | `Artificial Intelligence` | `0.64` | [arXiv](https://arxiv.org/abs/2610.37613v1) |
+| 1 | **SymAnt: Grounding Long-Horizon Action Anticipation with Adaptable Symbol...** | `Artificial Intelligence` | `0.65` | [arXiv](https://arxiv.org/abs/2610.40632v1) |
+| 2 | **IndicIPR-QA: A Benchmark for Extractive Question Answering on Indian IPR...** | `Natural Language Processing` | `0.67` | [arXiv](https://arxiv.org/abs/2610.40518v1) |
+| 3 | **VeriCUA: Verification as Agentic Exploration for Computer-Using Agents** | `Artificial Intelligence` | `0.67` | [arXiv](https://arxiv.org/abs/2610.40578v1) |
+| 4 | **DAWN: Diffusion-based Alignment and unfastening Workflow Network** | `Robotics` | `0.69` | [arXiv](https://arxiv.org/abs/2610.40537v1) |
+| 5 | **Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generat...** | `Natural Language Processing` | `0.69` | [arXiv](https://arxiv.org/abs/2610.40647v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `198`
-- **Total Operational Runs**: `32 days`
+- **Total Papers Analyzed**: `208`
+- **Total Operational Runs**: `33 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 

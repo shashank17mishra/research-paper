@@ -8483,5 +8483,416 @@
       "limitations": "Not specified in the available abstract."
     },
     "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2610.40646",
+    "raw_id": "http://arxiv.org/abs/2610.40646v1",
+    "title": "SwapBot: Tool-Centric Robot Manipulation via Interchangeable End-Effectors and Tactile Sensing",
+    "authors": [
+      "Yunchu Zhang",
+      "Ray Song",
+      "Junhan Jiao",
+      "Liyiming Ke",
+      "Yuchen Yang",
+      "Ruihan Gao",
+      "Emma Romig",
+      "Siddhartha Srinivasa",
+      "Yiyue Luo"
+    ],
+    "published_date": "2026-10-29T17:59:20Z",
+    "updated_date": "2026-10-29T17:59:20Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "abstract": "Robot manipulation in everyday environments inherently involves substantial tool usage. Seemingly simple household tasks, such as cooking pan-fried tofu, require forceful cutting, delicate brushing, and precise placement using different tools under contact-rich interaction. Thus, the ability to autonomously swap and use task-appropriate tools is important for tool-centric manipulation. We introduce SwapBot, a modular, tool-centric end effector system featuring low-cost adapters that quickly convert common household tools into robot end effectors. Rather than pursuing a single universal gripper, SwapBot adopts a unified design principle that combines a fixed robot-side coupling interface with low-cost, tool-side adapters, enabling compatibility with diverse tools, including articulated ones, and multiple robot platforms. Each adapter integrates compact tactile sensors, supports fast autonomous swapping, and interfaces with an intuitive teleoperation system for efficient demonstration collection. User studies show that, during teleoperation, SwapBot reduces task completion time and operator workload. Using collected demonstrations on the robot, we train imitation learning policies to successfully perform tool-centric tasks like cooking tofu, stirring salad, flipping meat. Our ablation study shows that using tactile-augmented demonstrations improves policy performance across contact-rich skills, increasing success rates by 15 to 25 percentage points over RGB-only policies. These results highlight modular, tactile-equipped tools as a practical and extensible pathway toward robust and capable robot manipulation. Project website https://personalrobotics.github.io/SwapBot.",
+    "url": "https://arxiv.org/abs/2610.40646v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40646v1",
+    "relevance_score": 0.738,
+    "processed_date": "2026-10-30",
+    "summary": "Addressing critical demands in Robotics, this research investigates robot manipulation in everyday environments inherently involves substantial tool usage. We introduce SwapBot, a modular, tool-centric end effector system featuring low-cost adapters that quickly convert common household tools into robot end effectors. Thus, the ability to autonomously swap and use task-appropriate tools is important for tool-centric manipulation. Project website https://personalrobotics.github.io/SwapBot. Robot manipulation in everyday environments inherently involves substantial tool usage. Seemingly simple household tasks, such as cooking pan-fried tofu, require forceful cutting, delicate brushing, and precise placement using different tools under contact-rich interaction. Rather than pursuing a single universal gripper, SwapBot adopts a unified design principle that combines a fixed robot-side coupling interface with low-cost, tool-side adapters, enabling compatibility with diverse tools, including articulated ones, and multiple robot platforms.",
+    "key_concepts": [
+      "Imitation Learning",
+      "Manipulation",
+      "Adapters Quickly",
+      "Adopts Unified",
+      "Articulated Ones",
+      "Autonomous Swapping"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+      "approach": "We introduce SwapBot, a modular, tool-centric end effector system featuring low-cost adapters that quickly convert common household tools into robot end effectors.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Imitation Learning, Manipulation.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2610.40588",
+    "raw_id": "http://arxiv.org/abs/2610.40588v1",
+    "title": "Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In",
+    "authors": [
+      "Leonidas Raghav"
+    ],
+    "published_date": "2026-10-29T17:47:40Z",
+    "updated_date": "2026-10-29T17:47:40Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "When AI agents share channels and credentials, one agent can press another to break its operator's rule, a first step towards collusion. Output filters check only what an agent has already written. Can an overseer tell beforehand that an agent is about to give in? We show that a linear probe on the agent's activations can, in a controlled multi-agent setting. Across six scenarios, a peer presses a target for up to 20 rounds to reveal a secret, such as a deploy token; the target often refuses, then gives in. Read at each model call before its output is written, the probe picks out the one that leaks. On held-out Qwen3-32B episodes, at a threshold set to flag 5% of benign calls, it catches 82% of leaking calls. At a similar flag rate, a zero-shot decision-model monitor catches 26%. On gpt-oss-20b, a probe on its reasoning reaches AUROC 0.91. A bag-of-words classifier trained on the same calls comes close, so most of the gain comes from training on labels, not activations. The probe also flags permitted disclosures: it reads the coming disclosure more than the violation. The warning is short-range, and halting on any alarm would stop most benign episodes, which a second text check does not fix. A warning raised before generation could let an overseer stop an agent that is about to give in, ahead of others acting on its messages or recruitment spreading through a swarm.",
+    "url": "https://arxiv.org/abs/2610.40588v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40588v1",
+    "relevance_score": 0.724,
+    "processed_date": "2026-10-30",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates when ai agents share channels and credentials, one agent can press another to break its operator's rule, a first step towards collusion. Output filters check only what an agent has already written. Across six scenarios, a peer presses a target for up to 20 rounds to reveal a secret, such as a deploy token; the target often refuses, then gives in. A warning raised before generation could let an overseer stop an agent that is about to give in, ahead of others acting on its messages or recruitment spreading through a swarm.",
+    "key_concepts": [
+      "Zero-shot",
+      "Acting Messages",
+      "Activations Controlled",
+      "Activations Probe",
+      "Agent Activations",
+      "Agent Ahead"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "Output filters check only what an agent has already written.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Acting Messages.",
+      "results": "Across six scenarios, a peer presses a target for up to 20 rounds to reveal a secret, such as a deploy token; the target often refuses, then gives in.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.40564",
+    "raw_id": "http://arxiv.org/abs/2610.40564v1",
+    "title": "Training Foundation Models with a Single Algorithm",
+    "authors": [
+      "Yuda Song",
+      "Alvin Zhang",
+      "Fahim Tajwar",
+      "Daman Arora",
+      "Jeff Schneider",
+      "Daniel Khashabi",
+      "Ruslan Salakhutdinov",
+      "J. Andrew Bagnell",
+      "Aarti Singh",
+      "Andrea Zanette"
+    ],
+    "published_date": "2026-10-29T17:42:05Z",
+    "updated_date": "2026-10-29T17:42:05Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "abstract": "Foundation models are typically trained in stages: pretraining, midtraining, supervised fine-tuning (SFT), and reinforcement learning (RL), with changes in both data and learning algorithms. We show that this algorithmic separation is not fundamental. By deriving suitable RL objectives as maximum-likelihood fitting to model-generated target distributions, we place all of these stages under a single likelihood-based training algorithm, unified training. This perspective turns the foundation-model training lifecycle into a problem of choosing which data to train on, in what proportions, and when, with conventional staged training as a special case. We instantiate this framework in a unified training system that mixes static data and RL generations within a single trainer. Across controlled and real-world experiments, unified training improves the accuracy-compute tradeoff and task coverage while preserving broader capabilities, and provides a stronger starting point for continual learning. This work lays the groundwork for a unified science of foundation-model training, connecting mathematical principles, training infrastructure, and the development of model capabilities.",
+    "url": "https://arxiv.org/abs/2610.40564v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40564v1",
+    "relevance_score": 0.714,
+    "processed_date": "2026-10-30",
+    "summary": "This perspective turns the foundation-model training lifecycle into a problem of choosing which data to train on, in what proportions, and when, with conventional staged training as a special case. We show that this algorithmic separation is not fundamental. By deriving suitable RL objectives as maximum-likelihood fitting to model-generated target distributions, we place all of these stages under a single likelihood-based training algorithm, unified training. This work lays the groundwork for a unified science of foundation-model training, connecting mathematical principles, training infrastructure, and the development of model capabilities. Foundation models are typically trained in stages: pretraining, midtraining, supervised fine-tuning (SFT), and reinforcement learning (RL), with changes in both data and learning algorithms.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Accuracy-compute Tradeoff",
+      "Algorithm Unified",
+      "Algorithmic Separation",
+      "Algorithms Algorithmic",
+      "Broader Capabilities"
+    ],
+    "insights": {
+      "problem": "This perspective turns the foundation-model training lifecycle into a problem of choosing which data to train on, in what proportions, and when, with conventional staged training as a special case.",
+      "approach": "We show that this algorithmic separation is not fundamental.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Accuracy-compute Tradeoff.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "Across controlled and real-world experiments, unified training improves the accuracy-compute tradeoff and task coverage while preserving broader capabilities, and provides a stronger starting point for continual learning."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2610.40587",
+    "raw_id": "http://arxiv.org/abs/2610.40587v1",
+    "title": "Beyond Ground Truth: A Heuristic Unsupervised Quality Assurance Engine for Diagnosing Calibrational Blindness in Dental Segmentation",
+    "authors": [
+      "Fatematuj Johura Mim"
+    ],
+    "published_date": "2026-10-29T17:47:25Z",
+    "updated_date": "2026-10-29T17:47:25Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "In real-world clinical settings, dental X-ray segmentation using deep learning methods suffers from reliability issues. Even when the segmentation quality is bad, deep learning models show high confidence in their predictions (calibrational blindness). Moreover, in real use, doctors do not have ground-truth masks to check their accuracy. To address this problem, we introduce a simple quality-checking engine called HUS-QA with three stages. We train it on the PRAD (Periapical Dental X-ray) dataset to build our SimCLR self-supervised ResNet-18 U-Net model, which generates the segmentation mask and then evaluates its quality. Our HUS-QA checks the segmentation mask quality without a ground-truth mask. Prediction confidence, edge sharpness, shape connectivity, and area-size penalty are the simple indicators considered in this research. Results show that standard confidence methods fail (r = -0.1394, p = 1.7864e-3, ROC AUC = 0.4275). By contrast, our HUS-QA shows a positive correlation with actual Dice scores (r = 0.4647, p = 3.7510e-28) and achieves a strong ROC-AUC of 0.8405. Therefore, HUS-QA serves as a practical tool for clinical quality control.",
+    "url": "https://arxiv.org/abs/2610.40587v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40587v1",
+    "relevance_score": 0.697,
+    "processed_date": "2026-10-30",
+    "summary": "To address this problem, we introduce a simple quality-checking engine called HUS-QA with three stages. To address this problem, we introduce a simple quality-checking engine called HUS-QA with three stages. Results show that standard confidence methods fail (r = -0.1394, p = 1.7864e-3, ROC AUC = 0.4275). Therefore, HUS-QA serves as a practical tool for clinical quality control. In real-world clinical settings, dental X-ray segmentation using deep learning methods suffers from reliability issues. Even when the segmentation quality is bad, deep learning models show high confidence in their predictions (calibrational blindness). Moreover, in real use, doctors do not have ground-truth masks to check their accuracy.",
+    "key_concepts": [
+      "Calibrational Blindness",
+      "Accuracy Address",
+      "Achieves Strong",
+      "Actual Dice",
+      "Address Problem",
+      "Area-size Penalty"
+    ],
+    "insights": {
+      "problem": "To address this problem, we introduce a simple quality-checking engine called HUS-QA with three stages.",
+      "approach": "To address this problem, we introduce a simple quality-checking engine called HUS-QA with three stages.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Calibrational Blindness, Accuracy Address.",
+      "results": "Results show that standard confidence methods fail (r = -0.1394, p = 1.7864e-3, ROC AUC = 0.4275).",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Computer Vision"
+  },
+  {
+    "arxiv_id": "2610.40559",
+    "raw_id": "http://arxiv.org/abs/2610.40559v1",
+    "title": "A Tutorial on Shape Servoing of Deformable Objects-Part I: Fundamentals",
+    "authors": [
+      "Ignacio Cuiral-Zueco",
+      "Alessio Caporali",
+      "Miguel Aranda",
+      "Gianluca Palli",
+      "Gonzalo López-Nicolás",
+      "Youcef Mezouar"
+    ],
+    "published_date": "2026-10-29T17:40:56Z",
+    "updated_date": "2026-10-29T17:40:56Z",
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "abstract": "In robotics, shape control (or shape servoing) refers to the automatic manipulation of a deformable object to achieve a desired shape. It involves a feedback loop that exploits the relation between robot motion and changes in the measured shape. This relation, known as the interaction Jacobian or, in this context, the deformation Jacobian, depends on the object's mechanical properties, geometry, and boundary conditions (e.g., where the object is grasped). Because these factors are often difficult to model accurately, the deformation Jacobian can be estimated locally from observed shape changes produced by commanded robot motions, without requiring a fine-tuned mechanical model. This article is the first of a two-part tutorial on data-driven Jacobian-based shape control of deformable objects. It introduces the central elements of the approach: the formulation of the shape-control problem, shape representation, estimation and online update of the deformation Jacobian, and a standard control law from the literature. It then assembles these elements into a complete shape-servoing loop, derives a local stability condition for this loop, and illustrates why some target shapes cannot be reached. Part II covers more advanced topics. Throughout both parts, a simulated planar example in which two robot arms manipulate an elastic rod observed by a camera illustrates the concepts.",
+    "url": "https://arxiv.org/abs/2610.40559v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40559v1",
+    "relevance_score": 0.697,
+    "processed_date": "2026-10-30",
+    "summary": "Because these factors are often difficult to model accurately, the deformation Jacobian can be estimated locally from observed shape changes produced by commanded robot motions, without requiring a fine-tuned mechanical model. It involves a feedback loop that exploits the relation between robot motion and changes in the measured shape. This relation, known as the interaction Jacobian or, in this context, the deformation Jacobian, depends on the object's mechanical properties, geometry, and boundary conditions (e.g., where the object is grasped). Throughout both parts, a simulated planar example in which two robot arms manipulate an elastic rod observed by a camera illustrates the concepts.",
+    "key_concepts": [
+      "Manipulation",
+      "Accurately Deformation",
+      "Achieve Desired",
+      "Advanced Topics",
+      "Arms Manipulate",
+      "Article Two-part"
+    ],
+    "insights": {
+      "problem": "Because these factors are often difficult to model accurately, the deformation Jacobian can be estimated locally from observed shape changes produced by commanded robot motions, without requiring a fine-tuned mechanical model.",
+      "approach": "It involves a feedback loop that exploits the relation between robot motion and changes in the measured shape.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Accurately Deformation.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2610.40647",
+    "raw_id": "http://arxiv.org/abs/2610.40647v1",
+    "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+    "authors": [
+      "Jiongfan Yang",
+      "Weichen Fan",
+      "Haiwen Diao",
+      "Zhongang Cai",
+      "Ziwei Liu"
+    ],
+    "published_date": "2026-10-29T17:59:21Z",
+    "updated_date": "2026-10-29T17:59:21Z",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG",
+      "cs.NE"
+    ],
+    "abstract": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length of the global attention sequence. SpecSlot expands each spatial anchor into multiple slots, each assigned a disjoint band of DCT coefficients; this separates anchor density from spectral subdivision. Only the lowest-frequency slot from each anchor participates in global attention, while all slots interact locally. This allows the model to increase spectral detail without enlarging the global sequence. A spatial head further adds a local correction to the spectral prediction, while the generative state, target, and loss remain in pixel space. On ImageNet-256, SpecSlot achieves a comparable final FID to a FLOPs-matched JiT control while converging faster. On ImageNet-512, it improves FID by 2.84 over the control with 3.9% fewer FLOPs, and comes within only 0.69 FID of JiT-B/16 at 38.2% lower cost. On text-to-image generation, SpecSlot surpasses JiT-B/8 on DPG-Bench by 1.06 at 40.6% lower forward cost.",
+    "url": "https://arxiv.org/abs/2610.40647v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40647v1",
+    "relevance_score": 0.688,
+    "processed_date": "2026-10-30",
+    "summary": "Addressing critical demands in Natural Language Processing, this research investigates pixel-space generative transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length of the global attention sequence. On text-to-image generation, SpecSlot surpasses JiT-B/8 on DPG-Bench by 1.06 at 40.6% lower forward cost. Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally.",
+    "key_concepts": [
+      "Achieves Comparable",
+      "Adds Local",
+      "Anchor Density",
+      "Anchor Multiple",
+      "Anchor Participates",
+      "Assigned Disjoint"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+      "approach": "Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length of the global attention sequence.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Achieves Comparable, Adds Local.",
+      "results": "On text-to-image generation, SpecSlot surpasses JiT-B/8 on DPG-Bench by 1.06 at 40.6% lower forward cost.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Natural Language Processing"
+  },
+  {
+    "arxiv_id": "2610.40537",
+    "raw_id": "http://arxiv.org/abs/2610.40537v1",
+    "title": "DAWN: Diffusion-based Alignment and unfastening Workflow Network",
+    "authors": [
+      "Hemant Kumar",
+      "Piyush Goenka",
+      "Nikhil Chopra"
+    ],
+    "published_date": "2026-10-29T17:35:16Z",
+    "updated_date": "2026-10-29T17:35:16Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "abstract": "We present DAWN (Diffusion-based Alignment and unfastening Workflow Network), a hierarchical robotic framework designed to perform real-world, unfastening tasks through multi-modal sensory integration. Autonomous robotic unfastening is crucial for improving recycling processes, enhancing safety, and reducing operational costs; yet, it remains predominantly manual due to inherent challenges in precise screwdriver engagement with fasteners, detailed force execution, and robustness to environmental variability. To address the complexity of learning long-horizon, contact-rich manipulation tasks, we subdivide the unfastening task procedure into two sequential stages: (1) alignment & insertion, and (2) unfastening. DAWN consists of three key components: AlignNet, a diffusion-based policy ensuring precise screwdriver tip engagement; LatchNet, a multi-modal classifier reliably detecting successful stage transitions; and UnfastNet, which achieves stable, force-controlled screw removal. Experimental validation on a Franka Emika robot demonstrates that DAWN achieves alignment & insertion success rates comparable to trained human operators, robustly transitions between stages, and attains an impressive success rate in unfastening across various unseen scenarios. Ablation studies further elucidate critical input modalities and effective training strategies, highlighting DAWN's scalability, robustness, and data efficiency.",
+    "url": "https://arxiv.org/abs/2610.40537v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40537v1",
+    "relevance_score": 0.688,
+    "processed_date": "2026-10-30",
+    "summary": "Addressing critical demands in Robotics, this research investigates we present dawn (diffusion-based alignment and unfastening workflow network), a hierarchical robotic framework designed to perform real-world, unfastening tasks through multi-modal sensory integration. We present DAWN (Diffusion-based Alignment and unfastening Workflow Network), a hierarchical robotic framework designed to perform real-world, unfastening tasks through multi-modal sensory integration. To address the complexity of learning long-horizon, contact-rich manipulation tasks, we subdivide the unfastening task procedure into two sequential stages: (1) alignment & insertion, and (2) unfastening. Ablation studies further elucidate critical input modalities and effective training strategies, highlighting DAWN's scalability, robustness, and data efficiency. Autonomous robotic unfastening is crucial for improving recycling processes, enhancing safety, and reducing operational costs; yet, it remains predominantly manual due to inherent challenges in precise screwdriver engagement with fasteners, detailed force execution, and robustness to environmental variability.",
+    "key_concepts": [
+      "Multi-modal",
+      "Manipulation",
+      "Achieves Alignment",
+      "Achieves Stable",
+      "Address Complexity",
+      "Alignment Insertion"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+      "approach": "We present DAWN (Diffusion-based Alignment and unfastening Workflow Network), a hierarchical robotic framework designed to perform real-world, unfastening tasks through multi-modal sensory integration.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Multi-modal, Manipulation.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2610.40578",
+    "raw_id": "http://arxiv.org/abs/2610.40578v1",
+    "title": "VeriCUA: Verification as Agentic Exploration for Computer-Using Agents",
+    "authors": [
+      "Qiushi Sun",
+      "Da Yu",
+      "Alexander Knop",
+      "Amer Sinha",
+      "Lingpeng Kong",
+      "Ben Kao",
+      "Ravi Kumar",
+      "Pritish Kamath"
+    ],
+    "published_date": "2026-10-29T17:45:26Z",
+    "updated_date": "2026-10-29T17:45:26Z",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "abstract": "Building and scaling computer-using agents (CUAs) across desktop, mobile, and web environments requires reliable task-completion verification for data curation, evaluation, and reinforcement learning. Typical automated approaches prompt vision-language models (VLMs) to judge trajectories or generate programs to inspect application state. However, both rely on partial views of complex digital environments. VLM judges are restricted to supplied observations, while generated programs depend on accessible state. These views can omit decisive evidence or leave completion judgments unsupported. Tailoring separate verifiers to different platforms and access settings adds further engineering cost. We present VeriCUA, a platform-agnostic framework for verification through agentic exploration. It treats verification as dynamic evidence gathering and assessment within a shared procedure for online and offline settings across platforms and observation modalities. After inspecting the available context to construct a task rubric, the verifier selects GUI or code checks for unresolved requirements and combines their findings under explicit evidence rules. Experiments show improved agreement with reference labels over the compared baselines across these settings, with the largest offline gains on hard cases and stronger rejection of false completion claims online. Further analyses connect these gains to complementary evidence and test-time exploration.",
+    "url": "https://arxiv.org/abs/2610.40578v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40578v1",
+    "relevance_score": 0.674,
+    "processed_date": "2026-10-30",
+    "summary": "However, both rely on partial views of complex digital environments. We present VeriCUA, a platform-agnostic framework for verification through agentic exploration. Further analyses connect these gains to complementary evidence and test-time exploration. Building and scaling computer-using agents (CUAs) across desktop, mobile, and web environments requires reliable task-completion verification for data curation, evaluation, and reinforcement learning. Typical automated approaches prompt vision-language models (VLMs) to judge trajectories or generate programs to inspect application state. VLM judges are restricted to supplied observations, while generated programs depend on accessible state. These views can omit decisive evidence or leave completion judgments unsupported. Tailoring separate verifiers to different platforms and access settings adds further engineering cost.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Agentic Exploration",
+      "Access Settings",
+      "Accessible State",
+      "Adds Engineering",
+      "Agreement Reference"
+    ],
+    "insights": {
+      "problem": "However, both rely on partial views of complex digital environments.",
+      "approach": "We present VeriCUA, a platform-agnostic framework for verification through agentic exploration.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Agentic Exploration.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "VLM judges are restricted to supplied observations, while generated programs depend on accessible state."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.40518",
+    "raw_id": "http://arxiv.org/abs/2610.40518v1",
+    "title": "IndicIPR-QA: A Benchmark for Extractive Question Answering on Indian IPR Laws",
+    "authors": [
+      "M. Mohaiminul Islam",
+      "Muhammad Abulaish"
+    ],
+    "published_date": "2026-10-29T17:26:39Z",
+    "updated_date": "2026-10-29T17:26:39Z",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Legal Question Answering (QA) over statutory texts is a challenging task in Natural Language Processing (NLP), especially in low-resource settings with complex legal systems. It requires answers that are precise and grounded in the law. However, to the best of current knowledge, no existing extractive QA benchmark provides exact answer spans from statutory texts across all seven Indian Intellectual Property Rights (IPR) Acts. This paper presents IndicIPR-QA1, an extractive QA benchmark for Indian IPR laws. The proposed dataset contains 4,462 QA pairs from 1,116 statutory contexts across seven Acts. Questions and answers are generated using GPT-4o and validated through nine automatic quality checks, single and multi-model LLM evaluations, and a 200-pair human audit. Section-level partitioning prevents source-context overlap across the training, validation, and test sets. Further analysis examines answer span length, lexical overlap, and multi-clause structure across the corpus and individual Acts. BM25 achieves a token-level F1 score of 20.21, while fine-tuned InLegalBERT reaches 85.02 under a unified sliding-window inference protocol. The large performance gap between BM25 (20.21 F1) and InLegalBERT (85.02 F1) shows that simple word matching is not enough to answer these legal questions. Performance also varies across the seven Acts, indicating substantial differences in answer-extraction performance.",
+    "url": "https://arxiv.org/abs/2610.40518v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40518v1",
+    "relevance_score": 0.667,
+    "processed_date": "2026-10-30",
+    "summary": "However, to the best of current knowledge, no existing extractive QA benchmark provides exact answer spans from statutory texts across all seven Indian Intellectual Property Rights (IPR) Acts. This paper presents IndicIPR-QA1, an extractive QA benchmark for Indian IPR laws. Performance also varies across the seven Acts, indicating substantial differences in answer-extraction performance. Legal Question Answering (QA) over statutory texts is a challenging task in Natural Language Processing (NLP), especially in low-resource settings with complex legal systems. It requires answers that are precise and grounded in the law. The proposed dataset contains 4,462 QA pairs from 1,116 statutory contexts across seven Acts.",
+    "key_concepts": [
+      "Achieves Token-level",
+      "Acts Achieves",
+      "Acts Indicating",
+      "Acts Questions",
+      "Answer Legal",
+      "Answer Spans"
+    ],
+    "insights": {
+      "problem": "However, to the best of current knowledge, no existing extractive QA benchmark provides exact answer spans from statutory texts across all seven Indian Intellectual Property Rights (IPR) Acts.",
+      "approach": "This paper presents IndicIPR-QA1, an extractive QA benchmark for Indian IPR laws.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Achieves Token-level, Acts Achieves.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Natural Language Processing"
+  },
+  {
+    "arxiv_id": "2610.40632",
+    "raw_id": "http://arxiv.org/abs/2610.40632v1",
+    "title": "SymAnt: Grounding Long-Horizon Action Anticipation with Adaptable Symbolic Priors",
+    "authors": [
+      "Fnu Aryan",
+      "Yaqi Xie",
+      "Joseph Campbell",
+      "Woojun Kim",
+      "Kwonjoon Lee",
+      "Hossein Nourkhiz Mahjoub",
+      "Ehsan Moradi-Pari",
+      "Katia Sycara",
+      "Simon Stepputtis"
+    ],
+    "published_date": "2026-10-29T17:58:00Z",
+    "updated_date": "2026-10-29T17:58:00Z",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "abstract": "As robots and intelligent systems increasingly interact with humans, they must anticipate long sequences of future actions from only brief observations. While purely neural models typically require extensive observations to predict future actions and remain difficult to interpret and adjust, symbolic priors offer a structured alternative. To this end, we introduce SymAnt, a novel neuro-symbolic approach that unifies the expressiveness of neural networks with the structured reasoning of scene and knowledge graphs. Given a short video, SymAnt performs a joint-search over both graphs to construct a symbolic context, enabling unified reasoning over spatial relationships, object attributes, affordances, and associated actions. This symbolic context serves as a prior for an iterative refinement process that progressively generates and improves the sequence of future actions. By grounding predictions in symbolic context, SymAnt anticipates long-horizon actions from short observation windows in a parameter-efficient manner, while enabling users to directly edit the underlying knowledge to adjust predictions without further training. Through our experiments, we demonstrate the effectiveness of SymAnt, particularly when only short observation contexts are available, across five diverse datasets: Breakfast, 50 Salads, EPIC-KITCHENS, EGTEA Gaze+, and Assembly101.",
+    "url": "https://arxiv.org/abs/2610.40632v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.40632v1",
+    "relevance_score": 0.654,
+    "processed_date": "2026-10-30",
+    "summary": "While purely neural models typically require extensive observations to predict future actions and remain difficult to interpret and adjust, symbolic priors offer a structured alternative. To this end, we introduce SymAnt, a novel neuro-symbolic approach that unifies the expressiveness of neural networks with the structured reasoning of scene and knowledge graphs. To this end, we introduce SymAnt, a novel neuro-symbolic approach that unifies the expressiveness of neural networks with the structured reasoning of scene and knowledge graphs. Through our experiments, we demonstrate the effectiveness of SymAnt, particularly when only short observation contexts are available, across five diverse datasets: Breakfast, 50 Salads, EPIC-KITCHENS, EGTEA Gaze+, and Assembly101.",
+    "key_concepts": [
+      "Neuro-symbolic",
+      "Actions Brief",
+      "Actions Grounding",
+      "Actions Short",
+      "Actions Symbolic",
+      "Adjust Predictions"
+    ],
+    "insights": {
+      "problem": "While purely neural models typically require extensive observations to predict future actions and remain difficult to interpret and adjust, symbolic priors offer a structured alternative.",
+      "approach": "To this end, we introduce SymAnt, a novel neuro-symbolic approach that unifies the expressiveness of neural networks with the structured reasoning of scene and knowledge graphs.",
+      "key_innovation": "To this end, we introduce SymAnt, a novel neuro-symbolic approach that unifies the expressiveness of neural networks with the structured reasoning of scene and knowledge graphs.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
   }
 ]
