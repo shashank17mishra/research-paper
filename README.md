@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[30 October 2026 Report](reports/2026/10/30/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[31 October 2026 Report](reports/2026/10/31/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/30/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/10/31/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/30/infographic.png)](reports/2026/10/30/infographic.png)
+[![Daily Infographic](reports/2026/10/31/infographic.png)](reports/2026/10/31/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `4` |
-| **Machine Learning (ML)** | `2` |
-| **Robotics** | `4` |
+| **Artificial Intelligence (AI)** | `6` |
+| **Machine Learning (ML)** | `5` |
+| **Robotics** | `2` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **SymAnt: Grounding Long-Horizon Action Anticipation with Adaptable Symbol...** | `Artificial Intelligence` | `0.65` | [arXiv](https://arxiv.org/abs/2610.40632v1) |
-| 2 | **IndicIPR-QA: A Benchmark for Extractive Question Answering on Indian IPR...** | `Natural Language Processing` | `0.67` | [arXiv](https://arxiv.org/abs/2610.40518v1) |
-| 3 | **VeriCUA: Verification as Agentic Exploration for Computer-Using Agents** | `Artificial Intelligence` | `0.67` | [arXiv](https://arxiv.org/abs/2610.40578v1) |
-| 4 | **DAWN: Diffusion-based Alignment and unfastening Workflow Network** | `Robotics` | `0.69` | [arXiv](https://arxiv.org/abs/2610.40537v1) |
-| 5 | **Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generat...** | `Natural Language Processing` | `0.69` | [arXiv](https://arxiv.org/abs/2610.40647v1) |
+| 1 | **On the Fundamental Limits of Prefill-Based Decoding Length Prediction** | `Natural Language Processing` | `0.62` | [arXiv](https://arxiv.org/abs/2610.40541v1) |
+| 2 | **BURGER: Benchmarking and Understanding Robotic Generalization via Embodi...** | `Robotics` | `0.63` | [arXiv](https://arxiv.org/abs/2610.40532v1) |
+| 3 | **Gym-Anything for Robotics: Scaling physical simulations with digital agents** | `Robotics` | `0.63` | [arXiv](https://arxiv.org/abs/2610.40565v1) |
+| 4 | **Comparing Human Role-Players and LLM-Simulated Clients in Online Counsel...** | `Natural Language Processing` | `0.63` | [arXiv](https://arxiv.org/abs/2610.40563v1) |
+| 5 | **CrossWeave: Cross-Modal Scene and Instance Retrieval from Sparse 2D-3D A...** | `Artificial Intelligence` | `0.64` | [arXiv](https://arxiv.org/abs/2610.40525v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `208`
-- **Total Operational Runs**: `33 days`
+- **Total Papers Analyzed**: `218`
+- **Total Operational Runs**: `34 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 

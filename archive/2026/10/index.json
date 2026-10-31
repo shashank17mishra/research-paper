@@ -1,6 +1,6 @@
 {
   "month": "2026-10",
-  "total_papers": 208,
+  "total_papers": 218,
   "papers": [
     {
       "arxiv_id": "2403.01234",
@@ -8897,6 +8897,423 @@
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.40627",
+      "raw_id": "http://arxiv.org/abs/2610.40627v1",
+      "title": "ShallowDefend: Harnessing Shallow Safety Alignment for Multi-Turn Defender",
+      "authors": [
+        "Qiyao Ma",
+        "Xiaodong Liu",
+        "Weiwei Yang",
+        "Mingqian Feng",
+        "Chengquan Guo",
+        "Jialin Song",
+        "Carolyn Buractaon",
+        "Zhe Zhao",
+        "Junshan Zhang",
+        "Sandeep Atluri",
+        "Christopher White",
+        "Jianfeng Gao"
+      ],
+      "published_date": "2026-10-29T17:56:53Z",
+      "updated_date": "2026-10-29T17:56:53Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often. This brittleness has a mechanistic root: Alignment is shallow, with safety behavior concentrated in a model's first few output tokens, and existing defenses inherit the weakness, supervising the surface form of the response without ever giving the model an explicit safety decision to learn. We take the opposite view of shallowness: if a short span determines the trajectory of an entire response, that span is the highest-leverage place to intervene, and the defender can occupy it first. We propose Assess \\to Decide \\to Respond, a framework in which the defender assesses the user's intent, commits to an explicit, parseable safety decision, and only then generates a reply conditioned on it, with the commitment trained by reinforcement learning at the payload turn. Because the decision is a token span, the reward can be a rule: a self-verified reward checks the committed label against the conversation's known nature, requiring no judge and no annotation, while the same format also supports an LLM-as-judge reward over a graded decision space with safe redirection. Across two model families and fourteen benchmarks spanning safety, utility, and helpfulness, our defenders achieve the strongest multi-turn safety in a controlled comparison, maintaining their lead in safety while preserving utility at a modest cost to helpfulness. A per-token KL analysis and interventional probes confirm why this works: training concentrates its effect on the brief deliberation that sets a response's trajectory, and the decision committed there is a causal control point. The very shallowness attackers exploit becomes the mechanism of defense.",
+      "url": "https://arxiv.org/abs/2610.40627v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40627v1",
+      "relevance_score": 0.641,
+      "processed_date": "2026-10-31",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates safety alignment has enabled large language models to reliably refuse harmful requests directly, yet the same request distributed across a multi-turn conversation still succeeds far too often. We propose Assess \\to Decide \\to Respond, a framework in which the defender assesses the user's intent, commits to an explicit, parseable safety decision, and only then generates a reply conditioned on it, with the commitment trained by reinforcement learning at the payload turn. We take the opposite view of shallowness: if a short span determines the trajectory of an entire response, that span is the highest-leverage place to intervene, and the defender can occupy it first. The very shallowness attackers exploit becomes the mechanism of defense.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Annotation Format",
+        "Assess Decide",
+        "Assesses User",
+        "Attackers Exploit",
+        "Safety Decision"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We propose Assess \\to Decide \\to Respond, a framework in which the defender assesses the user's intent, commits to an explicit, parseable safety decision, and only then generates a reply conditioned on it, with the commitment trained by reinforcement learning at the payload turn.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Annotation Format.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.40618",
+      "raw_id": "http://arxiv.org/abs/2610.40618v1",
+      "title": "An ODE-based Sampler for Discrete Diffusion Models",
+      "authors": [
+        "Samson Gourevitch",
+        "Yazid Janati",
+        "Eric Moulines",
+        "Eric P. Xing",
+        "Alain Durmus",
+        "Giacomo Zanella"
+      ],
+      "published_date": "2026-10-29T17:55:25Z",
+      "updated_date": "2026-10-29T17:55:25Z",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "The marginals of a continuous diffusion model can be reproduced by a deterministic ordinary differential equation (ODE), known as the probability flow ODE, which provides a foundation for accelerated sampling and consistency distillation. In this paper we address the question whether an analogous formulation exists for discrete diffusion models and answer it affirmatively by introducing exponential residual flows (ERFs). Our framework augments the discrete state with a continuous residual variable for each token and position. These residuals evolve deterministically according to piecewise-defined ODEs whose vector fields depend on the current discrete state and the forward and backward rate matrices of the prescribed diffusion model. The discrete state changes whenever a residual reaches zero. We prove that this construction preserves the marginals of the original diffusion. We derive a practical discretization of our sampler and specialize it to masked and uniform diffusion. The deterministic trajectories of ERFs support consistency distillation and yield empirical improvements over previous approaches across a variety of benchmarks including code and text generation tasks.",
+      "url": "https://arxiv.org/abs/2610.40618v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40618v1",
+      "relevance_score": 0.641,
+      "processed_date": "2026-10-31",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates the marginals of a continuous diffusion model can be reproduced by a deterministic ordinary differential equation (ode), known as the probability flow ode, which provides a foundation for accelerated sampling and consistency distillation. Our framework augments the discrete state with a continuous residual variable for each token and position. The deterministic trajectories of ERFs support consistency distillation and yield empirical improvements over previous approaches across a variety of benchmarks including code and text generation tasks. The marginals of a continuous diffusion model can be reproduced by a deterministic ordinary differential equation (ODE), known as the probability flow ODE, which provides a foundation for accelerated sampling and consistency distillation.",
+      "key_concepts": [
+        "Diffusion Model",
+        "Accelerated Sampling",
+        "According Piecewise-defined",
+        "Address Question",
+        "Affirmatively Introducing",
+        "Analogous Formulation"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "Our framework augments the discrete state with a continuous residual variable for each token and position.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Diffusion Model, Accelerated Sampling.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.40580",
+      "raw_id": "http://arxiv.org/abs/2610.40580v1",
+      "title": "RADIOlogy: A Single-Pass Approach to Training-Free Zero-Shot Anomaly Detection",
+      "authors": [
+        "Joaquín Figueira",
+        "Giacomo D'Amicantonio",
+        "Egor Bondarau"
+      ],
+      "published_date": "2026-10-29T17:45:35Z",
+      "updated_date": "2026-10-29T17:45:35Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Current zero-shot anomaly detection methods often rely on complex prompt-learning techniques or computationally expensive sliding-window strategies to achieve fine-grained visual alignment to detect small-scale anomalies. This reliance stems from the fundamental limitation of standard CLIP architectures, where [CLS] token attention and spatial patch pooling struggle to capture subtle, localized anomaly features. While prompt-learning approaches aim to bridge this gap, they typically require a large number of ground-truth segmentation masks from auxiliary datasets, which are often unavailable in specialized domains. In this work, we show an emerging property of multi-head attention pooling in vision-language models: remarkable zero-shot anomaly localization and detection right out of the box. We translate this property into a single-pass anomaly detection technique, RADIOlogy, that does not require dense, windowed execution and significantly outperforms other training-free baselines. Instead, the method relies on a simple contrastive scoring approach that compares the average similarity between vision features and a suite of normal and abnormal prompts. Furthermore, we leverage the agglomerative features of RADIO models to enhance pixel-level anomaly segmentation using a dense anomaly refinement pipeline. Finally, we show how the vision-language family of training-free zero-shot anomaly detection techniques can be applied successfully to the medical domain with minimal modifications. Code is available at https://github.com/jacomof/RADIOlogy.",
+      "url": "https://arxiv.org/abs/2610.40580v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40580v1",
+      "relevance_score": 0.641,
+      "processed_date": "2026-10-31",
+      "summary": "This reliance stems from the fundamental limitation of standard CLIP architectures, where [CLS] token attention and spatial patch pooling struggle to capture subtle, localized anomaly features. In this work, we show an emerging property of multi-head attention pooling in vision-language models: remarkable zero-shot anomaly localization and detection right out of the box. We translate this property into a single-pass anomaly detection technique, RADIOlogy, that does not require dense, windowed execution and significantly outperforms other training-free baselines. Code is available at https://github.com/jacomof/RADIOlogy. Current zero-shot anomaly detection methods often rely on complex prompt-learning techniques or computationally expensive sliding-window strategies to achieve fine-grained visual alignment to detect small-scale anomalies.",
+      "key_concepts": [
+        "Zero-shot",
+        "Anomaly Detection",
+        "Anomalies Reliance Stems",
+        "Anomaly Features",
+        "Token Attention Spatial",
+        "Training-free Baselines"
+      ],
+      "insights": {
+        "problem": "This reliance stems from the fundamental limitation of standard CLIP architectures, where [CLS] token attention and spatial patch pooling struggle to capture subtle, localized anomaly features.",
+        "approach": "In this work, we show an emerging property of multi-head attention pooling in vision-language models: remarkable zero-shot anomaly localization and detection right out of the box.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Anomaly Detection.",
+        "results": "We translate this property into a single-pass anomaly detection technique, RADIOlogy, that does not require dense, windowed execution and significantly outperforms other training-free baselines.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "This reliance stems from the fundamental limitation of standard CLIP architectures, where [CLS] token attention and spatial patch pooling struggle to capture subtle, localized anomaly features."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.40576",
+      "raw_id": "http://arxiv.org/abs/2610.40576v1",
+      "title": "PIVOT: Progressive Intervention via Online Teacher Correction",
+      "authors": [
+        "Zhihao Yang",
+        "Boyuan Zheng",
+        "Puhui Tan",
+        "Yukun Chen",
+        "Kuan Zhang",
+        "Longze Chen",
+        "Jiaming Li",
+        "Renke Shan",
+        "Lu Wang",
+        "Xianpei Han"
+      ],
+      "published_date": "2026-10-29T17:45:07Z",
+      "updated_date": "2026-10-29T17:45:07Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Reinforcement learning from verifiable rewards (RLVR) is limited by sparse outcome-level feedback on hard reasoning tasks: when all rollouts in a group fail, rewards provide no learning signal. Stronger teachers can provide additional guidance, but this raises a central question: how can such signals be incorporated into RLVR to support successful rollouts while remaining learnable for the student? We distinguish two complementary mechanisms: trajectory-level intervention, which improves access to reward-bearing trajectories, and token-level supervision, which provides dense targets to guide student learning. Our controlled experiments show that either mechanism alone can remain insufficient, motivating their combination. We therefore introduce PIVOT, which inserts teacher-generated corrections into student rollouts and applies token-level KL supervision to these segments alongside the RLVR objective. Beyond their combination, we systematically analyze where to intervene and how to supervise, yielding a recipe for effective guidance. Across hard logic games and mathematical reasoning benchmarks, PIVOT consistently outperforms existing methods, nearly doubling mean avg@8 on logic games from 19.5% for the best-performing baseline to 35.6%.",
+      "url": "https://arxiv.org/abs/2610.40576v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40576v1",
+      "relevance_score": 0.641,
+      "processed_date": "2026-10-31",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates reinforcement learning from verifiable rewards (rlvr) is limited by sparse outcome-level feedback on hard reasoning tasks: when all rollouts in a group fail, rewards provide no learning signal. Stronger teachers can provide additional guidance, but this raises a central question: how can such signals be incorporated into RLVR to support successful rollouts while remaining learnable for the student? Across hard logic games and mathematical reasoning benchmarks, PIVOT consistently outperforms existing methods, nearly doubling mean avg@8 on logic games from 19.5% for the best-performing baseline to 35.6%. Reinforcement learning from verifiable rewards (RLVR) is limited by sparse outcome-level feedback on hard reasoning tasks: when all rollouts in a group fail, rewards provide no learning signal.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Access Reward-bearing",
+        "Additional Guidance",
+        "Alongside Rlvr",
+        "Analyze Intervene",
+        "Applies Token-level"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "Stronger teachers can provide additional guidance, but this raises a central question: how can such signals be incorporated into RLVR to support successful rollouts while remaining learnable for the student?",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Access Reward-bearing.",
+        "results": "Across hard logic games and mathematical reasoning benchmarks, PIVOT consistently outperforms existing methods, nearly doubling mean avg@8 on logic games from 19.5% for the best-performing baseline to 35.6%.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.40574",
+      "raw_id": "http://arxiv.org/abs/2610.40574v1",
+      "title": "Every Token Needs Its Own Teacher: Multi-teacher Adaptive On-policy Self-distillation",
+      "authors": [
+        "Yifu Luo",
+        "Chuang Ma",
+        "Zeyu Chen",
+        "Enkelejda Kasneci",
+        "Qi Chen",
+        "Gjergji Kasneci"
+      ],
+      "published_date": "2026-10-29T17:44:42Z",
+      "updated_date": "2026-10-29T17:44:42Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "On-policy Self-distillation (OPSD) has proven effective for post-training large language models by constructing a teacher conditioned on privileged references. However, existing approaches keep the teacher fixed either throughout training by consistently exposing it to the full reference, or within each response by adaptively varying partial reference exposure only across responses. In this paper, we argue that neither of them is sufficient. Instead, every token needs its own teacher, as the teacher preference can vary token by token within the same response. Through a teacher-intervention pilot study, we validate that the teacher preference differs across tokens, and reveal that a preferred teacher can be identified for each token through majority voting and KL-based selection. Motivated by these findings, we propose Multi-teacher Adaptive On-policy Self-Distillation (MTA-OPSD), the first token-level adaptive OPSD method. Our method constructs a multi-teacher pool consisting of candidate teachers, and enables every token to adaptively select its preferred teacher during training. Experiments with Qwen3 models on mathematical reasoning tasks show that MTA-OPSD consistently outperforms existing OPSD approaches with an average gain of up to +5.9 over the base model, highlighting the importance of adapting teacher supervision at the token level. The code is available at https://github.com/xingzhejun/MTA-OPSD.",
+      "url": "https://arxiv.org/abs/2610.40574v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40574v1",
+      "relevance_score": 0.641,
+      "processed_date": "2026-10-31",
+      "summary": "However, existing approaches keep the teacher fixed either throughout training by consistently exposing it to the full reference, or within each response by adaptively varying partial reference exposure only across responses. Motivated by these findings, we propose Multi-teacher Adaptive On-policy Self-Distillation (MTA-OPSD), the first token-level adaptive OPSD method. Experiments with Qwen3 models on mathematical reasoning tasks show that MTA-OPSD consistently outperforms existing OPSD approaches with an average gain of up to +5.9 over the base model, highlighting the importance of adapting teacher supervision at the token level. The code is available at https://github.com/xingzhejun/MTA-OPSD. On-policy Self-distillation (OPSD) has proven effective for post-training large language models by constructing a teacher conditioned on privileged references.",
+      "key_concepts": [
+        "Adaptive On-policy",
+        "On-policy Self-distillation",
+        "Adapting Teacher",
+        "Adaptive Opsd",
+        "Adaptively Select",
+        "Adaptively Varying"
+      ],
+      "insights": {
+        "problem": "However, existing approaches keep the teacher fixed either throughout training by consistently exposing it to the full reference, or within each response by adaptively varying partial reference exposure only across responses.",
+        "approach": "Motivated by these findings, we propose Multi-teacher Adaptive On-policy Self-Distillation (MTA-OPSD), the first token-level adaptive OPSD method.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Adaptive On-policy, On-policy Self-distillation.",
+        "results": "Experiments with Qwen3 models on mathematical reasoning tasks show that MTA-OPSD consistently outperforms existing OPSD approaches with an average gain of up to +5.9 over the base model, highlighting the importance of adapting teacher supervision at the token level.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.40525",
+      "raw_id": "http://arxiv.org/abs/2610.40525v1",
+      "title": "CrossWeave: Cross-Modal Scene and Instance Retrieval from Sparse 2D-3D Alignment",
+      "authors": [
+        "Aadith Warrier",
+        "Gnana Prakash Punnavajhala",
+        "Siddharth Tourani",
+        "Muhammad Haris Khan",
+        "Avinash Sharma",
+        "Madhava Krishna"
+      ],
+      "published_date": "2026-10-29T17:32:46Z",
+      "updated_date": "2026-10-29T17:32:46Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Cross-modal scene and instance retrieval aims to retrieve a corresponding 3D environment or object given query 2D images, serving as a foundational mechanism for spatial reasoning in robotics and AR/VR. Existing methods achieve this by learning alignment only at the level of whole scenes or objects, which provides no supervision for the fine-grained local structure within them. In this work, we show that supervision on a set of sparse 2D-3D correspondences, without scene- or instance-level contrastive objectives, is sufficient to train a single model for both scene- and instance-level retrieval. Specifically, we propose \\textbf{CrossWeave}, a novel framework for cross-modal retrieval that learns sparse patch-point alignment, which alone outperforms existing methods. An optimal transport-based aggregator over the aligned features gives further gains by clustering structurally redundant regions, freeing descriptor capacity for semantically distinct local features. CrossWeave achieves state-of-the-art performance on both scene- and instance-level retrieval on ScanNet and 3RScan with a \\textit{single model}, whereas existing methods require separate models for each task. Our results suggest that whole-scene encoding is unnecessary for cross-modal retrieval and that sparse local correspondence supervision is a more effective and flexible alternative.",
+      "url": "https://arxiv.org/abs/2610.40525v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40525v1",
+      "relevance_score": 0.641,
+      "processed_date": "2026-10-31",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates cross-modal scene and instance retrieval aims to retrieve a corresponding 3d environment or object given query 2d images, serving as a foundational mechanism for spatial reasoning in robotics and ar/vr. In this work, we show that supervision on a set of sparse 2D-3D correspondences, without scene- or instance-level contrastive objectives, is sufficient to train a single model for both scene- and instance-level retrieval. Specifically, we propose \\textbf{CrossWeave}, a novel framework for cross-modal retrieval that learns sparse patch-point alignment, which alone outperforms existing methods. Specifically, we propose \\textbf{CrossWeave}, a novel framework for cross-modal retrieval that learns sparse patch-point alignment, which alone outperforms existing methods. Our results suggest that whole-scene encoding is unnecessary for cross-modal retrieval and that sparse local correspondence supervision is a more effective and flexible alternative.",
+      "key_concepts": [
+        "Achieve Learning",
+        "Aggregator Aligned",
+        "Aims Retrieve",
+        "Aligned Features",
+        "Alignment Level",
+        "Alignment Outperforms"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "In this work, we show that supervision on a set of sparse 2D-3D correspondences, without scene- or instance-level contrastive objectives, is sufficient to train a single model for both scene- and instance-level retrieval.",
+        "key_innovation": "Specifically, we propose \\textbf{CrossWeave}, a novel framework for cross-modal retrieval that learns sparse patch-point alignment, which alone outperforms existing methods.",
+        "results": "Specifically, we propose \\textbf{CrossWeave}, a novel framework for cross-modal retrieval that learns sparse patch-point alignment, which alone outperforms existing methods.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.40563",
+      "raw_id": "http://arxiv.org/abs/2610.40563v1",
+      "title": "Comparing Human Role-Players and LLM-Simulated Clients in Online Counselling Training: An Analysis of Counselling Patterns",
+      "authors": [
+        "Eric Rudolph",
+        "Philipp Steigerwald",
+        "Jens Albrecht"
+      ],
+      "published_date": "2026-10-29T17:41:59Z",
+      "updated_date": "2026-10-29T17:41:59Z",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "This study investigates the capabilities of Large Language Models to simulate counselling clients in educational role-plays in comparison to human role-players. Initially, we recorded role-playing sessions, where novice counsellors interacted with human peers acting as clients, followed by role-plays between humans and clients simulated by Mistrals Mixtral 8x7b using 4-bit quantization. These interactions were analysed with a counselling communication pattern system at sentence level. We investigated two key questions: (1) to what extent LLM-generated responses replicate authentic conversational dynamics and (2) whether counsellors' communication behaviour differs when interacting with human versus LLM-simulated clients. The findings highlight both similarities and differences in the application of counselling patterns across scenarios, showing the potential of LLM-based role-playing exercises to enhance counselling competencies and to identify areas for further refinement in virtual client simulations.",
+      "url": "https://arxiv.org/abs/2610.40563v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40563v1",
+      "relevance_score": 0.634,
+      "processed_date": "2026-10-31",
+      "summary": "Addressing critical demands in Natural Language Processing, this research investigates this study investigates the capabilities of large language models to simulate counselling clients in educational role-plays in comparison to human role-players. Initially, we recorded role-playing sessions, where novice counsellors interacted with human peers acting as clients, followed by role-plays between humans and clients simulated by Mistrals Mixtral 8x7b using 4-bit quantization. These interactions were analysed with a counselling communication pattern system at sentence level. The findings highlight both similarities and differences in the application of counselling patterns across scenarios, showing the potential of LLM-based role-playing exercises to enhance counselling competencies and to identify areas for further refinement in virtual client simulations.",
+      "key_concepts": [
+        "Quantization",
+        "Acting Clients",
+        "Analysed Counselling",
+        "Application Counselling",
+        "Areas Refinement",
+        "Authentic Conversational"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+        "approach": "Initially, we recorded role-playing sessions, where novice counsellors interacted with human peers acting as clients, followed by role-plays between humans and clients simulated by Mistrals Mixtral 8x7b using 4-bit quantization.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Quantization, Acting Clients.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2610.40565",
+      "raw_id": "http://arxiv.org/abs/2610.40565v1",
+      "title": "Gym-Anything for Robotics: Scaling physical simulations with digital agents",
+      "authors": [
+        "Pranjal Aggarwal",
+        "Sean Welleck"
+      ],
+      "published_date": "2026-10-29T17:42:32Z",
+      "updated_date": "2026-10-29T17:42:32Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world. However, despite decades of progress, available simulations cover only a narrow range of real-world tasks and physical phenomena. The core bottleneck is that creating better simulations requires significant expert effort and therefore does not scale. To address this, we introduce Gym-Anything for Robotics, a framework in which coding agents create realistic robotics simulations. Our core insight is that simulation creation is a coding agent task, so improvements in coding agents translate directly into richer and more faithful simulations. We select simulations based on U.S. GDP data to cover economically valuable physical work, define what makes a good simulation and a good task, and develop an adversarial creation-audit loop that checks each simulation and task against these definitions. Using this pipeline, we build RoboWorld, a set of 25 simulations with 25 test and 175 training RL environments of varying difficulty. Even the best frontier models fail on every RoboWorld test task, achieving an average reward of only 0.06. Building on RoboWorld, we introduce several new ways for frontier models to improve, including in-context learning across repeated attempts, a privileged teacher that reads the simulator state and teaches a student in context, self-assisted learning from the model's own privileged experience, and code policies that generate demonstrations across varied scenes to train vision-language-action models (VLAs) such as π_{0.5}. Each of these substantially improves performance. We release our pipeline, RL environments, and benchmark to facilitate future research. Code and data are available at https://gym-anything.github.io/robotics",
+      "url": "https://arxiv.org/abs/2610.40565v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40565v1",
+      "relevance_score": 0.63,
+      "processed_date": "2026-10-31",
+      "summary": "However, despite decades of progress, available simulations cover only a narrow range of real-world tasks and physical phenomena. To address this, we introduce Gym-Anything for Robotics, a framework in which coding agents create realistic robotics simulations. The core bottleneck is that creating better simulations requires significant expert effort and therefore does not scale. Code and data are available at https://gym-anything.github.io/robotics Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world. Our core insight is that simulation creation is a coding agent task, so improvements in coding agents translate directly into richer and more faithful simulations.",
+      "key_concepts": [
+        "Embodied AI",
+        "Attempts Privileged",
+        "Available Https",
+        "Robotics Simulations",
+        "Transfer Real",
+        "Translate Directly"
+      ],
+      "insights": {
+        "problem": "However, despite decades of progress, available simulations cover only a narrow range of real-world tasks and physical phenomena.",
+        "approach": "To address this, we introduce Gym-Anything for Robotics, a framework in which coding agents create realistic robotics simulations.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Embodied AI, Attempts Privileged.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.40532",
+      "raw_id": "http://arxiv.org/abs/2610.40532v1",
+      "title": "BURGER: Benchmarking and Understanding Robotic Generalization via Embodied Drawing",
+      "authors": [
+        "Xiangyu Xu",
+        "Bangshuai Peng",
+        "Ziyi Liu",
+        "Mengjie Zhao",
+        "Chenhao Lu",
+        "Zhengyang Fan",
+        "Huazhe Xu",
+        "Kaizhe Hu"
+      ],
+      "published_date": "2026-10-29T17:34:04Z",
+      "updated_date": "2026-10-29T17:34:04Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "abstract": "How effectively can vision-language-action (VLA) models learn diverse language-conditioned behaviors as training data scales? Investigating this question requires large and varied robot datasets, whose collection on physical robots remains costly. We introduce BURGER, a language-conditioned robotic drawing benchmark with a scalable, prompt-driven pipeline for generating continuous drawing trajectories, both in simulation and the real world. In BURGER, an agent starts from the same blank canvas and controls a robot arm to draw the object or spatial composition specified by language, while each instruction allows an open-ended variety of valid drawings and stroke orders. Using 28,200 simulated demonstrations spanning 282 drawing tasks, we evaluate five representative VLA models across data scales, language grounding, and multimodal behavior. BURGER supports fine-grained analysis of language grounding, spatial composition, and action generation, revealing distinct failure patterns across VLA models. Our experiments suggest that some VLA models can benefit from greater task diversity and demonstration scale, capture multimodal drawing behaviors, and generalize to unseen compositions of familiar objects. Finally, we deploy a trained policy on a Franka Panda arm, demonstrating the ability to draw reactively under human intervention. Project homepage and code can be found at https://siyingzhao.github.io/BURGER/.",
+      "url": "https://arxiv.org/abs/2610.40532v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40532v1",
+      "relevance_score": 0.629,
+      "processed_date": "2026-10-31",
+      "summary": "Investigating this question requires large and varied robot datasets, whose collection on physical robots remains costly. We introduce BURGER, a language-conditioned robotic drawing benchmark with a scalable, prompt-driven pipeline for generating continuous drawing trajectories, both in simulation and the real world. Project homepage and code can be found at https://siyingzhao.github.io/BURGER/. How effectively can vision-language-action (VLA) models learn diverse language-conditioned behaviors as training data scales? In BURGER, an agent starts from the same blank canvas and controls a robot arm to draw the object or spatial composition specified by language, while each instruction allows an open-ended variety of valid drawings and stroke orders.",
+      "key_concepts": [
+        "Action Generation",
+        "Agent Starts",
+        "Arm Demonstrating",
+        "Arm Draw",
+        "Behaviors Generalize",
+        "Benefit Greater"
+      ],
+      "insights": {
+        "problem": "Investigating this question requires large and varied robot datasets, whose collection on physical robots remains costly.",
+        "approach": "We introduce BURGER, a language-conditioned robotic drawing benchmark with a scalable, prompt-driven pipeline for generating continuous drawing trajectories, both in simulation and the real world.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Action Generation, Agent Starts.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.40541",
+      "raw_id": "http://arxiv.org/abs/2610.40541v1",
+      "title": "On the Fundamental Limits of Prefill-Based Decoding Length Prediction",
+      "authors": [
+        "Haowen Shi",
+        "Xuzhe Yan",
+        "Fahao Chen",
+        "Peng Li"
+      ],
+      "published_date": "2026-10-29T17:36:01Z",
+      "updated_date": "2026-10-29T17:36:01Z",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.IT"
+      ],
+      "abstract": "Predicting how many tokens a large language model (LLM) will decode, using only prefill-phase hidden states, is a key primitive for inference scheduling. We show that current benchmarks conflate predictor quality with task hardness: when the target model, dataset, or sampling configuration changes, reported accuracy collapses even though the predictor is unchanged. We trace this instability to an overlooked error source---the inherent stochasticity of autoregressive decoding---and derive bounds that every prefill-side method must obey. Our analysis treats decoding as a stopped stochastic process. The per-step stopping probability of a response is not constant but ramps up over hundreds of steps, so the decode length inherits a central limit theorem from the many local decisions that determine where a response ends; this yields per-prompt normality with an explicit error term, together with an affine variance law σ=αμ+b whose slope is the coefficient of variation of the number of response segments. Empirically, the normal law reproduces the per-prompt MAE and the central mass of the decode-length distribution to within a few percent, and the residual departures from normality (mild right skew, slight excess kurtosis) are the ones predicted by the sampling-noise correction. Under fixed model, data, and sampling conditions, a broad design space of predictors (MLP, EGTP, FiLM, soft-label, and Mixture-of-Experts variants) converges to similar performance close to the bound, confirming that \\emph{system error dominates model error}. We argue for a benchmarking protocol that fixes the model, data, and sampling parameters and that reports relative-error metrics alongside absolute ones. Code and analysis tools are available at https://github.com/ShwStone/DecodingPredict.",
+      "url": "https://arxiv.org/abs/2610.40541v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40541v1",
+      "relevance_score": 0.621,
+      "processed_date": "2026-10-31",
+      "summary": "Addressing critical demands in Natural Language Processing, this research investigates predicting how many tokens a large language model (llm) will decode, using only prefill-phase hidden states, is a key primitive for inference scheduling. We show that current benchmarks conflate predictor quality with task hardness: when the target model, dataset, or sampling configuration changes, reported accuracy collapses even though the predictor is unchanged. We trace this instability to an overlooked error source---the inherent stochasticity of autoregressive decoding---and derive bounds that every prefill-side method must obey. Code and analysis tools are available at https://github.com/ShwStone/DecodingPredict. Predicting how many tokens a large language model (LLM) will decode, using only prefill-phase hidden states, is a key primitive for inference scheduling.",
+      "key_concepts": [
+        "Large Language Model",
+        "Argue Benchmarking",
+        "Autoregressive Decoding---and",
+        "Term Affine",
+        "Theorem Local",
+        "Tokens Large"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+        "approach": "We show that current benchmarks conflate predictor quality with task hardness: when the target model, dataset, or sampling configuration changes, reported accuracy collapses even though the predictor is unchanged.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Large Language Model, Argue Benchmarking.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Natural Language Processing"
     }
   ]
 }
