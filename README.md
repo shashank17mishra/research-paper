@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[31 October 2026 Report](reports/2026/10/31/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[01 November 2026 Report](reports/2026/11/01/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/10/31/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/01/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/10/31/infographic.png)](reports/2026/10/31/infographic.png)
+[![Daily Infographic](reports/2026/11/01/infographic.png)](reports/2026/11/01/infographic.png)
 
 ---
 
@@ -25,10 +25,10 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `6` |
-| **Machine Learning (ML)** | `5` |
-| **Robotics** | `2` |
-| **IoT & Edge AI** | `0` |
+| **Artificial Intelligence (AI)** | `3` |
+| **Machine Learning (ML)** | `3` |
+| **Robotics** | `3` |
+| **IoT & Edge AI** | `1` |
 
 ---
 
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **On the Fundamental Limits of Prefill-Based Decoding Length Prediction** | `Natural Language Processing` | `0.62` | [arXiv](https://arxiv.org/abs/2610.40541v1) |
-| 2 | **BURGER: Benchmarking and Understanding Robotic Generalization via Embodi...** | `Robotics` | `0.63` | [arXiv](https://arxiv.org/abs/2610.40532v1) |
-| 3 | **Gym-Anything for Robotics: Scaling physical simulations with digital agents** | `Robotics` | `0.63` | [arXiv](https://arxiv.org/abs/2610.40565v1) |
-| 4 | **Comparing Human Role-Players and LLM-Simulated Clients in Online Counsel...** | `Natural Language Processing` | `0.63` | [arXiv](https://arxiv.org/abs/2610.40563v1) |
-| 5 | **CrossWeave: Cross-Modal Scene and Instance Retrieval from Sparse 2D-3D A...** | `Artificial Intelligence` | `0.64` | [arXiv](https://arxiv.org/abs/2610.40525v1) |
+| 1 | **Elucidating the Design Space of LM Data Attribution** | `Natural Language Processing` | `0.56` | [arXiv](https://arxiv.org/abs/2610.40655v1) |
+| 2 | **A Two-Wheeled Quadrotor with All-Clockwise Tilted Rotors for Level-Attit...** | `Robotics` | `0.56` | [arXiv](https://arxiv.org/abs/2610.40502v1) |
+| 3 | **Algebraic World Model: From Exploration to Proofs** | `Artificial Intelligence` | `0.56` | [arXiv](https://arxiv.org/abs/2610.40503v1) |
+| 4 | **Machine Learning-Based Detection of Mobile Money Scan Messages in Ghana:...** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2610.40544v1) |
+| 5 | **L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian M...** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2610.40614v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `218`
-- **Total Operational Runs**: `34 days`
+- **Total Papers Analyzed**: `228`
+- **Total Operational Runs**: `35 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 

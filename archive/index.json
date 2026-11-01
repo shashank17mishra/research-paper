@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-31T06:44:57.623725",
-  "total_entries": 218,
+  "updated_at": "2026-11-01T07:13:09.151573",
+  "total_entries": 228,
   "months": [
     "2026-10"
   ],
@@ -9313,6 +9313,399 @@
         "approach": "We show that current benchmarks conflate predictor quality with task hardness: when the target model, dataset, or sampling configuration changes, reported accuracy collapses even though the predictor is unchanged.",
         "key_innovation": "Formulates an integrated mechanism leveraging Large Language Model, Argue Benchmarking.",
         "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2610.40600",
+      "raw_id": "http://arxiv.org/abs/2610.40600v1",
+      "title": "A Conveyor Belt Mechanism for Repositionable Magnetic Coupling Between Continuum Robots",
+      "authors": [
+        "Ella Walsh",
+        "Eric Diller",
+        "Jessica Burgner-Kahrs"
+      ],
+      "published_date": "2026-10-29T17:50:56Z",
+      "updated_date": "2026-10-29T17:50:56Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "This work proposes a novel conveyor belt mechanism enabling continuous, active repositioning of functional elements along the body of a tendon-driven continuum robot. Up to three conveyor belt mechanisms are integrated within a 9 mm diameter continuum robot. We demonstrate equivalent or reduced conveyor belt actuation forces compared to robot tendon actuation forces. As a case study, we mount permanent magnets along two conveyor belts, and demonstrate actively reconfigurable inter-robot coupling. Coupling point location and quantity can be adjusted during robot operation to actively tune the effective stiffness of the coupled multi-robot system. We show that effective stiffness follows a predictable inverse-cubic relationship with coupling location, and increases with the number of coupling points. These findings demonstrate that the conveyor belt mechanism enables active functional element repositioning for changing tasks requirements, with magnetic inter-robot coupling as one proof-of-concept.",
+      "url": "https://arxiv.org/abs/2610.40600v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40600v1",
+      "relevance_score": 0.597,
+      "processed_date": "2026-11-01",
+      "summary": "Addressing critical demands in Robotics, this research investigates this work proposes a novel conveyor belt mechanism enabling continuous, active repositioning of functional elements along the body of a tendon-driven continuum robot. Up to three conveyor belt mechanisms are integrated within a 9 mm diameter continuum robot. This work proposes a novel conveyor belt mechanism enabling continuous, active repositioning of functional elements along the body of a tendon-driven continuum robot. We demonstrate equivalent or reduced conveyor belt actuation forces compared to robot tendon actuation forces. These findings demonstrate that the conveyor belt mechanism enables active functional element repositioning for changing tasks requirements, with magnetic inter-robot coupling as one proof-of-concept.",
+      "key_concepts": [
+        "Belt Mechanism",
+        "Continuum Robot",
+        "Conveyor Belt",
+        "Active Functional",
+        "Active Repositioning",
+        "Actively Reconfigurable"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "Up to three conveyor belt mechanisms are integrated within a 9 mm diameter continuum robot.",
+        "key_innovation": "This work proposes a novel conveyor belt mechanism enabling continuous, active repositioning of functional elements along the body of a tendon-driven continuum robot.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.40539",
+      "raw_id": "http://arxiv.org/abs/2610.40539v1",
+      "title": "PhysVLMM: Interaction-Conditioned Physical Belief Maps for Articulated Objects in Robot Scene Maps",
+      "authors": [
+        "Dibyendu Ghosh"
+      ],
+      "published_date": "2026-10-29T17:35:40Z",
+      "updated_date": "2026-10-29T17:35:40Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Mobile robots must open doors and drawers, yet their scene maps record what each object is and whether it has moved, not how it will respond to a pull. This paper proposes PhysVLMM, a method that maintains a physical belief for every articulated part of a Vision-Language-Motion Map and answers a planner's queries about it, with two algorithms: a map update and a query. Watching a part move provably cannot identify its dynamics, and a measured pull identifies only the pulled part, up to one direction. PhysVLMM therefore (i) keeps that direction as a posterior instead of a point estimate, (ii) passes the evidence of each pull in closed form to the untouched look-alike parts of the map, and (iii) answers whether an action will succeed at a stated risk, or abstains. On real doors and drawers in 18 homes, it identifies the joint type in 86% of held-out pulls (48% for a learned single-view method) and predicts the response to a pull with 41% lower error than differentiable simulation (CRPS 0.323 vs. 0.544), four orders of magnitude faster (13 ms vs. 230 s per case). The posterior lowers the final-position error from 0.460 to 0.270, sharing lowers the force error of untouched parts from 56% to 42%, and at every stated risk from 0.02 to 0.30 the false-safe answers stay within it. Pooling all measured parts of a home does as well as the look-alike groups, and simpler variants predict where a pulled part stops at least as well.",
+      "url": "https://arxiv.org/abs/2610.40539v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40539v1",
+      "relevance_score": 0.597,
+      "processed_date": "2026-11-01",
+      "summary": "Addressing critical demands in Robotics, this research investigates mobile robots must open doors and drawers, yet their scene maps record what each object is and whether it has moved, not how it will respond to a pull. This paper proposes PhysVLMM, a method that maintains a physical belief for every articulated part of a Vision-Language-Motion Map and answers a planner's queries about it, with two algorithms: a map update and a query. Watching a part move provably cannot identify its dynamics, and a measured pull identifies only the pulled part, up to one direction. Pooling all measured parts of a home does as well as the look-alike groups, and simpler variants predict where a pulled part stops at least as well.",
+      "key_concepts": [
+        "Abstains Real",
+        "Action Succeed",
+        "Algorithms Map",
+        "Answers Action",
+        "Answers Planner",
+        "Answers Stay"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "This paper proposes PhysVLMM, a method that maintains a physical belief for every articulated part of a Vision-Language-Motion Map and answers a planner's queries about it, with two algorithms: a map update and a query.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Abstains Real, Action Succeed.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.40649",
+      "raw_id": "http://arxiv.org/abs/2610.40649v1",
+      "title": "Rethinking Neural Thickets Without Weight Perturbations",
+      "authors": [
+        "Nicolas Dufour",
+        "Elouan Gardès",
+        "Amil Dravid",
+        "Patrick Pérez",
+        "Loic Landrieu"
+      ],
+      "published_date": "2026-10-29T17:59:29Z",
+      "updated_date": "2026-10-29T17:59:29Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block already recovers much of the improvement, while keeping the model entirely frozen and adding a random bias to its output logits matches or exceeds full-weight perturbations on most reasoning tasks. This suggests an alternative explanation based on output diversity, validation-based selection, and voting. We formalize this view as Perturb-Select-Vote (PSV), a general procedure that generates perturbed predictors, selects high-performing members on a small validation set, and aggregates their predictions. This interpretation connects Neural Thickets to established inference-time methods, including sampling, self-consistency, and verifier-guided selection. A first-order analysis further shows that small weight perturbations act primarily through their induced logit shifts. We extend this analysis to vision, where logit PSV substantially improves performance under domain shift, including on Earth observation, while full-weight perturbations provide little additional benefit. Together, these results suggest that the gains attributed to nearby weight-space experts can instead be obtained through output diversity, selection, and voting. Logit PSV realizes these benefits with a fully frozen model, providing a simple, training-free alternative to full-weight perturbation ensembles across language and vision.",
+      "url": "https://arxiv.org/abs/2610.40649v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40649v1",
+      "relevance_score": 0.583,
+      "processed_date": "2026-11-01",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates the neural thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block already recovers much of the improvement, while keeping the model entirely frozen and adding a random bias to its output logits matches or exceeds full-weight perturbations on most reasoning tasks. Logit PSV realizes these benefits with a fully frozen model, providing a simple, training-free alternative to full-weight perturbation ensembles across language and vision.",
+      "key_concepts": [
+        "Neural Thickets",
+        "Weight Perturbations",
+        "Logit Psv",
+        "Output Diversity",
+        "Selection Voting",
+        "Validation Set"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "We reproduce the reported gains, but show that they do not require this geometric explanation.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Neural Thickets, Weight Perturbations.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.40522",
+      "raw_id": "http://arxiv.org/abs/2610.40522v1",
+      "title": "Dynamic Powergrid Optimization with FPGA-based Neuromorphic Higher-order Ising Machines",
+      "authors": [
+        "Saptarshi Maiti",
+        "Shantanu Chakrabartty",
+        "Chetan Singh Thakur"
+      ],
+      "published_date": "2026-10-29T17:30:34Z",
+      "updated_date": "2026-10-29T17:30:34Z",
+      "categories": [
+        "cs.NE"
+      ],
+      "abstract": "The advent of large, high-density FPGAs such as the AMD Versal enables efficient hardware implementation of neuromorphic Ising machines, unlocking unprecedented performance for complex combinatorial optimizations. A critical application for this computing paradigm is dynamic powergrid optimization, specifically Distribution Network Reconfiguration (DNR), which seeks to mitigate severe resistive losses and reduce electricity costs by optimizing network switch configurations in real time. This paper presents an FPGA-based neuromorphic higher-order Ising machine for high-speed, adaptive DNR. By directly mapping DNR onto higher-order Ising interactions via a polynomial unconstrained binary optimization (PUBO) formulation, the proposed architecture requires only 179 spins for the IEEE 33-bus network, which represents a 6 times reduction compared to standard quadratic formulations. Implemented on an AMD Versal Premium VP1802 FPGA, the architecture executes parallel spin-group updates every 20 ns and solves 33-, 51-, and 69-bus benchmark networks with median latencies of 1.6-29.3 ms, yielding a 7-58 times speedup over Gurobi to the first optimal solution. Using the solver with expanded network-switching flexibility reduces power loss by 80.71 kW (57.83%), while adaptive reconfiguration every 10 s under time-varying demand saves 131.16 kWh/day over static daily reconfiguration, highlighting the potential of higher-order Ising hardware for fast, adaptive smart grid management.",
+      "url": "https://arxiv.org/abs/2610.40522v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40522v1",
+      "relevance_score": 0.577,
+      "processed_date": "2026-11-01",
+      "summary": "Addressing critical demands in IoT & Edge AI, this research investigates the advent of large, high-density fpgas such as the amd versal enables efficient hardware implementation of neuromorphic ising machines, unlocking unprecedented performance for complex combinatorial optimizations. This paper presents an FPGA-based neuromorphic higher-order Ising machine for high-speed, adaptive DNR. The advent of large, high-density FPGAs such as the AMD Versal enables efficient hardware implementation of neuromorphic Ising machines, unlocking unprecedented performance for complex combinatorial optimizations. Using the solver with expanded network-switching flexibility reduces power loss by 80.71 kW (57.83%), while adaptive reconfiguration every 10 s under time-varying demand saves 131.16 kWh/day over static daily reconfiguration, highlighting the potential of higher-order Ising hardware for fast, adaptive smart grid management.",
+      "key_concepts": [
+        "Higher-order Ising",
+        "Adaptive Dnr",
+        "Adaptive Reconfiguration",
+        "Adaptive Smart",
+        "Advent Large",
+        "Amd Versal"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in IoT & Edge AI and existing computational workflows.",
+        "approach": "This paper presents an FPGA-based neuromorphic higher-order Ising machine for high-speed, adaptive DNR.",
+        "key_innovation": "The advent of large, high-density FPGAs such as the AMD Versal enables efficient hardware implementation of neuromorphic Ising machines, unlocking unprecedented performance for complex combinatorial optimizations.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Low-power edge AI devices, embedded IoT sensor networks, and distributed on-device inference.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "IoT & Edge AI"
+    },
+    {
+      "arxiv_id": "2610.40589",
+      "raw_id": "http://arxiv.org/abs/2610.40589v1",
+      "title": "Collaborative AI agents for autonomous experimental research with solid-state quantum spins",
+      "authors": [
+        "El Mustapha Mansouri",
+        "Eikichi Kimura",
+        "Masato Koga",
+        "Keigo Arai"
+      ],
+      "published_date": "2026-10-29T17:47:50Z",
+      "updated_date": "2026-10-29T17:47:50Z",
+      "categories": [
+        "cs.AI",
+        "cs.MA",
+        "quant-ph"
+      ],
+      "abstract": "An autonomous research laboratory could conduct an entire study, from formulating questions to preparing manuscripts. Artificial intelligence (AI) offers one route towards this goal. Recent AI systems take on several research roles, but may draw conclusions that the evidence does not support. Here, we present an autonomous research laboratory in which agents based on large language models assess one another's work and can stop or redirect investigations. They can generate and reject research questions, require separate theoretical checks and conduct experiments designed to challenge their claims. We demonstrate these capabilities by investigating ensembles of quantum spins in diamond. The agents derived the minimum number of calibration settings needed to predict responses to a defined family of microwave pulse sequences. They checked the result computationally and designed experiments to distinguish competing predictions. An initial experiment agreed with the theoretical predictions, but repeated reference measurements showed that the signal was drifting during data collection. The agents therefore treated the result as inconclusive and revised the measurement protocol without relaxing the acceptance criteria. The revised experiment met those criteria and supported the theoretical predictions. This study demonstrates that collaborating AI agents can select research questions, derive theoretical results and test their predictions experimentally.",
+      "url": "https://arxiv.org/abs/2610.40589v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40589v1",
+      "relevance_score": 0.576,
+      "processed_date": "2026-11-01",
+      "summary": "They can generate and reject research questions, require separate theoretical checks and conduct experiments designed to challenge their claims. Here, we present an autonomous research laboratory in which agents based on large language models assess one another's work and can stop or redirect investigations. Recent AI systems take on several research roles, but may draw conclusions that the evidence does not support. This study demonstrates that collaborating AI agents can select research questions, derive theoretical results and test their predictions experimentally. An autonomous research laboratory could conduct an entire study, from formulating questions to preparing manuscripts. Artificial intelligence (AI) offers one route towards this goal.",
+      "key_concepts": [
+        "Acceptance Criteria",
+        "Agreed Theoretical",
+        "Artificial Intelligence",
+        "Autonomous Research",
+        "Calibration Settings",
+        "Capabilities Investigating"
+      ],
+      "insights": {
+        "problem": "They can generate and reject research questions, require separate theoretical checks and conduct experiments designed to challenge their claims.",
+        "approach": "Here, we present an autonomous research laboratory in which agents based on large language models assess one another's work and can stop or redirect investigations.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Acceptance Criteria, Agreed Theoretical.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.40614",
+      "raw_id": "http://arxiv.org/abs/2610.40614v1",
+      "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+      "authors": [
+        "Jinhyeok Choi",
+        "JoungBin Lee",
+        "Jongmin Lee",
+        "Minkyeong Jeon",
+        "Jiyoung Kim",
+        "Kaeun Han",
+        "Yoonjin Yoon",
+        "Seungryong Kim"
+      ],
+      "published_date": "2026-10-29T17:54:42Z",
+      "updated_date": "2026-10-29T17:54:42Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. Existing approaches rely on either temporal context or explicit 3D memory, both of which scale poorly because memory grows with the length of the generated stream. Moreover, explicit 3D memories condition latent video generators by re-encoding RGB renderings, which precludes real-time generation. In this paper, we introduce a Latent 3D Gaussian Memory (L3G) that combines the efficiency of feed-forward reconstruction with a compact, rapidly renderable scene representation. Building on this memory, we propose L3G-World, in which a memory updater and a video diffusion transformer (DiT) alternate autoregressively to generate spatially consistent worlds. The memory updater spawns Gaussians in newly observed regions and refines existing ones, so that the memory grows with scene extent rather than stream length. Each Gaussian further stores a VAE latent feature, allowing the memory to be rendered directly into the DiT's latent space without VAE re-encoding. Experiments show that L3G-World achieves state-of-the-art generation quality and long-horizon spatial consistency, with up to 38.6\\times fewer 3D primitives, 3.2\\times faster memory updates, and 359\\times faster memory rendering relative to the most efficient prior 3D-memory baseline for each metric, enabling real-time world generation at 9 FPS.",
+      "url": "https://arxiv.org/abs/2610.40614v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40614v1",
+      "relevance_score": 0.563,
+      "processed_date": "2026-11-01",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates interactive world models generate visual content conditioned on user actions, yet maintaining spatial consistency over long-horizon exploration in real time remains challenging. In this paper, we introduce a Latent 3D Gaussian Memory (L3G) that combines the efficiency of feed-forward reconstruction with a compact, rapidly renderable scene representation. Experiments show that L3G-World achieves state-of-the-art generation quality and long-horizon spatial consistency, with up to 38.6\\times fewer 3D primitives, 3.2\\times faster memory updates, and 359\\times faster memory rendering relative to the most efficient prior 3D-memory baseline for each metric, enabling real-time world generation at 9 FPS.",
+      "key_concepts": [
+        "World Generation",
+        "Building Memory",
+        "Faster Memory",
+        "Memory Grows",
+        "Memory Updater",
+        "Spatial Consistency"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "In this paper, we introduce a Latent 3D Gaussian Memory (L3G) that combines the efficiency of feed-forward reconstruction with a compact, rapidly renderable scene representation.",
+        "key_innovation": "Formulates an integrated mechanism leveraging World Generation, Building Memory.",
+        "results": "Experiments show that L3G-World achieves state-of-the-art generation quality and long-horizon spatial consistency, with up to 38.6\\times fewer 3D primitives, 3.2\\times faster memory updates, and 359\\times faster memory rendering relative to the most efficient prior 3D-memory baseline for each metric, enabling real-time world generation at 9 FPS.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.40544",
+      "raw_id": "http://arxiv.org/abs/2610.40544v1",
+      "title": "Machine Learning-Based Detection of Mobile Money Scan Messages in Ghana: A Comparative Evaluation of Naive Bayes, Support Vector Machine, and Randon Forest Classifiers",
+      "authors": [
+        "Ibrahim Salifu",
+        "Muhaisin Tiyumba Nantogmah"
+      ],
+      "published_date": "2026-10-29T17:36:41Z",
+      "updated_date": "2026-10-29T17:36:41Z",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Mobile money (MoMo) is Ghana's preferred retail payment channel, recording GHC518.4 billion in transactions in December 2025 and over 26.7 million active accounts (Graphic Online, 2026). This growth has coincided with increased social-engineering fraud over Short Message Service (SMS) and Unstructured Supplementary Service Data (USSD), where fraudsters impersonate network operators, agents, relatives, or regulators to obtain personal identification numbers (PINs), identity data, or funds. We present a supervised machine-learning pipeline for classifying scam and legitimate Ghanaian MoMo SMS messages using a labelled corpus of 220 messages across 18 scam and legitimate subcategories. Domain-specific normalisation of currency amounts, phone numbers, and USSD codes preceded TF-IDF vectorisation of unigrams and bigrams. Using stratified five-fold cross-validation and a 20% held-out test set, we trained and evaluated Multinomial Naive Bayes, linear support vector machine (SVM), and Random Forest classifiers using accuracy, precision, recall, F1-score, Matthews correlation coefficient (MCC), and area under the receiver operating characteristic curve (AUC-ROC). Held-out accuracy, F1, and AUC were 1.00 for Naive Bayes and linear SVM; cross-validated accuracy averaged 96.6% (+/-3.3), 94.9% (+/-4.6), and 92.0% (+/-4.2). Discriminative n-grams reflected imperative urgency (\"send,\" \"claim,\" \"please send\") and PIN solicitation (\"PIN,\" \"pincode\"); legitimate messages featured confirmatory and cautionary language (\"balance,\" \"successful,\" \"do not share\"). Findings are contextualised in Sub-Saharan African SMS fraud detection, small template-based corpus ceiling effects, and a pathway toward larger naturalistic multilingual corpora. Interpretable classical classifiers achieve high accuracy on structured MoMo scam text and suit carrier- or handset-level filtering in low-resource, on-device settings.",
+      "url": "https://arxiv.org/abs/2610.40544v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40544v1",
+      "relevance_score": 0.563,
+      "processed_date": "2026-11-01",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates mobile money (momo) is ghana's preferred retail payment channel, recording ghc518.4 billion in transactions in december 2025 and over 26.7 million active accounts (graphic online, 2026). We present a supervised machine-learning pipeline for classifying scam and legitimate Ghanaian MoMo SMS messages using a labelled corpus of 220 messages across 18 scam and legitimate subcategories. Interpretable classical classifiers achieve high accuracy on structured MoMo scam text and suit carrier- or handset-level filtering in low-resource, on-device settings. Mobile money (MoMo) is Ghana's preferred retail payment channel, recording GHC518.4 billion in transactions in December 2025 and over 26.7 million active accounts (Graphic Online, 2026).",
+      "key_concepts": [
+        "Naive Bayes",
+        "Active Accounts",
+        "African Sms",
+        "Bayes Linear",
+        "Scam Legitimate",
+        "Text Suit Carrier"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We present a supervised machine-learning pipeline for classifying scam and legitimate Ghanaian MoMo SMS messages using a labelled corpus of 220 messages across 18 scam and legitimate subcategories.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Naive Bayes, Active Accounts.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2610.40503",
+      "raw_id": "http://arxiv.org/abs/2610.40503v1",
+      "title": "Algebraic World Model: From Exploration to Proofs",
+      "authors": [
+        "Guancheng Pan",
+        "Qixin Tan",
+        "Yang Yuan",
+        "Andrew Chi-Chih Yao"
+      ],
+      "published_date": "2026-10-29T17:20:31Z",
+      "updated_date": "2026-10-29T17:20:31Z",
+      "categories": [
+        "cs.AI",
+        "cs.LO"
+      ],
+      "abstract": "AI has made remarkable progress in mathematics, solving challenging problems with machine-checkable proofs in Lean, yet typically relying on predefined mathematical definitions and formal specifications. This raises a natural question: can it reason rigorously about an unknown world? We introduce the Algebraic World Model (AWM), a framework that turns interaction with unfamiliar environments into explicit mathematical models supporting formal reasoning. AWM explores the environment and develops executable Python hypotheses, continually testing and revising them against observations. It then structures these hypotheses into typed objects and shared rules, simplifies their structure through category-theory-guided transformations, and formalizes the resulting model in Lean 4 to prove reachability and impossibility. AWM can formally prove that a goal is unreachable, even beyond explored trajectories. On two impossible game levels, it constructs closed, kernel-checked Lean proofs excluding every legal winning sequence in all six runs, while Claude Opus 5.5 and GPT-6 Astra, equipped with coding tools, produce none in twelve baseline runs. Four of AWM's six initial bounds are correct, compared with one for Opus 5.5 and none for GPT-6 Astra; given only feedback that a cheaper win exists, AWM revises its rules and constructs new proofs, reaching six of six correct bounds. Moreover, AWM produces interpretable mathematical models whose rules can be inspected and tested step by step. Across all 25 public ARC-AGI-3 games, these models enable Lean to replay the winning trajectories of all 183 levels and generalize beyond observed play, predicting unseen transitions and detecting changes in game mechanics. With Claude Opus 5, AWM clears all levels with a score of 99.9, while its certified winning trajectories use only 43% of the human baseline's actions.",
+      "url": "https://arxiv.org/abs/2610.40503v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40503v1",
+      "relevance_score": 0.563,
+      "processed_date": "2026-11-01",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates ai has made remarkable progress in mathematics, solving challenging problems with machine-checkable proofs in lean, yet typically relying on predefined mathematical definitions and formal specifications. We introduce the Algebraic World Model (AWM), a framework that turns interaction with unfamiliar environments into explicit mathematical models supporting formal reasoning. With Claude Opus 5, AWM clears all levels with a score of 99.9, while its certified winning trajectories use only 43% of the human baseline's actions. AI has made remarkable progress in mathematics, solving challenging problems with machine-checkable proofs in Lean, yet typically relying on predefined mathematical definitions and formal specifications.",
+      "key_concepts": [
+        "World Model",
+        "Awm Initial",
+        "Claude Opus",
+        "Gpt- Astra",
+        "Opus Gpt-",
+        "Turns Interaction Unfamiliar"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "We introduce the Algebraic World Model (AWM), a framework that turns interaction with unfamiliar environments into explicit mathematical models supporting formal reasoning.",
+        "key_innovation": "Formulates an integrated mechanism leveraging World Model, Awm Initial.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2610.40502",
+      "raw_id": "http://arxiv.org/abs/2610.40502v1",
+      "title": "A Two-Wheeled Quadrotor with All-Clockwise Tilted Rotors for Level-Attitude Surface Locomotnion",
+      "authors": [
+        "Takumi Ito",
+        "Satoshi Nakano"
+      ],
+      "published_date": "2026-10-29T17:20:22Z",
+      "updated_date": "2026-10-29T17:20:22Z",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "abstract": "Conventional wheel-equipped quadrotor UAVs must tilt their bodies to generate lateral forces, limiting their ability to maintain a desired attitude during lateral motion. This paper proposes a wheeled quadrotor with all-clockwise tilted rotors that uses surface contact as a constraint to generate propulsion along the contact surface without tilting the vehicle. We analyze feasible forces and system controllability under surface contact and optimize the vehicle design considering different rotor-spin configurations. The optimization results show that a configuration in which all four rotors spin clockwise can generate a larger tangential force than the conventional alternating-spin configuration. This approach enables both aerial and contact-based locomotion without additional rotor-tilting actuators or mechanisms. Simulation results demonstrate both hovering in free space and horizontal locomotion on a floor while maintaining a level attitude.",
+      "url": "https://arxiv.org/abs/2610.40502v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40502v1",
+      "relevance_score": 0.557,
+      "processed_date": "2026-11-01",
+      "summary": "Addressing critical demands in Robotics, this research investigates conventional wheel-equipped quadrotor uavs must tilt their bodies to generate lateral forces, limiting their ability to maintain a desired attitude during lateral motion. This paper proposes a wheeled quadrotor with all-clockwise tilted rotors that uses surface contact as a constraint to generate propulsion along the contact surface without tilting the vehicle. The optimization results show that a configuration in which all four rotors spin clockwise can generate a larger tangential force than the conventional alternating-spin configuration. Simulation results demonstrate both hovering in free space and horizontal locomotion on a floor while maintaining a level attitude.",
+      "key_concepts": [
+        "All-clockwise Tilted",
+        "Actuators Mechanisms",
+        "Additional Rotor-tilting",
+        "Aerial Contact-based",
+        "Alternating-spin Configuration",
+        "Analyze Feasible"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "This paper proposes a wheeled quadrotor with all-clockwise tilted rotors that uses surface contact as a constraint to generate propulsion along the contact surface without tilting the vehicle.",
+        "key_innovation": "Formulates an integrated mechanism leveraging All-clockwise Tilted, Actuators Mechanisms.",
+        "results": "The optimization results show that a configuration in which all four rotors spin clockwise can generate a larger tangential force than the conventional alternating-spin configuration.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "This paper proposes a wheeled quadrotor with all-clockwise tilted rotors that uses surface contact as a constraint to generate propulsion along the contact surface without tilting the vehicle."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2610.40655",
+      "raw_id": "http://arxiv.org/abs/2610.40655v1",
+      "title": "Elucidating the Design Space of LM Data Attribution",
+      "authors": [
+        "Steven Yu",
+        "Sheng-Yu Wang",
+        "Kimia Hamidieh",
+        "Antonio Torralba",
+        "David Bau"
+      ],
+      "published_date": "2026-10-29T17:59:53Z",
+      "updated_date": "2026-10-29T17:59:53Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution algorithm fails. To diagnose these failures, we explore the design space of LLM data attribution, with a primary focus on evaluation. We introduce the Controlled Attribution Benchmark (CATT) for fact tracing, in which we fine-tune LLMs on entirely fictitious knowledge, providing unambiguous ground truth for attribution. This synthetic setup allows us to systematically alter one dataset configuration at a time, such as document redundancy and lexical distractors. With this configurable evaluation, we demonstrate that redundancy and distractors consistently degrade attribution performance. Rather than proposing a new estimator, we examine two design choices that are underexplored: the loss used to compute gradients and how per-token attribution scores are aggregated into a document score. We find that the true causal evidence within a training document is highly localized, but standard methods dilute this evidence into noise by averaging attribution scores across the entire document. We find that replacing standard cross-entropy loss gradients with the negative log-odds gradients surfaces the critical tokens from other uninformative ones. We can then aggregate only the top token scores to improve ground truth recall by 35 to 72 percentage points across multiple baselines on our diagnostic benchmark. The negative log-odds correction also generalizes to FTRACE-TREX, improving counterfactual retraining performance for every method we test, by up to 4.9x.",
+      "url": "https://arxiv.org/abs/2610.40655v1",
+      "pdf_url": "https://arxiv.org/pdf/2610.40655v1",
+      "relevance_score": 0.556,
+      "processed_date": "2026-11-01",
+      "summary": "However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution algorithm fails. We introduce the Controlled Attribution Benchmark (CATT) for fact tracing, in which we fine-tune LLMs on entirely fictitious knowledge, providing unambiguous ground truth for attribution. The negative log-odds correction also generalizes to FTRACE-TREX, improving counterfactual retraining performance for every method we test, by up to 4.9x. Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. To diagnose these failures, we explore the design space of LLM data attribution, with a primary focus on evaluation.",
+      "key_concepts": [
+        "Attribution Algorithm Fails",
+        "Attribution Methods",
+        "Attribution Scores",
+        "Ground Truth",
+        "Negative Log-odds",
+        "Truth Attribution Synthetic"
+      ],
+      "insights": {
+        "problem": "However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution algorithm fails.",
+        "approach": "We introduce the Controlled Attribution Benchmark (CATT) for fact tracing, in which we fine-tune LLMs on entirely fictitious knowledge, providing unambiguous ground truth for attribution.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Attribution Algorithm Fails, Attribution Methods.",
+        "results": "The negative log-odds correction also generalizes to FTRACE-TREX, improving counterfactual retraining performance for every method we test, by up to 4.9x.",
         "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
         "limitations": "Not specified in the available abstract."
       },
