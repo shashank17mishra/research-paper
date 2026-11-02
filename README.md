@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[01 November 2026 Report](reports/2026/11/01/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[02 November 2026 Report](reports/2026/11/02/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/01/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/02/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/01/infographic.png)](reports/2026/11/01/infographic.png)
+[![Daily Infographic](reports/2026/11/02/infographic.png)](reports/2026/11/02/infographic.png)
 
 ---
 
@@ -25,10 +25,10 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `3` |
+| **Artificial Intelligence (AI)** | `6` |
 | **Machine Learning (ML)** | `3` |
-| **Robotics** | `3` |
-| **IoT & Edge AI** | `1` |
+| **Robotics** | `5` |
+| **IoT & Edge AI** | `0` |
 
 ---
 
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Elucidating the Design Space of LM Data Attribution** | `Natural Language Processing` | `0.56` | [arXiv](https://arxiv.org/abs/2610.40655v1) |
-| 2 | **A Two-Wheeled Quadrotor with All-Clockwise Tilted Rotors for Level-Attit...** | `Robotics` | `0.56` | [arXiv](https://arxiv.org/abs/2610.40502v1) |
-| 3 | **Algebraic World Model: From Exploration to Proofs** | `Artificial Intelligence` | `0.56` | [arXiv](https://arxiv.org/abs/2610.40503v1) |
-| 4 | **Machine Learning-Based Detection of Mobile Money Scan Messages in Ghana:...** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2610.40544v1) |
-| 5 | **L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian M...** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2610.40614v1) |
+| 1 | **RoboArchitect: Automating the Design of Robotic Agents with Persistent M...** | `Robotics` | `0.68` | [arXiv](https://arxiv.org/abs/2610.42141v1) |
+| 2 | **A Hybrid Path Planning Framework for Assistive Wheelchair Navigation in ...** | `Robotics` | `0.69` | [arXiv](https://arxiv.org/abs/2610.42049v1) |
+| 3 | **ROOF: Learning Humanoid Fall Recovery under Overhead Constraints** | `Robotics` | `0.69` | [arXiv](https://arxiv.org/abs/2610.42097v1) |
+| 4 | **REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum C...** | `Artificial Intelligence` | `0.70` | [arXiv](https://arxiv.org/abs/2610.42053v1) |
+| 5 | **Think in 360°: Benchmarking and Bootstrapping Panoramic Video Reasoning** | `Artificial Intelligence` | `0.70` | [arXiv](https://arxiv.org/abs/2610.42082v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `228`
-- **Total Operational Runs**: `35 days`
+- **Total Papers Analyzed**: `238`
+- **Total Operational Runs**: `36 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 

@@ -9704,5 +9704,429 @@
       "limitations": "Not specified in the available abstract."
     },
     "primary_topic": "Natural Language Processing"
+  },
+  {
+    "arxiv_id": "2610.42092",
+    "raw_id": "http://arxiv.org/abs/2610.42092v1",
+    "title": "Rethinking Asymmetry in Self-Supervised 3D Geometry Learning",
+    "authors": [
+      "Gyeongjin Kang",
+      "Freeman Cheng",
+      "Botao Ye",
+      "Weijie Lyu",
+      "Ming-Hsuan Yang",
+      "Eunbyung Park"
+    ],
+    "published_date": "2026-10-30T17:38:39Z",
+    "updated_date": "2026-10-30T17:38:39Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "Self-supervised learning relies on asymmetry between what a model observes and what it must explain. Recent methods learn 3D geometry from unposed images by predicting cameras and scene structure, then rendering held-out views. To avoid trivial solutions, they impose this asymmetry in the input space, restricting how views interact through separate branches or masked attention. We revisit this design with geometric accuracy, rather than rendering quality, as the main objective. When a held-out view lies between context views, the context already constrains the geometry it observes. We therefore impose the asymmetry in the 3D representation space, excluding held-out views only from the reconstructed scene while a shared backbone uses all views for correspondence. This improves depth and pose estimation over input-space designs. We further exploit view density: sparse and dense observations depict the same scene but provide different amounts of correspondence. Aligning sparse-context features with dense-context features supplies a geometric training signal alongside rendering, without a pretrained geometric teacher. We additionally align features with a frozen vision foundation model, which brings further gains. None of these signals requires geometric annotation, and the resulting model improves geometry estimation over prior self-supervised methods. Controlled experiments isolate the contribution of each component, and self-supervised pretraining also improves subsequent supervised training.",
+    "url": "https://arxiv.org/abs/2610.42092v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.42092v1",
+    "relevance_score": 0.714,
+    "processed_date": "2026-11-02",
+    "summary": "Addressing critical demands in Machine Learning, this research investigates self-supervised learning relies on asymmetry between what a model observes and what it must explain. Recent methods learn 3D geometry from unposed images by predicting cameras and scene structure, then rendering held-out views. To avoid trivial solutions, they impose this asymmetry in the input space, restricting how views interact through separate branches or masked attention. Controlled experiments isolate the contribution of each component, and self-supervised pretraining also improves subsequent supervised training. Self-supervised learning relies on asymmetry between what a model observes and what it must explain. We revisit this design with geometric accuracy, rather than rendering quality, as the main objective.",
+    "key_concepts": [
+      "Foundation Model",
+      "Self-supervised Learning",
+      "Accuracy Rendering",
+      "Additionally Align",
+      "Align Features",
+      "Aligning Sparse-context"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+      "approach": "Recent methods learn 3D geometry from unposed images by predicting cameras and scene structure, then rendering held-out views.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Foundation Model, Self-supervised Learning.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2610.42146",
+    "raw_id": "http://arxiv.org/abs/2610.42146v1",
+    "title": "Hierarchical World Models with Implicit Dynamics",
+    "authors": [
+      "Gaoyue Zhou",
+      "Yvonne Wu",
+      "Zichen Jeff Cui",
+      "Nicolas Ballas",
+      "Mido Assran",
+      "Lerrel Pinto",
+      "Yann LeCun"
+    ],
+    "published_date": "2026-10-30T17:59:25Z",
+    "updated_date": "2026-10-30T17:59:25Z",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "abstract": "Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative errors and search complexity. Existing hierarchical methods often use rigid macro-actions or latent skills, leading to brittle representations and limited fine-grained control. We introduce ID-WM (Implicit Dynamics World Models), a hierarchical world model that decouples state-space reachability from local control. Our framework utilizes a high-level model to sample feasible transitions across the state manifold and a low-level world model as an inverse dynamics solver to ground these transitions into precise actions. This allows the planner to identify reachable subgoals without being constrained by low-level execution details. By prioritizing local physical feasibility over global behavioral patterns, ID-WM synthesizes novel long-horizon plans from short segments, transcending the specific behavioral modes seen during training. We demonstrate its effectiveness across three navigation and manipulation suites, achieving a 38.5% improvement over state-of-the-art policy and diffusion-based planners. Crucially, by leveraging this hierarchical structure to mitigate compounding errors, our approach yields a 135% performance gain over single-level world model MPC, particularly in complex, unseen configurations for long-horizon tasks. Videos can be viewed at https://id-wm.github.io",
+    "url": "https://arxiv.org/abs/2610.42146v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.42146v1",
+    "relevance_score": 0.712,
+    "processed_date": "2026-11-02",
+    "summary": "However, long-horizon tasks remain hindered by cumulative errors and search complexity. We introduce ID-WM (Implicit Dynamics World Models), a hierarchical world model that decouples state-space reachability from local control. By prioritizing local physical feasibility over global behavioral patterns, ID-WM synthesizes novel long-horizon plans from short segments, transcending the specific behavioral modes seen during training. Crucially, by leveraging this hierarchical structure to mitigate compounding errors, our approach yields a 135% performance gain over single-level world model MPC, particularly in complex, unseen configurations for long-horizon tasks. Videos can be viewed at https://id-wm.github.io Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning.",
+    "key_concepts": [
+      "World Model",
+      "Manipulation",
+      "Test-time Adaptation",
+      "Transcending Specific",
+      "Transitions Precise Actions",
+      "Transitions State"
+    ],
+    "insights": {
+      "problem": "However, long-horizon tasks remain hindered by cumulative errors and search complexity.",
+      "approach": "We introduce ID-WM (Implicit Dynamics World Models), a hierarchical world model that decouples state-space reachability from local control.",
+      "key_innovation": "By prioritizing local physical feasibility over global behavioral patterns, ID-WM synthesizes novel long-horizon plans from short segments, transcending the specific behavioral modes seen during training.",
+      "results": "Crucially, by leveraging this hierarchical structure to mitigate compounding errors, our approach yields a 135% performance gain over single-level world model MPC, particularly in complex, unseen configurations for long-horizon tasks.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2610.42004",
+    "raw_id": "http://arxiv.org/abs/2610.42004v1",
+    "title": "TradeWar: A Benchmark for Execution-Grounded Trade Negotiation with Adaptive LLM Agents",
+    "authors": [
+      "Xiangyu Kong",
+      "Ruirui Yang",
+      "Xia Hou"
+    ],
+    "published_date": "2026-10-30T16:45:29Z",
+    "updated_date": "2026-10-30T16:45:29Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Multi-turn negotiation remains a challenging problem for large language model (LLM) agents. While LLMs can conduct natural-language dialogue, existing benchmarks predominantly assess only agreement rates, overlooking whether negotiated commitments actually create value once executed. To address this gap, we introduce TradeWar, a multi-country simulation benchmark that translates negotiation dialogues into concrete tariff and trade-share policies, enforces capacity and network constraints during settlement, and evaluates outcomes via an Economic Health Index (EHI). To solve this execution-grounded task, we propose TACTIC (Trade-aware Adaptive Consolidation and Theory-of-mind for International Commerce), an agent that iteratively refines its negotiation strategy across episodes-without updating base LLM weights-by leveraging prior experience, opponent behavior, and past settlement outcomes. Despite using zero-shot chain-of-thought (CoT) prompting, PromptLLM attains a 75% agreement rate but only 57.1 final EHI (*100), whereas TACTIC reaches 68.8. Across 20 sequential episodes and three seeds, TACTIC's final EHI improves from 58.2 to 73.2, compared with 65.2 for an ablation without cross-episode updates. Under technology-controls and energy-crisis shocks, TACTIC also exhibits smaller performance degradation than PromptLLM and MemoryLLM. These results indicate that CoT deliberation and interaction memory alone do not fully address delayed execution feedback, whereas settlement-grounded adaptation improves long-horizon negotiation in TradeWar.",
+    "url": "https://arxiv.org/abs/2610.42004v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.42004v1",
+    "relevance_score": 0.71,
+    "processed_date": "2026-11-02",
+    "summary": "Multi-turn negotiation remains a challenging problem for large language model (LLM) agents. To address this gap, we introduce TradeWar, a multi-country simulation benchmark that translates negotiation dialogues into concrete tariff and trade-share policies, enforces capacity and network constraints during settlement, and evaluates outcomes via an Economic Health Index (EHI). These results indicate that CoT deliberation and interaction memory alone do not fully address delayed execution feedback, whereas settlement-grounded adaptation improves long-horizon negotiation in TradeWar. While LLMs can conduct natural-language dialogue, existing benchmarks predominantly assess only agreement rates, overlooking whether negotiated commitments actually create value once executed. To solve this execution-grounded task, we propose TACTIC (Trade-aware Adaptive Consolidation and Theory-of-mind for International Commerce), an agent that iteratively refines its negotiation strategy across episodes-without updating base LLM weights-by leveraging prior experience, opponent behavior, and past settlement outcomes.",
+    "key_concepts": [
+      "Zero-shot",
+      "Large Language Model",
+      "Final Ehi",
+      "Tactic Trade-aware",
+      "Tariff Trade-share",
+      "Technology-controls Energy-crisis"
+    ],
+    "insights": {
+      "problem": "Multi-turn negotiation remains a challenging problem for large language model (LLM) agents.",
+      "approach": "To address this gap, we introduce TradeWar, a multi-country simulation benchmark that translates negotiation dialogues into concrete tariff and trade-share policies, enforces capacity and network constraints during settlement, and evaluates outcomes via an Economic Health Index (EHI).",
+      "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Large Language Model.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "To address this gap, we introduce TradeWar, a multi-country simulation benchmark that translates negotiation dialogues into concrete tariff and trade-share policies, enforces capacity and network constraints during settlement, and evaluates outcomes via an Economic Health Index (EHI)."
+    },
+    "primary_topic": "Natural Language Processing"
+  },
+  {
+    "arxiv_id": "2610.42149",
+    "raw_id": "http://arxiv.org/abs/2610.42149v1",
+    "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
+    "authors": [
+      "Byungwoo Jeon",
+      "Yoonwoo Jeong",
+      "Hyunseok Lee",
+      "Minsu Cho",
+      "Jinwoo Shin"
+    ],
+    "published_date": "2026-10-30T17:59:43Z",
+    "updated_date": "2026-10-30T17:59:43Z",
+    "categories": [
+      "cs.CV",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "abstract": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs often fail to inherit the test-time scaling and fine-grained controllability observed in large language models. We attribute this failure to a fundamental modality mismatch: reasoning is performed in a discrete token space, whereas image generation operates in a continuous space. To bridge this gap, we introduce a Latent Reasoning framework in Continuous space (LARC), which alleviates the token-level bottleneck by reasoning over continuous hidden states. Specifically, the training framework consists of two stages: (i) curriculum supervised fine-tuning (SFT), and (ii) information-gain reinforcement learning (RL). First, the curriculum SFT stage gradually converts token-level reasoning into latent reasoning. Subsequently, the information-gain RL stage self-evolves latent reasoning without ground truth supervision. Experiments across diverse text-to-image generation benchmarks show that LARC consistently improves generation quality, prompt following, and compositional fidelity. Notably, LARC achieves state-of-the-art performance on GenEval with a 7%p gain over BAGEL and demonstrates clear test-time scaling behavior, outperforming token-based generation under both parallel and sequential test-time scaling strategies.",
+    "url": "https://arxiv.org/abs/2610.42149v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.42149v1",
+    "relevance_score": 0.698,
+    "processed_date": "2026-11-02",
+    "summary": "To bridge this gap, we introduce a Latent Reasoning framework in Continuous space (LARC), which alleviates the token-level bottleneck by reasoning over continuous hidden states. To bridge this gap, we introduce a Latent Reasoning framework in Continuous space (LARC), which alleviates the token-level bottleneck by reasoning over continuous hidden states. Notably, LARC achieves state-of-the-art performance on GenEval with a 7%p gain over BAGEL and demonstrates clear test-time scaling behavior, outperforming token-based generation under both parallel and sequential test-time scaling strategies. Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Continuous Space",
+      "Latent Reasoning",
+      "Achieve Remarkable",
+      "Alleviates Token-level",
+      "Attribute Failure"
+    ],
+    "insights": {
+      "problem": "To bridge this gap, we introduce a Latent Reasoning framework in Continuous space (LARC), which alleviates the token-level bottleneck by reasoning over continuous hidden states.",
+      "approach": "To bridge this gap, we introduce a Latent Reasoning framework in Continuous space (LARC), which alleviates the token-level bottleneck by reasoning over continuous hidden states.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Continuous Space.",
+      "results": "Notably, LARC achieves state-of-the-art performance on GenEval with a 7%p gain over BAGEL and demonstrates clear test-time scaling behavior, outperforming token-based generation under both parallel and sequential test-time scaling strategies.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.42128",
+    "raw_id": "http://arxiv.org/abs/2610.42128v1",
+    "title": "DecisionRank: On-Policy Distillation for Decision-Model Rerankers",
+    "authors": [
+      "Yanran Wu",
+      "Dian Yu",
+      "Chongyang Bai",
+      "Jieyi Zhang",
+      "Rui Liu",
+      "Tianyi Chen",
+      "Shike Mei",
+      "Hang Cui",
+      "Frank Shyu",
+      "Sandeep Pandey",
+      "Luke Simon",
+      "Chunwei Liu",
+      "Xi Liu"
+    ],
+    "published_date": "2026-10-30T17:56:58Z",
+    "updated_date": "2026-10-30T17:56:58Z",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Decision models target structured tasks by directly predicting choices or scores, avoiding autoregressive decoding latency. However, transferring a generative LLM's ranking knowledge to a decision model remains challenging: the teacher expresses preferences through a ranked list of document ID sequences, while the student determines the ranking using scores from the first-token position. To bridge this gap, we introduce DecisionRank, a decision model trained through item-space on-policy distillation (OPD). Item-space OPD constructs the student's rollout by sorting its document scores into a ranked sequence. A generative teacher takes the resulting ranking list as inputs and provides conditional feedback to directly supervise those scores. Combined with offline ranking supervision, DecisionRank achieves state-of-the-art performance on both general and reasoning-intensive retrieval benchmarks such as TREC DL, BEIR, and BRIGHT. Across four benchmarks, item-space OPD consistently outperforms alternative training objectives. Even at 1.7B parameters, DecisionRank surpasses its 27B generative teacher on TREC DL19--23. At 8B, it outperforms its generative listwise counterpart while running 24.5\\times faster on TREC DL and 16.7\\times faster on BRIGHT.",
+    "url": "https://arxiv.org/abs/2610.42128v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.42128v1",
+    "relevance_score": 0.698,
+    "processed_date": "2026-11-02",
+    "summary": "However, transferring a generative LLM's ranking knowledge to a decision model remains challenging: the teacher expresses preferences through a ranked list of document ID sequences, while the student determines the ranking using scores from the first-token position. To bridge this gap, we introduce DecisionRank, a decision model trained through item-space on-policy distillation (OPD). Combined with offline ranking supervision, DecisionRank achieves state-of-the-art performance on both general and reasoning-intensive retrieval benchmarks such as TREC DL, BEIR, and BRIGHT. At 8B, it outperforms its generative listwise counterpart while running 24.5\\times faster on TREC DL and 16.7\\times faster on BRIGHT. Decision models target structured tasks by directly predicting choices or scores, avoiding autoregressive decoding latency.",
+    "key_concepts": [
+      "Autoregressive Decoding",
+      "Avoiding Autoregressive",
+      "Beir Bright",
+      "Challenging Teacher",
+      "Choices Scores",
+      "Combined Offline"
+    ],
+    "insights": {
+      "problem": "However, transferring a generative LLM's ranking knowledge to a decision model remains challenging: the teacher expresses preferences through a ranked list of document ID sequences, while the student determines the ranking using scores from the first-token position.",
+      "approach": "To bridge this gap, we introduce DecisionRank, a decision model trained through item-space on-policy distillation (OPD).",
+      "key_innovation": "Formulates an integrated mechanism leveraging Autoregressive Decoding, Avoiding Autoregressive.",
+      "results": "Combined with offline ranking supervision, DecisionRank achieves state-of-the-art performance on both general and reasoning-intensive retrieval benchmarks such as TREC DL, BEIR, and BRIGHT.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2610.42082",
+    "raw_id": "http://arxiv.org/abs/2610.42082v1",
+    "title": "Think in 360°: Benchmarking and Bootstrapping Panoramic Video Reasoning",
+    "authors": [
+      "Lidong Lu",
+      "Lidong Zou",
+      "Xinyi Mao",
+      "Jiaxin Lv",
+      "Zhenquan Li",
+      "Liangrui Dong",
+      "Tong Lu",
+      "Guo Chen"
+    ],
+    "published_date": "2026-10-30T17:35:02Z",
+    "updated_date": "2026-10-30T17:35:02Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "A panoramic video captures all directions around the camera, but relevant evidence can appear in different directions and at different times. Understanding it requires models to connect observations across the viewing sphere and time. We introduce PanoVideoBench, the first manually annotated benchmark for comprehensive panoramic video understanding. Its 1,000 questions span five categories and 15 question types, with diagnostic annotations for target search and panoramic capabilities. Evaluation of 11 proprietary, open-source, and panoramic-specialized models identifies cross-view tracking and sphere-time evidence integration as their weakest capabilities. To strengthen these capabilities, we construct PanoVideoCoT, the first reasoning dataset grounded in real panoramic video, through sphere-time-grounded synthesis that converts verified panoramic observations and successful agentic explorations into 13,465 QA-CoT pairs. Starting from a general video MLLM, PanoVideoReasoner learns from this corpus through Panoramic CoT SFT and Evidence-Privileged On-Policy Self-Distillation, a panoramic instantiation of Vision-OPD's OPSD in which the teacher uses verified perspective views to guide student-generated trajectories. It reaches 55.7% on PanoVideoBench, improving the backbone by 12.5 points and the previous SOTA by 2.6. The gains concentrate on the same spatial, cross-view, and temporal capabilities exposed by the benchmark, showing that grounded sphere-time supervision can equip a general video MLLM with panoramic reasoning.",
+    "url": "https://arxiv.org/abs/2610.42082v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.42082v1",
+    "relevance_score": 0.697,
+    "processed_date": "2026-11-02",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates a panoramic video captures all directions around the camera, but relevant evidence can appear in different directions and at different times. We introduce PanoVideoBench, the first manually annotated benchmark for comprehensive panoramic video understanding. It reaches 55.7% on PanoVideoBench, improving the backbone by 12.5 points and the previous SOTA by 2.6. The gains concentrate on the same spatial, cross-view, and temporal capabilities exposed by the benchmark, showing that grounded sphere-time supervision can equip a general video MLLM with panoramic reasoning. A panoramic video captures all directions around the camera, but relevant evidence can appear in different directions and at different times.",
+    "key_concepts": [
+      "Panoramic Video",
+      "Agentic Explorations",
+      "Annotations Target",
+      "Backbone Points",
+      "Capabilities Construct",
+      "Capabilities Exposed"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "We introduce PanoVideoBench, the first manually annotated benchmark for comprehensive panoramic video understanding.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Panoramic Video, Agentic Explorations.",
+      "results": "It reaches 55.7% on PanoVideoBench, improving the backbone by 12.5 points and the previous SOTA by 2.6.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.42053",
+    "raw_id": "http://arxiv.org/abs/2610.42053v1",
+    "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
+    "authors": [
+      "Pengfei Zhou",
+      "Yixing Ma",
+      "Zhengfeiyang Zhang",
+      "Haoyuan Chen",
+      "Zhenglin Wan",
+      "Hexin Wang",
+      "Wangbo Zhao",
+      "Yang You"
+    ],
+    "published_date": "2026-10-30T17:18:13Z",
+    "updated_date": "2026-10-30T17:18:13Z",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "abstract": "Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. Conversely, fast policies like VLAs and whole-body controllers offer more efficient reflexes, but struggle to generalize. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied systems, two obstacles remain: methods are built and scored on incompatible stacks, and their asynchronous coordination is difficult. For example, an agent that calls the VLA in the agentic loop can stall the fast execution, while a VLA that calls the agent on errors tends to re-trigger fallbacks repeatedly or completely miss silent failures. To address this, we propose REA (Routed Embodied Agent), a unified runtime where a deliberative System 2, an embodied router System 1 and reactive System 0 policies cooperate under a single golden rule - no running policy waits on the brain. Instead of querying the brain at each failure, REA employs a route memory that stores each policy's measured success ahead of time, a boundary-triggered judge gate that consults the brain on policy execution, and a shared-budget escalation ladder for bounded recovery. Evaluated on 3,000 test episodes across 60 LIBERO-Pro tasks, REA reaches 95.9% success and beats the best single-agent baseline in its own policy pool (94.7%) while reducing control steps by 25% and control time by 17%. In a separate 100-episode RoboTwin 2.0 study, REA achieves 84% success with VLA policies and 86% with VLA+code, compared with 80% for the strongest single VLA baseline MEDex. These results demonstrate learned and programmatic policies operating within the same runtime. REA also transfers to BEHAVIOR-1K and a real Unitree G1 humanoid, achieving the highest observed success among the compared methods.",
+    "url": "https://arxiv.org/abs/2610.42053v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.42053v1",
+    "relevance_score": 0.697,
+    "processed_date": "2026-11-02",
+    "summary": "Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers. To address this, we propose REA (Routed Embodied Agent), a unified runtime where a deliberative System 2, an embodied router System 1 and reactive System 0 policies cooperate under a single golden rule - no running policy waits on the brain. While pairing a deliberative brain (foundation models) with a reactive cerebellum (fast policies) seems natural for embodied systems, two obstacles remain: methods are built and scored on incompatible stacks, and their asynchronous coordination is difficult. REA also transfers to BEHAVIOR-1K and a real Unitree G1 humanoid, achieving the highest observed success among the compared methods.",
+    "key_concepts": [
+      "Fast Policies",
+      "Success Compared Methods",
+      "Success Vla",
+      "Tends Re-trigger Fallbacks",
+      "Test Episodes",
+      "Time Boundary-triggered"
+    ],
+    "insights": {
+      "problem": "Foundation models are becoming remarkably reliable at high-level reasoning, yet they remain too slow and costly to serve as fine-grained controllers.",
+      "approach": "To address this, we propose REA (Routed Embodied Agent), a unified runtime where a deliberative System 2, an embodied router System 1 and reactive System 0 policies cooperate under a single golden rule - no running policy waits on the brain.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Fast Policies, Success Compared Methods.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2610.42097",
+    "raw_id": "http://arxiv.org/abs/2610.42097v1",
+    "title": "ROOF: Learning Humanoid Fall Recovery under Overhead Constraints",
+    "authors": [
+      "Yidan Lu",
+      "Jiayuan Yu",
+      "Zongrui Cai",
+      "Jingwen Sun",
+      "Jinrui Han",
+      "Jing Wang",
+      "Ping Luo",
+      "Peng Lu"
+    ],
+    "published_date": "2026-10-30T17:41:32Z",
+    "updated_date": "2026-10-30T17:41:32Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "abstract": "A fallen humanoid beneath an overhead obstacle faces a coupled recovery problem. It must create clearance while organizing support for a stable rise, since attempting to stand before making room can further increase obstruction. We introduce a reinforcement learning method with contact-supported geometric escape guidance, which rewards incremental reduction of robot-obstacle overlap without prescribing an escape path. To achieve this, a learned motion prior, together with posture-dependent support and joint-stall costs, is proposed to shape a single policy that learns when to clear the obstacle, how to establish support, and when to complete the rise, all using proprioception alone. In simulation, it recovers in 88.5% of trials beneath plates that can only be lifted, compared with 18.9% without geometric guidance, and in 98.6% of trials beneath free plates with randomized size, mass and placement. On a Unitree G1, the deployed policy recovered in 95 of 150 attempts across seven real-world obstacle scenes, including furniture and multi-object arrangements absent from training. Project page: https://lu-yidan.github.io/ROOF/",
+    "url": "https://arxiv.org/abs/2610.42097v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.42097v1",
+    "relevance_score": 0.691,
+    "processed_date": "2026-11-02",
+    "summary": "A fallen humanoid beneath an overhead obstacle faces a coupled recovery problem. We introduce a reinforcement learning method with contact-supported geometric escape guidance, which rewards incremental reduction of robot-obstacle overlap without prescribing an escape path. Project page: https://lu-yidan.github.io/ROOF/ It must create clearance while organizing support for a stable rise, since attempting to stand before making room can further increase obstruction. To achieve this, a learned motion prior, together with posture-dependent support and joint-stall costs, is proposed to shape a single policy that learns when to clear the obstacle, how to establish support, and when to complete the rise, all using proprioception alone.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Achieve Learned",
+      "Arrangements Absent",
+      "Attempting Stand",
+      "Attempts Seven",
+      "Beneath Free"
+    ],
+    "insights": {
+      "problem": "A fallen humanoid beneath an overhead obstacle faces a coupled recovery problem.",
+      "approach": "We introduce a reinforcement learning method with contact-supported geometric escape guidance, which rewards incremental reduction of robot-obstacle overlap without prescribing an escape path.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Achieve Learned.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "A fallen humanoid beneath an overhead obstacle faces a coupled recovery problem."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2610.42049",
+    "raw_id": "http://arxiv.org/abs/2610.42049v1",
+    "title": "A Hybrid Path Planning Framework for Assistive Wheelchair Navigation in Dynamic Pedestrian Environments",
+    "authors": [
+      "Damla Leblebicioğlu",
+      "Rachel Barume",
+      "Taşkın Padır"
+    ],
+    "published_date": "2026-10-30T17:16:59Z",
+    "updated_date": "2026-10-30T17:16:59Z",
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "abstract": "Autonomous wheelchairs can improve the quality of life for individuals with mobility impairments by providing greater independence. However, reliable navigation especially in human environments is a major challenge due to factors such as dynamic obstacles, unpredictable pedestrian behavior, and the users' need to complete multiple stops along the way before reaching their final destination. This paper presents a hybrid path planning framework for multi-goal navigation in dynamic environments. The framework integrates the Traveling Salesman Problem (TSP) for global task ordering with the Potential Field (PF) method and heuristic local planners such as Rapidly-exploring Random Tree (RRT) and A-star (A*) to achieve collision-free navigation. Within this hybrid framework, TSP determines the visiting order of intermediate stations, PF transfers global path information, and local planners avoid obstacles while guiding the robot to the stations. The local planners generate feasible paths that allow the robot to follow the global trajectory and reroute to avoid static and dynamic obstacles. For this purpose, two algorithms have been developed: (i) TSP-PF-RRT and (ii) TSP-PF-A*. The performance of the proposed algorithms are evaluated using Monte Carlo simulations in crowded and extra-crowded scenarios that contain heterogeneous dynamic and static obstacles. Experimental results demonstrate that the proposed hybrid framework enables efficient multi-goal navigation while maintaining safe operation in dynamic environments with humans, with TSP-PF-RRT achieving fewer or no collisions and shorter travel distances.",
+    "url": "https://arxiv.org/abs/2610.42049v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.42049v1",
+    "relevance_score": 0.691,
+    "processed_date": "2026-11-02",
+    "summary": "However, reliable navigation especially in human environments is a major challenge due to factors such as dynamic obstacles, unpredictable pedestrian behavior, and the users' need to complete multiple stops along the way before reaching their final destination. This paper presents a hybrid path planning framework for multi-goal navigation in dynamic environments. Experimental results demonstrate that the proposed hybrid framework enables efficient multi-goal navigation while maintaining safe operation in dynamic environments with humans, with TSP-PF-RRT achieving fewer or no collisions and shorter travel distances. Autonomous wheelchairs can improve the quality of life for individuals with mobility impairments by providing greater independence.",
+    "key_concepts": [
+      "Dynamic Environments",
+      "Dynamic Obstacles",
+      "Local Planners",
+      "Multi-goal Navigation",
+      "Shorter Travel",
+      "Simulations Crowded"
+    ],
+    "insights": {
+      "problem": "However, reliable navigation especially in human environments is a major challenge due to factors such as dynamic obstacles, unpredictable pedestrian behavior, and the users' need to complete multiple stops along the way before reaching their final destination.",
+      "approach": "This paper presents a hybrid path planning framework for multi-goal navigation in dynamic environments.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Dynamic Environments, Dynamic Obstacles.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2610.42141",
+    "raw_id": "http://arxiv.org/abs/2610.42141v1",
+    "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+    "authors": [
+      "Shengguang Wu",
+      "Suning Huang",
+      "Cherie Ho",
+      "Ria Doshi",
+      "Hao Zhu",
+      "Serena Yeung-Levy"
+    ],
+    "published_date": "2026-10-30T17:58:48Z",
+    "updated_date": "2026-10-30T17:58:48Z",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "abstract": "Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that harness design can be automated, offering a strong alternative to finetuning on a novel setup. In RoboArchitect, a coding model observes a robot's rollouts, diagnoses failures, and iteratively revises the harness around the frozen policy. The harness evolves on a set of episodes for its optimization and is evaluated on held-out scenes and tasks. Without updating any model weights, RoboArchitect raises average success from 9.7% to 43.3% on unseen scenes (4.5x) and from 12.7% to 40.2% on unseen tasks (3.2x), across multiple benchmarks and policies. The gains are largest where the benchmark is far from the policy's training data: wrapping a general-purpose policy, the evolved harness yields a specialist that often outperforms even the finetuned version. Intuitive control strategies are automatically designed, such as lifting a jammed arm clear or reaching in horizontally when an obstacle blocks the way from above. The harness also evolves its own persistent memory, carrying learned experience, such as effective grasp depths, into later decisions. These results suggest that substantial headroom in robotic manipulation lies in the agent harness, and its design can be effectively automated and optimized without weight updates.",
+    "url": "https://arxiv.org/abs/2610.42141v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.42141v1",
+    "relevance_score": 0.682,
+    "processed_date": "2026-11-02",
+    "summary": "Addressing critical demands in Robotics, this research investigates recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that harness design can be automated, offering a strong alternative to finetuning on a novel setup. The gains are largest where the benchmark is far from the policy's training data: wrapping a general-purpose policy, the evolved harness yields a specialist that often outperforms even the finetuned version. These results suggest that substantial headroom in robotic manipulation lies in the agent harness, and its design can be effectively automated and optimized without weight updates.",
+    "key_concepts": [
+      "Manipulation",
+      "Agent Harness",
+      "Harness Design",
+      "Harness Evolves",
+      "Today Harnesses",
+      "Tools Command"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+      "approach": "Yet today these harnesses are built by hand and redesigned for each new robot or benchmark.",
+      "key_innovation": "We show that harness design can be automated, offering a strong alternative to finetuning on a novel setup.",
+      "results": "The gains are largest where the benchmark is far from the policy's training data: wrapping a general-purpose policy, the evolved harness yields a specialist that often outperforms even the finetuned version.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
   }
 ]
