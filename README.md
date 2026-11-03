@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[02 November 2026 Report](reports/2026/11/02/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[03 November 2026 Report](reports/2026/11/03/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/02/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/03/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/02/infographic.png)](reports/2026/11/02/infographic.png)
+[![Daily Infographic](reports/2026/11/03/infographic.png)](reports/2026/11/03/infographic.png)
 
 ---
 
@@ -26,9 +26,9 @@
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
 | **Artificial Intelligence (AI)** | `6` |
-| **Machine Learning (ML)** | `3` |
-| **Robotics** | `5` |
-| **IoT & Edge AI** | `0` |
+| **Machine Learning (ML)** | `4` |
+| **Robotics** | `6` |
+| **IoT & Edge AI** | `1` |
 
 ---
 
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **RoboArchitect: Automating the Design of Robotic Agents with Persistent M...** | `Robotics` | `0.68` | [arXiv](https://arxiv.org/abs/2610.42141v1) |
-| 2 | **A Hybrid Path Planning Framework for Assistive Wheelchair Navigation in ...** | `Robotics` | `0.69` | [arXiv](https://arxiv.org/abs/2610.42049v1) |
-| 3 | **ROOF: Learning Humanoid Fall Recovery under Overhead Constraints** | `Robotics` | `0.69` | [arXiv](https://arxiv.org/abs/2610.42097v1) |
-| 4 | **REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum C...** | `Artificial Intelligence` | `0.70` | [arXiv](https://arxiv.org/abs/2610.42053v1) |
-| 5 | **Think in 360°: Benchmarking and Bootstrapping Panoramic Video Reasoning** | `Artificial Intelligence` | `0.70` | [arXiv](https://arxiv.org/abs/2610.42082v1) |
+| 1 | **PlantVLM-Edge: Quantized Vision-Language Models for On-Device Crop Healt...** | `IoT & Edge AI` | `0.73` | [arXiv](https://arxiv.org/abs/2611.03557v1) |
+| 2 | **Exploring Proximity and Tactile Sensing for Robotic Manipulation** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2611.03489v1) |
+| 3 | **When Robots Outweigh Objects: How Inertia Mismatch Shapes Robot Policy L...** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2611.03501v1) |
+| 4 | **Not All Reasoning Generalizes: A Case Study on Learning Generalizable Re...** | `Artificial Intelligence` | `0.74` | [arXiv](https://arxiv.org/abs/2611.03627v1) |
+| 5 | **From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra...** | `Artificial Intelligence` | `0.74` | [arXiv](https://arxiv.org/abs/2611.03641v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `238`
-- **Total Operational Runs**: `36 days`
+- **Total Papers Analyzed**: `248`
+- **Total Operational Runs**: `37 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 
@@ -94,7 +94,8 @@ daily-tech-intelligence/
 │       └── daily-research.yml
 ├── archive/
 │   ├── 2026/
-│   │   └── 10/
+│   │   ├── 10/
+│   │   └── 11/
 │   └── index.json
 ├── assets/
 │   └── illustrations/
@@ -122,7 +123,6 @@ daily-tech-intelligence/
 ├── data/
 │   ├── papers.json
 │   └── statistics.json
-├── reports/
 ```
 
 ---
