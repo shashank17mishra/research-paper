@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[03 November 2026 Report](reports/2026/11/03/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[04 November 2026 Report](reports/2026/11/04/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/03/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/04/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/03/infographic.png)](reports/2026/11/03/infographic.png)
+[![Daily Infographic](reports/2026/11/04/infographic.png)](reports/2026/11/04/infographic.png)
 
 ---
 
@@ -25,10 +25,10 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `6` |
+| **Artificial Intelligence (AI)** | `5` |
 | **Machine Learning (ML)** | `4` |
-| **Robotics** | `6` |
-| **IoT & Edge AI** | `1` |
+| **Robotics** | `4` |
+| **IoT & Edge AI** | `0` |
 
 ---
 
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **PlantVLM-Edge: Quantized Vision-Language Models for On-Device Crop Healt...** | `IoT & Edge AI` | `0.73` | [arXiv](https://arxiv.org/abs/2611.03557v1) |
-| 2 | **Exploring Proximity and Tactile Sensing for Robotic Manipulation** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2611.03489v1) |
-| 3 | **When Robots Outweigh Objects: How Inertia Mismatch Shapes Robot Policy L...** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2611.03501v1) |
-| 4 | **Not All Reasoning Generalizes: A Case Study on Learning Generalizable Re...** | `Artificial Intelligence` | `0.74` | [arXiv](https://arxiv.org/abs/2611.03627v1) |
-| 5 | **From Natural Language to Exact Cover: A Neuro-Symbolic Approach to Zebra...** | `Artificial Intelligence` | `0.74` | [arXiv](https://arxiv.org/abs/2611.03641v1) |
+| 1 | **CATF: A Manager-Worker Framework for Context-Aware Time-Series Forecasting** | `Machine Learning` | `0.72` | [arXiv](https://arxiv.org/abs/2611.05325v1) |
+| 2 | **Adversarial Speculative Reasoning Improves Long Horizon Agents** | `Artificial Intelligence` | `0.72` | [arXiv](https://arxiv.org/abs/2611.05345v1) |
+| 3 | **DreamX: Video Diffusion Model is a Universal Latent Action Learner** | `Machine Learning` | `0.72` | [arXiv](https://arxiv.org/abs/2611.05377v1) |
+| 4 | **PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Read...** | `Robotics` | `0.73` | [arXiv](https://arxiv.org/abs/2611.05320v1) |
+| 5 | **PACT: Pose-Robust Actuation Co-Design for Tendon-Driven Robotic Hands** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2611.05302v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `248`
-- **Total Operational Runs**: `37 days`
+- **Total Papers Analyzed**: `258`
+- **Total Operational Runs**: `38 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 
