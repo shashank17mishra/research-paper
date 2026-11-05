@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[04 November 2026 Report](reports/2026/11/04/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[05 November 2026 Report](reports/2026/11/05/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/04/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/05/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/04/infographic.png)](reports/2026/11/04/infographic.png)
+[![Daily Infographic](reports/2026/11/05/infographic.png)](reports/2026/11/05/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `5` |
-| **Machine Learning (ML)** | `4` |
-| **Robotics** | `4` |
+| **Artificial Intelligence (AI)** | `3` |
+| **Machine Learning (ML)** | `1` |
+| **Robotics** | `5` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **CATF: A Manager-Worker Framework for Context-Aware Time-Series Forecasting** | `Machine Learning` | `0.72` | [arXiv](https://arxiv.org/abs/2611.05325v1) |
-| 2 | **Adversarial Speculative Reasoning Improves Long Horizon Agents** | `Artificial Intelligence` | `0.72` | [arXiv](https://arxiv.org/abs/2611.05345v1) |
-| 3 | **DreamX: Video Diffusion Model is a Universal Latent Action Learner** | `Machine Learning` | `0.72` | [arXiv](https://arxiv.org/abs/2611.05377v1) |
-| 4 | **PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Read...** | `Robotics` | `0.73` | [arXiv](https://arxiv.org/abs/2611.05320v1) |
-| 5 | **PACT: Pose-Robust Actuation Co-Design for Tendon-Driven Robotic Hands** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2611.05302v1) |
+| 1 | **Before You Continue: Evaluating Time-Sensitive Safety Awareness in Conve...** | `Natural Language Processing` | `0.70` | [arXiv](https://arxiv.org/abs/2611.06839v1) |
+| 2 | **Procedural Adversarial Learning** | `Computer Vision` | `0.70` | [arXiv](https://arxiv.org/abs/2611.06890v1) |
+| 3 | **Route First, See Later: Enabling Vision Agents to Reason Scientifically ...** | `Computer Vision` | `0.73` | [arXiv](https://arxiv.org/abs/2611.06760v1) |
+| 4 | **PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the R...** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2611.06768v1) |
+| 5 | **ServerBench: How can your coding agents design specialized LLM serving s...** | `Natural Language Processing` | `0.74` | [arXiv](https://arxiv.org/abs/2611.06841v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `258`
-- **Total Operational Runs**: `38 days`
+- **Total Papers Analyzed**: `268`
+- **Total Operational Runs**: `39 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 

@@ -1,6 +1,6 @@
 {
   "month": "2026-11",
-  "total_papers": 20,
+  "total_papers": 30,
   "papers": [
     {
       "arxiv_id": "2611.03648",
@@ -840,6 +840,498 @@
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.06881",
+      "raw_id": "http://arxiv.org/abs/2611.06881v1",
+      "title": "VABAR: A Variational Automation Benchmark for Agentic Robotics",
+      "authors": [
+        "Shuangyu Xie",
+        "Kaiyuan Chen",
+        "Uksang Yoo",
+        "Xinyue Zhu",
+        "Meadow Shen",
+        "Jaimyn Drake",
+        "Eugen Solowjow",
+        "Lionel Gulich",
+        "Alexander Millane",
+        "Rafael Cathomen",
+        "Tuur Stuyck",
+        "Sangeeta Subramanian",
+        "Yichao Pan",
+        "Bruce McGowan",
+        "Michael Benedict",
+        "Linxi Fan",
+        "Yuke Zhu",
+        "Spencer Huang",
+        "Ken Goldberg"
+      ],
+      "published_date": "2026-11-04T18:38:01Z",
+      "updated_date": "2026-11-04T18:38:01Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "For robots to operate reliably in commercial and industrial applications, they must persistently perform specific tasks with known variations in object shape and pose. We call this Variational Automation (VA) to differentiate these settings from fixed automation. Inspired by recent papers on Agentic Robotics, where pretrained LLM and VLM coding agents combine interpretable robot programming with the open-world adaptability of model free policies, we propose a general set of agentic robotics benchmark design criteria that includes accessibility, repeatability, diversity, relevance to agentic robotics and practical applications, physical realizability, resistance to benchmark saturation, and computational efficiency. We instantiate these principles in six manipulation task classes spanning industrial, medical, and infrastructure applications: tool sorting, tool hanging, gear meshing, syringe packing, cable insertion, and cable routing. We introduce the Variational Automation Benchmark for Agentic Robotics (VABAR), an open, easily replicable, simulation-based manipulation benchmark to systematically evaluating agentic robotics systems. Built fully on open-source tools, VABAR features detailed implementations using the Newton physics engine, standardized task variations, difficulty tiers, success metrics, and a library of 33 generalizable skills with human-authored programmatic reference solutions. We provide initial baseline evaluations using an open agentic manipulation harness, Graph-as-Policy (GaP), and Isaac Lab Arena.",
+      "url": "https://arxiv.org/abs/2611.06881v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06881v1",
+      "relevance_score": 0.842,
+      "processed_date": "2026-11-05",
+      "summary": "Addressing critical demands in Robotics, this research investigates for robots to operate reliably in commercial and industrial applications, they must persistently perform specific tasks with known variations in object shape and pose. Inspired by recent papers on Agentic Robotics, where pretrained LLM and VLM coding agents combine interpretable robot programming with the open-world adaptability of model free policies, we propose a general set of agentic robotics benchmark design criteria that includes accessibility, repeatability, diversity, relevance to agentic robotics and practical applications, physical realizability, resistance to benchmark saturation, and computational efficiency. We provide initial baseline evaluations using an open agentic manipulation harness, Graph-as-Policy (GaP), and Isaac Lab Arena.",
+      "key_concepts": [
+        "Manipulation",
+        "Agentic Robotics",
+        "Variational Automation",
+        "Applications Persistently",
+        "Tiers Success Metrics",
+        "Tool Hanging"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "Inspired by recent papers on Agentic Robotics, where pretrained LLM and VLM coding agents combine interpretable robot programming with the open-world adaptability of model free policies, we propose a general set of agentic robotics benchmark design criteria that includes accessibility, repeatability, diversity, relevance to agentic robotics and practical applications, physical realizability, resistance to benchmark saturation, and computational efficiency.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Agentic Robotics.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.06817",
+      "raw_id": "http://arxiv.org/abs/2611.06817v1",
+      "title": "Open-HumanScale: An Open Recipe for Scaling Human and Robot Experience for Embodied Foundation Models",
+      "authors": [
+        "Juncheng Ma",
+        "Jiaxin Li",
+        "Jiankai Tu",
+        "Bo Liang",
+        "Guodong Lv",
+        "Yufan Deng",
+        "Junzhe Tang",
+        "Liangzhu Yang",
+        "Chen Bian",
+        "Zicong Cao",
+        "Baohao Zhu",
+        "Jianxin Bi",
+        "Tengfei Yan",
+        "Yinyuan Zhang",
+        "Kewei Zhang",
+        "Xinglong Chen",
+        "Kaiqi Chen",
+        "Duomin Wang",
+        "Xiaotian Tang",
+        "Liang Tan",
+        "Li Li",
+        "Yuan Xu",
+        "Haosen Yang",
+        "Yuqi Wang",
+        "Jingfei Xia",
+        "Songyan Huang",
+        "Zhiyang Dou",
+        "Zhen Dong",
+        "Enze Xie",
+        "Tat-Seng Chua",
+        "Daquan Zhou"
+      ],
+      "published_date": "2026-11-04T17:31:35Z",
+      "updated_date": "2026-11-04T17:31:35Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Egocentric human video offers a scalable source of manipulation priors for robot learning, yet translating raw data scale into generalizable robot policies demands rigorous data curation and training recipes. We introduce Open-HumanScale, the first fully open recipe for scaling egocentric pretraining to 50,000 hours, anchored by Open-HumanScale-50K---a curated egocentric video corpus densely annotated with hand motion and natural language. Leveraging this corpus, we systematically investigate pure human pretraining via closed-loop simulation evaluations and uncover an empirical log-linear scaling law linking pretraining data hours to downstream robot success rates. Grounded in these findings, we develop HumanWAM-Vanilla, a world--action model pretrained exclusively on 50k hours of egocentric human video. Upon robot post-training, HumanWAM-Vanilla reaches 92.08% success on RoboTwin 2.0 Clean2Clean and 68.88% on Clean2Random, alongside a 14.17% mean success rate and a 19.00 mean progress score on RoboDojo. To push the capability frontier further, we explore joint human--robot pretraining with HumanWAM-Goal, a visual-goal-conditioned world--action model. Hybrid data scaling unlocks broad zero-shot generalization across both simulation and physical benchmarks, propelling post-trained RoboTwin 2.0 performance to new state-of-the-art levels: 92.70% on Clean2Clean and a substantial leap to 84.60% on Clean2Random. On physical robots, HumanWAM-Goal further exhibits emergent embodied in-context learning, dynamically adapting its manipulation behavior to unseen visual goals without parameter updates. To support reproducible scaling research in embodied AI, we open-source the Open-HumanScale-50K corpus, data curation and pretraining pipelines, alongside the pretrained and post-trained HumanWAM checkpoints, inference code, and simulation evaluation suites.",
+      "url": "https://arxiv.org/abs/2611.06817v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06817v1",
+      "relevance_score": 0.777,
+      "processed_date": "2026-11-05",
+      "summary": "Addressing critical demands in Robotics, this research investigates egocentric human video offers a scalable source of manipulation priors for robot learning, yet translating raw data scale into generalizable robot policies demands rigorous data curation and training recipes. We introduce Open-HumanScale, the first fully open recipe for scaling egocentric pretraining to 50,000 hours, anchored by Open-HumanScale-50K---a curated egocentric video corpus densely annotated with hand motion and natural language. Leveraging this corpus, we systematically investigate pure human pretraining via closed-loop simulation evaluations and uncover an empirical log-linear scaling law linking pretraining data hours to downstream robot success rates. To support reproducible scaling research in embodied AI, we open-source the Open-HumanScale-50K corpus, data curation and pretraining pipelines, alongside the pretrained and post-trained HumanWAM checkpoints, inference code, and simulation evaluation suites.",
+      "key_concepts": [
+        "Scaling Law",
+        "Zero-shot",
+        "Manipulation",
+        "Embodied AI",
+        "Capability Frontier",
+        "Translating Raw"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We introduce Open-HumanScale, the first fully open recipe for scaling egocentric pretraining to 50,000 hours, anchored by Open-HumanScale-50K---a curated egocentric video corpus densely annotated with hand motion and natural language.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Scaling Law, Zero-shot.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.06911",
+      "raw_id": "http://arxiv.org/abs/2611.06911v1",
+      "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
+      "authors": [
+        "Fei Lin",
+        "Tengchao Zhang",
+        "Ziyang Gong",
+        "Xiaotong Yu",
+        "Bohan Zhang",
+        "Yifan Zhou",
+        "Qihao Yang",
+        "Ji Dai",
+        "Dong Li",
+        "Yining Jiang",
+        "Qinghua Ni",
+        "Jun Huang",
+        "Qiang Zhang",
+        "Yue Zhou",
+        "Zhihang Zhong",
+        "Yonglin Tian",
+        "Fei-Yue Wang",
+        "Xue Yang"
+      ],
+      "published_date": "2026-11-04T18:57:17Z",
+      "updated_date": "2026-11-04T18:57:17Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large Language Models (MLLMs) are increasingly considered as embodied brains for such systems, existing laboratory benchmarks mainly focus on safety, anomaly detection, or general scientific understanding, leaving their execution-oriented embodied capabilities underexplored. To fill this gap, we introduce BEAKER, a Benchmark for evaluating Embodied Actionability, Knowledge, Experimentation, and Reasoning in SDCLs. BEAKER contains 1,000 expert-curated question-answer samples across 11 image and video task types, covering key judgments required for chemical laboratory execution, including affordance grounding, trajectory planning, equipment, state, and safety recognition, apparatus setup, operation and step reasoning, and temporal procedure reasoning. All questions and annotations are manually created and reviewed by chemistry and embodied Artificial Intelligence (AI) experts, without AI-assisted generation or annotation. We evaluate 28 general-purpose, science-oriented, chemistry-specialized, and embodied MLLMs in an offline, single-turn setting. Results show that current models can follow coarse experimental procedures in videos, but still struggle to ground actions into operable regions and feasible trajectories, to recognize fine-grained laboratory apparatus, states, and safety norms, and to order steps in mid-length procedures. BEAKER thus reveals a clear gap between coarse procedural understanding and the precise, action-grounded perception required for laboratory execution, providing a diagnostic benchmark for future MLLMs in SDCLs.",
+      "url": "https://arxiv.org/abs/2611.06911v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06911v1",
+      "relevance_score": 0.761,
+      "processed_date": "2026-11-05",
+      "summary": "Although Multimodal Large Language Models (MLLMs) are increasingly considered as embodied brains for such systems, existing laboratory benchmarks mainly focus on safety, anomaly detection, or general scientific understanding, leaving their execution-oriented embodied capabilities underexplored. To fill this gap, we introduce BEAKER, a Benchmark for evaluating Embodied Actionability, Knowledge, Experimentation, and Reasoning in SDCLs. Results show that current models can follow coarse experimental procedures in videos, but still struggle to ground actions into operable regions and feasible trajectories, to recognize fine-grained laboratory apparatus, states, and safety norms, and to order steps in mid-length procedures. BEAKER thus reveals a clear gap between coarse procedural understanding and the precise, action-grounded perception required for laboratory execution, providing a diagnostic benchmark for future MLLMs in SDCLs.",
+      "key_concepts": [
+        "Trajectory Planning",
+        "Affordance Grounding",
+        "Ai-assisted Generation",
+        "Annotation Evaluate",
+        "Annotations Manually",
+        "Laboratory Execution"
+      ],
+      "insights": {
+        "problem": "Although Multimodal Large Language Models (MLLMs) are increasingly considered as embodied brains for such systems, existing laboratory benchmarks mainly focus on safety, anomaly detection, or general scientific understanding, leaving their execution-oriented embodied capabilities underexplored.",
+        "approach": "To fill this gap, we introduce BEAKER, a Benchmark for evaluating Embodied Actionability, Knowledge, Experimentation, and Reasoning in SDCLs.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Trajectory Planning, Affordance Grounding.",
+        "results": "Results show that current models can follow coarse experimental procedures in videos, but still struggle to ground actions into operable regions and feasible trajectories, to recognize fine-grained laboratory apparatus, states, and safety norms, and to order steps in mid-length procedures.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.06905",
+      "raw_id": "http://arxiv.org/abs/2611.06905v1",
+      "title": "Reinforcement Learning Enables Scaling Generalist Robot Policy Improvement",
+      "authors": [
+        "Michal Korniak",
+        "Marco Bagatella",
+        "Ralf Römer",
+        "Michal Nauman",
+        "Yarden As",
+        "Pranav Vignesh",
+        "Manan Agarwal",
+        "Leander Diaz-Bone",
+        "Piotr Zalewski",
+        "Mikołaj Czarnecki",
+        "Lenart Treven",
+        "Shashwat Saxena",
+        "Sreyas Venkataraman",
+        "Sarvesh Patil",
+        "Zhiyuan Zhou",
+        "Daniel Marta",
+        "Oier Mees",
+        "Nur Muhammad Mahi Shafiullah",
+        "Carmelo Sferrazza",
+        "Bhavya Sukhija",
+        "Angela P. Schoellig",
+        "Andreas Krause",
+        "Max Simchowitz",
+        "Andrew Wagenmaker"
+      ],
+      "published_date": "2026-11-04T18:52:28Z",
+      "updated_date": "2026-11-04T18:52:28Z",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "abstract": "The introduction of generalist robot policies has enabled a single, large model to learn to perform a variety of tasks from a vast pre-training corpus. While these models often exhibit powerful zero-shot generalization capabilities, they typically require an adaptation phase to achieve sufficient performance in deployment. Iterated self-improvement via reinforcement learning (RL) has demonstrated promise in enabling this adaptation, yet such approaches have been largely explored in single-task settings - where the goal is to simply improve on a narrow deployment task - which lies in stark contrast to the multi-task capabilities of the base policy. In this work we ask whether generalist robot policies are capable of multi-task, generalist improvement in deployment - targeting many diverse tasks simultaneously - and what algorithmic recipe enables this. To answer this question, we first develop a set of structured evaluations to test generalist improvement capabilities, and systematically evaluate algorithmic and practical design choices regarding value estimation, policy extraction and resource allocation. We show that not only can generalist policies be improved online across diverse tasks, but that the right recipe can enable generalization and increase performance on tasks not considered during online training. We characterize when this generalization occurs and show that both the training task distribution and the use of value-based RL are critical. To the best of our knowledge, this is among the first evidence for online generalist improvement for robot foundation models.",
+      "url": "https://arxiv.org/abs/2611.06905v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06905v1",
+      "relevance_score": 0.758,
+      "processed_date": "2026-11-05",
+      "summary": "Addressing critical demands in Robotics, this research investigates the introduction of generalist robot policies has enabled a single, large model to learn to perform a variety of tasks from a vast pre-training corpus. While these models often exhibit powerful zero-shot generalization capabilities, they typically require an adaptation phase to achieve sufficient performance in deployment. Iterated self-improvement via reinforcement learning (RL) has demonstrated promise in enabling this adaptation, yet such approaches have been largely explored in single-task settings - where the goal is to simply improve on a narrow deployment task - which lies in stark contrast to the multi-task capabilities of the base policy. To the best of our knowledge, this is among the first evidence for online generalist improvement for robot foundation models.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Zero-shot",
+        "Generalist Robot",
+        "Achieve Sufficient",
+        "Adaptation Approaches",
+        "Adaptation Phase"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "While these models often exhibit powerful zero-shot generalization capabilities, they typically require an adaptation phase to achieve sufficient performance in deployment.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Zero-shot.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.06918",
+      "raw_id": "http://arxiv.org/abs/2611.06918v1",
+      "title": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+      "authors": [
+        "Weichen Fan",
+        "Haiwen Diao",
+        "Penghao Wu",
+        "Siyuan Hu",
+        "Ziqi Huang",
+        "Tianqi Liu",
+        "Mingze Sun",
+        "Ziyi Wang",
+        "Zhongang Cai",
+        "Hanming Deng",
+        "Quan Wang",
+        "Lei Yang",
+        "Lewei Lu",
+        "Fangzhou Hong",
+        "Zhaoxi Chen",
+        "Dahua Lin",
+        "Ziwei Liu"
+      ],
+      "published_date": "2026-11-04T18:59:58Z",
+      "updated_date": "2026-11-04T18:59:58Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. This raises a fundamental question: should action policies inherit a fixed visual endpoint, or directly access evolving visual computation? We introduce NEO-VLA, a structurally encoder-free vision-language-action framework. Images are tokenized by lightweight patch convolutional layers and evolve jointly with language throughout the backbone, allowing a flow-matching action expert to draw from instruction-conditioned visual representations at different depths. This simple change reveals a consistent pattern. Native architectures outperform encoder-based counterparts under controlled comparisons; full fine-tuning reduces but does not erase the gap, and additional scale alone cannot recover it. More strikingly, layer-wise probing shows that the action-critical signals often peak well before the final visual representation. Across diverse manipulation settings and distribution shifts, NEO-VLA consequently achieves stronger and more robust control. Together, these results suggest that embodied control benefits from access to visual representations across the computational hierarchy, rather than a fixed encoder output.",
+      "url": "https://arxiv.org/abs/2611.06918v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06918v1",
+      "relevance_score": 0.738,
+      "processed_date": "2026-11-05",
+      "summary": "Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes. We introduce NEO-VLA, a structurally encoder-free vision-language-action framework. This raises a fundamental question: should action policies inherit a fixed visual endpoint, or directly access evolving visual computation? Together, these results suggest that embodied control benefits from access to visual representations across the computational hierarchy, rather than a fixed encoder output. Vision-language-action models are typically built on a simple premise: perception is first compressed by visual encoders, and action reasoning begins only afterwards. Images are tokenized by lightweight patch convolutional layers and evolve jointly with language throughout the backbone, allowing a flow-matching action expert to draw from instruction-conditioned visual representations at different depths.",
+      "key_concepts": [
+        "Manipulation",
+        "Action Policies",
+        "Abstraction Local",
+        "Access Evolving",
+        "Access Visual",
+        "Achieves Stronger"
+      ],
+      "insights": {
+        "problem": "Yet manipulation often hinges on precisely the visual signals most vulnerable to this abstraction, e.g., local geometry, boundaries, depth, and subtle state changes.",
+        "approach": "We introduce NEO-VLA, a structurally encoder-free vision-language-action framework.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Action Policies.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.06841",
+      "raw_id": "http://arxiv.org/abs/2611.06841v1",
+      "title": "ServerBench: How can your coding agents design specialized LLM serving systems?",
+      "authors": [
+        "Xinrui Zhong",
+        "Zhiming Wang",
+        "Yongqi Liu",
+        "Zhaohui Wang",
+        "Shanglin Yang",
+        "Zikun Li",
+        "Zhuoming Chen",
+        "Beidi Chen"
+      ],
+      "published_date": "2026-11-04T17:59:07Z",
+      "updated_date": "2026-11-04T17:59:07Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Large language model (LLM) coding agents develop software through experimentation, offering an opportunity to design the serving systems supporting their own operation. Effective serving requires coordinating implementation and operating decisions under session dependencies, latency constraints, and correctness requirements. We introduce ServerBench, a benchmark for agentic design of complete, specialized LLM serving systems. Agents experiment against a common objective, dollars per dollar: latency-qualified token value per dollar of GPU cost. Stateful replay preserves session dependencies, and independent verification checks the submitted system. Across 11 coding-agent models and three deployments, Claude Sonnet 5.5 achieves 2.97 dollars per dollar on Gemma E4B, 4.87\\times the vLLM reference; 22 of 33 runs yield verified systems, and 13 exceed the strongest baseline. Our analysis identifies three findings: high-value designs coordinate capacity improvements with load selection; agents interpret performance feedback through workload-relevant experiments; and reliable delivery requires verification of the execution paths introduced by optimization. Overall, ServerBench supports systematic study of how agents translate service objectives and feedback into effective, verified serving systems for given task specifications.",
+      "url": "https://arxiv.org/abs/2611.06841v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06841v1",
+      "relevance_score": 0.736,
+      "processed_date": "2026-11-05",
+      "summary": "Addressing critical demands in Natural Language Processing, this research investigates large language model (llm) coding agents develop software through experimentation, offering an opportunity to design the serving systems supporting their own operation. We introduce ServerBench, a benchmark for agentic design of complete, specialized LLM serving systems. Overall, ServerBench supports systematic study of how agents translate service objectives and feedback into effective, verified serving systems for given task specifications. Large language model (LLM) coding agents develop software through experimentation, offering an opportunity to design the serving systems supporting their own operation. Effective serving requires coordinating implementation and operating decisions under session dependencies, latency constraints, and correctness requirements.",
+      "key_concepts": [
+        "Large Language Model",
+        "Achieves Dollars",
+        "Agentic Design",
+        "Capacity Improvements",
+        "Checks Submitted",
+        "Claude Sonnet"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+        "approach": "We introduce ServerBench, a benchmark for agentic design of complete, specialized LLM serving systems.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Large Language Model, Achieves Dollars.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Effective serving requires coordinating implementation and operating decisions under session dependencies, latency constraints, and correctness requirements."
+      },
+      "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2611.06768",
+      "raw_id": "http://arxiv.org/abs/2611.06768v1",
+      "title": "PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the Real World",
+      "authors": [
+        "Qiang Wang",
+        "Jianxin Bi",
+        "Shulong Jiang",
+        "Ruiyang Si",
+        "Wenbo Huang",
+        "Kaiqi Chen",
+        "Jiaxin Li",
+        "Liyun Li",
+        "Xuanyi Li",
+        "Daquan Zhou"
+      ],
+      "published_date": "2026-11-04T16:46:03Z",
+      "updated_date": "2026-11-04T16:46:03Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Coding agents powered by models such as GPT-6-Astra connect spatial reasoning with executable robot behavior, raising the question of how such agents can produce lasting improvements in robot capabilities from physical interaction. In this work, we study embodied recursive self-improvement (RSI) through real-world exploration, code refinement, and deployment using PyRUA-REAL, a framework in which coding agents retain interaction experience as persistent memory and reusable executable skills that inform subsequent exploration and improvement. Our empirical study places physical manipulation at the center of the improvement process, examining how agents collaborate, what kinds of execution feedback support effective code refinement, and how task specifications and previously acquired skills influence robustness and task transfer. We further investigate the efficiency and capability of the resulting programs when deployed without involving an online agent for decision-making. Across eight real-world tasks, PyRUA-REAL achieves an average success rate of 91.1%. In complementary evaluation on 42 tasks from the RoboDojo benchmark, it achieves an average success rate of 84.4%. This study provides empirical guidance for turning physical exploration into reusable robot skills that support continued improvement and robust, efficient deployment.",
+      "url": "https://arxiv.org/abs/2611.06768v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06768v1",
+      "relevance_score": 0.736,
+      "processed_date": "2026-11-05",
+      "summary": "Addressing critical demands in Robotics, this research investigates coding agents powered by models such as gpt-6-astra connect spatial reasoning with executable robot behavior, raising the question of how such agents can produce lasting improvements in robot capabilities from physical interaction. In this work, we study embodied recursive self-improvement (RSI) through real-world exploration, code refinement, and deployment using PyRUA-REAL, a framework in which coding agents retain interaction experience as persistent memory and reusable executable skills that inform subsequent exploration and improvement. Our empirical study places physical manipulation at the center of the improvement process, examining how agents collaborate, what kinds of execution feedback support effective code refinement, and how task specifications and previously acquired skills influence robustness and task transfer. This study provides empirical guidance for turning physical exploration into reusable robot skills that support continued improvement and robust, efficient deployment.",
+      "key_concepts": [
+        "Manipulation",
+        "Acquired Skills",
+        "Agent Decision-making",
+        "Astra Connect",
+        "Behavior Raising",
+        "Capabilities Physical Interaction"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "In this work, we study embodied recursive self-improvement (RSI) through real-world exploration, code refinement, and deployment using PyRUA-REAL, a framework in which coding agents retain interaction experience as persistent memory and reusable executable skills that inform subsequent exploration and improvement.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Acquired Skills.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.06760",
+      "raw_id": "http://arxiv.org/abs/2611.06760v1",
+      "title": "Route First, See Later: Enabling Vision Agents to Reason Scientifically by Separating Routing Policy from Action Spaces",
+      "authors": [
+        "Shubhabrata Mukherjee",
+        "Jeffrey Donatelli",
+        "Daniela Ushizima"
+      ],
+      "published_date": "2026-11-04T16:39:17Z",
+      "updated_date": "2026-11-04T16:39:17Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "abstract": "Scientific image-analysis workflows require agents to select among diverse capabilities like description, detection, counting, and segmentation. Current multi-tool architectures conflate intent interpretation with visual execution, masking whether a failure arises from flawed reasoning (misrouting) or failed perception (invalid tool execution). This lack of auditability renders agents unreliable for high-stakes scientific automation. We introduce ZETA, an extensible architecture that operationalizes the decoupling of routing policy from action execution. ZETA resolves scientific intent before invoking specialized visual tools, treating measurement as a deterministic operation grounded in explicit geometry rather than generative output. This architecture exposes the \"black box\" of agent decision-making, allowing routing correctness and downstream execution to be evaluated as independent failure modes. To our knowledge, we provide the first controlled study in scientific vision-agent routing that isolates explicit routing-policy specification while holding the legal action interface fixed. Evaluation on a zero-shot benchmark of 51 scientific-intent queries shows that explicit routing semantics can substantially improve routing accuracy, particularly at semantically adjacent action boundaries, although improvements vary across models. For Qwen 3.8, explicit routing-policy specification improves segmentation routing accuracy from 6.2% to 75.0% and detection routing accuracy from 60.0% to 100%. ZETA's execution traces make routing decisions and downstream artifacts separately observable, providing a basis for distinguishing intent-selection errors from visual execution failures. ZETA establishes the necessary infrastructure to isolate execution errors from interpretive ones, a critical requirement for deploying reliable scientific vision agents.",
+      "url": "https://arxiv.org/abs/2611.06760v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06760v1",
+      "relevance_score": 0.735,
+      "processed_date": "2026-11-05",
+      "summary": "This lack of auditability renders agents unreliable for high-stakes scientific automation. We introduce ZETA, an extensible architecture that operationalizes the decoupling of routing policy from action execution. ZETA establishes the necessary infrastructure to isolate execution errors from interpretive ones, a critical requirement for deploying reliable scientific vision agents. Scientific image-analysis workflows require agents to select among diverse capabilities like description, detection, counting, and segmentation. Current multi-tool architectures conflate intent interpretation with visual execution, masking whether a failure arises from flawed reasoning (misrouting) or failed perception (invalid tool execution). ZETA resolves scientific intent before invoking specialized visual tools, treating measurement as a deterministic operation grounded in explicit geometry rather than generative output.",
+      "key_concepts": [
+        "Zero-shot",
+        "Action Interface Fixed",
+        "Adjacent Action",
+        "Agent Decision-making",
+        "Explicit Routing-policy",
+        "Routing Accuracy"
+      ],
+      "insights": {
+        "problem": "This lack of auditability renders agents unreliable for high-stakes scientific automation.",
+        "approach": "We introduce ZETA, an extensible architecture that operationalizes the decoupling of routing policy from action execution.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Action Interface Fixed.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Computer Vision"
+    },
+    {
+      "arxiv_id": "2611.06890",
+      "raw_id": "http://arxiv.org/abs/2611.06890v1",
+      "title": "Procedural Adversarial Learning",
+      "authors": [
+        "Jack Nugent",
+        "Jia Deng"
+      ],
+      "published_date": "2026-11-04T18:42:28Z",
+      "updated_date": "2026-11-04T18:42:28Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "For many computer vision tasks, neural networks can be trained to produce a low average error, yet they still fail on seemingly simple scenes. Reducing these failures requires first finding them, but they may not be in a fixed dataset. We study procedural adversarial learning (PAL), a framework of minimax training and adversarial evaluation which searches the input space of a procedural generator for difficult instances. The procedural generator is an interpretable program mapping a low-dimensional vector of control parameters (e.g. layout, lighting, pose) to a rendered image and its label. We introduce the Simple-PAT algorithm, which uses zeroth-order optimization in the procedural generator's parameter space to propose adversarial training samples that are generated on demand. We also create PAL-Dojo, a collection of efficient procedural generators for surface normal estimation, image segmentation, and human pose estimation. Against a cross-model black-box adversary with 50M aggregate queries, Simple-PAT reduces worst-case error by a geometric mean of 3.15x compared to standard training and 2.63x compared to the strongest robust training baseline. Code is available at https://github.com/princeton-vl/procedural-adversarial-learning.",
+      "url": "https://arxiv.org/abs/2611.06890v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06890v1",
+      "relevance_score": 0.697,
+      "processed_date": "2026-11-05",
+      "summary": "We study procedural adversarial learning (PAL), a framework of minimax training and adversarial evaluation which searches the input space of a procedural generator for difficult instances. We introduce the Simple-PAT algorithm, which uses zeroth-order optimization in the procedural generator's parameter space to propose adversarial training samples that are generated on demand. Code is available at https://github.com/princeton-vl/procedural-adversarial-learning. For many computer vision tasks, neural networks can be trained to produce a low average error, yet they still fail on seemingly simple scenes. Reducing these failures requires first finding them, but they may not be in a fixed dataset. The procedural generator is an interpretable program mapping a low-dimensional vector of control parameters (e.g. layout, lighting, pose) to a rendered image and its label.",
+      "key_concepts": [
+        "Adversarial Learning",
+        "Adversary Aggregate",
+        "Aggregate Queries",
+        "Algorithm Uses",
+        "Available Https",
+        "Black-box Adversary"
+      ],
+      "insights": {
+        "problem": "We study procedural adversarial learning (PAL), a framework of minimax training and adversarial evaluation which searches the input space of a procedural generator for difficult instances.",
+        "approach": "We introduce the Simple-PAT algorithm, which uses zeroth-order optimization in the procedural generator's parameter space to propose adversarial training samples that are generated on demand.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Adversarial Learning, Adversary Aggregate.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Computer Vision"
+    },
+    {
+      "arxiv_id": "2611.06839",
+      "raw_id": "http://arxiv.org/abs/2611.06839v1",
+      "title": "Before You Continue: Evaluating Time-Sensitive Safety Awareness in Conversational Assistants",
+      "authors": [
+        "Peidi Dong",
+        "Yunze Xiao",
+        "Yu-Lin Tsai",
+        "Yichen Zheng",
+        "Heyuan Huang",
+        "Weihao Xuan",
+        "Mark Dredze",
+        "Jen-tse Huang"
+      ],
+      "published_date": "2026-11-04T17:54:49Z",
+      "updated_date": "2026-11-04T17:54:49Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Large language model (LLM) assistants increasingly help users with everyday activities that involve time-dependent constraints. However, users may not mention these constraints in later requests, requiring assistants to recognize and adjust their advice accordingly. To evaluate such capability, we introduce TASC (Temporal Action Safety in Conversation), a benchmark that evaluates whether LLMs apply time-dependent constraints when responding to conversational requests. TASC consists of 3,418 inputs derived from 128 templates, along with a separate set of 33 scenarios designed to compare models' ability to calculate elapsed time with their ability to apply that information. Across 13 models, assistants account for time-dependent constraints in only 30.5% of cases where the proposed action violates a rule, while rarely warning users unnecessarily. More importantly, models fail to apply these constraints in 62.1% of cases despite correctly calculating the elapsed time. Explicitly providing the timing resolves only about half of these failures, revealing a gap between temporal reasoning and its application in conversational advice.",
+      "url": "https://arxiv.org/abs/2611.06839v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.06839v1",
+      "relevance_score": 0.696,
+      "processed_date": "2026-11-05",
+      "summary": "However, users may not mention these constraints in later requests, requiring assistants to recognize and adjust their advice accordingly. To evaluate such capability, we introduce TASC (Temporal Action Safety in Conversation), a benchmark that evaluates whether LLMs apply time-dependent constraints when responding to conversational requests. Explicitly providing the timing resolves only about half of these failures, revealing a gap between temporal reasoning and its application in conversational advice. Large language model (LLM) assistants increasingly help users with everyday activities that involve time-dependent constraints. TASC consists of 3,418 inputs derived from 128 templates, along with a separate set of 33 scenarios designed to compare models' ability to calculate elapsed time with their ability to apply that information.",
+      "key_concepts": [
+        "Large Language Model",
+        "Accordingly Evaluate",
+        "Account Time-dependent",
+        "Action Safety",
+        "Action Violates",
+        "Activities Involve"
+      ],
+      "insights": {
+        "problem": "However, users may not mention these constraints in later requests, requiring assistants to recognize and adjust their advice accordingly.",
+        "approach": "To evaluate such capability, we introduce TASC (Temporal Action Safety in Conversation), a benchmark that evaluates whether LLMs apply time-dependent constraints when responding to conversational requests.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Large Language Model, Accordingly Evaluate.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Large language model (LLM) assistants increasingly help users with everyday activities that involve time-dependent constraints."
+      },
+      "primary_topic": "Natural Language Processing"
     }
   ]
 }
