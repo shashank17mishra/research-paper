@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[05 November 2026 Report](reports/2026/11/05/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[06 November 2026 Report](reports/2026/11/06/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/05/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/06/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/05/infographic.png)](reports/2026/11/05/infographic.png)
+[![Daily Infographic](reports/2026/11/06/infographic.png)](reports/2026/11/06/infographic.png)
 
 ---
 
@@ -25,10 +25,10 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `3` |
-| **Machine Learning (ML)** | `1` |
-| **Robotics** | `5` |
-| **IoT & Edge AI** | `0` |
+| **Artificial Intelligence (AI)** | `5` |
+| **Machine Learning (ML)** | `2` |
+| **Robotics** | `6` |
+| **IoT & Edge AI** | `1` |
 
 ---
 
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Before You Continue: Evaluating Time-Sensitive Safety Awareness in Conve...** | `Natural Language Processing` | `0.70` | [arXiv](https://arxiv.org/abs/2611.06839v1) |
-| 2 | **Procedural Adversarial Learning** | `Computer Vision` | `0.70` | [arXiv](https://arxiv.org/abs/2611.06890v1) |
-| 3 | **Route First, See Later: Enabling Vision Agents to Reason Scientifically ...** | `Computer Vision` | `0.73` | [arXiv](https://arxiv.org/abs/2611.06760v1) |
-| 4 | **PyRUA-REAL: Robot Exploration and Adaptive Learning through RSI in the R...** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2611.06768v1) |
-| 5 | **ServerBench: How can your coding agents design specialized LLM serving s...** | `Natural Language Processing` | `0.74` | [arXiv](https://arxiv.org/abs/2611.06841v1) |
+| 1 | **SLA: Scaling Spatial-Language-Action Model via Continual Pre-training** | `Robotics` | `0.69` | [arXiv](https://arxiv.org/abs/2611.08373v1) |
+| 2 | **StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference** | `Natural Language Processing` | `0.70` | [arXiv](https://arxiv.org/abs/2611.08363v1) |
+| 3 | **The Power of Meta Access in the Software of the Future --- Demonstrated ...** | `Natural Language Processing` | `0.70` | [arXiv](https://arxiv.org/abs/2611.08428v1) |
+| 4 | **Spectral and Subspace Dynamics of LoRA in Supervised Fine-Tuning and Rei...** | `Machine Learning` | `0.70` | [arXiv](https://arxiv.org/abs/2611.08414v1) |
+| 5 | **VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding** | `Artificial Intelligence` | `0.70` | [arXiv](https://arxiv.org/abs/2611.08449v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `268`
-- **Total Operational Runs**: `39 days`
+- **Total Papers Analyzed**: `278`
+- **Total Operational Runs**: `40 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 

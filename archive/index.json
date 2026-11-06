@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-05T07:46:39.257258",
-  "total_entries": 268,
+  "updated_at": "2026-11-06T07:45:31.520128",
+  "total_entries": 278,
   "months": [
     "2026-11",
     "2026-10"
@@ -11466,6 +11466,445 @@
         "limitations": "Large language model (LLM) assistants increasingly help users with everyday activities that involve time-dependent constraints."
       },
       "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2611.08338",
+      "raw_id": "http://arxiv.org/abs/2611.08338v1",
+      "title": "GPWM: Modeling the World as 3D Particle Motion",
+      "authors": [
+        "Robert Ren",
+        "Matthew Bronars",
+        "He Zhu",
+        "Yikai Tang",
+        "Jianing Zhang",
+        "Sergey Zakharov",
+        "Pavel Tokmakov",
+        "Katerina Fragkiadaki"
+      ],
+      "published_date": "2026-11-05T17:24:36Z",
+      "updated_date": "2026-11-05T17:24:36Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "We introduce GPWM, a Generative Particle World Model that predicts how 3D scenes evolve by generating the motion of particles and rigid bodies over time. Unlike video world models that generate scene appearance, GPWM operates directly in 3D physical space. A single representation and architecture cover rigid, deformable, cloth, and granular materials, in both passive physics and robotic interaction. GPWM is an object-aware multi-resolution transformer that combines flow matching with diffusion forcing to generate coherent physical trajectories far beyond its training horizon. We train and evaluate GPWM on ParticleWorlds, a 25.5-million-frame corpus spanning diverse geometries, materials, interactions, and robot embodiments. GPWM outperforms the best prior learned-dynamics baseline in each of six physical domains, reducing prediction error by 31% on average. Breaking from the domain-specific setting of prior methods, a single Unified GPWM models these heterogeneous regimes with one set of weights, largely outperforming per-domain baselines and even surpassing our own specialist models in two domains. GPWM further generalizes to unseen geometries, physical properties, object counts, and rollout horizons. Beyond prediction, GPWM enables contact-rich planning by learning a generative prior over joint actuator-object motion. Instead of searching over unconstrained actions, planning searches the model's latent noise for interactions that achieve a desired object-space goal. With the same world model, noise-space planning substantially outperforms action-space search on pushing and picking, where complex contact sequences are hard to discover. Executed open-loop in simulation, the resulting plans achieve goal-directed manipulation without reference action trajectories or goal-specific policies.",
+      "url": "https://arxiv.org/abs/2611.08338v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08338v1",
+      "relevance_score": 0.787,
+      "processed_date": "2026-11-06",
+      "summary": "With the same world model, noise-space planning substantially outperforms action-space search on pushing and picking, where complex contact sequences are hard to discover. We introduce GPWM, a Generative Particle World Model that predicts how 3D scenes evolve by generating the motion of particles and rigid bodies over time. GPWM outperforms the best prior learned-dynamics baseline in each of six physical domains, reducing prediction error by 31% on average. Executed open-loop in simulation, the resulting plans achieve goal-directed manipulation without reference action trajectories or goal-specific policies. Unlike video world models that generate scene appearance, GPWM operates directly in 3D physical space.",
+      "key_concepts": [
+        "World Model",
+        "Manipulation",
+        "Time Unlike",
+        "Train Evaluate",
+        "Trajectories Far",
+        "Trajectories Goal-specific"
+      ],
+      "insights": {
+        "problem": "With the same world model, noise-space planning substantially outperforms action-space search on pushing and picking, where complex contact sequences are hard to discover.",
+        "approach": "We introduce GPWM, a Generative Particle World Model that predicts how 3D scenes evolve by generating the motion of particles and rigid bodies over time.",
+        "key_innovation": "Formulates an integrated mechanism leveraging World Model, Manipulation.",
+        "results": "GPWM outperforms the best prior learned-dynamics baseline in each of six physical domains, reducing prediction error by 31% on average.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.08458",
+      "raw_id": "http://arxiv.org/abs/2611.08458v1",
+      "title": "Latent RL Priors for Data-Efficient Dexterous Manipulation",
+      "authors": [
+        "Yixiao Wang",
+        "Peiyi Chen",
+        "Mustafa Mukadam",
+        "Shreekant Gayaka",
+        "Masayoshi Tomizuka",
+        "Son Tran"
+      ],
+      "published_date": "2026-11-05T18:50:06Z",
+      "updated_date": "2026-11-05T18:50:06Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Learning dexterous manipulation from limited visual demonstrations is challenging because policies must acquire both perceptual grounding and precise control, while reinforcement learning (RL) in simulation can acquire rich control behaviors from large-scale interaction with privileged information. We introduce \\textbf{Latent RL Prior}, a two-stage framework that reuses this control knowledge for data-efficient visual policy learning. During privileged pretraining, we distill large-scale RL rollouts into a flow-matching action decoder conditioned on proprioception and latent task context. During visual adaptation, we freeze the decoder and learn a visual interface that maps images to its latent context using action supervision alone, without privileged labels or latent targets. The same decoder can further be shared across arms by learning coordinated visual contexts for bimanual manipulation. Across three simulated tasks, our method outperforms full-parameter fine-tuning of π_{0.5} and GR00T N1.7 in the low-data regime; on door lifting and bimanual assembly, it surpasses full-data baselines using 10\\times and 5\\times fewer demonstrations, respectively. Further analysis shows that direct visual-to-latent conditioning improves adaptation performance and training stability over routing visual predictions through the pretrained state encoder. Robustness to unseen mass variation and greater linear accessibility of contact-force information in decoder representations further provide evidence of retained RL-acquired control knowledge. Project website: https://yixiaowang7.github.io/latent-rl-prior-page/.",
+      "url": "https://arxiv.org/abs/2611.08458v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08458v1",
+      "relevance_score": 0.775,
+      "processed_date": "2026-11-06",
+      "summary": "Addressing critical demands in Robotics, this research investigates learning dexterous manipulation from limited visual demonstrations is challenging because policies must acquire both perceptual grounding and precise control, while reinforcement learning (rl) in simulation can acquire rich control behaviors from large-scale interaction with privileged information. We introduce \\textbf{Latent RL Prior}, a two-stage framework that reuses this control knowledge for data-efficient visual policy learning. Across three simulated tasks, our method outperforms full-parameter fine-tuning of π_{0.5} and GR00T N1.7 in the low-data regime; on door lifting and bimanual assembly, it surpasses full-data baselines using 10\\times and 5\\times fewer demonstrations, respectively. Project website: https://yixiaowang7.github.io/latent-rl-prior-page/.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Dexterous Manipulation",
+        "Manipulation",
+        "Control Knowledge",
+        "Textbf Latent",
+        "Times Fewer"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We introduce \\textbf{Latent RL Prior}, a two-stage framework that reuses this control knowledge for data-efficient visual policy learning.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Dexterous Manipulation.",
+        "results": "Across three simulated tasks, our method outperforms full-parameter fine-tuning of π_{0.5} and GR00T N1.7 in the low-data regime; on door lifting and bimanual assembly, it surpasses full-data baselines using 10\\times and 5\\times fewer demonstrations, respectively.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.08413",
+      "raw_id": "http://arxiv.org/abs/2611.08413v1",
+      "title": "T3R: Training-Free Two-Stage Token Refinement Towards Efficient and Robust VLA Models",
+      "authors": [
+        "Mohammed Hassan",
+        "Zhenyang Chen",
+        "Zheng Wang",
+        "Zhixin Zhu",
+        "Tianlong Chen",
+        "Yingyan",
+        "Lin",
+        "Chaojian Li"
+      ],
+      "published_date": "2026-11-05T18:17:29Z",
+      "updated_date": "2026-11-05T18:17:29Z",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "abstract": "Vision-Language-Action (VLA) models enable end-to-end robot control, but inference is increasingly expensive. Each decision processes hundreds of visual tokens, often across multiple cameras, leading to substantial computation while allowing irrelevant background content to distract action prediction under distribution shift. We argue that these issues stem from two complementary forms of redundancy: many visual tokens are spatially irrelevant, while attention over the remaining tokens is often misallocated. Based on this observation, we propose T3R, a Training-Free Two-Stage Token Refinement framework. In the first stage, segmentation-guided token pruning removes irrelevant visual patches to reduce computation and eliminate distracting context. In the second stage, saliency-guided attention biasing reallocates attention toward action-critical visual regions and language instructions within the retained tokens. Together, pruning produces a cleaner candidate set, while attention biasing further emphasizes the most decision-relevant evidence, yielding a better accuracy-efficiency frontier than either stage alone. On LIBERO-Spatial, T3R removes 85% of scene-camera visual tokens while essentially matching the unpruned success rate, and improves success by up to 7 percentage points under out-of-distribution object-placement perturbations. The timing comparison attributes 7.8 ms per inference call to pruning and attention-bias application. As input resolution increases, LLM-forward profiling shows up to a 3.3x speedup over the unpruned baseline. Evaluations across LIBERO, SIMPLER, and RoboTwin with three VLA backbones show the strongest accuracy-efficiency benefits in multi-camera settings. These results demonstrate that training-free token refinement is a practical approach to efficient and robust VLA inference.",
+      "url": "https://arxiv.org/abs/2611.08413v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08413v1",
+      "relevance_score": 0.757,
+      "processed_date": "2026-11-06",
+      "summary": "Addressing critical demands in Robotics, this research investigates vision-language-action (vla) models enable end-to-end robot control, but inference is increasingly expensive. Based on this observation, we propose T3R, a Training-Free Two-Stage Token Refinement framework. On LIBERO-Spatial, T3R removes 85% of scene-camera visual tokens while essentially matching the unpruned success rate, and improves success by up to 7 percentage points under out-of-distribution object-placement perturbations. These results demonstrate that training-free token refinement is a practical approach to efficient and robust VLA inference. Vision-Language-Action (VLA) models enable end-to-end robot control, but inference is increasingly expensive. Each decision processes hundreds of visual tokens, often across multiple cameras, leading to substantial computation while allowing irrelevant background content to distract action prediction under distribution shift.",
+      "key_concepts": [
+        "Pruning",
+        "Token Refinement",
+        "Training-free Two-stage",
+        "Two-stage Token",
+        "Attention Biasing",
+        "Unpruned Success"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "Based on this observation, we propose T3R, a Training-Free Two-Stage Token Refinement framework.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Pruning, Token Refinement.",
+        "results": "On LIBERO-Spatial, T3R removes 85% of scene-camera visual tokens while essentially matching the unpruned success rate, and improves success by up to 7 percentage points under out-of-distribution object-placement perturbations.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.08372",
+      "raw_id": "http://arxiv.org/abs/2611.08372v1",
+      "title": "MOMASPLAT: Dynamic Novel-View Demonstration Augmentation for Mobile Manipulation",
+      "authors": [
+        "Sateesh Kumar",
+        "Arnav Balaji",
+        "Arpit Bahety",
+        "Skand Peri",
+        "Georgios Pavlakos",
+        "Roberto Martín-Martín"
+      ],
+      "published_date": "2026-11-05T17:50:35Z",
+      "updated_date": "2026-11-05T17:50:35Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "Visuomotor policies trained through imitation learning are highly sensitive to changes in camera viewpoint. This is particularly problematic for mobile manipulation (MoMa), where robots rarely execute manipulation from the exact same base pose used during demonstration collection due to navigation uncertainty, localization drift, and environmental constraints. Recent approaches use novel-view synthesis (NVS) to augment demonstrations with unseen viewpoints, but they assume static scenes and therefore fail to re-render the manipulated object during the post-contact interaction phase, leaving the most critical parts of the demonstration unaugmented. We present MOMASPLAT, a novel-view demonstration augmentation framework for mobile manipulation that synthesizes full manipulation trajectories from unseen robot base poses, including dynamic object interactions. Our key insight is that standard MoMa data collection naturally provides the multiview observations needed to reconstruct both the static scene and the manipulated object in 3D. MOMASPLAT combines 3D Gaussian Splatting, feed-forward 3D foundation models, and kinematics-based action retargeting to separately reconstruct the scene and manipulated object, render them from novel viewpoints, and generate geometrically consistent synthetic demonstrations paired with transformed actions. We evaluate MOMASPLAT on five real-world mobile manipulation tasks involving both rigid and articulated objects across three scenes, and validate the fidelity of its synthesized demonstrations against ground truth in simulation. MOMASPLAT substantially improves robustness to unseen base poses, more than doubling the average success rate of the strongest baseline and maintaining non-trivial success at large base displacements where all baselines fail, while reducing the need for largescale real-world data collection.",
+      "url": "https://arxiv.org/abs/2611.08372v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08372v1",
+      "relevance_score": 0.754,
+      "processed_date": "2026-11-06",
+      "summary": "Addressing critical demands in Robotics, this research investigates visuomotor policies trained through imitation learning are highly sensitive to changes in camera viewpoint. We present MOMASPLAT, a novel-view demonstration augmentation framework for mobile manipulation that synthesizes full manipulation trajectories from unseen robot base poses, including dynamic object interactions. Recent approaches use novel-view synthesis (NVS) to augment demonstrations with unseen viewpoints, but they assume static scenes and therefore fail to re-render the manipulated object during the post-contact interaction phase, leaving the most critical parts of the demonstration unaugmented. MOMASPLAT substantially improves robustness to unseen base poses, more than doubling the average success rate of the strongest baseline and maintaining non-trivial success at large base displacements where all baselines fail, while reducing the need for largescale real-world data collection.",
+      "key_concepts": [
+        "Imitation Learning",
+        "Manipulation",
+        "Gaussian Splatting",
+        "Base Poses",
+        "Manipulated Object",
+        "Scene Manipulated"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We present MOMASPLAT, a novel-view demonstration augmentation framework for mobile manipulation that synthesizes full manipulation trajectories from unseen robot base poses, including dynamic object interactions.",
+        "key_innovation": "Recent approaches use novel-view synthesis (NVS) to augment demonstrations with unseen viewpoints, but they assume static scenes and therefore fail to re-render the manipulated object during the post-contact interaction phase, leaving the most critical parts of the demonstration unaugmented.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "This is particularly problematic for mobile manipulation (MoMa), where robots rarely execute manipulation from the exact same base pose used during demonstration collection due to navigation uncertainty, localization drift, and environmental constraints."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.08369",
+      "raw_id": "http://arxiv.org/abs/2611.08369v1",
+      "title": "NPCBench: A Clinical Apprenticeship Benchmark for Multimodal Care-Pathway Reasoning in Nasopharyngeal Carcinoma",
+      "authors": [
+        "Pengkai Wang",
+        "Wei-Wei Zhang",
+        "Yan Li",
+        "Min Tang",
+        "Zhitian Hou",
+        "Zeyu Liu",
+        "Guanghao Zhu",
+        "Yuanyi Wang",
+        "Yanggan Gu",
+        "Wenjun Wang",
+        "Minheng Ni",
+        "Congkai Xie",
+        "Zhijie Sang",
+        "Jianmin Wu",
+        "Ying Sun",
+        "Hongxia Yang"
+      ],
+      "published_date": "2026-11-05T17:48:55Z",
+      "updated_date": "2026-11-05T17:48:55Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Current medical benchmarks typically break down clinical competence into isolated factual questions, single-image tasks, or static case vignettes. These tests score individual answers, but reveal less about whether a model can integrate subspecialty knowledge with multimodal evidence and track a patient's condition throughout a course of care. To close this gap, we introduce NPCBench, a clinical apprenticeship benchmark for nasopharyngeal carcinoma (NPC). NPCBench mirrors specialist training, from guideline and foundational knowledge to case planning, longitudinal review, CarePath integration, and open-ended consultation. It contains 4,777 component and consultation items and a 100-patient CarePath cohort with 417 scored diagnostic and care tasks. The episode-level evaluation tests whether diagnostic and care answers are jointly correct within a care pathway. By linking stepwise tasks to patient-level care trajectories, NPCBench evaluates whether models ground decisions in visual evidence, interpret changes in patient state, and meet clinical requirements in consultation. Across 30 evaluated models, we observe a composition gap: strong performance on individual tasks does not ensure jointly correct diagnostic and care answers for the same patient. Among 21 multimodal models, strict CarePath success reaches at most 23%. Paired controls and physician calibration further examine evidence grounding, longitudinal revision, and consultation judging. Overall, NPCBench broadens the evaluation of medical artificial intelligence beyond static question-answering paradigms to an apprenticeship-oriented assessment of clinical workflows, thereby offering a testbed for evidence-based and temporally coherent reasoning in oncology care.",
+      "url": "https://arxiv.org/abs/2611.08369v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08369v1",
+      "relevance_score": 0.723,
+      "processed_date": "2026-11-06",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates current medical benchmarks typically break down clinical competence into isolated factual questions, single-image tasks, or static case vignettes. To close this gap, we introduce NPCBench, a clinical apprenticeship benchmark for nasopharyngeal carcinoma (NPC). Overall, NPCBench broadens the evaluation of medical artificial intelligence beyond static question-answering paradigms to an apprenticeship-oriented assessment of clinical workflows, thereby offering a testbed for evidence-based and temporally coherent reasoning in oncology care. Current medical benchmarks typically break down clinical competence into isolated factual questions, single-image tasks, or static case vignettes. These tests score individual answers, but reveal less about whether a model can integrate subspecialty knowledge with multimodal evidence and track a patient's condition throughout a course of care.",
+      "key_concepts": [
+        "Care Answers",
+        "Diagnostic Care",
+        "Jointly Correct",
+        "Subspecialty Knowledge",
+        "Success Reaches",
+        "Temporally Coherent"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "To close this gap, we introduce NPCBench, a clinical apprenticeship benchmark for nasopharyngeal carcinoma (NPC).",
+        "key_innovation": "Formulates an integrated mechanism leveraging Care Answers, Diagnostic Care.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.08449",
+      "raw_id": "http://arxiv.org/abs/2611.08449v1",
+      "title": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "authors": [
+        "Yu-Cheng Chou",
+        "Shihao Wang",
+        "Jin Huang",
+        "Chi-Pin Huang",
+        "Chiao-An Yang",
+        "Xianzhe Fan",
+        "Jing Wang",
+        "Zhiqi Li",
+        "Yuanguo Kuang",
+        "Ruijie Zheng",
+        "Johan Bjorck",
+        "Sifei Liu",
+        "Hang Su",
+        "Abhishek Badki",
+        "Lei Zhang",
+        "Alan Yuille",
+        "Linxi \"Jim'' Fan",
+        "Jan Kautz",
+        "Zhiding Yu"
+      ],
+      "published_date": "2026-11-05T18:44:43Z",
+      "updated_date": "2026-11-05T18:44:43Z",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "abstract": "Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. VFlash exploits the known structure of visual primitives to predict their coordinates jointly, using a lightweight drafter that generates an entire primitive in one forward pass. The layout adapts to the primitive's type, dimensionality, and length, supporting compact boxes and long, variable-length trajectories. Crucially, spatial accuracy need not require reproducing an autoregressive model's exact token sequence. VFlash therefore trains on annotated primitives and directly accepts structurally valid predictions without target-token agreement. Across the evaluated 2D and 3D robot trajectory tasks, VFlash consistently reduces prediction errors relative to autoregressive decoding. Preliminary single-rollout measurements indicate approximately 25x faster generation for 3D point motion forecasting. A world action model conditioned on VFlash plans achieves 70.2% average success across four MolmoSpaces task suites, compared with 62.6% for the baseline.",
+      "url": "https://arxiv.org/abs/2611.08449v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08449v1",
+      "relevance_score": 0.704,
+      "processed_date": "2026-11-06",
+      "summary": "However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly. We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding. A world action model conditioned on VFlash plans achieves 70.2% average success across four MolmoSpaces task suites, compared with 62.6% for the baseline. Models for physical AI tasks, such as robotics and autonomous driving, need not reason solely in language. They can use visual plans--points, bounding boxes, and trajectories--to represent spatial goals and anticipate motion. VFlash exploits the known structure of visual primitives to predict their coordinates jointly, using a lightweight drafter that generates an entire primitive in one forward pass.",
+      "key_concepts": [
+        "Accurate Visual",
+        "Accepts Structurally",
+        "Accuracy Need",
+        "Adapts Primitive",
+        "Agreement Evaluated",
+        "Annotated Primitives"
+      ],
+      "insights": {
+        "problem": "However, autoregressive vision-language models generate these plans one coordinate token at a time, making richer predictions increasingly costly.",
+        "approach": "We introduce VFlash, a method for fast, accurate visual planning through Flash Primitive Decoding.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Accurate Visual, Accepts Structurally.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.08414",
+      "raw_id": "http://arxiv.org/abs/2611.08414v1",
+      "title": "Spectral and Subspace Dynamics of LoRA in Supervised Fine-Tuning and Reinforcement Learning",
+      "authors": [
+        "Chenruo Liu",
+        "Zihan Wang",
+        "Yijun Dong",
+        "Qi Lei"
+      ],
+      "published_date": "2026-11-05T18:17:39Z",
+      "updated_date": "2026-11-05T18:17:39Z",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "Low-rank adaptation (LoRA) is commonly used in both supervised fine-tuning (SFT) and reinforcement learning (RL), often under similar optimizer settings. Yet, how the different dynamics of the two stages manifest in the low-rank increment that LoRA optimizes remains unclear. Tracking the singular spectrum and subspaces of LoRA updates on mathematical reasoning tasks, we find that RL concentrates the spectrum at every learning rate, while SFT expands it at moderate learning rates; moreover, RL rotates the singular subspaces much faster than SFT at small learning rates. Interpolating between SFT and RL one ingredient at a time, we pinpoint group-mean baseline subtraction as the source of both contrasts. A quadratic multi-index model updated via LoRA unveils the underlying mechanism: group-mean baseline subtraction tilts the balance between two competing forces, coherent fitting and gradient noise, toward spectral concentration and faster subspace rotation, while forcing the risk-favorable learning rate to be low. Guided by these dynamics, we tailor LoRA updates to each stage: in SFT, we flatten the spectrum of the full update to spread adaptation across singular directions, whereas in RL, we flatten the part of the update outside the current LoRA increment span to promote subspace rotation. Experiments on mathematical reasoning tasks across multiple models show that the respective configurations for SFT and RL yield the best performance among the compared methods in most evaluated settings.",
+      "url": "https://arxiv.org/abs/2611.08414v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08414v1",
+      "relevance_score": 0.703,
+      "processed_date": "2026-11-06",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates low-rank adaptation (lora) is commonly used in both supervised fine-tuning (sft) and reinforcement learning (rl), often under similar optimizer settings. Yet, how the different dynamics of the two stages manifest in the low-rank increment that LoRA optimizes remains unclear. Tracking the singular spectrum and subspaces of LoRA updates on mathematical reasoning tasks, we find that RL concentrates the spectrum at every learning rate, while SFT expands it at moderate learning rates; moreover, RL rotates the singular subspaces much faster than SFT at small learning rates. Experiments on mathematical reasoning tasks across multiple models show that the respective configurations for SFT and RL yield the best performance among the compared methods in most evaluated settings.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Adaptation Lora",
+        "Adaptation Singular Directions",
+        "Balance Competing",
+        "Compared Methods Evaluated",
+        "Competing Forces"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "Yet, how the different dynamics of the two stages manifest in the low-rank increment that LoRA optimizes remains unclear.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Adaptation Lora.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.08428",
+      "raw_id": "http://arxiv.org/abs/2611.08428v1",
+      "title": "The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI",
+      "authors": [
+        "Julian Kunkel",
+        "Ali Doosthosseini"
+      ],
+      "published_date": "2026-11-05T18:22:24Z",
+      "updated_date": "2026-11-05T18:22:24Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Chat remains the default surface for many large language model (LLM) tasks, even as agentic tools such as OpenCode excel at coding and automation. Yet the model sees the current dialogue but not the workspace around it. We explore meta access---giving the assistant a structured, permissioned view of the interface itself and propose a ladder of levels: feature tutoring; metadata, settings, and preference access; retrieval over summaries and messages, confirmed mutation, and full orchestration. Meta access can turn a chat client from many screens into one entry point for finding, navigating, organising, and operating it, while raising risks around grounding, privacy, prompt injection, and trust. General-purpose agentic harnesses are runtimes; because they can change their own settings, meta access becomes reflexive and needs a separate control-plane boundary. We ground this in the Meta Chat prototype of the Chat AI client. It builds bounded context from, e.g., summaries, settings, and relevant messages; links references to conversations, topics, and personas; supports confirmed, reversible changes; offers a browsable tutorial library; and recommends personas as user-started conversations. By exposing application state in structured form, meta access can extend screen readers from widget descriptions to semantic workspace operations. Meta access thus turns chat from a window onto one conversation into a control layer for the whole workspace, extending chat toward agentic capability without surrendering user control. As assistants become embedded in IDEs, dashboards, office suites, and operating systems, AI-era interfaces should expose a structured, permissioned model of their state and capabilities, ideally by opening their existing metamodels through a debugger-like interface.",
+      "url": "https://arxiv.org/abs/2611.08428v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08428v1",
+      "relevance_score": 0.696,
+      "processed_date": "2026-11-06",
+      "summary": "Addressing critical demands in Natural Language Processing, this research investigates chat remains the default surface for many large language model (llm) tasks, even as agentic tools such as opencode excel at coding and automation. Yet the model sees the current dialogue but not the workspace around it. We explore meta access---giving the assistant a structured, permissioned view of the interface itself and propose a ladder of levels: feature tutoring; metadata, settings, and preference access; retrieval over summaries and messages, confirmed mutation, and full orchestration. As assistants become embedded in IDEs, dashboards, office suites, and operating systems, AI-era interfaces should expose a structured, permissioned model of their state and capabilities, ideally by opening their existing metamodels through a debugger-like interface.",
+      "key_concepts": [
+        "Large Language Model",
+        "Meta Access",
+        "Chat Client",
+        "Structured Permissioned",
+        "Summaries Messages",
+        "Summaries Settings"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+        "approach": "Yet the model sees the current dialogue but not the workspace around it.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Large Language Model, Meta Access.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2611.08363",
+      "raw_id": "http://arxiv.org/abs/2611.08363v1",
+      "title": "StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference",
+      "authors": [
+        "Jake Hyun",
+        "Ziyu Zhao",
+        "Jae-sun Seo",
+        "Mohamed S. Abdelfattah"
+      ],
+      "published_date": "2026-11-05T17:42:06Z",
+      "updated_date": "2026-11-05T17:42:06Z",
+      "categories": [
+        "cs.LG",
+        "cs.DC"
+      ],
+      "abstract": "Quantization reduces the memory and bandwidth demands of large language model (LLM) inference but can degrade accuracy; offloading higher-precision data can instead stall generation. We introduce StrataFlux, a framework that challenges this tradeoff by recovering accuracy lost to low-bit weight and key-value (KV) cache quantization while retaining quantization's memory and speed advantages. StrataFlux co-designs refinement representation, selection, and delivery to make host RAM and solid-state drives useful sources of additional precision. Its selective precision streaming reduces transfer volume, overlaps delivery with computation, and reuses fetched precision across decoding steps so generation need not wait for every transfer. We evaluate 2-4-bit weights and 2-3-bit KV-cache on dedicated GPUs and unified-memory platforms. For 2-bit Llama-3.1-8B-Instruct weights, StrataFlux reduces WikiText-2 perplexity from 9.46 to 8.40 while maintaining 95.4% of the quantized base's throughput on RTX 5090. With 2-bit weights and KV, StrataFlux raises Qwen3-8B's AIME 2024/2025 accuracy from 11.0% to 47.1% at unchanged GPU memory use. At 128K context, Llama-3.1-8B-Instruct with 3-bit weights and 2-bit KV achieves comparable perplexity and speed to vLLM's 4-bit AWQ weights and 8-bit KV on RTX 5090, using approximately half the GPU memory. These results show that GPU-resident precision need not set the accuracy ceiling, nor offloading-tier latency dictate decoding speed.",
+      "url": "https://arxiv.org/abs/2611.08363v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08363v1",
+      "relevance_score": 0.696,
+      "processed_date": "2026-11-06",
+      "summary": "Addressing critical demands in Natural Language Processing, this research investigates quantization reduces the memory and bandwidth demands of large language model (llm) inference but can degrade accuracy; offloading higher-precision data can instead stall generation. We introduce StrataFlux, a framework that challenges this tradeoff by recovering accuracy lost to low-bit weight and key-value (KV) cache quantization while retaining quantization's memory and speed advantages. These results show that GPU-resident precision need not set the accuracy ceiling, nor offloading-tier latency dictate decoding speed. Quantization reduces the memory and bandwidth demands of large language model (LLM) inference but can degrade accuracy; offloading higher-precision data can instead stall generation.",
+      "key_concepts": [
+        "Quantization",
+        "Large Language Model",
+        "Bit Weights",
+        "Gpu Memory",
+        "Llama- Instruct",
+        "Unified-memory Platforms"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+        "approach": "We introduce StrataFlux, a framework that challenges this tradeoff by recovering accuracy lost to low-bit weight and key-value (KV) cache quantization while retaining quantization's memory and speed advantages.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Quantization, Large Language Model.",
+        "results": "These results show that GPU-resident precision need not set the accuracy ceiling, nor offloading-tier latency dictate decoding speed.",
+        "applications": "Low-power edge AI devices, embedded IoT sensor networks, and distributed on-device inference. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "We introduce StrataFlux, a framework that challenges this tradeoff by recovering accuracy lost to low-bit weight and key-value (KV) cache quantization while retaining quantization's memory and speed advantages."
+      },
+      "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2611.08373",
+      "raw_id": "http://arxiv.org/abs/2611.08373v1",
+      "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+      "authors": [
+        "Fuhao Li",
+        "Wenxuan Song",
+        "Qizhou Huang",
+        "Ziyang Zhou",
+        "Jingbo Wang",
+        "Junwu E",
+        "Pengwei Wang",
+        "Yan Wang",
+        "Shunbo Zhou",
+        "Haoang Li"
+      ],
+      "published_date": "2026-11-05T17:52:16Z",
+      "updated_date": "2026-11-05T17:52:16Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience. We present SLA, a Spatial-Language-Action Model that scales implicit spatial alignment to continual pre-training and maintains it during downstream post-training. Initialized from a pretrained pi05 policy, SLA jointly optimizes action prediction and alignment between intermediate visual embeddings and spatial representations from a frozen 3D perception model. We curate and unify heterogeneous robot datasets to support spatial learning across diverse embodiments, tasks, and scenes. To accommodate this diversity, we introduce feature-dependent gates that adaptively aggregate visual embeddings from multiple VLA layers for spatial supervision. The teacher further exploits partially available depth and camera calibration alongside RGB observations, enabling effective use of heterogeneous geometric annotations. Probabilistic state dropout encourages reliance on visual cues and mitigates overfitting to demonstration trajectories. All auxiliary components are used only during training, allowing direct reuse of pretrained VLA weights and preserving the original inference architecture.",
+      "url": "https://arxiv.org/abs/2611.08373v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.08373v1",
+      "relevance_score": 0.688,
+      "processed_date": "2026-11-06",
+      "summary": "However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation. We present SLA, a Spatial-Language-Action Model that scales implicit spatial alignment to continual pre-training and maintains it during downstream post-training. Developing spatial understanding as a transferable foundation-model capability therefore calls for learning from broader robot experience. All auxiliary components are used only during training, allowing direct reuse of pretrained VLA weights and preserving the original inference architecture. Reliable robotic manipulation requires both semantic understanding and precise control in three-dimensional space. Initialized from a pretrained pi05 policy, SLA jointly optimizes action prediction and alignment between intermediate visual embeddings and spatial representations from a frozen 3D perception model.",
+      "key_concepts": [
+        "Manipulation",
+        "Spatial Supervision",
+        "Understanding Transferable",
+        "Unify Heterogeneous",
+        "Use Heterogeneous",
+        "Vision-language Pre-training"
+      ],
+      "insights": {
+        "problem": "However, vision-language-action (VLA) foundations largely inherit visual representations from 2D vision-language pre-training, while spatial supervision is often introduced only during task-specific adaptation.",
+        "approach": "We present SLA, a Spatial-Language-Action Model that scales implicit spatial alignment to continual pre-training and maintains it during downstream post-training.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Spatial Supervision.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
     }
   ]
 }
