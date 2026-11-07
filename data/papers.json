@@ -11898,5 +11898,440 @@
       "limitations": "Not specified in the available abstract."
     },
     "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2611.08360",
+    "raw_id": "http://arxiv.org/abs/2611.08360v1",
+    "title": "OraRefer: Segmentation-Guided Multi-Photograph Fusion for Oral Cancer Screening with Guaranteed Patient-Level Sensitivity",
+    "authors": [
+      "Rupam Mukherjee",
+      "Mehakdeep Singh",
+      "Shirin Dasgupta",
+      "Subhamoy Mandal"
+    ],
+    "published_date": "2026-11-05T17:39:50Z",
+    "updated_date": "2026-11-05T17:39:50Z",
+    "categories": [
+      "cs.CV",
+      "eess.IV"
+    ],
+    "abstract": "Oral cancer and the oral potentially malignant disorders (OPMD) that can precede it are visible on the oral mucosa, which makes smartphone photographs a promising tool for screening. Deep learning models for this task classify individual photographs. However, screening refers patients, not photographs: a patient is usually photographed several times, and the referral decision must miss no more than a set share of patients with disease. We propose OraRefer, a patient-level screening model that reads each photograph with a segmentation-guided foundation model that conditions its class decision on the predicted lesion, combines all photographs of a patient with risk factors, and refers through a threshold with a finite-sample sensitivity guarantee. The model localizes the mouth itself, so inference needs no annotation. On 3000 photographs of 714 patients, patient-level fusion reaches an AUROC of 0.919 and outperforms attention-based multiple-instance learning. At a 90% sensitivity target, OraRefer detects 95% of patients with OPMD or cancer and misses 3 of 61 patients with cancer, at a specificity of 0.610. Because the threshold is calibrated without retraining, each clinic can set its own guaranteed operating point on a local calibration sample.",
+    "url": "https://arxiv.org/abs/2611.08360v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.08360v1",
+    "relevance_score": 0.663,
+    "processed_date": "2026-11-07",
+    "summary": "However, screening refers patients, not photographs: a patient is usually photographed several times, and the referral decision must miss no more than a set share of patients with disease. We propose OraRefer, a patient-level screening model that reads each photograph with a segmentation-guided foundation model that conditions its class decision on the predicted lesion, combines all photographs of a patient with risk factors, and refers through a threshold with a finite-sample sensitivity guarantee. On 3000 photographs of 714 patients, patient-level fusion reaches an AUROC of 0.919 and outperforms attention-based multiple-instance learning. Because the threshold is calibrated without retraining, each clinic can set its own guaranteed operating point on a local calibration sample.",
+    "key_concepts": [
+      "Foundation Model",
+      "Annotation Photographs",
+      "Attention-based Multiple-instance",
+      "Auroc Outperforms",
+      "Calibrated Retraining",
+      "Calibration Sample"
+    ],
+    "insights": {
+      "problem": "However, screening refers patients, not photographs: a patient is usually photographed several times, and the referral decision must miss no more than a set share of patients with disease.",
+      "approach": "We propose OraRefer, a patient-level screening model that reads each photograph with a segmentation-guided foundation model that conditions its class decision on the predicted lesion, combines all photographs of a patient with risk factors, and refers through a threshold with a finite-sample sensitivity guarantee.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Foundation Model, Annotation Photographs.",
+      "results": "On 3000 photographs of 714 patients, patient-level fusion reaches an AUROC of 0.919 and outperforms attention-based multiple-instance learning.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Computer Vision"
+  },
+  {
+    "arxiv_id": "2611.08364",
+    "raw_id": "http://arxiv.org/abs/2611.08364v1",
+    "title": "SHORE: Stability-Hybrid On-Policy Reinforcement Learning for Online Bin Packing",
+    "authors": [
+      "Chang Shi",
+      "Ann Majewicz Fey"
+    ],
+    "published_date": "2026-11-05T17:42:31Z",
+    "updated_date": "2026-11-05T17:42:31Z",
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "abstract": "Online 3D bin packing with a processing buffer requires choosing which box to pack, its orientation, and its placement while keeping the stack stable under unknown future arrivals. A collapse ends the episode and forfeits the remaining volume. Existing methods use geometric rules or hard stability masks, limiting how risk can influence the joint choice of box, orientation, and placement. We propose Stability-Hybrid On-Policy Reinforcement Learning (SHORE), which combines a learned stability probability of a placement with an on-policy estimate of its return conditional on stability. A 3D U-Net learns stability from executed outcomes and simulated alternatives, revealing outcomes of actions underrepresented in early rollouts. A discrete on-policy actor--critic uses stability predictions in both its action values and policy prior, with gates that limit the effect of an untrained or changing model. In deployment, SHORE does not require additional search or simulation overhead. In Isaac Gym, SHORE reaches 73\\% space utilization by 0.4M environment steps, while the same learner without stability modeling reaches that level at about 1M. On the expanded 60-box set, SHORE achieves 0.734 space utilization versus 0.588 for the GOPT state-of-the-art baseline, with a higher placement-failure frequency (1.03\\% vs. 0.63\\%), trading more risk for greater packed volume. The results show faster learning and higher utilization on the more demanding realistic box arrival set. Ablations suggest that simulated alternatives provide useful early supervision, while executed outcomes alone sustain later performance. We also demonstrate the method on a real robot to verify the simplicity of integrating the method to real bin packing pipelines.",
+    "url": "https://arxiv.org/abs/2611.08364v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.08364v1",
+    "relevance_score": 0.661,
+    "processed_date": "2026-11-07",
+    "summary": "Addressing critical demands in Machine Learning, this research investigates online 3d bin packing with a processing buffer requires choosing which box to pack, its orientation, and its placement while keeping the stack stable under unknown future arrivals. We propose Stability-Hybrid On-Policy Reinforcement Learning (SHORE), which combines a learned stability probability of a placement with an on-policy estimate of its return conditional on stability. The results show faster learning and higher utilization on the more demanding realistic box arrival set. We also demonstrate the method on a real robot to verify the simplicity of integrating the method to real bin packing pipelines.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Bin Packing",
+      "Executed Outcomes",
+      "Orientation Placement",
+      "Simulated Alternatives",
+      "Space Utilization"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+      "approach": "We propose Stability-Hybrid On-Policy Reinforcement Learning (SHORE), which combines a learned stability probability of a placement with an on-policy estimate of its return conditional on stability.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Bin Packing.",
+      "results": "The results show faster learning and higher utilization on the more demanding realistic box arrival set.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "In deployment, SHORE does not require additional search or simulation overhead."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.08407",
+    "raw_id": "http://arxiv.org/abs/2611.08407v1",
+    "title": "Social Humanoid: Socially Responsive Human-Humanoid Interaction",
+    "authors": [
+      "Vongani H. Maluleke",
+      "James Ni",
+      "Kie Horiuchi",
+      "Lea Wilken",
+      "Jiahui Lei",
+      "Evonne Ng",
+      "Roei Herzig",
+      "Jitendra Malik",
+      "Trevor Darrell",
+      "Angjoo Kanazawa"
+    ],
+    "published_date": "2026-11-05T18:14:06Z",
+    "updated_date": "2026-11-05T18:14:06Z",
+    "categories": [
+      "cs.RO",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "abstract": "Humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another. To bridge this gap, we present Social Humanoid, a hierarchical system that generates and executes socially responsive whole-body motion on a 29-DoF Unitree G1 conditioned on a human partner's motion. Its high-level policy performs flexible sequence modeling of human and humanoid motion through a shared tokenized representation, generating reactive humanoid motion and anticipating the partner's motion when they are occluded, while a low-level whole-body tracking controller executes the generated motion on the robot. To train the system, we introduce a two-phase adaptive retargeting procedure that retargets one interaction partner to the robot while morphing the other partner to preserve contact dynamics, reachability, and relative body scale. We apply this procedure across five motion-capture datasets to produce a new Human-Humanoid Interaction (HHI) benchmark of 260 hours of human-humanoid interactions. Our results demonstrate that Social Humanoid produces coordinated, human-aligned behavior across diverse interaction types in simulation and the real world. Project page: https://von31.github.io/social-humanoid/",
+    "url": "https://arxiv.org/abs/2611.08407v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.08407v1",
+    "relevance_score": 0.655,
+    "processed_date": "2026-11-07",
+    "summary": "Addressing critical demands in Robotics, this research investigates humanoid robots are typically trained as solitary agents, leaving them unable to coordinate physically with human partners who naturally anticipate and adjust to one another. To bridge this gap, we present Social Humanoid, a hierarchical system that generates and executes socially responsive whole-body motion on a 29-DoF Unitree G1 conditioned on a human partner's motion. Its high-level policy performs flexible sequence modeling of human and humanoid motion through a shared tokenized representation, generating reactive humanoid motion and anticipating the partner's motion when they are occluded, while a low-level whole-body tracking controller executes the generated motion on the robot. Project page: https://von31.github.io/social-humanoid/",
+    "key_concepts": [
+      "Social Humanoid",
+      "Adaptive Retargeting",
+      "Adjust Bridge",
+      "Anticipate Adjust",
+      "Anticipating Partner",
+      "Apply Procedure"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+      "approach": "To bridge this gap, we present Social Humanoid, a hierarchical system that generates and executes socially responsive whole-body motion on a 29-DoF Unitree G1 conditioned on a human partner's motion.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Social Humanoid, Adaptive Retargeting.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2611.08390",
+    "raw_id": "http://arxiv.org/abs/2611.08390v1",
+    "title": "SCALE: Real-Time Latent Communication for Cyber-Physical Agents",
+    "authors": [
+      "Shanghao Shi",
+      "Jian Xiao",
+      "Ching-Hsiang Chan",
+      "Sanjoy Baruah",
+      "Sastry Kompella",
+      "Yevgeniy Vorobeychik",
+      "William Yeoh",
+      "Ning Zhang"
+    ],
+    "published_date": "2026-11-05T18:05:58Z",
+    "updated_date": "2026-11-05T18:05:58Z",
+    "categories": [
+      "cs.RO",
+      "cs.MA"
+    ],
+    "abstract": "Latent communication enables agents to collaborate efficiently by directly exchanging intermediate model representations rather than raw sensor data or text messages. Existing approaches, however, are primarily designed for LLM agents and do not consider the bandwidth constraints and heterogeneous task deadlines faced by cyber-physical agents. In this work, we propose SCALE, a real-time latent communication method tailored for cyber-physical agents. Motivated by the spatio-temporal continuity of the physical world, SCALE matches tokens across consecutive latent messages using similarity scores to identify reusable information and avoid redundant transmission. It then profiles the semantic gain and communication cost of transmitting different amounts of latent information. Based on these profiles, SCALE employs a real-time scheduler that jointly determines which pending messages to transmit and how many latent tokens to send, subject to available bandwidth and task deadlines. We evaluate SCALE across three cyber-physical benchmarks and a physical spider robot case study under diverse network conditions and heterogeneous task deadlines. Our results show that SCALE significantly improves both task performance and on-time delivery in bandwidth-constrained networks. Our code is available at: https://anonymous.4open.science/r/SCALE-4E80/.",
+    "url": "https://arxiv.org/abs/2611.08390v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.08390v1",
+    "relevance_score": 0.655,
+    "processed_date": "2026-11-07",
+    "summary": "Existing approaches, however, are primarily designed for LLM agents and do not consider the bandwidth constraints and heterogeneous task deadlines faced by cyber-physical agents. In this work, we propose SCALE, a real-time latent communication method tailored for cyber-physical agents. Our results show that SCALE significantly improves both task performance and on-time delivery in bandwidth-constrained networks. Our code is available at: https://anonymous.4open.science/r/SCALE-4E80/. Latent communication enables agents to collaborate efficiently by directly exchanging intermediate model representations rather than raw sensor data or text messages. Motivated by the spatio-temporal continuity of the physical world, SCALE matches tokens across consecutive latent messages using similarity scores to identify reusable information and avoid redundant transmission.",
+    "key_concepts": [
+      "Latent Communication",
+      "Amounts Latent",
+      "Anonymous Science",
+      "Approaches Primarily",
+      "Available Https",
+      "Avoid Redundant"
+    ],
+    "insights": {
+      "problem": "Existing approaches, however, are primarily designed for LLM agents and do not consider the bandwidth constraints and heterogeneous task deadlines faced by cyber-physical agents.",
+      "approach": "In this work, we propose SCALE, a real-time latent communication method tailored for cyber-physical agents.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Latent Communication, Amounts Latent.",
+      "results": "Our results show that SCALE significantly improves both task performance and on-time delivery in bandwidth-constrained networks.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Existing approaches, however, are primarily designed for LLM agents and do not consider the bandwidth constraints and heterogeneous task deadlines faced by cyber-physical agents."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2611.08487",
+    "raw_id": "http://arxiv.org/abs/2611.08487v1",
+    "title": "User Embeddings are Superpositions of Interpretable Behavioral Modes",
+    "authors": [
+      "Jonathan Kozaczuk",
+      "Zheng Dong",
+      "Noyan Evirgen",
+      "Keivan Majidi",
+      "Eddie K. H. Ng",
+      "Chris Porter",
+      "Qi Zhao",
+      "Jia Geng",
+      "Changmao Li",
+      "Brandon R. Feng"
+    ],
+    "published_date": "2026-11-05T18:59:42Z",
+    "updated_date": "2026-11-05T18:59:42Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "abstract": "User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we argue that user embeddings can be understood as sparse superpositions of interpretable behavioral modes. This structure is directly predicted by generative models of user behavior for linear embeddings and extends approximately to deep-learning representations by the superposition hypothesis. Superimposed modes can naturally be recovered by sparse dictionary learning methods, such as sparse autoencoders (SAEs), and recovered modes can be automatically named and queried in natural language. We validate mode recovery against known ground truth on synthetic data, where SAEs recover modes better than classical sparse baselines, including on transformer-encoded embeddings. We then apply the method to classical and transformer-based user embeddings from two real-world datasets. We also show how the corresponding natural-language labels enable zero-shot audience retrieval and characterization over embeddings never trained on text. The framework is post-hoc and model-agnostic, requiring no modification to the upstream embedding system.",
+    "url": "https://arxiv.org/abs/2611.08487v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.08487v1",
+    "relevance_score": 0.642,
+    "processed_date": "2026-11-07",
+    "summary": "Addressing critical demands in Machine Learning, this research investigates user embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability. To address this gap, we argue that user embeddings can be understood as sparse superpositions of interpretable behavioral modes. The framework is post-hoc and model-agnostic, requiring no modification to the upstream embedding system. User embeddings are central components of modern recommendation, personalization, and behavioral modeling systems. This structure is directly predicted by generative models of user behavior for linear embeddings and extends approximately to deep-learning representations by the superposition hypothesis.",
+    "key_concepts": [
+      "Zero-shot",
+      "Behavioral Modes",
+      "User Embeddings",
+      "Address Gap",
+      "Approximately Deep-learning",
+      "Argue User"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+      "approach": "Though these embeddings can compactly encode rich behavioral information, they are inherently dense and opaque, limiting interpretability.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Behavioral Modes.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.08462",
+    "raw_id": "http://arxiv.org/abs/2611.08462v1",
+    "title": "OopsieRecover: Learning Transferable VLA Corrections from Semantic Interventions",
+    "authors": [
+      "Arpit Bahety",
+      "Skand Peri",
+      "Sriniket Ambatipudi",
+      "Chen Xu",
+      "Haruki Nishimura",
+      "Masha Itkina",
+      "Roberto Martín-Martín"
+    ],
+    "published_date": "2026-11-05T18:53:16Z",
+    "updated_date": "2026-11-05T18:53:16Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "abstract": "Vision-Language-Action (VLA) models can perform a wide range of robotic manipulation tasks, but often fail during deployment. Teaching them to recover from these failures requires substantial corrective data: existing approaches learn to recover from failures by directly associating corrective actions with the observations in which they were demonstrated. For instance, DAgger-like fine-tuning can require tens to hundreds of interactions, yet the resulting policy may still fail to generalize the learned corrections beyond the demonstrated scenarios. We hypothesize that semantics can capture the underlying reasons for failures and their corrections, enabling policies to learn from only a handful of corrective demonstrations and generalize those corrections to novel objects, and scene variations. We propose OopsieRecover, a framework that uses abduction to infer the intent behind a small set of corrective demonstrations and encodes the inferred knowledge as dense spatial representations and conditional costs. These costs capture when a behavior is undesirable and steer the policy toward more desirable action regions. We experiment across 6 tasks and variations in object poses, scenes, and related tasks, and find that only a handful of corrective demonstrations can enable a VLA to overcome failures across a broad range of novel situations, without requiring new corrective data for each variation. Please refer to https://robin-lab.cs.utexas.edu/oopsierecover for videos.",
+    "url": "https://arxiv.org/abs/2611.08462v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.08462v1",
+    "relevance_score": 0.641,
+    "processed_date": "2026-11-07",
+    "summary": "Addressing critical demands in Machine Learning, this research investigates vision-language-action (vla) models can perform a wide range of robotic manipulation tasks, but often fail during deployment. We propose OopsieRecover, a framework that uses abduction to infer the intent behind a small set of corrective demonstrations and encodes the inferred knowledge as dense spatial representations and conditional costs. We hypothesize that semantics can capture the underlying reasons for failures and their corrections, enabling policies to learn from only a handful of corrective demonstrations and generalize those corrections to novel objects, and scene variations. For instance, DAgger-like fine-tuning can require tens to hundreds of interactions, yet the resulting policy may still fail to generalize the learned corrections beyond the demonstrated scenarios. Please refer to https://robin-lab.cs.utexas.edu/oopsierecover for videos.",
+    "key_concepts": [
+      "Manipulation",
+      "Abduction Infer",
+      "Action Regions",
+      "Actions Observations",
+      "Associating Corrective",
+      "Behavior Undesirable"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+      "approach": "We propose OopsieRecover, a framework that uses abduction to infer the intent behind a small set of corrective demonstrations and encodes the inferred knowledge as dense spatial representations and conditional costs.",
+      "key_innovation": "We hypothesize that semantics can capture the underlying reasons for failures and their corrections, enabling policies to learn from only a handful of corrective demonstrations and generalize those corrections to novel objects, and scene variations.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.08453",
+    "raw_id": "http://arxiv.org/abs/2611.08453v1",
+    "title": "Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO",
+    "authors": [
+      "Zeyu Leo Liu",
+      "Yang Li",
+      "Bo Pang",
+      "Emre Can Acikgoz",
+      "Xuan-Phi Nguyen",
+      "Anurag Koul",
+      "Srijan Bansal",
+      "Erik Nijkamp",
+      "Shafiq Joty",
+      "Semih Yavuz"
+    ],
+    "published_date": "2026-11-05T18:47:05Z",
+    "updated_date": "2026-11-05T18:47:05Z",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "abstract": "On-policy distillation (OPD) trains a student on its own rollouts under a frozen teacher's per-token supervision. Does this dense signal reduce the training FLOPs needed to reach a target accuracy compared with reinforcement learning? We systematically compare vanilla reverse-KL OPD with Group Relative Policy Optimization (GRPO) across task difficulty, student and teacher size, domain, and optimization choices, measuring held-out accuracy against training FLOPs. With an external post-trained teacher, OPD generally loses to GRPO in accuracy per training FLOP at matched settings, even when the teacher is further trained with GRPO, and often suffers response-length inflation. Yet a different teacher changes the picture: when the teacher is the student's own GRPO checkpoint, OPD recovers that checkpoint's accuracy on math with 50\\times fewer distillation FLOPs than GRPO needs to reach the same accuracy. Following the same teacher setting, we consistently observe this high efficiency with a larger student, on code, and in a second model family. On a single domain, however, the GRPO checkpoint is already the desired model, so distilling it adds to total compute. Across domains, separate GRPO checkpoints hold different capabilities, and no single checkpoint serves every domain. Multi-teacher OPD (DeepSeek-AI, 2026) consolidates per-domain GRPO experts into a single student that matches each expert's accuracy, with the distillation stage costing only 5.2% (on 2 domains) and 8.0% (on 4 domains) of the specialist training FLOPs. Counting specialist training and distillation together, this pipeline reaches joint GRPO's performance on the 2-domain mix with 42.0% fewer total FLOPs.",
+    "url": "https://arxiv.org/abs/2611.08453v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.08453v1",
+    "relevance_score": 0.641,
+    "processed_date": "2026-11-07",
+    "summary": "On a single domain, however, the GRPO checkpoint is already the desired model, so distilling it adds to total compute. Does this dense signal reduce the training FLOPs needed to reach a target accuracy compared with reinforcement learning? We systematically compare vanilla reverse-KL OPD with Group Relative Policy Optimization (GRPO) across task difficulty, student and teacher size, domain, and optimization choices, measuring held-out accuracy against training FLOPs. Counting specialist training and distillation together, this pipeline reaches joint GRPO's performance on the 2-domain mix with 42.0% fewer total FLOPs. On-policy distillation (OPD) trains a student on its own rollouts under a frozen teacher's per-token supervision.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Grpo Checkpoint",
+      "Teacher Changes",
+      "Teacher Opd",
+      "Teacher Per-token",
+      "Teacher Size"
+    ],
+    "insights": {
+      "problem": "On a single domain, however, the GRPO checkpoint is already the desired model, so distilling it adds to total compute.",
+      "approach": "Does this dense signal reduce the training FLOPs needed to reach a target accuracy compared with reinforcement learning?",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Grpo Checkpoint.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.08330",
+    "raw_id": "http://arxiv.org/abs/2611.08330v1",
+    "title": "InstantHand: Feed-Forward 3D Gaussian Splatting for Animatable Hand Avatar Reconstruction from a Single Image",
+    "authors": [
+      "Chanho Kim",
+      "Muhammad Salman Ali",
+      "Kyeonghwan Gwak",
+      "Muhammad Shaheryar",
+      "Incheol Park",
+      "Jeongwan On",
+      "Seungryul Baek"
+    ],
+    "published_date": "2026-11-05T17:21:08Z",
+    "updated_date": "2026-11-05T17:21:08Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "Hand avatar reconstruction typically relies on multi-view capture or per-subject optimization, limiting its scalability. We introduce InstantHand, a feed-forward framework that constructs an animatable 3D Gaussian hand avatar from a single image using off-the-shelf MANO, camera, and mask estimates, without test-time optimization. Image-averaged losses provide insufficient supervision for alpha leakage, which thickens thin finger contours. To address this issue, we propose a Soft Alpha Band regularizer that concentrates supervision on silhouette boundaries. Furthermore, colors regressed from image features can drift toward a learned prior even in observed regions. Our Reliability-gated Appearance Transfer preserves observed appearance by transferring source colors according to each Gaussian's rendering contribution, while completing unobserved regions using the learned prior conditioned on global source identity. InstantHand constructs an avatar in 2.84 seconds and renders at 161 FPS, matching per-subject-optimized baselines on InterHand2.6M and remaining competitive in zero-shot evaluation on HanCo.",
+    "url": "https://arxiv.org/abs/2611.08330v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.08330v1",
+    "relevance_score": 0.634,
+    "processed_date": "2026-11-07",
+    "summary": "Addressing critical demands in Computer Vision, this research investigates hand avatar reconstruction typically relies on multi-view capture or per-subject optimization, limiting its scalability. We introduce InstantHand, a feed-forward framework that constructs an animatable 3D Gaussian hand avatar from a single image using off-the-shelf MANO, camera, and mask estimates, without test-time optimization. Image-averaged losses provide insufficient supervision for alpha leakage, which thickens thin finger contours. InstantHand constructs an avatar in 2.84 seconds and renders at 161 FPS, matching per-subject-optimized baselines on InterHand2.6M and remaining competitive in zero-shot evaluation on HanCo. Hand avatar reconstruction typically relies on multi-view capture or per-subject optimization, limiting its scalability.",
+    "key_concepts": [
+      "Zero-shot",
+      "Gaussian Splatting",
+      "Hand Avatar",
+      "According Gaussian",
+      "Address Issue",
+      "Alpha Band"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Computer Vision and existing computational workflows.",
+      "approach": "We introduce InstantHand, a feed-forward framework that constructs an animatable 3D Gaussian hand avatar from a single image using off-the-shelf MANO, camera, and mask estimates, without test-time optimization.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Gaussian Splatting.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Computer Vision"
+  },
+  {
+    "arxiv_id": "2611.08425",
+    "raw_id": "http://arxiv.org/abs/2611.08425v1",
+    "title": "Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing",
+    "authors": [
+      "Michal P. Podolinsky",
+      "Yunhao Yang",
+      "Daniel Little",
+      "Hong Lu",
+      "Rohan Siva",
+      "Olin Goudey",
+      "Neel P. Bhatt",
+      "Matthias Scheutz",
+      "Ufuk Topcu"
+    ],
+    "published_date": "2026-11-05T18:21:07Z",
+    "updated_date": "2026-11-05T18:21:07Z",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "abstract": "Vision-Language-Action models (VLAs) enable general-purpose embodied intelligence, but their performance is brittle under distribution shift, where unanticipated failures can damage equipment or endanger people. Deploying VLAs in real-world systems therefore requires a runtime monitor that is timely, calibrated, and informative while being efficient enough to run on the edge. Existing methods fail to fulfill these requirements. We present VLA-Tug, a lightweight probe over the latent layers of a VLA backbone that improves early failure detection and bounds the missed-detection and false-alarm rates, with minimal inference overhead. We show that supervising on the pre-failure segment of a trajectory increases early failure detection at matched false-positive rates by up to 30% over the strongest learned baseline. Under shift to unseen tasks, the bounds on missed-detection and false-alarm rates remain valid in up to 86% of runs, versus at most 21% for baselines. Unlike existing methods, VLA-Tug predicts the failure mode to enable corrective actions, raising top-3 accuracy on unseen tasks by up to 44% over a majority baseline. VLA-Tug enables real-time monitoring where the well-timed and informative probe supports lightweight steering that improves task success. We release a dataset of 3,180 annotated manipulation episodes to support future work on latent failure detection in VLAs at https://vla-tug.github.io.",
+    "url": "https://arxiv.org/abs/2611.08425v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.08425v1",
+    "relevance_score": 0.63,
+    "processed_date": "2026-11-07",
+    "summary": "Existing methods fail to fulfill these requirements. We present VLA-Tug, a lightweight probe over the latent layers of a VLA backbone that improves early failure detection and bounds the missed-detection and false-alarm rates, with minimal inference overhead. We show that supervising on the pre-failure segment of a trajectory increases early failure detection at matched false-positive rates by up to 30% over the strongest learned baseline. We release a dataset of 3,180 annotated manipulation episodes to support future work on latent failure detection in VLAs at https://vla-tug.github.io. Vision-Language-Action models (VLAs) enable general-purpose embodied intelligence, but their performance is brittle under distribution shift, where unanticipated failures can damage equipment or endanger people.",
+    "key_concepts": [
+      "Manipulation",
+      "Embodied Intelligence",
+      "Accuracy Unseen",
+      "Backbone Improves",
+      "Bounds Missed-detection",
+      "Brittle Distribution"
+    ],
+    "insights": {
+      "problem": "Existing methods fail to fulfill these requirements.",
+      "approach": "We present VLA-Tug, a lightweight probe over the latent layers of a VLA backbone that improves early failure detection and bounds the missed-detection and false-alarm rates, with minimal inference overhead.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Embodied Intelligence.",
+      "results": "We show that supervising on the pre-failure segment of a trajectory increases early failure detection at matched false-positive rates by up to 30% over the strongest learned baseline.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "We present VLA-Tug, a lightweight probe over the latent layers of a VLA backbone that improves early failure detection and bounds the missed-detection and false-alarm rates, with minimal inference overhead."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2611.08368",
+    "raw_id": "http://arxiv.org/abs/2611.08368v1",
+    "title": "VisionSIM: Beyond Idealized Sensors - A Multi-Modal Simulator for Robot Perception",
+    "authors": [
+      "Sacha Jungerman",
+      "Kaustubh Sadekar",
+      "Avery Gump",
+      "Sriram Narayanan",
+      "Shantanu Gupta",
+      "Bhuyashi Deka",
+      "Srinivasa Narasimhan",
+      "Atul Ingle",
+      "Mohit Gupta"
+    ],
+    "published_date": "2026-11-05T17:48:00Z",
+    "updated_date": "2026-11-05T17:48:00Z",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "abstract": "Robotic perception increasingly relies on heterogeneous sensor suites combining cameras with emerging modalities (event, SPAD, iToF/dToF, and thermal). Yet existing simulators idealize these sensors, hiding critical modality-specific failure modes that limit real-world deployment. We present VisionSIM, a unified, physically grounded simulation platform that elevates sensor realism to a first-class concern by modeling the raw physical measurement process for diverse conventional and emerging modalities. We expose fine-grained control over physical sensor parameters, reproducing failure modes overlooked by general-purpose simulators: pileup and glare for LiDAR; phase wrapping, saturation, and motion artifacts for iToF; refractory drops for event cameras; and history-dependent emission for thermal cameras. This enables principled cross-modality comparison on identical scenes and trajectories. We release the platform and a large indoor dataset with synchronized raw measurements and rich ground-truth annotations.",
+    "url": "https://arxiv.org/abs/2611.08368v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.08368v1",
+    "relevance_score": 0.63,
+    "processed_date": "2026-11-07",
+    "summary": "Addressing critical demands in Robotics, this research investigates robotic perception increasingly relies on heterogeneous sensor suites combining cameras with emerging modalities (event, spad, itof/dtof, and thermal). We present VisionSIM, a unified, physically grounded simulation platform that elevates sensor realism to a first-class concern by modeling the raw physical measurement process for diverse conventional and emerging modalities. We release the platform and a large indoor dataset with synchronized raw measurements and rich ground-truth annotations. Robotic perception increasingly relies on heterogeneous sensor suites combining cameras with emerging modalities (event, SPAD, iToF/dToF, and thermal). Yet existing simulators idealize these sensors, hiding critical modality-specific failure modes that limit real-world deployment.",
+    "key_concepts": [
+      "Multi-modal",
+      "Artifacts Itof",
+      "Cameras Emerging",
+      "Cameras Enables",
+      "Cameras History-dependent",
+      "Combining Cameras"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+      "approach": "We present VisionSIM, a unified, physically grounded simulation platform that elevates sensor realism to a first-class concern by modeling the raw physical measurement process for diverse conventional and emerging modalities.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Multi-modal, Artifacts Itof.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
   }
 ]

@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[06 November 2026 Report](reports/2026/11/06/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[07 November 2026 Report](reports/2026/11/07/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/06/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/07/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/06/infographic.png)](reports/2026/11/06/infographic.png)
+[![Daily Infographic](reports/2026/11/07/infographic.png)](reports/2026/11/07/infographic.png)
 
 ---
 
@@ -25,10 +25,10 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `5` |
-| **Machine Learning (ML)** | `2` |
+| **Artificial Intelligence (AI)** | `2` |
+| **Machine Learning (ML)** | `5` |
 | **Robotics** | `6` |
-| **IoT & Edge AI** | `1` |
+| **IoT & Edge AI** | `0` |
 
 ---
 
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **SLA: Scaling Spatial-Language-Action Model via Continual Pre-training** | `Robotics` | `0.69` | [arXiv](https://arxiv.org/abs/2611.08373v1) |
-| 2 | **StrataFlux: Memory-Hierarchy-Native Low-Bit LLM Inference** | `Natural Language Processing` | `0.70` | [arXiv](https://arxiv.org/abs/2611.08363v1) |
-| 3 | **The Power of Meta Access in the Software of the Future --- Demonstrated ...** | `Natural Language Processing` | `0.70` | [arXiv](https://arxiv.org/abs/2611.08428v1) |
-| 4 | **Spectral and Subspace Dynamics of LoRA in Supervised Fine-Tuning and Rei...** | `Machine Learning` | `0.70` | [arXiv](https://arxiv.org/abs/2611.08414v1) |
-| 5 | **VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding** | `Artificial Intelligence` | `0.70` | [arXiv](https://arxiv.org/abs/2611.08449v1) |
+| 1 | **VisionSIM: Beyond Idealized Sensors - A Multi-Modal Simulator for Robot ...** | `Robotics` | `0.63` | [arXiv](https://arxiv.org/abs/2611.08368v1) |
+| 2 | **Failure Prediction and Classification in Vision-Language-Action Models V...** | `Robotics` | `0.63` | [arXiv](https://arxiv.org/abs/2611.08425v1) |
+| 3 | **InstantHand: Feed-Forward 3D Gaussian Splatting for Animatable Hand Avat...** | `Computer Vision` | `0.63` | [arXiv](https://arxiv.org/abs/2611.08330v1) |
+| 4 | **Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO** | `Machine Learning` | `0.64` | [arXiv](https://arxiv.org/abs/2611.08453v1) |
+| 5 | **OopsieRecover: Learning Transferable VLA Corrections from Semantic Inter...** | `Machine Learning` | `0.64` | [arXiv](https://arxiv.org/abs/2611.08462v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `278`
-- **Total Operational Runs**: `40 days`
+- **Total Papers Analyzed**: `288`
+- **Total Operational Runs**: `41 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 
