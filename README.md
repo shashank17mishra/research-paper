@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[07 November 2026 Report](reports/2026/11/07/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[08 November 2026 Report](reports/2026/11/08/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/07/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/08/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/07/infographic.png)](reports/2026/11/07/infographic.png)
+[![Daily Infographic](reports/2026/11/08/infographic.png)](reports/2026/11/08/infographic.png)
 
 ---
 
@@ -25,10 +25,10 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `2` |
-| **Machine Learning (ML)** | `5` |
-| **Robotics** | `6` |
-| **IoT & Edge AI** | `0` |
+| **Artificial Intelligence (AI)** | `8` |
+| **Machine Learning (ML)** | `3` |
+| **Robotics** | `0` |
+| **IoT & Edge AI** | `1` |
 
 ---
 
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **VisionSIM: Beyond Idealized Sensors - A Multi-Modal Simulator for Robot ...** | `Robotics` | `0.63` | [arXiv](https://arxiv.org/abs/2611.08368v1) |
-| 2 | **Failure Prediction and Classification in Vision-Language-Action Models V...** | `Robotics` | `0.63` | [arXiv](https://arxiv.org/abs/2611.08425v1) |
-| 3 | **InstantHand: Feed-Forward 3D Gaussian Splatting for Animatable Hand Avat...** | `Computer Vision` | `0.63` | [arXiv](https://arxiv.org/abs/2611.08330v1) |
-| 4 | **Unpacking the Compute Efficiency of Strong-to-Weak OPD against GRPO** | `Machine Learning` | `0.64` | [arXiv](https://arxiv.org/abs/2611.08453v1) |
-| 5 | **OopsieRecover: Learning Transferable VLA Corrections from Semantic Inter...** | `Machine Learning` | `0.64` | [arXiv](https://arxiv.org/abs/2611.08462v1) |
+| 1 | **Where and Why is Grounded Reasoning Useful?** | `Artificial Intelligence` | `0.56` | [arXiv](https://arxiv.org/abs/2611.08485v1) |
+| 2 | **EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Nati...** | `Computer Vision` | `0.58` | [arXiv](https://arxiv.org/abs/2611.08477v1) |
+| 3 | **SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimiza...** | `Natural Language Processing` | `0.58` | [arXiv](https://arxiv.org/abs/2611.08483v1) |
+| 4 | **StepBack: Step-Level Error-Localized Resampling for Efficient Test-Time ...** | `Artificial Intelligence` | `0.58` | [arXiv](https://arxiv.org/abs/2611.08403v1) |
+| 5 | **Benchmarks as Software: Terminal-Bench and the Case for Continuous Bench...** | `Artificial Intelligence` | `0.58` | [arXiv](https://arxiv.org/abs/2611.08417v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `288`
-- **Total Operational Runs**: `41 days`
+- **Total Papers Analyzed**: `298`
+- **Total Operational Runs**: `42 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 
