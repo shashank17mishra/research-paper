@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[08 November 2026 Report](reports/2026/11/08/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[09 November 2026 Report](reports/2026/11/09/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/08/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/09/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/08/infographic.png)](reports/2026/11/08/infographic.png)
+[![Daily Infographic](reports/2026/11/09/infographic.png)](reports/2026/11/09/infographic.png)
 
 ---
 
@@ -25,10 +25,10 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `8` |
-| **Machine Learning (ML)** | `3` |
-| **Robotics** | `0` |
-| **IoT & Edge AI** | `1` |
+| **Artificial Intelligence (AI)** | `7` |
+| **Machine Learning (ML)** | `5` |
+| **Robotics** | `4` |
+| **IoT & Edge AI** | `0` |
 
 ---
 
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Where and Why is Grounded Reasoning Useful?** | `Artificial Intelligence` | `0.56` | [arXiv](https://arxiv.org/abs/2611.08485v1) |
-| 2 | **EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Nati...** | `Computer Vision` | `0.58` | [arXiv](https://arxiv.org/abs/2611.08477v1) |
-| 3 | **SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimiza...** | `Natural Language Processing` | `0.58` | [arXiv](https://arxiv.org/abs/2611.08483v1) |
-| 4 | **StepBack: Step-Level Error-Localized Resampling for Efficient Test-Time ...** | `Artificial Intelligence` | `0.58` | [arXiv](https://arxiv.org/abs/2611.08403v1) |
-| 5 | **Benchmarks as Software: Terminal-Bench and the Case for Continuous Bench...** | `Artificial Intelligence` | `0.58` | [arXiv](https://arxiv.org/abs/2611.08417v1) |
+| 1 | **Can Agentic Systems Close the Gap in Radiology with Production AI Tools?** | `Artificial Intelligence` | `0.67` | [arXiv](https://arxiv.org/abs/2611.09836v1) |
+| 2 | **FOSCAR: Accelerating Decode Attention over 2- and 4-Bit KV Caches throug...** | `Natural Language Processing` | `0.67` | [arXiv](https://arxiv.org/abs/2611.09722v1) |
+| 3 | **Language as Trait, Politeness as Strategy: Controlled Tests of Linguisti...** | `Natural Language Processing` | `0.69` | [arXiv](https://arxiv.org/abs/2611.09768v1) |
+| 4 | **On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforce...** | `Machine Learning` | `0.70` | [arXiv](https://arxiv.org/abs/2611.09872v1) |
+| 5 | **ZeoBench: A Benchmark for Self-Supervised Learning on 3D Zeolite Represe...** | `Machine Learning` | `0.70` | [arXiv](https://arxiv.org/abs/2611.09880v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `298`
-- **Total Operational Runs**: `42 days`
+- **Total Papers Analyzed**: `308`
+- **Total Operational Runs**: `43 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 

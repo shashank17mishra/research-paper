@@ -12725,5 +12725,418 @@
       "limitations": "However, the benefits and limitations of grounded reasoning are understudied."
     },
     "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.09892",
+    "raw_id": "http://arxiv.org/abs/2611.09892v1",
+    "title": "On Agentic Manipulation Policies",
+    "authors": [
+      "Chen Chen",
+      "Omid Bagherieh",
+      "Naveen Nikamanth Appiah Balaji",
+      "Jesse T. Gonzalez",
+      "Negin Heravi",
+      "Fahad Islam",
+      "Xueting Li",
+      "Jean-Baptiste Regli",
+      "Kejia Ren",
+      "Petr Švec",
+      "David J. Yoon",
+      "Matthias Müller",
+      "Vladlen Koltun"
+    ],
+    "published_date": "2026-11-06T18:59:34Z",
+    "updated_date": "2026-11-06T18:59:34Z",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "abstract": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs). We systematically analyze agentic manipulation policies (AMPs), in which a generalist AI model commands the manipulator directly, adapting its actions as the task unfolds. We present AMP1, a reference harness that runs unchanged across single-arm, bimanual, and mobile manipulation. AMP1 achieves state-of-the-art results on the RoboLab-120 and CaP-Gym benchmarks, with no demonstrations or task-specific training. On RoboLab-120, AMP1 reaches an 85.6\\% success rate zero-shot, compared to 49.2\\% and 42.9\\% for leading VLA and WAM policies. The agent succeeds zero-shot in 104 of 108 real-world trials spanning twelve tasks and three robot instances, reducing failure rates by 20x and 15x relative to strong VLA and WAM baselines. The basic harness supplies no grasping, pushing, or placing skills; the agent develops its own strategies, such as searching for hidden objects, using objects as tools, and calibrating its cameras. With the addition of a persistent memory store, the agent can also learn from experience: an augmented harness with a memory representation that is carried across episodes lowers the failure rate on RoboDojo bimanual manipulation tasks by 4.6x relative to zero-shot deployment. Our analysis suggests that AMPs are substantially more general and robust than specialist manipulation policies, providing a promising foundation for robot manipulation.",
+    "url": "https://arxiv.org/abs/2611.09892v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09892v1",
+    "relevance_score": 0.777,
+    "processed_date": "2026-11-09",
+    "summary": "Addressing critical demands in Robotics, this research investigates recent work on robot manipulation has focused on specialist policies trained on demonstrations. We present AMP1, a reference harness that runs unchanged across single-arm, bimanual, and mobile manipulation. AMP1 achieves state-of-the-art results on the RoboLab-120 and CaP-Gym benchmarks, with no demonstrations or task-specific training. Our analysis suggests that AMPs are substantially more general and robust than specialist manipulation policies, providing a promising foundation for robot manipulation. Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs).",
+    "key_concepts": [
+      "Zero-shot",
+      "Manipulation",
+      "Specialist Policies",
+      "Trials Spanning",
+      "Unfolds Present",
+      "Vla WAM"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+      "approach": "We present AMP1, a reference harness that runs unchanged across single-arm, bimanual, and mobile manipulation.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Manipulation.",
+      "results": "AMP1 achieves state-of-the-art results on the RoboLab-120 and CaP-Gym benchmarks, with no demonstrations or task-specific training.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2611.09864",
+    "raw_id": "http://arxiv.org/abs/2611.09864v1",
+    "title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
+    "authors": [
+      "Xun Tu",
+      "Minghao Zou",
+      "Karthik Desingh"
+    ],
+    "published_date": "2026-11-06T18:44:33Z",
+    "updated_date": "2026-11-06T18:44:33Z",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "abstract": "Loco-manipulation, which requires mobile manipulators to coordinate locomotion and manipulation over long horizons, is a key capability for large-object rearrangement in applications such as service robotics and warehouse automation. Despite recent progress, reliably executing these tasks remains challenging because performance depends on complex robot-object and object-environment interaction dynamics. Existing approaches address this challenge either through model-based methods, which often require accurate dynamics models, or through learning-based methods, which reduce this requirement but typically assume a fixed or predefined initial grasp. However, different geometrically stable grasps can lead to substantially different downstream manipulation performance. Therefore, we propose Grasp-TAGS, a task-aware grasp selection framework for goal-conditioned large-object rearrangement. We train a unified PPO-based reinforcement learning policy across multiple initial grasp configurations and distill the learned critic into a lightweight grasp utility network that ranks candidate grasps using only the candidate grasp configuration and goal information. At inference time, we select the grasp with the highest predicted downstream utility for the downstream policy to complete the task, before even making a contact. Experiments demonstrate that Grasp-TAGS improves rearrangement success over both fixed single-grasp policies and random grasp selection, achieving an average success rate of 89.84% compared with 79.87% for the best-performing single-grasp policies, an improvement of 9.97 percentage points. Grasp-TAGS also reduces final orientation errors across all evaluated objects. For more qualitative results, refer to the supplementary webpage: https://rpm-lab-umn.github.io/Grasp-TAGS-web-page/",
+    "url": "https://arxiv.org/abs/2611.09864v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09864v1",
+    "relevance_score": 0.777,
+    "processed_date": "2026-11-09",
+    "summary": "Despite recent progress, reliably executing these tasks remains challenging because performance depends on complex robot-object and object-environment interaction dynamics. Therefore, we propose Grasp-TAGS, a task-aware grasp selection framework for goal-conditioned large-object rearrangement. Experiments demonstrate that Grasp-TAGS improves rearrangement success over both fixed single-grasp policies and random grasp selection, achieving an average success rate of 89.84% compared with 79.87% for the best-performing single-grasp policies, an improvement of 9.97 percentage points. For more qualitative results, refer to the supplementary webpage: https://rpm-lab-umn.github.io/Grasp-TAGS-web-page/ Loco-manipulation, which requires mobile manipulators to coordinate locomotion and manipulation over long horizons, is a key capability for large-object rearrangement in applications such as service robotics and warehouse automation.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Manipulation",
+      "Grasp Selection",
+      "Task-aware Grasp",
+      "Initial Grasp",
+      "Large-object Rearrangement"
+    ],
+    "insights": {
+      "problem": "Despite recent progress, reliably executing these tasks remains challenging because performance depends on complex robot-object and object-environment interaction dynamics.",
+      "approach": "Therefore, we propose Grasp-TAGS, a task-aware grasp selection framework for goal-conditioned large-object rearrangement.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Manipulation.",
+      "results": "Experiments demonstrate that Grasp-TAGS improves rearrangement success over both fixed single-grasp policies and random grasp selection, achieving an average success rate of 89.84% compared with 79.87% for the best-performing single-grasp policies, an improvement of 9.97 percentage points.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Existing approaches address this challenge either through model-based methods, which often require accurate dynamics models, or through learning-based methods, which reduce this requirement but typically assume a fixed or predefined initial grasp."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2611.09777",
+    "raw_id": "http://arxiv.org/abs/2611.09777v1",
+    "title": "Autonomous Whole-body Loco-manipulation Using a Snake Robot",
+    "authors": [
+      "Adarsh Salagame",
+      "Henry Noyes",
+      "Haroon Hublikar",
+      "Alireza Ramezani"
+    ],
+    "published_date": "2026-11-06T17:38:50Z",
+    "updated_date": "2026-11-06T17:38:50Z",
+    "categories": [
+      "cs.RO",
+      "eess.SY"
+    ],
+    "abstract": "Snake robots can leverage their hyper-redundant morphology for both locomotion and manipulation through distributed body contact but whole-body loco-manipulation is particularly challenging since the entire body serves simultaneously as propulsive mechanism and manipulation tool Prior work on wheeled legged and snake robot platforms has decoupled these functions through dedicated appendages body segmentation or grippers We present closed-loop loco-manipulation with our snake robot COBRA without this distinction such that any part of the body may make contact We develop a contact-implicit dynamic model unifying robot-ground robot-object and object-ground interactions within a Moreau-Jean time-stepping framework and formulate a trajectory optimization over the full-order dynamics guided by a geometric planner and nominal proportional controller to autonomously push an object to a goal location during sidewinding We validate the planner and controller on hardware across varied configurations and present simulation results for a simplified trajectory optimization that resolves robot-object and object-ground contacts",
+    "url": "https://arxiv.org/abs/2611.09777v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09777v1",
+    "relevance_score": 0.748,
+    "processed_date": "2026-11-09",
+    "summary": "Addressing critical demands in Robotics, this research investigates snake robots can leverage their hyper-redundant morphology for both locomotion and manipulation through distributed body contact but whole-body loco-manipulation is particularly challenging since the entire body serves simultaneously as propulsive mechanism and manipulation tool prior work on wheeled legged and snake robot platforms has decoupled these functions through dedicated appendages body segmentation or grippers we present closed-loop loco-manipulation with our snake robot cobra without this distinction such that any part of the body may make contact we develop a contact-implicit dynamic model unifying robot-ground robot-object and object-ground interactions within a moreau-jean time-stepping framework and formulate a trajectory optimization over the full-order dynamics guided by a geometric planner and nominal proportional controller to autonomously push an object to a goal location during sidewinding we validate the planner and controller on hardware across varied configurations and present simulation results for a simplified trajectory optimization that resolves robot-object and object-ground contacts. Snake robots can leverage their hyper-redundant morphology for both locomotion and manipulation through distributed body contact but whole-body loco-manipulation is particularly challenging since the entire body serves simultaneously as propulsive mechanism and manipulation tool Prior work on wheeled legged and snake robot platforms has decoupled these functions through dedicated appendages body segmentation or grippers We present closed-loop loco-manipulation with our snake robot COBRA without this distinction such that any part of the body may make contact We develop a contact-implicit dynamic model unifying robot-ground robot-object and object-ground interactions within a Moreau-Jean time-stepping framework and formulate a trajectory optimization over the full-order dynamics guided by a geometric planner and nominal proportional controller to autonomously push an object to a goal location during sidewinding We validate the planner and controller on hardware across varied configurations and present simulation results for a simplified trajectory optimization that resolves robot-object and object-ground contacts",
+    "key_concepts": [
+      "Manipulation",
+      "Snake Robot",
+      "Appendages Body",
+      "Autonomously Push",
+      "Body Contact",
+      "Body Make"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+      "approach": "Snake robots can leverage their hyper-redundant morphology for both locomotion and manipulation through distributed body contact but whole-body loco-manipulation is particularly challenging since the entire body serves simultaneously as propulsive mechanism and manipulation tool Prior work on wheeled legged and snake robot platforms has decoupled these functions through dedicated appendages body segmentation or grippers We present closed-loop loco-manipulation with our snake robot COBRA without this distinction such that any part of the body may make contact We develop a contact-implicit dynamic model unifying robot-ground robot-object and object-ground interactions within a Moreau-Jean time-stepping framework and formulate a trajectory optimization over the full-order dynamics guided by a geometric planner and nominal proportional controller to autonomously push an object to a goal location during sidewinding We validate the planner and controller on hardware across varied configurations and present simulation results for a simplified trajectory optimization that resolves robot-object and object-ground contacts",
+      "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Snake Robot.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2611.09794",
+    "raw_id": "http://arxiv.org/abs/2611.09794v1",
+    "title": "Seeing What Matters: Benchmarking Task-Conditioned Actionable Spatial Belief for Manipulation",
+    "authors": [
+      "Yina Jian",
+      "Mingkun Xu"
+    ],
+    "published_date": "2026-11-06T17:49:56Z",
+    "updated_date": "2026-11-06T17:49:56Z",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "abstract": "When should a robot look at the cup, and when at the portafilter? Spatial-reasoning benchmarks evaluate whether a model can describe a scene, but manipulation needs something more specific: the ability to acquire the particular evidence that makes the current command executable. A view that is informative for one task can be useless for another, even at the same workstation. We introduce Seeing What Matters, a benchmark for task-conditioned actionable spatial belief in simulated tabletop manipulation. Across three domains--coffee workstation, drawer/cabinet, and microwave/appliance--the benchmark provides 860 frozen evaluation cases; expanding across methods, budgets, and inference repeats yields more than 115,000 evaluator episodes under two protocols: closed-loop actionability and same-object functional out-of-distribution generalization. Each case pairs a set of candidate RGB views with a manipulation command, shared scripted skills, and hidden postconditions, so the benchmark directly measures whether a view-selection policy acquires the observations its command actually needs. We also provide a diagnostic reference pipeline that maintains a spatial-functional belief state and ranks views by missing evidence. At primary budget settings, this pipeline reaches 98.8% closed-loop and 98.9% functional-OOD success; ablating the functional or command-binding components collapses performance to near zero. Seven vision-language models, evaluated on the same cases, reach only 26-43%. Replacing the reference pipeline's coverage metadata with frozen RGB-derived scores preserves 98.5%/98.9% success; shuffling the visual scores collapses it to 15%/11%, confirming that the result depends on image content. These gaps suggest that spatial belief for manipulation should be evaluated not by scene-level completeness, but by whether it acquires the evidence the current command requires.",
+    "url": "https://arxiv.org/abs/2611.09794v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09794v1",
+    "relevance_score": 0.711,
+    "processed_date": "2026-11-09",
+    "summary": "Addressing critical demands in Robotics, this research investigates when should a robot look at the cup, and when at the portafilter?. We introduce Seeing What Matters, a benchmark for task-conditioned actionable spatial belief in simulated tabletop manipulation. A view that is informative for one task can be useless for another, even at the same workstation. These gaps suggest that spatial belief for manipulation should be evaluated not by scene-level completeness, but by whether it acquires the evidence the current command requires. When should a robot look at the cup, and when at the portafilter? Spatial-reasoning benchmarks evaluate whether a model can describe a scene, but manipulation needs something more specific: the ability to acquire the particular evidence that makes the current command executable.",
+    "key_concepts": [
+      "Manipulation",
+      "Spatial Belief",
+      "Task-conditioned Actionable",
+      "Current Command",
+      "Reference Pipeline",
+      "Success Shuffling"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+      "approach": "We introduce Seeing What Matters, a benchmark for task-conditioned actionable spatial belief in simulated tabletop manipulation.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Spatial Belief.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2611.09891",
+    "raw_id": "http://arxiv.org/abs/2611.09891v1",
+    "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+    "authors": [
+      "Peter Belcak",
+      "Greg Heinrich",
+      "Saurav Muralidharan",
+      "Shizhe Diao",
+      "Pavlo Molchanov"
+    ],
+    "published_date": "2026-11-06T18:58:50Z",
+    "updated_date": "2026-11-06T18:58:50Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and with little involvement from language models. We introduce agentic reasoning caching, a method for constructing robust CPU-executable agentic reasoning caches (ARCs) from LLM reasoning traces. ARCs show on-par performance with frontier LLMs across a range of difficult mathematical and scientific tasks, are fully explainable, continually trainable, robust to input perturbations, and 16-291x cheaper to invoke than the source model.",
+    "url": "https://arxiv.org/abs/2611.09891v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09891v1",
+    "relevance_score": 0.698,
+    "processed_date": "2026-11-09",
+    "summary": "They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We introduce agentic reasoning caching, a method for constructing robust CPU-executable agentic reasoning caches (ARCs) from LLM reasoning traces. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and with little involvement from language models. ARCs show on-par performance with frontier LLMs across a range of difficult mathematical and scientific tasks, are fully explainable, continually trainable, robust to input perturbations, and 16-291x cheaper to invoke than the source model.",
+    "key_concepts": [
+      "Agentic Reasoning",
+      "Application Solution",
+      "Arcs LLM",
+      "Arcs On-par",
+      "Caches Arcs",
+      "Cheaper Invoke"
+    ],
+    "insights": {
+      "problem": "They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch.",
+      "approach": "We introduce agentic reasoning caching, a method for constructing robust CPU-executable agentic reasoning caches (ARCs) from LLM reasoning traces.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Agentic Reasoning, Application Solution.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.09880",
+    "raw_id": "http://arxiv.org/abs/2611.09880v1",
+    "title": "ZeoBench: A Benchmark for Self-Supervised Learning on 3D Zeolite Representations",
+    "authors": [
+      "Aaron Sun",
+      "Yachan Liu",
+      "Ping Yang",
+      "Peng Bai",
+      "Subhransu Maji"
+    ],
+    "published_date": "2026-11-06T18:55:34Z",
+    "updated_date": "2026-11-06T18:55:34Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "Zeolites are an important class of porous crystalline materials with broad applications in gas storage, separations, and catalysis. Although hundreds of thousands of experimentally realized and hypothetical zeolite structures are known, identifying materials optimized for a target application remains challenging because property labels are expensive to obtain and available only for limited structure-molecule pairs. While prior work has demonstrated that 3D neural representations can predict zeolite properties effectively, it remains unclear which representation-learning strategies are most effective in the low-data regime relevant to materials discovery. We present ZeoBench, a benchmark for self-supervised learning on dense 3D representations of all-silica zeolites, and evaluate the resulting features on six existing downstream adsorption-property prediction tasks, across a range of training set sizes. Our study compares self-supervised 3D pretraining on volumetric zeolite data, adaptations of image-pretrained 2D ConvNets and vision transformers to 3D via multiview and channel-inflation strategies, and 3D ConvNets pretrained on out-of-domain volumetric datasets, alongside hand-crafted descriptors and supervised baselines. Using our pretraining and evaluation framework, we find self-supervised 3D representations outperform existing methods and achieve state-of-the-art performance across both in-domain label regimes and for the unseen domain of metal organic frameworks. Learned representations consistently outperform hand-crafted descriptors, and convolutional architectures are generally more effective than vision transformers in this setting. These results establish ZeoBench as a practical benchmark for 3D representation learning in zeolites and provide guidance for data-limited adsorption property prediction.",
+    "url": "https://arxiv.org/abs/2611.09880v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09880v1",
+    "relevance_score": 0.698,
+    "processed_date": "2026-11-09",
+    "summary": "Although hundreds of thousands of experimentally realized and hypothetical zeolite structures are known, identifying materials optimized for a target application remains challenging because property labels are expensive to obtain and available only for limited structure-molecule pairs. We present ZeoBench, a benchmark for self-supervised learning on dense 3D representations of all-silica zeolites, and evaluate the resulting features on six existing downstream adsorption-property prediction tasks, across a range of training set sizes. While prior work has demonstrated that 3D neural representations can predict zeolite properties effectively, it remains unclear which representation-learning strategies are most effective in the low-data regime relevant to materials discovery. These results establish ZeoBench as a practical benchmark for 3D representation learning in zeolites and provide guidance for data-limited adsorption property prediction.",
+    "key_concepts": [
+      "Representation Learning",
+      "Self-supervised Learning",
+      "Hand-crafted Descriptors",
+      "Vision Transformers",
+      "Volumetric Zeolite",
+      "Zeobench Practical"
+    ],
+    "insights": {
+      "problem": "Although hundreds of thousands of experimentally realized and hypothetical zeolite structures are known, identifying materials optimized for a target application remains challenging because property labels are expensive to obtain and available only for limited structure-molecule pairs.",
+      "approach": "We present ZeoBench, a benchmark for self-supervised learning on dense 3D representations of all-silica zeolites, and evaluate the resulting features on six existing downstream adsorption-property prediction tasks, across a range of training set sizes.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Representation Learning, Self-supervised Learning.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.09872",
+    "raw_id": "http://arxiv.org/abs/2611.09872v1",
+    "title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning",
+    "authors": [
+      "Haoyu Wang",
+      "Ru Wang",
+      "Yuanyuan Wang",
+      "Jiaxian Guo",
+      "Mingming Gong"
+    ],
+    "published_date": "2026-11-06T18:49:02Z",
+    "updated_date": "2026-11-06T18:49:02Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Test-time reinforcement learning (TTRL) adapts pretrained language models to unlabeled target-domain data using self-generated pseudo-labels, whose reliability remains poorly understood. We analyze majority-vote supervision for TTRL with online Direct Preference Optimization (DPO) and decompose its error into population-majority bias and prompt-dependent finite-rollout variation. Because population-majority bias is generally unidentifiable without external supervision, we focus on mitigating the downstream effects of finite-rollout variation. We propose \\emph{Prompt-Conditional Distributionally Robust DPO (PC-Dr.DPO)}, which conditions within-prompt robust reweighting on observed vote reliability to make updates from sampling-sensitive prompts more conservative. We further introduce a cache-based mechanism to reduce self-supervised forgetting during online adaptation. Across six mathematical and knowledge-intensive reasoning benchmarks and five model backbones, PC-Dr.DPO matches or outperforms the strongest TTRL baseline in 24 of 30 settings.",
+    "url": "https://arxiv.org/abs/2611.09872v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09872v1",
+    "relevance_score": 0.698,
+    "processed_date": "2026-11-09",
+    "summary": "Addressing critical demands in Machine Learning, this research investigates test-time reinforcement learning (ttrl) adapts pretrained language models to unlabeled target-domain data using self-generated pseudo-labels, whose reliability remains poorly understood. We propose \\emph{Prompt-Conditional Distributionally Robust DPO (PC-Dr.DPO)}, which conditions within-prompt robust reweighting on observed vote reliability to make updates from sampling-sensitive prompts more conservative. Across six mathematical and knowledge-intensive reasoning benchmarks and five model backbones, PC-Dr.DPO matches or outperforms the strongest TTRL baseline in 24 of 30 settings. Test-time reinforcement learning (TTRL) adapts pretrained language models to unlabeled target-domain data using self-generated pseudo-labels, whose reliability remains poorly understood. We analyze majority-vote supervision for TTRL with online Direct Preference Optimization (DPO) and decompose its error into population-majority bias and prompt-dependent finite-rollout variation.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Adaptation Mathematical",
+      "Adapts Pretrained",
+      "Analyze Majority-vote",
+      "Backbones Pc-dr",
+      "Bias Generally"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+      "approach": "We propose \\emph{Prompt-Conditional Distributionally Robust DPO (PC-Dr.DPO)}, which conditions within-prompt robust reweighting on observed vote reliability to make updates from sampling-sensitive prompts more conservative.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Adaptation Mathematical.",
+      "results": "Across six mathematical and knowledge-intensive reasoning benchmarks and five model backbones, PC-Dr.DPO matches or outperforms the strongest TTRL baseline in 24 of 30 settings.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.09768",
+    "raw_id": "http://arxiv.org/abs/2611.09768v1",
+    "title": "Language as Trait, Politeness as Strategy: Controlled Tests of Linguistic Effects in LLM Social-Deduction Agents",
+    "authors": [
+      "Yuchen Li",
+      "Lisa Liu",
+      "Runqi Zou",
+      "Shuxuan Kuang",
+      "Qingquan Zhang",
+      "Julian Togelius"
+    ],
+    "published_date": "2026-11-06T17:31:01Z",
+    "updated_date": "2026-11-06T17:31:01Z",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Large language model (LLM) agents coordinate through conversation, and the same message can be phrased in simpler or more complex language, bluntly or politely. We test whether such differences change how other agents judge and act, using the LURK Werewolf framework, which separates each utterance's speech-act predicate from its natural-language realization. We rewrite only the realization, check that the game content is preserved, and replay each game day from saved checkpoints against a re-sampled control. We vary linguistic range consistently across a speaker's messages and politeness strategy per utterance. Across 30 games and 4,335 replays, neither manipulation changes the trust other agents place in the speaker, and no effect on votes or night actions survives correction for multiple comparisons; the largest uncorrected effect is that shifting range away from a neutral paraphrase changes about 4 percentage points more of the other players' votes. In natural play, 88% of face-threatening speech is bald on-record regardless of role.",
+    "url": "https://arxiv.org/abs/2611.09768v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09768v1",
+    "relevance_score": 0.69,
+    "processed_date": "2026-11-09",
+    "summary": "Addressing critical demands in Natural Language Processing, this research investigates large language model (llm) agents coordinate through conversation, and the same message can be phrased in simpler or more complex language, bluntly or politely. We test whether such differences change how other agents judge and act, using the LURK Werewolf framework, which separates each utterance's speech-act predicate from its natural-language realization. We rewrite only the realization, check that the game content is preserved, and replay each game day from saved checkpoints against a re-sampled control. In natural play, 88% of face-threatening speech is bald on-record regardless of role. Large language model (LLM) agents coordinate through conversation, and the same message can be phrased in simpler or more complex language, bluntly or politely.",
+    "key_concepts": [
+      "Large Language Model",
+      "Manipulation",
+      "Actions Survives",
+      "Away Neutral",
+      "Bald On-record",
+      "Bluntly Politely"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+      "approach": "We test whether such differences change how other agents judge and act, using the LURK Werewolf framework, which separates each utterance's speech-act predicate from its natural-language realization.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Large Language Model, Manipulation.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Natural Language Processing"
+  },
+  {
+    "arxiv_id": "2611.09722",
+    "raw_id": "http://arxiv.org/abs/2611.09722v1",
+    "title": "FOSCAR: Accelerating Decode Attention over 2- and 4-Bit KV Caches through Affine Folding",
+    "authors": [
+      "Donglin Zhuang",
+      "Pragaash Ponnusamy",
+      "Xiaoxia Wu",
+      "Shuaiwen Leon Song",
+      "Zhongzhu Zhou"
+    ],
+    "published_date": "2026-11-06T17:00:25Z",
+    "updated_date": "2026-11-06T17:00:25Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Large-language-model decode attention streams the key-value (KV) cache for every generated token. Packing that cache into 2-bit or 4-bit quantized integers reduces memory traffic but does not automatically translate into latency saving. Existing 2-bit fused kernels reach under 31%/15% of peak HBM throughput on H100/B200. Converting each value and applying its scale and offset before feeding Tensor Cores is a major bottleneck because instruction-issue throughput is scarce on modern GPUs. Instead of applying scale and offset to each KV value, FOSCAR uses affine folding to apply them to the other operand or the output of decode-attention matrix products, depending on the quantization scheme (token-wise or channel-wise). This reduces scale-and-offset operations by up to two orders of magnitude while preserving the dequantized attention output in exact arithmetic. FOSCAR also uses bit manipulation to feed KV operands to Tensor Cores efficiently, requiring only 1 and 0.19 ALU instructions per INT2 element on H100 and B200, respectively. Finally, FOSCAR builds warp-specialized GPU pipelines for Hopper (H100) and Blackwell (B200) using wgmma and tcgen05. On H100, FOSCAR INT2 and INT4 kernels achieve geo-mean speedups of 3.36\\times and 2.83\\times over FlashInfer BF16, and 2.03\\times and 1.71\\times over TensorRT-LLM FP8. On B200, the corresponding INT2 and INT4 speedups are 2.67\\times and 2.30\\times over FlashInfer BF16, 1.48\\times and 1.28\\times over TensorRT-LLM FP8, and 1.16\\times and 1.00\\times over TensorRT-LLM NVFP4. We integrate FOSCAR into SGLang to benchmark serving efficiency. On long-context serving workloads, FOSCAR increases peak aggregate throughput by up to 170% and 341% over 2-bit and 16-bit baselines, respectively. We open-source FOSCAR as a kernel library at https://github.com/FutureMLS-Lab/FOSCAR.",
+    "url": "https://arxiv.org/abs/2611.09722v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09722v1",
+    "relevance_score": 0.67,
+    "processed_date": "2026-11-09",
+    "summary": "Converting each value and applying its scale and offset before feeding Tensor Cores is a major bottleneck because instruction-issue throughput is scarce on modern GPUs. Packing that cache into 2-bit or 4-bit quantized integers reduces memory traffic but does not automatically translate into latency saving. On long-context serving workloads, FOSCAR increases peak aggregate throughput by up to 170% and 341% over 2-bit and 16-bit baselines, respectively. We open-source FOSCAR as a kernel library at https://github.com/FutureMLS-Lab/FOSCAR. Large-language-model decode attention streams the key-value (KV) cache for every generated token. Existing 2-bit fused kernels reach under 31%/15% of peak HBM throughput on H100/B200.",
+    "key_concepts": [
+      "Quantization",
+      "Manipulation",
+      "Bit Bit",
+      "Flashinfer Times",
+      "Foscar Uses",
+      "Speedups Times"
+    ],
+    "insights": {
+      "problem": "Converting each value and applying its scale and offset before feeding Tensor Cores is a major bottleneck because instruction-issue throughput is scarce on modern GPUs.",
+      "approach": "Packing that cache into 2-bit or 4-bit quantized integers reduces memory traffic but does not automatically translate into latency saving.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Quantization, Manipulation.",
+      "results": "On long-context serving workloads, FOSCAR increases peak aggregate throughput by up to 170% and 341% over 2-bit and 16-bit baselines, respectively.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Natural Language Processing"
+  },
+  {
+    "arxiv_id": "2611.09836",
+    "raw_id": "http://arxiv.org/abs/2611.09836v1",
+    "title": "Can Agentic Systems Close the Gap in Radiology with Production AI Tools?",
+    "authors": [
+      "Aubin Charley",
+      "Julien Khlaut",
+      "Charles Corbière",
+      "Pierre Manceron",
+      "Corentin Dancette",
+      "Léo Machado"
+    ],
+    "published_date": "2026-11-06T18:23:14Z",
+    "updated_date": "2026-11-06T18:23:14Z",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "abstract": "Radiology AI has developed along two paths: specialized models that perform well on narrow tasks but cover few clinical findings, and generalist models that address a broader range of tasks but remain prone to hallucination and inaccurate measurements. Combining the two through agentic systems offers a route towards comprehensive radiology reporting, but published systems are tied to one modality or body part. We describe a radiology agentic framework that standardizes how an orchestrator calls modular tools to produce a structured report, and use it to measure what such a system can do with the tools from FDA-cleared radiology AI devices. Report generation is simulated on a large multi-modality report corpus, with the orchestrator given either a catalog of finding classes consolidated from the cleared devices, each available on the modalities it is cleared for, or an unlimited catalog in which any class can be requested, and planning either from the clinical indication or from the target report. Tool outputs are simulated from the reference report, so the comparison isolates tool availability and orchestration from tool error. With the cleared catalog and the indication alone, the orchestrator recovers under a third of the clinically actionable findings; recovery improves substantially with the unlimited catalog, and further when the plan is written from the target report. Attributing every missed finding to a cause shows that most are classes no cleared device offers for the study's modality, and that a third are classes or tools that were offered and not called. Adding the most frequently missing tools closes most of the gap to the unlimited catalog on held-out reports, whereas a smaller orchestrator with the unlimited catalog gives up the whole gain. Tool availability and effective orchestration are thus complementary constraints on comprehensive AI-assisted radiology reporting.",
+    "url": "https://arxiv.org/abs/2611.09836v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.09836v1",
+    "relevance_score": 0.669,
+    "processed_date": "2026-11-09",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates radiology ai has developed along two paths: specialized models that perform well on narrow tasks but cover few clinical findings, and generalist models that address a broader range of tasks but remain prone to hallucination and inaccurate measurements. Combining the two through agentic systems offers a route towards comprehensive radiology reporting, but published systems are tied to one modality or body part. We describe a radiology agentic framework that standardizes how an orchestrator calls modular tools to produce a structured report, and use it to measure what such a system can do with the tools from FDA-cleared radiology AI devices. Tool availability and effective orchestration are thus complementary constraints on comprehensive AI-assisted radiology reporting.",
+    "key_concepts": [
+      "Multi-modality",
+      "Radiology Reporting",
+      "Target Report",
+      "Tied Modality Body",
+      "Tool Availability",
+      "Tool Error"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "Combining the two through agentic systems offers a route towards comprehensive radiology reporting, but published systems are tied to one modality or body part.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Multi-modality, Radiology Reporting.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "Tool availability and effective orchestration are thus complementary constraints on comprehensive AI-assisted radiology reporting."
+    },
+    "primary_topic": "Artificial Intelligence"
   }
 ]
