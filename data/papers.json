@@ -13138,5 +13138,449 @@
       "limitations": "Tool availability and effective orchestration are thus complementary constraints on comprehensive AI-assisted radiology reporting."
     },
     "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.12791",
+    "raw_id": "http://arxiv.org/abs/2611.12791v1",
+    "title": "Large Language Models as a Universal Searcher for Open-World Automated Machine Learning",
+    "authors": [
+      "Yuxuan Hu",
+      "Jihao Liu",
+      "Weikang Shi",
+      "Xijie Huang",
+      "Linda Wei",
+      "Mingjie Zhan",
+      "Aojun Zhou",
+      "Rui Liu",
+      "Hongsheng Li"
+    ],
+    "published_date": "2026-11-09T17:58:38Z",
+    "updated_date": "2026-11-09T17:58:38Z",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Developing effective machine learning models requires complex manual tuning, while current Automated Machine Learning (AutoML) frameworks remain domain-specific and isolate model architecture, training hyperparameter, and data ratio optimization. Here, we bridge this gap by proposing a universal, large language model (LLM)-based AutoML framework that jointly optimizes these configurations for the first time without the need for task-specific fine-tuning. We propose NCode, a unified numerical encoding scheme that translates diverse AutoML design choices into universal discrete sequences and effectively reframes the optimization process as a unified ranking task. Trained solely on optimization trajectories derived from a limited, single-domain vision task, the proposed LLM-based searcher demonstrates impressive cross-task, cross-modality and joint search-space optimization generalizability, achieving state-of-the-art performance across image classification, image segmentation, speaker verification and text-to-image benchmarks. Crucially, it exhibits superior scalability in the large-scale training and joint optimization of a billion-parameter Diffusion Transformer, requiring 896 GPU-days and attaining a state-of-the-art GenEval score of 0.91. By leveraging reinforcement learning to instill Chain-of-Thought reasoning, we provide a systematic way to interpret the LLM-based searcher's internal decision-making mechanisms, revealing its optimization strategy shifted from the early-stage diversity-driven exploration to the late-stage anchor exploitation. Our proposed framework provides a scalable, generalizable, and interpretable pathway toward general-purpose open-world machine learning optimization.",
+    "url": "https://arxiv.org/abs/2611.12791v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12791v1",
+    "relevance_score": 0.836,
+    "processed_date": "2026-11-10",
+    "summary": "Addressing critical demands in Machine Learning, this research investigates developing effective machine learning models requires complex manual tuning, while current automated machine learning (automl) frameworks remain domain-specific and isolate model architecture, training hyperparameter, and data ratio optimization. Here, we bridge this gap by proposing a universal, large language model (LLM)-based AutoML framework that jointly optimizes these configurations for the first time without the need for task-specific fine-tuning. Here, we bridge this gap by proposing a universal, large language model (LLM)-based AutoML framework that jointly optimizes these configurations for the first time without the need for task-specific fine-tuning. We propose NCode, a unified numerical encoding scheme that translates diverse AutoML design choices into universal discrete sequences and effectively reframes the optimization process as a unified ranking task. Our proposed framework provides a scalable, generalizable, and interpretable pathway toward general-purpose open-world machine learning optimization.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Large Language Model",
+      "Machine Learning",
+      "Llm-based Searcher",
+      "Trajectories Derived",
+      "Transformer Requiring"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+      "approach": "Here, we bridge this gap by proposing a universal, large language model (LLM)-based AutoML framework that jointly optimizes these configurations for the first time without the need for task-specific fine-tuning.",
+      "key_innovation": "Here, we bridge this gap by proposing a universal, large language model (LLM)-based AutoML framework that jointly optimizes these configurations for the first time without the need for task-specific fine-tuning.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.12732",
+    "raw_id": "http://arxiv.org/abs/2611.12732v1",
+    "title": "Σ-LeWM: Learning World Models via S-Information for Robot Control",
+    "authors": [
+      "Xinrui Zu",
+      "Michael Przystupa",
+      "Zhao Yang",
+      "Shujian Yu",
+      "Kevin Sebastian Luck"
+    ],
+    "published_date": "2026-11-09T17:18:27Z",
+    "updated_date": "2026-11-09T17:18:27Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "abstract": "World models have increasingly been applied as a model-based control method for robotics tasks such as manipulation and locomotion. While early world model architectures relied on decoders to prevent mode collapse and learn a predictable latent space, recent works on world models, such as Joint Embedding Predictive Architecture or LeWorldModel, increasingly aim to learn embeddings without a grounding decoder, utilising only a latent forward dynamics predictor and a stabilising entropy term. In this paper, we set out to demonstrate that the further introduction of two additional latent losses to LeWorldModel, a backward dynamics predictor and an inverse dynamics action predictor, enforces further structure on the latent embedding, leading to further gains in both performance and planning efficiency. These are critical properties for improving the applicability of such methods to real-time model-based control of real-world robots. We demonstrate these gains on standard world model benchmarks and two simulated robot manipulation tasks.",
+    "url": "https://arxiv.org/abs/2611.12732v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12732v1",
+    "relevance_score": 0.821,
+    "processed_date": "2026-11-10",
+    "summary": "Addressing critical demands in Robotics, this research investigates world models have increasingly been applied as a model-based control method for robotics tasks such as manipulation and locomotion. While early world model architectures relied on decoders to prevent mode collapse and learn a predictable latent space, recent works on world models, such as Joint Embedding Predictive Architecture or LeWorldModel, increasingly aim to learn embeddings without a grounding decoder, utilising only a latent forward dynamics predictor and a stabilising entropy term. In this paper, we set out to demonstrate that the further introduction of two additional latent losses to LeWorldModel, a backward dynamics predictor and an inverse dynamics action predictor, enforces further structure on the latent embedding, leading to further gains in both performance and planning efficiency. We demonstrate these gains on standard world model benchmarks and two simulated robot manipulation tasks.",
+    "key_concepts": [
+      "World Model",
+      "Joint Embedding Predictive Architecture",
+      "Manipulation",
+      "Action Predictor",
+      "Additional Latent",
+      "Aim Learn"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+      "approach": "While early world model architectures relied on decoders to prevent mode collapse and learn a predictable latent space, recent works on world models, such as Joint Embedding Predictive Architecture or LeWorldModel, increasingly aim to learn embeddings without a grounding decoder, utilising only a latent forward dynamics predictor and a stabilising entropy term.",
+      "key_innovation": "Formulates an integrated mechanism leveraging World Model, Joint Embedding Predictive Architecture.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2611.12885",
+    "raw_id": "http://arxiv.org/abs/2611.12885v1",
+    "title": "World In-Context Learning for Agentic Robot Manipulation",
+    "authors": [
+      "Heng Fang",
+      "Zehui Guo",
+      "Yuehan Zhang",
+      "Mingyang Du",
+      "Dingkang Liang",
+      "Xiang Bai"
+    ],
+    "published_date": "2026-11-09T18:59:45Z",
+    "updated_date": "2026-11-09T18:59:45Z",
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "abstract": "Trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. In-context learning (ICL) avoids this coupling but has not matched trained policies, because a demonstration recorded in another scene carries no feedback from the world the robot currently faces. We observe that what an agent learns in context is semantic, recording task steps and object roles rather than visual appearance, so experience gathered in one world transfers to another. Based on this insight, we propose World In-Context Learning (WICL), a paradigm in which a frozen model starts from a demonstration, rehearses the task in a world such as a simulator, and writes the feedback into its context rather than its weights. We build RoboScript, a modular infrastructure that implements WICL for agentic manipulation. From a single demonstration, RoboScript learns each task through rehearsal in simulation, freezes the learned knowledge as a Task Memory, and deploys the frozen memory on new scenes with data isolation that ensures every deployment input is available on a real robot. On all 50 tasks of RoboTwin 2.0, RoboScript reaches 83.4% mean success across clean and randomized settings with one demonstration per task and no gradient updates, exceeding the strongest trained action policy by over 20 points. The method generalizes across visual distributions, improves through reflection, scales with the foundation model, and transfers to a physical dual-arm robot through cross-embodiment memory adaptation. With a world in the loop, a robot can learn a manipulation task in its context as well as it learns one in its weights. All code is available at https://github.com/ArcheOne-AI/RoboScript",
+    "url": "https://arxiv.org/abs/2611.12885v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12885v1",
+    "relevance_score": 0.794,
+    "processed_date": "2026-11-10",
+    "summary": "Addressing critical demands in Robotics, this research investigates trained action policies write manipulation skill into network weights, tying what is learned to the distribution it is learned from. Based on this insight, we propose World In-Context Learning (WICL), a paradigm in which a frozen model starts from a demonstration, rehearses the task in a world such as a simulator, and writes the feedback into its context rather than its weights. We observe that what an agent learns in context is semantic, recording task steps and object roles rather than visual appearance, so experience gathered in one world transfers to another. All code is available at https://github.com/ArcheOne-AI/RoboScript",
+    "key_concepts": [
+      "Foundation Model",
+      "Manipulation",
+      "In-context Learning",
+      "World In-context",
+      "Updates Exceeding Strongest",
+      "Visual Appearance"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+      "approach": "Based on this insight, we propose World In-Context Learning (WICL), a paradigm in which a frozen model starts from a demonstration, rehearses the task in a world such as a simulator, and writes the feedback into its context rather than its weights.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Foundation Model, Manipulation.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2611.12806",
+    "raw_id": "http://arxiv.org/abs/2611.12806v1",
+    "title": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+    "authors": [
+      "Bing Han",
+      "Yichuan Peng",
+      "Haoyu Dong",
+      "Yuanmeng Hu",
+      "Yongyi Jia",
+      "Fangjing Wang",
+      "Kecheng Zheng",
+      "Yiming Zhang",
+      "Yanhong Zeng",
+      "Xiaoqing Zhang",
+      "Chen Song",
+      "Rundong Zou",
+      "Anqi Dong",
+      "Yuan Guan",
+      "Ka Leong Cheng",
+      "Xing Zhu",
+      "Yujun Shen",
+      "Nan Xue",
+      "Wei Ning"
+    ],
+    "published_date": "2026-11-09T18:12:00Z",
+    "updated_date": "2026-11-09T18:12:00Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "abstract": "Tactile sensing is an indispensable modality for contact-rich dexterous manipulation, a capability that hints at the ultimate frontiers of embodied intelligence. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from sensor-specific physics, so that embodied models can effectively leverage heterogeneous tactile data. To this end, we develop LingBot-Touch, a tactile foundation model characterized by the following properties. (i) Our model yields a unified representation across different tactile sensors (i.e., piezoresistive, magnetic, and visuotactile sensors), and is easily extensible to new sensor types. (ii) The resulting tactile tokens are plug-and-play: they can be seamlessly integrated into policy models across paradigms, from diffusion policy to vision-language-action (VLA) models such as π_{0.5} and LingBot-VLA, consistently enhancing manipulation dexterity. (iii) Extensive experiments, spanning simulation and real-robot deployments across multiple hardware platforms, demonstrate that our tactile representation substantially benefits complex manipulation tasks while maintaining strong computational efficiency. We believe the findings in this work demonstrate the potential of leveraging cross-sensor data to scale tactile learning, and offer encouraging insights for the design of future hardware and embodied models.",
+    "url": "https://arxiv.org/abs/2611.12806v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12806v1",
+    "relevance_score": 0.782,
+    "processed_date": "2026-11-10",
+    "summary": "However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks. A key challenge is thus to free tactile understanding from sensor-specific physics, so that embodied models can effectively leverage heterogeneous tactile data. We believe the findings in this work demonstrate the potential of leveraging cross-sensor data to scale tactile learning, and offer encouraging insights for the design of future hardware and embodied models.",
+    "key_concepts": [
+      "Foundation Model",
+      "Diffusion Policy",
+      "Dexterous Manipulation",
+      "Manipulation",
+      "Embodied Intelligence",
+      "Alongside Drawbacks"
+    ],
+    "insights": {
+      "problem": "However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks.",
+      "approach": "However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Foundation Model, Diffusion Policy.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "However, commercially available tactile sensors are still at a relatively early stage of development, with each type of sensor offering irreplaceable strengths alongside its own drawbacks."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2611.12886",
+    "raw_id": "http://arxiv.org/abs/2611.12886v1",
+    "title": "Reframe: Observation-Aligned Multi-Teacher On-Policy Distillation for Agentic Visual Reasoning",
+    "authors": [
+      "Haozhi Yuan",
+      "Handong Li",
+      "Yifan Zhang",
+      "Qianshan Wei"
+    ],
+    "published_date": "2026-11-09T18:59:54Z",
+    "updated_date": "2026-11-09T18:59:54Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. For visual agents, however, tool use presents two related challenges. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation. We introduce Reframe, a post-training framework that treats the observation state, rather than only the output distribution, as an object of alignment. First, Ground-Drop-GRPO (GD-GRPO) trains spatial and temporal specialists with evidence-aware rewards and stochastic removal of the original visual input, encouraging them to acquire grounded evidence and use the returned observations. Second, Observation-Gated-MOPD (OG-MOPD) replaces deficient tool actions with canonical ones mid-rollout and resumes distillation from the repaired observation. The two stages complement each other, as learning to rely on tool-returned observations can help the policy benefit from observation repair. Neither stage requires a task-specific SFT cold start. Extensive experiments over 14 image and video benchmarks demonstrate that Reframe outperforms both Mix-RL and vanilla MOPD. Ablation results show that GD-GRPO increases observation dependence and tool gain compared with outcome-based GRPO.",
+    "url": "https://arxiv.org/abs/2611.12886v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12886v1",
+    "relevance_score": 0.76,
+    "processed_date": "2026-11-10",
+    "summary": "For visual agents, however, tool use presents two related challenges. We introduce Reframe, a post-training framework that treats the observation state, rather than only the output distribution, as an object of alignment. Extensive experiments over 14 image and video benchmarks demonstrate that Reframe outperforms both Mix-RL and vanilla MOPD. Ablation results show that GD-GRPO increases observation dependence and tool gain compared with outcome-based GRPO. Agentic reinforcement learning (RL) and multi-teacher on-policy distillation (MOPD) offer complementary routes to post-training. Models may overlook useful tool-returned observations, while poorly grounded actions can limit the evidence available for subsequent distillation. First, Ground-Drop-GRPO (GD-GRPO) trains spatial and temporal specialists with evidence-aware rewards and stochastic removal of the original visual input, encouraging them to acquire grounded evidence and use the returned observations.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Acquire Grounded",
+      "Actions Canonical",
+      "Actions Limit",
+      "Agentic Reinforcement",
+      "Alignment Ground-drop-grpo"
+    ],
+    "insights": {
+      "problem": "For visual agents, however, tool use presents two related challenges.",
+      "approach": "We introduce Reframe, a post-training framework that treats the observation state, rather than only the output distribution, as an object of alignment.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Acquire Grounded.",
+      "results": "Extensive experiments over 14 image and video benchmarks demonstrate that Reframe outperforms both Mix-RL and vanilla MOPD.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.12799",
+    "raw_id": "http://arxiv.org/abs/2611.12799v1",
+    "title": "Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Distillation for Agentic Tasks",
+    "authors": [
+      "Tingcheng Bian",
+      "Kangye Gong",
+      "Jinchang Luo",
+      "MingQuan Cheng",
+      "Feiran Liu",
+      "Ni Li",
+      "Xiaoling Xia",
+      "Haiwei Wang",
+      "Hui Li"
+    ],
+    "published_date": "2026-11-09T18:07:42Z",
+    "updated_date": "2026-11-09T18:07:42Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "abstract": "Reinforcement learning is now the mainstream paradigm for training LLMs on agentic tasks, yet standard practice keeps only the best-validation checkpoint and discards the rest. We show that this is lossy: in GRPO training of LLM agents, the best-validation checkpoint fails on problems that earlier checkpoints from the same run had already solved, and the union of problems solved across checkpoints far exceeds any single one. The discarded checkpoints thus form a teacher pool obtained at no additional training cost, which on-policy distillation (OPD) can mine to recover the lost coverage. Mining this pool raises two challenges: i) which checkpoint to distill from, as no checkpoint dominates the others and complementarity to the student is problem-specific; ii) where to trust it, as even a well-chosen teacher is only locally superior, so indiscriminate distillation overwrites behavior the student has already mastered. We propose Agentic-OPD, which treats the best-validation checkpoint as the student and all saved checkpoints as frozen teacher candidates, using the student's evolving capability gaps to guide both teacher selection and supervision filtering: the HCN policy (Highest Coverage Next) dynamically selects teachers by weighted coverage of the student's unsolved problems, while the LAD module (Locality-Aware Distillation) confines transfer to failed student rollouts on problems where the teacher performs better. Across five agentic task domains and 24 benchmarks and task subsets, Agentic-OPD improves over its initialization checkpoint by up to 7.4 points, with a 4B student surpassing the latest frontier models GPT-5.6 and DeepSeek-V4.1 on deep search. Agentic-OPD recasts a finished RL run as a reusable pool of policies and establishes post-RL capability recovery as a stage orthogonal to improvements in the RL algorithm itself.",
+    "url": "https://arxiv.org/abs/2611.12799v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12799v1",
+    "relevance_score": 0.76,
+    "processed_date": "2026-11-10",
+    "summary": "Mining this pool raises two challenges: i) which checkpoint to distill from, as no checkpoint dominates the others and complementarity to the student is problem-specific; ii) where to trust it, as even a well-chosen teacher is only locally superior, so indiscriminate distillation overwrites behavior the student has already mastered. We propose Agentic-OPD, which treats the best-validation checkpoint as the student and all saved checkpoints as frozen teacher candidates, using the student's evolving capability gaps to guide both teacher selection and supervision filtering: the HCN policy (Highest Coverage Next) dynamically selects teachers by weighted coverage of the student's unsolved problems, while the LAD module (Locality-Aware Distillation) confines transfer to failed student rollouts on problems where the teacher performs better. Across five agentic task domains and 24 benchmarks and task subsets, Agentic-OPD improves over its initialization checkpoint by up to 7.4 points, with a 4B student surpassing the latest frontier models GPT-5.6 and DeepSeek-V4.1 on deep search. Agentic-OPD recasts a finished RL run as a reusable pool of policies and establishes post-RL capability recovery as a stage orthogonal to improvements in the RL algorithm itself.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Best-validation Checkpoint",
+      "Teacher Candidates",
+      "Teacher Locally",
+      "Teacher Performs",
+      "Teacher Pool"
+    ],
+    "insights": {
+      "problem": "Mining this pool raises two challenges: i) which checkpoint to distill from, as no checkpoint dominates the others and complementarity to the student is problem-specific; ii) where to trust it, as even a well-chosen teacher is only locally superior, so indiscriminate distillation overwrites behavior the student has already mastered.",
+      "approach": "We propose Agentic-OPD, which treats the best-validation checkpoint as the student and all saved checkpoints as frozen teacher candidates, using the student's evolving capability gaps to guide both teacher selection and supervision filtering: the HCN policy (Highest Coverage Next) dynamically selects teachers by weighted coverage of the student's unsolved problems, while the LAD module (Locality-Aware Distillation) confines transfer to failed student rollouts on problems where the teacher performs better.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Best-validation Checkpoint.",
+      "results": "Across five agentic task domains and 24 benchmarks and task subsets, Agentic-OPD improves over its initialization checkpoint by up to 7.4 points, with a 4B student surpassing the latest frontier models GPT-5.6 and DeepSeek-V4.1 on deep search.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.12856",
+    "raw_id": "http://arxiv.org/abs/2611.12856v1",
+    "title": "WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Based Multi-Agent Systems",
+    "authors": [
+      "Zheng Jiang",
+      "Fang Niu",
+      "Bo Peng",
+      "Houde Qian",
+      "Wenyi Li",
+      "Deyao Hong",
+      "Mingju Gao",
+      "Yizhe Chi",
+      "Youjie Zheng",
+      "Kaisen Yang",
+      "Calvin Xiao",
+      "Lifeng Sun",
+      "Huan-ang Gao"
+    ],
+    "published_date": "2026-11-09T18:45:28Z",
+    "updated_date": "2026-11-09T18:45:28Z",
+    "categories": [
+      "cs.CL",
+      "cs.SE"
+    ],
+    "abstract": "Large language model agents are increasingly deployed as multi-agent systems rather than as a standalone model operating within a single context. Recent agent harnesses allow the model to instantiate worker agents and to author the executable workflow that coordinates them, shifting the design of system structure from developers to the model at run time. The quality of this organization therefore constitutes a distinct capability, yet existing benchmarks either measure end-to-end task completion or evaluate coordination under structures specified in advance. We formalize this capability as workflow orchestration and introduce WorkflowArena, a benchmark of 145 long-horizon tasks spanning 8 professional domains, from software engineering and formal mathematics to legal analysis and 3D production. Each task specifies an initial workspace and an integrated deliverable composed of interdependent components, which is assessed by a hidden verifier. Agents determine autonomously whether and how to delegate, and all delegation is recorded, enabling joint evaluation of deliverable quality and the organization of the underlying work. Experiments with nine models show that no single configuration performs best across all domains and that systems exhibit distinct delegation strategies: at high effort, Claude models in Claude Code invoke workflows less frequently but with larger worker groups, whereas GPT models in Codex delegate more frequently in smaller units. When the executing model is held fixed on a challenging subset of tasks, workflows authored by Claude Opus 5.5 substantially improve weaker executors, indicating that workflow organization is itself a measurable determinant of task performance.",
+    "url": "https://arxiv.org/abs/2611.12856v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12856v1",
+    "relevance_score": 0.743,
+    "processed_date": "2026-11-10",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates large language model agents are increasingly deployed as multi-agent systems rather than as a standalone model operating within a single context. Recent agent harnesses allow the model to instantiate worker agents and to author the executable workflow that coordinates them, shifting the design of system structure from developers to the model at run time. The quality of this organization therefore constitutes a distinct capability, yet existing benchmarks either measure end-to-end task completion or evaluate coordination under structures specified in advance. When the executing model is held fixed on a challenging subset of tasks, workflows authored by Claude Opus 5.5 substantially improve weaker executors, indicating that workflow organization is itself a measurable determinant of task performance.",
+    "key_concepts": [
+      "Large Language Model",
+      "Workflow Orchestration",
+      "Quality Organization",
+      "Weaker Executors",
+      "Worker Groups",
+      "Workflow Coordinates"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "Recent agent harnesses allow the model to instantiate worker agents and to author the executable workflow that coordinates them, shifting the design of system structure from developers to the model at run time.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Large Language Model, Workflow Orchestration.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.12804",
+    "raw_id": "http://arxiv.org/abs/2611.12804v1",
+    "title": "Benchmarking Real-World Robotic Manipulation through Stochastic Challenges",
+    "authors": [
+      "Elias Gläßer",
+      "Gülhan Şikaroğlu",
+      "Pavlo Kupyn",
+      "Marc Pollefeys",
+      "Zuria Bauer",
+      "Hermann Blum"
+    ],
+    "published_date": "2026-11-09T18:10:28Z",
+    "updated_date": "2026-11-09T18:10:28Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "abstract": "A challenging bottleneck in manipulation research is reproducibility and comparability of methods in real-world environments. Since manipulation is an interactive task, it cannot be evaluated on a static dataset of observations. Benchmarking in simulation is a common remedy, but cannot cover the whole complexity of real-world tests. This paper proposes a new paradigm of stochastic challenges. Like the well-known YCB objects, it is based on reproducible real-world scenes and therefore allows system-level innovation and comparability between different platforms. Due to their stochastic nature, our challenges however, mimic the rigor and surprise of hidden test sets. To this end, we show how different robots in different labs can be compared based on their success rate over different random task samples, if these samples come from the same distribution. We propose stochastic challenges as a general paradigm for robot benchmarking and implement this paradigm in a novel benchmark for mobile manipulation, on which we compare two robots tested in two different labs.",
+    "url": "https://arxiv.org/abs/2611.12804v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12804v1",
+    "relevance_score": 0.708,
+    "processed_date": "2026-11-10",
+    "summary": "A challenging bottleneck in manipulation research is reproducibility and comparability of methods in real-world environments. We propose stochastic challenges as a general paradigm for robot benchmarking and implement this paradigm in a novel benchmark for mobile manipulation, on which we compare two robots tested in two different labs. This paper proposes a new paradigm of stochastic challenges. Benchmarking in simulation is a common remedy, but cannot cover the whole complexity of real-world tests. Since manipulation is an interactive task, it cannot be evaluated on a static dataset of observations. Like the well-known YCB objects, it is based on reproducible real-world scenes and therefore allows system-level innovation and comparability between different platforms.",
+    "key_concepts": [
+      "Manipulation",
+      "Stochastic Challenges",
+      "Benchmarking Implement",
+      "Benchmarking Simulation",
+      "Challenges General",
+      "Challenges Like"
+    ],
+    "insights": {
+      "problem": "A challenging bottleneck in manipulation research is reproducibility and comparability of methods in real-world environments.",
+      "approach": "We propose stochastic challenges as a general paradigm for robot benchmarking and implement this paradigm in a novel benchmark for mobile manipulation, on which we compare two robots tested in two different labs.",
+      "key_innovation": "This paper proposes a new paradigm of stochastic challenges.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2611.12728",
+    "raw_id": "http://arxiv.org/abs/2611.12728v1",
+    "title": "Safe Reinforcement Learning for Multi-Turn Clinical Agents: When Dense Rewards Beat Outcome Rewards",
+    "authors": [
+      "Brendan P. Murphy",
+      "Agustina Saenz"
+    ],
+    "published_date": "2026-11-09T17:14:40Z",
+    "updated_date": "2026-11-09T17:14:40Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "Reinforcement learning with verifiable rewards is increasingly used to improve language model reasoning, yet its effects on sequential decision procedures remain poorly understood. We study this problem in clinical multi-turn agents that must decide what information to request, when to stop gathering evidence, and which action to take. We introduce three controlled environments: medication refill triage, acute diagnostic work-up, and dosing titration, each with hidden clinical states, query costs, exact adaptive oracles, and deterministic outcome verifiers. Across these tasks, outcome-only group relative policy optimization often improves aggregate reward while producing undesirable procedures, including premature commitment, one-question collapse, and failures on rare high-risk cases. In diagnostics, assigning dense credit to questions that reduce uncertainty improves held-out value and moderate-case support across three training seeds relative to outcome-only reinforcement learning, without the high-risk seed collapse observed under outcome-only training. Separating exploration from exploitation further increases high-risk support at its best checkpoint, but at the cost of excessive information gathering on low-acuity cases. Additional experiments show that the optimal strength of process credit is task-dependent; that after a supervised warmup that already gathers carefully, reinforcement learning raises aggregate reward by trimming questions while degrading high-risk performance; and that reinforcement learning does not reliably repair rare behavior gaps inherited from biased supervised data. Verifiable final outcomes are therefore insufficient for training reliable multi-turn agents: reward design must account for the procedure used to reach an answer, and evaluation must distinguish adaptive information gathering from reward-exploiting shortcuts.",
+    "url": "https://arxiv.org/abs/2611.12728v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12728v1",
+    "relevance_score": 0.693,
+    "processed_date": "2026-11-10",
+    "summary": "We study this problem in clinical multi-turn agents that must decide what information to request, when to stop gathering evidence, and which action to take. We introduce three controlled environments: medication refill triage, acute diagnostic work-up, and dosing titration, each with hidden clinical states, query costs, exact adaptive oracles, and deterministic outcome verifiers. Verifiable final outcomes are therefore insufficient for training reliable multi-turn agents: reward design must account for the procedure used to reach an answer, and evaluation must distinguish adaptive information gathering from reward-exploiting shortcuts. Reinforcement learning with verifiable rewards is increasingly used to improve language model reasoning, yet its effects on sequential decision procedures remain poorly understood.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Aggregate Reward",
+      "Information Gathering",
+      "Triage Acute Diagnostic",
+      "Trimming Questions",
+      "Uncertainty Improves"
+    ],
+    "insights": {
+      "problem": "We study this problem in clinical multi-turn agents that must decide what information to request, when to stop gathering evidence, and which action to take.",
+      "approach": "We introduce three controlled environments: medication refill triage, acute diagnostic work-up, and dosing titration, each with hidden clinical states, query costs, exact adaptive oracles, and deterministic outcome verifiers.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Aggregate Reward.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.12835",
+    "raw_id": "http://arxiv.org/abs/2611.12835v1",
+    "title": "Mitigating Agentic Deception via Evaluation-Side Partially Observable Games",
+    "authors": [
+      "Hanxiao Li",
+      "Shutong Liu",
+      "Yongjia Ma",
+      "Jiaming Ji",
+      "Juntao Dai",
+      "Shuning Zhang",
+      "Kejian Shi",
+      "Kai Chen",
+      "Pu Feng",
+      "Yuqing Ma",
+      "Qi Dou",
+      "Yaodong Yang",
+      "Xianglong Liu",
+      "Simin Li"
+    ],
+    "published_date": "2026-11-09T18:33:13Z",
+    "updated_date": "2026-11-09T18:33:13Z",
+    "categories": [
+      "cs.LG"
+    ],
+    "abstract": "As large language models become more capable agents, they can exhibit deceptive behaviors, cheating human for higher rewards while appearing helpful. We attribute this failure to evaluation-side partial observability, where models are evaluated mainly from final outcome, without checking the faithfulness of underlying reasoning, tool use, and environmental effects. Prior mitigations address this partial observability by predefined evaluator latent belief space or one-shot monitoring, which do not extend to free-form language space and vulnerable to stronger deceptions that evade simple monitoring. In this work, we formulate deception mitigation as an Evaluation-Side Partially Observable Extensive Form Game (e-PoG), a max-min framework in which an agent maximizes reward, a monitor minimizes the agent's payoff by exposing deception from the full interaction trajectory, and a fixed verifier validates the monitor's claims and converts them into penalties. We define the solution concept as a Subgame-Perfect Oversight Equilibrium (SPOE) between agent and monitor, and prove its existence in finite games. With a perfect verifier, every SPOE is faithful; with an imperfect verifier, the guarantee persists if verifier errors do not reverse the ranking of monitor actions. To achieve faithful SPOE, we derive a two-timescale policy gradient algorithm and enhance the pipeline empirically with NLI verification and deterministic checks. Experiments with Gemma3-4B-IT and Qwen3-4B/8B on Agentic Role-Playing, SearchQA, and WebShop show that e-PoG mitigates multiple emergent deception modes, outperforming the strongest baselines by 26.0% in deception mitigation and by up to 39.8% in task success. These gains persist under weak-to-strong supervision. Code is available at https://github.com/Toyoid/deceptive-agent.",
+    "url": "https://arxiv.org/abs/2611.12835v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.12835v1",
+    "relevance_score": 0.674,
+    "processed_date": "2026-11-10",
+    "summary": "Prior mitigations address this partial observability by predefined evaluator latent belief space or one-shot monitoring, which do not extend to free-form language space and vulnerable to stronger deceptions that evade simple monitoring. In this work, we formulate deception mitigation as an Evaluation-Side Partially Observable Extensive Form Game (e-PoG), a max-min framework in which an agent maximizes reward, a monitor minimizes the agent's payoff by exposing deception from the full interaction trajectory, and a fixed verifier validates the monitor's claims and converts them into penalties. Experiments with Gemma3-4B-IT and Qwen3-4B/8B on Agentic Role-Playing, SearchQA, and WebShop show that e-PoG mitigates multiple emergent deception modes, outperforming the strongest baselines by 26.0% in deception mitigation and by up to 39.8% in task success. Code is available at https://github.com/Toyoid/deceptive-agent.",
+    "key_concepts": [
+      "Deception Mitigation",
+      "Partial Observability",
+      "Stronger Deceptions",
+      "Strongest Baselines",
+      "Subgame-perfect Oversight",
+      "Success Gains"
+    ],
+    "insights": {
+      "problem": "Prior mitigations address this partial observability by predefined evaluator latent belief space or one-shot monitoring, which do not extend to free-form language space and vulnerable to stronger deceptions that evade simple monitoring.",
+      "approach": "In this work, we formulate deception mitigation as an Evaluation-Side Partially Observable Extensive Form Game (e-PoG), a max-min framework in which an agent maximizes reward, a monitor minimizes the agent's payoff by exposing deception from the full interaction trajectory, and a fixed verifier validates the monitor's claims and converts them into penalties.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Deception Mitigation, Partial Observability.",
+      "results": "Experiments with Gemma3-4B-IT and Qwen3-4B/8B on Agentic Role-Playing, SearchQA, and WebShop show that e-PoG mitigates multiple emergent deception modes, outperforming the strongest baselines by 26.0% in deception mitigation and by up to 39.8% in task success.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
   }
 ]
