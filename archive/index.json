@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T08:04:35.328345",
-  "total_entries": 318,
+  "updated_at": "2026-11-11T07:34:00.123811",
+  "total_entries": 328,
   "months": [
     "2026-11",
     "2026-10"
@@ -13589,6 +13589,415 @@
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.14420",
+      "raw_id": "http://arxiv.org/abs/2611.14420v1",
+      "title": "OnlyAct: Extracting Action Representations from Foundation Models for World Models",
+      "authors": [
+        "Runjia Li",
+        "Minghao Chen",
+        "Junyu Xie",
+        "Philip Torr",
+        "Andrea Vedaldi",
+        "Tomas Jakab"
+      ],
+      "published_date": "2026-11-10T17:59:19Z",
+      "updated_date": "2026-11-10T17:59:19Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Video world models promise general-purpose interactive simulators, but their training is limited by action supervision: action labels are scarce, fragmented across incompatible specifications, and do not scale with the unlabeled video pretraining corpus. A common workaround jointly trains an action encoder to compress consecutive frames into a latent action and a decoder to reconstruct the next frame from the previous frame and that latent, forcing the latent to capture only new information. This has two limitations: learning the action space from scratch can limit generalization to unseen domains, and the bottleneck trades expressiveness for separation, with tighter settings losing nuance and looser ones risking scene leakage under domain shifts. We argue for a different starting point: rather than learning actions from scratch, we start from a pretrained foundation model (V-JEPA 2), whose embeddings of a frame pair already carry substantial action information after large-scale, diverse video pretraining. The remaining challenge is to extract the action while discarding the scene. We propose a label-free contrastive adaptation framework that pulls together frame pairs sharing the same motion under a different scene and pushes apart pairs from the same scene with different motion, reshaping the geometry of the pretrained space without imposing a reconstruction bottleneck. We introduce a unified evaluation protocol along three axes (action expressiveness, scene invariance, and action-conditioned video generation quality) across robot manipulation, camera navigation, game, and driving benchmarks, most of which are unseen during adaptation. Compared with annotation-free latent-action methods, our representations are substantially more expressive while matching their scene invariance, and they yield world models that transfer demonstrated actions to new scenes more faithfully.",
+      "url": "https://arxiv.org/abs/2611.14420v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14420v1",
+      "relevance_score": 0.794,
+      "processed_date": "2026-11-11",
+      "summary": "This has two limitations: learning the action space from scratch can limit generalization to unseen domains, and the bottleneck trades expressiveness for separation, with tighter settings losing nuance and looser ones risking scene leakage under domain shifts. We propose a label-free contrastive adaptation framework that pulls together frame pairs sharing the same motion under a different scene and pushes apart pairs from the same scene with different motion, reshaping the geometry of the pretrained space without imposing a reconstruction bottleneck. Compared with annotation-free latent-action methods, our representations are substantially more expressive while matching their scene invariance, and they yield world models that transfer demonstrated actions to new scenes more faithfully.",
+      "key_concepts": [
+        "Foundation Model",
+        "Manipulation",
+        "Scene Invariance",
+        "Unlabeled Video",
+        "Unseen Adaptation",
+        "Unseen Domains"
+      ],
+      "insights": {
+        "problem": "This has two limitations: learning the action space from scratch can limit generalization to unseen domains, and the bottleneck trades expressiveness for separation, with tighter settings losing nuance and looser ones risking scene leakage under domain shifts.",
+        "approach": "We propose a label-free contrastive adaptation framework that pulls together frame pairs sharing the same motion under a different scene and pushes apart pairs from the same scene with different motion, reshaping the geometry of the pretrained space without imposing a reconstruction bottleneck.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Foundation Model, Manipulation.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "This has two limitations: learning the action space from scratch can limit generalization to unseen domains, and the bottleneck trades expressiveness for separation, with tighter settings losing nuance and looser ones risking scene leakage under domain shifts."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.14419",
+      "raw_id": "http://arxiv.org/abs/2611.14419v1",
+      "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
+      "authors": [
+        "Souhaila Djaffal",
+        "Amna Jamal",
+        "Gagana Madhugiri Devaraja",
+        "Anidipta Pal",
+        "Jobst Heitzig"
+      ],
+      "published_date": "2026-11-10T17:58:12Z",
+      "updated_date": "2026-11-10T17:58:12Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible. We study whether five LLMs can generate such world models as partially observable stochastic games and whether mechanical validity is sufficient to establish that the resulting model faithfully represents the intended decision problem. We introduce a benchmark of 44 scenarios spanning game, situational, and cultural settings and evaluate generated world models along three dimensions: mechanical validity, reference-relative structural agreement, and semantic criteria. Across three empirical tracks, we analyze 410 first-pass generations. In the reference-backed game track, 134/135 generated world models pass a strict mechanical audit, yet mean permutation-invariant structural F1 is only 0.366, with just 28/134 mechanically valid models exactly matching the authored reference. In the cultural track, explicitly naming the country changes the generated structural representation for most LLMs while producing only small changes in automated semantic scores. These results show that executability is a necessary but insufficient criterion for LLM-generated world models: models that are mechanically valid can still differ substantially in the structure used by downstream neuro-symbolic reasoning and planning.",
+      "url": "https://arxiv.org/abs/2611.14419v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14419v1",
+      "relevance_score": 0.788,
+      "processed_date": "2026-11-11",
+      "summary": "Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible. We introduce a benchmark of 44 scenarios spanning game, situational, and cultural settings and evaluate generated world models along three dimensions: mechanical validity, reference-relative structural agreement, and semantic criteria. These results show that executability is a necessary but insufficient criterion for LLM-generated world models: models that are mechanically valid can still differ substantially in the structure used by downstream neuro-symbolic reasoning and planning. We study whether five LLMs can generate such world models as partially observable stochastic games and whether mechanical validity is sufficient to establish that the resulting model faithfully represents the intended decision problem.",
+      "key_concepts": [
+        "Neuro-symbolic",
+        "Generated World",
+        "Agreement Semantic",
+        "Analyze First-pass",
+        "Audit Mean",
+        "Authored Reference"
+      ],
+      "insights": {
+        "problem": "Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible.",
+        "approach": "We introduce a benchmark of 44 scenarios spanning game, situational, and cultural settings and evaluate generated world models along three dimensions: mechanical validity, reference-relative structural agreement, and semantic criteria.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Neuro-symbolic, Generated World.",
+        "results": "These results show that executability is a necessary but insufficient criterion for LLM-generated world models: models that are mechanically valid can still differ substantially in the structure used by downstream neuro-symbolic reasoning and planning.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.14519",
+      "raw_id": "http://arxiv.org/abs/2611.14519v1",
+      "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
+      "authors": [
+        "Emre Kutlusan",
+        "Yongmin Li"
+      ],
+      "published_date": "2026-11-10T18:59:54Z",
+      "updated_date": "2026-11-10T18:59:54Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "abstract": "Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task-specific baseline whose configuration is rarely justified, and therefore provide limited evidence of performance at new clinical sites. It also remains unclear how much of a foundation model must be adapted, and what determines this. We adapted a foundation model, DINOv2, with strategies ranging from tuning only its bias terms to full fine-tuning, and compared it with U-Nets and ResU-Nets trained from scratch. Experiments covered colonoscopy, breast ultrasound and dermoscopy, with testing on held-out data from the training source and on independent datasets from other institutions. The adapted foundation model generalised better on every external dataset. Within the training distribution, the task-specific models remained competitive when training data were abundant, and delineated boundaries more precisely, while the foundation model more often missed small lesions. Only a small fraction of the foundation model required adaptation, and the capacity needed was determined by the imaging domain rather than by the adaptation method. A widely used polyp test set was also found to duplicate images from another benchmark. Foundation-model adaptation is therefore warranted where models must work across sites, with capacity selected on the target domain.",
+      "url": "https://arxiv.org/abs/2611.14519v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14519v1",
+      "relevance_score": 0.744,
+      "processed_date": "2026-11-11",
+      "summary": "Most comparisons, however, use data from the training distribution and a single task-specific baseline whose configuration is rarely justified, and therefore provide limited evidence of performance at new clinical sites. Most comparisons, however, use data from the training distribution and a single task-specific baseline whose configuration is rarely justified, and therefore provide limited evidence of performance at new clinical sites. It also remains unclear how much of a foundation model must be adapted, and what determines this. Foundation-model adaptation is therefore warranted where models must work across sites, with capacity selected on the target domain. Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task.",
+      "key_concepts": [
+        "Foundation Model",
+        "Abundant Delineated",
+        "Adaptation Capacity",
+        "Adaptation Warranted",
+        "Adapted Determines",
+        "Adapted Foundation"
+      ],
+      "insights": {
+        "problem": "Most comparisons, however, use data from the training distribution and a single task-specific baseline whose configuration is rarely justified, and therefore provide limited evidence of performance at new clinical sites.",
+        "approach": "Most comparisons, however, use data from the training distribution and a single task-specific baseline whose configuration is rarely justified, and therefore provide limited evidence of performance at new clinical sites.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Foundation Model, Abundant Delineated.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.14492",
+      "raw_id": "http://arxiv.org/abs/2611.14492v1",
+      "title": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows",
+      "authors": [
+        "Kaiyuan Hou",
+        "Yang Ping Kuo",
+        "Indranil Bhattacharya",
+        "Rohith Nama",
+        "Arushi Gupta",
+        "Carlos D. Castillo",
+        "Prathap Ramachandra",
+        "Xiaofan Jiang",
+        "Francesco Carbone"
+      ],
+      "published_date": "2026-11-10T18:49:47Z",
+      "updated_date": "2026-11-10T18:49:47Z",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "abstract": "Business process automation runs the same Standard Operating Procedure (SOP) again and again on new inputs. Large Language Model (LLM) agents can follow an SOP written in natural language, but they call an LLM to choose every step of every run, which adds latency and cost at scale. We present ReTrace, which turns an SOP and a few logged agent runs into a reusable workflow in which code, not an LLM, selects the next step. The agent's reasoning, the explanation it writes with each tool call, often states why it took an action; the tool calls alone do not. ReTrace extracts the condition behind each step, merges these conditions across runs into a compact rule document, and generates an executable workflow from it. Only this last stage depends on the platform, so rule documents can be compiled for different orchestration platforms. On 79 procedures from our production platform, ReTrace workflows reach 93.8\\% completion, against 96.8\\% for the agent, at 24\\% lower cost per task. On τ^2-Bench, they reach 75.8\\% task success (agent: 80.6\\%) and run in 1.3s instead of 170s; three rounds of repair on training failures lift k{=}2 workflows from 66.7\\% to 81.2\\%. On eight SOP-Bench procedures, ReTrace without repair trails few-shot generation (80.6\\% vs. 83.6\\%), but repair from labeled training failures lifts it to 87.8\\% at 0.40s per task, compared to 85.5\\% in 46.6s for the agent.",
+      "url": "https://arxiv.org/abs/2611.14492v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14492v1",
+      "relevance_score": 0.74,
+      "processed_date": "2026-11-11",
+      "summary": "Addressing critical demands in Natural Language Processing, this research investigates business process automation runs the same standard operating procedure (sop) again and again on new inputs. We present ReTrace, which turns an SOP and a few logged agent runs into a reusable workflow in which code, not an LLM, selects the next step. On eight SOP-Bench procedures, ReTrace without repair trails few-shot generation (80.6\\% vs. 83.6\\%), but repair from labeled training failures lifts it to 87.8\\% at 0.40s per task, compared to 85.5\\% in 46.6s for the agent. Business process automation runs the same Standard Operating Procedure (SOP) again and again on new inputs.",
+      "key_concepts": [
+        "Large Language Model",
+        "Action Tool",
+        "Adds Latency",
+        "Agent Lower",
+        "Agent Reasoning",
+        "Agent Run"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+        "approach": "We present ReTrace, which turns an SOP and a few logged agent runs into a reusable workflow in which code, not an LLM, selects the next step.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Large Language Model, Action Tool.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2611.14383",
+      "raw_id": "http://arxiv.org/abs/2611.14383v1",
+      "title": "An Energy-Based Perspective on Machine Learning",
+      "authors": [
+        "Bo Dai",
+        "Yilun Du"
+      ],
+      "published_date": "2026-11-10T17:37:22Z",
+      "updated_date": "2026-11-10T17:37:22Z",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Energy-based models (EBMs) define a distribution through a scalar energy, p_θ(x)\\propto\\exp(-E_θ(x)), and are usually presented as one model family among many. This tutorial has a broader goal: beyond introducing EBMs, it uses them as a single lens that connects the different aspects of machine learning. Any EBM is specified by three choices, the energy, which determines what the model represents; the inference procedure, which samples from or optimizes the energy; and the learning method, which fits the energy to data. We first develop these components, including sampling, variational inference, and learning by maximum likelihood, noise contrastive estimation, pseudolikelihood, score matching, and adversarial training, and show that the learning methods share one contrastive structure. We then show that discriminative models, generative models such as GANs, normalizing flows, diffusion and autoregressive models, representation learning methods such as contrastive learning, word2vec, BERT, denoising auto-encoders, and diffusion representations, reinforcement learning with EBM policies and world models, inverse reinforcement learning, and planning, as well as inference-time computation with verifiers, are all EBMs that differ in these three choices, mostly in how they handle the partition function and sampling. This view explains existing methods, organizes them into a common framework, and suggests new algorithms by replacing one component while keeping the others, with composition of energies as a principled way to combine learned models at inference time.",
+      "url": "https://arxiv.org/abs/2611.14383v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14383v1",
+      "relevance_score": 0.74,
+      "processed_date": "2026-11-11",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates energy-based models (ebms) define a distribution through a scalar energy, p_θ(x)\\propto\\exp(-e_θ(x)), and are usually presented as one model family among many. This tutorial has a broader goal: beyond introducing EBMs, it uses them as a single lens that connects the different aspects of machine learning. Any EBM is specified by three choices, the energy, which determines what the model represents; the inference procedure, which samples from or optimizes the energy; and the learning method, which fits the energy to data. This view explains existing methods, organizes them into a common framework, and suggests new algorithms by replacing one component while keeping the others, with composition of energies as a principled way to combine learned models at inference time.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Representation Learning",
+        "Algorithms Replacing",
+        "Aspects Machine",
+        "Auto-encoders Diffusion",
+        "Bert Denoising"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "This tutorial has a broader goal: beyond introducing EBMs, it uses them as a single lens that connects the different aspects of machine learning.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Representation Learning.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.14491",
+      "raw_id": "http://arxiv.org/abs/2611.14491v1",
+      "title": "TimeSeek: Multi-Task and Multi-Domain Pretraining for Generalized Time Series Analytics",
+      "authors": [
+        "Peng Chen",
+        "Yihang Wang",
+        "Zhongwen Rao",
+        "Yang Shu",
+        "Yuying Qiu",
+        "Yuxuan Chen",
+        "Lujia Pan",
+        "Bin Yang",
+        "Chenjuan Guo"
+      ],
+      "published_date": "2026-11-10T18:49:26Z",
+      "updated_date": "2026-11-10T18:49:26Z",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Time series analytics has been widely applied across various domains. While existing time series foundation models (TSFMs) have demonstrated promising results, they still face two major challenges: 1) Most TSFMs mainly rely on stacking Transformer layers to increase parameter size, lacking the ability to adaptively model complex time series patterns from multi-domain data. 2) Current TSFMs are primarily pre-trained for specific tasks, e.g., forecasting or anomaly detection, and a few models support multiple tasks, but they fail to fully leverage task specificity and commonality, resulting in suboptimal performance. To address these challenges, we propose TimeSeek, a novel generalized time series analytics model that adaptively models time series patterns from multi-domain data and unifies multiple tasks in pre-training. Conceptually, TimeSeek is guided by selective information sharing under domain and task heterogeneity. From the perspective of multi-domain data, we propose a Multi-Domain Feature Extractor that adaptively captures temporal dependencies and channel correlations based on domain-specific characteristics, including progressive multi-scale modeling and adaptive slot channel modeling. From the perspective of the diversity of tasks, we propose multi-task collaborative training, which leverages task specificity and task commonality through task customization and cross-task training, effectively unifying multiple tasks in pre-training and better adapting to diverse downstream scenarios. After pre-training on large-scale time series data, TimeSeek achieves state-of-the-art performance in forecasting, anomaly detection, and classification tasks across both few-shot learning and zero-shot situations, together with favorable inference efficiency.",
+      "url": "https://arxiv.org/abs/2611.14491v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14491v1",
+      "relevance_score": 0.704,
+      "processed_date": "2026-11-11",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates time series analytics has been widely applied across various domains. To address these challenges, we propose TimeSeek, a novel generalized time series analytics model that adaptively models time series patterns from multi-domain data and unifies multiple tasks in pre-training. To address these challenges, we propose TimeSeek, a novel generalized time series analytics model that adaptively models time series patterns from multi-domain data and unifies multiple tasks in pre-training. After pre-training on large-scale time series data, TimeSeek achieves state-of-the-art performance in forecasting, anomaly detection, and classification tasks across both few-shot learning and zero-shot situations, together with favorable inference efficiency.",
+      "key_concepts": [
+        "Few-shot Learning",
+        "Zero-shot",
+        "Series Analytics",
+        "Time Series",
+        "Anomaly Detection",
+        "Forecasting Anomaly"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "To address these challenges, we propose TimeSeek, a novel generalized time series analytics model that adaptively models time series patterns from multi-domain data and unifies multiple tasks in pre-training.",
+        "key_innovation": "To address these challenges, we propose TimeSeek, a novel generalized time series analytics model that adaptively models time series patterns from multi-domain data and unifies multiple tasks in pre-training.",
+        "results": "After pre-training on large-scale time series data, TimeSeek achieves state-of-the-art performance in forecasting, anomaly detection, and classification tasks across both few-shot learning and zero-shot situations, together with favorable inference efficiency.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.14414",
+      "raw_id": "http://arxiv.org/abs/2611.14414v1",
+      "title": "SIGMO: Sigmoid Gated Interaction-Aware Motion Planning",
+      "authors": [
+        "Avinash Singh",
+        "Manish Saroya",
+        "Fatemeh Cheraghi Pouria",
+        "Faizan Tariq",
+        "Jovin D'sa",
+        "David Isele",
+        "Yosuke Sakamoto",
+        "Sangjae Bae"
+      ],
+      "published_date": "2026-11-10T17:53:57Z",
+      "updated_date": "2026-11-10T17:53:57Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Despite the widespread adoption of autonomous vehicle technologies, reliable navigation within cluttered environments remains arduous due to the necessity of interaction-aware strategies; example scenarios include: narrow passages with multiple agents, lane changing in dense traffic, and crossing unsignalized intersections. These scenarios often require highly proactive strategies, simultaneously demanding interpretability and quick adaptability, which challenge end-to-end and data-driven methods. An effective strategy requires: scalability to multiple agents, adaptability to changes in other agents' behavior, and harmony with surrounding traffic without freezing or becoming overly conservative. To meet these requirements, we present SIGMO, a sigmoid-gated interaction-aware motion planner, with two main contributions. First, we formulate polynomial sigmoid functions that analytically estimate yield scores of surrounding agents using physics-grounded interaction features that capture driving intuitions. Second, we integrate the polynomial sigmoid functions into a receding-horizon planner, which facilitates interaction-aware planning with arbitrary trajectory predictions. We validate SIGMO in interaction-intensive simulations and hardware experiments. The results show that SIGMO balances proactive and defensive behavior while remaining computationally lightweight, serving as a strong baseline in a mobility stack. The simulation and hardware experiment videos are available here: https://sites.google.com/view/sigmoid-polygate.",
+      "url": "https://arxiv.org/abs/2611.14414v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14414v1",
+      "relevance_score": 0.703,
+      "processed_date": "2026-11-11",
+      "summary": "Despite the widespread adoption of autonomous vehicle technologies, reliable navigation within cluttered environments remains arduous due to the necessity of interaction-aware strategies; example scenarios include: narrow passages with multiple agents, lane changing in dense traffic, and crossing unsignalized intersections. To meet these requirements, we present SIGMO, a sigmoid-gated interaction-aware motion planner, with two main contributions. The results show that SIGMO balances proactive and defensive behavior while remaining computationally lightweight, serving as a strong baseline in a mobility stack. The simulation and hardware experiment videos are available here: https://sites.google.com/view/sigmoid-polygate. These scenarios often require highly proactive strategies, simultaneously demanding interpretability and quick adaptability, which challenge end-to-end and data-driven methods.",
+      "key_concepts": [
+        "Adaptability Challenge",
+        "Adaptability Changes",
+        "Adoption Autonomous",
+        "Arbitrary Trajectory",
+        "Arduous Necessity",
+        "Autonomous Vehicle"
+      ],
+      "insights": {
+        "problem": "Despite the widespread adoption of autonomous vehicle technologies, reliable navigation within cluttered environments remains arduous due to the necessity of interaction-aware strategies; example scenarios include: narrow passages with multiple agents, lane changing in dense traffic, and crossing unsignalized intersections.",
+        "approach": "To meet these requirements, we present SIGMO, a sigmoid-gated interaction-aware motion planner, with two main contributions.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Adaptability Challenge, Adaptability Changes.",
+        "results": "The results show that SIGMO balances proactive and defensive behavior while remaining computationally lightweight, serving as a strong baseline in a mobility stack.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.14515",
+      "raw_id": "http://arxiv.org/abs/2611.14515v1",
+      "title": "AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Language Models",
+      "authors": [
+        "Zijian Zhang",
+        "Rizhen Hu",
+        "Jiangweizhi Peng",
+        "Shiyang Li",
+        "Sujay Bhatt",
+        "Sihan Zeng",
+        "Mingyi Hong"
+      ],
+      "published_date": "2026-11-10T18:58:46Z",
+      "updated_date": "2026-11-10T18:58:46Z",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "Reinforcement learning with verifiable rewards (RLVR) produces rich training experience, yet outcome rewards reduce each attempt to a single number and leave most of this information unused. Training-time scaffolds, such as strategies or hints added to the prompt during training, offer a natural way to turn this information into guidance, but their design and adaptation are largely left to humans and tailored to specific domains. We introduce AutoScaffold, a unified AI-for-AI framework that turns a student's training experience into adaptive scaffolds, with minimal domain-specific information and no human intervention during training. A frozen teacher periodically examines this experience, diagnoses bottlenecks, and designs scaffolds in two forms: (i) strategies shared across a class of tasks and (ii) hints for individual hard tasks, adjusting the content and amount of support as the student learns. The scaffolds are removed at evaluation. We apply the same framework to ALFWorld, search-based QA, mathematical reasoning, and GPU kernel generation. When evaluated without scaffolds, students trained with AutoScaffold outperform those trained with the corresponding RL baselines in all four domains, with gains of 7.2 points in ALFWorld success and 4.0 points in average QA exact match. On GPU kernel generation, AutoScaffold increases the fraction of tasks with a correct kernel that runs faster than the PyTorch reference by up to 5.0 points. On math, our student surpasses QuestA's reported accuracy using approximately one-third as many student training steps. Analyses show that the teacher identifies a different failure in each task class and shifts its scaffolds from step-by-step workflows to targeted fixes as the student improves, and that its revised scaffolds help the student learn more than keeping the previous scaffold or using no scaffold.",
+      "url": "https://arxiv.org/abs/2611.14515v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14515v1",
+      "relevance_score": 0.695,
+      "processed_date": "2026-11-11",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates reinforcement learning with verifiable rewards (rlvr) produces rich training experience, yet outcome rewards reduce each attempt to a single number and leave most of this information unused. We introduce AutoScaffold, a unified AI-for-AI framework that turns a student's training experience into adaptive scaffolds, with minimal domain-specific information and no human intervention during training. On GPU kernel generation, AutoScaffold increases the fraction of tasks with a correct kernel that runs faster than the PyTorch reference by up to 5.0 points. Analyses show that the teacher identifies a different failure in each task class and shifts its scaffolds from step-by-step workflows to targeted fixes as the student improves, and that its revised scaffolds help the student learn more than keeping the previous scaffold or using no scaffold.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Gpu Kernel",
+        "Kernel Generation",
+        "Tailored Specific",
+        "Targeted Fixes",
+        "Teacher Identifies"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We introduce AutoScaffold, a unified AI-for-AI framework that turns a student's training experience into adaptive scaffolds, with minimal domain-specific information and no human intervention during training.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Gpu Kernel.",
+        "results": "On GPU kernel generation, AutoScaffold increases the fraction of tasks with a correct kernel that runs faster than the PyTorch reference by up to 5.0 points.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.14462",
+      "raw_id": "http://arxiv.org/abs/2611.14462v1",
+      "title": "Accurate predictions of properties of energetic materials with tabular foundation models",
+      "authors": [
+        "Vagn Krister Nes Glomsrud",
+        "Mathias Bynke",
+        "Lars Henry Berge Olsen",
+        "Dennis Christensen"
+      ],
+      "published_date": "2026-11-10T18:29:37Z",
+      "updated_date": "2026-11-10T18:29:37Z",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "We use TabPFN, a recently developed tabular foundation model, to predict three properties of energetic materials: impact sensitivity, decomposition temperature and crystal density. Without any hyperparameter tuning, TabPFN outperforms the best published models for all three properties. It also substantially outperforms a wide range of established machine-learning models, including tuned gradient boosting (XGBoost), random forests and Gaussian processes. This holds both when the models are given hand-crafted molecular descriptors and when they are given learned representations from Chemprop's message-passing neural network. In particular, for all three properties, TabPFN applied to Chemprop's own embedding is more accurate than Chemprop's predictions. TabPFN is also among the fastest models we consider, more than an order of magnitude faster than XGBoost. As TabPFN predicts the entire distribution of the target rather than just a single value, it offers built-in uncertainty quantification, which we compare with the empirical distributions of compounds with repeated measurements. Finally, we interpret the predictions using Shapley values, which rank the features by their importance.",
+      "url": "https://arxiv.org/abs/2611.14462v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14462v1",
+      "relevance_score": 0.694,
+      "processed_date": "2026-11-11",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates we use tabpfn, a recently developed tabular foundation model, to predict three properties of energetic materials: impact sensitivity, decomposition temperature and crystal density. Without any hyperparameter tuning, TabPFN outperforms the best published models for all three properties. Without any hyperparameter tuning, TabPFN outperforms the best published models for all three properties. Finally, we interpret the predictions using Shapley values, which rank the features by their importance. We use TabPFN, a recently developed tabular foundation model, to predict three properties of energetic materials: impact sensitivity, decomposition temperature and crystal density. It also substantially outperforms a wide range of established machine-learning models, including tuned gradient boosting (XGBoost), random forests and Gaussian processes.",
+      "key_concepts": [
+        "Foundation Model",
+        "Accurate Chemprop",
+        "Applied Chemprop",
+        "Best Published",
+        "Boosting Xgboost",
+        "Built-in Uncertainty"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "Without any hyperparameter tuning, TabPFN outperforms the best published models for all three properties.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Foundation Model, Accurate Chemprop.",
+        "results": "Without any hyperparameter tuning, TabPFN outperforms the best published models for all three properties.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.14504",
+      "raw_id": "http://arxiv.org/abs/2611.14504v1",
+      "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+      "authors": [
+        "Adi Mashiach"
+      ],
+      "published_date": "2026-11-10T18:53:01Z",
+      "updated_date": "2026-11-10T18:53:01Z",
+      "categories": [
+        "cs.LG",
+        "q-bio.BM"
+      ],
+      "abstract": "Foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. We extend this paradigm to multimodal biology with Bonbon, a foundation model for molecular interactions trained on approximately 3.2 trillion tokens of paired protein-ligand sequences. From a single representation space, Bonbon exhibits three zero-shot emergent capabilities at hierarchical levels of resolution: functional (mechanism of action), residue (binding site localization, including orthosteric/allosteric discrimination), and bond (covalent versus non-covalent engagement). All three capabilities generalize to out-of-distribution complexes. Bonbon was trained on protein-ligand sequences alone, without any task-specific supervision and without structural coordinates. We conducted controlled scaling experiments across six model scales from 42M to 1.6B parameters; every capability evaluated shows a sharp jump at the largest scale on continuous metrics, even as pretraining loss decreases smoothly. This demonstrates that loss-based scaling laws alone are insufficient to predict when zero-shot emergent capabilities become available. The capabilities reported here emerge after training at a 1:2,000 parameter-to-token ratio to accommodate the sparsity of paired biological interaction data. The same frozen representations achieve state-of-the-art binding and affinity prediction at five orders of magnitude greater speed than co-folding methods. In prospective wet-lab validation across nine disease targets spanning seven protein families, Bonbon achieves a 61.5% dose-response hit rate on de novo compounds, yielding structurally novel molecules not previously reported to inhibit these proteins, including for out-of-distribution targets.",
+      "url": "https://arxiv.org/abs/2611.14504v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14504v1",
+      "relevance_score": 0.675,
+      "processed_date": "2026-11-11",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates foundation models trained on large unlabeled corpora develop emergent capabilities, tasks that go beyond the training objective. We extend this paradigm to multimodal biology with Bonbon, a foundation model for molecular interactions trained on approximately 3.2 trillion tokens of paired protein-ligand sequences. In prospective wet-lab validation across nine disease targets spanning seven protein families, Bonbon achieves a 61.5% dose-response hit rate on de novo compounds, yielding structurally novel molecules not previously reported to inhibit these proteins, including for out-of-distribution targets. From a single representation space, Bonbon exhibits three zero-shot emergent capabilities at hierarchical levels of resolution: functional (mechanism of action), residue (binding site localization, including orthosteric/allosteric discrimination), and bond (covalent versus non-covalent engagement).",
+      "key_concepts": [
+        "Scaling Laws",
+        "Foundation Model",
+        "Zero-shot",
+        "Emergent Capabilities",
+        "Protein-ligand Sequences",
+        "Tokens Paired Protein-ligand"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We extend this paradigm to multimodal biology with Bonbon, a foundation model for molecular interactions trained on approximately 3.2 trillion tokens of paired protein-ligand sequences.",
+        "key_innovation": "In prospective wet-lab validation across nine disease targets spanning seven protein families, Bonbon achieves a 61.5% dose-response hit rate on de novo compounds, yielding structurally novel molecules not previously reported to inhibit these proteins, including for out-of-distribution targets.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
     }
   ]
 }

@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[10 November 2026 Report](reports/2026/11/10/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[11 November 2026 Report](reports/2026/11/11/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/10/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/11/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/10/infographic.png)](reports/2026/11/10/infographic.png)
+[![Daily Infographic](reports/2026/11/11/infographic.png)](reports/2026/11/11/infographic.png)
 
 ---
 
@@ -26,8 +26,8 @@
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
 | **Artificial Intelligence (AI)** | `5` |
-| **Machine Learning (ML)** | `6` |
-| **Robotics** | `4` |
+| **Machine Learning (ML)** | `7` |
+| **Robotics** | `2` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Mitigating Agentic Deception via Evaluation-Side Partially Observable Games** | `Artificial Intelligence` | `0.67` | [arXiv](https://arxiv.org/abs/2611.12835v1) |
-| 2 | **Safe Reinforcement Learning for Multi-Turn Clinical Agents: When Dense R...** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2611.12728v1) |
-| 3 | **Benchmarking Real-World Robotic Manipulation through Stochastic Challenges** | `Robotics` | `0.71` | [arXiv](https://arxiv.org/abs/2611.12804v1) |
-| 4 | **WorkflowArena: Benchmarking Executable Workflow Orchestration in LLM-Bas...** | `Artificial Intelligence` | `0.74` | [arXiv](https://arxiv.org/abs/2611.12856v1) |
-| 5 | **Agentic-OPD: Recovering Forgotten Agent Capabilities via On-Policy Disti...** | `Artificial Intelligence` | `0.76` | [arXiv](https://arxiv.org/abs/2611.12799v1) |
+| 1 | **Emergent Biological Capabilities in a Foundation Model for Molecular Int...** | `Machine Learning` | `0.68` | [arXiv](https://arxiv.org/abs/2611.14504v1) |
+| 2 | **Accurate predictions of properties of energetic materials with tabular f...** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2611.14462v1) |
+| 3 | **AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Langua...** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2611.14515v1) |
+| 4 | **SIGMO: Sigmoid Gated Interaction-Aware Motion Planning** | `Artificial Intelligence` | `0.70` | [arXiv](https://arxiv.org/abs/2611.14414v1) |
+| 5 | **TimeSeek: Multi-Task and Multi-Domain Pretraining for Generalized Time S...** | `Machine Learning` | `0.70` | [arXiv](https://arxiv.org/abs/2611.14491v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `318`
-- **Total Operational Runs**: `44 days`
+- **Total Papers Analyzed**: `328`
+- **Total Operational Runs**: `45 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 
