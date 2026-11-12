@@ -1,6 +1,6 @@
 {
   "month": "2026-11",
-  "total_papers": 90,
+  "total_papers": 100,
   "papers": [
     {
       "arxiv_id": "2611.03648",
@@ -3864,6 +3864,404 @@
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.14382",
+      "raw_id": "http://arxiv.org/abs/2611.14382v1",
+      "title": "Cognitive Mapping of Learning by Thinking Mechanisms in Large Language Models",
+      "authors": [
+        "Dong Han",
+        "Jin Zhang",
+        "Kunyue Yang"
+      ],
+      "published_date": "2026-11-10T17:37:13Z",
+      "updated_date": "2026-11-10T17:37:13Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Large language models (LLMs) increasingly exhibit capabilities that resemble human Learning by Thinking (LbT), the acquisition of new insight through internal processes such as explanation and reasoning, without new external input. A systematic account of the cognitive mechanisms behind these capabilities, and of their limits, remains underdeveloped. This paper proposes a Cognitive LbT Framework that maps four mechanisms (Reflective Reasoning, Synthetic Memory Formation, Internal Simulation, and Conceptual Self-Organization) onto computational processes in LLMs. Drawing on representative methods, including chain-of-thought prompting, self-consistency, self-reflection, Tree-of-Thoughts search, Self-Instruct, and self-taught reasoning, the analysis argues that selected methods can functionally approximate aspects of these mechanisms and can improve performance on some tasks without additional labeled examples, although this does not always constitute durable learning in model parameters. For example, Self-Instruct generated approximately 52,000 instructions from 175 seed tasks and reported a 33% absolute improvement on Super-NaturalInstructions (Y. Wang et al., 2023). The same mechanisms also produce characteristic failures, including hallucination diffusion, model collapse, concept drift, and high computational cost. These failures are not isolated technical defects but follow from four structural asymmetries between LLMs and human cognition: the identity of generator and monitor, closed learning loops without external grounding, symbolic rather than sensorimotor simulation, and the cost of inference-time computation. The framework yields testable propositions about when LbT in LLMs should succeed or fail and offers a structured basis for designing more reliable autonomous learning systems.",
+      "url": "https://arxiv.org/abs/2611.14382v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14382v1",
+      "relevance_score": 0.66,
+      "processed_date": "2026-11-12",
+      "summary": "Drawing on representative methods, including chain-of-thought prompting, self-consistency, self-reflection, Tree-of-Thoughts search, Self-Instruct, and self-taught reasoning, the analysis argues that selected methods can functionally approximate aspects of these mechanisms and can improve performance on some tasks without additional labeled examples, although this does not always constitute durable learning in model parameters. A systematic account of the cognitive mechanisms behind these capabilities, and of their limits, remains underdeveloped. This paper proposes a Cognitive LbT Framework that maps four mechanisms (Reflective Reasoning, Synthetic Memory Formation, Internal Simulation, and Conceptual Self-Organization) onto computational processes in LLMs. The framework yields testable propositions about when LbT in LLMs should succeed or fail and offers a structured basis for designing more reliable autonomous learning systems.",
+      "key_concepts": [
+        "Absolute Improvement",
+        "Account Cognitive",
+        "Additional Labeled",
+        "Approximate Aspects",
+        "Approximately Instructions",
+        "Argues Selected"
+      ],
+      "insights": {
+        "problem": "Drawing on representative methods, including chain-of-thought prompting, self-consistency, self-reflection, Tree-of-Thoughts search, Self-Instruct, and self-taught reasoning, the analysis argues that selected methods can functionally approximate aspects of these mechanisms and can improve performance on some tasks without additional labeled examples, although this does not always constitute durable learning in model parameters.",
+        "approach": "A systematic account of the cognitive mechanisms behind these capabilities, and of their limits, remains underdeveloped.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Absolute Improvement, Account Cognitive.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "The same mechanisms also produce characteristic failures, including hallucination diffusion, model collapse, concept drift, and high computational cost."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.14511",
+      "raw_id": "http://arxiv.org/abs/2611.14511v1",
+      "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
+      "authors": [
+        "Megha Srivastava",
+        "Michael H. Lim",
+        "Allison M. Keys",
+        "Pranav Murugan",
+        "Nate Gruver"
+      ],
+      "published_date": "2026-11-10T18:56:32Z",
+      "updated_date": "2026-11-10T18:56:32Z",
+      "categories": [
+        "cs.LG",
+        "q-bio.QM"
+      ],
+      "abstract": "Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging. We introduce Pyrite, a pairwise pose-ranking benchmark comprising 1,500 pose pairs across diverse protein-ligand complexes. Expert chemists equipped with 3D visualization tools and physics-based scores perform near chance, highlighting the difficulty of interpreting available chemical signals. To investigate automated ranking, we introduce PyriteRep, a structured representation of molecular geometry, protein-ligand interactions, and physicochemical scores, and develop two LLM-based agents: PyriteReasoner, which directly compares poses through text-based reasoning, and PyriteFeaturizer, which generates executable code to construct features for logistic regression, optionally incorporating features derived from LLM subcalls. These agents achieve up to 67% and 74% accuracy, respectively, exceeding observed expert performance. LLM-guided feature discovery generally outperforms direct reasoning, while Group Relative Policy Optimization (GRPO) improves open-weight models, enabling them to match or surpass closed-source frontier models in our evaluations. These results establish Pyrite as a challenging test of pose-ranking ability and highlight LLM-guided feature discovery as a promising approach to interpret and combine the outputs of computational chemistry tools.",
+      "url": "https://arxiv.org/abs/2611.14511v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14511v1",
+      "relevance_score": 0.654,
+      "processed_date": "2026-11-12",
+      "summary": "Addressing critical demands in Natural Language Processing, this research investigates predicting how a ligand binds to its target is central to small-molecule drug discovery. We introduce Pyrite, a pairwise pose-ranking benchmark comprising 1,500 pose pairs across diverse protein-ligand complexes. These agents achieve up to 67% and 74% accuracy, respectively, exceeding observed expert performance. These results establish Pyrite as a challenging test of pose-ranking ability and highlight LLM-guided feature discovery as a promising approach to interpret and combine the outputs of computational chemistry tools. Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging.",
+      "key_concepts": [
+        "Feature Discovery",
+        "Llm-guided Feature",
+        "Scores Develop",
+        "Scores Perform",
+        "Small-molecule Drug",
+        "Structured Representation"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+        "approach": "We introduce Pyrite, a pairwise pose-ranking benchmark comprising 1,500 pose pairs across diverse protein-ligand complexes.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Feature Discovery, Llm-guided Feature.",
+        "results": "These agents achieve up to 67% and 74% accuracy, respectively, exceeding observed expert performance.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2611.14476",
+      "raw_id": "http://arxiv.org/abs/2611.14476v1",
+      "title": "BoviShift: A Six-Year Multi-Attribute Audit of Visual Cattle Phenotyping Across Animals and Time",
+      "authors": [
+        "Mobasshir Bhuiya Shagor",
+        "Nilambar Halder Tonmoy",
+        "Md Saef Ullah Miah"
+      ],
+      "published_date": "2026-11-10T18:38:23Z",
+      "updated_date": "2026-11-10T18:38:23Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Computer vision offers a scalable, non-contact means of estimating livestock traits, but correlated images and video frames make reliable evaluation difficult. Image-random splitting can place views of the same animal in both training and test sets, while deployment further requires transfer to animals captured in future years. We introduce BoviShift, a corpus reconstructed from six consecutive annual cohorts of an operational cattle marketplace collected from 2021 to 2026. It contains 2{,}657 cattle, 10{,}610 still images, and 2{,}566 walk-around videos across nine recorded breed categories. We evaluate three splitting strategies through four configurations: image-random and pooled cattle-disjoint splits over the same development cohorts, followed by separate future-2025 and locked future-2026 evaluations. Using a fixed ResNet-50 multi-task baseline, we assess weight, age, height, breed, and coat color. Differences between image-random and cattle-disjoint splitting are task-dependent rather than a universal leakage penalty. Future-cohort behavior is also attribute- and cohort-specific: breed declines relative to pooled evaluation; mean weight and age performance fails to beat constant baselines in 2025; height remains above baseline; and color transfers well to 2025 but degrades in 2026. Multi-task training improves all five point estimates in a single-seed ablation, still-view aggregation helps selectively, and zero-shot video-frame aggregation exposes a still-to-video domain gap. To our knowledge, BoviShift is the longest-spanning cattle-vision resource combining consecutive annual cohorts with physical and visual attributes.",
+      "url": "https://arxiv.org/abs/2611.14476v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14476v1",
+      "relevance_score": 0.641,
+      "processed_date": "2026-11-12",
+      "summary": "Computer vision offers a scalable, non-contact means of estimating livestock traits, but correlated images and video frames make reliable evaluation difficult. We introduce BoviShift, a corpus reconstructed from six consecutive annual cohorts of an operational cattle marketplace collected from 2021 to 2026. To our knowledge, BoviShift is the longest-spanning cattle-vision resource combining consecutive annual cohorts with physical and visual attributes. Image-random splitting can place views of the same animal in both training and test sets, while deployment further requires transfer to animals captured in future years. It contains 2{,}657 cattle, 10{,}610 still images, and 2{,}566 walk-around videos across nine recorded breed categories.",
+      "key_concepts": [
+        "Zero-shot",
+        "Annual Cohorts",
+        "Consecutive Annual",
+        "Strategies Configurations",
+        "Task-dependent Universal",
+        "Test Sets"
+      ],
+      "insights": {
+        "problem": "Computer vision offers a scalable, non-contact means of estimating livestock traits, but correlated images and video frames make reliable evaluation difficult.",
+        "approach": "We introduce BoviShift, a corpus reconstructed from six consecutive annual cohorts of an operational cattle marketplace collected from 2021 to 2026.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Annual Cohorts.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Future-cohort behavior is also attribute- and cohort-specific: breed declines relative to pooled evaluation; mean weight and age performance fails to beat constant baselines in 2025; height remains above baseline; and color transfers well to 2025 but degrades in 2026."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.14357",
+      "raw_id": "http://arxiv.org/abs/2611.14357v1",
+      "title": "The Unused Input: The Initial State as a Conditioning Interface for Recurrent TSFMs",
+      "authors": [
+        "Bernhard Voggenberger",
+        "Christian Ganhör",
+        "Levente Zólyomi",
+        "Sebastian Böck",
+        "Sepp Hochreiter"
+      ],
+      "published_date": "2026-11-10T17:16:54Z",
+      "updated_date": "2026-11-10T17:16:54Z",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Time series foundation models (TSFMs) forecast unseen series without task-specific training. Increasingly they are built on recurrent backbones, whose constant per-step cost makes long-context inference cheap, and which, unlike transformers, carry a state. A recurrent backbone computes its prediction from two inputs: the observed context window and the initial recurrent state. In practice only the first is utilised and the initial state is unused by convention. We ask whether the initial state can be utilised in recurrent TSFMs. Using the xLSTM-based zero-shot forecaster TiRex as a case study, we freeze the backbone and train only a small head that writes a context vector into the initial state, so that any change in accuracy is attributable to the injected state rather than to adapted weights. A spectral summary of the input window, learned once and applied unchanged to every series, lowers mean GiftEval MASE by 0.175%, with every seed improving, which neither a parameter-matched LoRA adapter nor a learnable static state reproduces. An embedding of text attached to each series, evaluated on six MoTime datasets, reveals two roles for the state. As a per-dataset adaptation surface, a static state lowers MASE by 0.04-6.96% of the zero-shot baseline (8-70% of the gain of full fine-tuning). As a channel for exogenous information, the text-conditioned state lowers it by a further 0.15-0.41% of the zero-shot baseline on four of six datasets and, combined with a LoRA adapter, exceeds full fine-tuning, which has no access to the text, on one of them. In TiRex, the effect concentrates in the mLSTM blocks and is strongest at short context. The results are preliminary and the improvements small, but they point to the initial state as a direction for further research.",
+      "url": "https://arxiv.org/abs/2611.14357v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14357v1",
+      "relevance_score": 0.64,
+      "processed_date": "2026-11-12",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates time series foundation models (tsfms) forecast unseen series without task-specific training. Increasingly they are built on recurrent backbones, whose constant per-step cost makes long-context inference cheap, and which, unlike transformers, carry a state. A recurrent backbone computes its prediction from two inputs: the observed context window and the initial recurrent state. The results are preliminary and the improvements small, but they point to the initial state as a direction for further research. Time series foundation models (TSFMs) forecast unseen series without task-specific training. In practice only the first is utilised and the initial state is unused by convention.",
+      "key_concepts": [
+        "Zero-shot",
+        "Initial State",
+        "Lora Adapter",
+        "State Lowers",
+        "Static State",
+        "Text Tirex"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "Increasingly they are built on recurrent backbones, whose constant per-step cost makes long-context inference cheap, and which, unlike transformers, carry a state.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Initial State.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.14365",
+      "raw_id": "http://arxiv.org/abs/2611.14365v1",
+      "title": "From Video Frames to Robot Meta-Frames: A Unified Latent Interface for World Action Models",
+      "authors": [
+        "Guoqiang Liang",
+        "Yiqi Lin",
+        "Yanzhe Chen",
+        "Kevin Yuchen Ma",
+        "Mike Zheng Shou"
+      ],
+      "published_date": "2026-11-10T17:21:37Z",
+      "updated_date": "2026-11-10T17:21:37Z",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "Pretrained video diffusion models (VDMs) offer a powerful foundation for World Action Models (WAMs), which jointly predict robot actions and future observations. Building such models requires injecting low-dimensional robot signals (e.g. proprioception, actions, and values) into a latent space shaped by natural videos, and a key design choice is the interface through which these signals enter: existing schemes treat it as a formatting detail, spending a separate latent frame on each signal or bolting on dedicated encoders and decoders. We argue that signal injection is instead a distribution-alignment problem: how well a representation matches the prior of the pretrained VDMs during denoising. Using the relative reconstruction error of a frozen VDM denoiser as a probe, we find that conventional spatial encodings sit far off this prior, whereas frequency-domain packing yields latents that the denoiser corrects far less. Motivated by this diagnostic result, we propose MetaWAM, which folds all robot signals into a single unified meta-frame: each signal is assigned to a disjoint frequency-domain channel band and lifted to the spatial latent by an inverse DCT, yielding a decodable interface aligned with the pretrained VDM prior without any added module or architectural change. A fixed band layout together with slot-aware routing lets the same meta-frame support policy, world-model, and value prediction over a shared set of robot variables. On RoboCasa, MetaWAM reaches 68.9% success while collapsing the per-signal frames into one and cutting inference latency by 39%, and attains 85.0% success on three real-world Franka tasks. Code and models are available at https://github.com/showlab/MetaWAM",
+      "url": "https://arxiv.org/abs/2611.14365v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14365v1",
+      "relevance_score": 0.629,
+      "processed_date": "2026-11-12",
+      "summary": "We argue that signal injection is instead a distribution-alignment problem: how well a representation matches the prior of the pretrained VDMs during denoising. Motivated by this diagnostic result, we propose MetaWAM, which folds all robot signals into a single unified meta-frame: each signal is assigned to a disjoint frequency-domain channel band and lifted to the spatial latent by an inverse DCT, yielding a decodable interface aligned with the pretrained VDM prior without any added module or architectural change. Code and models are available at https://github.com/showlab/MetaWAM Pretrained video diffusion models (VDMs) offer a powerful foundation for World Action Models (WAMs), which jointly predict robot actions and future observations.",
+      "key_concepts": [
+        "Robot Signals",
+        "Spatial Latent",
+        "Spending Separate",
+        "Success Collapsing",
+        "Success Real-world",
+        "Support Policy"
+      ],
+      "insights": {
+        "problem": "We argue that signal injection is instead a distribution-alignment problem: how well a representation matches the prior of the pretrained VDMs during denoising.",
+        "approach": "Motivated by this diagnostic result, we propose MetaWAM, which folds all robot signals into a single unified meta-frame: each signal is assigned to a disjoint frequency-domain channel band and lifted to the spatial latent by an inverse DCT, yielding a decodable interface aligned with the pretrained VDM prior without any added module or architectural change.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Robot Signals, Spatial Latent.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.14401",
+      "raw_id": "http://arxiv.org/abs/2611.14401v1",
+      "title": "Discovering Equations for the Thermodynamics of South Asian Monsoon Precipitation",
+      "authors": [
+        "Savannah L. Ferretti",
+        "Jane W. Baldwin",
+        "Michael S. Pritchard",
+        "Tom Beucler"
+      ],
+      "published_date": "2026-11-10T17:45:21Z",
+      "updated_date": "2026-11-10T17:45:21Z",
+      "categories": [
+        "cs.LG",
+        "physics.ao-ph"
+      ],
+      "abstract": "South Asian monsoon precipitation depends on the thermodynamic structure of the lower troposphere, but how its ingredients combine to shape precipitation remains unclear, partly because this dependence is nonlocal in the vertical. We use symbolic distillation, which combines neural networks and symbolic regression, to discover interpretable precipitation equations from 21 years of June-August reanalysis data. Neural networks first learn the vertical thermodynamic structure most relevant to precipitation, condensing each variable into a single interpretable feature not tied to a particular vertical grid. Then, symbolic regression derives closed-form equations from these features and the surface state. Our best equation explains 1.5 times as much precipitation variance as a widely used buoyancy-based diagnostic and recovers about 85% of neural network skill while using about a thousand times fewer parameters. Unlike the buoyancy diagnostic, which adds moisture and instability, the equations treat them as competing controls, with the heaviest precipitation occurring when the lower free troposphere is humid. Over ocean, sensible heating is associated with additional precipitation mainly when near-surface air is warm and moist, improving predicted precipitation and its diurnal cycle. Although the learned features were optimized only for precipitation prediction, the equations largely respond to each feature as expected from convective physics, consistent with the reanalysis. These responses reduce the dependence of monsoon precipitation on the entire vertical column to a few simple, testable constraints that could guide data-driven precipitation models to make them more physically consistent.",
+      "url": "https://arxiv.org/abs/2611.14401v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14401v1",
+      "relevance_score": 0.62,
+      "processed_date": "2026-11-12",
+      "summary": "Although the learned features were optimized only for precipitation prediction, the equations largely respond to each feature as expected from convective physics, consistent with the reanalysis. We use symbolic distillation, which combines neural networks and symbolic regression, to discover interpretable precipitation equations from 21 years of June-August reanalysis data. Neural networks first learn the vertical thermodynamic structure most relevant to precipitation, condensing each variable into a single interpretable feature not tied to a particular vertical grid. These responses reduce the dependence of monsoon precipitation on the entire vertical column to a few simple, testable constraints that could guide data-driven precipitation models to make them more physically consistent.",
+      "key_concepts": [
+        "Monsoon Precipitation",
+        "Neural Networks",
+        "Symbolic Regression",
+        "Testable Constraints",
+        "Thermodynamic Structure",
+        "Thousand Times Fewer"
+      ],
+      "insights": {
+        "problem": "Although the learned features were optimized only for precipitation prediction, the equations largely respond to each feature as expected from convective physics, consistent with the reanalysis.",
+        "approach": "We use symbolic distillation, which combines neural networks and symbolic regression, to discover interpretable precipitation equations from 21 years of June-August reanalysis data.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Monsoon Precipitation, Neural Networks.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "These responses reduce the dependence of monsoon precipitation on the entire vertical column to a few simple, testable constraints that could guide data-driven precipitation models to make them more physically consistent."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.14518",
+      "raw_id": "http://arxiv.org/abs/2611.14518v1",
+      "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
+      "authors": [
+        "Sheethal Bhat",
+        "Bogdan Georgescu",
+        "Awais Mansoor",
+        "Florin C. Ghesu",
+        "Sasa Grbic",
+        "Andreas Maier"
+      ],
+      "published_date": "2026-11-10T18:59:17Z",
+      "updated_date": "2026-11-10T18:59:17Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "abstract": "DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dardized annotations and the heterogeneity of existing datasets limit the development of robust foundation models. In this work, we introduce a novel approach to building a multi-domain foundation model for le sion detection by integrating diverse medical image datasets annotated for both anatomical structures and abnormalities. We first propose a student-teacher training strategy to effectively combine datasets with heterogeneous label spaces, mitigating catastrophic forgetting, and im proving feature learning. In addition, building on our previously pro posed example-based EM-DETR framework, we adapt it to jointly learn from multiple domain-specific datasets, enabling fine-grained, example driven detection across modalities. Our model achieves state-of-the-art (SOTA) results, with image-level AUC scores exceeding previous SOTA by 1% point on four key findings in CXRs. We achieve a leading mAP50 in CXRs and mammography, surpassing EM-DETR trained on a single dataset by 2-3% points. This approach paves the way for scalable foundation models in medical imaging that leverage heterogeneous data while maintaining robust and generalizable performance.",
+      "url": "https://arxiv.org/abs/2611.14518v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14518v1",
+      "relevance_score": 0.616,
+      "processed_date": "2026-11-12",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates deeplearning (dl)-based computer-aided diagnostic (cad) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In this work, we introduce a novel approach to building a multi-domain foundation model for le sion detection by integrating diverse medical image datasets annotated for both anatomical structures and abnormalities. In this work, we introduce a novel approach to building a multi-domain foundation model for le sion detection by integrating diverse medical image datasets annotated for both anatomical structures and abnormalities. Our model achieves state-of-the-art (SOTA) results, with image-level AUC scores exceeding previous SOTA by 1% point on four key findings in CXRs. This approach paves the way for scalable foundation models in medical imaging that leverage heterogeneous data while maintaining robust and generalizable performance.",
+      "key_concepts": [
+        "Foundation Model",
+        "Achieve Leading",
+        "Adapt Jointly",
+        "Addition Building",
+        "Anatomical Structures",
+        "Annotated Anatomical"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "In this work, we introduce a novel approach to building a multi-domain foundation model for le sion detection by integrating diverse medical image datasets annotated for both anatomical structures and abnormalities.",
+        "key_innovation": "In this work, we introduce a novel approach to building a multi-domain foundation model for le sion detection by integrating diverse medical image datasets annotated for both anatomical structures and abnormalities.",
+        "results": "Our model achieves state-of-the-art (SOTA) results, with image-level AUC scores exceeding previous SOTA by 1% point on four key findings in CXRs.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.14387",
+      "raw_id": "http://arxiv.org/abs/2611.14387v1",
+      "title": "Blurring the Block Boundaries: Overlapping Block Denoising for Efficient Diffusion Language Models",
+      "authors": [
+        "Amir Mann",
+        "Jonathan Fhima",
+        "Shaked Brody",
+        "Or Avitan",
+        "Asif Zamir",
+        "Shahar Tsiper",
+        "Niv Nayman"
+      ],
+      "published_date": "2026-11-10T17:40:24Z",
+      "updated_date": "2026-11-10T17:40:24Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Diffusion Language Models (DLMs) have emerged as effective alternatives to autoregressive models for latency-critical tasks, enabling faster token generation. Recent advances employ block diffusion with self-editing capabilities, where each block refines tokens iteratively before advancing to the next one. Yet each block is only as fast as its slowest token, and the next block cannot start before it. We suggest Blurring the Block Boundaries (B3), a novel method with which two blocks are refined in parallel within a shared forward pass. B3 calibrates itself on the fly, opening the next block only once the model is ready to start generating it. It is a training-free and hyperparameter-free acceleration method which seamlessly integrates within any self-editing block diffusion model. Evaluated on state-of-the-art DLMs across 10 diverse datasets spanning varied tasks and difficulty levels, B3 results in on par generation quality and 11.5-14.5% speedup compared to the base model, pushing the Pareto frontier for latency-quality trade-offs in DLM inference.",
+      "url": "https://arxiv.org/abs/2611.14387v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14387v1",
+      "relevance_score": 0.615,
+      "processed_date": "2026-11-12",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates diffusion language models (dlms) have emerged as effective alternatives to autoregressive models for latency-critical tasks, enabling faster token generation. Recent advances employ block diffusion with self-editing capabilities, where each block refines tokens iteratively before advancing to the next one. We suggest Blurring the Block Boundaries (B3), a novel method with which two blocks are refined in parallel within a shared forward pass. Yet each block is only as fast as its slowest token, and the next block cannot start before it. Evaluated on state-of-the-art DLMs across 10 diverse datasets spanning varied tasks and difficulty levels, B3 results in on par generation quality and 11.5-14.5% speedup compared to the base model, pushing the Pareto frontier for latency-quality trade-offs in DLM inference.",
+      "key_concepts": [
+        "Diffusion Model",
+        "Block Boundaries",
+        "Advances Employ",
+        "Advancing Block",
+        "Alternatives Autoregressive",
+        "Block Diffusion"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "Recent advances employ block diffusion with self-editing capabilities, where each block refines tokens iteratively before advancing to the next one.",
+        "key_innovation": "We suggest Blurring the Block Boundaries (B3), a novel method with which two blocks are refined in parallel within a shared forward pass.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.14488",
+      "raw_id": "http://arxiv.org/abs/2611.14488v1",
+      "title": "Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmented VLA Policies",
+      "authors": [
+        "Chubin Zhang",
+        "Bo An"
+      ],
+      "published_date": "2026-11-10T18:47:57Z",
+      "updated_date": "2026-11-10T18:47:57Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Memory-augmented vision-language-action (VLA) policies are meant to remember what happened. Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step. Because time passes even when nothing happens, such a memory may not tell waiting from working. We show that it does not. On the counting tasks of RoboMME, we make the robot briefly pause or fidget its wrist. Such a null event changes nothing the task depends on, yet a released memory VLA counts the interval as work done and stops early. We call this failure phantom progress. It cuts success from 47 to 16 of 50 on one task and from 44 to 10 on the other. When the same frames are withheld from memory, success returns, so the cause lies in memory rather than in the interruption itself. We trace the failure to a temporal shortcut: because demonstrations proceed at a steady pace, elapsed time predicts progress. Indeed, rescaling the time stamps alone makes the policy stop early when the clock runs fast and repeat when it runs slow. Surprisingly, removing the time encoding does not cure the failure, because the frames of a null event still occupy slots of the time-sampled memory. Across RoboMME's released designs, vulnerability follows how memory is indexed. Of the fixes the diagnosis suggests, training with injected pauses does not remove the failure and impairs counting, whereas indexing memory by events recovers half or more of the loss without retraining. A memory meant to remember what happened should count events rather than clock ticks.",
+      "url": "https://arxiv.org/abs/2611.14488v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14488v1",
+      "relevance_score": 0.609,
+      "processed_date": "2026-11-12",
+      "summary": "Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step. Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step. Because time passes even when nothing happens, such a memory may not tell waiting from working. A memory meant to remember what happened should count events rather than clock ticks. Memory-augmented vision-language-action (VLA) policies are meant to remember what happened. We show that it does not. On the counting tasks of RoboMME, we make the robot briefly pause or fidget its wrist.",
+      "key_concepts": [
+        "Vla Policies",
+        "Meant Remember",
+        "Null Event",
+        "Remember Happened",
+        "Time Stamps Makes",
+        "Time Step"
+      ],
+      "insights": {
+        "problem": "Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step.",
+        "approach": "Many of them, however, fill memory by time: they sample frames uniformly across the episode and stamp each frame with its time step.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Vla Policies, Meant Remember.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Across RoboMME's released designs, vulnerability follows how memory is indexed."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.14418",
+      "raw_id": "http://arxiv.org/abs/2611.14418v1",
+      "title": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
+      "authors": [
+        "Mohammed Nayeem Khan",
+        "Logesh L",
+        "Aliyas Ahmad Misri"
+      ],
+      "published_date": "2026-11-10T17:57:51Z",
+      "updated_date": "2026-11-10T17:57:51Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Local decoding usually fixes one weight precision for the whole generation. We study a different allocation: store 8-bit weights, decode with their top 4 bits, and redo a step at 8 bits only when the low-precision output distribution looks uncertain (entropy above a threshold or a small top-two margin). Quantization is simulated, the model is Qwen3-0.6B, and the benchmark is GSM8K. Cost is counted in weight bytes read per token. On 36724 replayed steps the entropy of the low pass ranks argmax flips with AUC 0.93. At a 15% escalation budget it catches 78% of flips and the margin gate 94%, against the 15% expected for a random gate of equal rate (a computed expectation, not a run). In 150 live problems all-high scores 64.0% and all-low 55.3% (McNemar p=0.053). An entropy gate with a 16% escalation rate scores 62.7% at 0.87 of the all-high weight bytes. Its paired difference is -1.3 (-8.0 to +5.3) points to all-high and +7.3 (+0.0 to +14.7) points to all-low (p=0.080), so the live data do not separate the gate from either end. Verified speculation reaches zero KL at similar bytes in the same cost model. A live random control, a thinking-mode phase rule, a second model and live KL were not run.",
+      "url": "https://arxiv.org/abs/2611.14418v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.14418v1",
+      "relevance_score": 0.609,
+      "processed_date": "2026-11-12",
+      "summary": "Addressing critical demands in IoT & Edge AI, this research investigates local decoding usually fixes one weight precision for the whole generation. We study a different allocation: store 8-bit weights, decode with their top 4 bits, and redo a step at 8 bits only when the low-precision output distribution looks uncertain (entropy above a threshold or a small top-two margin). Quantization is simulated, the model is Qwen3-0.6B, and the benchmark is GSM8K. A live random control, a thinking-mode phase rule, a second model and live KL were not run. Local decoding usually fixes one weight precision for the whole generation.",
+      "key_concepts": [
+        "Quantization",
+        "All-high Points",
+        "All-high Scores",
+        "All-high Weight",
+        "All-low Live",
+        "All-low Mcnemar"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in IoT & Edge AI and existing computational workflows.",
+        "approach": "We study a different allocation: store 8-bit weights, decode with their top 4 bits, and redo a step at 8 bits only when the low-precision output distribution looks uncertain (entropy above a threshold or a small top-two margin).",
+        "key_innovation": "Formulates an integrated mechanism leveraging Quantization, All-high Points.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Low-power edge AI devices, embedded IoT sensor networks, and distributed on-device inference.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "IoT & Edge AI"
     }
   ]
 }

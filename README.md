@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[11 November 2026 Report](reports/2026/11/11/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[12 November 2026 Report](reports/2026/11/12/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/11/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/12/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/11/infographic.png)](reports/2026/11/11/infographic.png)
+[![Daily Infographic](reports/2026/11/12/infographic.png)](reports/2026/11/12/infographic.png)
 
 ---
 
@@ -25,10 +25,10 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `5` |
-| **Machine Learning (ML)** | `7` |
+| **Artificial Intelligence (AI)** | `4` |
+| **Machine Learning (ML)** | `6` |
 | **Robotics** | `2` |
-| **IoT & Edge AI** | `0` |
+| **IoT & Edge AI** | `1` |
 
 ---
 
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Emergent Biological Capabilities in a Foundation Model for Molecular Int...** | `Machine Learning` | `0.68` | [arXiv](https://arxiv.org/abs/2611.14504v1) |
-| 2 | **Accurate predictions of properties of energetic materials with tabular f...** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2611.14462v1) |
-| 3 | **AutoScaffold: AI-Guided Scaffolding for Reinforcement Learning of Langua...** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2611.14515v1) |
-| 4 | **SIGMO: Sigmoid Gated Interaction-Aware Motion Planning** | `Artificial Intelligence` | `0.70` | [arXiv](https://arxiv.org/abs/2611.14414v1) |
-| 5 | **TimeSeek: Multi-Task and Multi-Domain Pretraining for Generalized Time S...** | `Machine Learning` | `0.70` | [arXiv](https://arxiv.org/abs/2611.14491v1) |
+| 1 | **Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps ...** | `IoT & Edge AI` | `0.61` | [arXiv](https://arxiv.org/abs/2611.14418v1) |
+| 2 | **Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmen...** | `Robotics` | `0.61` | [arXiv](https://arxiv.org/abs/2611.14488v1) |
+| 3 | **Blurring the Block Boundaries: Overlapping Block Denoising for Efficient...** | `Machine Learning` | `0.61` | [arXiv](https://arxiv.org/abs/2611.14387v1) |
+| 4 | **Toward Foundation Detection Models via Example-Based Grounding in EM-DETR** | `Machine Learning` | `0.62` | [arXiv](https://arxiv.org/abs/2611.14518v1) |
+| 5 | **Discovering Equations for the Thermodynamics of South Asian Monsoon Prec...** | `Machine Learning` | `0.62` | [arXiv](https://arxiv.org/abs/2611.14401v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `328`
-- **Total Operational Runs**: `45 days`
+- **Total Papers Analyzed**: `338`
+- **Total Operational Runs**: `46 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 
