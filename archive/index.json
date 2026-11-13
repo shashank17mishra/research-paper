@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-12T08:00:57.092459",
-  "total_entries": 338,
+  "updated_at": "2026-11-13T07:40:16.456491",
+  "total_entries": 348,
   "months": [
     "2026-11",
     "2026-10"
@@ -14396,6 +14396,430 @@
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "IoT & Edge AI"
+    },
+    {
+      "arxiv_id": "2611.17238",
+      "raw_id": "http://arxiv.org/abs/2611.17238v1",
+      "title": "HEIR: Harness Egocentric Intent for Human-Robot Interactions",
+      "authors": [
+        "Yichi Zhang",
+        "Bo Wang",
+        "Zhenghan Zhu",
+        "Yutong Han",
+        "Jiayin Zou",
+        "Gao Kejun",
+        "Chang Liu",
+        "Shaoxuan Xie",
+        "Chi Zhang",
+        "Shi Haoyang",
+        "Zongxuan Lai",
+        "Sen Cui",
+        "Guocai Yao",
+        "Miao Liu"
+      ],
+      "published_date": "2026-11-12T18:25:41Z",
+      "updated_date": "2026-11-12T18:25:41Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "For robots to assist, serve, and collaborate with humans, they must not only interpret human requests conveyed through language and multimodal intentional cues, but also execute long-horizon tasks that interleave navigation and manipulation. In this paper, we introduce HEIR, a resource for studying how to Harness Egocentric Intent for Human-Robot Interaction. HEIR pairs human speech, measured gaze, and egocentric video with robot observations and teleoperated navigation-manipulation trajectories, while each session preserves successive episodes, with each request fulfilled through multiple execution subtasks. The captured data, together with human-authored annotations, support the study of intent grounding, execution planning, and task completion within a unified interaction setting. To demonstrate the value of HEIR, we conduct extensive offline experiments to evaluate how models benefit from additional human-centric context across these tasks, together with real-robot experiments that assess execution task completion. HEIR thus provides a valuable resource for studying user-centric robot interaction in naturalistic household environments. Our demo and dataset are available online.",
+      "url": "https://arxiv.org/abs/2611.17238v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17238v1",
+      "relevance_score": 0.774,
+      "processed_date": "2026-11-13",
+      "summary": "Addressing critical demands in Robotics, this research investigates for robots to assist, serve, and collaborate with humans, they must not only interpret human requests conveyed through language and multimodal intentional cues, but also execute long-horizon tasks that interleave navigation and manipulation. In this paper, we introduce HEIR, a resource for studying how to Harness Egocentric Intent for Human-Robot Interaction. HEIR pairs human speech, measured gaze, and egocentric video with robot observations and teleoperated navigation-manipulation trajectories, while each session preserves successive episodes, with each request fulfilled through multiple execution subtasks. Our demo and dataset are available online. For robots to assist, serve, and collaborate with humans, they must not only interpret human requests conveyed through language and multimodal intentional cues, but also execute long-horizon tasks that interleave navigation and manipulation.",
+      "key_concepts": [
+        "Manipulation",
+        "Additional Human-centric",
+        "Annotations Support",
+        "Assess Execution",
+        "Assist Serve",
+        "Available Online"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "In this paper, we introduce HEIR, a resource for studying how to Harness Egocentric Intent for Human-Robot Interaction.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Additional Human-centric.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.17323",
+      "raw_id": "http://arxiv.org/abs/2611.17323v1",
+      "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+      "authors": [
+        "Ethan Lin",
+        "Akanksha Sarkar",
+        "Ziang Liu",
+        "Kristin Branson",
+        "Jennifer J. Sun"
+      ],
+      "published_date": "2026-11-12T18:59:06Z",
+      "updated_date": "2026-11-12T18:59:06Z",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested in realistic regimes where labeled data is scarce but unlabeled data is abundant. In this work, we introduce Agentic Semi-Supervised Learning (AgentSSL), framing SSL as a program search problem and studying how agents navigate this space under limited supervision. We find that even under weak feedback and matched compute, agents can synthesize code that combines and adapts established SSL techniques, exceeding the strongest human-engineered baselines in 8 of 12 settings by up to +21.8%. However, our results identify program selection as a critical bottleneck in AgentSSL, where performance drops by as much as 47% when selecting based on the agent's feedback metric. To systematically study this bottleneck, we introduce ProgramSelectBench, a large-scale benchmark with a combined total of 16,977 agent-generated and human-engineered SSL programs, and evaluate both unsupervised and active program selection methods. We further evaluate AgentSSL on real-world ecology detection tasks, highlighting the opportunities and challenges of transferring agent-discovered strategies beyond controlled benchmarks.",
+      "url": "https://arxiv.org/abs/2611.17323v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17323v1",
+      "relevance_score": 0.724,
+      "processed_date": "2026-11-13",
+      "summary": "In this work, we introduce Agentic Semi-Supervised Learning (AgentSSL), framing SSL as a program search problem and studying how agents navigate this space under limited supervision. In this work, we introduce Agentic Semi-Supervised Learning (AgentSSL), framing SSL as a program search problem and studying how agents navigate this space under limited supervision. We further evaluate AgentSSL on real-world ecology detection tasks, highlighting the opportunities and challenges of transferring agent-discovered strategies beyond controlled benchmarks. Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested in realistic regimes where labeled data is scarce but unlabeled data is abundant.",
+      "key_concepts": [
+        "Acquisition Manual",
+        "Active Program",
+        "Adapts Established",
+        "Agent Feedback",
+        "Agent-discovered Strategies",
+        "Agent-generated Human-engineered"
+      ],
+      "insights": {
+        "problem": "In this work, we introduce Agentic Semi-Supervised Learning (AgentSSL), framing SSL as a program search problem and studying how agents navigate this space under limited supervision.",
+        "approach": "In this work, we introduce Agentic Semi-Supervised Learning (AgentSSL), framing SSL as a program search problem and studying how agents navigate this space under limited supervision.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Acquisition Manual, Active Program.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.17320",
+      "raw_id": "http://arxiv.org/abs/2611.17320v1",
+      "title": "Learning When Diffusion Language Models Should Regenerate",
+      "authors": [
+        "Minhae Oh",
+        "Jeonghye Kim",
+        "Jinwoo Koo",
+        "Yeongoon Kim",
+        "Jimin Seo",
+        "Minsik Seol",
+        "Jungwoo Lee"
+      ],
+      "published_date": "2026-11-12T18:58:50Z",
+      "updated_date": "2026-11-12T18:58:50Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Remasking allows diffusion language models to revisit generated text, but effective correction requires knowing when and what to revise. Our diagnosis on Sudoku reveals two gaps. Hidden states contain error information that token confidence does not reliably expose, and remasking an isolated error usually reproduces it when the surrounding context remains fixed. These findings motivate DiVR , a verifier that predicts whether a partially generated sequence will reach a correct answer. Trained on the final correctness of the model's own trajectories, DiVR decides when to regenerate a block and which alternative to retain, while the generator itself stays unchanged. On five reasoning benchmarks with LLaDA-8B-Base, DiVR raises the average accuracy of the fine-tuned generator from 35.3\\% to 43.4\\% at 1.9-3.5\\times the cost of greedy decoding, above search baselines that use 3.8-7.4\\times. It also complements post-training such as supervised fine-tuning and reinforcement learning, and generalizes to other generators, including Dream.",
+      "url": "https://arxiv.org/abs/2611.17320v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17320v1",
+      "relevance_score": 0.724,
+      "processed_date": "2026-11-13",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates remasking allows diffusion language models to revisit generated text, but effective correction requires knowing when and what to revise. Our diagnosis on Sudoku reveals two gaps. Hidden states contain error information that token confidence does not reliably expose, and remasking an isolated error usually reproduces it when the surrounding context remains fixed. It also complements post-training such as supervised fine-tuning and reinforcement learning, and generalizes to other generators, including Dream. Remasking allows diffusion language models to revisit generated text, but effective correction requires knowing when and what to revise. These findings motivate DiVR , a verifier that predicts whether a partially generated sequence will reach a correct answer.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Accuracy Fine-tuned",
+        "Alternative Retain",
+        "Base Divr",
+        "Baselines Use",
+        "Block Alternative"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "Our diagnosis on Sudoku reveals two gaps.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Accuracy Fine-tuned.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.17240",
+      "raw_id": "http://arxiv.org/abs/2611.17240v1",
+      "title": "Objects as Addresses: Instance Binding in Vision Transformer Attention",
+      "authors": [
+        "Khalil Sabri",
+        "Guillaume-Alexandre Bilodeau",
+        "Nicolas Saunier",
+        "Wassim Bouachir"
+      ],
+      "published_date": "2026-11-12T18:27:11Z",
+      "updated_date": "2026-11-12T18:27:11Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Humans naturally parse visual scenes into coherent individual objects rather than scattered features, a capability cognitive science calls object binding. While recent work shows that pretrained Vision Transformers (ViTs) intrinsically acquire this ability, how native self-attention computations mechanistically keep object instances separate remains unresolved. By studying this across eight pretrained ViTs, we found that instance separation is expressed more strongly in attention routing than in token content: selected query-key relations distinguish individual objects more reliably than value similarity or residual representations. Inside heads, patches belonging to one individual tend to read from a common image region, which we term their attention address. Visually distinct parts of one person share an address, whereas identical duplicated instances receive separate, movable addresses. These shared destinations arise in part because query interactions with the spatial structure of keys direct attention toward consistent regions for one object and elsewhere for another. In DINOv2 and most other backbones we tested, editing this query component at the selected head redirects its attention address toward another individual. Grouping patches by this query component separates same-category instances, reaching .615 FG-ARI versus .289 for the same clustering of final-layer features, which tend to merge them.",
+      "url": "https://arxiv.org/abs/2611.17240v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17240v1",
+      "relevance_score": 0.694,
+      "processed_date": "2026-11-13",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates humans naturally parse visual scenes into coherent individual objects rather than scattered features, a capability cognitive science calls object binding. While recent work shows that pretrained Vision Transformers (ViTs) intrinsically acquire this ability, how native self-attention computations mechanistically keep object instances separate remains unresolved. By studying this across eight pretrained ViTs, we found that instance separation is expressed more strongly in attention routing than in token content: selected query-key relations distinguish individual objects more reliably than value similarity or residual representations. Grouping patches by this query component separates same-category instances, reaching .615 FG-ARI versus .289 for the same clustering of final-layer features, which tend to merge them.",
+      "key_concepts": [
+        "Vision Transformer",
+        "Address Identical",
+        "Address Individual",
+        "Address Visually",
+        "Addresses Shared",
+        "Arise Query"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "While recent work shows that pretrained Vision Transformers (ViTs) intrinsically acquire this ability, how native self-attention computations mechanistically keep object instances separate remains unresolved.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Vision Transformer, Address Identical.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.17152",
+      "raw_id": "http://arxiv.org/abs/2611.17152v1",
+      "title": "AeroZoo: A Benchmark of Well-Posed Flow Problems for Foundation Models of Aerodynamics",
+      "authors": [
+        "Peter Sharpe",
+        "Carmelo Gonzales",
+        "Corey Adams",
+        "Mehdi Ataei",
+        "Sanjay Choudhry"
+      ],
+      "published_date": "2026-11-12T17:36:09Z",
+      "updated_date": "2026-11-12T17:36:09Z",
+      "categories": [
+        "cs.LG",
+        "cs.CE",
+        "physics.flu-dyn"
+      ],
+      "abstract": "Neural surrogates for computational fluid dynamics (CFD) are trained and ranked on datasets that each vary one design family in one flow domain. Such datasets cannot test the least that an aerodynamic foundation model must do: predict CFD-quality incompressible flow in seconds for new shapes in new enclosures. On DrivAerML, larger models and longer training barely lower Transolver's error; doubling the training cases cuts it by about 12% up to 400 cases, exhausting the dataset. We introduce AeroZoo, a benchmark and training corpus of 3,815 time-mean solutions to the unsteady Reynolds-averaged Navier--Stokes (RANS) equations with a transition model, across seven geometry families, eight enclosure configurations and Reynolds numbers from 10^3 to 10^8. Each sample poses a well-posed PDE problem in the form a solver receives it: the boundary meshes grouped by condition type, the prescribed values and the fluid properties. The 2,816 samples with a stable time mean form the canonical benchmark: two tasks, engineering metrics and 22 frozen splits, disjoint in geometry, that hold out geometry families, enclosures, boundary-condition layouts and Reynolds ranges. On the random split, boundary-condition tokens cut GeoTransolver's median velocity error from 76.9% to 8.4% of the inlet speed in single-seed runs (uniform inlet flow: 11.0%). ISLA, a transformer for boundary-driven PDEs, reaches 5.3% over four seeds, about 4 times the change from a finer mesh. On the same test samples, a held-out geometry family barely changes ISLA's error relative to uniform flow, and a held-out enclosure or boundary-condition layout raises it 2.4 to 9.2 times. The data and the scoring code will be released.",
+      "url": "https://arxiv.org/abs/2611.17152v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17152v1",
+      "relevance_score": 0.687,
+      "processed_date": "2026-11-13",
+      "summary": "Each sample poses a well-posed PDE problem in the form a solver receives it: the boundary meshes grouped by condition type, the prescribed values and the fluid properties. We introduce AeroZoo, a benchmark and training corpus of 3,815 time-mean solutions to the unsteady Reynolds-averaged Navier--Stokes (RANS) equations with a transition model, across seven geometry families, eight enclosure configurations and Reynolds numbers from 10^3 to 10^8. On DrivAerML, larger models and longer training barely lower Transolver's error; doubling the training cases cuts it by about 12% up to 400 cases, exhausting the dataset. The data and the scoring code will be released.",
+      "key_concepts": [
+        "Foundation Model",
+        "Geometry Families",
+        "Times Change",
+        "Tokens Cut",
+        "Transformer Boundary-driven",
+        "Transolver Error"
+      ],
+      "insights": {
+        "problem": "Each sample poses a well-posed PDE problem in the form a solver receives it: the boundary meshes grouped by condition type, the prescribed values and the fluid properties.",
+        "approach": "We introduce AeroZoo, a benchmark and training corpus of 3,815 time-mean solutions to the unsteady Reynolds-averaged Navier--Stokes (RANS) equations with a transition model, across seven geometry families, eight enclosure configurations and Reynolds numbers from 10^3 to 10^8.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Foundation Model, Geometry Families.",
+        "results": "On DrivAerML, larger models and longer training barely lower Transolver's error; doubling the training cases cuts it by about 12% up to 400 cases, exhausting the dataset.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.17324",
+      "raw_id": "http://arxiv.org/abs/2611.17324v1",
+      "title": "K2V: Generative Keyframing For Physically Plausible Video Generation",
+      "authors": [
+        "Felix O'Mahony",
+        "Daniel Olmeda Reino",
+        "Roberto Cipolla",
+        "Ayush Tewari"
+      ],
+      "published_date": "2026-11-12T18:59:09Z",
+      "updated_date": "2026-11-12T18:59:09Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Video diffusion models are able to generate samples with high-quality appearance and textural qualities. However, content produced by these methods is known to exhibit significant physical errors. This is because, in a classical video generation setting, all physical reasoning must take place simultaneously and exclusively within the diffusion process.We propose to resolve these issues by redistributing the task of physical reasoning onto a language model-backed keyframe generation module, which allows for explicit reasoning in language, and fine-grained control over the appearance of the video at important moments in the video. We then condition a video generation model with these keyframes, reducing the role of the diffusion model to the simpler task of interpolating between physically-correct intermediate states, rather than inferring an entire sequence with diffusion. Results demonstrate that our approach significantly outperforms existing approaches, achieving state-of-the-art performance on the Physics-IQ Verified benchmark and PhyGenBench.",
+      "url": "https://arxiv.org/abs/2611.17324v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17324v1",
+      "relevance_score": 0.675,
+      "processed_date": "2026-11-13",
+      "summary": "However, content produced by these methods is known to exhibit significant physical errors. This is because, in a classical video generation setting, all physical reasoning must take place simultaneously and exclusively within the diffusion process.We propose to resolve these issues by redistributing the task of physical reasoning onto a language model-backed keyframe generation module, which allows for explicit reasoning in language, and fine-grained control over the appearance of the video at important moments in the video. Results demonstrate that our approach significantly outperforms existing approaches, achieving state-of-the-art performance on the Physics-IQ Verified benchmark and PhyGenBench. Video diffusion models are able to generate samples with high-quality appearance and textural qualities.",
+      "key_concepts": [
+        "Diffusion Model",
+        "Video Generation",
+        "Able Generate",
+        "Appearance Textural",
+        "Appearance Video",
+        "Approaches Achieving"
+      ],
+      "insights": {
+        "problem": "However, content produced by these methods is known to exhibit significant physical errors.",
+        "approach": "This is because, in a classical video generation setting, all physical reasoning must take place simultaneously and exclusively within the diffusion process.We propose to resolve these issues by redistributing the task of physical reasoning onto a language model-backed keyframe generation module, which allows for explicit reasoning in language, and fine-grained control over the appearance of the video at important moments in the video.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Diffusion Model, Video Generation.",
+        "results": "Results demonstrate that our approach significantly outperforms existing approaches, achieving state-of-the-art performance on the Physics-IQ Verified benchmark and PhyGenBench.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.17172",
+      "raw_id": "http://arxiv.org/abs/2611.17172v1",
+      "title": "SpotDiff: A Plug-and-Play Framework for Zero-Shot Change Detection in Remote Sensing Imagery",
+      "authors": [
+        "Anit Upadhyaya",
+        "Ata Akbari Asanjan",
+        "Chaitanya Jalluri",
+        "Subash Yeggina",
+        "Jeremy Kravitz"
+      ],
+      "published_date": "2026-11-12T17:45:37Z",
+      "updated_date": "2026-11-12T17:45:37Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Remote sensing change detection usually relies on large collections of temporally aligned, pixel-level annotations, which limits its scalability across regions, imaging platforms and application domains. Recent zero-shot approaches reduce the need for supervision, but they often localize fine-grained changes poorly because their features are coarse or inconsistent across time. We present SpotDiff, a training-free, plug-and-play framework for zero-shot change detection built by composing complementary vision foundation models. SpotDiff uses DINOv3 for semantically robust features, AnyUp to reconstruct them at pixel resolution, and SAM 3 for text-guided region-of-interest proposals, which an inference-time multi-scale strategy (SWIMS) makes reliable on small objects. Change is then measured by comparing the reconstructed features of the two dates inside the proposed regions, with no learnable components, fine-tuning or change labels. To our knowledge, SpotDiff is the first change detection method to use a universal feature upsampler, which alone adds 13.8 F1 over bilinear upsampling of the same features. On LEVIR-CD, SpotDiff reaches 82.46 F1, 2.06 points above the strongest prior training-free method, and on the multi-class SECOND benchmark it improves building change detection by 10.3 IoU and the six-class average by 2.2 IoU. Qualitative results on PlanetScope (3 m) and Sentinel-2 (10 m) imagery show that the same pipeline transfers across resolutions without modification. Our results indicate that composing modern foundation models is an effective route to scalable, label-free change detection.",
+      "url": "https://arxiv.org/abs/2611.17172v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17172v1",
+      "relevance_score": 0.674,
+      "processed_date": "2026-11-13",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates remote sensing change detection usually relies on large collections of temporally aligned, pixel-level annotations, which limits its scalability across regions, imaging platforms and application domains. We present SpotDiff, a training-free, plug-and-play framework for zero-shot change detection built by composing complementary vision foundation models. Our results indicate that composing modern foundation models is an effective route to scalable, label-free change detection. Remote sensing change detection usually relies on large collections of temporally aligned, pixel-level annotations, which limits its scalability across regions, imaging platforms and application domains. Recent zero-shot approaches reduce the need for supervision, but they often localize fine-grained changes poorly because their features are coarse or inconsistent across time.",
+      "key_concepts": [
+        "Zero-shot",
+        "Change Detection",
+        "Temporally Aligned",
+        "Text-guided Region-of-interest",
+        "Time Present",
+        "Training-free Plug-and-play"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We present SpotDiff, a training-free, plug-and-play framework for zero-shot change detection built by composing complementary vision foundation models.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Change Detection.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.17163",
+      "raw_id": "http://arxiv.org/abs/2611.17163v1",
+      "title": "UAV-Flow++: A Unified Suite for Benchmarking and Learning Language-Guided UAV Flight",
+      "authors": [
+        "Donglin Yang",
+        "Xiangyu Wang",
+        "Yantong Zhong",
+        "Wenhao Zheng",
+        "Zihan Ding",
+        "Yue Liao",
+        "Hongsheng Li",
+        "Ke Xu",
+        "Si Liu"
+      ],
+      "published_date": "2026-11-12T17:39:43Z",
+      "updated_date": "2026-11-12T17:39:43Z",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "abstract": "Language-guided UAV navigation has largely focused on long-horizon route planning, leaving short-range, object-relative flight maneuvers underexplored. To address this gap, we formulate Flying-on-a-Word (Flow), a task requiring a UAV to convert concise natural-language instruction, egocentric visual observation, and current state dynamics into continuous flight actions. Flow encompasses both primitive motion commands and complex object-interactive behaviors, assessing motion intent comprehension and spatial context grounding. To enable policy learning and closed-loop evaluation, we introduce UAV-Flow, a comprehensive dataset comprising 30,692 expert-piloted real-world trajectories across eight distinct motion categories, alongside 10,109 simulation trajectories in the UAV-Flow-Sim environment equipped with task-specific completion criteria. Furthermore, we develop FlowVLA, which undergoes imitation pretraining on mixed real-sim demonstrations and online post-training via Tail-Aware GRPO (TGRPO). By leveraging group reward distributions, TGRPO effectively reinforces high-reward action sequences. Evaluated on 273 held-out UAV-Flow-Sim episodes, pretrained FlowVLA achieves a mean success rate of 75.58%, outperforming the strongest baseline by 6.72 percentage points, which TGRPO post-training further elevates to 93.16% with superior sample efficiency. Physical UAV experiments demonstrate robust execution of object-relative commands in both indoor and outdoor real-world scenes. Together, Flow establishes a novel benchmark and learning framework for language-conditioned flight maneuvers.",
+      "url": "https://arxiv.org/abs/2611.17163v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17163v1",
+      "relevance_score": 0.674,
+      "processed_date": "2026-11-13",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates language-guided uav navigation has largely focused on long-horizon route planning, leaving short-range, object-relative flight maneuvers underexplored. To address this gap, we formulate Flying-on-a-Word (Flow), a task requiring a UAV to convert concise natural-language instruction, egocentric visual observation, and current state dynamics into continuous flight actions. Together, Flow establishes a novel benchmark and learning framework for language-conditioned flight maneuvers. Physical UAV experiments demonstrate robust execution of object-relative commands in both indoor and outdoor real-world scenes. Language-guided UAV navigation has largely focused on long-horizon route planning, leaving short-range, object-relative flight maneuvers underexplored. Flow encompasses both primitive motion commands and complex object-interactive behaviors, assessing motion intent comprehension and spatial context grounding.",
+      "key_concepts": [
+        "Flight Maneuvers",
+        "Simulation Trajectories",
+        "Spatial Context",
+        "State Dynamics",
+        "Success Rate",
+        "Superior Sample"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "To address this gap, we formulate Flying-on-a-Word (Flow), a task requiring a UAV to convert concise natural-language instruction, egocentric visual observation, and current state dynamics into continuous flight actions.",
+        "key_innovation": "Together, Flow establishes a novel benchmark and learning framework for language-conditioned flight maneuvers.",
+        "results": "Physical UAV experiments demonstrate robust execution of object-relative commands in both indoor and outdoor real-world scenes.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.17332",
+      "raw_id": "http://arxiv.org/abs/2611.17332v1",
+      "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+      "authors": [
+        "Jie Wang",
+        "Tong Zhu",
+        "JiaHao Kuang",
+        "Zhe Xu",
+        "Yunkai Chai",
+        "Dehong Zheng",
+        "Yu Cheng",
+        "Tao Ji",
+        "ZhouHan Lin",
+        "Qi Zhang",
+        "Bowen Zhou"
+      ],
+      "published_date": "2026-11-12T18:59:52Z",
+      "updated_date": "2026-11-12T18:59:52Z",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia. In industry, teams such as those behind DeepSeek, Qwen, and Kimi routinely introduce architectural innovations, yet public reports rarely document which ideas succeeded, which were abandoned, and why. In academia, limited compute and inconsistent baselines often restrict evaluations to small-scale, single-point comparisons, making it difficult to establish whether improvements hold at larger scales or translate into broader impact. ArchSpace addresses both gaps as a public platform for Recording, Reviewing, and Referencing Architecture Researc}: each proposal is recorded with its experiments and reasoning, reviewed by the community, and referenced by later work. To evaluate ideas before costly large-scale training, ArchSpace leverages scaling laws to predict model loss at larger scales from smaller experiments, a practice widely adopted in industry. We provide initial references that make the platform usable: Qwen3.5 and OLMo3 baselines, fitted scaling laws, and a reusable training recipe. Ideas validated through this review can in turn become new baselines, and ArchSpace thereby aims to broaden the range of ideas that shape the next generation of models.",
+      "url": "https://arxiv.org/abs/2611.17332v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17332v1",
+      "relevance_score": 0.668,
+      "processed_date": "2026-11-13",
+      "summary": "In academia, limited compute and inconsistent baselines often restrict evaluations to small-scale, single-point comparisons, making it difficult to establish whether improvements hold at larger scales or translate into broader impact. In industry, teams such as those behind DeepSeek, Qwen, and Kimi routinely introduce architectural innovations, yet public reports rarely document which ideas succeeded, which were abandoned, and why. Ideas validated through this review can in turn become new baselines, and ArchSpace thereby aims to broaden the range of ideas that shape the next generation of models. Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia.",
+      "key_concepts": [
+        "Scaling Laws",
+        "Abandoned Academia",
+        "Academia Industry",
+        "Academia Limited",
+        "Addresses Gaps",
+        "Adopted Industry"
+      ],
+      "insights": {
+        "problem": "In academia, limited compute and inconsistent baselines often restrict evaluations to small-scale, single-point comparisons, making it difficult to establish whether improvements hold at larger scales or translate into broader impact.",
+        "approach": "In industry, teams such as those behind DeepSeek, Qwen, and Kimi routinely introduce architectural innovations, yet public reports rarely document which ideas succeeded, which were abandoned, and why.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Scaling Laws, Abandoned Academia.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2611.17159",
+      "raw_id": "http://arxiv.org/abs/2611.17159v1",
+      "title": "Inner Product Regularization for Imitation Learning",
+      "authors": [
+        "Benjamin A. Christie",
+        "Tianyu Qiu",
+        "Amy H. Choi",
+        "David Fridovich-Keil",
+        "Dylan P. Losey"
+      ],
+      "published_date": "2026-11-12T17:38:48Z",
+      "updated_date": "2026-11-12T17:38:48Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Robots that learn from demonstrations should extrapolate their policy despite state perturbations such as sensor noise, scene variation, and compounding errors. One approach to this robustness is regularization. Prior regularizers consider each state on its own and limit how sensitive the policy is to any perturbation at that state. By contrast, we explore how the policy's output shifts when given the same perturbation at different states. Our insight is that, locally, the robot should respond to state perturbations in a consistent manner: e.g., if changing an irrelevant object position does not impact the policy at one state, that same change should not shift the policy output at a nearby state. Applying this insight, we develop inner product regularization (InneR). We show that the inner product on action space induces an inner product on state space through the policy Jacobian (the Fisher information for stochastic policies), and that the null space of this inner product governs which state perturbations have a first-order effect on the policy. By clustering states whose inner products are aligned, averaging the inner products within each cluster, and minimizing the smallest eigenvalues of that average, InneR shapes the learned policy so that nearby states share a common null space. InneR enforces consistent responses to perturbations without limiting policy expressiveness, and can be appended to existing imitation learning pipelines for deterministic or stochastic policies. In simulated experiments, InneR makes learned policies more robust to irrelevant state dimensions and shifts between training and test distributions, whereas norm penalties often perform worse than behavior cloning. On a real robot arm performing three manipulation tasks, InneR raises the average success rate of a diffusion policy from 18% to 57% without additional data.",
+      "url": "https://arxiv.org/abs/2611.17159v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17159v1",
+      "relevance_score": 0.668,
+      "processed_date": "2026-11-13",
+      "summary": "Robots that learn from demonstrations should extrapolate their policy despite state perturbations such as sensor noise, scene variation, and compounding errors. One approach to this robustness is regularization. Prior regularizers consider each state on its own and limit how sensitive the policy is to any perturbation at that state. On a real robot arm performing three manipulation tasks, InneR raises the average success rate of a diffusion policy from 18% to 57% without additional data. By contrast, we explore how the policy's output shifts when given the same perturbation at different states. Our insight is that, locally, the robot should respond to state perturbations in a consistent manner: e.g., if changing an irrelevant object position does not impact the policy at one state, that same change should not shift the policy output at a nearby state.",
+      "key_concepts": [
+        "Imitation Learning",
+        "Diffusion Policy",
+        "Manipulation",
+        "Inner Product",
+        "Null Space",
+        "Policy Output"
+      ],
+      "insights": {
+        "problem": "Robots that learn from demonstrations should extrapolate their policy despite state perturbations such as sensor noise, scene variation, and compounding errors.",
+        "approach": "One approach to this robustness is regularization.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Imitation Learning, Diffusion Policy.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
     }
   ]
 }

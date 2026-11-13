@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[12 November 2026 Report](reports/2026/11/12/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[13 November 2026 Report](reports/2026/11/13/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/12/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/13/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/12/infographic.png)](reports/2026/11/12/infographic.png)
+[![Daily Infographic](reports/2026/11/13/infographic.png)](reports/2026/11/13/infographic.png)
 
 ---
 
@@ -25,10 +25,10 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `4` |
+| **Artificial Intelligence (AI)** | `3` |
 | **Machine Learning (ML)** | `6` |
-| **Robotics** | `2` |
-| **IoT & Edge AI** | `1` |
+| **Robotics** | `3` |
+| **IoT & Edge AI** | `0` |
 
 ---
 
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps ...** | `IoT & Edge AI` | `0.61` | [arXiv](https://arxiv.org/abs/2611.14418v1) |
-| 2 | **Is Your Robot's Memory Just a Clock? Temporal Shortcuts in Memory-Augmen...** | `Robotics` | `0.61` | [arXiv](https://arxiv.org/abs/2611.14488v1) |
-| 3 | **Blurring the Block Boundaries: Overlapping Block Denoising for Efficient...** | `Machine Learning` | `0.61` | [arXiv](https://arxiv.org/abs/2611.14387v1) |
-| 4 | **Toward Foundation Detection Models via Example-Based Grounding in EM-DETR** | `Machine Learning` | `0.62` | [arXiv](https://arxiv.org/abs/2611.14518v1) |
-| 5 | **Discovering Equations for the Thermodynamics of South Asian Monsoon Prec...** | `Machine Learning` | `0.62` | [arXiv](https://arxiv.org/abs/2611.14401v1) |
+| 1 | **Inner Product Regularization for Imitation Learning** | `Robotics` | `0.67` | [arXiv](https://arxiv.org/abs/2611.17159v1) |
+| 2 | **ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research** | `Natural Language Processing` | `0.67` | [arXiv](https://arxiv.org/abs/2611.17332v1) |
+| 3 | **UAV-Flow++: A Unified Suite for Benchmarking and Learning Language-Guide...** | `Artificial Intelligence` | `0.67` | [arXiv](https://arxiv.org/abs/2611.17163v1) |
+| 4 | **SpotDiff: A Plug-and-Play Framework for Zero-Shot Change Detection in Re...** | `Machine Learning` | `0.67` | [arXiv](https://arxiv.org/abs/2611.17172v1) |
+| 5 | **K2V: Generative Keyframing For Physically Plausible Video Generation** | `Artificial Intelligence` | `0.68` | [arXiv](https://arxiv.org/abs/2611.17324v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `338`
-- **Total Operational Runs**: `46 days`
+- **Total Papers Analyzed**: `348`
+- **Total Operational Runs**: `47 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 
