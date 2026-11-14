@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-13T07:40:16.456491",
-  "total_entries": 348,
+  "updated_at": "2026-11-14T07:27:12.061263",
+  "total_entries": 358,
   "months": [
     "2026-11",
     "2026-10"
@@ -14818,6 +14818,418 @@
         "results": "Not specified in the available abstract.",
         "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
         "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.17235",
+      "raw_id": "http://arxiv.org/abs/2611.17235v1",
+      "title": "Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models",
+      "authors": [
+        "Elnaserledinellah Mahmoud Abdelwahab"
+      ],
+      "published_date": "2026-11-12T18:23:56Z",
+      "updated_date": "2026-11-12T18:23:56Z",
+      "categories": [
+        "cs.AI",
+        "cs.FL"
+      ],
+      "abstract": "This paper presents Al Ghasali, a computational framework designed to formalize and simulate Islamic jurisprudential (Fiqh) rulings. Building upon recent set theoretic formalizations of al sabr wa al Taqsim that extract minimal operational rules as simple Horn clause logical programs, this work proves that the semantics of closed Fiqh chapters collapse completely to deterministic Finite State Automata (FSA). We establish a formal computational hierarchy, demonstrating that restricting formalization to finite propositional Horn theories guarantees decidability and constant time (O(1)) verdict extraction after offline compilation. The framework formally proves that hierarchical compositions of sub-chapter FSAs preserve this O(1) complexity, and that temporal juristic requirements, such as Tartib (order), are deterministically flattened into static ontological states, preserving the memoryless property of the automaton. To generate human-readable juristic summaries, Al Ghasali incorporates Large Language Models (LLMs) via an architecture where the deterministic FSA strictly controls the probabilistic LLM. Crucially, the paper formulates sufficient design safety conditions for this FSA LLM integration, ensuring strict adherence to the epistemological boundaries of Usul al Fiqh. To neutralize the risk of LLM hallucination, the system employs a Grammar Guided Constrained Decoding mechanism. We formally define the mapping function that dynamically constructs unambiguous right linear grammars from the FSA execution history. The paper mathematically proves that this architecture, augmented by a Bounded Neutral Lexicon and Valence Locking, guarantees the absolute absence of Decisional Hallucination, Juristic Factual Hallucination, and Semantic Inversion reducing the LLM to a pure linguistic transformer of deterministic juristic facts",
+      "url": "https://arxiv.org/abs/2611.17235v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17235v1",
+      "relevance_score": 0.654,
+      "processed_date": "2026-11-14",
+      "summary": "Addressing critical demands in Natural Language Processing, this research investigates this paper presents al ghasali, a computational framework designed to formalize and simulate islamic jurisprudential (fiqh) rulings. This paper presents Al Ghasali, a computational framework designed to formalize and simulate Islamic jurisprudential (Fiqh) rulings. We establish a formal computational hierarchy, demonstrating that restricting formalization to finite propositional Horn theories guarantees decidability and constant time (O(1)) verdict extraction after offline compilation. The paper mathematically proves that this architecture, augmented by a Bounded Neutral Lexicon and Valence Locking, guarantees the absolute absence of Decisional Hallucination, Juristic Factual Hallucination, and Semantic Inversion reducing the LLM to a pure linguistic transformer of deterministic juristic facts",
+      "key_concepts": [
+        "Absence Decisional",
+        "Absolute Absence",
+        "Adherence Epistemological",
+        "Augmented Bounded",
+        "Automata Fsa",
+        "Automaton Generate"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+        "approach": "This paper presents Al Ghasali, a computational framework designed to formalize and simulate Islamic jurisprudential (Fiqh) rulings.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Absence Decisional, Absolute Absence.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2611.17287",
+      "raw_id": "http://arxiv.org/abs/2611.17287v1",
+      "title": "Negative-Only Policy Optimization for One-Sided Verifiable Rewards",
+      "authors": [
+        "Jiacheng Xu",
+        "Shuo He",
+        "Fuxiang Zhang",
+        "Chaojie Wang",
+        "Bo An"
+      ],
+      "published_date": "2026-11-12T18:52:33Z",
+      "updated_date": "2026-11-12T18:52:33Z",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "Reinforcement learning with verifiable rewards (RLVR) typically relies on a verifier that can reliably judge whether sampled solutions are correct. However, in many realistic settings, complete verification is generally unavailable, while cheap checks can only falsify failures. We formalize this regime as one-sided verifiability (OSV): verified negatives are reliable counterexamples, but verified positives are merely non-falsified candidates and may contain many false positives. This asymmetry makes standard RLVR unreliable, because reinforcing verified positives can directly reward shortcuts that pass partial checks. To address this issue, we propose Negative-Only Policy Optimization (NOPO), which treats verified positives as unlabeled and updates the policy only by suppressing trusted verified negatives. Specifically, NOPO combines a reference-relative negative suppression loss with a group-level adapter that scales each update by the proportion of non-falsified responses. Across unit-test, constraint-check, and LLM self-verifiers, NOPO improves pass@k over baselines on code, logic, and math benchmarks when oracle rewards are unavailable. These gains persist under inference-time scaling and cross-benchmark transfer.",
+      "url": "https://arxiv.org/abs/2611.17287v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17287v1",
+      "relevance_score": 0.641,
+      "processed_date": "2026-11-14",
+      "summary": "However, in many realistic settings, complete verification is generally unavailable, while cheap checks can only falsify failures. To address this issue, we propose Negative-Only Policy Optimization (NOPO), which treats verified positives as unlabeled and updates the policy only by suppressing trusted verified negatives. We formalize this regime as one-sided verifiability (OSV): verified negatives are reliable counterexamples, but verified positives are merely non-falsified candidates and may contain many false positives. These gains persist under inference-time scaling and cross-benchmark transfer. Reinforcement learning with verifiable rewards (RLVR) typically relies on a verifier that can reliably judge whether sampled solutions are correct. This asymmetry makes standard RLVR unreliable, because reinforcing verified positives can directly reward shortcuts that pass partial checks.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Adapter Scales",
+        "Address Issue",
+        "Asymmetry Makes",
+        "Baselines Code",
+        "Candidates Contain"
+      ],
+      "insights": {
+        "problem": "However, in many realistic settings, complete verification is generally unavailable, while cheap checks can only falsify failures.",
+        "approach": "To address this issue, we propose Negative-Only Policy Optimization (NOPO), which treats verified positives as unlabeled and updates the policy only by suppressing trusted verified negatives.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Adapter Scales.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Across unit-test, constraint-check, and LLM self-verifiers, NOPO improves pass@k over baselines on code, logic, and math benchmarks when oracle rewards are unavailable."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.17146",
+      "raw_id": "http://arxiv.org/abs/2611.17146v1",
+      "title": "HiVE-VQA: Hierarchical Interaction via Volumetric Embedding for Video Quality Assessment",
+      "authors": [
+        "Robbie Hamilton",
+        "Fan Zhang",
+        "David Bull"
+      ],
+      "published_date": "2026-11-12T17:32:10Z",
+      "updated_date": "2026-11-12T17:32:10Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "The proliferation of user-generated video content has made accurate and robust no-reference video quality assessment (NR-VQA) a highly important challenge. Existing research increasingly relies on architecturally complex multi-branch pipelines or computationally intensive fine-tuning of single-branch backbones. In this paper, we investigate whether a single frozen video foundation model can serve as an effective NR-VQA backbone, and propose HiVE-VQA, the first framework (to our knowledge) to apply a JEPA-based video encoder to this task. HiVE-VQA extracts token grids from multiple depths of a pre-trained V-JEPA 2.1 encoder and stacks them into a hierarchical spatio-temporal volume, which a compact 3D convolutional head fuses across its layer, spatial, and temporal axes, combining low-level distortion cues from shallow layers with the semantic and temporal context captured at greater depths. The encoder remains frozen throughout, so only the head is trained: 5.2M parameters (5.7\\% of the total), with no auxiliary multi-modal models and an inference cost that is invariant to video resolution. Trained solely on LSVQ and evaluated without any fine-tuning, HiVE-VQA outperforms 17 state-of-the-art (SOTA) methods in SROCC and PLCC on both intra-dataset (LSVQ-test, LSVQ-1080p) and cross-dataset (KoNViD-1k, LIVE-VQC) benchmarks. These results indicate that hierarchical, depth-wise fusion of features from a single frozen video foundation model provides a more effective and efficient basis for NR-VQA than task-specific multi-network fusion. Code and model checkpoints are available at https://github.com/RobHam99/HiVE-VQA.",
+      "url": "https://arxiv.org/abs/2611.17146v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17146v1",
+      "relevance_score": 0.64,
+      "processed_date": "2026-11-14",
+      "summary": "The proliferation of user-generated video content has made accurate and robust no-reference video quality assessment (NR-VQA) a highly important challenge. Existing research increasingly relies on architecturally complex multi-branch pipelines or computationally intensive fine-tuning of single-branch backbones. Trained solely on LSVQ and evaluated without any fine-tuning, HiVE-VQA outperforms 17 state-of-the-art (SOTA) methods in SROCC and PLCC on both intra-dataset (LSVQ-test, LSVQ-1080p) and cross-dataset (KoNViD-1k, LIVE-VQC) benchmarks. Code and model checkpoints are available at https://github.com/RobHam99/HiVE-VQA. In this paper, we investigate whether a single frozen video foundation model can serve as an effective NR-VQA backbone, and propose HiVE-VQA, the first framework (to our knowledge) to apply a JEPA-based video encoder to this task.",
+      "key_concepts": [
+        "Multi-modal",
+        "Foundation Model",
+        "Frozen Video",
+        "Single Frozen",
+        "Srocc Plcc",
+        "Task-specific Multi-network"
+      ],
+      "insights": {
+        "problem": "The proliferation of user-generated video content has made accurate and robust no-reference video quality assessment (NR-VQA) a highly important challenge.",
+        "approach": "Existing research increasingly relies on architecturally complex multi-branch pipelines or computationally intensive fine-tuning of single-branch backbones.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Multi-modal, Foundation Model.",
+        "results": "Trained solely on LSVQ and evaluated without any fine-tuning, HiVE-VQA outperforms 17 state-of-the-art (SOTA) methods in SROCC and PLCC on both intra-dataset (LSVQ-test, LSVQ-1080p) and cross-dataset (KoNViD-1k, LIVE-VQC) benchmarks.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.17145",
+      "raw_id": "http://arxiv.org/abs/2611.17145v1",
+      "title": "Enhancing Preference Detection using Eye Movement Cascade and Multilayer Combinatorial Fusion",
+      "authors": [
+        "Yuanhong Wu",
+        "Mary Tsaryk",
+        "Sam Watson",
+        "Tahsin Ahmed",
+        "Christina Schweikert",
+        "D. Frank Hsu"
+      ],
+      "published_date": "2026-11-12T17:31:50Z",
+      "updated_date": "2026-11-12T17:31:50Z",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Understanding how visual attention influences human preference formation is a fundamental problem in consumer behavior and cognitive science. In this work, we investigate how eye movement patterns can be used to predict preference decisions when subjects compare two alternatives. To address this problem, we analyze an eye-tracking dataset, where subjects view pairs of face images and their gaze behavior is recorded throughout the decision process. We model this problem using multiple machine learning classifiers and apply the Multi-layer Combinatorial Fusion (MCF) framework to iteratively combine diverse models. The MCF framework expands models to a large pool of model fusions and then reduces them based on cognitive diversity, repeating this process across layers until diversity diminishes. Experimental results show that MCF significantly improves performance over individual models. The best single model achieves a Pre@k of 0.90, which is improved to 0.9143 after the first layer of MCF, and further increased to 0.9286 in the second layer. This progression demonstrates that the second layer not only surpasses the performance of the first layer but also outperforms the best individual model, highlighting the effectiveness of leveraging diversity through multi-layer fusion.",
+      "url": "https://arxiv.org/abs/2611.17145v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17145v1",
+      "relevance_score": 0.64,
+      "processed_date": "2026-11-14",
+      "summary": "Understanding how visual attention influences human preference formation is a fundamental problem in consumer behavior and cognitive science. In this work, we investigate how eye movement patterns can be used to predict preference decisions when subjects compare two alternatives. Experimental results show that MCF significantly improves performance over individual models. This progression demonstrates that the second layer not only surpasses the performance of the first layer but also outperforms the best individual model, highlighting the effectiveness of leveraging diversity through multi-layer fusion. To address this problem, we analyze an eye-tracking dataset, where subjects view pairs of face images and their gaze behavior is recorded throughout the decision process.",
+      "key_concepts": [
+        "Achieves Pre",
+        "Address Problem",
+        "Alternatives Address",
+        "Analyze Eye-tracking",
+        "Apply Multi-layer",
+        "Attention Influences"
+      ],
+      "insights": {
+        "problem": "Understanding how visual attention influences human preference formation is a fundamental problem in consumer behavior and cognitive science.",
+        "approach": "In this work, we investigate how eye movement patterns can be used to predict preference decisions when subjects compare two alternatives.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Achieves Pre, Address Problem.",
+        "results": "Experimental results show that MCF significantly improves performance over individual models.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.17213",
+      "raw_id": "http://arxiv.org/abs/2611.17213v1",
+      "title": "Collaborative Task Allocation for Heterogeneous Multi-Robot Systems Through Iterative Clustering",
+      "authors": [
+        "David R. Martin",
+        "Brooks A. Butler",
+        "Scott Nivison",
+        "Magnus Egerstedt",
+        "Mohammad Abdullah Al Faruque",
+        "Pramod Khargonekar"
+      ],
+      "published_date": "2026-11-12T18:10:27Z",
+      "updated_date": "2026-11-12T18:10:27Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Multi-robot systems face the challenge of efficiently allocating teams of heterogeneous robots to tasks. The task allocation problem is complicated by collaborative interactions between robots where teams of robots develop emergent capabilities that enable them to complete tasks that would be inefficient or impossible for individual robots. To address these challenges, we present an iterative clustering algorithm for collaborative task allocation in heterogeneous multi-robot systems. This approach partitions the computationally intractable global optimization problem into smaller, tractable subproblems by iteratively forming clusters of robots and tasks, then optimizing assignments within each cluster. By ensuring robots remain clustered with their currently assigned tasks, we guarantee monotonic improvement in overall utility with each iteration. We analyze the convergence of the algorithm and characterize how cluster size constraints determine which suboptimal assignments could trap the algorithm. In simulation, iterative clustering consistently outperforms simulated annealing, and a group-based auction in both computation time and solution quality, and outperforms a hedonic game approach in solution quality.",
+      "url": "https://arxiv.org/abs/2611.17213v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17213v1",
+      "relevance_score": 0.629,
+      "processed_date": "2026-11-14",
+      "summary": "Multi-robot systems face the challenge of efficiently allocating teams of heterogeneous robots to tasks. To address these challenges, we present an iterative clustering algorithm for collaborative task allocation in heterogeneous multi-robot systems. In simulation, iterative clustering consistently outperforms simulated annealing, and a group-based auction in both computation time and solution quality, and outperforms a hedonic game approach in solution quality. The task allocation problem is complicated by collaborative interactions between robots where teams of robots develop emergent capabilities that enable them to complete tasks that would be inefficient or impossible for individual robots. This approach partitions the computationally intractable global optimization problem into smaller, tractable subproblems by iteratively forming clusters of robots and tasks, then optimizing assignments within each cluster.",
+      "key_concepts": [
+        "Iterative Clustering",
+        "Address Challenges",
+        "Algorithm Characterize",
+        "Algorithm Collaborative",
+        "Allocating Teams",
+        "Allocation Heterogeneous"
+      ],
+      "insights": {
+        "problem": "Multi-robot systems face the challenge of efficiently allocating teams of heterogeneous robots to tasks.",
+        "approach": "To address these challenges, we present an iterative clustering algorithm for collaborative task allocation in heterogeneous multi-robot systems.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Iterative Clustering, Address Challenges.",
+        "results": "In simulation, iterative clustering consistently outperforms simulated annealing, and a group-based auction in both computation time and solution quality, and outperforms a hedonic game approach in solution quality.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "We analyze the convergence of the algorithm and characterize how cluster size constraints determine which suboptimal assignments could trap the algorithm."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.17314",
+      "raw_id": "http://arxiv.org/abs/2611.17314v1",
+      "title": "Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces",
+      "authors": [
+        "Abigail L. Tenenbaum",
+        "R. Thomas McCoy"
+      ],
+      "published_date": "2026-11-12T18:57:49Z",
+      "updated_date": "2026-11-12T18:57:49Z",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "Humans can learn rapidly from limited experience, while neural networks typically require extensive training. In this work, we investigate what properties of a neural network can enable it to learn rapidly. We study neural networks that have been optimized via meta-learning, a technique that exposes a network to many related functions to facilitate its subsequent learning of similar functions. Prior work has shown that these meta-learned networks can learn new functions rapidly, but how they do so remains unclear. To investigate their internal structure, we take inspiration from classic work demonstrating additive relationships among the learned vectors that neural networks use to represent words (e.g., \"king\" minus \"man\" plus \"woman\" approximates \"queen\"). Analogously, we look for additive relationships among a meta-learned network's \"representations\" of different functions; when a meta-learned network rapidly learns to implement a specific function, all of its adapted parameter values can be concatenated into a single vector that we treat as representing the function. We find that such parameter vectors can be added and subtracted according to symbolic relationships among the functions they represent, yielding new parameter vectors that successfully represent the functions predicted by the corresponding symbolic manipulations: the networks specified by these artificially recombined vectors actually implement the intended functions without any direct training on them. Our results suggest that meta-learning can tune a network's starting point to organize subsequent learning along systematic, functionally meaningful trajectories through the space of possible parameter vectors, providing a geometric basis for realizing inductive biases in neural networks.",
+      "url": "https://arxiv.org/abs/2611.17314v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17314v1",
+      "relevance_score": 0.616,
+      "processed_date": "2026-11-14",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates humans can learn rapidly from limited experience, while neural networks typically require extensive training. In this work, we investigate what properties of a neural network can enable it to learn rapidly. We study neural networks that have been optimized via meta-learning, a technique that exposes a network to many related functions to facilitate its subsequent learning of similar functions. Our results suggest that meta-learning can tune a network's starting point to organize subsequent learning along systematic, functionally meaningful trajectories through the space of possible parameter vectors, providing a geometric basis for realizing inductive biases in neural networks.",
+      "key_concepts": [
+        "Neural Networks",
+        "Additive Relationships",
+        "Learn Rapidly",
+        "Meta-learned Network",
+        "Parameter Vectors",
+        "Subsequent Learning"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "In this work, we investigate what properties of a neural network can enable it to learn rapidly.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Neural Networks, Additive Relationships.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.17230",
+      "raw_id": "http://arxiv.org/abs/2611.17230v1",
+      "title": "Two mathematical models of knowledge distillation",
+      "authors": [
+        "Audrey Xie",
+        "Ludwig Schmidt",
+        "John Duchi"
+      ],
+      "published_date": "2026-11-12T18:21:37Z",
+      "updated_date": "2026-11-12T18:21:37Z",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Many hypotheses compete to explain the successes of knowledge distillation. To help address this, we propose and analyze a mathematical model of distillation, which suggests that distillation's performance comes not from obtaining better models but from easier to optimize landscapes. For generalized linear models trained with stochastic gradient descent, we prove that distillation fits performant student models asymptotically more quickly than non-distilled models. In rank-1 matrix approximation, we characterize conditions on the target matrix under which gradient descent with distillation converges strictly faster than training on the supervised objective. The theory helps delineate the ways distillation provides benefits (i.e., in optimization speed, not in generalization), and experiments on real datasets corroborate the theoretical predictions.",
+      "url": "https://arxiv.org/abs/2611.17230v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17230v1",
+      "relevance_score": 0.616,
+      "processed_date": "2026-11-14",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates many hypotheses compete to explain the successes of knowledge distillation. To help address this, we propose and analyze a mathematical model of distillation, which suggests that distillation's performance comes not from obtaining better models but from easier to optimize landscapes. For generalized linear models trained with stochastic gradient descent, we prove that distillation fits performant student models asymptotically more quickly than non-distilled models. The theory helps delineate the ways distillation provides benefits (i.e., in optimization speed, not in generalization), and experiments on real datasets corroborate the theoretical predictions. Many hypotheses compete to explain the successes of knowledge distillation.",
+      "key_concepts": [
+        "Knowledge Distillation",
+        "Analyze Mathematical",
+        "Approximation Characterize",
+        "Asymptotically Quickly",
+        "Benefits Optimization",
+        "Characterize Conditions"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "To help address this, we propose and analyze a mathematical model of distillation, which suggests that distillation's performance comes not from obtaining better models but from easier to optimize landscapes.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Knowledge Distillation, Analyze Mathematical.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Low-power edge AI devices, embedded IoT sensor networks, and distributed on-device inference.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.17167",
+      "raw_id": "http://arxiv.org/abs/2611.17167v1",
+      "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+      "authors": [
+        "Haochen Liu",
+        "Qianhao Zhu",
+        "Zixuan Wang",
+        "Dingming Li",
+        "Tongbo Chen",
+        "Peng Qiu",
+        "Yingqi Qu",
+        "Weiming Lu",
+        "Jun Xiao",
+        "Yongliang Shen"
+      ],
+      "published_date": "2026-11-12T17:42:46Z",
+      "updated_date": "2026-11-12T17:42:46Z",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorly can still teach well. We compare three decision models and three general LLMs as actors and judges on ALFWorld, and use JEV as a teacher on ALFWorld and WebShop. As actors, all six models are pulled away from a subgoal that must come first by an easier one. As judges that see the whole trajectory, the same models credit the steps toward that subgoal, and asking whether each action helped, rather than whether the task will succeed, separates useful from useless actions. As a teacher, JEV raises a Qwen2.5-1.5B policy over GRPO from 72.8% to 82.9% success on ALFWorld and from 56.8% to 71.4% on WebShop. These results suggest that a poor actor can still teach well, because judging an action after the episode ends reveals the consequences that acting must anticipate. Code is available at https://github.com/ZJU-REAL/decision-agents.",
+      "url": "https://arxiv.org/abs/2611.17167v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17167v1",
+      "relevance_score": 0.615,
+      "processed_date": "2026-11-14",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning. Prior work has studied them mainly as actors, judging their usefulness by how well they act. We ask whether a decision model that acts poorly can still teach well. Code is available at https://github.com/ZJU-REAL/decision-agents. Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken, or score every action to teach a policy with reinforcement learning.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Act Ask",
+        "Acting Anticipate",
+        "Action Episode",
+        "Action Helped",
+        "Action Teach"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "Prior work has studied them mainly as actors, judging their usefulness by how well they act.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Act Ask.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.17267",
+      "raw_id": "http://arxiv.org/abs/2611.17267v1",
+      "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+      "authors": [
+        "Pengcheng Zhou",
+        "Xuanyu Liu",
+        "Yanchen Yin",
+        "Tianjie Ju",
+        "Bobo Li",
+        "Shengqiong Wu",
+        "Hao Fei",
+        "Mong-Li Lee",
+        "Wynne Hsu"
+      ],
+      "published_date": "2026-11-12T18:45:58Z",
+      "updated_date": "2026-11-12T18:45:58Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "We introduce GeoWorld, a controllable and continuously evolving geographic environment platform for LLM agents, and LiveGeo, a benchmark for evaluating reliable decision-making in real-world geographic environments using GeoWorld. Unlike existing evaluations that largely reason and plan over fixed geographic states, GeoWorld is grounded in real-world geographic structure and allows external world states to evolve along their own temporal processes while preserving verifiable state histories. LiveGeo places geographic tasks within this evolving environment, requiring agents to actively acquire task-relevant information, verify whether the evidence supporting prior decisions remains valid, and revise their plans when necessary. Our results reveal that even frontier LLMs struggle with static tasks, with no model consistently excelling across tasks, while strong static performance does not ensure dynamic reliability. Further analysis identifies a key bottleneck: agents struggle to acquire and translate relevant evidence into valid decisions and maintain their correctness as the world evolves. By releasing LiveGeo together with its GeoWorld platform, we aim to provide the community with a flexible and extensible infrastructure for studying the next generation of agents capable of reliable action in evolving geographic worlds.",
+      "url": "https://arxiv.org/abs/2611.17267v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17267v1",
+      "relevance_score": 0.609,
+      "processed_date": "2026-11-14",
+      "summary": "Further analysis identifies a key bottleneck: agents struggle to acquire and translate relevant evidence into valid decisions and maintain their correctness as the world evolves. We introduce GeoWorld, a controllable and continuously evolving geographic environment platform for LLM agents, and LiveGeo, a benchmark for evaluating reliable decision-making in real-world geographic environments using GeoWorld. LiveGeo places geographic tasks within this evolving environment, requiring agents to actively acquire task-relevant information, verify whether the evidence supporting prior decisions remains valid, and revise their plans when necessary. By releasing LiveGeo together with its GeoWorld platform, we aim to provide the community with a flexible and extensible infrastructure for studying the next generation of agents capable of reliable action in evolving geographic worlds.",
+      "key_concepts": [
+        "Acquire Task-relevant",
+        "Acquire Translate",
+        "Action Evolving",
+        "Actively Acquire",
+        "Aim Provide",
+        "Evolving Geographic"
+      ],
+      "insights": {
+        "problem": "Further analysis identifies a key bottleneck: agents struggle to acquire and translate relevant evidence into valid decisions and maintain their correctness as the world evolves.",
+        "approach": "We introduce GeoWorld, a controllable and continuously evolving geographic environment platform for LLM agents, and LiveGeo, a benchmark for evaluating reliable decision-making in real-world geographic environments using GeoWorld.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Acquire Task-relevant, Acquire Translate.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2611.17160",
+      "raw_id": "http://arxiv.org/abs/2611.17160v1",
+      "title": "XBot-Omni: An Omni-Modal Model for Embodied Understanding and Interaction",
+      "authors": [
+        "Kerui Gu",
+        "Xing Fu",
+        "Shuoyang Sun",
+        "Cheng Peng",
+        "Jingru Duan",
+        "Huayu Gu",
+        "Zhenyu Chen",
+        "Jiaxin Huang",
+        "Cheng Wen",
+        "Rui Zhen",
+        "Kairui Chen",
+        "Zhihui Peng",
+        "Shaoli Huang"
+      ],
+      "published_date": "2026-11-12T17:38:57Z",
+      "updated_date": "2026-11-12T17:38:57Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Embodied interaction requires an agent to integrate multimodal perception with verbal and nonverbal behaviors to effectively communicate its intentions, including speech, body motion, and facial expressions. We present XBot-Omni, a Thinker--Talker--Actor architecture that extends the Omni paradigm to robotic modalities, including body motion and facial expressions, with ``X'' representing the extensibility to robotic-specific modalities. The Thinker processes text, images, audio, and video to formulate contextually appropriate responses, which are then realized by the Talker and Actor through speech and coordinated bodily expressions, respectively. In this report, we innovatively introduce the concept of ``Actor'' as a dedicated component for embodied agents: a coordinated, streaming module that leverages the native representations of the Thinker and Talker within an end-to-end pipeline, introducing only modest latency overhead. This unified architecture enables multimodal generation conditioned on omni-modal inputs directly to prevent information loss in staged designs. We comprehensively evaluate XBot-Omni across seven benchmarks, demonstrating strong multimodal understanding capabilities on both general-domain and robot-centric videos, as well as high-quality, natural, and well-coordinated motion generation. Furthermore, our results validate its capability to generate embodied multimodal responses directly from omni inputs, meeting the diverse requirements of embodied interaction. XBot-Omni enables robots not only to perceive the omni world but also to express themselves through speech and bodily behaviors, extending Omni models from conversational interaction to embodied communication in physical environments.",
+      "url": "https://arxiv.org/abs/2611.17160v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17160v1",
+      "relevance_score": 0.609,
+      "processed_date": "2026-11-14",
+      "summary": "Addressing critical demands in Robotics, this research investigates embodied interaction requires an agent to integrate multimodal perception with verbal and nonverbal behaviors to effectively communicate its intentions, including speech, body motion, and facial expressions. We present XBot-Omni, a Thinker--Talker--Actor architecture that extends the Omni paradigm to robotic modalities, including body motion and facial expressions, with ``X'' representing the extensibility to robotic-specific modalities. The Thinker processes text, images, audio, and video to formulate contextually appropriate responses, which are then realized by the Talker and Actor through speech and coordinated bodily expressions, respectively. XBot-Omni enables robots not only to perceive the omni world but also to express themselves through speech and bodily behaviors, extending Omni models from conversational interaction to embodied communication in physical environments.",
+      "key_concepts": [
+        "Body Motion",
+        "Embodied Interaction",
+        "Facial Expressions",
+        "Motion Facial",
+        "Robots Perceive Omni",
+        "Speech Coordinated Bodily"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We present XBot-Omni, a Thinker--Talker--Actor architecture that extends the Omni paradigm to robotic modalities, including body motion and facial expressions, with ``X'' representing the extensibility to robotic-specific modalities.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Body Motion, Embodied Interaction.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "In this report, we innovatively introduce the concept of ``Actor'' as a dedicated component for embodied agents: a coordinated, streaming module that leverages the native representations of the Thinker and Talker within an end-to-end pipeline, introducing only modest latency overhead."
       },
       "primary_topic": "Robotics"
     }

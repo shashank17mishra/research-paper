@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[13 November 2026 Report](reports/2026/11/13/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[14 November 2026 Report](reports/2026/11/14/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/13/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/14/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/13/infographic.png)](reports/2026/11/13/infographic.png)
+[![Daily Infographic](reports/2026/11/14/infographic.png)](reports/2026/11/14/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `3` |
+| **Artificial Intelligence (AI)** | `4` |
 | **Machine Learning (ML)** | `6` |
-| **Robotics** | `3` |
+| **Robotics** | `2` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Inner Product Regularization for Imitation Learning** | `Robotics` | `0.67` | [arXiv](https://arxiv.org/abs/2611.17159v1) |
-| 2 | **ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research** | `Natural Language Processing` | `0.67` | [arXiv](https://arxiv.org/abs/2611.17332v1) |
-| 3 | **UAV-Flow++: A Unified Suite for Benchmarking and Learning Language-Guide...** | `Artificial Intelligence` | `0.67` | [arXiv](https://arxiv.org/abs/2611.17163v1) |
-| 4 | **SpotDiff: A Plug-and-Play Framework for Zero-Shot Change Detection in Re...** | `Machine Learning` | `0.67` | [arXiv](https://arxiv.org/abs/2611.17172v1) |
-| 5 | **K2V: Generative Keyframing For Physically Plausible Video Generation** | `Artificial Intelligence` | `0.68` | [arXiv](https://arxiv.org/abs/2611.17324v1) |
+| 1 | **XBot-Omni: An Omni-Modal Model for Embodied Understanding and Interaction** | `Robotics` | `0.61` | [arXiv](https://arxiv.org/abs/2611.17160v1) |
+| 2 | **LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds** | `Natural Language Processing` | `0.61` | [arXiv](https://arxiv.org/abs/2611.17267v1) |
+| 3 | **Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon ...** | `Machine Learning` | `0.61` | [arXiv](https://arxiv.org/abs/2611.17167v1) |
+| 4 | **Two mathematical models of knowledge distillation** | `Machine Learning` | `0.62` | [arXiv](https://arxiv.org/abs/2611.17230v1) |
+| 5 | **Linking Rapid Learning to Compositional Structure in Neural Networks: Ev...** | `Machine Learning` | `0.62` | [arXiv](https://arxiv.org/abs/2611.17314v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `348`
-- **Total Operational Runs**: `47 days`
+- **Total Papers Analyzed**: `358`
+- **Total Operational Runs**: `48 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
 
