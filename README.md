@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[14 November 2026 Report](reports/2026/11/14/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[15 November 2026 Report](reports/2026/11/15/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/14/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/15/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/14/infographic.png)](reports/2026/11/14/infographic.png)
+[![Daily Infographic](reports/2026/11/15/infographic.png)](reports/2026/11/15/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `4` |
-| **Machine Learning (ML)** | `6` |
-| **Robotics** | `2` |
+| **Artificial Intelligence (AI)** | `3` |
+| **Machine Learning (ML)** | `9` |
+| **Robotics** | `1` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,20 +36,20 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **XBot-Omni: An Omni-Modal Model for Embodied Understanding and Interaction** | `Robotics` | `0.61` | [arXiv](https://arxiv.org/abs/2611.17160v1) |
-| 2 | **LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds** | `Natural Language Processing` | `0.61` | [arXiv](https://arxiv.org/abs/2611.17267v1) |
-| 3 | **Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon ...** | `Machine Learning` | `0.61` | [arXiv](https://arxiv.org/abs/2611.17167v1) |
-| 4 | **Two mathematical models of knowledge distillation** | `Machine Learning` | `0.62` | [arXiv](https://arxiv.org/abs/2611.17230v1) |
-| 5 | **Linking Rapid Learning to Compositional Structure in Neural Networks: Ev...** | `Machine Learning` | `0.62` | [arXiv](https://arxiv.org/abs/2611.17314v1) |
+| 1 | **Validation-Guided Prompt Selection for Differential Morphing Attack Dete...** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.17176v1) |
+| 2 | **Maximizing Capacity Utilization of LoRA Adapters for Mitigating the Lear...** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.17191v1) |
+| 3 | **eDMD: Endpoint Distribution Matching for Few-Step Diffusion Distillation** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.17194v1) |
+| 4 | **MALNISI-Infused Graph Construction and Weighted Contrastive Loss based G...** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.17199v1) |
+| 5 | **Goal Encoding in LLMs** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.17297v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `358`
-- **Total Operational Runs**: `48 days`
+- **Total Papers Analyzed**: `368`
+- **Total Operational Runs**: `49 days`
 - **Categories Tracked**: `15 categories`
-- **Primary Focus Areas**: Robotics, Artificial Intelligence, Machine Learning, Natural Language Processing
+- **Primary Focus Areas**: Robotics, Machine Learning, Artificial Intelligence, Natural Language Processing
 
 ---
 

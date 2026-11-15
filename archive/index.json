@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-14T07:27:12.061263",
-  "total_entries": 358,
+  "updated_at": "2026-11-15T07:38:50.946920",
+  "total_entries": 368,
   "months": [
     "2026-11",
     "2026-10"
@@ -15232,6 +15232,415 @@
         "limitations": "In this report, we innovatively introduce the concept of ``Actor'' as a dedicated component for embodied agents: a coordinated, streaming module that leverages the native representations of the Thinker and Talker within an end-to-end pipeline, introducing only modest latency overhead."
       },
       "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.17309",
+      "raw_id": "http://arxiv.org/abs/2611.17309v1",
+      "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+      "authors": [
+        "Benjamin Hoover",
+        "Hugh Blayney",
+        "James C. R. Whittington"
+      ],
+      "published_date": "2026-11-12T18:56:56Z",
+      "updated_date": "2026-11-12T18:56:56Z",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique. However, these models can be unstable, slow to train, and use many parameters and FLOPs to solve simple puzzles. Descent on an energy not only mitigates these issues but also offers advantages: built-in early stopping, compute that adapts to problem difficulty, fast training without differentiating through a solver, and interpretable weights that learn the constraints of the puzzle. Here we demonstrate this with a learned version of Hopfield & Tank's energy from the 80s, which we term CRAM, solves 99.996% of Sudoku-Extreme and 100% of Maze-Unique test puzzles after 42 ms and 132 ms of training on one GPU, at least 1,000x faster than looped models on these tasks. CRAM also matches baseline looped models at their highest accuracy on Sudoku-Extreme using at least 282x fewer inference FLOPs. Our work suggests two things. First, that energies are an extremely promising direction for training reasoning from data. Second, a caution against using trivially solvable benchmarks like Sudoku and Maze to test the scalability of looped reasoning techniques.",
+      "url": "https://arxiv.org/abs/2611.17309v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17309v1",
+      "relevance_score": 0.583,
+      "processed_date": "2026-11-15",
+      "summary": "However, these models can be unstable, slow to train, and use many parameters and FLOPs to solve simple puzzles. However, these models can be unstable, slow to train, and use many parameters and FLOPs to solve simple puzzles. Descent on an energy not only mitigates these issues but also offers advantages: built-in early stopping, compute that adapts to problem difficulty, fast training without differentiating through a solver, and interpretable weights that learn the constraints of the puzzle. First, that energies are an extremely promising direction for training reasoning from data. Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique.",
+      "key_concepts": [
+        "Accuracy Sudoku-extreme",
+        "Adapts Problem",
+        "Advantages Built-in",
+        "Built-in Early",
+        "Compute Adapts",
+        "Constraints Puzzle"
+      ],
+      "insights": {
+        "problem": "However, these models can be unstable, slow to train, and use many parameters and FLOPs to solve simple puzzles.",
+        "approach": "However, these models can be unstable, slow to train, and use many parameters and FLOPs to solve simple puzzles.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Accuracy Sudoku-extreme, Adapts Problem.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Descent on an energy not only mitigates these issues but also offers advantages: built-in early stopping, compute that adapts to problem difficulty, fast training without differentiating through a solver, and interpretable weights that learn the constraints of the puzzle."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.17330",
+      "raw_id": "http://arxiv.org/abs/2611.17330v1",
+      "title": "ProtoVis-Nav: Prototypical Visual Imagination for Visual-Spatial Aligned UAV Navigation",
+      "authors": [
+        "Guangyuan Sui",
+        "Yunzhong Hou",
+        "Chi Harold Liu"
+      ],
+      "published_date": "2026-11-12T18:59:49Z",
+      "updated_date": "2026-11-12T18:59:49Z",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "abstract": "Vision language navigation (VLN) is very challenging for Unmanned Aerial Vehicles (UAVs) since small errors in 3D motion prediction can lead to navigation errors and collisions. Unable to fathom execution outcomes in 3D environments, existing methods often struggle to predict accurate navigation waypoints from language instructions. To solve this, we introduce the Prototypical Visual Imagination framework, shortened as ProtoVis-Nav, which forces the model to imagine an outcome-associated local visual representation for the intended next UAV movement. Specifically, we predict feature prototypes and use their linear combination to estimate the visual feature of the target region. In this manner, the VLN model first imagines the local visual representation of the next intended location, and then uses predicted prototypes as context for generating the final action, promoting alignment between visual context and waypoint outputs. Extensive experiments demonstrate the effectiveness of the ProtoVis-Nav framework and show substantial improvements over existing baselines.",
+      "url": "https://arxiv.org/abs/2611.17330v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17330v1",
+      "relevance_score": 0.577,
+      "processed_date": "2026-11-15",
+      "summary": "Addressing critical demands in Robotics, this research investigates vision language navigation (vln) is very challenging for unmanned aerial vehicles (uavs) since small errors in 3d motion prediction can lead to navigation errors and collisions. To solve this, we introduce the Prototypical Visual Imagination framework, shortened as ProtoVis-Nav, which forces the model to imagine an outcome-associated local visual representation for the intended next UAV movement. Extensive experiments demonstrate the effectiveness of the ProtoVis-Nav framework and show substantial improvements over existing baselines. Vision language navigation (VLN) is very challenging for Unmanned Aerial Vehicles (UAVs) since small errors in 3D motion prediction can lead to navigation errors and collisions.",
+      "key_concepts": [
+        "Accurate Navigation",
+        "Action Promoting",
+        "Aerial Vehicles",
+        "Challenging Unmanned",
+        "Collisions Unable",
+        "Combination Estimate"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "To solve this, we introduce the Prototypical Visual Imagination framework, shortened as ProtoVis-Nav, which forces the model to imagine an outcome-associated local visual representation for the intended next UAV movement.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Accurate Navigation, Action Promoting.",
+        "results": "Extensive experiments demonstrate the effectiveness of the ProtoVis-Nav framework and show substantial improvements over existing baselines.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.17169",
+      "raw_id": "http://arxiv.org/abs/2611.17169v1",
+      "title": "Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing",
+      "authors": [
+        "Umar Ahmed",
+        "Maxim Dunaev",
+        "Mohammad Nour Al Awad",
+        "Sergey Ivanov",
+        "Ivan Khodnenko"
+      ],
+      "published_date": "2026-11-12T17:43:44Z",
+      "updated_date": "2026-11-12T17:43:44Z",
+      "categories": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell. We ask whether the output format, a free design choice, controls how often this happens. On the PIZZA ordering benchmark we fine-tune two sub-billion models (Qwen3.5-0.8B and LFM2.5-350M) with LoRA on six lossless encodings of the same target tree, from 44.3 down to 10.9 tokens per order, including two matched-length pairs that vary surface form at fixed length. Across 300 runs (5 training pool sizes, 5 seeds) with a hierarchical bootstrap and Holm correction fixed before the results were read, shortening alone never helps, but writing the target in ordinary words does. The word encoding is the most accurate format on both models (87.5% vs. 85.8% exact match for the native s-expression on Qwen) while emitting 4.1x fewer tokens, and it cuts the silent error rate by 2.3x on Qwen and 1.8x on LFM2, separating at every pool size. Error analysis locates much of the gain in negation. All runs also learn to refuse off-menu input (held out: 95.9-99.0% handled) and to apply in-utterance self-corrections. Strict refusal has a measured price: 2.1-10.1% of real, mostly polite, orders are refused.",
+      "url": "https://arxiv.org/abs/2611.17169v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17169v1",
+      "relevance_score": 0.576,
+      "processed_date": "2026-11-15",
+      "summary": "Addressing critical demands in Natural Language Processing, this research investigates a small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell. We ask whether the output format, a free design choice, controls how often this happens. On the PIZZA ordering benchmark we fine-tune two sub-billion models (Qwen3.5-0.8B and LFM2.5-350M) with LoRA on six lossless encodings of the same target tree, from 44.3 down to 10.9 tokens per order, including two matched-length pairs that vary surface form at fixed length. Strict refusal has a measured price: 2.1-10.1% of real, mostly polite, orders are refused. A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell.",
+      "key_concepts": [
+        "Accurate Format",
+        "Apply In-utterance",
+        "Ask Output",
+        "Bootstrap Holm",
+        "Choice Controls",
+        "Controls Happens"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+        "approach": "We ask whether the output format, a free design choice, controls how often this happens.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Accurate Format, Apply In-utterance.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2611.17336",
+      "raw_id": "http://arxiv.org/abs/2611.17336v1",
+      "title": "Back to Pixels: Lifting Latent Video Diffusion into Pixel Space",
+      "authors": [
+        "Yanke Song",
+        "Shuo Chen",
+        "Chris Rockwell",
+        "Guande He",
+        "Nan Liu",
+        "Desai Xie",
+        "Tianpei Gu",
+        "Yong-Hyun Park",
+        "Aryan V S",
+        "Dennis Yuren Menn",
+        "Ming-Hsuan Yang",
+        "Xun Huang"
+      ],
+      "published_date": "2026-11-12T18:59:55Z",
+      "updated_date": "2026-11-12T18:59:55Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than individual ones, and each response must wait for the rest of its multi-frame block. We present PixVid, a simple yet effective method that lifts a pretrained latent video model to directly generate every frame in pixel space. PixVid keeps the diffusion transformer and replaces the VAE decoder with a convolutional head that renders its outputs into pixels. We find that predicting clean video rather than velocity, together with a larger noise shift, is key to quality. Finetuned from Wan2.1-14B, PixVid is competitive with the latent baseline within \\sim 1.3M training clips. Working framewise in pixels, it generates at 2\\times higher resolution with the same per-frame token count, keeps depth-conditioned video editing aligned under fast motion, and responds to each action at the next frame. Project page: https://chenshuo20.github.io/PixVid/",
+      "url": "https://arxiv.org/abs/2611.17336v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17336v1",
+      "relevance_score": 0.563,
+      "processed_date": "2026-11-15",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates frontier video generation models work in a vae latent space that compresses video in both space and time. We present PixVid, a simple yet effective method that lifts a pretrained latent video model to directly generate every frame in pixel space. Project page: https://chenshuo20.github.io/PixVid/ Frontier video generation models work in a VAE latent space that compresses video in both space and time. This compression made training tractable, but now limits high-resolution, controllable, and interactive generation -- doubling resolution quadruples token count, conditions apply to groups of frames rather than individual ones, and each response must wait for the rest of its multi-frame block.",
+      "key_concepts": [
+        "Action Frame",
+        "Aligned Fast",
+        "Apply Groups",
+        "Block Present",
+        "Clean Video",
+        "Clips Working"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We present PixVid, a simple yet effective method that lifts a pretrained latent video model to directly generate every frame in pixel space.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Action Frame, Aligned Fast.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.17329",
+      "raw_id": "http://arxiv.org/abs/2611.17329v1",
+      "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+      "authors": [
+        "Zeynep Yıldız",
+        "Satchit Chatterji",
+        "Ercan Atam",
+        "Erman Acar"
+      ],
+      "published_date": "2026-11-12T18:59:37Z",
+      "updated_date": "2026-11-12T18:59:37Z",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. Deep reinforcement learning has been shown to optimize financial performance but typically does not enforce rule compliance, making it unsuitable for real-world deployment. Existing neurosymbolic methods such as Probabilistic Logic Policy Gradient (PLPG) offer constraint-satisfying reinforcement learning (RL) via differentiable symbolic supervision but assume a finite, discrete action space. We present a PLPG-inspired continuous allocation method that estimates the probability that the policy's own executed action satisfies the investment mandate, using reparameterized Monte Carlo sampling, and adds it to the training objective. No post-hoc enforcement mechanism intercepts actions at inference time and compliance is learned by the agent. Audited directly on deterministic mean actions with no correction, the policy reduces violations of a six-rule regime-conditional mandate from 96-98% for unconstrained RL and 33.4% for a reward-penalty baseline to 4.8%, showing that a continuous-action neurosymbolic policy can substantially internalize a symbolic mandate.",
+      "url": "https://arxiv.org/abs/2611.17329v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17329v1",
+      "relevance_score": 0.563,
+      "processed_date": "2026-11-15",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information. We present a PLPG-inspired continuous allocation method that estimates the probability that the policy's own executed action satisfies the investment mandate, using reparameterized Monte Carlo sampling, and adds it to the training objective. Existing neurosymbolic methods such as Probabilistic Logic Policy Gradient (PLPG) offer constraint-satisfying reinforcement learning (RL) via differentiable symbolic supervision but assume a finite, discrete action space. Audited directly on deterministic mean actions with no correction, the policy reduces violations of a six-rule regime-conditional mandate from 96-98% for unconstrained RL and 33.4% for a reward-penalty baseline to 4.8%, showing that a continuous-action neurosymbolic policy can substantially internalize a symbolic mandate.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Action Satisfies",
+        "Action Space",
+        "Actions Correction",
+        "Actions Inference",
+        "Agent Audited"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We present a PLPG-inspired continuous allocation method that estimates the probability that the policy's own executed action satisfies the investment mandate, using reparameterized Monte Carlo sampling, and adds it to the training objective.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Action Satisfies.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.17297",
+      "raw_id": "http://arxiv.org/abs/2611.17297v1",
+      "title": "Goal Encoding in LLMs",
+      "authors": [
+        "Arnab Sen Sharma",
+        "Eric Todd",
+        "Sheridan Feucht",
+        "Andy Arditi",
+        "Rohit Gandikota",
+        "Natalie Shapira",
+        "Gabriele Sarti",
+        "Constanza Fierro",
+        "Lisa Schut",
+        "David Bau"
+      ],
+      "published_date": "2026-11-12T18:55:06Z",
+      "updated_date": "2026-11-12T18:55:06Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "We investigate whether and how LLMs encode goals: internal neural representations that precede and guide action, and that are flexible enough to be realized through many different execution paths. We construct a coding setting with multiple sub-tasks that allows us to evaluate goal-seeking behavior and the selection of sub-goals. In this setting, we localize an encoding of the next sub-goal in the outputs of a sparse set of attention heads. The same heads can be used to decode the LM's future actions in natural language (e.g., \"I'm checking if a word is a palindrome\"). We verify that this encoding is causal for next action and is plastic: transplanting it into a different environment, e.g., another programming language, triggers the same operation realized with a different sequence of tokens. The LM also sustains the encoding throughout the action's execution, which is puzzling because a transformer LM without recurrence cannot carry a state forward for more tokens than it has layers left. We propose that it does not need to. Under a non-recurrent goal-seeking (NRGS) account, the LM frequently re-reads the goal from the task specification, compares it with the progress visible in the growing context, and pursues what remains. We test the predictions of this account with targeted causal interventions.",
+      "url": "https://arxiv.org/abs/2611.17297v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17297v1",
+      "relevance_score": 0.563,
+      "processed_date": "2026-11-15",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates we investigate whether and how llms encode goals: internal neural representations that precede and guide action, and that are flexible enough to be realized through many different execution paths. We propose that it does not need to. In this setting, we localize an encoding of the next sub-goal in the outputs of a sparse set of attention heads. We test the predictions of this account with targeted causal interventions. We investigate whether and how LLMs encode goals: internal neural representations that precede and guide action, and that are flexible enough to be realized through many different execution paths.",
+      "key_concepts": [
+        "Account Frequently",
+        "Account Targeted",
+        "Action Execution",
+        "Action Flexible",
+        "Action Plastic",
+        "Actions Natural"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We propose that it does not need to.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Account Frequently, Account Targeted.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.17199",
+      "raw_id": "http://arxiv.org/abs/2611.17199v1",
+      "title": "MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI",
+      "authors": [
+        "Soumi Sarkar",
+        "Subhadip Boral",
+        "Sarbani Palit",
+        "Ashish Ghosh"
+      ],
+      "published_date": "2026-11-12T18:02:53Z",
+      "updated_date": "2026-11-12T18:02:53Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "abstract": "Hyperspectral images (HSI) possess discriminating spectral characteristics with respect to land utilization due to high-dimensional information. Recently, unsupervised representation learning using graph neural networks has unveiled these utilization-specific complex spectral relations. This article has three main contributions. First, it proposes an index, the Mean Absolute Local Neighborhood Inverse Spectral Index (MALNISI), which measures the similarity between two pixels based on their neighborhood information. The index is used to construct a weighted adjacency matrix, giving the HSI a graph structure. Second, it proposes an upgraded Graph Attention Network that learns compact latent representations of hyperspectral data from the constructed graph. In this network, an enhanced multi-head attention mechanism incorporates the MALNISI weights as an auxiliary feature to emphasize learned attention between neighboring pixels. To alleviate over-smoothing and preserve fine-grained spectral details, the architecture integrates residual connections, skip projections, and feature normalization, which together enhance representation capability, stabilize learning, and accelerate convergence. Third, it proposes a weighted contrastive loss function that incorporates neighborhood-aware MALNISI between connected pixels, encouraging strongly connected pixels in the high-dimensional space to remain close in the latent space, and weakly connected pixels to stay apart. The resulting discriminative low-dimensional embeddings are then clustered using spectral clustering. Experimental analysis on six benchmark HSI datasets demonstrates the efficiency and necessity of the three aforementioned contributions, and the comparative study highlights superior performance over fourteen state-of-the-art approaches.",
+      "url": "https://arxiv.org/abs/2611.17199v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17199v1",
+      "relevance_score": 0.563,
+      "processed_date": "2026-11-15",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates hyperspectral images (hsi) possess discriminating spectral characteristics with respect to land utilization due to high-dimensional information. Recently, unsupervised representation learning using graph neural networks has unveiled these utilization-specific complex spectral relations. Experimental analysis on six benchmark HSI datasets demonstrates the efficiency and necessity of the three aforementioned contributions, and the comparative study highlights superior performance over fourteen state-of-the-art approaches. Hyperspectral images (HSI) possess discriminating spectral characteristics with respect to land utilization due to high-dimensional information. This article has three main contributions. First, it proposes an index, the Mean Absolute Local Neighborhood Inverse Spectral Index (MALNISI), which measures the similarity between two pixels based on their neighborhood information.",
+      "key_concepts": [
+        "Representation Learning",
+        "Attention Mechanism",
+        "Weighted Contrastive",
+        "Alleviate Over-smoothing",
+        "Apart Resulting",
+        "Connected Pixels"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "Recently, unsupervised representation learning using graph neural networks has unveiled these utilization-specific complex spectral relations.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Representation Learning, Attention Mechanism.",
+        "results": "Experimental analysis on six benchmark HSI datasets demonstrates the efficiency and necessity of the three aforementioned contributions, and the comparative study highlights superior performance over fourteen state-of-the-art approaches.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.17194",
+      "raw_id": "http://arxiv.org/abs/2611.17194v1",
+      "title": "eDMD: Endpoint Distribution Matching for Few-Step Diffusion Distillation",
+      "authors": [
+        "Tong Zhao",
+        "Xianfang Zeng",
+        "Yucheng Han",
+        "Ruoyu Wang",
+        "Mingkun Lei",
+        "Gang Yu",
+        "Chi Zhang"
+      ],
+      "published_date": "2026-11-12T17:57:48Z",
+      "updated_date": "2026-11-12T17:57:48Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Distribution matching distillation (DMD) has emerged as a leading paradigm for distilling diffusion models into few-step students, where an auxiliary fake score model tracks the student's distribution and the discrepancy between the teacher and fake predictions drives the student toward the teacher. In multi-step distillation, although only the student's final output is delivered, existing methods train the fake model on intermediate states or across all denoising steps. Consequently, the student's update signal becomes entangled with intermediate distributions, which can distort the matching direction and remain nonzero even after the student's final outputs already match the teacher distribution. To resolve this mismatch, we propose Endpoint Distribution Matching Distillation (eDMD), which trains a single shared fake model exclusively on the student's final outputs and uses it to correct every denoising step. Our theoretical analysis proves that this endpoint reference guarantees that the distribution matching term vanishes if and only if the student's final output distribution matches the teacher's, regardless of intermediate distributions. Beyond the fake reference, we further strengthen teacher supervision through a precise teacher (PT) that replaces single-step guided predictions with short multi-step trajectories on the final noise interval, paired with a calibrated query density for intermediate steps. Experiments on SD3-Medium, FLUX.2-klein (4B and 9B), and Qwen-Image-2.1 demonstrate that eDMD consistently outperforms existing distribution matching methods for 4-step generation.",
+      "url": "https://arxiv.org/abs/2611.17194v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17194v1",
+      "relevance_score": 0.563,
+      "processed_date": "2026-11-15",
+      "summary": "In multi-step distillation, although only the student's final output is delivered, existing methods train the fake model on intermediate states or across all denoising steps. To resolve this mismatch, we propose Endpoint Distribution Matching Distillation (eDMD), which trains a single shared fake model exclusively on the student's final outputs and uses it to correct every denoising step. Experiments on SD3-Medium, FLUX.2-klein (4B and 9B), and Qwen-Image-2.1 demonstrate that eDMD consistently outperforms existing distribution matching methods for 4-step generation. Distribution matching distillation (DMD) has emerged as a leading paradigm for distilling diffusion models into few-step students, where an auxiliary fake score model tracks the student's distribution and the discrepancy between the teacher and fake predictions drives the student toward the teacher.",
+      "key_concepts": [
+        "Distribution Matching",
+        "Final Output",
+        "Intermediate Distributions",
+        "Matching Distillation",
+        "Student Final",
+        "Tracks Student"
+      ],
+      "insights": {
+        "problem": "In multi-step distillation, although only the student's final output is delivered, existing methods train the fake model on intermediate states or across all denoising steps.",
+        "approach": "To resolve this mismatch, we propose Endpoint Distribution Matching Distillation (eDMD), which trains a single shared fake model exclusively on the student's final outputs and uses it to correct every denoising step.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Distribution Matching, Final Output.",
+        "results": "Experiments on SD3-Medium, FLUX.2-klein (4B and 9B), and Qwen-Image-2.1 demonstrate that eDMD consistently outperforms existing distribution matching methods for 4-step generation.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.17191",
+      "raw_id": "http://arxiv.org/abs/2611.17191v1",
+      "title": "Maximizing Capacity Utilization of LoRA Adapters for Mitigating the Learning-Forgetting Trade-off",
+      "authors": [
+        "Tomohiro Sawada",
+        "Kartik Goyal"
+      ],
+      "published_date": "2026-11-12T17:55:33Z",
+      "updated_date": "2026-11-12T17:55:33Z",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "Low-Rank Adaptation (LoRA) often underperforms full fine-tuning, especially in heterogeneous and continual-learning settings in which substantial forgetting occurs. In general, it suffers from an undesirable learning-forgetting trade-off across diverse fine-tuning settings. We identify a potential contributor: LoRA adapters, especially high-rank ones, frequently fail to realize the available capacity afforded by the configured rank. Specifically, we find that standard LoRA updates have effective rank far below their configured rank, limiting how broadly the update energy is distributed. Therefore, we propose training mechanisms that optimize the original objective while maximizing adapter effective rank. Our main method adds a simple, stable, differentiable, and SVD-free Rényi-2 effective-rank regularizer to the language-modeling loss. We also connect capacity maximization to norm-bounded updates. In mixed-domain rank sweeps on three models evaluated with multiple random seeds, a penalty weight of λ=0.01 lowers mean Wiki perplexity at every tested rank of at least 16 relative to unpenalized LoRA. Mean training perplexity improves or increases by at most 0.02 in all but one model-rank comparison. Single-task and scheduling experiments further show that the balance between learning and retention depends on the configuration. We also observe that several LoRA variants in the literature also suffer from the identified capacity issue, and our approach provides a complementary axis of improvement to LoRA-based parameter-efficient fine-tuning. These results suggest that effective rank is not only a post-hoc diagnostic of adapter quality, but a trainable objective for improving the learning-forgetting frontier. Our code is available at https://github.com/tomohiro-sawada/lora-capacity-utilization",
+      "url": "https://arxiv.org/abs/2611.17191v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17191v1",
+      "relevance_score": 0.563,
+      "processed_date": "2026-11-15",
+      "summary": "We also observe that several LoRA variants in the literature also suffer from the identified capacity issue, and our approach provides a complementary axis of improvement to LoRA-based parameter-efficient fine-tuning. Therefore, we propose training mechanisms that optimize the original objective while maximizing adapter effective rank. We identify a potential contributor: LoRA adapters, especially high-rank ones, frequently fail to realize the available capacity afforded by the configured rank. Our code is available at https://github.com/tomohiro-sawada/lora-capacity-utilization Low-Rank Adaptation (LoRA) often underperforms full fine-tuning, especially in heterogeneous and continual-learning settings in which substantial forgetting occurs. In general, it suffers from an undesirable learning-forgetting trade-off across diverse fine-tuning settings.",
+      "key_concepts": [
+        "Adds Simple Stable",
+        "Afforded Configured",
+        "Available Capacity",
+        "Configured Rank",
+        "Tested Rank",
+        "Tomohiro-sawada Lora-capacity-utilization"
+      ],
+      "insights": {
+        "problem": "We also observe that several LoRA variants in the literature also suffer from the identified capacity issue, and our approach provides a complementary axis of improvement to LoRA-based parameter-efficient fine-tuning.",
+        "approach": "Therefore, we propose training mechanisms that optimize the original objective while maximizing adapter effective rank.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Adds Simple Stable, Afforded Configured.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "In general, it suffers from an undesirable learning-forgetting trade-off across diverse fine-tuning settings."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.17176",
+      "raw_id": "http://arxiv.org/abs/2611.17176v1",
+      "title": "Validation-Guided Prompt Selection for Differential Morphing Attack Detection",
+      "authors": [
+        "Raghavendra Ramachandra",
+        "Hailin Li"
+      ],
+      "published_date": "2026-11-12T17:46:31Z",
+      "updated_date": "2026-11-12T17:46:31Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Differential morphing attack detection (D-MAD) compares a trusted live capture with a document image that may contain a facial morph. We investigate whether labelled validation data can improve a frozen-parameter vision-language evaluator through prompt selection rather than model fine-tuning. Version~1 generates 50 candidate prompts and selects the top-ranked instruction using a security-oriented loss that prioritises missed morph attacks (MACER) while accounting for bona fide classification errors (BSCER), response failures, parse failures, and decision inconsistency. Version~2 recursively revises prompts using aggregate validation feedback. On a subject-disjoint test set of 160 pairs spanning LMA, MIPGAN-2, and PIPE, the selected Version~1 prompt achieves a (19.17\\%) morph attack classification error rate (MACER), with (0.00\\%) observed bona fide sample classification error rate (BSCER), compared with (70.00\\%) MACER for a controlled manual prompt. The paired (50.83) percentage-point difference has a (95\\%) subject-bootstrap interval of ([43.33,58.33]). Recursive revision does not surpass the best Generation~0 validation loss; the reported revised descendant obtains (31.67\\%) test MACER. All 23 attacks missed by Version~1 are landmark-based (LMA) morphs. Overall, the results show that prompt formulation can substantially influence frozen-parameter VLM-based D-MAD performance, while also highlighting the challenge of recursive prompt refinement under a compact 10-subject validation setting.",
+      "url": "https://arxiv.org/abs/2611.17176v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.17176v1",
+      "relevance_score": 0.563,
+      "processed_date": "2026-11-15",
+      "summary": "Overall, the results show that prompt formulation can substantially influence frozen-parameter VLM-based D-MAD performance, while also highlighting the challenge of recursive prompt refinement under a compact 10-subject validation setting. We investigate whether labelled validation data can improve a frozen-parameter vision-language evaluator through prompt selection rather than model fine-tuning. Overall, the results show that prompt formulation can substantially influence frozen-parameter VLM-based D-MAD performance, while also highlighting the challenge of recursive prompt refinement under a compact 10-subject validation setting. Differential morphing attack detection (D-MAD) compares a trusted live capture with a document image that may contain a facial morph. Version~1 generates 50 candidate prompts and selects the top-ranked instruction using a security-oriented loss that prioritises missed morph attacks (MACER) while accounting for bona fide classification errors (BSCER), response failures, parse failures, and decision inconsistency.",
+      "key_concepts": [
+        "Attacks Macer Accounting",
+        "Attacks Missed",
+        "Best Generation",
+        "Bona Fide",
+        "Classification Error",
+        "Error Rate"
+      ],
+      "insights": {
+        "problem": "Overall, the results show that prompt formulation can substantially influence frozen-parameter VLM-based D-MAD performance, while also highlighting the challenge of recursive prompt refinement under a compact 10-subject validation setting.",
+        "approach": "We investigate whether labelled validation data can improve a frozen-parameter vision-language evaluator through prompt selection rather than model fine-tuning.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Attacks Macer Accounting, Attacks Missed.",
+        "results": "Overall, the results show that prompt formulation can substantially influence frozen-parameter VLM-based D-MAD performance, while also highlighting the challenge of recursive prompt refinement under a compact 10-subject validation setting.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
     }
   ]
 }
