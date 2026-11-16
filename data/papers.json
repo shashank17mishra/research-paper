@@ -15634,5 +15634,444 @@
       "limitations": "Not specified in the available abstract."
     },
     "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.18562",
+    "raw_id": "http://arxiv.org/abs/2611.18562v1",
+    "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+    "authors": [
+      "Jiaming Tang",
+      "Zhuoyang Zhang",
+      "Junxian Guo",
+      "Fangzhou Zhao",
+      "Yilong Zhao",
+      "Zekai Li",
+      "Xingyang Li",
+      "Yuyang Zhao",
+      "Song Bian",
+      "Zhijian Liu",
+      "Song Han"
+    ],
+    "published_date": "2026-11-13T18:59:02Z",
+    "updated_date": "2026-11-13T18:59:02Z",
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "abstract": "Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight models remain substantially less capable. We show that an open-weight 27B reasoning model can be trained to use real robots natively through reinforcement learning, entirely in simulation and without demonstrations. Like a computer-use agent (CUA), the model observes the environment, reasons in a chain of thought, and generates the next end-effector pose, without any harness. We build a Post-training Engine for Agentic Robotics (PEAR) and use it to train the model on simulated robot tasks at scale with robot-use reinforcement learning (RURL), mirroring how frontier models acquire computer use. We find that the skills acquired in simulation generalize well beyond the training tasks: they transfer to an unseen robot, to the real world, and to novel instructions. After training on LIBERO and RoboDojo in simulation, the model succeeds in 60% of our trials on a real dual-arm robot, whereas the base model succeeds in none. On LIBERO, training raises the success rate from 1.6% to 74.4%, approaching GPT-6 Astra and GPT-6.1 Sol at maximum reasoning effort. Compared with π_{0.5}, a vision-language-action model fine-tuned on demonstrations, our model is substantially more robust to changes in the task itself. On LIBERO-Pro, π_{0.5} succeeds in only 0.75% of episodes when assigned a new task in a familiar scene whereas our model succeeds in 57.4%. Finally, the model retains its general capabilities, with no measurable degradation on nine reasoning, coding and vision benchmarks. These results highlight robot-use reinforcement learning as a promising component of foundation-model post-training.",
+    "url": "https://arxiv.org/abs/2611.18562v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.18562v1",
+    "relevance_score": 0.783,
+    "processed_date": "2026-11-16",
+    "summary": "However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight models remain substantially less capable. We build a Post-training Engine for Agentic Robotics (PEAR) and use it to train the model on simulated robot tasks at scale with robot-use reinforcement learning (RURL), mirroring how frontier models acquire computer use. We find that the skills acquired in simulation generalize well beyond the training tasks: they transfer to an unseen robot, to the real world, and to novel instructions. We show that an open-weight 27B reasoning model can be trained to use real robots natively through reinforcement learning, entirely in simulation and without demonstrations. These results highlight robot-use reinforcement learning as a promising component of foundation-model post-training.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Use Real",
+      "Approaching Gpt-",
+      "Gpt- Astra",
+      "Robot-use Reinforcement",
+      "Transfer Unseen"
+    ],
+    "insights": {
+      "problem": "However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight models remain substantially less capable.",
+      "approach": "We build a Post-training Engine for Agentic Robotics (PEAR) and use it to train the model on simulated robot tasks at scale with robot-use reinforcement learning (RURL), mirroring how frontier models acquire computer use.",
+      "key_innovation": "We find that the skills acquired in simulation generalize well beyond the training tasks: they transfer to an unseen robot, to the real world, and to novel instructions.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.18397",
+    "raw_id": "http://arxiv.org/abs/2611.18397v1",
+    "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+    "authors": [
+      "Run Luo",
+      "Kuan Zhang",
+      "Qi Deng",
+      "Yukun Chen",
+      "Zhihao Yang",
+      "Yufei Zhang",
+      "Renrong Hu",
+      "Yi Zhang",
+      "Guiyu Ma",
+      "Tianyu Fan",
+      "Longze Chen",
+      "Hao Sun",
+      "Jiaming Li",
+      "Jiaming Yang",
+      "Xiaohao Liu",
+      "Tao Tan",
+      "Minzheng Wang",
+      "Hangtian Jia",
+      "Shuai Yuan",
+      "Lvdi Wang",
+      "Xiao Liu",
+      "Chao Ma",
+      "Yuting Zou",
+      "Yinhe Zheng",
+      "Xiaobo Xia",
+      "Dawei Jiang",
+      "Shaoqing Ren"
+    ],
+    "published_date": "2026-11-13T16:39:30Z",
+    "updated_date": "2026-11-13T16:39:30Z",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "abstract": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajectories span simulated games and embodied environments, allowing the model to learn environmental dynamics across both physical and virtual domains. Sparse-thinking instruction tuning then substantially reduces redundant computation while preserving the reasoning needed for complex decisions. We train the policy for long-horizon interaction with a stable multi-turn reinforcement learning method that addresses finite context windows, accumulated rollout errors, and sparse rewards. For real-time interaction, a cloud-edge inference engine serves numerous simulated game environments concurrently, supports unbounded-context execution, and keeps online inference latency low. Across multiple challenging 3D open-world games, Gamer demonstrates solid generalization and operational efficiency comparable to skilled players. It also achieves competitive results on a range of conventional 2D game benchmarks. These results suggest that even repetitive keyboard and mouse trajectories can support substantial gains from scaling data and learning algorithms. Training on these trajectories helps Gamer learn complex skills more steadily in environments with both physical and digital properties. This approach offers a path toward generalist agents that can interact across digital and physical worlds.",
+    "url": "https://arxiv.org/abs/2611.18397v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.18397v1",
+    "relevance_score": 0.757,
+    "processed_date": "2026-11-16",
+    "summary": "Addressing critical demands in Machine Learning, this research investigates we introduce gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. This approach offers a path toward generalist agents that can interact across digital and physical worlds. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Foundation Model",
+      "Keyboard Mouse",
+      "Tens Thousands",
+      "Thousands Hours",
+      "Train Policy"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+      "approach": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Foundation Model.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.18506",
+    "raw_id": "http://arxiv.org/abs/2611.18506v1",
+    "title": "Agentic induction of common data elements and information extraction from sarcoma case report abstracts",
+    "authors": [
+      "Daniel Reichenpfader",
+      "Kwaku Appiagyei",
+      "Manovah Nadarajah",
+      "Ahmed Reda Bahr",
+      "Irina Filchenko",
+      "Fabio Dennstädt"
+    ],
+    "published_date": "2026-11-13T18:23:11Z",
+    "updated_date": "2026-11-13T18:23:11Z",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Common data elements (CDEs) support clinical data comparability but are usually defined manually. We investigated whether large language model agents could derive a CDE schema from sarcoma case report abstracts and apply it at scale. An agent proposed 72,909 candidate CDEs from 24,588 PubMed abstracts; agentic consolidation yielded 1,570 CDEs. We retained 53 supported by at least 50 abstracts and attempted evidence-linked extraction across the corpus. Processing succeeded for all retained CDEs in 79.2% of abstracts, including responses indicating non-mention. Two human reviewers approved 83.0% of retained CDEs for relevance, 67.9% for clarity, and 56.6% for correctness. In 100 sampled abstracts, exact agreement with the value extracted by the LLM was 94.9% among 1,116 pairs with a non-empty answer (abstract-level bootstrap 95% CI, 93.0-96.4%). Errors concentrated in anatomical and temporal fields. These findings support agent-assisted schema drafting followed by expert curation before large-scale extraction.",
+    "url": "https://arxiv.org/abs/2611.18506v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.18506v1",
+    "relevance_score": 0.698,
+    "processed_date": "2026-11-16",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates common data elements (cdes) support clinical data comparability but are usually defined manually. We investigated whether large language model agents could derive a CDE schema from sarcoma case report abstracts and apply it at scale. An agent proposed 72,909 candidate CDEs from 24,588 PubMed abstracts; agentic consolidation yielded 1,570 CDEs. These findings support agent-assisted schema drafting followed by expert curation before large-scale extraction. Common data elements (CDEs) support clinical data comparability but are usually defined manually. We retained 53 supported by at least 50 abstracts and attempted evidence-linked extraction across the corpus.",
+    "key_concepts": [
+      "Large Language Model",
+      "Abstract-level Bootstrap",
+      "Abstracts Agentic",
+      "Abstracts Apply",
+      "Abstracts Attempted",
+      "Abstracts Exact"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "We investigated whether large language model agents could derive a CDE schema from sarcoma case report abstracts and apply it at scale.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Large Language Model, Abstract-level Bootstrap.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.18494",
+    "raw_id": "http://arxiv.org/abs/2611.18494v1",
+    "title": "ARCHER: From Rationale Imitation to Executable Reasoning in Small Language Models",
+    "authors": [
+      "Dhruv Dixit",
+      "Khushi Patel",
+      "Congcong Xu",
+      "Min Song"
+    ],
+    "published_date": "2026-11-13T18:05:33Z",
+    "updated_date": "2026-11-13T18:05:33Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Small language models are attractive for local, low-cost, and privacy-sensitive deployment, but they remain unreliable on mathematical reasoning tasks that require decomposition, exact computation, tool use, and verification. We introduce \\textbf{ARCHER}: \\textbf{A}ction-trace \\textbf{R}einforcement for \\textbf{C}alculator-grounded \\textbf{H}ierarchical \\textbf{E}xecutable \\textbf{R}easoning, a two-stage framework for training small language models (SLMs) to produce executable and auditable reasoning trajectories. In the first stage, ARCHER compiles free-form chain-of-thought rationales into typed action traces containing reasoning steps, calculator calls, deterministic runtime observations, verification actions, and final answers. This shifts the supervision target from imitating explanatory text to learning a tool-grounded reasoning policy. In the second stage, ARCHER refines this policy through asymmetric hierarchical reinforcement learning, using grouped and conditionally gated trajectory rewards for answer correctness, tool grounding, process discipline, and trace alignment. Across five standard sub-10B backbones, ARCHER improves over the strongest tool-augmented baseline by 5.51 percentage points on macro-average across benchmark accuracies, including gains of 8.95 points on MATH-500 and 5.33 and 5.34 points on AIME-2024 and AIME-2025. Evaluations on two additional reasoning-specialized 7B backbones further show that executable grounding remains beneficial after reasoning-focused reinforcement learning or distillation. These results demonstrate that executable supervision and reward-guided behavioral refinement provide a general and effective training paradigm for compact mathematical reasoners.",
+    "url": "https://arxiv.org/abs/2611.18494v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.18494v1",
+    "relevance_score": 0.697,
+    "processed_date": "2026-11-16",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates small language models are attractive for local, low-cost, and privacy-sensitive deployment, but they remain unreliable on mathematical reasoning tasks that require decomposition, exact computation, tool use, and verification. We introduce \\textbf{ARCHER}: \\textbf{A}ction-trace \\textbf{R}einforcement for \\textbf{C}alculator-grounded \\textbf{H}ierarchical \\textbf{E}xecutable \\textbf{R}easoning, a two-stage framework for training small language models (SLMs) to produce executable and auditable reasoning trajectories. In the first stage, ARCHER compiles free-form chain-of-thought rationales into typed action traces containing reasoning steps, calculator calls, deterministic runtime observations, verification actions, and final answers. These results demonstrate that executable supervision and reward-guided behavioral refinement provide a general and effective training paradigm for compact mathematical reasoners.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Small Language",
+      "Alculator-grounded Textbf",
+      "Alignment Standard",
+      "Stage Archer",
+      "Typed Action"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "We introduce \\textbf{ARCHER}: \\textbf{A}ction-trace \\textbf{R}einforcement for \\textbf{C}alculator-grounded \\textbf{H}ierarchical \\textbf{E}xecutable \\textbf{R}easoning, a two-stage framework for training small language models (SLMs) to produce executable and auditable reasoning trajectories.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Small Language.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.18546",
+    "raw_id": "http://arxiv.org/abs/2611.18546v1",
+    "title": "Modeling the Frictional Contact of Continuum Robots with Environments through Linear Complementarity Problem",
+    "authors": [
+      "Jia Shen",
+      "Junhyoung Ha",
+      "Yue Chen"
+    ],
+    "published_date": "2026-11-13T18:51:17Z",
+    "updated_date": "2026-11-13T18:51:17Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "abstract": "Accurate friction modeling in continuum robots is essential for precise motion control and path planning. However, current approaches make predictions only for the mechanism's internal friction that is limited by the boundary forces of the Coulomb friction cone, which fail to characterize the static friction and motion hysteresis. In this paper, we propose a novel friction model based on complementarity constraints under the Coulomb friction assumption. This model predicts various friction effects caused by environmental interactions, including both static and sliding frictions and hysteresis behavior, as well as the corresponding robot deformation induced by these interactions, which are crucial for the practical motion planning and control of continuum robots. Additionally, real-time implementation of this model can be achieved, meeting the demand for computational efficiency in robotic applications. Experimental validations demonstrated that this model is able to reduce the maximum tip position error from 45.4 mm in the frictionless model to 5.85 mm in our friction-included model with a 287.9 mm-long tendon-driven continuum robot.",
+    "url": "https://arxiv.org/abs/2611.18546v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.18546v1",
+    "relevance_score": 0.669,
+    "processed_date": "2026-11-16",
+    "summary": "However, current approaches make predictions only for the mechanism's internal friction that is limited by the boundary forces of the Coulomb friction cone, which fail to characterize the static friction and motion hysteresis. In this paper, we propose a novel friction model based on complementarity constraints under the Coulomb friction assumption. In this paper, we propose a novel friction model based on complementarity constraints under the Coulomb friction assumption. Experimental validations demonstrated that this model is able to reduce the maximum tip position error from 45.4 mm in the frictionless model to 5.85 mm in our friction-included model with a 287.9 mm-long tendon-driven continuum robot.",
+    "key_concepts": [
+      "Continuum Robots",
+      "Able Reduce",
+      "Accurate Friction",
+      "Achieved Meeting",
+      "Additionally Real-time",
+      "Approaches Make"
+    ],
+    "insights": {
+      "problem": "However, current approaches make predictions only for the mechanism's internal friction that is limited by the boundary forces of the Coulomb friction cone, which fail to characterize the static friction and motion hysteresis.",
+      "approach": "In this paper, we propose a novel friction model based on complementarity constraints under the Coulomb friction assumption.",
+      "key_innovation": "In this paper, we propose a novel friction model based on complementarity constraints under the Coulomb friction assumption.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "In this paper, we propose a novel friction model based on complementarity constraints under the Coulomb friction assumption."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.18543",
+    "raw_id": "http://arxiv.org/abs/2611.18543v1",
+    "title": "Imitation Bootstrapped Multi-Agent Reinforcement Learning",
+    "authors": [
+      "Tony H. Zhang",
+      "Connor Mattson",
+      "Daniel S. Brown"
+    ],
+    "published_date": "2026-11-13T18:50:05Z",
+    "updated_date": "2026-11-13T18:50:05Z",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "abstract": "Demonstrations are an effective way to accelerate single-agent reinforcement learning (RL), but extending this idea to multi-agent reinforcement learning (MARL) is non-trivial as it is difficult and often impossible for a single person to teleoperate multiple agents simultaneously. Round-Robin Behavior Cloning (R2BC) addresses this by letting a single demonstrator control one agent at a time while the others execute their current policies. However, the resulting imitation policies are limited by the quality of the demonstrations. We propose Imitation Bootstrapped Multi-Agent Reinforcement Learning (IBMARL), a framework that extends Imitation Bootstrapped Reinforcement Learning (IBRL) to cooperative teams and uses R2BC to train the imitation policies. At each time step, every agent receives one action proposal from its imitation policy and one from its RL policy, and an ensemble of centralized critics selects among the per-agent combinations of the two. A gated imitation penalty, a soft Q-filtered behavior cloning loss, regularizes each RL policy toward its imitation policy only where the critics value the imitation action more, so that after training each agent executes its RL policy alone, without the centralized critics. On four cooperative multi-agent RL benchmarks, IBMARL surpasses its imitation policies 2.6-4.2\\times faster than demonstration-based baselines on two tasks, is the only method to surpass it on the other two, and exceeds the demonstrator itself on two of the four. With real human demonstrations IBMARL still surpasses imitation learning alone, and does so more than twice as fast as the best baseline.",
+    "url": "https://arxiv.org/abs/2611.18543v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.18543v1",
+    "relevance_score": 0.649,
+    "processed_date": "2026-11-16",
+    "summary": "Demonstrations are an effective way to accelerate single-agent reinforcement learning (RL), but extending this idea to multi-agent reinforcement learning (MARL) is non-trivial as it is difficult and often impossible for a single person to teleoperate multiple agents simultaneously. We propose Imitation Bootstrapped Multi-Agent Reinforcement Learning (IBMARL), a framework that extends Imitation Bootstrapped Reinforcement Learning (IBRL) to cooperative teams and uses R2BC to train the imitation policies. On four cooperative multi-agent RL benchmarks, IBMARL surpasses its imitation policies 2.6-4.2\\times faster than demonstration-based baselines on two tasks, is the only method to surpass it on the other two, and exceeds the demonstrator itself on two of the four. With real human demonstrations IBMARL still surpasses imitation learning alone, and does so more than twice as fast as the best baseline.",
+    "key_concepts": [
+      "Imitation Learning",
+      "Reinforcement Learning",
+      "Imitation Bootstrapped",
+      "Multi-agent Reinforcement",
+      "Accelerate Single-agent",
+      "Agent Executes"
+    ],
+    "insights": {
+      "problem": "Demonstrations are an effective way to accelerate single-agent reinforcement learning (RL), but extending this idea to multi-agent reinforcement learning (MARL) is non-trivial as it is difficult and often impossible for a single person to teleoperate multiple agents simultaneously.",
+      "approach": "We propose Imitation Bootstrapped Multi-Agent Reinforcement Learning (IBMARL), a framework that extends Imitation Bootstrapped Reinforcement Learning (IBRL) to cooperative teams and uses R2BC to train the imitation policies.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Imitation Learning, Reinforcement Learning.",
+      "results": "On four cooperative multi-agent RL benchmarks, IBMARL surpasses its imitation policies 2.6-4.2\\times faster than demonstration-based baselines on two tasks, is the only method to surpass it on the other two, and exceeds the demonstrator itself on two of the four.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.18533",
+    "raw_id": "http://arxiv.org/abs/2611.18533v1",
+    "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
+    "authors": [
+      "Zelin He",
+      "Siyu Zhu",
+      "Jacob Helwig",
+      "Yujian Liu",
+      "Li An",
+      "Rohit Jain",
+      "Shiyu Chang",
+      "Alborz Geramifard"
+    ],
+    "published_date": "2026-11-13T18:45:49Z",
+    "updated_date": "2026-11-13T18:45:49Z",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "abstract": "Agentic reinforcement learning (RL) increasingly relies on a harness, the scaffold around the model that decides what it sees of its own interaction and what guidance it receives. Most existing approaches train under a hand-written harness that stays fixed throughout. However, an effective harness depends on the domain, the data and the model, and keeps changing as the model trains. We introduce ModHarness-RL, which recasts the harness as programs that are learned from data and evolve as the model trains with RL. ModHarness-RL records the interaction as structured State, a set of typed blocks, and two core components of the harness are programs over these blocks, a Compression program that assembles the accumulated history into the model's context and a Steering program that supplies guidance when behavior deviates. During RL training, candidate programs are proposed from recent trajectories, verified by execution, and replayed over past trajectories, so the harness tracks how the model's behavior shifts. We study CodeSearch in depth and further analyze ALFWorld and BIRD SQL, with models from 1.5B to 8B. The proposed Compression and Steering mechanisms improve held-out performance over the fixed-harness baseline in most settings. These results suggest that a harness for agentic RL can be learned from the task's data and evolved with the model.",
+    "url": "https://arxiv.org/abs/2611.18533v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.18533v1",
+    "relevance_score": 0.649,
+    "processed_date": "2026-11-16",
+    "summary": "However, an effective harness depends on the domain, the data and the model, and keeps changing as the model trains. We introduce ModHarness-RL, which recasts the harness as programs that are learned from data and evolve as the model trains with RL. These results suggest that a harness for agentic RL can be learned from the task's data and evolved with the model. Agentic reinforcement learning (RL) increasingly relies on a harness, the scaffold around the model that decides what it sees of its own interaction and what guidance it receives. Most existing approaches train under a hand-written harness that stays fixed throughout.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Accumulated History",
+      "Agentic Learned",
+      "Agentic Reinforcement",
+      "Alfworld Bird",
+      "Analyze Alfworld"
+    ],
+    "insights": {
+      "problem": "However, an effective harness depends on the domain, the data and the model, and keeps changing as the model trains.",
+      "approach": "We introduce ModHarness-RL, which recasts the harness as programs that are learned from data and evolve as the model trains with RL.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Accumulated History.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.18496",
+    "raw_id": "http://arxiv.org/abs/2611.18496v1",
+    "title": "Toward Resilient Self-Driving Laboratories through Telerobotic Interventions",
+    "authors": [
+      "Ziheng Wu",
+      "Adrian Vecina Tercero",
+      "Andre A. Fatehi",
+      "Abhik Sarkar",
+      "Brian Giera",
+      "Eric B. Duoss",
+      "Christopher M. Spadaccini",
+      "Nikhil Deshpande",
+      "Aldair E. Gongora"
+    ],
+    "published_date": "2026-11-13T18:06:25Z",
+    "updated_date": "2026-11-13T18:06:25Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "abstract": "Self-driving laboratories (SDLs) accelerate scientific research by integrating robotics, automated experimentation, and machine learning to execute experiments autonomously. Biology and chemistry have adopted these systems. However, increasing SDL complexity heightens susceptibility to unexpected faults in automated workflows, highlighting the need for efficient recovery mechanisms. In this study, we investigate telerobotic interventions to enhance SDL resilience against unexpected failures. We developed a teleoperation interface enabling human operators to resolve disruptions during automated tasks. The interface enables precise control of a six-degree-of-freedom (DOF) robotic arm (UR3e) using a 3D mouse (3Dconnexion SpaceMouse Pro). Two velocity-based controller strategies were evaluated: (i) a coupled mode mapping all six DOFs to the 3D mouse's central knob and (ii) a decoupled mode separating translational and rotational motions. To evaluate the framework, teleoperators intervened across three SDL fault scenarios. In the first study, comparative trials showed that the decoupled controller was associated with shorter completion times and reduced rotational motion. In a second study, teleoperators performed an aiming task with and without reference-path guidance. Users were more target-driven and risk-tolerant without guidance but showed behavioral differences under different guidance strategies. These findings suggest that controller configuration and reference-path design influence operator performance during SDL fault recovery, informing teleoperation interface optimization. This work demonstrates the potential feasibility of teleoperation as a human-in-the-loop recovery mechanism for SDL workflows, combining robotic precision with human adaptability and problem-solving. These findings also provide a foundation for future studies in shared autonomy and semi-autonomous intervention.",
+    "url": "https://arxiv.org/abs/2611.18496v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.18496v1",
+    "relevance_score": 0.648,
+    "processed_date": "2026-11-16",
+    "summary": "However, increasing SDL complexity heightens susceptibility to unexpected faults in automated workflows, highlighting the need for efficient recovery mechanisms. Biology and chemistry have adopted these systems. These findings also provide a foundation for future studies in shared autonomy and semi-autonomous intervention. Self-driving laboratories (SDLs) accelerate scientific research by integrating robotics, automated experimentation, and machine learning to execute experiments autonomously. In this study, we investigate telerobotic interventions to enhance SDL resilience against unexpected failures. We developed a teleoperation interface enabling human operators to resolve disruptions during automated tasks. The interface enables precise control of a six-degree-of-freedom (DOF) robotic arm (UR3e) using a 3D mouse (3Dconnexion SpaceMouse Pro).",
+    "key_concepts": [
+      "Telerobotic Interventions",
+      "Associated Shorter",
+      "Automated Experimentation",
+      "Sdl Fault",
+      "Teleoperation Interface",
+      "Teleoperators Intervened Sdl"
+    ],
+    "insights": {
+      "problem": "However, increasing SDL complexity heightens susceptibility to unexpected faults in automated workflows, highlighting the need for efficient recovery mechanisms.",
+      "approach": "Biology and chemistry have adopted these systems.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Telerobotic Interventions, Associated Shorter.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.18484",
+    "raw_id": "http://arxiv.org/abs/2611.18484v1",
+    "title": "From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration",
+    "authors": [
+      "Ivana Ragusa",
+      "Lorenzo Guiducci",
+      "Filippo Cavallo"
+    ],
+    "published_date": "2026-11-13T17:59:40Z",
+    "updated_date": "2026-11-13T17:59:40Z",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.MA",
+      "cs.SE",
+      "eess.SY"
+    ],
+    "abstract": "AI-enabled remote patient monitoring is evolving beyond passive data collection toward agentic AI systems that interpret patient states, coordinate care, and initiate action across domestic and clinical settings. This structured scoping review finds that mature agentic care has not yet emerged: Most systems remain human led, while stronger decision-action coupling and embodied AI remain largely confined to prototypes and pilots. Healthcare robotics makes the transition from monitoring to action especially visible by translating AI-generated recommendations and decisions into speech, movement, prompting, physical assistance, escalation, and care coordination, making embodiment, clinical integration, human oversight, and governance fundamental design requirements. Further progress requires safe and interoperable care architectures in which intelligent components operate through clinically validated and accountable workflows. We propose agentic robotics as a future direction for supervised systems embedded in the care ecosystem, connecting AI agents and robots with clinicians, caregivers, and patients through auditable workflows that can be interrupted and remain subject to human oversight and explicit AI governance.",
+    "url": "https://arxiv.org/abs/2611.18484v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.18484v1",
+    "relevance_score": 0.644,
+    "processed_date": "2026-11-16",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates ai-enabled remote patient monitoring is evolving beyond passive data collection toward agentic ai systems that interpret patient states, coordinate care, and initiate action across domestic and clinical settings. We propose agentic robotics as a future direction for supervised systems embedded in the care ecosystem, connecting AI agents and robots with clinicians, caregivers, and patients through auditable workflows that can be interrupted and remain subject to human oversight and explicit AI governance. Healthcare robotics makes the transition from monitoring to action especially visible by translating AI-generated recommendations and decisions into speech, movement, prompting, physical assistance, escalation, and care coordination, making embodiment, clinical integration, human oversight, and governance fundamental design requirements.",
+    "key_concepts": [
+      "Embodied AI",
+      "Agentic Robotics",
+      "Ai-enabled Remote",
+      "Accountable Workflows",
+      "Action Domestic",
+      "Action Especially"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "We propose agentic robotics as a future direction for supervised systems embedded in the care ecosystem, connecting AI agents and robots with clinicians, caregivers, and patients through auditable workflows that can be interrupted and remain subject to human oversight and explicit AI governance.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Embodied AI, Agentic Robotics.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.18514",
+    "raw_id": "http://arxiv.org/abs/2611.18514v1",
+    "title": "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
+    "authors": [
+      "Mohamed Aghzal",
+      "Mor Geva",
+      "Gregory J. Stein",
+      "Ziyu Yao"
+    ],
+    "published_date": "2026-11-13T18:30:58Z",
+    "updated_date": "2026-11-13T18:30:58Z",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "Mechanistic Interpretability (MI) has made significant progress in explaining the internal computations of Large Language Models (LLMs); however, these advances have yet to demonstrate comparable success in explaining the decision-making processes of LLM-based agents. This paper examines the challenges MI tools face when applied to realistic agentic failures. We focus on one such failure: web agents hallucinating actions that are not available on a website. We apply a series of mechanistic analyzes to Qwen2.5-7B-Instruct as it interacts with live websites. We find that a linear probe trained on the last prompt token can predict hallucinations before generation begins (0.80 AUC) and steering along a probe direction corrects 85\\% of hallucinations, but disrupts 7\\% of valid actions. However, these results only provide a partial explanation of why the agent hallucinates. The probe direction is sensitive to prompt formatting, losing much of its steering effect after a minor change to how actions are represented. Additionally, circuit identification can be difficult as the computation is distributed across multiple components and positions, and the information the agent relies on varies across examples. We discuss how these observations challenge the assumptions underlying standard MI methods for circuit discovery and feature identification, and outline future directions for making these methods better suited to explain failures in LLM-based agents.",
+    "url": "https://arxiv.org/abs/2611.18514v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.18514v1",
+    "relevance_score": 0.642,
+    "processed_date": "2026-11-16",
+    "summary": "Mechanistic Interpretability (MI) has made significant progress in explaining the internal computations of Large Language Models (LLMs); however, these advances have yet to demonstrate comparable success in explaining the decision-making processes of LLM-based agents. This paper examines the challenges MI tools face when applied to realistic agentic failures. We focus on one such failure: web agents hallucinating actions that are not available on a website. We discuss how these observations challenge the assumptions underlying standard MI methods for circuit discovery and feature identification, and outline future directions for making these methods better suited to explain failures in LLM-based agents. We apply a series of mechanistic analyzes to Qwen2.5-7B-Instruct as it interacts with live websites.",
+    "key_concepts": [
+      "Actions Available",
+      "Actions Represented",
+      "Additionally Circuit",
+      "Agent Hallucinates",
+      "Agent Relies",
+      "Analyzes Instruct"
+    ],
+    "insights": {
+      "problem": "Mechanistic Interpretability (MI) has made significant progress in explaining the internal computations of Large Language Models (LLMs); however, these advances have yet to demonstrate comparable success in explaining the decision-making processes of LLM-based agents.",
+      "approach": "This paper examines the challenges MI tools face when applied to realistic agentic failures.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Actions Available, Actions Represented.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Natural Language Processing"
   }
 ]

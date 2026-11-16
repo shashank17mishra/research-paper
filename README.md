@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[15 November 2026 Report](reports/2026/11/15/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[16 November 2026 Report](reports/2026/11/16/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/15/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/16/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/15/infographic.png)](reports/2026/11/15/infographic.png)
+[![Daily Infographic](reports/2026/11/16/infographic.png)](reports/2026/11/16/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `3` |
-| **Machine Learning (ML)** | `9` |
-| **Robotics** | `1` |
+| **Artificial Intelligence (AI)** | `9` |
+| **Machine Learning (ML)** | `4` |
+| **Robotics** | `4` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Validation-Guided Prompt Selection for Differential Morphing Attack Dete...** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.17176v1) |
-| 2 | **Maximizing Capacity Utilization of LoRA Adapters for Mitigating the Lear...** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.17191v1) |
-| 3 | **eDMD: Endpoint Distribution Matching for Few-Step Diffusion Distillation** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.17194v1) |
-| 4 | **MALNISI-Infused Graph Construction and Weighted Contrastive Loss based G...** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.17199v1) |
-| 5 | **Goal Encoding in LLMs** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.17297v1) |
+| 1 | **Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case...** | `Natural Language Processing` | `0.64` | [arXiv](https://arxiv.org/abs/2611.18514v1) |
+| 2 | **From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embod...** | `Artificial Intelligence` | `0.64` | [arXiv](https://arxiv.org/abs/2611.18484v1) |
+| 3 | **Toward Resilient Self-Driving Laboratories through Telerobotic Intervent...** | `Machine Learning` | `0.65` | [arXiv](https://arxiv.org/abs/2611.18496v1) |
+| 4 | **ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs fo...** | `Artificial Intelligence` | `0.65` | [arXiv](https://arxiv.org/abs/2611.18533v1) |
+| 5 | **Imitation Bootstrapped Multi-Agent Reinforcement Learning** | `Artificial Intelligence` | `0.65` | [arXiv](https://arxiv.org/abs/2611.18543v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `368`
-- **Total Operational Runs**: `49 days`
+- **Total Papers Analyzed**: `378`
+- **Total Operational Runs**: `50 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Machine Learning, Artificial Intelligence, Natural Language Processing
 
