@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-16T07:43:53.334393",
-  "total_entries": 378,
+  "updated_at": "2026-11-17T08:53:34.220529",
+  "total_entries": 388,
   "months": [
     "2026-11",
     "2026-10"
@@ -16080,6 +16080,427 @@
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2611.21524",
+      "raw_id": "http://arxiv.org/abs/2611.21524v1",
+      "title": "Algorithm Distillation for Safe In-Context Reinforcement Learning",
+      "authors": [
+        "Minjae Kwon",
+        "Amir Moeini",
+        "Shangtong Zhang",
+        "Lu Feng"
+      ],
+      "published_date": "2026-11-16T18:16:28Z",
+      "updated_date": "2026-11-16T18:16:28Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Safe in-context reinforcement learning (Safe ICRL) asks a policy with fixed parameters to improve on an unseen constrained task from its interaction history while aiming to keep its cost within a budget. Prior work studied Safe ICRL on five benchmarks in three families: a grid world with a hidden goal and obstacles (DarkRoom), continuous navigation where goals and hazards stay invisible until reached (PointGoal, CarGoal), and locomotion with a hidden velocity limit (HalfCheetah, Ant). Safe Algorithm Distillation (Safe AD), trained on the learning histories of a safe RL algorithm, has shown adaptation failures in prior evaluations. For example, in the locomotion tasks its return stays below zero, and it rarely reaches the goal in CarGoal. We revisit two parts of Safe AD. First, we distill a budget-aware teacher with two phases. It searches for the hidden task, exploring more when more budget remains. After its first reward or cost, an expert policy exploits the task within the remaining budget. We collect the teacher's histories under fixed or dynamic budgets. Dynamic budgets increase the occupancy entropy of the return and budget inputs in every environment, and at test time they improve return and lower cost in DarkRoom and HalfCheetah. Second, we propose A-Lag, a test-time adjustment that reweights the distilled policy's actions by their predicted cost, with an adaptive Lagrange multiplier that is updated from the costs observed. In our experiments, A-Lag had lower mean episode cost than Safe AD in all five environments, with lower mean final return in four.",
+      "url": "https://arxiv.org/abs/2611.21524v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21524v1",
+      "relevance_score": 0.78,
+      "processed_date": "2026-11-17",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates safe in-context reinforcement learning (safe icrl) asks a policy with fixed parameters to improve on an unseen constrained task from its interaction history while aiming to keep its cost within a budget. Second, we propose A-Lag, a test-time adjustment that reweights the distilled policy's actions by their predicted cost, with an adaptive Lagrange multiplier that is updated from the costs observed. Safe Algorithm Distillation (Safe AD), trained on the learning histories of a safe RL algorithm, has shown adaptation failures in prior evaluations. In our experiments, A-Lag had lower mean episode cost than Safe AD in all five environments, with lower mean final return in four.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Safe In-context",
+        "Dynamic Budgets",
+        "Lower Mean",
+        "Safe Algorithm",
+        "Safe Icrl"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "Second, we propose A-Lag, a test-time adjustment that reweights the distilled policy's actions by their predicted cost, with an adaptive Lagrange multiplier that is updated from the costs observed.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Safe In-context.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.21485",
+      "raw_id": "http://arxiv.org/abs/2611.21485v1",
+      "title": "Lost in the Hallway: Benchmarking Persistent Spatial Memory Across Revisits",
+      "authors": [
+        "Henry Zheng",
+        "Weibo Gong",
+        "Yang Yue",
+        "Rui Huang",
+        "Yang Zhang",
+        "Gao Huang"
+      ],
+      "published_date": "2026-11-16T17:54:39Z",
+      "updated_date": "2026-11-16T17:54:39Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Persistent spatial understanding is essential for embodied agents to operate reliably in environments they repeatedly encounter. It requires recognizing revisited places despite viewpoint changes, distinguishing them from similar-looking rooms, and updating memories as environments change. Yet existing evaluations often leave physical place identity across separated visits implicit. We introduce ReSpaceBench, a benchmark comprising 3,244 questions across 590 synthetic and real-home scenes, organized into 9 tasks spanning room association, persistent state tracking, and downstream reasoning. Controlled walkthroughs define visits by physical room entry and deliberately include same-type room distractors and cross-session object changes. Our evaluation of 32 models and 3 agentic video-understanding frameworks reveals substantial limitations: the strongest evaluated zero-shot model achieves 50.5% overall accuracy and 52.2% on a 450-question subset, compared with 90.1% for human annotators. The evaluated agentic frameworks offer no overall improvement over direct inference with the same base model. Analysis of agent execution traces reveals evidence omissions and incorrect cross-visit room associations as major failure modes, suggesting that iterative evidence seeking alone does not ensure consistent spatial memory. Further analyses expose a gap between recognizing familiar rooms and identifying the correct visited room, while annotation-guided sampling highlights the importance of preserving intervening visits and transitions. We also provide RS-30K, a separate training dataset from synthetic sources with no template, scene, route, or video overlap with the benchmark. Fine-tuning Qwen3-VL-8B raises overall accuracy from 35.5% to 60.4%, with the largest gains in association and improvements extending to real-life scenes.",
+      "url": "https://arxiv.org/abs/2611.21485v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21485v1",
+      "relevance_score": 0.759,
+      "processed_date": "2026-11-17",
+      "summary": "It requires recognizing revisited places despite viewpoint changes, distinguishing them from similar-looking rooms, and updating memories as environments change. We introduce ReSpaceBench, a benchmark comprising 3,244 questions across 590 synthetic and real-home scenes, organized into 9 tasks spanning room association, persistent state tracking, and downstream reasoning. Yet existing evaluations often leave physical place identity across separated visits implicit. Fine-tuning Qwen3-VL-8B raises overall accuracy from 35.5% to 60.4%, with the largest gains in association and improvements extending to real-life scenes. Persistent spatial understanding is essential for embodied agents to operate reliably in environments they repeatedly encounter. Controlled walkthroughs define visits by physical room entry and deliberately include same-type room distractors and cross-session object changes.",
+      "key_concepts": [
+        "Zero-shot",
+        "Overall Accuracy",
+        "Transitions Provide",
+        "Understanding Essential",
+        "Updating Memories",
+        "Video Overlap"
+      ],
+      "insights": {
+        "problem": "It requires recognizing revisited places despite viewpoint changes, distinguishing them from similar-looking rooms, and updating memories as environments change.",
+        "approach": "We introduce ReSpaceBench, a benchmark comprising 3,244 questions across 590 synthetic and real-home scenes, organized into 9 tasks spanning room association, persistent state tracking, and downstream reasoning.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Overall Accuracy.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Our evaluation of 32 models and 3 agentic video-understanding frameworks reveals substantial limitations: the strongest evaluated zero-shot model achieves 50.5% overall accuracy and 52.2% on a 450-question subset, compared with 90.1% for human annotators."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.21607",
+      "raw_id": "http://arxiv.org/abs/2611.21607v1",
+      "title": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+      "authors": [
+        "Ruixi Yu",
+        "Dairu Liu",
+        "Xuchuan Chen",
+        "Zekun Qi",
+        "Zekai Li",
+        "Zhuo Cao",
+        "Luyang Niu",
+        "Yingsheng Zhang",
+        "Sikai Liang",
+        "Ke Fan",
+        "He Wang",
+        "Li Yi"
+      ],
+      "published_date": "2026-11-16T18:59:37Z",
+      "updated_date": "2026-11-16T18:59:37Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action. Yet most Vision-Language-Action (VLA) policies still rely on much smaller VLM backbones, leaving this potential largely untapped. We ask whether frontier-scale representations can provide a stronger foundation for robot learning. We introduce ScaleVLA, which connects a 552B DeepSeek-V4.1-Flash backbone to a trainable action DiT, and systematically compare VLMs from 2B to 552B under a shared training setup. We evaluate three fundamental capabilities of robot foundation models. In sample efficiency, just 10 demonstrations outperform a 2B backbone trained with 50 (87.8% vs. 85.6%). In generalization, LIBERO-PRO success reaches 45.1%, compared with at most 31.3% for smaller backbones. In precise manipulation, real-world charger insertion improves from 4/10 to 9/10 successes, with gains concentrated in contact-sensitive alignment. Despite its scale, ScaleVLA achieves 216 ms median latency per action chunk. Our findings suggest that frontier VLMs can serve not only as reasoning agents, but also as powerful representational foundations for efficient and generalizable robot policies.",
+      "url": "https://arxiv.org/abs/2611.21607v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21607v1",
+      "relevance_score": 0.757,
+      "processed_date": "2026-11-17",
+      "summary": "Despite its scale, ScaleVLA achieves 216 ms median latency per action chunk. We introduce ScaleVLA, which connects a 552B DeepSeek-V4.1-Flash backbone to a trainable action DiT, and systematically compare VLMs from 2B to 552B under a shared training setup. We ask whether frontier-scale representations can provide a stronger foundation for robot learning. Our findings suggest that frontier VLMs can serve not only as reasoning agents, but also as powerful representational foundations for efficient and generalizable robot policies. Frontier Vision-Language Models (VLMs) such as GPT-6 Astra have demonstrated remarkable capabilities in robot control, suggesting that broad pretraining provides knowledge valuable for physical action.",
+      "key_concepts": [
+        "Manipulation",
+        "Achieves Median",
+        "Action Chunk",
+        "Action Dit",
+        "Action Vision-language-action",
+        "Alignment Despite"
+      ],
+      "insights": {
+        "problem": "Despite its scale, ScaleVLA achieves 216 ms median latency per action chunk.",
+        "approach": "We introduce ScaleVLA, which connects a 552B DeepSeek-V4.1-Flash backbone to a trainable action DiT, and systematically compare VLMs from 2B to 552B under a shared training setup.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Achieves Median.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.21517",
+      "raw_id": "http://arxiv.org/abs/2611.21517v1",
+      "title": "Lazy-MOSAIC: Accelerating Skill-Centric Manipulation Planning with Learned Skill-Effect World Models",
+      "authors": [
+        "Itamar Mishani",
+        "Mukund Krishnakumar",
+        "Oren Salzman",
+        "Maxim Likhachev"
+      ],
+      "published_date": "2026-11-16T18:10:52Z",
+      "updated_date": "2026-11-16T18:10:52Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "abstract": "Long-horizon manipulation tasks require a robot to perform a sequence of physical interactions with its environment, typically combining several different skills. Planning such behaviors efficiently is challenging: given a library of parameterized skills, solutions lie in a vast hybrid space of skill sequences and their parameters, and evaluating each candidate skill's feasibility and effect with a high-fidelity world model such as a physics simulator is computationally expensive. MOSAIC, a recent skill-centric approach, lets the skills guide a non-sequential search toward the regions of this space where they are likely to succeed; however, it pays the full cost of simulation for every parameterized skill it considers. In this work, we introduce Lazy-MOSAIC, a lazy planning framework that instead searches over hypothesized skill outcomes. A cheap learned skill-effect world model predicts, in a fraction of a millisecond, a skill's feasibility and the world state it produces. Lazy-MOSAIC then uses these predictions to focus expensive simulation on promising candidate skills and, when a hypothesis is invalidated, repairs only the affected part of the search, while ensuring that every skill in a returned plan is validated in simulation. We evaluate Lazy-MOSAIC on cluttered-shelf retrieval tasks of increasing difficulty and demonstrate it on a physical robot, showing that it plans substantially faster than baselines with fewer simulator queries, while matching or exceeding their success rate in every setting. Visit skill-mosaic.github.io.",
+      "url": "https://arxiv.org/abs/2611.21517v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21517v1",
+      "relevance_score": 0.737,
+      "processed_date": "2026-11-17",
+      "summary": "MOSAIC, a recent skill-centric approach, lets the skills guide a non-sequential search toward the regions of this space where they are likely to succeed; however, it pays the full cost of simulation for every parameterized skill it considers. In this work, we introduce Lazy-MOSAIC, a lazy planning framework that instead searches over hypothesized skill outcomes. Visit skill-mosaic.github.io. Long-horizon manipulation tasks require a robot to perform a sequence of physical interactions with its environment, typically combining several different skills. Planning such behaviors efficiently is challenging: given a library of parameterized skills, solutions lie in a vast hybrid space of skill sequences and their parameters, and evaluating each candidate skill's feasibility and effect with a high-fidelity world model such as a physics simulator is computationally expensive.",
+      "key_concepts": [
+        "World Model",
+        "Manipulation",
+        "Skill Feasibility",
+        "Succeed Pays",
+        "Success Rate",
+        "Typically Combining"
+      ],
+      "insights": {
+        "problem": "MOSAIC, a recent skill-centric approach, lets the skills guide a non-sequential search toward the regions of this space where they are likely to succeed; however, it pays the full cost of simulation for every parameterized skill it considers.",
+        "approach": "In this work, we introduce Lazy-MOSAIC, a lazy planning framework that instead searches over hypothesized skill outcomes.",
+        "key_innovation": "Formulates an integrated mechanism leveraging World Model, Manipulation.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.21535",
+      "raw_id": "http://arxiv.org/abs/2611.21535v1",
+      "title": "Evaluating Cultural Reasoning and Robustness in LLMs for Spanish Political Discourse",
+      "authors": [
+        "Jorge Valverde-Rebaza",
+        "Nathan Garcia-Larios",
+        "Karime Ruvalcaba-Perez",
+        "Alejandro Rendon",
+        "Santiago Sanchez-Ballesteros",
+        "Alejandro Martin del Campo"
+      ],
+      "published_date": "2026-11-16T18:24:48Z",
+      "updated_date": "2026-11-16T18:24:48Z",
+      "categories": [
+        "cs.CL",
+        "cs.CY",
+        "cs.SI"
+      ],
+      "abstract": "Large language models (LLMs) are increasingly used to interpret, generate, and mediate public-facing language, which makes their reliability especially consequential in politically sensitive settings. Although sentiment analysis is a common task in this area, affective meaning in social media discourse is often conveyed through culturally situated and pragmatically indirect cues that are not well captured by label-centric evaluation alone. In this paper, we evaluate the robustness of LLMs for sentiment analysis of Spanish political discourse from social media, with emphasis on culturally situated affective interpretation. We introduce a diagnostic protocol that combines three independent human annotation views into Gold and Ambiguous subsets, and extends the corpus with a Synthetic subset built from sentiment-flipped counterfactuals selected through model-conditioned perplexity and LLM-as-a-judge criteria. Using this framework, we compare proprietary and open-weight models under zero-shot and few-shot prompting, focusing on predictive robustness across human agreement conditions and counterfactual shift. Our results show that annotation ambiguity and counterfactual perturbation reveal failure modes that conventional evaluation on the original corpus tends to obscure. GPT-4.1-mini remains the most stable among the evaluated models, whereas the two smaller open-weight models degrade more markedly under synthetic perturbations, and few-shot prompting provides only limited gains. Overall, the paper contributes a reproducible protocol for robustness-oriented evaluation in political sentiment analysis, an empirical characterization of model behavior under ambiguity and sentiment-flipped counterfactuals, and a publicly available Spanish social media dataset with three-way human sentiment annotations.",
+      "url": "https://arxiv.org/abs/2611.21535v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21535v1",
+      "relevance_score": 0.734,
+      "processed_date": "2026-11-17",
+      "summary": "Although sentiment analysis is a common task in this area, affective meaning in social media discourse is often conveyed through culturally situated and pragmatically indirect cues that are not well captured by label-centric evaluation alone. We introduce a diagnostic protocol that combines three independent human annotation views into Gold and Ambiguous subsets, and extends the corpus with a Synthetic subset built from sentiment-flipped counterfactuals selected through model-conditioned perplexity and LLM-as-a-judge criteria. Our results show that annotation ambiguity and counterfactual perturbation reveal failure modes that conventional evaluation on the original corpus tends to obscure. Overall, the paper contributes a reproducible protocol for robustness-oriented evaluation in political sentiment analysis, an empirical characterization of model behavior under ambiguity and sentiment-flipped counterfactuals, and a publicly available Spanish social media dataset with three-way human sentiment annotations.",
+      "key_concepts": [
+        "Zero-shot",
+        "Spanish Political",
+        "Culturally Situated",
+        "Few-shot Prompting",
+        "Sentiment-flipped Counterfactuals",
+        "Social Media"
+      ],
+      "insights": {
+        "problem": "Although sentiment analysis is a common task in this area, affective meaning in social media discourse is often conveyed through culturally situated and pragmatically indirect cues that are not well captured by label-centric evaluation alone.",
+        "approach": "We introduce a diagnostic protocol that combines three independent human annotation views into Gold and Ambiguous subsets, and extends the corpus with a Synthetic subset built from sentiment-flipped counterfactuals selected through model-conditioned perplexity and LLM-as-a-judge criteria.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Spanish Political.",
+        "results": "Our results show that annotation ambiguity and counterfactual perturbation reveal failure modes that conventional evaluation on the original corpus tends to obscure.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2611.21465",
+      "raw_id": "http://arxiv.org/abs/2611.21465v1",
+      "title": "Warm Starting Neural Dynamics Models From Few Jacobian Samples",
+      "authors": [
+        "Maxime Rochkoulets",
+        "Joppe De Jonghe",
+        "Mariya Ishteva"
+      ],
+      "published_date": "2026-11-16T17:46:39Z",
+      "updated_date": "2026-11-16T17:46:39Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "eess.SY"
+      ],
+      "abstract": "Model-based reinforcement learning (MBRL) leverages a model of the environment, used for planning and generating samples without interacting with the real world. Motivated by evidence that informed initialization significantly improves the efficiency of MBRL, we propose TDec-Init, an algorithm to warm-start neural dynamics models using transition Jacobians. Using a decoupling algorithm based on the decomposition of a tensor of stacked Jacobian samples, we recover weights and flexible nonlinearities, and use them to initialize a feedforward neural network. In the low-data regime, we show on several benchmark environments that our approach outperforms random initialization and value training, and either matches or outperforms Sobolev training, while requiring fewer training steps between episodes.",
+      "url": "https://arxiv.org/abs/2611.21465v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21465v1",
+      "relevance_score": 0.729,
+      "processed_date": "2026-11-17",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates model-based reinforcement learning (mbrl) leverages a model of the environment, used for planning and generating samples without interacting with the real world. Motivated by evidence that informed initialization significantly improves the efficiency of MBRL, we propose TDec-Init, an algorithm to warm-start neural dynamics models using transition Jacobians. Motivated by evidence that informed initialization significantly improves the efficiency of MBRL, we propose TDec-Init, an algorithm to warm-start neural dynamics models using transition Jacobians. In the low-data regime, we show on several benchmark environments that our approach outperforms random initialization and value training, and either matches or outperforms Sobolev training, while requiring fewer training steps between episodes.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Algorithm Warm-start",
+        "Decomposition Tensor",
+        "Decoupling Algorithm",
+        "Efficiency Mbrl",
+        "Environment Used"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "Motivated by evidence that informed initialization significantly improves the efficiency of MBRL, we propose TDec-Init, an algorithm to warm-start neural dynamics models using transition Jacobians.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Algorithm Warm-start.",
+        "results": "Motivated by evidence that informed initialization significantly improves the efficiency of MBRL, we propose TDec-Init, an algorithm to warm-start neural dynamics models using transition Jacobians.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.21586",
+      "raw_id": "http://arxiv.org/abs/2611.21586v1",
+      "title": "Beyond Job Titles: Interpreting Early-Career Job Advertisements with Sparse Autoencoders and Semantic Clustering",
+      "authors": [
+        "Yisong Cao",
+        "Leah Kim",
+        "Brian Wright",
+        "Ali Rivera"
+      ],
+      "published_date": "2026-11-16T18:54:40Z",
+      "updated_date": "2026-11-16T18:54:40Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Job titles and job descriptions alone provide limited insight into how technical roles differ in a changing job market. To assess how such roles differ in their work and industry applications, we design and compare two methods based on deep learning and transformer representations using 36,081 early-career job postings collected from LinkedIn in the United States between December 2025 and October 2026. We first apply PERC, short for Preprocessing (P), Embedding (E), Dimensionality Reduction (R) and Clustering (C). We employ GPT-6 Luna to classify job description passages into Team context, Role task and Qualifications. We then create combinations of these sections and examine whether embedding and clustering the segmented passages produce meaningful semantic clusters about different job roles. We use Maximum Mean Discrepancy (MMD) to rank observed differences between embedding distributions and employ a pretrained sparse autoencoder (SAE) to extract features from layer-19 representations of Llama-3.1-8B-Instruct. Lastly, we employ GPT-6 Luna to come up with hypotheses about job roles' feature patterns, and GPT-6.1 Terra to investigate whether those patterns exist in held-out job descriptions from unseen companies. Some example findings include Data Scientist advertisements placing more emphasis on machine learning model development, Data Analyst advertisements on reporting business performance, and Machine Learning Engineer advertisements on applying developed models in real-world settings. We also observe differences in the applications described by Data Analyst and Business Analyst advertisements across selected months, although our dataset's scale and uneven coverage limit their interpretation. Overall, we present a realistic application of SAEs and PERC to unstructured textual data and examine how automated insight extraction could support manual analysis of job descriptions.",
+      "url": "https://arxiv.org/abs/2611.21586v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21586v1",
+      "relevance_score": 0.703,
+      "processed_date": "2026-11-17",
+      "summary": "We also observe differences in the applications described by Data Analyst and Business Analyst advertisements across selected months, although our dataset's scale and uneven coverage limit their interpretation. To assess how such roles differ in their work and industry applications, we design and compare two methods based on deep learning and transformer representations using 36,081 early-career job postings collected from LinkedIn in the United States between December 2025 and October 2026. We first apply PERC, short for Preprocessing (P), Embedding (E), Dimensionality Reduction (R) and Clustering (C). Overall, we present a realistic application of SAEs and PERC to unstructured textual data and examine how automated insight extraction could support manual analysis of job descriptions.",
+      "key_concepts": [
+        "Analyst Advertisements",
+        "Employ Gpt-",
+        "Gpt- Luna",
+        "Job Descriptions",
+        "Job Roles",
+        "Machine Learning"
+      ],
+      "insights": {
+        "problem": "We also observe differences in the applications described by Data Analyst and Business Analyst advertisements across selected months, although our dataset's scale and uneven coverage limit their interpretation.",
+        "approach": "To assess how such roles differ in their work and industry applications, we design and compare two methods based on deep learning and transformer representations using 36,081 early-career job postings collected from LinkedIn in the United States between December 2025 and October 2026.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Analyst Advertisements, Employ Gpt-.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.21608",
+      "raw_id": "http://arxiv.org/abs/2611.21608v1",
+      "title": "Latent Lattice Language Models",
+      "authors": [
+        "Shivam Duggal",
+        "Zongze Wu",
+        "William T. Freeman",
+        "Antonio Torralba",
+        "Richard Zhang",
+        "Eli Shechtman"
+      ],
+      "published_date": "2026-11-16T18:59:38Z",
+      "updated_date": "2026-11-16T18:59:38Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the number of active computational states a model maintains. We introduce the Lattice of Latents, a set of per-layer horizontal latent streams that run recurrently along time, alongside the vertical residual stream that flows through depth. Like hyper-connections, mHC, and attention or value residuals, the Lattice enhances the residual stream, but rather than adding or rerouting residual pathways through depth, it provides companion computational states that persist across tokens. Unlike hybrid Transformer-SSM architectures, whose recurrent states primarily serve as internal memory for sequence mixing, these latents directly condition the vertical stream's attention, KV-cache writes, MLP computation, and decoding. On Transformers trained on 20B FineWeb-Edu tokens, a 406M-parameter Lattice model lowers validation perplexity from 15.41 to 14.40 over a parameter-matched Transformer. These gains extend across architectural variants. The Lattice composes with prior residual-stream enhancements: with hyper-connections and input residuals, it lowers validation perplexity from 15.41 (base Transformer) and 14.22 (Transformer with the same enhancements) to 13.61. On Gated DeltaNet, Mamba-2, Triadic GDN, and GDN-Mamba-2 hybrids, it improves perplexity at every tested native state size, with Lattice-GDN and Lattice-Triadic-GDN variants outperforming pure baselines with 4x larger native states. These results identify persistent per-layer state as a complementary axis for scaling language-model computation.",
+      "url": "https://arxiv.org/abs/2611.21608v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21608v1",
+      "relevance_score": 0.674,
+      "processed_date": "2026-11-17",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We introduce the Lattice of Latents, a set of per-layer horizontal latent streams that run recurrently along time, alongside the vertical residual stream that flows through depth. These results identify persistent per-layer state as a complementary axis for scaling language-model computation. Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the number of active computational states a model maintains.",
+      "key_concepts": [
+        "Computational States",
+        "Lowers Validation",
+        "Residual Stream",
+        "Tokens Unlike Hybrid",
+        "Transformer Enhancements",
+        "Transformer-ssm Architectures"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We introduce the Lattice of Latents, a set of per-layer horizontal latent streams that run recurrently along time, alongside the vertical residual stream that flows through depth.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Computational States, Lowers Validation.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.21605",
+      "raw_id": "http://arxiv.org/abs/2611.21605v1",
+      "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
+      "authors": [
+        "Huawei Lin",
+        "Jinting Liu",
+        "Tongyan Wang",
+        "Xuyang Chen",
+        "Ruihua Shi",
+        "Zhichao Xu",
+        "Jiaxin Qin",
+        "Guoshenghui Zhao",
+        "Baijian Yang",
+        "Yingjie Victor Chen",
+        "Tan Yu",
+        "Weijie Zhao"
+      ],
+      "published_date": "2026-11-16T18:59:04Z",
+      "updated_date": "2026-11-16T18:59:04Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "abstract": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward as reading. We propose Cross-Input Relative Policy Optimization (CrossRPO), which trains agents on contrast sets. A contrast set asks one question about several versions of an image that differ only in a small region with the evidence and have different answers, so only reading the evidence solves the whole set. CrossRPO rewards solving the whole set, and we prove that it does not reinforce a set answered from common sense. We build contrast sets for training (ViRA-Train) and evaluation (ViRA-Bench) by editing one small object in images of 21 to 120 megapixels, and we photograph further sets with real changes (ViRA-Bench-Real) to exclude editing traces. We train two Visual Reasoning Agents, ViRA-9B and ViRA-27B, with CrossRPO on only about 3,500 items of ViRA-Train each. CrossRPO achieves 63.3% set accuracy on ViRA-Bench at the maximum resolution, against 59.3% for GRPO. ViRA-9B is the most accurate open model of its size on all benchmarks, and ViRA-27B outperforms Claude Haiku 5.5 and GPT-6-Luna, both at their highest thinking level, on most benchmarks.",
+      "url": "https://arxiv.org/abs/2611.21605v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21605v1",
+      "relevance_score": 0.674,
+      "processed_date": "2026-11-17",
+      "summary": "However, existing agents often answer from common sense instead of reading the evidence. We propose Cross-Input Relative Policy Optimization (CrossRPO), which trains agents on contrast sets. ViRA-9B is the most accurate open model of its size on all benchmarks, and ViRA-27B outperforms Claude Haiku 5.5 and GPT-6-Luna, both at their highest thinking level, on most benchmarks. Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward as reading. A contrast set asks one question about several versions of an image that differ only in a small region with the evidence and have different answers, so only reading the evidence solves the whole set.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Accuracy Vira-bench",
+        "Accurate Open",
+        "Achieves Set",
+        "Answer Common",
+        "Answer Correct Guess"
+      ],
+      "insights": {
+        "problem": "However, existing agents often answer from common sense instead of reading the evidence.",
+        "approach": "We propose Cross-Input Relative Policy Optimization (CrossRPO), which trains agents on contrast sets.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Accuracy Vira-bench.",
+        "results": "ViRA-9B is the most accurate open model of its size on all benchmarks, and ViRA-27B outperforms Claude Haiku 5.5 and GPT-6-Luna, both at their highest thinking level, on most benchmarks.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.21559",
+      "raw_id": "http://arxiv.org/abs/2611.21559v1",
+      "title": "Reference Forcing: Long Video Generation with Region-Guided Drift Correction",
+      "authors": [
+        "Sheng Zhao",
+        "Haitian Zheng",
+        "Weikai Lin",
+        "Junjie Zhao",
+        "Yuhao Zhu"
+      ],
+      "published_date": "2026-11-16T18:39:47Z",
+      "updated_date": "2026-11-16T18:39:47Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Long video generation should keep the subject and background consistent while supporting rich, natural motion. However, autoregressive models are often distilled with distribution matching distillation (DMD) over short windows, which does not train them to keep this consistency over long ranges. As a result, the subject and background can drift over time. Methods that manage the key-value (KV) cache retain or retrieve history to reduce drift. Yet this history may itself have drifted. We propose Reference Forcing, which uses the initial frames as an appearance reference. We first build a teacher that uses attention masks to force each region of a new frame to attend to the same region in the initial frames. The teacher finds these regions with off-the-shelf segmentation models. We then distill this behavior into a separate attention path of the student, which needs no external models at inference. We further introduce value correction, which corrects drifted values in the KV cache toward the matching values of drift-free initial frames. Experiments show that Reference Forcing achieves state-of-the-art subject and background consistency among long-video methods on different base models, and its advantage grows with video length. Ablations show both components are needed to gain consistency without losing motion. More visualizations and code are available at https://zhaosheng-thu.github.io/reference-force/",
+      "url": "https://arxiv.org/abs/2611.21559v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.21559v1",
+      "relevance_score": 0.654,
+      "processed_date": "2026-11-17",
+      "summary": "However, autoregressive models are often distilled with distribution matching distillation (DMD) over short windows, which does not train them to keep this consistency over long ranges. We propose Reference Forcing, which uses the initial frames as an appearance reference. Experiments show that Reference Forcing achieves state-of-the-art subject and background consistency among long-video methods on different base models, and its advantage grows with video length. More visualizations and code are available at https://zhaosheng-thu.github.io/reference-force/ Long video generation should keep the subject and background consistent while supporting rich, natural motion. As a result, the subject and background can drift over time. Methods that manage the key-value (KV) cache retain or retrieve history to reduce drift.",
+      "key_concepts": [
+        "Reference Forcing",
+        "Ablations Components",
+        "Advantage Grows",
+        "Appearance Reference",
+        "Attend Region",
+        "Attention Masks"
+      ],
+      "insights": {
+        "problem": "However, autoregressive models are often distilled with distribution matching distillation (DMD) over short windows, which does not train them to keep this consistency over long ranges.",
+        "approach": "We propose Reference Forcing, which uses the initial frames as an appearance reference.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reference Forcing, Ablations Components.",
+        "results": "Experiments show that Reference Forcing achieves state-of-the-art subject and background consistency among long-video methods on different base models, and its advantage grows with video length.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
     }
   ]
 }

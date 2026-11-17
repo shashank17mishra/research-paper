@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[16 November 2026 Report](reports/2026/11/16/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[17 November 2026 Report](reports/2026/11/17/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/16/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/17/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/16/infographic.png)](reports/2026/11/16/infographic.png)
+[![Daily Infographic](reports/2026/11/17/infographic.png)](reports/2026/11/17/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `9` |
-| **Machine Learning (ML)** | `4` |
-| **Robotics** | `4` |
+| **Artificial Intelligence (AI)** | `6` |
+| **Machine Learning (ML)** | `5` |
+| **Robotics** | `2` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case...** | `Natural Language Processing` | `0.64` | [arXiv](https://arxiv.org/abs/2611.18514v1) |
-| 2 | **From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embod...** | `Artificial Intelligence` | `0.64` | [arXiv](https://arxiv.org/abs/2611.18484v1) |
-| 3 | **Toward Resilient Self-Driving Laboratories through Telerobotic Intervent...** | `Machine Learning` | `0.65` | [arXiv](https://arxiv.org/abs/2611.18496v1) |
-| 4 | **ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs fo...** | `Artificial Intelligence` | `0.65` | [arXiv](https://arxiv.org/abs/2611.18533v1) |
-| 5 | **Imitation Bootstrapped Multi-Agent Reinforcement Learning** | `Artificial Intelligence` | `0.65` | [arXiv](https://arxiv.org/abs/2611.18543v1) |
+| 1 | **Reference Forcing: Long Video Generation with Region-Guided Drift Correc...** | `Machine Learning` | `0.65` | [arXiv](https://arxiv.org/abs/2611.21559v1) |
+| 2 | **ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relativ...** | `Artificial Intelligence` | `0.67` | [arXiv](https://arxiv.org/abs/2611.21605v1) |
+| 3 | **Latent Lattice Language Models** | `Machine Learning` | `0.67` | [arXiv](https://arxiv.org/abs/2611.21608v1) |
+| 4 | **Beyond Job Titles: Interpreting Early-Career Job Advertisements with Spa...** | `Machine Learning` | `0.70` | [arXiv](https://arxiv.org/abs/2611.21586v1) |
+| 5 | **Warm Starting Neural Dynamics Models From Few Jacobian Samples** | `Machine Learning` | `0.73` | [arXiv](https://arxiv.org/abs/2611.21465v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `378`
-- **Total Operational Runs**: `50 days`
+- **Total Papers Analyzed**: `388`
+- **Total Operational Runs**: `51 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Machine Learning, Artificial Intelligence, Natural Language Processing
 
