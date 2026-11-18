@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[17 November 2026 Report](reports/2026/11/17/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[18 November 2026 Report](reports/2026/11/18/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/17/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/18/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/17/infographic.png)](reports/2026/11/17/infographic.png)
+[![Daily Infographic](reports/2026/11/18/infographic.png)](reports/2026/11/18/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `6` |
-| **Machine Learning (ML)** | `5` |
-| **Robotics** | `2` |
+| **Artificial Intelligence (AI)** | `5` |
+| **Machine Learning (ML)** | `6` |
+| **Robotics** | `5` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Reference Forcing: Long Video Generation with Region-Guided Drift Correc...** | `Machine Learning` | `0.65` | [arXiv](https://arxiv.org/abs/2611.21559v1) |
-| 2 | **ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relativ...** | `Artificial Intelligence` | `0.67` | [arXiv](https://arxiv.org/abs/2611.21605v1) |
-| 3 | **Latent Lattice Language Models** | `Machine Learning` | `0.67` | [arXiv](https://arxiv.org/abs/2611.21608v1) |
-| 4 | **Beyond Job Titles: Interpreting Early-Career Job Advertisements with Spa...** | `Machine Learning` | `0.70` | [arXiv](https://arxiv.org/abs/2611.21586v1) |
-| 5 | **Warm Starting Neural Dynamics Models From Few Jacobian Samples** | `Machine Learning` | `0.73` | [arXiv](https://arxiv.org/abs/2611.21465v1) |
+| 1 | **Pressure Drop: Gravity Vector Estimation from a Distributed Barometric P...** | `Robotics` | `0.67` | [arXiv](https://arxiv.org/abs/2611.23120v1) |
+| 2 | **Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving** | `Artificial Intelligence` | `0.67` | [arXiv](https://arxiv.org/abs/2611.23211v1) |
+| 3 | **π^4: A Foundation Model for 4D Scene Geometry and Motion** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2611.23144v1) |
+| 4 | **Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models** | `Artificial Intelligence` | `0.69` | [arXiv](https://arxiv.org/abs/2611.23228v1) |
+| 5 | **TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Rob...** | `Robotics` | `0.71` | [arXiv](https://arxiv.org/abs/2611.23143v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `388`
-- **Total Operational Runs**: `51 days`
+- **Total Papers Analyzed**: `398`
+- **Total Operational Runs**: `52 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Machine Learning, Artificial Intelligence, Natural Language Processing
 
