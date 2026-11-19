@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[18 November 2026 Report](reports/2026/11/18/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[19 November 2026 Report](reports/2026/11/19/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/18/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/19/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/18/infographic.png)](reports/2026/11/18/infographic.png)
+[![Daily Infographic](reports/2026/11/19/infographic.png)](reports/2026/11/19/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `5` |
-| **Machine Learning (ML)** | `6` |
-| **Robotics** | `5` |
+| **Artificial Intelligence (AI)** | `2` |
+| **Machine Learning (ML)** | `4` |
+| **Robotics** | `8` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Pressure Drop: Gravity Vector Estimation from a Distributed Barometric P...** | `Robotics` | `0.67` | [arXiv](https://arxiv.org/abs/2611.23120v1) |
-| 2 | **Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving** | `Artificial Intelligence` | `0.67` | [arXiv](https://arxiv.org/abs/2611.23211v1) |
-| 3 | **π^4: A Foundation Model for 4D Scene Geometry and Motion** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2611.23144v1) |
-| 4 | **Spool: Low-Latency Streaming Inference for Hybrid Vision-Language Models** | `Artificial Intelligence` | `0.69` | [arXiv](https://arxiv.org/abs/2611.23228v1) |
-| 5 | **TCP4D: A Unified Tool-Center-Point Tracking and Generation Model for Rob...** | `Robotics` | `0.71` | [arXiv](https://arxiv.org/abs/2611.23143v1) |
+| 1 | **Auditing black-box clinical prediction models with a large language mode...** | `Natural Language Processing` | `0.72` | [arXiv](https://arxiv.org/abs/2611.24877v1) |
+| 2 | **NereidVLA: Learning to Understand and Navigate the Underwater World** | `Robotics` | `0.72` | [arXiv](https://arxiv.org/abs/2611.24864v1) |
+| 3 | **RoboMorpher: Scaling Robot Morphology Representations for Cross-Embodime...** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2611.24816v1) |
+| 4 | **Does the Action Matter? Probing Action-Conditioned Semantic Forecasting ...** | `Artificial Intelligence` | `0.74` | [arXiv](https://arxiv.org/abs/2611.24840v1) |
+| 5 | **Render the Robot, Generate the World: One Video World Model Across Embod...** | `Robotics` | `0.76` | [arXiv](https://arxiv.org/abs/2611.24925v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `398`
-- **Total Operational Runs**: `52 days`
+- **Total Papers Analyzed**: `408`
+- **Total Operational Runs**: `53 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Machine Learning, Artificial Intelligence, Natural Language Processing
 

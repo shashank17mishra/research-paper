@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-18T08:17:35.323975",
-  "total_entries": 398,
+  "updated_at": "2026-11-19T08:29:38.567131",
+  "total_entries": 408,
   "months": [
     "2026-11",
     "2026-10"
@@ -16906,6 +16906,447 @@
         "limitations": "While gravity is often used in mobile robotics as a global constraint for Simultaneous Localization and Mapping (SLAM) algorithms, most estimation methods rely on indirect observation of the gravity vector."
       },
       "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.24938",
+      "raw_id": "http://arxiv.org/abs/2611.24938v1",
+      "title": "Phoenix: Learning Scene Structure Representations for Generalizable World-Action Models",
+      "authors": [
+        "Yupeng Zheng",
+        "Chaoyue Li",
+        "Linbo Wang",
+        "Xiang Li",
+        "Yuhang Zheng",
+        "Xiaotong Su",
+        "Songen Gu",
+        "Yichen Zhang",
+        "Zebin Xing",
+        "Shuai Tian",
+        "Jingxiang Guo",
+        "Jing Li",
+        "Zhiyong Zhao",
+        "Zhongpu Xia",
+        "Qichao Zhang",
+        "Haoran Li",
+        "Shuicheng Yan",
+        "Dongbin Zhao"
+      ],
+      "published_date": "2026-11-18T18:59:04Z",
+      "updated_date": "2026-11-18T18:59:04Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "World-action models jointly predict future observations and actions, yet reconstruction-oriented visual representations do not explicitly emphasize the spatial relationships and object-state changes needed for manipulation. We introduce Phoenix, which learns representations of scene structure for world-action modeling. Specifically, Phoenix Encoder enriches DINOv3's general visual semantics through dual-teacher distillation of geometric and spatiotemporal semantic knowledge. Next, CS-VAE causally aggregates and compresses Phoenix Encoder features into generative latents while preserving scene information and spatial layout. Finally, Phoenix jointly predicts these latents, complementary appearance latents, and robot actions, linking scene evolution with action generation. To study pretraining data efficiency, we curate approximately 39,000 hours of egocentric and robot manipulation data for representation learning and use the robot demonstration subset for WAM pretraining. Following benchmark-specific post-training, Phoenix achieves state-of-the-art performance across simulation and real-robot benchmarks spanning single-arm, bimanual, and dexterous manipulation. It demonstrates strong robustness to perturbations, achieving success rates of 94.8% on LIBERO-Plus and 72.4% on RoboTwin 2.0 C2R, alongside strong cross-embodiment transfer and real-world manipulation performance on Bench2Dex and RoboDojo-RealWorld, respectively. Pretraining-scale analysis shows larger performance gains from data scaling than a video-VAE-only baseline, indicating stronger scaling benefits and more effective data utilization. Moreover, Phoenix maintains high success rates when adapted with limited downstream demonstrations, demonstrating strong few-shot adaptation. Our code, pretraining data, and models are available on the project page to help the community reproduce our results.",
+      "url": "https://arxiv.org/abs/2611.24938v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24938v1",
+      "relevance_score": 0.823,
+      "processed_date": "2026-11-19",
+      "summary": "Addressing critical demands in Robotics, this research investigates world-action models jointly predict future observations and actions, yet reconstruction-oriented visual representations do not explicitly emphasize the spatial relationships and object-state changes needed for manipulation. We introduce Phoenix, which learns representations of scene structure for world-action modeling. Following benchmark-specific post-training, Phoenix achieves state-of-the-art performance across simulation and real-robot benchmarks spanning single-arm, bimanual, and dexterous manipulation. Our code, pretraining data, and models are available on the project page to help the community reproduce our results. World-action models jointly predict future observations and actions, yet reconstruction-oriented visual representations do not explicitly emphasize the spatial relationships and object-state changes needed for manipulation.",
+      "key_concepts": [
+        "Representation Learning",
+        "Dexterous Manipulation",
+        "Manipulation",
+        "Phoenix Encoder",
+        "Simulation Real-robot",
+        "Single-arm Bimanual"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We introduce Phoenix, which learns representations of scene structure for world-action modeling.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Representation Learning, Dexterous Manipulation.",
+        "results": "Following benchmark-specific post-training, Phoenix achieves state-of-the-art performance across simulation and real-robot benchmarks spanning single-arm, bimanual, and dexterous manipulation.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.24836",
+      "raw_id": "http://arxiv.org/abs/2611.24836v1",
+      "title": "DiWALI: Diffusion Policy Learning in World Models via Latent Action Inference from Human and Robot Play",
+      "authors": [
+        "Akshay L Chandra",
+        "Iman Nematollahi",
+        "Lingyue Zhao",
+        "Daria Kulikova",
+        "Angela P. Schoellig",
+        "Fabien Despinoy",
+        "Abhinav Valada"
+      ],
+      "published_date": "2026-11-18T18:03:14Z",
+      "updated_date": "2026-11-18T18:03:14Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Learning robot manipulation is constrained by the availability of action-labeled robot data, for both imitation and world models. Humans can demonstrate skills in seconds, but their demonstrations lack the required robot actions. We introduce DiWALI, a framework that learns and improves diffusion policies within a world model trained on human and robot play. DiWALI infers latent actions from consecutive frames using an inverse dynamics model, enabling world model training without action labels, and grounds them in robot commands through a decoder trained separately on robot play. Skill policies are trained over latent actions from action-free human demonstrations and improved with reinforcement learning in imagination. On the CALVIN benchmark, DiWALI policies trained solely from human demonstrations substantially outperform baselines trained with robot demonstrations. Incorporating human play into the world model training also yields stronger policies after fine-tuning than using the same amount of robot play alone. Experiments on a physical robot show that skills learned primarily from human demonstrations are further improved in imagination with a world model trained on human and robot play. Together, these results demonstrate that human experience can support both manipulation skill acquisition and subsequent policy improvement, reducing reliance on action-labeled robot data. Videos, dataset and code are available at https://diwali.cs.uni-freiburg.de.",
+      "url": "https://arxiv.org/abs/2611.24836v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24836v1",
+      "relevance_score": 0.794,
+      "processed_date": "2026-11-19",
+      "summary": "Addressing critical demands in Robotics, this research investigates learning robot manipulation is constrained by the availability of action-labeled robot data, for both imitation and world models. We introduce DiWALI, a framework that learns and improves diffusion policies within a world model trained on human and robot play. Videos, dataset and code are available at https://diwali.cs.uni-freiburg.de. Learning robot manipulation is constrained by the availability of action-labeled robot data, for both imitation and world models. Humans can demonstrate skills in seconds, but their demonstrations lack the required robot actions. DiWALI infers latent actions from consecutive frames using an inverse dynamics model, enabling world model training without action labels, and grounds them in robot commands through a decoder trained separately on robot play.",
+      "key_concepts": [
+        "World Model",
+        "Reinforcement Learning",
+        "Diffusion Policy",
+        "Manipulation",
+        "Robot Play",
+        "Action-labeled Robot"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We introduce DiWALI, a framework that learns and improves diffusion policies within a world model trained on human and robot play.",
+        "key_innovation": "Formulates an integrated mechanism leveraging World Model, Reinforcement Learning.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.24789",
+      "raw_id": "http://arxiv.org/abs/2611.24789v1",
+      "title": "HINT-WAM: Hindsight-Informed Training for World Action Models",
+      "authors": [
+        "Phuong Tuan Dat",
+        "Qi Li",
+        "Xinchao Wang"
+      ],
+      "published_date": "2026-11-18T17:36:15Z",
+      "updated_date": "2026-11-18T17:36:15Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics. Translating these capabilities into reliable task execution, however, remains a challenge for existing post-training methods. Offline supervised fine-tuning provides dense supervision on expert trajectories, but its flow-matching action expert is trained only on noised demonstration actions and never on the intermediate states produced by its own sampler; task-specific adaptation can also compromise pretrained capabilities. On-policy reinforcement learning trains on the policy's own behavior, yet sparse task rewards make exploration and credit assignment difficult, while dense reward shaping still provides scalar evaluations rather than direct action targets. We introduce \\textbf{HINT-WAM}, the first on-policy self-distillation framework that supervises the action expert on its own sampling trajectories using hindsight, the future video of the demonstration, as privileged information available to the WAM itself. For each demonstration observation, the student generates its action through its own denoising trajectory, and at the states along this trajectory the same model acts as a teacher conditioned additionally on this hindsight, providing a conditional action distribution as a dense training target, while the student sees only deployment-time inputs and needs no environmental rewards or simulator interaction. To transfer this supervision to a flow-matching action expert, HINT-WAM distills the teacher into the student with an energy score, a distribution-level objective that matches the teacher's action distribution from the student's own samples rather than regressing its velocity field. The project web is available in https://tuandattt.github.io/hintwam/.",
+      "url": "https://arxiv.org/abs/2611.24789v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24789v1",
+      "relevance_score": 0.787,
+      "processed_date": "2026-11-19",
+      "summary": "Translating these capabilities into reliable task execution, however, remains a challenge for existing post-training methods. We introduce \\textbf{HINT-WAM}, the first on-policy self-distillation framework that supervises the action expert on its own sampling trajectories using hindsight, the future video of the demonstration, as privileged information available to the WAM itself. Offline supervised fine-tuning provides dense supervision on expert trajectories, but its flow-matching action expert is trained only on noised demonstration actions and never on the intermediate states produced by its own sampler; task-specific adaptation can also compromise pretrained capabilities. The project web is available in https://tuandattt.github.io/hintwam/. World action models (WAMs) have shown promising generalization and data efficiency in robot manipulation by coupling action generation with predictions of future visual dynamics.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Manipulation",
+        "Action Distribution",
+        "Action Expert",
+        "Flow-matching Action",
+        "Textbf Hint-wam"
+      ],
+      "insights": {
+        "problem": "Translating these capabilities into reliable task execution, however, remains a challenge for existing post-training methods.",
+        "approach": "We introduce \\textbf{HINT-WAM}, the first on-policy self-distillation framework that supervises the action expert on its own sampling trajectories using hindsight, the future video of the demonstration, as privileged information available to the WAM itself.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Manipulation.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.24806",
+      "raw_id": "http://arxiv.org/abs/2611.24806v1",
+      "title": "ReCoCo: From Patches to Compositions for Visual Representation Learning",
+      "authors": [
+        "Juan Gutiérrez",
+        "Saman Zadtootaghaj",
+        "José Luis Blanco-Murillo",
+        "Sara Atito"
+      ],
+      "published_date": "2026-11-18T17:45:04Z",
+      "updated_date": "2026-11-18T17:45:04Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Self-supervised learning has produced powerful visual representations, yet learning strong dense features remains challenging. While consistency between augmented views provides strong image-level supervision, extending this principle to local visual content is less straightforward. Existing approaches often match individual patches across views or identify coherent regions, introducing uncertainties in correspondence estimation and assumptions about how visual content should be grouped. We introduce ReCoCo (Regional Composition Consistency), a principled approach that extends cross-view consistency to the regional level without requiring such correspondences or semantic grouping. ReCoCo represents the content shared between augmented views through compositions of their patch-level predictions over learned visual prototypes. By aligning these compositions, the model learns from regions containing multiple visual concepts without requiring them to be separated beforehand. ReCoCo integrates naturally with teacher-student self-distillation and introduces no additional learned parameters. Extensive experiments demonstrate substantial improvements in frozen-feature segmentation, clustering, and regional retrieval while maintaining competitive image-level recognition, alleviating the trade-off between dense and global representation quality.",
+      "url": "https://arxiv.org/abs/2611.24806v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24806v1",
+      "relevance_score": 0.767,
+      "processed_date": "2026-11-19",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates self-supervised learning has produced powerful visual representations, yet learning strong dense features remains challenging. We introduce ReCoCo (Regional Composition Consistency), a principled approach that extends cross-view consistency to the regional level without requiring such correspondences or semantic grouping. Extensive experiments demonstrate substantial improvements in frozen-feature segmentation, clustering, and regional retrieval while maintaining competitive image-level recognition, alleviating the trade-off between dense and global representation quality. Self-supervised learning has produced powerful visual representations, yet learning strong dense features remains challenging. While consistency between augmented views provides strong image-level supervision, extending this principle to local visual content is less straightforward.",
+      "key_concepts": [
+        "Representation Learning",
+        "Self-supervised Learning",
+        "Additional Learned",
+        "Aligning Compositions",
+        "Alleviating Trade-off",
+        "Approaches Match"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We introduce ReCoCo (Regional Composition Consistency), a principled approach that extends cross-view consistency to the regional level without requiring such correspondences or semantic grouping.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Representation Learning, Self-supervised Learning.",
+        "results": "Extensive experiments demonstrate substantial improvements in frozen-feature segmentation, clustering, and regional retrieval while maintaining competitive image-level recognition, alleviating the trade-off between dense and global representation quality.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Extensive experiments demonstrate substantial improvements in frozen-feature segmentation, clustering, and regional retrieval while maintaining competitive image-level recognition, alleviating the trade-off between dense and global representation quality."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.24926",
+      "raw_id": "http://arxiv.org/abs/2611.24926v1",
+      "title": "Grana: Compositional Reward Modeling for Long-Horizon Robot Manipulation",
+      "authors": [
+        "Zi-ang Cao",
+        "Kaiyuan Zheng",
+        "Yinzhen Xu",
+        "Haonan Duan",
+        "Jiasheng Gu",
+        "Fengyuan Hu",
+        "Nan Zhu",
+        "Kun Lei",
+        "Kevin Lin",
+        "Ruijie Zheng",
+        "Shenyuan Gao",
+        "Fangqi Zhu",
+        "Zhe Zhang",
+        "Radha Poovendran",
+        "Linxi Fan",
+        "Guanzhi Wang",
+        "Yuke Zhu"
+      ],
+      "published_date": "2026-11-18T18:53:53Z",
+      "updated_date": "2026-11-18T18:53:53Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Robot reward modeling faces two challenges: generalizing across tasks and accurately tracking progress in long-horizon manipulation. General-purpose reward models demonstrate broad task transfer, but transfer from short-task pretraining to long-horizon tasks remains underexplored. Long-horizon progress models often rely on task-specific subtask classifiers or fixed action vocabularies, limiting the reuse of learned progress knowledge when adapting to new tasks. To address these challenges, we introduce Grana, a vision-language robot reward model that learns to identify unfinished subtasks and estimate their continuous progress using open-vocabulary subtask descriptions. We train a language-conditioned model to estimate progress in short-horizon tasks and individual subtasks of long-horizon tasks. For long-horizon tasks, we combine the selected subtask's predicted progress with credit for preceding completed subtasks to estimate whole-task progress. General progress prediction requires training the model across diverse tasks with progress supervision that accounts for imperfect execution. Elapsed-time proxies can misrepresent progress when relative subtask durations vary, or failures reverse local progress. We therefore introduce an annotation protocol that converts sparse subtask boundaries and action-quality annotations into dense progress targets, without requiring annotators to assign numerical progress scores. Pretraining with this supervision on 200 diverse, mostly short-horizon manipulation tasks enables zero-shot reward prediction on unseen tasks and improves progress prediction after adaptation to multi-minute, long-horizon tasks. Experiments demonstrate (i) generalizable reward prediction, including adaptation to five long-horizon tasks, (ii) benefits from pretraining and composing subtask progress estimates, and (iii) improved downstream policy performance.",
+      "url": "https://arxiv.org/abs/2611.24926v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24926v1",
+      "relevance_score": 0.757,
+      "processed_date": "2026-11-19",
+      "summary": "Addressing critical demands in Robotics, this research investigates robot reward modeling faces two challenges: generalizing across tasks and accurately tracking progress in long-horizon manipulation. To address these challenges, we introduce Grana, a vision-language robot reward model that learns to identify unfinished subtasks and estimate their continuous progress using open-vocabulary subtask descriptions. Experiments demonstrate (i) generalizable reward prediction, including adaptation to five long-horizon tasks, (ii) benefits from pretraining and composing subtask progress estimates, and (iii) improved downstream policy performance. Robot reward modeling faces two challenges: generalizing across tasks and accurately tracking progress in long-horizon manipulation. General-purpose reward models demonstrate broad task transfer, but transfer from short-task pretraining to long-horizon tasks remains underexplored.",
+      "key_concepts": [
+        "Zero-shot",
+        "Manipulation",
+        "Progress Prediction",
+        "Reward Prediction",
+        "Robot Reward",
+        "Subtasks Estimate"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "To address these challenges, we introduce Grana, a vision-language robot reward model that learns to identify unfinished subtasks and estimate their continuous progress using open-vocabulary subtask descriptions.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Manipulation.",
+        "results": "Experiments demonstrate (i) generalizable reward prediction, including adaptation to five long-horizon tasks, (ii) benefits from pretraining and composing subtask progress estimates, and (iii) improved downstream policy performance.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.24925",
+      "raw_id": "http://arxiv.org/abs/2611.24925v1",
+      "title": "Render the Robot, Generate the World: One Video World Model Across Embodiments",
+      "authors": [
+        "Yash Jangir",
+        "Karan Mirakhor",
+        "Renos Zabounidis",
+        "Muhammad Zubair Irshad",
+        "Sergey Zakharov",
+        "Yonatan Bisk",
+        "Homanga Bharadhwaj"
+      ],
+      "published_date": "2026-11-18T18:52:28Z",
+      "updated_date": "2026-11-18T18:52:28Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Predicting the consequences of an agent's actions requires modeling both the body's motion and the environment's response. Most video world models attempt to learn both from numerical actions, even though geometry and kinematics already specify the intended motion. We introduce Doppel, an embodiment-agnostic video world model conditioned on camera-aligned renderings of future body configurations and numerical action trajectories. By explicitly providing the intended motion, Doppel can focus on predicting object motion and interaction-driven changes in the environment. Rendered motion also provides a common visual interface across different embodiments and action spaces. To train on robot datasets without camera extrinsics, we recover camera poses and align rendered trajectories with recorded observations. We jointly train a single shared video backbone and conditioning adapter on eight datasets spanning eight robot and human embodiments, from single- and bimanual robot arms to a dexterous humanoid and human hands and bodies, using about 600 hours of video without embodiment labels. Across three robot-arm datasets, Doppel improves PSNR over action-only baselines by 1.00 dB on held-out trajectories and 1.20 dB under out-of-distribution evaluation, while predicting more consistent object motion. Training on all eight embodiments (Doppel-8) improves robot predictions over the three-robot model (Doppel-3) on four of six evaluation sets. Project page: https://doppelwm.github.io/.",
+      "url": "https://arxiv.org/abs/2611.24925v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24925v1",
+      "relevance_score": 0.757,
+      "processed_date": "2026-11-19",
+      "summary": "Addressing critical demands in Robotics, this research investigates predicting the consequences of an agent's actions requires modeling both the body's motion and the environment's response. We introduce Doppel, an embodiment-agnostic video world model conditioned on camera-aligned renderings of future body configurations and numerical action trajectories. Project page: https://doppelwm.github.io/. Predicting the consequences of an agent's actions requires modeling both the body's motion and the environment's response. Most video world models attempt to learn both from numerical actions, even though geometry and kinematics already specify the intended motion. By explicitly providing the intended motion, Doppel can focus on predicting object motion and interaction-driven changes in the environment.",
+      "key_concepts": [
+        "World Model",
+        "Video World",
+        "Action Spaces",
+        "Action Trajectories",
+        "Action-only Baselines",
+        "Actions Geometry"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We introduce Doppel, an embodiment-agnostic video world model conditioned on camera-aligned renderings of future body configurations and numerical action trajectories.",
+        "key_innovation": "Formulates an integrated mechanism leveraging World Model, Video World.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.24840",
+      "raw_id": "http://arxiv.org/abs/2611.24840v1",
+      "title": "Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving",
+      "authors": [
+        "Binay Kumar Singh",
+        "Niels Da Vitoria Lobo"
+      ],
+      "published_date": "2026-11-18T18:06:20Z",
+      "updated_date": "2026-11-18T18:06:20Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "abstract": "World models are increasingly used in autonomous driving to predict how a scene evolves under the ego vehicle's actions, supporting counterfactual reasoning and model-based planning. However, existing evaluations focus on prediction fidelity and planning performance, and rarely verify that the predictions depend on the conditioning action. In this paper, we study action dependence in action-conditioned semantic forecasting, which predicts future semantic segmentation from past segmentations and the ego action. We compare a forecaster with feature-wise and input-level action conditioning against an identical model without action input, and measure action dependence with test-time action interventions scored by standard segmentation metrics. The evaluation is validated in a synthetic environment with known action-dependent dynamics and applied to Cityscapes and BDD100K, both within each dataset and across the two vehicle platforms. Experiments show that the executed action improves mid-term mIoU by at most 2.5 points on Cityscapes and 0.6 points on BDD100K, whereas a wrong action reduces it by up to 23.2 and 7.0 points, below the model without action input. On real data, feature-wise conditioning depends 1.6 times more on the action than input-level conditioning at similar accuracy, whereas both depend on it equally in the synthetic environment, where the history does not determine the action. These results show that an accuracy gain indicates that a driving world model uses its action, but not how strongly its forecasts depend on it. Code is available at https://github.com/binayksingh/does-action-matter.",
+      "url": "https://arxiv.org/abs/2611.24840v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24840v1",
+      "relevance_score": 0.743,
+      "processed_date": "2026-11-19",
+      "summary": "However, existing evaluations focus on prediction fidelity and planning performance, and rarely verify that the predictions depend on the conditioning action. However, existing evaluations focus on prediction fidelity and planning performance, and rarely verify that the predictions depend on the conditioning action. Experiments show that the executed action improves mid-term mIoU by at most 2.5 points on Cityscapes and 0.6 points on BDD100K, whereas a wrong action reduces it by up to 23.2 and 7.0 points, below the model without action input. Code is available at https://github.com/binayksingh/does-action-matter. World models are increasingly used in autonomous driving to predict how a scene evolves under the ego vehicle's actions, supporting counterfactual reasoning and model-based planning.",
+      "key_concepts": [
+        "World Model",
+        "Accuracy Depend",
+        "Accuracy Gain",
+        "Action Compare",
+        "Action Conditioning",
+        "Action Dependence"
+      ],
+      "insights": {
+        "problem": "However, existing evaluations focus on prediction fidelity and planning performance, and rarely verify that the predictions depend on the conditioning action.",
+        "approach": "However, existing evaluations focus on prediction fidelity and planning performance, and rarely verify that the predictions depend on the conditioning action.",
+        "key_innovation": "Formulates an integrated mechanism leveraging World Model, Accuracy Depend.",
+        "results": "Experiments show that the executed action improves mid-term mIoU by at most 2.5 points on Cityscapes and 0.6 points on BDD100K, whereas a wrong action reduces it by up to 23.2 and 7.0 points, below the model without action input.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.24816",
+      "raw_id": "http://arxiv.org/abs/2611.24816v1",
+      "title": "RoboMorpher: Scaling Robot Morphology Representations for Cross-Embodiment Action Prediction",
+      "authors": [
+        "Wenwei Lin",
+        "Yan Qin",
+        "Weiliang Deng",
+        "Zixuan Li",
+        "Kaixuan Wang",
+        "Zanxin Chen",
+        "Yue Chen",
+        "Tianshuo Yang",
+        "Junting Chen",
+        "Zhixuan Liang",
+        "Yao Mu",
+        "Ximin Lyu",
+        "Renjing Xu",
+        "Ping Luo",
+        "Tianxing Chen"
+      ],
+      "published_date": "2026-11-18T17:47:57Z",
+      "updated_date": "2026-11-18T17:47:57Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Learning shared action representations is central to cross-embodiment manipulation. However, identical joint values can produce different spatial configurations across robots, limiting representations learned from joint values alone. We introduce RoboMorpher, a morphology-conditioned action tokenizer that jointly reconstructs joint angles and link poses to associate control coordinates with their kinematic effects. MorphGen supplies scalable kinematic supervision by generating serial-arm descriptions from survey-derived geometric priors. We pretrain RoboMorpher on 40 million morphology-state pairs and integrate the frozen tokenizer into a vision-language-action policy for discrete prediction and continuous refinement. We also introduce EmbodiBench, a ten-task benchmark with 30 generated URDFs per task. With downstream URDFs excluded from tokenizer pretraining, the policy achieves 56.40% success on RoboTwin 2.0 and 23.27% on EmbodiBench, exceeding continuous joint-space control by 9.73 and 15.34 percentage points. Removing link-pose supervision reduces EmbodiBench success by 17.94 percentage points, supporting morphology-aware geometric supervision for joint-action representation learning.",
+      "url": "https://arxiv.org/abs/2611.24816v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24816v1",
+      "relevance_score": 0.737,
+      "processed_date": "2026-11-19",
+      "summary": "However, identical joint values can produce different spatial configurations across robots, limiting representations learned from joint values alone. We introduce RoboMorpher, a morphology-conditioned action tokenizer that jointly reconstructs joint angles and link poses to associate control coordinates with their kinematic effects. Removing link-pose supervision reduces EmbodiBench success by 17.94 percentage points, supporting morphology-aware geometric supervision for joint-action representation learning. Learning shared action representations is central to cross-embodiment manipulation. MorphGen supplies scalable kinematic supervision by generating serial-arm descriptions from survey-derived geometric priors. We pretrain RoboMorpher on 40 million morphology-state pairs and integrate the frozen tokenizer into a vision-language-action policy for discrete prediction and continuous refinement.",
+      "key_concepts": [
+        "Representation Learning",
+        "Manipulation",
+        "Achieves Success",
+        "Action Representations",
+        "Action Tokenizer",
+        "Angles Link"
+      ],
+      "insights": {
+        "problem": "However, identical joint values can produce different spatial configurations across robots, limiting representations learned from joint values alone.",
+        "approach": "We introduce RoboMorpher, a morphology-conditioned action tokenizer that jointly reconstructs joint angles and link poses to associate control coordinates with their kinematic effects.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Representation Learning, Manipulation.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.24864",
+      "raw_id": "http://arxiv.org/abs/2611.24864v1",
+      "title": "NereidVLA: Learning to Understand and Navigate the Underwater World",
+      "authors": [
+        "Chenjie Zhao",
+        "Zhiliang Zhu",
+        "Quan Chen",
+        "Yuquan Xue",
+        "Xingxue Shi",
+        "Puyue Wang",
+        "Zhiqiang Zhao",
+        "Kangye Zheng",
+        "Boyang Xu",
+        "Mingwei Lin",
+        "Dejun Li"
+      ],
+      "published_date": "2026-11-18T18:19:00Z",
+      "updated_date": "2026-11-18T18:19:00Z",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "abstract": "Underwater navigation requires translating visual spatial cues into motion, yet marine vision-language datasets rarely include paired robot trajectories. We present NereidVLA, a vision-language-action model that transfers marine spatial knowledge to language-conditioned 3D navigation. We first train Sea2Know on approximately two million marine examples to learn target grounding, spatial relations, and scene structure without paired robot-motion supervision. We then adapt it using expert trajectories executed under simulated underwater vehicle dynamics. Given RGB histories and a language instruction, NereidVLA predicts discrete motion tokens that decode into local 3D trajectories for closed-loop tracking. Evaluation combines an independent six-dimensional underwater navigation understanding benchmark with offline prediction and closed-loop navigation. Under matched navigation training and execution settings, marine spatial pretraining increases simulation success from 72.4% to 84.4%. Without fine-tuning on the real test environment, NereidVLA achieves 78.75% success in laboratory-pool robot trials, compared with 47.50% for InternVLA-N1. These results show that marine spatial supervision can support downstream motion learning and physical underwater navigation.",
+      "url": "https://arxiv.org/abs/2611.24864v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24864v1",
+      "relevance_score": 0.717,
+      "processed_date": "2026-11-19",
+      "summary": "Addressing critical demands in Robotics, this research investigates underwater navigation requires translating visual spatial cues into motion, yet marine vision-language datasets rarely include paired robot trajectories. We present NereidVLA, a vision-language-action model that transfers marine spatial knowledge to language-conditioned 3D navigation. These results show that marine spatial supervision can support downstream motion learning and physical underwater navigation. Underwater navigation requires translating visual spatial cues into motion, yet marine vision-language datasets rarely include paired robot trajectories. We first train Sea2Know on approximately two million marine examples to learn target grounding, spatial relations, and scene structure without paired robot-motion supervision. We then adapt it using expert trajectories executed under simulated underwater vehicle dynamics.",
+      "key_concepts": [
+        "Achieves Success",
+        "Approximately Million",
+        "Closed-loop Navigation",
+        "Closed-loop Tracking",
+        "Combines Independent",
+        "Compared Internvla-"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We present NereidVLA, a vision-language-action model that transfers marine spatial knowledge to language-conditioned 3D navigation.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Achieves Success, Approximately Million.",
+        "results": "These results show that marine spatial supervision can support downstream motion learning and physical underwater navigation.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.24877",
+      "raw_id": "http://arxiv.org/abs/2611.24877v1",
+      "title": "Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws",
+      "authors": [
+        "Zhiyu Liu",
+        "Xinyu Yang"
+      ],
+      "published_date": "2026-11-18T18:24:54Z",
+      "updated_date": "2026-11-18T18:24:54Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Large language models (LLMs) are used to explain clinical prediction models, on the promise that they can say what a model computes, find its faults and even reveal new knowledge in it. We tested the three promises where the answers could be checked. From the International Stroke Trial we trained four kinds of model (logistic regression, explainable boosting machine, gradient-boosted trees, neural network) for two outcomes on patients randomised earlier, planted one flaw in each of 24 copies (an under-predicted subgroup, a reversed risk factor or an implausible step) and mixed them with the 8 clean models. GPT-6 Astra audited each model three times, blind, through a tool that only returned the model's predictions; the judging rules were committed before any run and applied by program. Its surrogate models, with a median of 128 terms, reproduced the audited models' log-odds with a mean R^2 of 0.976 (0.959 for an additive surrogate of 42 terms fitted by an analyst). It found the planted flaw in 69 of 72 runs (96%; 95% CI 80% to 99%); a script written for the purpose found all 24. It also reported many more problems: 60% of 1,089 checkable reports failed the pre-specified check against the model's average behaviour; post hoc, most of these were real but small steps, and 15% of the checkable reports were not found in the model. Of 601 unexpected relationships it read out of the clean models, 11% held in patients randomised later (random pairs 6%; a regression scan's shorter list of its strongest candidates, 28%); after a check on the training data, 33% against 30%. With query access alone, an LLM can describe a black-box model faithfully and find nearly every planted flaw, as a purpose-written script also did; its reports of problems must be checked on the model and its discoveries on data.",
+      "url": "https://arxiv.org/abs/2611.24877v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.24877v1",
+      "relevance_score": 0.716,
+      "processed_date": "2026-11-19",
+      "summary": "Addressing critical demands in Natural Language Processing, this research investigates large language models (llms) are used to explain clinical prediction models, on the promise that they can say what a model computes, find its faults and even reveal new knowledge in it. We tested the three promises where the answers could be checked. From the International Stroke Trial we trained four kinds of model (logistic regression, explainable boosting machine, gradient-boosted trees, neural network) for two outcomes on patients randomised earlier, planted one flaw in each of 24 copies (an under-predicted subgroup, a reversed risk factor or an implausible step) and mixed them with the 8 clean models. With query access alone, an LLM can describe a black-box model faithfully and find nearly every planted flaw, as a purpose-written script also did; its reports of problems must be checked on the model and its discoveries on data.",
+      "key_concepts": [
+        "Large Language Model",
+        "Planted Flaw",
+        "Checkable Reports",
+        "Patients Randomised",
+        "Scan Shorter",
+        "Script Did"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+        "approach": "We tested the three promises where the answers could be checked.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Large Language Model, Planted Flaw.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Natural Language Processing"
     }
   ]
 }
