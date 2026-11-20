@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[19 November 2026 Report](reports/2026/11/19/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[20 November 2026 Report](reports/2026/11/20/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/19/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/20/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/19/infographic.png)](reports/2026/11/19/infographic.png)
+[![Daily Infographic](reports/2026/11/20/infographic.png)](reports/2026/11/20/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `2` |
-| **Machine Learning (ML)** | `4` |
-| **Robotics** | `8` |
+| **Artificial Intelligence (AI)** | `6` |
+| **Machine Learning (ML)** | `3` |
+| **Robotics** | `6` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Auditing black-box clinical prediction models with a large language mode...** | `Natural Language Processing` | `0.72` | [arXiv](https://arxiv.org/abs/2611.24877v1) |
-| 2 | **NereidVLA: Learning to Understand and Navigate the Underwater World** | `Robotics` | `0.72` | [arXiv](https://arxiv.org/abs/2611.24864v1) |
-| 3 | **RoboMorpher: Scaling Robot Morphology Representations for Cross-Embodime...** | `Robotics` | `0.74` | [arXiv](https://arxiv.org/abs/2611.24816v1) |
-| 4 | **Does the Action Matter? Probing Action-Conditioned Semantic Forecasting ...** | `Artificial Intelligence` | `0.74` | [arXiv](https://arxiv.org/abs/2611.24840v1) |
-| 5 | **Render the Robot, Generate the World: One Video World Model Across Embod...** | `Robotics` | `0.76` | [arXiv](https://arxiv.org/abs/2611.24925v1) |
+| 1 | **Multimodal Error Detection in Chest X-ray Reports: A Large Language Mode...** | `Natural Language Processing` | `0.67` | [arXiv](https://arxiv.org/abs/2611.26492v1) |
+| 2 | **GLiDE: A Fast, Calibrated Decision Model Distilled from Reasoning Teachers** | `Artificial Intelligence` | `0.67` | [arXiv](https://arxiv.org/abs/2611.26509v1) |
+| 3 | **ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents** | `Artificial Intelligence` | `0.67` | [arXiv](https://arxiv.org/abs/2611.26519v1) |
+| 4 | **AutoMaster: Autonomous Post-Training by Making the Same Model a Better T...** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2611.26510v1) |
+| 5 | **Multi-institutional grading of Barrett's esophagus dysplasia without sta...** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2611.26562v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `408`
-- **Total Operational Runs**: `53 days`
+- **Total Papers Analyzed**: `418`
+- **Total Operational Runs**: `54 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Machine Learning, Artificial Intelligence, Natural Language Processing
 
