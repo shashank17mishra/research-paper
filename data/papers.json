@@ -17816,5 +17816,429 @@
       "limitations": "Not specified in the available abstract."
     },
     "primary_topic": "Natural Language Processing"
+  },
+  {
+    "arxiv_id": "2611.26595",
+    "raw_id": "http://arxiv.org/abs/2611.26595v1",
+    "title": "Coda-DaVinci: Reimagining Video Generation with Code2Video",
+    "authors": [
+      "Yiyan Ji",
+      "Qixun Wang",
+      "Yang Shi",
+      "Zhuoran Zhang",
+      "Yifan Xu",
+      "Tengfei Liu",
+      "Yuqi Tang",
+      "Xiaohan Zhang",
+      "Shujie Li",
+      "Jiafu Tang",
+      "Xuanyu Zhu",
+      "Xinyu Liu",
+      "Yan He",
+      "Yushuo Guan",
+      "Zihao Wang",
+      "Xianghua Ying",
+      "Shixuan Liu",
+      "Haotian Wang",
+      "Wenjing Yang",
+      "Zhaoxiang Zhang",
+      "Yuanxing Zhang",
+      "Pengfei Wan",
+      "Jiaheng Liu"
+    ],
+    "published_date": "2026-11-19T18:51:58Z",
+    "updated_date": "2026-11-19T18:51:58Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "Code2Video uses agent-authored 3D proxies to guide video generation, enabling explicit control over structure and dynamics. However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm. Through controlled experiments and blinded human evaluation, we study proxy granularity, physics simulation, and prompting. The results reveal task-dependent trade-offs: coarse proxies favor natural motion, while medium-grained proxies favor consistency. Physics simulation and proxy-aligned prompting further improve average quality. Guided by these findings, we introduce Coda-DaVinci, a task-adaptive agentic framework for Code2Video generation that selects between proxy-guided and direct generation, adapts modeling granularity to each entity, and coordinates simulation with proxy-grounded prompting. Its multi-agent harness preserves scene assets and guides repairs through visual inspection and independent review. Experiments demonstrate leading instruction following on VTR and scene consistency on R2M, improved physical plausibility over direct generation, and higher visual realism than the compared Code2Video baselines. Long-video evaluations further show gains in event structure and consistency across successive interactions, while revealing limitations in transition stability and adherence to scene settings.",
+    "url": "https://arxiv.org/abs/2611.26595v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.26595v1",
+    "relevance_score": 0.641,
+    "processed_date": "2026-11-21",
+    "summary": "However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm. Guided by these findings, we introduce Coda-DaVinci, a task-adaptive agentic framework for Code2Video generation that selects between proxy-guided and direct generation, adapts modeling granularity to each entity, and coordinates simulation with proxy-grounded prompting. Experiments demonstrate leading instruction following on VTR and scene consistency on R2M, improved physical plausibility over direct generation, and higher visual realism than the compared Code2Video baselines. Long-video evaluations further show gains in event structure and consistency across successive interactions, while revealing limitations in transition stability and adherence to scene settings.",
+    "key_concepts": [
+      "Adapts Modeling",
+      "Adherence Scene",
+      "Agent-authored Proxies",
+      "Assets Guides",
+      "Baselines Long-video",
+      "Capabilities Limitations"
+    ],
+    "insights": {
+      "problem": "However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm.",
+      "approach": "Guided by these findings, we introduce Coda-DaVinci, a task-adaptive agentic framework for Code2Video generation that selects between proxy-guided and direct generation, adapts modeling granularity to each entity, and coordinates simulation with proxy-grounded prompting.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Adapts Modeling, Adherence Scene.",
+      "results": "Experiments demonstrate leading instruction following on VTR and scene consistency on R2M, improved physical plausibility over direct generation, and higher visual realism than the compared Code2Video baselines.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "However, how to construct proxies and prompts for optimal downstream quality remains underexplored, as do the capabilities and limitations of this paradigm."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.26493",
+    "raw_id": "http://arxiv.org/abs/2611.26493v1",
+    "title": "SGAR: Feed-Forward 3D Reconstruction via Sparse Geometry-Guided Attention",
+    "authors": [
+      "Aoxiang Fan",
+      "Maria Pilligua",
+      "Corentin Dumery",
+      "Oliver Heinimann",
+      "Pascal Fua"
+    ],
+    "published_date": "2026-11-19T17:46:57Z",
+    "updated_date": "2026-11-19T17:46:57Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "Feed-forward models have been very successful in 3D reconstruction with ad hoc attention designs that relate all view patches densely. However, the cost of this dense global attention grows quadratically with the number of views, preventing the model from applying to larger-scale reconstruction settings. In this paper, we argue that most dense attention computations are unnecessary from a classical structure-from-motion perspective: 3D structures stem from geometrically matching regions in 2D. We bring this principle to learning-based feed-forward reconstruction with our Sparse Geometric Attention Reconstruction (SGAR) method. In SGAR, each patch token attends to only a small set of patch tokens from other views, chosen by a lightweight learned key selection module trained to predict cross-view 3D proximity of tokens. Thus, dense global attention is replaced by much more efficient geometric-similarity-guided sparse attention. SGAR is a general method that can be applied to different feed-forward models by fine-tuning. In our experiments, we show that SGAR is the fastest among both state-of-the-art dense and sparse methods and the most accurate sparse one. It runs up to 12-times faster than dense attention at 1,000 views with stable pose accuracy where existing sparse methods fail, and shows the best performance in reconstructing more complete geometries on the same time budget.",
+    "url": "https://arxiv.org/abs/2611.26493v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.26493v1",
+    "relevance_score": 0.633,
+    "processed_date": "2026-11-21",
+    "summary": "However, the cost of this dense global attention grows quadratically with the number of views, preventing the model from applying to larger-scale reconstruction settings. However, the cost of this dense global attention grows quadratically with the number of views, preventing the model from applying to larger-scale reconstruction settings. It runs up to 12-times faster than dense attention at 1,000 views with stable pose accuracy where existing sparse methods fail, and shows the best performance in reconstructing more complete geometries on the same time budget. Feed-forward models have been very successful in 3D reconstruction with ad hoc attention designs that relate all view patches densely.",
+    "key_concepts": [
+      "Argue Dense",
+      "Attends Small",
+      "Attention Computations",
+      "Attention Grows",
+      "Attention Reconstruction",
+      "Attention Replaced"
+    ],
+    "insights": {
+      "problem": "However, the cost of this dense global attention grows quadratically with the number of views, preventing the model from applying to larger-scale reconstruction settings.",
+      "approach": "However, the cost of this dense global attention grows quadratically with the number of views, preventing the model from applying to larger-scale reconstruction settings.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Argue Dense, Attends Small.",
+      "results": "It runs up to 12-times faster than dense attention at 1,000 views with stable pose accuracy where existing sparse methods fail, and shows the best performance in reconstructing more complete geometries on the same time budget.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Computer Vision"
+  },
+  {
+    "arxiv_id": "2611.26450",
+    "raw_id": "http://arxiv.org/abs/2611.26450v1",
+    "title": "A CPU Inside an LLM: Zero-Gradient Compilation of Exact Circuits into Pretrained Weights",
+    "authors": [
+      "Tanmay Sah"
+    ],
+    "published_date": "2026-11-19T17:18:38Z",
+    "updated_date": "2026-11-19T17:18:38Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Pretrained language models (LMs) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters. We introduce closed-form, zero-gradient circuit-grafting primitives that compile deterministic computation directly into pretrained LM weights using zero training examples and zero runtime hooks, while bounding per-layer normalization drift and preserving natural-language (NL) competence. Our construction combines three analytical mechanisms: (1) two-layer Mellin-GLU quadrature over bias-free SwiGLU/GeGLU layers, turning unknown per-token RMSNorm scaling into translation along a log-spaced gate grid (>250\\times dynamic range) with IEEE 754 error bounds; (2) cross-token scale cancellation via signed Chebyshev Indefinite-RoPE self-sink attention and memoryless SiLU-antisymmetric GatedDeltaNet shifts; and (3) axis-aligned width extension (d \\to d+K) with \\sqrt{d/(d+K)} norm compensation, Base-1000 canonical BPE emission, and differential (+254,-256) tied unembeddings. An automated 5-stage compiler synthesizes 4-8 digit signed \\{+,-,\\times\\} circuits in constant \\mathsf{TC}^0 depth alongside 3-literal Boolean (100%, N=1{,}728; plus 42-layer Gemma 4 E4B audits) and 5-bit Majority/Parity (100%) circuits. On 6-digit arithmetic (N=1{,}200, BF16), IBM Granite 4.2 3B (1.07M-1.33M active non-zeros, \\le 0.036\\%) and Alibaba Qwen 3.5 4B (2.25M-2.39M non-zeros, \\le 0.057\\%) reach 99.17% and 100.00% ALU-prefix accuracy (100% with an FP32 sidecar) and 98%-100% mid-sentence resumption, outperforming 12.8K-sample LoRA (42.2% / 61.7%, 0% inline continuation). A factorized block-sparse sidecar holds A100 memory at 7.89 / 10.65 GiB (4.60 / 8.14 GiB under INT8/INT4 + FP32 sidecar) while passing all 14/14 pre-registered >2K-token Tango splits (N=4{,}392; 0/11,134 OOD triggers).",
+    "url": "https://arxiv.org/abs/2611.26450v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.26450v1",
+    "relevance_score": 0.633,
+    "processed_date": "2026-11-21",
+    "summary": "Addressing critical demands in Natural Language Processing, this research investigates pretrained language models (lms) remain unreliable on exact multi-digit arithmetic without gradient fine-tuning or external tool interpreters. We introduce closed-form, zero-gradient circuit-grafting primitives that compile deterministic computation directly into pretrained LM weights using zero training examples and zero runtime hooks, while bounding per-layer normalization drift and preserving natural-language (NL) competence. Our construction combines three analytical mechanisms: (1) two-layer Mellin-GLU quadrature over bias-free SwiGLU/GeGLU layers, turning unknown per-token RMSNorm scaling into translation along a log-spaced gate grid (>250\\times dynamic range) with IEEE 754 error bounds; (2) cross-token scale cancellation via signed Chebyshev Indefinite-RoPE self-sink attention and memoryless SiLU-antisymmetric GatedDeltaNet shifts; and (3) axis-aligned width extension (d \\to d+K) with \\sqrt{d/(d+K)} norm compensation, Base-1000 canonical BPE emission, and differential (+254,-256) tied unembeddings. A factorized block-sparse sidecar holds A100 memory at 7.89 / 10.65 GiB (4.60 / 8.14 GiB under INT8/INT4 + FP32 sidecar) while passing all 14/14 pre-registered >2K-token Tango splits (N=4{,}392; 0/11,134 OOD triggers).",
+    "key_concepts": [
+      "Accuracy Sidecar",
+      "Active Non-zeros",
+      "Alibaba Qwen",
+      "Alongside Literal",
+      "Alu-prefix Accuracy",
+      "Analytical Mechanisms"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+      "approach": "We introduce closed-form, zero-gradient circuit-grafting primitives that compile deterministic computation directly into pretrained LM weights using zero training examples and zero runtime hooks, while bounding per-layer normalization drift and preserving natural-language (NL) competence.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Accuracy Sidecar, Active Non-zeros.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Natural Language Processing"
+  },
+  {
+    "arxiv_id": "2611.26531",
+    "raw_id": "http://arxiv.org/abs/2611.26531v1",
+    "title": "Cost-Aware Agentic Feature Optimization System for Fleet-Scale Ranking Models",
+    "authors": [
+      "Chang Yang",
+      "Yao Xuan",
+      "Wendan Yan",
+      "Nhat Le",
+      "Jiang Liu",
+      "Longhao Jin",
+      "Zhen Peggy Yao",
+      "Alireza Vahdatpour",
+      "Djordje Gligorijevic"
+    ],
+    "published_date": "2026-11-19T18:12:04Z",
+    "updated_date": "2026-11-19T18:12:04Z",
+    "categories": [
+      "cs.IR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "abstract": "Large Web platforms operate large fleets of ranking models, each selecting features from a shared pool of tens of thousands. We present an end-to-end agentic system that optimizes features across the fleet under resource constraints shared across models and those set per model, such as feature pipeline cost and serving throughput (QPS), respectively. In this system, LLM agents propose hypotheses, and deterministic tools execute experiments and verify them. For each model, an LLM generates and shortlists cross features from a combinatorial candidate space, and all features are then ranked by several importance methods. Feature blending mixes these rankings into a single selection, using Pareto fronts across tasks for multi-task models. An LLM Researcher agent then tunes the feature selection in 10--25 asynchronous trials under resource caps, and a trimming step keeps the pipeline cost within budget. Across production models, the system improves normalized entropy by 0.31% on average within each model's budget, and the trimming step cuts pipeline cost by 2.3% with no regression beyond measurement noise. The optimized models were launched, and in online A/B tests they improved a primary online metric by 0.20%.",
+    "url": "https://arxiv.org/abs/2611.26531v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.26531v1",
+    "relevance_score": 0.627,
+    "processed_date": "2026-11-21",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates large web platforms operate large fleets of ranking models, each selecting features from a shared pool of tens of thousands. We present an end-to-end agentic system that optimizes features across the fleet under resource constraints shared across models and those set per model, such as feature pipeline cost and serving throughput (QPS), respectively. In this system, LLM agents propose hypotheses, and deterministic tools execute experiments and verify them. The optimized models were launched, and in online A/B tests they improved a primary online metric by 0.20%. Large Web platforms operate large fleets of ranking models, each selecting features from a shared pool of tens of thousands.",
+    "key_concepts": [
+      "Agent Tunes",
+      "Agentic Optimizes",
+      "Asynchronous Trials",
+      "Blending Mixes",
+      "Budget Production",
+      "Budget Trimming"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "We present an end-to-end agentic system that optimizes features across the fleet under resource constraints shared across models and those set per model, such as feature pipeline cost and serving throughput (QPS), respectively.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Agent Tunes, Agentic Optimizes.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "We present an end-to-end agentic system that optimizes features across the fleet under resource constraints shared across models and those set per model, such as feature pipeline cost and serving throughput (QPS), respectively."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.26590",
+    "raw_id": "http://arxiv.org/abs/2611.26590v1",
+    "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+    "authors": [
+      "Jiahao Huang",
+      "Jun Wang"
+    ],
+    "published_date": "2026-11-19T18:46:50Z",
+    "updated_date": "2026-11-19T18:46:50Z",
+    "categories": [
+      "cs.AI",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "abstract": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these functions in VLM concept processing. Its vision encoder and language decoder lenses map intermediate states to a shared semantic space defined by the decoder's output vocabulary to compare concept accessibility across modalities. MC-Lens supports internal concept interventions to examine the role of accessed concepts in downstream computation. (i) Accessibility and selective access. Multimodal concept information is readable in intermediate states and selectively accessible as tasks require. We extend \"readout carriers\" from one name token to a token set to better capture and express concept information and support counterfactual experiments. (ii) Concepts in downstream computation. Counterfactual experiments show that accessed concept information participates in downstream computation and reasoning. (iii) Development of cross-modal alignment and selective access. We develop two J-space metrics tracking the development of cross-modal concept alignment more clearly than hidden state cosine in controlled VLM training. The experiment also shows that reliable selective access develops later than concept accessibility. (iv) Shared functions across models. Across VLM families and sizes, we find shared patterns of concept accessibility, query-dependent selectivity and cross-task intervention effects despite differences in internal organisation. These findings offer an experimental basis to study GWT in multimodal artificial systems and how it can guide cross-modal alignment improvements.",
+    "url": "https://arxiv.org/abs/2611.26590v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.26590v1",
+    "relevance_score": 0.615,
+    "processed_date": "2026-11-21",
+    "summary": "Across VLM families and sizes, we find shared patterns of concept accessibility, query-dependent selectivity and cross-task intervention effects despite differences in internal organisation. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these functions in VLM concept processing. These findings offer an experimental basis to study GWT in multimodal artificial systems and how it can guide cross-modal alignment improvements. Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes.",
+    "key_concepts": [
+      "Selective Access",
+      "Concept Accessibility",
+      "Concept Information",
+      "Concepts Downstream",
+      "Cross-modal Alignment",
+      "Development Cross-modal"
+    ],
+    "insights": {
+      "problem": "Across VLM families and sizes, we find shared patterns of concept accessibility, query-dependent selectivity and cross-task intervention effects despite differences in internal organisation.",
+      "approach": "We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these functions in VLM concept processing.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Selective Access, Concept Accessibility.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.26545",
+    "raw_id": "http://arxiv.org/abs/2611.26545v1",
+    "title": "The Geometry of Lies: Knowledge and Persona Directions for Detecting Deception in Large Language Models",
+    "authors": [
+      "Md. Abdullah Al Zami",
+      "Suraiya Shanaz",
+      "Mahdi Hasan",
+      "Shoaib Ahmed Dipu",
+      "Farig Yousuf Sadeque",
+      "Md. Sabbir Ahmed"
+    ],
+    "published_date": "2026-11-19T18:20:01Z",
+    "updated_date": "2026-11-19T18:20:01Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Linear probes are the cheapest LLM lie detectors but often fail to transfer across kinds of lie. Label-free directions from honest and deceptive role-play are untested at 70B scale and on lies about knowledge, where a lie and an honest denial can be identical. We widen a published persona bank with roles that deny knowledge they have, plus honest counterparts. At each model's middle layer the resulting persona direction ranks lies across Liars' Bench better than single-dataset probes on three of its four models; it fails on Qwen, even when Qwen stays in role far more often. On Llama-3.3-70B-Instruct it beats directions from a random persona bank, but its gain over the published direction is within the range of random widenings. On lies about knowledge, persona directions mainly track a reply's wording: where lies and honest denials share their words, our three main contrasts stay inside the random-direction band on Llama and Qwen and reach only its edge on Gemma, though on Mistral one clears it. A knowledge direction contrasts questions the model can answer with ones nobody can, each followed by the same scripted denial. It separates lies from identical honest denials on two models and narrowly on a third, but not on the fourth; its other results partly depend on the benchmark's wording. On the Gender-Secret fine-tune it clears the band by a few hundredths on Llama and fails on Mistral. The sum of the two directions ranks lies better than a supervised probe at the same depth on all four models (on one, both near chance) but is level with the persona direction on Llama's average and behind that probe on held-out lies. More varied role-play questions do not help the persona direction on Liars' Bench.",
+    "url": "https://arxiv.org/abs/2611.26545v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.26545v1",
+    "relevance_score": 0.608,
+    "processed_date": "2026-11-21",
+    "summary": "Addressing critical demands in Natural Language Processing, this research investigates linear probes are the cheapest llm lie detectors but often fail to transfer across kinds of lie. Label-free directions from honest and deceptive role-play are untested at 70B scale and on lies about knowledge, where a lie and an honest denial can be identical. We widen a published persona bank with roles that deny knowledge they have, plus honest counterparts. More varied role-play questions do not help the persona direction on Liars' Bench. Linear probes are the cheapest LLM lie detectors but often fail to transfer across kinds of lie.",
+    "key_concepts": [
+      "Persona Direction",
+      "Honest Denials",
+      "Liars Bench",
+      "Lies Knowledge",
+      "Persona Bank",
+      "Ranks Lies"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+      "approach": "Label-free directions from honest and deceptive role-play are untested at 70B scale and on lies about knowledge, where a lie and an honest denial can be identical.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Persona Direction, Honest Denials.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Low-power edge AI devices, embedded IoT sensor networks, and distributed on-device inference. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Natural Language Processing"
+  },
+  {
+    "arxiv_id": "2611.26600",
+    "raw_id": "http://arxiv.org/abs/2611.26600v1",
+    "title": "A Tutorial on Complementarity-Based Contact Models for Robotics",
+    "authors": [
+      "Onur Beker",
+      "A. René Geist",
+      "Michael Posa",
+      "Marc Toussaint",
+      "Justin Carpentier",
+      "Georg Martius"
+    ],
+    "published_date": "2026-11-19T18:54:07Z",
+    "updated_date": "2026-11-19T18:54:07Z",
+    "categories": [
+      "cs.RO",
+      "cs.GR",
+      "math.OC"
+    ],
+    "abstract": "Simulating rigid-body dynamics with contact is fundamental to robotics, from motion synthesis and control to mechanism design. Many widely used simulators rely on cone complementarity formulations, whose physical assumptions and numerical solution require substantial background. While excellent surveys, monographs, and course notes exist, they mostly address computational mechanics or computer graphics or document a single simulator. To the best of our knowledge, a self-contained pedagogical treatment for robotics, bringing these formulations and their solvers together with complete derivations and a unified notation, does not yet exist. This tutorial addresses this gap by connecting rigid-body dynamics, conic optimization, and frictional contact. In particular, we explain how complementarity conditions encode non-penetration and frictional dissipation, determining separation, sticking, and sliding without prescribed contact modes. We distinguish equivalent transcriptions from convex relaxations, showing how the latter can introduce artifacts such as lift-off and creep. We examine the existence and uniqueness of motion and contact forces, including the solver's role in selecting among multiple solutions. We then compare first-order and Newton-based methods, explain regularization and proximal strategies, and discuss trade-offs between computational cost, robustness, and physical fidelity. Connections to widely used simulators, optimal control, and differentiable simulation help readers interpret simulation results, choose suitable formulations and solvers, and develop their own contact dynamics routines.",
+    "url": "https://arxiv.org/abs/2611.26600v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.26600v1",
+    "relevance_score": 0.603,
+    "processed_date": "2026-11-21",
+    "summary": "Addressing critical demands in Robotics, this research investigates simulating rigid-body dynamics with contact is fundamental to robotics, from motion synthesis and control to mechanism design. Many widely used simulators rely on cone complementarity formulations, whose physical assumptions and numerical solution require substantial background. While excellent surveys, monographs, and course notes exist, they mostly address computational mechanics or computer graphics or document a single simulator. Connections to widely used simulators, optimal control, and differentiable simulation help readers interpret simulation results, choose suitable formulations and solvers, and develop their own contact dynamics routines. Simulating rigid-body dynamics with contact is fundamental to robotics, from motion synthesis and control to mechanism design.",
+    "key_concepts": [
+      "Formulations Solvers",
+      "Rigid-body Dynamics",
+      "Solvers Develop",
+      "Sticking Sliding",
+      "Suitable Formulations",
+      "Surveys Monographs"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+      "approach": "Many widely used simulators rely on cone complementarity formulations, whose physical assumptions and numerical solution require substantial background.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Formulations Solvers, Rigid-body Dynamics.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "We then compare first-order and Newton-based methods, explain regularization and proximal strategies, and discuss trade-offs between computational cost, robustness, and physical fidelity."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2611.26627",
+    "raw_id": "http://arxiv.org/abs/2611.26627v1",
+    "title": "RL Post-Training in Diffusion Transformers Is Activation Steering",
+    "authors": [
+      "Tuna Han Salih Meral",
+      "Kaan Oktay",
+      "Alec Helbling",
+      "Atakan Kara",
+      "Duen Horng Chau",
+      "Pinar Yanardag"
+    ],
+    "published_date": "2026-11-19T18:59:53Z",
+    "updated_date": "2026-11-19T18:59:53Z",
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "abstract": "Reinforcement learning (RL) post-training substantially improves the visual quality, text rendering, and compositional accuracy of diffusion transformers. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning complex, input-dependent transformations. To isolate how much of these gains an input-independent shift explains, we probe each RL-tuned model with a deliberately simple parameterization: a fixed set of steering vectors added to the block outputs of the frozen base model. On SD3.5-M, these vectors hold 65x fewer parameters than the RL-tuned LoRA (0.29M against 18.8M). We fit them to match the velocity predictions of public RL-tuned checkpoints, with no reward in the objective. Although the vectors are identical for every prompt, token, and sampling seed, they recover 90.0-96.3% of the reward gains of six RL-tuned image models, and 89.8% and 111.9% on two RL-tuned video models. Initialized at zero and trained with online RL, the vectors alone exceed the reward gains of weight-based RL on text rendering (OCR) and human preference (PickScore) on SD3.5-M. A constant shift thus suffices for most of the gain of policy-gradient RL post-training: without new input-dependent transformations, it steers the pretrained generator toward what it can already compute.",
+    "url": "https://arxiv.org/abs/2611.26627v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.26627v1",
+    "relevance_score": 0.596,
+    "processed_date": "2026-11-21",
+    "summary": "Although the vectors are identical for every prompt, token, and sampling seed, they recover 90.0-96.3% of the reward gains of six RL-tuned image models, and 89.8% and 111.9% on two RL-tuned video models. Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning complex, input-dependent transformations. To isolate how much of these gains an input-independent shift explains, we probe each RL-tuned model with a deliberately simple parameterization: a fixed set of steering vectors added to the block outputs of the frozen base model. A constant shift thus suffices for most of the gain of policy-gradient RL post-training: without new input-dependent transformations, it steers the pretrained generator toward what it can already compute.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Diffusion Transformers",
+      "Accuracy Diffusion",
+      "Added Block",
+      "Block Outputs",
+      "Capabilities Rendering"
+    ],
+    "insights": {
+      "problem": "Although the vectors are identical for every prompt, token, and sampling seed, they recover 90.0-96.3% of the reward gains of six RL-tuned image models, and 89.8% and 111.9% on two RL-tuned video models.",
+      "approach": "Because capabilities such as rendering requested text or composing multiple objects are inherently prompt-dependent, a natural hypothesis is that improving them requires learning complex, input-dependent transformations.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Diffusion Transformers.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.26584",
+    "raw_id": "http://arxiv.org/abs/2611.26584v1",
+    "title": "Represented but misread: Post-training changes how language models read out what they represent",
+    "authors": [
+      "Jochen Laubrock"
+    ],
+    "published_date": "2026-11-19T18:43:56Z",
+    "updated_date": "2026-11-19T18:43:56Z",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "abstract": "Does post-training change what a language model represents, or how this representation is read out into an answer? We compared linear probes with the models' own answers, analyzed with signal detection theory, in six open-weight base models and their post-trained versions. For judgments of whether German texts were written by a human or an AI, probes and word n-gram classifiers separated the classes well, but the answers did not and often ordered the texts inversely. Post-training lowered the sensitivity of the answers on average (Δd' = -0.34 across model families; -0.29 across three prompts). It also changed the use of a stated base rate: Base models shifted their log-odds by less than the stated change in prior odds, most post-trained models by more. In two models with stage-wise checkpoints, the change occurred during supervised fine-tuning, model stitching implicated the early layers, and from mid-depth on internal states at positions after the text, not those of the text, transferred the change between checkpoints. Our corpora cannot be shared, so we add a case reproducible from public data, the truth of negated statements. Here, post-training acted in the opposite direction: Probes decoded truth at or near ceiling in every model, the answers of several base models did not use it, and post-training repaired them; by mid-depth the repair resided at the positions after the statement; below it, the representation of the statement contributed, strongly in one of four models. In a training study, adding 2,000 correctly labeled authorship judgments of news texts to otherwise identical fine-tuning data improved the answers on our newspaper and textbook corpora and inverted them on the chats, where they followed a news-trained probe of the base model. Post-training thus changed how a judgment is read out of what a model represents, and a small training signal can set its direction.",
+    "url": "https://arxiv.org/abs/2611.26584v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.26584v1",
+    "relevance_score": 0.595,
+    "processed_date": "2026-11-21",
+    "summary": "Addressing critical demands in Machine Learning, this research investigates does post-training change what a language model represents, or how this representation is read out into an answer?. We compared linear probes with the models' own answers, analyzed with signal detection theory, in six open-weight base models and their post-trained versions. For judgments of whether German texts were written by a human or an AI, probes and word n-gram classifiers separated the classes well, but the answers did not and often ordered the texts inversely. Post-training thus changed how a judgment is read out of what a model represents, and a small training signal can set its direction.",
+    "key_concepts": [
+      "Supervised Fine-tuning",
+      "Text Text",
+      "Text Transferred",
+      "Textbook Corpora",
+      "Texts Identical",
+      "Texts Inversely"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+      "approach": "We compared linear probes with the models' own answers, analyzed with signal detection theory, in six open-weight base models and their post-trained versions.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Supervised Fine-tuning, Text Text.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.26511",
+    "raw_id": "http://arxiv.org/abs/2611.26511v1",
+    "title": "Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain",
+    "authors": [
+      "Shuang Wu",
+      "Jiachen Qian",
+      "Youtian Lin",
+      "Feihu Zhang",
+      "Philip Torr",
+      "Yao Yao",
+      "Xun Cao"
+    ],
+    "published_date": "2026-11-19T17:58:20Z",
+    "updated_date": "2026-11-19T17:58:20Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "Native 3D generation has largely been built around latent diffusion, with recent advances concentrating on stronger variational autoencoders (VAE) and increasingly elaborate latent representations, from vecset and triplanes to structured sparse voxels. Despite their architectural differences, these methods all share the same premise: geometry is first compressed into a latent space and only then modeled by the generator. We take a different route and propose Direct3D-V3, a latent-free diffusion transformer (DiT) framework that discards the VAE altogether and operates in the native voxel domain, directly modeling raw SDF voxel grids during both training and sampling. To make this direct voxel formulation geometrically reliable, we introduce an implicit manifold regularization over neighboring voxels to suppress non-watertight surfaces, and convert predicted SDF grids into meshes via Marching Cubes so that rendered normal losses can supervise the model directly from its predicted SDF. To improve alignment between the conditioning image and generated geometry, Direct3D-V3 also predicts the camera parameters of the conditioning image as an auxiliary task, encouraging the DiT to learn the mapping from image observations to 3D shape. This latent-free design removes the reconstruction bottleneck, brings training under an objective in the native voxel domain, and yields meshes with substantially richer local detail. The predicted camera and native SDF voxel output further make Direct3D-V3 extensible to generative reconstruction, where diffusion is interleaved with normal-guided refinement to improve alignment with the observed view while the generative prior completes unseen regions. Project page: https://dreamtechai.github.io/Direct3D-V3.",
+    "url": "https://arxiv.org/abs/2611.26511v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.26511v1",
+    "relevance_score": 0.595,
+    "processed_date": "2026-11-21",
+    "summary": "Despite their architectural differences, these methods all share the same premise: geometry is first compressed into a latent space and only then modeled by the generator. To make this direct voxel formulation geometrically reliable, we introduce an implicit manifold regularization over neighboring voxels to suppress non-watertight surfaces, and convert predicted SDF grids into meshes via Marching Cubes so that rendered normal losses can supervise the model directly from its predicted SDF. We take a different route and propose Direct3D-V3, a latent-free diffusion transformer (DiT) framework that discards the VAE altogether and operates in the native voxel domain, directly modeling raw SDF voxel grids during both training and sampling. Project page: https://dreamtechai.github.io/Direct3D-V3.",
+    "key_concepts": [
+      "Native Voxel",
+      "Voxel Domain",
+      "Conditioning Image",
+      "Improve Alignment",
+      "Predicted Sdf",
+      "Sdf Voxel"
+    ],
+    "insights": {
+      "problem": "Despite their architectural differences, these methods all share the same premise: geometry is first compressed into a latent space and only then modeled by the generator.",
+      "approach": "To make this direct voxel formulation geometrically reliable, we introduce an implicit manifold regularization over neighboring voxels to suppress non-watertight surfaces, and convert predicted SDF grids into meshes via Marching Cubes so that rendered normal losses can supervise the model directly from its predicted SDF.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Native Voxel, Voxel Domain.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
   }
 ]

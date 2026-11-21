@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[20 November 2026 Report](reports/2026/11/20/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[21 November 2026 Report](reports/2026/11/21/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/20/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/21/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/20/infographic.png)](reports/2026/11/20/infographic.png)
+[![Daily Infographic](reports/2026/11/21/infographic.png)](reports/2026/11/21/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `6` |
-| **Machine Learning (ML)** | `3` |
-| **Robotics** | `6` |
+| **Artificial Intelligence (AI)** | `5` |
+| **Machine Learning (ML)** | `5` |
+| **Robotics** | `1` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Multimodal Error Detection in Chest X-ray Reports: A Large Language Mode...** | `Natural Language Processing` | `0.67` | [arXiv](https://arxiv.org/abs/2611.26492v1) |
-| 2 | **GLiDE: A Fast, Calibrated Decision Model Distilled from Reasoning Teachers** | `Artificial Intelligence` | `0.67` | [arXiv](https://arxiv.org/abs/2611.26509v1) |
-| 3 | **ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents** | `Artificial Intelligence` | `0.67` | [arXiv](https://arxiv.org/abs/2611.26519v1) |
-| 4 | **AutoMaster: Autonomous Post-Training by Making the Same Model a Better T...** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2611.26510v1) |
-| 5 | **Multi-institutional grading of Barrett's esophagus dysplasia without sta...** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2611.26562v1) |
+| 1 | **Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain** | `Machine Learning` | `0.59` | [arXiv](https://arxiv.org/abs/2611.26511v1) |
+| 2 | **Represented but misread: Post-training changes how language models read ...** | `Machine Learning` | `0.59` | [arXiv](https://arxiv.org/abs/2611.26584v1) |
+| 3 | **RL Post-Training in Diffusion Transformers Is Activation Steering** | `Machine Learning` | `0.60` | [arXiv](https://arxiv.org/abs/2611.26627v1) |
+| 4 | **A Tutorial on Complementarity-Based Contact Models for Robotics** | `Robotics` | `0.60` | [arXiv](https://arxiv.org/abs/2611.26600v1) |
+| 5 | **The Geometry of Lies: Knowledge and Persona Directions for Detecting Dec...** | `Natural Language Processing` | `0.61` | [arXiv](https://arxiv.org/abs/2611.26545v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `418`
-- **Total Operational Runs**: `54 days`
+- **Total Papers Analyzed**: `428`
+- **Total Operational Runs**: `55 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Machine Learning, Artificial Intelligence, Natural Language Processing
 
