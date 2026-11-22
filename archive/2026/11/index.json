@@ -1,6 +1,6 @@
 {
   "month": "2026-11",
-  "total_papers": 190,
+  "total_papers": 200,
   "papers": [
     {
       "arxiv_id": "2611.03648",
@@ -8110,6 +8110,405 @@
         "key_innovation": "Formulates an integrated mechanism leveraging Native Voxel, Voxel Domain.",
         "results": "Not specified in the available abstract.",
         "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.26504",
+      "raw_id": "http://arxiv.org/abs/2611.26504v1",
+      "title": "Grid Cells as Spectral Successor Features: A Reusable Basis for Continual Reinforcement Learning",
+      "authors": [
+        "Élodie Côté-Gauthier",
+        "Doina Precup",
+        "Isabeau Prémont-Schwarz"
+      ],
+      "published_date": "2026-11-19T17:54:04Z",
+      "updated_date": "2026-11-19T17:54:04Z",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Continual reinforcement learning requires agents to adapt when the task changes while reusing what they know about the environment. Successor features separate dynamics from task-specific reward, but their effectiveness depends on the choice of base features. Taking the identification of entorhinal grid cells with eigenvectors of the successor representation as a design principle, we build this basis from eigenvectors of the transition matrix of a fixed reference policy. With such a basis, the successor features at a state-action pair are a linear combination of the base features at that same pair, which is not true in general, and the coefficients are known in closed form: each successor feature is its base feature multiplied by θ_i = 1/(1-γλ_i), where λ_i is its eigenvalue. The long-term return is thus predicted from the same features as the immediate reward, no successor-feature network or replay buffer is needed, and adapting to a new task reduces to a linear regression on the reward. The agent acts greedily on the action values of the reference policy, which is one step of policy improvement over it and suffices to reach a single goal. In a two-goal gridworld, with the uniform random walk as reference policy, whose eigenvectors are the low-frequency Laplacian eigenvectors, agents built this way maintain near-maximal return across every change of goal, whereas SimpleSF and DQN lose most of their return at each change.",
+      "url": "https://arxiv.org/abs/2611.26504v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26504v1",
+      "relevance_score": 0.583,
+      "processed_date": "2026-11-22",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates continual reinforcement learning requires agents to adapt when the task changes while reusing what they know about the environment. Taking the identification of entorhinal grid cells with eigenvectors of the successor representation as a design principle, we build this basis from eigenvectors of the transition matrix of a fixed reference policy. In a two-goal gridworld, with the uniform random walk as reference policy, whose eigenvectors are the low-frequency Laplacian eigenvectors, agents built this way maintain near-maximal return across every change of goal, whereas SimpleSF and DQN lose most of their return at each change.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Successor Features",
+        "Action Values",
+        "Acts Greedily",
+        "Agent Acts",
+        "Base Feature Multiplied"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "Taking the identification of entorhinal grid cells with eigenvectors of the successor representation as a design principle, we build this basis from eigenvectors of the transition matrix of a fixed reference policy.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Successor Features.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.26503",
+      "raw_id": "http://arxiv.org/abs/2611.26503v1",
+      "title": "JARVIS: An Agent That Designs, Builds, and Tests Circuit Boards on Its Own",
+      "authors": [
+        "Shibo Zhou",
+        "Tianqi Hong",
+        "Zheng Yan",
+        "He Yang"
+      ],
+      "published_date": "2026-11-19T17:53:30Z",
+      "updated_date": "2026-11-19T17:53:30Z",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "abstract": "Power electronics is central to the energy transition, but developing new hardware still relies on human-led design, fabrication, testing, and iteration. We present JARVIS, an embodied AI agent that autonomously closes this loop for circuit boards. JARVIS maintains machine-specific capabilities and constraints, scans its workspace using a robot-mounted 3D scanner, and constructs an executable digital twin in which it rehearses robot motions, fabrication steps, and circuit behavior before consuming materials. A single text instruction initiates the physical experiment. Using unmodified desktop equipment, the agent coordinates a robot arm, a PCB printer that deposits conductive silver ink and solder paste, and a pick-and-place machine. It verifies progress using cameras and sensors, then tests the fabricated circuit with an OPAL-RT real-time simulator and an oscilloscope. Based on the measurements, JARVIS diagnoses deviations from the design and generates a revised design in KiCad for subsequent rehearsal. In a demonstration involving a 60 Hz notch filter for grid-connected converter sensing, JARVIS completed a first-run experiment in 2 h 39 min without human intervention, achieving 50.6 dB attenuation at 60 Hz. Its digital-twin rehearsal identified five issues before fabrication, including a test criterion that would have incorrectly rejected a functioning board. During execution, the agent also resolved encountered faults autonomously. These results demonstrate an integrated agent-driven workflow for physical design, fabrication, measurement, and iterative improvement of power-electronic circuitry. To our knowledge, JARVIS is the first system in power electronics in which an agent closes the physical design-build-test-learn loop for circuit boards.",
+      "url": "https://arxiv.org/abs/2611.26503v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26503v1",
+      "relevance_score": 0.577,
+      "processed_date": "2026-11-22",
+      "summary": "Addressing critical demands in Robotics, this research investigates power electronics is central to the energy transition, but developing new hardware still relies on human-led design, fabrication, testing, and iteration. We present JARVIS, an embodied AI agent that autonomously closes this loop for circuit boards. JARVIS maintains machine-specific capabilities and constraints, scans its workspace using a robot-mounted 3D scanner, and constructs an executable digital twin in which it rehearses robot motions, fabrication steps, and circuit behavior before consuming materials. To our knowledge, JARVIS is the first system in power electronics in which an agent closes the physical design-build-test-learn loop for circuit boards.",
+      "key_concepts": [
+        "Embodied AI",
+        "Circuit Boards",
+        "Design Fabrication",
+        "Loop Circuit",
+        "Power Electronics",
+        "Solder Paste"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We present JARVIS, an embodied AI agent that autonomously closes this loop for circuit boards.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Embodied AI, Circuit Boards.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "JARVIS maintains machine-specific capabilities and constraints, scans its workspace using a robot-mounted 3D scanner, and constructs an executable digital twin in which it rehearses robot motions, fabrication steps, and circuit behavior before consuming materials."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.26485",
+      "raw_id": "http://arxiv.org/abs/2611.26485v1",
+      "title": "An Open-Source ROS 2 Framework for Shared Control in Surgical Teleoperation: Integrating the Haply Inverse3 with the da Vinci Research Kit",
+      "authors": [
+        "Balint Varga",
+        "Sebastian Fritz",
+        "Gergely Kiss",
+        "Kristof Takacs",
+        "Peter Galambos"
+      ],
+      "published_date": "2026-11-19T17:41:08Z",
+      "updated_date": "2026-11-19T17:41:08Z",
+      "categories": [
+        "cs.RO",
+        "eess.SY"
+      ],
+      "abstract": "Surgical teleoperation deprives surgeons of touch, forcing visual inference of tissue forces; the commercial platforms now restoring force feedback remain closed, preventing open research on haptic shared control. This paper provides a system contribution: it presents an open-source, ROS 2-native framework that integrates the compact, three-degree-of-freedom (3-DOF) Haply Inverse3 haptic device with the da~Vinci Research Kit (dVRK). The framework includes a novel mapping strategy that combines 3-DOF translational device input with separately tracked VerseGrip orientation into 6-DOF patient-side manipulator commands. Two virtual-fixture-inspired guidance modes serve as reference implementations to evaluate the framework in a within-subjects user study on a teleoperated hot-wire benchmark task in simulation, and the architecture is further demonstrated on physical dVRK hardware. Relative to unassisted manual control, linear guidance significantly reduced both the number of wire contacts and the task completion time, whereas the progressive-stiffness guidance produced consistent but statistically non-significant trends in the same direction. Subjective ratings of workload, agency, and satisfaction showed favorable descriptive trends for the guidance modes. The results demonstrate the feasibility of haptic shared control with a compact device coupled to the dVRK and provide an openly available, reproducible platform for future research. They further suggest that simpler linear feedback may be more robust for inexperienced operators than more complex profiles.",
+      "url": "https://arxiv.org/abs/2611.26485v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26485v1",
+      "relevance_score": 0.577,
+      "processed_date": "2026-11-22",
+      "summary": "Addressing critical demands in Robotics, this research investigates surgical teleoperation deprives surgeons of touch, forcing visual inference of tissue forces; the commercial platforms now restoring force feedback remain closed, preventing open research on haptic shared control. This paper provides a system contribution: it presents an open-source, ROS 2-native framework that integrates the compact, three-degree-of-freedom (3-DOF) Haply Inverse3 haptic device with the da~Vinci Research Kit (dVRK). The framework includes a novel mapping strategy that combines 3-DOF translational device input with separately tracked VerseGrip orientation into 6-DOF patient-side manipulator commands. They further suggest that simpler linear feedback may be more robust for inexperienced operators than more complex profiles.",
+      "key_concepts": [
+        "Shared Control",
+        "Guidance Modes",
+        "Haptic Shared",
+        "Teleoperated Hot-wire",
+        "Three-degree-of-freedom Dof Haply",
+        "Time Progressive-stiffness"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "This paper provides a system contribution: it presents an open-source, ROS 2-native framework that integrates the compact, three-degree-of-freedom (3-DOF) Haply Inverse3 haptic device with the da~Vinci Research Kit (dVRK).",
+        "key_innovation": "The framework includes a novel mapping strategy that combines 3-DOF translational device input with separately tracked VerseGrip orientation into 6-DOF patient-side manipulator commands.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.26619",
+      "raw_id": "http://arxiv.org/abs/2611.26619v1",
+      "title": "TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming",
+      "authors": [
+        "Jinbin Luo",
+        "Xiaozhe Yao",
+        "Shang Yang",
+        "Zhijian Liu",
+        "Song Han",
+        "Qinghao Hu"
+      ],
+      "published_date": "2026-11-19T18:58:31Z",
+      "updated_date": "2026-11-19T18:58:31Z",
+      "categories": [
+        "cs.DC",
+        "cs.LG"
+      ],
+      "abstract": "Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for allocating GPU memory among caches and managing their residency across GPU and host memory. The Transparent Cache Pool redistributes physical pages among cache components behind fixed virtual addresses, preserving cache layouts and backend interfaces. The Cache Streamer uses computation intervals provided by bounded-state layers to prefetch the next global-attention layer's prefix into GPU slots shared across global-attention layers, reducing GPU residency while overlapping layer-wise transfers with computation. Generated KV remains resident. The Request Scheduler selects resident or streamed execution and triggers capacity adjustments according to request size and queue state. Together, they let HBM released by streaming accommodate other cache components and additional requests. Implemented in SGLang and evaluated on GB300 and GH200 across seven model/platform configurations, TideCache completes up to 2.04x as many agent turns, reduces overall P50 per-token latency by 20--59%, and improves agent P50 TTFT by 1.40--3.05x compared with SGLang with HiCache.",
+      "url": "https://arxiv.org/abs/2611.26619v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26619v1",
+      "relevance_score": 0.576,
+      "processed_date": "2026-11-22",
+      "summary": "Addressing critical demands in Natural Language Processing, this research investigates hybrid architectures have become mainstream among open-weight language models. We present TideCache, a serving system on CPU--GPU superchips with three components for allocating GPU memory among caches and managing their residency across GPU and host memory. Implemented in SGLang and evaluated on GB300 and GH200 across seven model/platform configurations, TideCache completes up to 2.04x as many agent turns, reduces overall P50 per-token latency by 20--59%, and improves agent P50 TTFT by 1.40--3.05x compared with SGLang with HiCache. Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency.",
+      "key_concepts": [
+        "Accommodate Cache",
+        "According Request",
+        "Additional Requests",
+        "Addresses Preserving",
+        "Adjustments According",
+        "Agent Ttft"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+        "approach": "We present TideCache, a serving system on CPU--GPU superchips with three components for allocating GPU memory among caches and managing their residency across GPU and host memory.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Accommodate Cache, According Request.",
+        "results": "Implemented in SGLang and evaluated on GB300 and GH200 across seven model/platform configurations, TideCache completes up to 2.04x as many agent turns, reduces overall P50 per-token latency by 20--59%, and improves agent P50 TTFT by 1.40--3.05x compared with SGLang with HiCache.",
+        "applications": "Low-power edge AI devices, embedded IoT sensor networks, and distributed on-device inference. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2611.26475",
+      "raw_id": "http://arxiv.org/abs/2611.26475v1",
+      "title": "A new algorithmic approach for finding flat minima: critically damped Polyak stepsizes",
+      "authors": [
+        "Francesco Caporali",
+        "Jason M. Altschuler",
+        "Boris Hanin"
+      ],
+      "published_date": "2026-11-19T17:35:37Z",
+      "updated_date": "2026-11-19T17:35:37Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "math.OC"
+      ],
+      "abstract": "We present a new adaptive stepsize rule that biases gradient descent toward flatter minima in both theory and practice, and establish the first uniform-in-time guarantees for both sharpness and loss reduction for a broad class of locally quadratic objectives. Our critically damped Polyak (CDP) stepsizes multiply the classical Polyak rule by 4 and a mild damping factor. The factor 4 is critical in that it produces equioscillations around the manifold of minimizers \\mathcal{M} to leading order. Damping provably drives convergence to \\mathcal{M}. CDP thus operates at the edge of stability by adapting its stepsizes to local curvature. Once the loss is small, its projected iterates follow gradient descent on \\log{λ_1(\\nabla^2 \\mathcal{L})} along \\mathcal{M} to leading order, paralleling the flatness bias of normalized gradient descent (Arora et al., 2022). Unlike normalized gradient descent, CDP step lengths shrink with the distance to \\mathcal{M}, enabling convergence to an interpolating solution that locally minimizes sharpness at finite learning rate. We establish our theory for a broad class of non-negative losses with locally quadratic Morse-Bott structure near \\mathcal{M}, capturing regular interpolation regimes in smooth overparameterized neural networks. Empirically, CDP stepsizes produce a flattening effect similar to that of Sharpness-Aware Minimization (SAM, Foret et al., 2021), reducing sharpness even in settings beyond our theory, including nonlinear teacher-student networks and fine-tuning of pre-trained LLMs.",
+      "url": "https://arxiv.org/abs/2611.26475v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26475v1",
+      "relevance_score": 0.569,
+      "processed_date": "2026-11-22",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates we present a new adaptive stepsize rule that biases gradient descent toward flatter minima in both theory and practice, and establish the first uniform-in-time guarantees for both sharpness and loss reduction for a broad class of locally quadratic objectives. We present a new adaptive stepsize rule that biases gradient descent toward flatter minima in both theory and practice, and establish the first uniform-in-time guarantees for both sharpness and loss reduction for a broad class of locally quadratic objectives. The factor 4 is critical in that it produces equioscillations around the manifold of minimizers \\mathcal{M} to leading order. Empirically, CDP stepsizes produce a flattening effect similar to that of Sharpness-Aware Minimization (SAM, Foret et al., 2021), reducing sharpness even in settings beyond our theory, including nonlinear teacher-student networks and fine-tuning of pre-trained LLMs.",
+      "key_concepts": [
+        "Broad Class",
+        "Cdp Stepsizes",
+        "Gradient Descent",
+        "Leading Order",
+        "Locally Quadratic",
+        "Mathcal Leading"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We present a new adaptive stepsize rule that biases gradient descent toward flatter minima in both theory and practice, and establish the first uniform-in-time guarantees for both sharpness and loss reduction for a broad class of locally quadratic objectives.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Broad Class, Cdp Stepsizes.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.26629",
+      "raw_id": "http://arxiv.org/abs/2611.26629v1",
+      "title": "Posterior Matching Distillation",
+      "authors": [
+        "Hidir Yesiltepe",
+        "Julius Berner",
+        "Arash Vahdat",
+        "Pinar Yanardag"
+      ],
+      "published_date": "2026-11-19T18:59:57Z",
+      "updated_date": "2026-11-19T18:59:57Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student's output distribution to the teacher's. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples. We introduce Posterior Matching Distillation (PMD), a new member of the distribution-based distillation family that combines mode-covering posterior sampling with any-step generation. At zero population loss, PMD recovers the teacher's full posterior of clean images at each trained noise level. Its stochastic student supports any-step sampling budgets within the trained timestep grid without further training. To learn these posteriors, PMD matches exponentially reweighted averages of student samples conditioned on a fixed noisy state to corresponding teacher posterior means. Under Gaussian corruption, exponentially tilted posterior mean is a single teacher evaluation at a shifted input. We prove that, matching tilted means over an open neighborhood uniquely identifies the full posterior. PMD thus supervises the entire conditional distribution through a family of mean constraints, without any auxiliary student-score network. Experiments on SDXL and FLUX.2 [klein] 4B demonstrate that PMD achieves the best FID among 4-step methods on both models, while maintaining competitive or leading performance across prompt-alignment and perceptual-quality metrics.",
+      "url": "https://arxiv.org/abs/2611.26629v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26629v1",
+      "relevance_score": 0.563,
+      "processed_date": "2026-11-22",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates diffusion distillation accelerates image and video generation by compressing a pretrained teacher's iterative sampling process into a few network evaluations. We introduce Posterior Matching Distillation (PMD), a new member of the distribution-based distillation family that combines mode-covering posterior sampling with any-step generation. We prove that, matching tilted means over an open neighborhood uniquely identifies the full posterior. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant teacher modes at the expense of diversity across samples. Experiments on SDXL and FLUX.2 [klein] 4B demonstrate that PMD achieves the best FID among 4-step methods on both models, while maintaining competitive or leading performance across prompt-alignment and perceptual-quality metrics.",
+      "key_concepts": [
+        "Sdxl Flux Klein",
+        "Stochastic Student",
+        "Student Output",
+        "Student Samples",
+        "Student Supports",
+        "Student-score Network"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We introduce Posterior Matching Distillation (PMD), a new member of the distribution-based distillation family that combines mode-covering posterior sampling with any-step generation.",
+        "key_innovation": "We prove that, matching tilted means over an open neighborhood uniquely identifies the full posterior.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "PMD thus supervises the entire conditional distribution through a family of mean constraints, without any auxiliary student-score network."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.26615",
+      "raw_id": "http://arxiv.org/abs/2611.26615v1",
+      "title": "ScaleWorld: High-Resolution World Generation through Shared Prediction and Refinement",
+      "authors": [
+        "Yansong Qu",
+        "Wesker Zheng",
+        "Quanjian Song",
+        "Zhiyuan Zhang",
+        "Xiao Cao",
+        "Shengchuan Zhang",
+        "Liujuan Cao"
+      ],
+      "published_date": "2026-11-19T18:58:04Z",
+      "updated_date": "2026-11-19T18:58:04Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "High-resolution generation enables video world models to render fine-grained scene structures and textures, but directly generating high-resolution video incurs substantial computational and memory costs. We present ScaleWorld, a causal video model that unifies low-resolution world prediction and high-resolution refinement within a single shared backbone. By refining its own predictions, ScaleWorld produces high-resolution world videos without requiring a separate refinement model. For each video chunk, the shared backbone first completes a low-resolution prediction and then performs one-step high-resolution refinement conditioned on that prediction. To support efficient streaming generation, we maintain separate causal states with a long low-resolution history for prediction and a short high-resolution history for refinement. To address task interference during distillation, we separate specialist optimization from capability consolidation and introduce task-asymmetric on-policy distillation (TA-OPD). This procedure transfers prediction and refinement behaviors from specialized teachers into a shared student through local velocity matching under their respective sampling and history policies. {Extensive experiments demonstrate that ScaleWorld achieves high-quality world generation with improved computational and memory efficiency.",
+      "url": "https://arxiv.org/abs/2611.26615v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26615v1",
+      "relevance_score": 0.563,
+      "processed_date": "2026-11-22",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates high-resolution generation enables video world models to render fine-grained scene structures and textures, but directly generating high-resolution video incurs substantial computational and memory costs. We present ScaleWorld, a causal video model that unifies low-resolution world prediction and high-resolution refinement within a single shared backbone. {Extensive experiments demonstrate that ScaleWorld achieves high-quality world generation with improved computational and memory efficiency. High-resolution generation enables video world models to render fine-grained scene structures and textures, but directly generating high-resolution video incurs substantial computational and memory costs. By refining its own predictions, ScaleWorld produces high-resolution world videos without requiring a separate refinement model.",
+      "key_concepts": [
+        "Achieves High-quality",
+        "Backbone Completes",
+        "Backbone Refining",
+        "Behaviors Specialized",
+        "Capability Consolidation",
+        "Causal States"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We present ScaleWorld, a causal video model that unifies low-resolution world prediction and high-resolution refinement within a single shared backbone.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Achieves High-quality, Backbone Completes.",
+        "results": "{Extensive experiments demonstrate that ScaleWorld achieves high-quality world generation with improved computational and memory efficiency.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.26607",
+      "raw_id": "http://arxiv.org/abs/2611.26607v1",
+      "title": "Bio-PM-Guided Synthetic IMU Generation",
+      "authors": [
+        "Deepali Singh",
+        "Deepesh Parpani",
+        "Aviral Gupta"
+      ],
+      "published_date": "2026-11-19T18:56:25Z",
+      "updated_date": "2026-11-19T18:56:25Z",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Collecting and labeling inertial measurement unit (IMU) data for human activity recognition (HAR) is expensive, and models trained on one group of subjects often fail to generalize to unseen individuals. Even with balanced data, classifiers struggle to distinguish dynamically similar activity classes and benefit from targeted augmentation. We explore whether synthetic IMU data generated in the representation space of a pretrained biosignal encoder, Bio-PM \\cite{b1}, can serve as a practical augmentation source. Rather than synthesizing raw signals, we leverage Bio-PM's frozen encoder to convert 10-second IMU windows into token embedding sequences and train class-conditional decoders in this space: (1) an autoregressive transformer decoder that predicts tokens sequentially, and (2) a diffusion decoder that learns the token distribution through a denoising objective. We analyze generation realism through distributional metrics and embedding-space visualizations, evaluate downstream utility through leave-one-subject-out HAR classification, and present a PatchDecoder for approximate raw waveform reconstruction. Our diffusion decoder achieves a Train-on-Synthetic-Test-on-Real (TSTR) macro-F1 of 0.68, demonstrating that generated tokens are realistic enough to train a classifier that transfers to real data. Combining synthetic-token augmentation with a 320-dimensional gravity-aware feature representation raises LOSO macro-F1 from 0.729 to 0.809 over a real-only baseline across 51 subjects on the WISDM benchmark, with statistically significant gains concentrated in the most challenging activity classes. These results demonstrate that high-fidelity generation in a pretrained encoder's representation space is achievable and practically useful for cross-subject HAR augmentation.",
+      "url": "https://arxiv.org/abs/2611.26607v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26607v1",
+      "relevance_score": 0.563,
+      "processed_date": "2026-11-22",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates collecting and labeling inertial measurement unit (imu) data for human activity recognition (har) is expensive, and models trained on one group of subjects often fail to generalize to unseen individuals. Even with balanced data, classifiers struggle to distinguish dynamically similar activity classes and benefit from targeted augmentation. We explore whether synthetic IMU data generated in the representation space of a pretrained biosignal encoder, Bio-PM \\cite{b1}, can serve as a practical augmentation source. These results demonstrate that high-fidelity generation in a pretrained encoder's representation space is achievable and practically useful for cross-subject HAR augmentation.",
+      "key_concepts": [
+        "Activity Classes",
+        "Diffusion Decoder",
+        "Representation Space",
+        "Train Classifier Transfers",
+        "Train-on-synthetic-test-on-real Tstr",
+        "Transformer Decoder Predicts"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "Even with balanced data, classifiers struggle to distinguish dynamically similar activity classes and benefit from targeted augmentation.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Activity Classes, Diffusion Decoder.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.26540",
+      "raw_id": "http://arxiv.org/abs/2611.26540v1",
+      "title": "AURA: AUdio-dRiven streaming Avatar",
+      "authors": [
+        "Nathaniel Cohen",
+        "Nicolas Dufour",
+        "Amélie Royer",
+        "Alasdair Newson",
+        "Patrick Pérez"
+      ],
+      "published_date": "2026-11-19T18:17:38Z",
+      "updated_date": "2026-11-19T18:17:38Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "abstract": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where low-latency and online causal generation are required properties. AURA generates video chunk by chunk with a rolling KV cache, requiring only the audio of the current chunk to start generating, rather than a multi-second audio look-ahead like bidirectional models. It comes in two sizes: AURA 1.3B streams 576p video in real time on a single GPU (20.7 fps for a 16 Hz playback rate), making it suited to interactive avatar applications, and AURA 5B streams 720p video at 9.7 fps. Our two-stage distillation pipeline first aligns the causal student with the teacher, by training it to match the teacher's trajectories with fewer diffusion steps and a chunk-wise sliding window causal attention mask, then applies Distribution Matching Distillation (DMD) with backward simulation to close the remaining quality gap. On standard talking-head benchmarks, AURA 1.3B runs 23x faster than its own bidirectional teacher and reaches a quality comparable to TalkVerse at a lower resolution, and AURA 5B matches its TalkVerse teacher at 720p while running 17x faster. To support reproducibility and further research on streaming avatar generation, we release the weights of both models along with a dataset of 30K synthetic videos and their precomputed teacher trajectories.",
+      "url": "https://arxiv.org/abs/2611.26540v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26540v1",
+      "relevance_score": 0.563,
+      "processed_date": "2026-11-22",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where low-latency and online causal generation are required properties. AURA generates video chunk by chunk with a rolling KV cache, requiring only the audio of the current chunk to start generating, rather than a multi-second audio look-ahead like bidirectional models. It comes in two sizes: AURA 1.3B streams 576p video in real time on a single GPU (20.7 fps for a 16 Hz playback rate), making it suited to interactive avatar applications, and AURA 5B streams 720p video at 9.7 fps. To support reproducibility and further research on streaming avatar generation, we release the weights of both models along with a dataset of 30K synthetic videos and their precomputed teacher trajectories.",
+      "key_concepts": [
+        "Aura Streams",
+        "Streams Video",
+        "Teacher Running Faster",
+        "Teacher Trajectories",
+        "Time Single",
+        "Trajectories Fewer"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "AURA generates video chunk by chunk with a rolling KV cache, requiring only the audio of the current chunk to start generating, rather than a multi-second audio look-ahead like bidirectional models.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Aura Streams, Streams Video.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.26521",
+      "raw_id": "http://arxiv.org/abs/2611.26521v1",
+      "title": "The Window Lever: Longer Observation Windows Outweigh the Observed Effects of Data, Capacity, and Architecture in Customer Behavior Forecasting",
+      "authors": [
+        "Tara Sowrirajan",
+        "Yanqiao Wang"
+      ],
+      "published_date": "2026-11-19T18:00:11Z",
+      "updated_date": "2026-11-19T18:00:11Z",
+      "categories": [
+        "cs.LG",
+        "cs.IR"
+      ],
+      "abstract": "In our experiments on long-horizon customer-behavior forecasting, a longer observation window outweighed the observed effects of more data, more capacity and newer architectures. The window is the weeks of history a model sees before the week it forecasts from. Going from an 8- to a 16-week window adds a raw +0.070 to 0.107 log-space R^2 in every family at 1M. Matched test cohorts, which score the same customer-weeks at every window, show this raw comparison understates the gain in every family they cover. The direction holds on five public datasets, four spanning over a year (ridge and our transformer on all five). On our internal data, longer windows admit up to 10% more and colder training customers, which matching does not fix. Our design does not separate window length from calendar coverage, because every test anchor (the week a forecast is made from) falls in one eight-week band. On training-period anchors, the weekly ridge probe's gain persists outside the holiday season, keeping about 72% of it. We therefore report a robust positive association with longer windows and do not identify the magnitude of a calendar-independent history effect. Of four internally registered predictions, the only fully blind one failed. An activity-mixture model predicted +0.014 from 24 to 32 weeks; the weekly-aggregate probe returned -0.0004. For the sequence families, the other three levers are about an order of magnitude smaller, bounded and unresolved. Their observed effects are at most 0.006 between the nominal 1M and 10M tiers and 0.0052 among five sequence families at 16 weeks with clocks as built, both single-seed on the full test split, and 0.006 for capacity on three-seed means. These are observed intervals, not equivalence bounds. Our claim is the order-of-magnitude contrast between the window and those bounds. A team building on this class of data should start by lengthening the window.",
+      "url": "https://arxiv.org/abs/2611.26521v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.26521v1",
+      "relevance_score": 0.563,
+      "processed_date": "2026-11-22",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates in our experiments on long-horizon customer-behavior forecasting, a longer observation window outweighed the observed effects of more data, more capacity and newer architectures. The window is the weeks of history a model sees before the week it forecasts from. On our internal data, longer windows admit up to 10% more and colder training customers, which matching does not fix. A team building on this class of data should start by lengthening the window. In our experiments on long-horizon customer-behavior forecasting, a longer observation window outweighed the observed effects of more data, more capacity and newer architectures.",
+      "key_concepts": [
+        "Observed Effects",
+        "Longer Windows",
+        "Sequence Families",
+        "Weeks Clocks",
+        "Weeks History",
+        "Weeks Weekly-aggregate"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "The window is the weeks of history a model sees before the week it forecasts from.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Observed Effects, Longer Windows.",
+        "results": "On our internal data, longer windows admit up to 10% more and colder training customers, which matching does not fix.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "Machine Learning"

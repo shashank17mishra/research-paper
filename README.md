@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[21 November 2026 Report](reports/2026/11/21/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[22 November 2026 Report](reports/2026/11/22/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/21/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/22/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/21/infographic.png)](reports/2026/11/21/infographic.png)
+[![Daily Infographic](reports/2026/11/22/infographic.png)](reports/2026/11/22/infographic.png)
 
 ---
 
@@ -25,10 +25,10 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `5` |
-| **Machine Learning (ML)** | `5` |
-| **Robotics** | `1` |
-| **IoT & Edge AI** | `0` |
+| **Artificial Intelligence (AI)** | `2` |
+| **Machine Learning (ML)** | `8` |
+| **Robotics** | `2` |
+| **IoT & Edge AI** | `1` |
 
 ---
 
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Direct3D-V3: Latent-Free Diffusion Transformers in the Native Voxel Domain** | `Machine Learning` | `0.59` | [arXiv](https://arxiv.org/abs/2611.26511v1) |
-| 2 | **Represented but misread: Post-training changes how language models read ...** | `Machine Learning` | `0.59` | [arXiv](https://arxiv.org/abs/2611.26584v1) |
-| 3 | **RL Post-Training in Diffusion Transformers Is Activation Steering** | `Machine Learning` | `0.60` | [arXiv](https://arxiv.org/abs/2611.26627v1) |
-| 4 | **A Tutorial on Complementarity-Based Contact Models for Robotics** | `Robotics` | `0.60` | [arXiv](https://arxiv.org/abs/2611.26600v1) |
-| 5 | **The Geometry of Lies: Knowledge and Persona Directions for Detecting Dec...** | `Natural Language Processing` | `0.61` | [arXiv](https://arxiv.org/abs/2611.26545v1) |
+| 1 | **The Window Lever: Longer Observation Windows Outweigh the Observed Effec...** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.26521v1) |
+| 2 | **AURA: AUdio-dRiven streaming Avatar** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.26540v1) |
+| 3 | **Bio-PM-Guided Synthetic IMU Generation** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.26607v1) |
+| 4 | **ScaleWorld: High-Resolution World Generation through Shared Prediction a...** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.26615v1) |
+| 5 | **Posterior Matching Distillation** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.26629v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `428`
-- **Total Operational Runs**: `55 days`
+- **Total Papers Analyzed**: `438`
+- **Total Operational Runs**: `56 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Machine Learning, Artificial Intelligence, Natural Language Processing
 
