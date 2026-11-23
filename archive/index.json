@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-22T07:50:57.529768",
-  "total_entries": 438,
+  "updated_at": "2026-11-23T08:40:48.860119",
+  "total_entries": 448,
   "months": [
     "2026-11",
     "2026-10"
@@ -18646,6 +18646,416 @@
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.27953",
+      "raw_id": "http://arxiv.org/abs/2611.27953v1",
+      "title": "Real-time neuromorphic audio and vision perception for autonomous robotic applications: Integration and experimental evaluation on a rover platform",
+      "authors": [
+        "Guillem Fustier-Castillo",
+        "Ruben Ribes-Serrano",
+        "Javier Naranjo-Alcazar",
+        "Vicent Ortiz-Castello",
+        "Pedro Zuccarello"
+      ],
+      "published_date": "2026-11-20T18:27:26Z",
+      "updated_date": "2026-11-20T18:27:26Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Neuromorphic sensing and computing offer a promising alternative to conventional deep learning pipelines for mobile robots, where perception must run continuously under tight latency and energy constraints. However, most neuromorphic solutions are still evaluated offline or on isolated benchmarks, and their integration into complete robotic systems remains largely unexplored. In this technical report, a four-wheel rover platform is presented that combines three real-time perception pipelines: a classical audio tagging pipeline based on Pretrained Audio Neural Networks (PANNs) running on an NVIDIA Jetson GPU, a neuromorphic audio pipeline in which a spiking neural network (SNN) is deployed on the SynSense Xylo Audio~2 chip, and a neuromorphic vision pipeline in which events from an event-based camera are processed by the SpikeYOLO spiking detector for traffic cone detection. On the Xylo chip, the whole processing chain---from the microphone signal to the classification of low- and high-pitched sounds---is performed on-chip, while the host only configures the device and reads the output neurons. All models are deployed as containerised services and integrated through ROS~2, and a configurable action dispatcher maps the detected classes to robot behaviours, closing the loop between perception and actuation. The platform is demonstrated in a proof-of-concept scenario in which the robot reacts to sound classes detected by both audio pipelines and detects traffic cones with the event camera, showing the feasibility of integrating neuromorphic hardware into a multimodal robotic platform operating in real time.",
+      "url": "https://arxiv.org/abs/2611.27953v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.27953v1",
+      "relevance_score": 0.788,
+      "processed_date": "2026-11-23",
+      "summary": "However, most neuromorphic solutions are still evaluated offline or on isolated benchmarks, and their integration into complete robotic systems remains largely unexplored. However, most neuromorphic solutions are still evaluated offline or on isolated benchmarks, and their integration into complete robotic systems remains largely unexplored. In this technical report, a four-wheel rover platform is presented that combines three real-time perception pipelines: a classical audio tagging pipeline based on Pretrained Audio Neural Networks (PANNs) running on an NVIDIA Jetson GPU, a neuromorphic audio pipeline in which a spiking neural network (SNN) is deployed on the SynSense Xylo Audio~2 chip, and a neuromorphic vision pipeline in which events from an event-based camera are processed by the SpikeYOLO spiking detector for traffic cone detection. The platform is demonstrated in a proof-of-concept scenario in which the robot reacts to sound classes detected by both audio pipelines and detects traffic cones with the event camera, showing the feasibility of integrating neuromorphic hardware into a multimodal robotic platform operating in real time.",
+      "key_concepts": [
+        "Action Dispatcher",
+        "Actuation Platform",
+        "Alternative Conventional",
+        "Audio Chip",
+        "Audio Neural",
+        "Audio Pipeline"
+      ],
+      "insights": {
+        "problem": "However, most neuromorphic solutions are still evaluated offline or on isolated benchmarks, and their integration into complete robotic systems remains largely unexplored.",
+        "approach": "However, most neuromorphic solutions are still evaluated offline or on isolated benchmarks, and their integration into complete robotic systems remains largely unexplored.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Action Dispatcher, Actuation Platform.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. Low-power edge AI devices, embedded IoT sensor networks, and distributed on-device inference. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Neuromorphic sensing and computing offer a promising alternative to conventional deep learning pipelines for mobile robots, where perception must run continuously under tight latency and energy constraints."
+      },
+      "primary_topic": "IoT & Edge AI"
+    },
+    {
+      "arxiv_id": "2611.27962",
+      "raw_id": "http://arxiv.org/abs/2611.27962v1",
+      "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
+      "authors": [
+        "Kaden Zheng",
+        "Pratyusha Sharma"
+      ],
+      "published_date": "2026-11-20T18:41:39Z",
+      "updated_date": "2026-11-20T18:41:39Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Machine learning has largely kept separate the choice of architecture and the process of training. A classic Transformer, for instance, trains a fixed set of attention and MLP sublayers at every layer, in the same order, and optimizes the weights within. This uniformity is a convention rather than a principled design choice, and it is likely suboptimal: the best architecture for a given task may be smaller, more efficient, and far from uniform. We believe that, ideally, training itself should shape the model's topology. To this end, we introduce Model Carving, which learns both a Transformer's weights and its architecture in a single run. By applying learnable, scalar gates to each sublayer, we allow the training loss to remove the model's own components during training -- freeing a smaller heterogeneous network inside. We evaluate Model Carving by pre-training standard Transformers from 140M to 2.7B parameters and looped Transformers from 140M to 1.3B. At equal training compute, carved models reach a lower validation loss than dense models trained with up to 1.7 times more compute. Furthermore, carved models also outperform size-matched models produced by pruning or distillation, suggesting that the best way to obtain small models for edge devices is to carve them during training, not to compress a large one afterwards. This advantage both grows with scale and carries over to downstream tasks such as few-shot evaluation and generation. Because the removed sublayers no longer run, carved models also cost up to 34% fewer FLOPs per token and decode up to 1.6 times faster without cost in quality. Our results show that architecture, like weights, should be learned and not fixed in advance, and that inside every large transformer is a smaller, faster, stronger one waiting to be carved out.",
+      "url": "https://arxiv.org/abs/2611.27962v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.27962v1",
+      "relevance_score": 0.754,
+      "processed_date": "2026-11-23",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates machine learning has largely kept separate the choice of architecture and the process of training. To this end, we introduce Model Carving, which learns both a Transformer's weights and its architecture in a single run. At equal training compute, carved models reach a lower validation loss than dense models trained with up to 1.7 times more compute. Our results show that architecture, like weights, should be learned and not fixed in advance, and that inside every large transformer is a smaller, faster, stronger one waiting to be carved out. Machine learning has largely kept separate the choice of architecture and the process of training.",
+      "key_concepts": [
+        "Pruning",
+        "Trains Fixed",
+        "Transformer Instance",
+        "Transformer Smaller",
+        "Transformer Weights",
+        "Transformers Equal"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "To this end, we introduce Model Carving, which learns both a Transformer's weights and its architecture in a single run.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Pruning, Trains Fixed.",
+        "results": "At equal training compute, carved models reach a lower validation loss than dense models trained with up to 1.7 times more compute.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.27804",
+      "raw_id": "http://arxiv.org/abs/2611.27804v1",
+      "title": "Generalist Action Critic: Harnessing Frontier Models in Autonomous Driving",
+      "authors": [
+        "Yun Yan",
+        "Shizhi Hu",
+        "Zhichao Li",
+        "Yang Guan",
+        "Shiqi Liu",
+        "Jiaxin Gao",
+        "Xiangteng Zhang",
+        "Wenbo Ding",
+        "Jiuhua Zhao",
+        "Hui Guo",
+        "Xintao Yan",
+        "Keqiang Li",
+        "Shengbo Eben Li"
+      ],
+      "published_date": "2026-11-20T16:32:53Z",
+      "updated_date": "2026-11-20T16:32:53Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Frontier models have demonstrated remarkable general-purpose reasoning capabilities, opening new possibilities for intelligent decision making in the physical world. In autonomous driving, many recent approaches seek to leverage these capabilities through additional adaptation for action output, particularly in scenarios where existing models underperform. We introduce Generalist Action Critic (GAC), a zero-shot framework that combines frontier models' general-purpose reasoning with the planning competence of specialized driving models through an inference-time harness. In GAC, specialized planners generate multiple candidate trajectories and make an initial selection, while a frozen frontier model serves as an action critic that assesses the selected trajectory against scene evidence and either retains it or reselects from the available candidates. The harness combines camera images with spatial overlays, provides driving context and reasoning principles through textual instructions, and regulates the information available at each stage to support trajectory assessment and reselection. On HUGSIM, GAC raises DrivoR's HD-Score to 43.2, achieving state-of-the-art performance among methods trained without additional simulation data. GAC also consistently improves closed-loop driving safety across three planners, with relative HD-Score gains of up to 32.1%. Experiments on NAVSIM v1 further reveal how GAC improves planning performance by correcting up to 52.13% of eligible unsafe trajectory selections while introducing new failures in only 0.67% of originally high-quality selections. These results demonstrate the potential of harnessing frontier models to improve driving safety through inference-time cooperation with specialized planners.",
+      "url": "https://arxiv.org/abs/2611.27804v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.27804v1",
+      "relevance_score": 0.753,
+      "processed_date": "2026-11-23",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates frontier models have demonstrated remarkable general-purpose reasoning capabilities, opening new possibilities for intelligent decision making in the physical world. We introduce Generalist Action Critic (GAC), a zero-shot framework that combines frontier models' general-purpose reasoning with the planning competence of specialized driving models through an inference-time harness. GAC also consistently improves closed-loop driving safety across three planners, with relative HD-Score gains of up to 32.1%. These results demonstrate the potential of harnessing frontier models to improve driving safety through inference-time cooperation with specialized planners. Frontier models have demonstrated remarkable general-purpose reasoning capabilities, opening new possibilities for intelligent decision making in the physical world.",
+      "key_concepts": [
+        "Zero-shot",
+        "Action Critic",
+        "Driving Safety",
+        "General-purpose Reasoning",
+        "Specialized Planners",
+        "Stage Support"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "We introduce Generalist Action Critic (GAC), a zero-shot framework that combines frontier models' general-purpose reasoning with the planning competence of specialized driving models through an inference-time harness.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Action Critic.",
+        "results": "GAC also consistently improves closed-loop driving safety across three planners, with relative HD-Score gains of up to 32.1%.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.27901",
+      "raw_id": "http://arxiv.org/abs/2611.27901v1",
+      "title": "QuantStream3D: Geometry-Aligned Low-Bit KV Cache Quantization for Streaming Visual Geometry Transformers",
+      "authors": [
+        "Zunhai Su",
+        "Keyu Fan",
+        "Ruishan Guo",
+        "Zhongzhu Zhou",
+        "Jingzehua Xu",
+        "Bohan Sun",
+        "Hansen Feng",
+        "Ruihan Hu",
+        "Yik-Chung Wu",
+        "Ngai Wong"
+      ],
+      "published_date": "2026-11-20T17:38:48Z",
+      "updated_date": "2026-11-20T17:38:48Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Streaming visual geometry transformers retain historical key-value (KV) states as cross-view geometric memory, but growing caches constrain long-sequence inference. We systematically characterize KV quantization in streaming geometry and uncover two linked challenges: Nonuniform Geometric Sensitivity and Cache-Geometry Mismatch. Quantization sensitivity varies across precision choices and cache locations, while perturbed retrieval changes geometry-head inputs and propagates through subsequent predictions and KV writes. Guided by these findings, we propose QuantStream3D, to our knowledge the first dedicated KV quantization framework for streaming visual geometry transformers. Geometry-Guided Mixed-Precision KV Quantization protects sensitive cross-view evidence, while Geometry-Aligned Quantization-Aware Distillation jointly adapts transformer blocks and geometry heads on student-generated quantized history. Across five benchmarks and two backbones, QuantStream3D achieves near-lossless geometric accuracy in most settings with predominantly 2-bit KV caches, and many configurations surpass unquantized inference. Compared with LLM-oriented KV quantizers, it reduces TUM absolute trajectory error and NeuralRGBD completeness error by up to 57.4% and 69.7%, respectively. Integration with existing native cache-pruning methods further pushes compression while improving reconstruction quality on NeuralRGBD. Our optimized StreamVGGT backend achieves 5.05\\times physical KV compression and 23.1% lower latency at batch size one. Under a fixed memory budget on the same GPU, it supports 5.4\\times the maximum batch size and up to 1.67\\times the peak throughput of unquantized inference. Code and pretrained checkpoints will be made publicly available.",
+      "url": "https://arxiv.org/abs/2611.27901v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.27901v1",
+      "relevance_score": 0.748,
+      "processed_date": "2026-11-23",
+      "summary": "Addressing critical demands in IoT & Edge AI, this research investigates streaming visual geometry transformers retain historical key-value (kv) states as cross-view geometric memory, but growing caches constrain long-sequence inference. Guided by these findings, we propose QuantStream3D, to our knowledge the first dedicated KV quantization framework for streaming visual geometry transformers. Compared with LLM-oriented KV quantizers, it reduces TUM absolute trajectory error and NeuralRGBD completeness error by up to 57.4% and 69.7%, respectively. Code and pretrained checkpoints will be made publicly available. Streaming visual geometry transformers retain historical key-value (KV) states as cross-view geometric memory, but growing caches constrain long-sequence inference.",
+      "key_concepts": [
+        "Quantization",
+        "Pruning",
+        "Geometry Transformers",
+        "Streaming Visual",
+        "Visual Geometry",
+        "Batch Size"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in IoT & Edge AI and existing computational workflows.",
+        "approach": "Guided by these findings, we propose QuantStream3D, to our knowledge the first dedicated KV quantization framework for streaming visual geometry transformers.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Quantization, Pruning.",
+        "results": "Compared with LLM-oriented KV quantizers, it reduces TUM absolute trajectory error and NeuralRGBD completeness error by up to 57.4% and 69.7%, respectively.",
+        "applications": "Low-power edge AI devices, embedded IoT sensor networks, and distributed on-device inference. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "IoT & Edge AI"
+    },
+    {
+      "arxiv_id": "2611.27835",
+      "raw_id": "http://arxiv.org/abs/2611.27835v1",
+      "title": "Auditable Financial Knowledge Graphs: Schema-Driven Construction and Intrinsic Quality Evaluation",
+      "authors": [
+        "Samarth Sarin",
+        "Lovepreet Singh",
+        "Dhagash Mehta"
+      ],
+      "published_date": "2026-11-20T16:54:47Z",
+      "updated_date": "2026-11-20T16:54:47Z",
+      "categories": [
+        "cs.AI",
+        "cs.CE"
+      ],
+      "abstract": "Financial documents combine narrative disclosures, accounting metrics, corporate structures, management commentary, and time-dependent facts, making them difficult to represent using conventional chunk-based retrieval-augmented generation systems. This paper presents an auditable, schema-driven methodology for constructing temporal financial knowledge graphs from page-delimited documents parsed using a general purpose document intelligence service. Overlapping document windows undergo phased large language model extraction of structural entities, quantitative observations, and domain-specific relationships. Candidate graph elements are validated against predefined schemas and consolidated through scope-aware exact, normalized, fuzzy, embedding-based, and LLM-assisted entity resolution. Temporal merge constraints, deterministic edge deduplication, conflict-aware property management, and fine-grained provenance preserve issuer identity, reporting-period validity, and traceability to source evidence. The contributions of this work comprise the proposed methodology for financial knowledge graph construction, the creation of an evidence-grounded temporal knowledge graph from heterogeneous financial documents, and an intrinsic framework for evaluating the quality of the resulting graph. The evaluation framework assesses seven weighted dimensions, two hard validation gates, and structural diagnostics. By separating graph-quality assessment from downstream retrieval and answer generation, the framework supports systematic diagnosis and iterative refinement of the constructed graph.",
+      "url": "https://arxiv.org/abs/2611.27835v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.27835v1",
+      "relevance_score": 0.706,
+      "processed_date": "2026-11-23",
+      "summary": "Financial documents combine narrative disclosures, accounting metrics, corporate structures, management commentary, and time-dependent facts, making them difficult to represent using conventional chunk-based retrieval-augmented generation systems. This paper presents an auditable, schema-driven methodology for constructing temporal financial knowledge graphs from page-delimited documents parsed using a general purpose document intelligence service. Overlapping document windows undergo phased large language model extraction of structural entities, quantitative observations, and domain-specific relationships. By separating graph-quality assessment from downstream retrieval and answer generation, the framework supports systematic diagnosis and iterative refinement of the constructed graph. Candidate graph elements are validated against predefined schemas and consolidated through scope-aware exact, normalized, fuzzy, embedding-based, and LLM-assisted entity resolution.",
+      "key_concepts": [
+        "Retrieval-augmented Generation",
+        "Large Language Model",
+        "Financial Knowledge",
+        "Knowledge Graph",
+        "Financial Documents",
+        "Structural Diagnostics"
+      ],
+      "insights": {
+        "problem": "Financial documents combine narrative disclosures, accounting metrics, corporate structures, management commentary, and time-dependent facts, making them difficult to represent using conventional chunk-based retrieval-augmented generation systems.",
+        "approach": "This paper presents an auditable, schema-driven methodology for constructing temporal financial knowledge graphs from page-delimited documents parsed using a general purpose document intelligence service.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Retrieval-augmented Generation, Large Language Model.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Low-power edge AI devices, embedded IoT sensor networks, and distributed on-device inference. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Temporal merge constraints, deterministic edge deduplication, conflict-aware property management, and fine-grained provenance preserve issuer identity, reporting-period validity, and traceability to source evidence."
+      },
+      "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2611.27865",
+      "raw_id": "http://arxiv.org/abs/2611.27865v1",
+      "title": "SLICR: Strategy Logic-Guided Multi-Agent Reinforcement Learning",
+      "authors": [
+        "Arshia Rafieioskouie",
+        "Matthew Lucas",
+        "Tzu-Han Hsu",
+        "Borzoo Bonakdarpour"
+      ],
+      "published_date": "2026-11-20T17:13:50Z",
+      "updated_date": "2026-11-20T17:13:50Z",
+      "categories": [
+        "cs.AI",
+        "cs.LO"
+      ],
+      "abstract": "Specification-guided reinforcement learning (RL) translates formal specifications of desired behavior of agents into shaped rewards. This paper introduces SLICR, a significant paradigm shift that advances the state of the art to specification-guided RL in adversarial settings under partial observability. We employ Strategy Logic (SL), which allows explicit quantification over agents' strategies and uses the linear temporal logic (LTL) to specify the agents' objectives and constraints. This enables reasoning not only about how agents should act to satisfy a specification, but also about how they should respond to the strategies and behaviors of other agents. We evaluate SLICR on three popular benchmarks: Predator-Prey, Google Research Football, and our home-grown extension of SMAC-HARD, demonstrating its effectiveness, scalability, and ability to adapt to diverse adversarial strategies.",
+      "url": "https://arxiv.org/abs/2611.27865v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.27865v1",
+      "relevance_score": 0.697,
+      "processed_date": "2026-11-23",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates specification-guided reinforcement learning (rl) translates formal specifications of desired behavior of agents into shaped rewards. This paper introduces SLICR, a significant paradigm shift that advances the state of the art to specification-guided RL in adversarial settings under partial observability. We employ Strategy Logic (SL), which allows explicit quantification over agents' strategies and uses the linear temporal logic (LTL) to specify the agents' objectives and constraints. We evaluate SLICR on three popular benchmarks: Predator-Prey, Google Research Football, and our home-grown extension of SMAC-HARD, demonstrating its effectiveness, scalability, and ability to adapt to diverse adversarial strategies.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Act Satisfy",
+        "Adapt Diverse",
+        "Advances State",
+        "Adversarial Settings",
+        "Adversarial Strategies"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "This paper introduces SLICR, a significant paradigm shift that advances the state of the art to specification-guided RL in adversarial settings under partial observability.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Act Satisfy.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "We employ Strategy Logic (SL), which allows explicit quantification over agents' strategies and uses the linear temporal logic (LTL) to specify the agents' objectives and constraints."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.27967",
+      "raw_id": "http://arxiv.org/abs/2611.27967v1",
+      "title": "Task2Hand: A Contact-Grounded Skill for Parametric Dexterous-Hand Morphology Design",
+      "authors": [
+        "Haoyang Wang",
+        "Weibo Gao",
+        "Zhengxiong Li",
+        "Lingfeng Tao"
+      ],
+      "published_date": "2026-11-20T18:48:12Z",
+      "updated_date": "2026-11-20T18:48:12Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Dexterous hand design demands repeated expert work across geometry, robot-description code, collision debugging, grasp initialization, and policy training. We present Task2Hand, a Skill: a specification package that turns a functional manipulation brief into a parameterized hand model and routes every candidate through cost-ordered contact, dynamics, and learning gates. Each gate returns a status and an evidence record; on failure, the Skill records the earliest blocker, revises one bounded parameter group, and reruns the cheaper gates. The agent generates, validates, and trains autonomously within declared bounds, and escalates trade-offs, plateaus, and conflicting evidence to a human who sets the next design direction. An evidence-driven design trajectory for bidirectional in-hand manipulation yielded SAGE Hand (Skill-Aware Generative Embodiment): four fingers, 16 actuated DoF, an integrated guiding palm, compact roots, cylindrical tips, and a collision-cleared opposable thumb. Under a matched training protocol, SAGE Hand reaches 45.6% task success on a hexagonal prism against 37.3% for the LEAP hand, and 70.8% on a bicolor cylinder against 51.6%. Dense simulated tactile input more than halves the cylinder drop rate. In a controlled iteration study, the Skill path preserves capture at 164/165 trials while the path without the Skill degrades to 14/165, confirming that the gates act as a regression guard during refinement. Accepted candidates pack with URDF/MJCF, metrics, checkpoints, and a provenance manifest.",
+      "url": "https://arxiv.org/abs/2611.27967v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.27967v1",
+      "relevance_score": 0.691,
+      "processed_date": "2026-11-23",
+      "summary": "Addressing critical demands in Robotics, this research investigates dexterous hand design demands repeated expert work across geometry, robot-description code, collision debugging, grasp initialization, and policy training. We present Task2Hand, a Skill: a specification package that turns a functional manipulation brief into a parameterized hand model and routes every candidate through cost-ordered contact, dynamics, and learning gates. Each gate returns a status and an evidence record; on failure, the Skill records the earliest blocker, revises one bounded parameter group, and reruns the cheaper gates. Accepted candidates pack with URDF/MJCF, metrics, checkpoints, and a provenance manifest. Dexterous hand design demands repeated expert work across geometry, robot-description code, collision debugging, grasp initialization, and policy training.",
+      "key_concepts": [
+        "Manipulation",
+        "Sage Hand",
+        "Skill Records",
+        "Skill Specification",
+        "Skill-aware Generative",
+        "Specification Package"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We present Task2Hand, a Skill: a specification package that turns a functional manipulation brief into a parameterized hand model and routes every candidate through cost-ordered contact, dynamics, and learning gates.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Sage Hand.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.27810",
+      "raw_id": "http://arxiv.org/abs/2611.27810v1",
+      "title": "SLP-Bench: Evaluating and Improving Acoustic Claims of Reasoning Audio Language Models on Clinical Speech",
+      "authors": [
+        "Côme Hosxe",
+        "Rachid Riad",
+        "Quentin Spinat"
+      ],
+      "published_date": "2026-11-20T16:36:57Z",
+      "updated_date": "2026-11-20T16:36:57Z",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG",
+        "cs.SD"
+      ],
+      "abstract": "Audio language models (ALMs) can answer clinical questions from speech, outperforming baselines built on handcrafted acoustic features. Reasoning ALMs generate a chain of thought that refers to properties of the speaker's voice before predicting. Each statement the model makes about the voice needs to be checked against clinicians' perceptual ratings of the same recording. On clinical speech, existing evaluations score only the final answer. We introduce Speech Language Pathologist Bench (SLP-Bench), a benchmark grading each acoustic claim in the chain of thought against clinicians' perceptual ratings of the same recording. It covers five clinician-rated datasets and 25 perceptual dimensions, and assesses claims for factuality, stability under resampling, and consistency across reworded and different questions. Across ten open-weight reasoning ALMs evaluated zero-shot, claim balanced accuracy ranges from 0.52 to 0.58, claims change under resampling and rewording, and the most consistent models are not the most factual. Fine-tuning a 7B ALM with GRPO on a reward for claims that agree with clinicians raises its claim balanced accuracy from 0.54 to 0.60 and its mean kappa from 0.39 to 0.61, while preserving answer accuracy on per-dimension questions. SLP-Bench is available upon request, subject to approval by the providers of each dataset.",
+      "url": "https://arxiv.org/abs/2611.27810v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.27810v1",
+      "relevance_score": 0.686,
+      "processed_date": "2026-11-23",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates audio language models (alms) can answer clinical questions from speech, outperforming baselines built on handcrafted acoustic features. We introduce Speech Language Pathologist Bench (SLP-Bench), a benchmark grading each acoustic claim in the chain of thought against clinicians' perceptual ratings of the same recording. Each statement the model makes about the voice needs to be checked against clinicians' perceptual ratings of the same recording. SLP-Bench is available upon request, subject to approval by the providers of each dataset. Audio language models (ALMs) can answer clinical questions from speech, outperforming baselines built on handcrafted acoustic features.",
+      "key_concepts": [
+        "Zero-shot",
+        "Accuracy Mean",
+        "Acoustic Features",
+        "Agree Clinicians",
+        "Alms Evaluated",
+        "Alms Generate"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "We introduce Speech Language Pathologist Bench (SLP-Bench), a benchmark grading each acoustic claim in the chain of thought against clinicians' perceptual ratings of the same recording.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Zero-shot, Accuracy Mean.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.27939",
+      "raw_id": "http://arxiv.org/abs/2611.27939v1",
+      "title": "What Must a Model Tell a Planner? Outcome Interfaces for Risk-Aware Planning After Robot Damage",
+      "authors": [
+        "Hassan Iqbal",
+        "Krishna Kumar"
+      ],
+      "published_date": "2026-11-20T18:12:49Z",
+      "updated_date": "2026-11-20T18:12:49Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "When a robot is damaged, it must decide which routes it can still afford, and the amount of risk it may accept can change from one mission to the next. We argue that whether a learned model helps such a robot depends on its decision interface, that is, on what the model hands to the planner. A decision policy tells the planner what to do, whereas an outcome model, a kind of world model, predicts the consequences of each route. We study simulated Unitree Go2 quadrupeds and H1 humanoids with weakened motors, added payloads, or reduced foot friction. We compare four interfaces. The first is a decision policy, and the second is the same policy trained with fixed penalties for infeasible routes. The third is an outcome model that predicts the feasibility and travel time of each route. The fourth, which we call a capability contract, is an outcome model that predicts the chance of success and the travel time of the robot on each terrain and composes them along a route. All share the same collected experience, matched tuning and risk calibration, and an uncertainty guard. Two comparatively low-risk probes let the capability contract rank hazardous terrains about as well as four new trials on every hazard. At a calibrated 5% limit on selecting empirically infeasible routes, outcome models cut declined missions from about 32% to 7-8% on Go2 and from 57% to 35-36% on H1 compared with the plain policy. Fixed penalties narrow this gap, but the best penalty changes with the risk target. Predicting outcomes lets the planner preserve missions by changing routes as risk requirements tighten.",
+      "url": "https://arxiv.org/abs/2611.27939v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.27939v1",
+      "relevance_score": 0.682,
+      "processed_date": "2026-11-23",
+      "summary": "Addressing critical demands in Robotics, this research investigates when a robot is damaged, it must decide which routes it can still afford, and the amount of risk it may accept can change from one mission to the next. We argue that whether a learned model helps such a robot depends on its decision interface, that is, on what the model hands to the planner. A decision policy tells the planner what to do, whereas an outcome model, a kind of world model, predicts the consequences of each route. Predicting outcomes lets the planner preserve missions by changing routes as risk requirements tighten.",
+      "key_concepts": [
+        "World Model",
+        "Accept Change",
+        "Afford Risk",
+        "Best Penalty",
+        "Calibrated Limit",
+        "Capability Contract"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We argue that whether a learned model helps such a robot depends on its decision interface, that is, on what the model hands to the planner.",
+        "key_innovation": "Formulates an integrated mechanism leveraging World Model, Accept Change.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.27915",
+      "raw_id": "http://arxiv.org/abs/2611.27915v1",
+      "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
+      "authors": [
+        "Chi Yan",
+        "Guoyang Zhao",
+        "Wentao Yuan",
+        "Yixiao Ge",
+        "Yanning Zhou",
+        "Dan Xu"
+      ],
+      "published_date": "2026-11-20T17:52:02Z",
+      "updated_date": "2026-11-20T17:52:02Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "abstract": "Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about metric 3D space in the physical world. Existing VLMs typically infer 3D scene structure from one or more images without known camera calibration or cross-view geometric constraints. This makes metric 3D inference inherently ambiguous and leaves it unclear whether their spatial predictions are grounded in visual evidence or driven primarily by semantic priors. In contrast, calibrated stereo provides explicit cross-view geometry that resolves this ambiguity and offers a more reliable foundation for metric 3D perception and geometric generalization. We investigate how VLMs can learn transferable 3D representations directly from calibrated binocular observations. To this end, we introduce StereoVLM, the first geometry-aware binocular VLM for metric 3D spatial reasoning. StereoVLM follows a hierarchical learning paradigm spanning from cross-view correspondence and disparity estimation to calibration-conditioned metric depth perception and semantic spatial reasoning. We further find that disparity supervision generalizes substantially better than direct binocular depth supervision on unseen environments. To evaluate these capabilities, we introduce Stereo3D-Bench, a comprehensive benchmark across three levels, from point-level geometry to object-level spatial reasoning. StereoVLM-8B achieves 95.17% depth accuracy (δ_1) and a 66.98 average object-level score on Stereo3D-Bench. Intervention results further indicate that the model's performance on Stereo3D-Bench benefits from valid cross-view geometry and cannot be explained solely by additional visual tokens or semantic priors. Hierarchical geometric supervision also yields average gains of 3.54 points across five spatial benchmarks and 4.3 percentage points in RoboCasa manipulation success.",
+      "url": "https://arxiv.org/abs/2611.27915v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.27915v1",
+      "relevance_score": 0.668,
+      "processed_date": "2026-11-23",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates vision-language models (vlms) exhibit strong semantic understanding but remain limited in their ability to reason about metric 3d space in the physical world. To this end, we introduce StereoVLM, the first geometry-aware binocular VLM for metric 3D spatial reasoning. This makes metric 3D inference inherently ambiguous and leaves it unclear whether their spatial predictions are grounded in visual evidence or driven primarily by semantic priors. Hierarchical geometric supervision also yields average gains of 3.54 points across five spatial benchmarks and 4.3 percentage points in RoboCasa manipulation success. Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about metric 3D space in the physical world.",
+      "key_concepts": [
+        "Manipulation",
+        "Spatial Reasoning",
+        "Cross-view Geometry",
+        "Semantic Priors",
+        "Strong Semantic Understanding",
+        "Structure Images"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "To this end, we introduce StereoVLM, the first geometry-aware binocular VLM for metric 3D spatial reasoning.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Manipulation, Spatial Reasoning.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Existing VLMs typically infer 3D scene structure from one or more images without known camera calibration or cross-view geometric constraints."
+      },
+      "primary_topic": "Artificial Intelligence"
     }
   ]
 }

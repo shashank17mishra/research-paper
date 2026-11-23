@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[22 November 2026 Report](reports/2026/11/22/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[23 November 2026 Report](reports/2026/11/23/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/22/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/23/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/22/infographic.png)](reports/2026/11/22/infographic.png)
+[![Daily Infographic](reports/2026/11/23/infographic.png)](reports/2026/11/23/infographic.png)
 
 ---
 
@@ -25,10 +25,10 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `2` |
-| **Machine Learning (ML)** | `8` |
-| **Robotics** | `2` |
-| **IoT & Edge AI** | `1` |
+| **Artificial Intelligence (AI)** | `6` |
+| **Machine Learning (ML)** | `2` |
+| **Robotics** | `5` |
+| **IoT & Edge AI** | `2` |
 
 ---
 
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **The Window Lever: Longer Observation Windows Outweigh the Observed Effec...** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.26521v1) |
-| 2 | **AURA: AUdio-dRiven streaming Avatar** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.26540v1) |
-| 3 | **Bio-PM-Guided Synthetic IMU Generation** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.26607v1) |
-| 4 | **ScaleWorld: High-Resolution World Generation through Shared Prediction a...** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.26615v1) |
-| 5 | **Posterior Matching Distillation** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.26629v1) |
+| 1 | **StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning** | `Artificial Intelligence` | `0.67` | [arXiv](https://arxiv.org/abs/2611.27915v1) |
+| 2 | **What Must a Model Tell a Planner? Outcome Interfaces for Risk-Aware Plan...** | `Robotics` | `0.68` | [arXiv](https://arxiv.org/abs/2611.27939v1) |
+| 3 | **SLP-Bench: Evaluating and Improving Acoustic Claims of Reasoning Audio L...** | `Artificial Intelligence` | `0.69` | [arXiv](https://arxiv.org/abs/2611.27810v1) |
+| 4 | **Task2Hand: A Contact-Grounded Skill for Parametric Dexterous-Hand Morpho...** | `Robotics` | `0.69` | [arXiv](https://arxiv.org/abs/2611.27967v1) |
+| 5 | **SLICR: Strategy Logic-Guided Multi-Agent Reinforcement Learning** | `Artificial Intelligence` | `0.70` | [arXiv](https://arxiv.org/abs/2611.27865v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `438`
-- **Total Operational Runs**: `56 days`
+- **Total Papers Analyzed**: `448`
+- **Total Operational Runs**: `57 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Machine Learning, Artificial Intelligence, Natural Language Processing
 
