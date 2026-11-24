@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[23 November 2026 Report](reports/2026/11/23/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[24 November 2026 Report](reports/2026/11/24/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/23/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/24/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/23/infographic.png)](reports/2026/11/23/infographic.png)
+[![Daily Infographic](reports/2026/11/24/infographic.png)](reports/2026/11/24/infographic.png)
 
 ---
 
@@ -25,10 +25,10 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `6` |
-| **Machine Learning (ML)** | `2` |
-| **Robotics** | `5` |
-| **IoT & Edge AI** | `2` |
+| **Artificial Intelligence (AI)** | `3` |
+| **Machine Learning (ML)** | `4` |
+| **Robotics** | `6` |
+| **IoT & Edge AI** | `0` |
 
 ---
 
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning** | `Artificial Intelligence` | `0.67` | [arXiv](https://arxiv.org/abs/2611.27915v1) |
-| 2 | **What Must a Model Tell a Planner? Outcome Interfaces for Risk-Aware Plan...** | `Robotics` | `0.68` | [arXiv](https://arxiv.org/abs/2611.27939v1) |
-| 3 | **SLP-Bench: Evaluating and Improving Acoustic Claims of Reasoning Audio L...** | `Artificial Intelligence` | `0.69` | [arXiv](https://arxiv.org/abs/2611.27810v1) |
-| 4 | **Task2Hand: A Contact-Grounded Skill for Parametric Dexterous-Hand Morpho...** | `Robotics` | `0.69` | [arXiv](https://arxiv.org/abs/2611.27967v1) |
-| 5 | **SLICR: Strategy Logic-Guided Multi-Agent Reinforcement Learning** | `Artificial Intelligence` | `0.70` | [arXiv](https://arxiv.org/abs/2611.27865v1) |
+| 1 | **Modern Self-Supervised Vision Transformers Are Pareidolic** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2611.31238v1) |
+| 2 | **Precision-Aware Learning Rate Transfer Across Block Count in LLM Post-Tr...** | `Machine Learning` | `0.70` | [arXiv](https://arxiv.org/abs/2611.31166v1) |
+| 3 | **Self-Supervised Dataset Distillation via Mutual Information Maximization** | `Machine Learning` | `0.70` | [arXiv](https://arxiv.org/abs/2611.31225v1) |
+| 4 | **VITA-WAM: Manifold-Aligned World-Action Modeling for Real-Time Robot Con...** | `Robotics` | `0.71` | [arXiv](https://arxiv.org/abs/2611.31195v1) |
+| 5 | **EmboEagle: An Efficient Agentic Embodied Framework for Long-horizon Robo...** | `Artificial Intelligence` | `0.73` | [arXiv](https://arxiv.org/abs/2611.31173v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `448`
-- **Total Operational Runs**: `57 days`
+- **Total Papers Analyzed**: `458`
+- **Total Operational Runs**: `58 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Machine Learning, Artificial Intelligence, Natural Language Processing
 
