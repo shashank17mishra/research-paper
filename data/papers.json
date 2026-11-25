@@ -19481,5 +19481,438 @@
       "limitations": "Not specified in the available abstract."
     },
     "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.33145",
+    "raw_id": "http://arxiv.org/abs/2611.33145v1",
+    "title": "Lost on Campus: Evaluating Embodied Spatial Reasoning of Vision-Language Models in the Wild",
+    "authors": [
+      "Zehan Zheng",
+      "Yanyuan Chen",
+      "Deming Li",
+      "Yutao Tang",
+      "Jianwen Xie",
+      "Alan Yuille",
+      "Jieneng Chen",
+      "Cheng Peng"
+    ],
+    "published_date": "2026-11-24T18:57:48Z",
+    "updated_date": "2026-11-24T18:57:48Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "Embodied Spatial Reasoning (ESR) is central to deploying Vision-Language Models (VLMs) in real-world embodied tasks, yet remains inadequately evaluated. Existing benchmarks primarily assess spatial reasoning in static images or synthetic indoor environments, where semantic shortcuts often suffice, making it difficult to faithfully evaluate spatial reasoning capabilities in the wild. In light of this, we present Lost on Campus, a benchmark for evaluating ESR in large-scale real-world outdoor 3D environments reconstructed by 3D Gaussian Splatting. Our benchmark introduces a unified reasoning-action evaluation framework that seamlessly integrates diagnostic QA for isolated reasoning with closed-loop interactive navigation for active reasoning under multimodal instructions. To enable fine-grained diagnosis, we evaluate six capability aspects of ESR: action grounding, spatial foresight, metric awareness, goal-directed planning, ego-allocentric localization, and spatio-temporal consistency. Extensive experiments reveal that: (i) Compared to indoor settings, real-world outdoor environments impose substantially higher demands on spatial reasoning, where existing models exhibit poor performance; (ii) VLMs still struggle with fine-grained visual alignment, with failures in spatial foresight and ego-allocentric localization emerging as primary bottlenecks; (iii) Improving multimodal interaction capabilities and long-term spatial reasoning is crucial for advancing embodied intelligence. These findings highlight that faithful evaluation of ESR demands benchmarks tightly coupling perception, reasoning and action within realistic and continuous environments.",
+    "url": "https://arxiv.org/abs/2611.33145v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.33145v1",
+    "relevance_score": 0.779,
+    "processed_date": "2026-11-25",
+    "summary": "Existing benchmarks primarily assess spatial reasoning in static images or synthetic indoor environments, where semantic shortcuts often suffice, making it difficult to faithfully evaluate spatial reasoning capabilities in the wild. In light of this, we present Lost on Campus, a benchmark for evaluating ESR in large-scale real-world outdoor 3D environments reconstructed by 3D Gaussian Splatting. These findings highlight that faithful evaluation of ESR demands benchmarks tightly coupling perception, reasoning and action within realistic and continuous environments. Embodied Spatial Reasoning (ESR) is central to deploying Vision-Language Models (VLMs) in real-world embodied tasks, yet remains inadequately evaluated. Our benchmark introduces a unified reasoning-action evaluation framework that seamlessly integrates diagnostic QA for isolated reasoning with closed-loop interactive navigation for active reasoning under multimodal instructions.",
+    "key_concepts": [
+      "Gaussian Splatting",
+      "Embodied Intelligence",
+      "Spatial Reasoning",
+      "Ego-allocentric Localization",
+      "Outdoor Environments",
+      "Real-world Outdoor"
+    ],
+    "insights": {
+      "problem": "Existing benchmarks primarily assess spatial reasoning in static images or synthetic indoor environments, where semantic shortcuts often suffice, making it difficult to faithfully evaluate spatial reasoning capabilities in the wild.",
+      "approach": "In light of this, we present Lost on Campus, a benchmark for evaluating ESR in large-scale real-world outdoor 3D environments reconstructed by 3D Gaussian Splatting.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Gaussian Splatting, Embodied Intelligence.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.33040",
+    "raw_id": "http://arxiv.org/abs/2611.33040v1",
+    "title": "At the Limit: Autonomous Vehicle Drifting under Generative Policies",
+    "authors": [
+      "Jie He",
+      "Meixun Qu",
+      "Cheng Hu",
+      "Lei Xie",
+      "Ezio Bartocci",
+      "Radu Grosu"
+    ],
+    "published_date": "2026-11-24T17:50:47Z",
+    "updated_date": "2026-11-24T17:50:47Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "abstract": "Autonomous drifting requires agile control despite tire-force saturation and highly nonlinear vehicle dynamics. We propose an online reinforcement learning method for flow policies that combines stochastic differential equation (SDE) sampling for exploration with value-based policy optimization. This method supports both training from scratch and fine-tuning a policy pretrained on expert demonstrations. After training, control actions can be generated using either SDEs or ordinary differential equations (ODEs). Experiments on circular and eight-shaped drifting in an F1TENTH digital twin platform show that both training strategies can achieve effective real-time drift control, with tighter tracking, higher success rates, and better robustness under noisy conditions.",
+    "url": "https://arxiv.org/abs/2611.33040v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.33040v1",
+    "relevance_score": 0.742,
+    "processed_date": "2026-11-25",
+    "summary": "Autonomous drifting requires agile control despite tire-force saturation and highly nonlinear vehicle dynamics. We propose an online reinforcement learning method for flow policies that combines stochastic differential equation (SDE) sampling for exploration with value-based policy optimization. This method supports both training from scratch and fine-tuning a policy pretrained on expert demonstrations. Experiments on circular and eight-shaped drifting in an F1TENTH digital twin platform show that both training strategies can achieve effective real-time drift control, with tighter tracking, higher success rates, and better robustness under noisy conditions. After training, control actions can be generated using either SDEs or ordinary differential equations (ODEs).",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Actions Generated",
+      "Agile Control",
+      "Autonomous Drifting",
+      "Better Robustness",
+      "Circular Eight-shaped"
+    ],
+    "insights": {
+      "problem": "Autonomous drifting requires agile control despite tire-force saturation and highly nonlinear vehicle dynamics.",
+      "approach": "We propose an online reinforcement learning method for flow policies that combines stochastic differential equation (SDE) sampling for exploration with value-based policy optimization.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Actions Generated.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.33130",
+    "raw_id": "http://arxiv.org/abs/2611.33130v1",
+    "title": "Exploratory Midtraining for Robot Policies",
+    "authors": [
+      "Kshitiz",
+      "Zheyuan Hu",
+      "Robyn Wu",
+      "Yizhou Li",
+      "Yunchu Zhang",
+      "Vattanary Tevy",
+      "Kavya Tayal",
+      "Shawn Yin",
+      "Aykut Onol",
+      "Kushal Arora",
+      "Dhruv Shah",
+      "Abhishek Gupta",
+      "Zackory Erickson",
+      "Aviral Kumar"
+    ],
+    "published_date": "2026-11-24T18:52:34Z",
+    "updated_date": "2026-11-24T18:52:34Z",
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "abstract": "Robot policies predominantly learn from human-collected data emphasizing competent behavior, limiting coverage of the low-level behaviors needed to support autonomous improvement. We study how a form of midtraining can be used to build coverage over diverse low-level behaviors that connect challenging states of the robot and its environment to states from which further progress is possible (\"connected behavioral coverage\"). We also examine how this coverage supports downstream adaptation and online improvement. To this end, we introduce β-Data, a dataset collected via adversarial teleoperation, where a human adversary reversibly perturbs the environment while a human operator continues toward completion without resetting. We relabel trajectory segments with local outcomes in natural language and finetune a pretrained policy conditioned on recent action history. The resulting policy exhibits sustained use of more low-level behaviors. Across manipulation tasks in simulation and on three real-robot platforms, our approach yields more favorable data scaling laws, better zero-shot generalization, and more effective use of additional rollout time than training on standard demonstrations. During online finetuning, these policies need fewer rollouts to collect successful experience and reach higher success rates, suggesting that midtraining can prepare robots for both more robust task execution and continued autonomous improvement. Our project page and robot videos are available at https://kshitiz-1225.github.io/exploratory-midtraining-robot-policies/.",
+    "url": "https://arxiv.org/abs/2611.33130v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.33130v1",
+    "relevance_score": 0.737,
+    "processed_date": "2026-11-25",
+    "summary": "Addressing critical demands in Robotics, this research investigates robot policies predominantly learn from human-collected data emphasizing competent behavior, limiting coverage of the low-level behaviors needed to support autonomous improvement. To this end, we introduce β-Data, a dataset collected via adversarial teleoperation, where a human adversary reversibly perturbs the environment while a human operator continues toward completion without resetting. We also examine how this coverage supports downstream adaptation and online improvement. Our project page and robot videos are available at https://kshitiz-1225.github.io/exploratory-midtraining-robot-policies/. Robot policies predominantly learn from human-collected data emphasizing competent behavior, limiting coverage of the low-level behaviors needed to support autonomous improvement.",
+    "key_concepts": [
+      "Scaling Laws",
+      "Zero-shot",
+      "Manipulation",
+      "Autonomous Improvement",
+      "Low-level Behaviors",
+      "Successful Experience"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+      "approach": "To this end, we introduce β-Data, a dataset collected via adversarial teleoperation, where a human adversary reversibly perturbs the environment while a human operator continues toward completion without resetting.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Scaling Laws, Zero-shot.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2611.33020",
+    "raw_id": "http://arxiv.org/abs/2611.33020v1",
+    "title": "GRAPE-Bench: When Vision Degrades, Does Video Reasoning Hold?",
+    "authors": [
+      "Ce Zhang",
+      "Junyi He",
+      "Tianshi Ming",
+      "Jinxi He",
+      "Jianshu Zhang",
+      "Xiyuan Yang",
+      "Jianuo Zhu",
+      "Yicheng Tao",
+      "Xiyu Luo",
+      "Minghao Fu",
+      "Jiahui Zhu",
+      "Kehan Guo",
+      "Yunzhong Xiao",
+      "Jingyang Lin",
+      "Wei Chow",
+      "Lingdong Kong",
+      "Katia Sycara",
+      "Yaqi Xie"
+    ],
+    "published_date": "2026-11-24T17:35:38Z",
+    "updated_date": "2026-11-24T17:35:38Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "Despite strong performance on standard benchmarks, video reasoning models remain vulnerable to visual degradation, raising concerns about their reliability in safety-critical scenarios. Existing benchmarks address this concern in part by simulating visual degradation or probing model reasoning with challenging questions, leaving open how well models handle naturally degraded video and whether they can make the simpler judgments that matter for safe driving. To this end, we introduce GRAPE-Bench, which jointly evaluates video reasoning across visual degradation conditions and question difficulty. It combines a synthetic set spanning twelve corruption types across daily-life and driving videos with real-world footage of driving at night or in rain, snow, or fog. Each video is paired with three progressively challenging questions, from fundamental judgments with potential safety implications to demanding reasoning stress tests. Across open-weight and frontier models, we observe ranking reversals between synthetic and real-world conditions and level-specific weaknesses obscured by overall accuracy. Synthetic-data fine-tuning improves Qwen3.5-9B's real-world accuracy from 76.7% to 81.1%, while clean-privileged on-policy distillation reaches 80.4% in a separate reasoning-enabled setting. Through preference steering, we further demonstrate continuous control over a frozen model's trade-off between safety-relevant judgments and challenging reasoning, with little change in overall accuracy. Together, GRAPE-Bench provides a unified testbed for evaluating, improving, and controlling video reasoning under degraded visual conditions.",
+    "url": "https://arxiv.org/abs/2611.33020v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.33020v1",
+    "relevance_score": 0.722,
+    "processed_date": "2026-11-25",
+    "summary": "Despite strong performance on standard benchmarks, video reasoning models remain vulnerable to visual degradation, raising concerns about their reliability in safety-critical scenarios. To this end, we introduce GRAPE-Bench, which jointly evaluates video reasoning across visual degradation conditions and question difficulty. Together, GRAPE-Bench provides a unified testbed for evaluating, improving, and controlling video reasoning under degraded visual conditions. Existing benchmarks address this concern in part by simulating visual degradation or probing model reasoning with challenging questions, leaving open how well models handle naturally degraded video and whether they can make the simpler judgments that matter for safe driving. It combines a synthetic set spanning twelve corruption types across daily-life and driving videos with real-world footage of driving at night or in rain, snow, or fog.",
+    "key_concepts": [
+      "Video Reasoning",
+      "Challenging Questions",
+      "Overall Accuracy",
+      "Synthetic Real-world Conditions",
+      "Synthetic Set",
+      "Synthetic-data Fine-tuning"
+    ],
+    "insights": {
+      "problem": "Despite strong performance on standard benchmarks, video reasoning models remain vulnerable to visual degradation, raising concerns about their reliability in safety-critical scenarios.",
+      "approach": "To this end, we introduce GRAPE-Bench, which jointly evaluates video reasoning across visual degradation conditions and question difficulty.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Video Reasoning, Challenging Questions.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Through preference steering, we further demonstrate continuous control over a frozen model's trade-off between safety-relevant judgments and challenging reasoning, with little change in overall accuracy."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.33031",
+    "raw_id": "http://arxiv.org/abs/2611.33031v1",
+    "title": "Can a Frontier LLM Repair a Quantized Network by Tool-Free Weight-Space Programming?",
+    "authors": [
+      "Steffen Urban"
+    ],
+    "published_date": "2026-11-24T17:43:09Z",
+    "updated_date": "2026-11-24T17:43:09Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "We give four large language models (LLMs) of the Claude family the complete weights of a 20k-parameter CIFAR-10 CNN as text and ask them to produce a 4-bit network without tools, data or the ability to run inference. Standard round-to-nearest (RTN) quantization to 4 bit lowers the test accuracy from 81.4% to 60.4%. We design four evaluation protocols that differ in the input and task description given to the LLMs and analyze their responses. In the first two protocols the LLMs are given the float and the 4-bit RTN network and are told that the accuracy has dropped significantly. In the last two they receive only the float network and the task to quantize it, which tests whether they apply an optimization on their own or fall back to plain RTN. Our analysis shows that a frontier LLM can recover most of the lost accuracy. Given one answer per layer, Opus 5.5 raises the accuracy of the 4-bit network to 77.95% by balancing the rounding errors within each 3x3 kernel, reasoning over the integer weights without tools. This is 3.5 pp below the float network and 2.8 pp below AdaRound, which learns the rounding from calibration data. Given only the float network, the LLMs name error-cancelling corrections but do not apply them and fall back to plain RTN, at most with mildly clipped scales, which still lifts Fable 5.2's quantized network to 70.0%. We analyze in detail what the LLMs did and why it works. Code and prompts can be found at https://github.com/urbste/weight-space-programming-ptq",
+    "url": "https://arxiv.org/abs/2611.33031v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.33031v1",
+    "relevance_score": 0.715,
+    "processed_date": "2026-11-25",
+    "summary": "Addressing critical demands in Natural Language Processing, this research investigates we give four large language models (llms) of the claude family the complete weights of a 20k-parameter cifar-10 cnn as text and ask them to produce a 4-bit network without tools, data or the ability to run inference. We design four evaluation protocols that differ in the input and task description given to the LLMs and analyze their responses. Code and prompts can be found at https://github.com/urbste/weight-space-programming-ptq We give four large language models (LLMs) of the Claude family the complete weights of a 20k-parameter CIFAR-10 CNN as text and ask them to produce a 4-bit network without tools, data or the ability to run inference.",
+    "key_concepts": [
+      "Quantization",
+      "Accuracy Bit",
+      "Accuracy Design",
+      "Accuracy Dropped",
+      "Accuracy Given",
+      "Adaround Learns"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+      "approach": "We design four evaluation protocols that differ in the input and task description given to the LLMs and analyze their responses.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Quantization, Accuracy Bit.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Natural Language Processing"
+  },
+  {
+    "arxiv_id": "2611.33148",
+    "raw_id": "http://arxiv.org/abs/2611.33148v1",
+    "title": "CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies",
+    "authors": [
+      "Dawid J. Kopiczko",
+      "Tijmen Blankevoort",
+      "Yuki M. Asano"
+    ],
+    "published_date": "2026-11-24T18:58:53Z",
+    "updated_date": "2026-11-24T18:58:53Z",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Reasoning models become long-horizon agents through reinforcement learning or, more cheaply, through fine-tuning on a stronger teacher's trajectories, which contain the teacher's chain-of-thought as well as its actions. The standard fine-tuning approach imitates both, yet the strongest teachers are closed models whose chain-of-thought is hidden behind an API. We show that the chain-of-thought can be left out altogether and that the long-horizon policy can be distilled from the teacher's actions alone. The student is trained on these trajectories with its reasoning block left empty, while a KL loss on a replay buffer of its own generations limits drift from its initial model. Surprisingly, the policy learned from these trajectories with an empty reasoning block carries over to inference with thinking enabled, where the student reasons in its own style while acting like the teacher, an effect we call cross-format transfer. Distilling the actions of Qwen3.6-27B raises the task success of Qwen3-4B on AppWorld from 7% to 18% and that of Qwen3-32B from 12% to 25%. We further introduce CoT-proxies, short summaries of the teacher's reasoning placed after the empty reasoning block, which raise Qwen3-4B further, to 35%. Since neither actions nor CoT-proxies need the hidden chain-of-thought, the recipe applies unchanged to closed teachers. Distilling GPT-5.6 Luna from its visible outputs and the reasoning summaries its API returns raises Qwen3-4B from 7% to 48% on AppWorld and from 3% to 28% on SWE-bench Verified.",
+    "url": "https://arxiv.org/abs/2611.33148v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.33148v1",
+    "relevance_score": 0.703,
+    "processed_date": "2026-11-25",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates reasoning models become long-horizon agents through reinforcement learning or, more cheaply, through fine-tuning on a stronger teacher's trajectories, which contain the teacher's chain-of-thought as well as its actions. The standard fine-tuning approach imitates both, yet the strongest teachers are closed models whose chain-of-thought is hidden behind an API. We show that the chain-of-thought can be left out altogether and that the long-horizon policy can be distilled from the teacher's actions alone. Distilling GPT-5.6 Luna from its visible outputs and the reasoning summaries its API returns raises Qwen3-4B from 7% to 48% on AppWorld and from 3% to 28% on SWE-bench Verified.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Acting Like",
+      "Actions Cot-proxies",
+      "Actions Raises",
+      "Actions Standard",
+      "Actions Student"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "The standard fine-tuning approach imitates both, yet the strongest teachers are closed models whose chain-of-thought is hidden behind an API.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Acting Like.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.33035",
+    "raw_id": "http://arxiv.org/abs/2611.33035v1",
+    "title": "Hybrid AI for AI-Native RAN Control: A Functional Perspective",
+    "authors": [
+      "Sabrine Aroua",
+      "Osama Arouk",
+      "Pegah Alizadeh"
+    ],
+    "published_date": "2026-11-24T17:47:24Z",
+    "updated_date": "2026-11-24T17:47:24Z",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "AI-native radio access network (RAN) control involves interdependent decisions across network entities, protocol layers, and timescales. Understanding how AI and conventional methods can jointly support these decisions requires a common basis for comparing their functional roles. This survey introduces a technique-agnostic taxonomy of RAN decision-making organized around four complementary capabilities: Representation and Reasoning, Prediction and Simulation, Adaptive Control, and Decision Synthesis. These capabilities are defined by their roles in the control process, independently of the techniques used to implement them. Through this perspective, we examine representative AI and model-based approaches, including foundation models, world models, reinforcement learning, and optimization. We then apply the taxonomy to representative RAN control solutions across slow, medium, fast, and cross-timescale applications to identify which capabilities they implement and how these capabilities are combined in hybrid AI systems. We also review datasets, benchmarks, simulators, digital twins, and experimental platforms according to their support for the decision-making process and reproducible evaluation. The review highlights a gap between the availability of resources for closed-loop experimentation and the standardization of tasks, metrics, and evaluation protocols needed for meaningful comparisons.Finally, we identify research directions for hybrid AI in AI-native RAN, including capability integration, multi-agent and cross-timescale coordination, constraint handling, and reproducible closed-loop evaluation. A curated list of surveyed works and evaluation resources is available at https://github.com/pegahani/Hybrid-AI-RAN-Survey.",
+    "url": "https://arxiv.org/abs/2611.33035v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.33035v1",
+    "relevance_score": 0.702,
+    "processed_date": "2026-11-25",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates ai-native radio access network (ran) control involves interdependent decisions across network entities, protocol layers, and timescales. Understanding how AI and conventional methods can jointly support these decisions requires a common basis for comparing their functional roles. This survey introduces a technique-agnostic taxonomy of RAN decision-making organized around four complementary capabilities: Representation and Reasoning, Prediction and Simulation, Adaptive Control, and Decision Synthesis. A curated list of surveyed works and evaluation resources is available at https://github.com/pegahani/Hybrid-AI-RAN-Survey. AI-native radio access network (RAN) control involves interdependent decisions across network entities, protocol layers, and timescales. These capabilities are defined by their roles in the control process, independently of the techniques used to implement them.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Ran Control",
+      "Roles Control",
+      "Roles Survey",
+      "Simulation Adaptive",
+      "Simulators Digital"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "Understanding how AI and conventional methods can jointly support these decisions requires a common basis for comparing their functional roles.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Ran Control.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "The review highlights a gap between the availability of resources for closed-loop experimentation and the standardization of tasks, metrics, and evaluation protocols needed for meaningful comparisons.Finally, we identify research directions for hybrid AI in AI-native RAN, including capability integration, multi-agent and cross-timescale coordination, constraint handling, and reproducible closed-loop evaluation."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.33157",
+    "raw_id": "http://arxiv.org/abs/2611.33157v1",
+    "title": "PointX: Multi-View Consistent Intrinsics by Querying Surface Points",
+    "authors": [
+      "Miguel Farinha",
+      "Sam Sartor",
+      "Iliyan Georgiev",
+      "Giuseppe Vecchio",
+      "Ronald Clark",
+      "Michael Fischer"
+    ],
+    "published_date": "2026-11-24T18:59:42Z",
+    "updated_date": "2026-11-24T18:59:42Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "The appearance of a scene is determined by the albedo, roughness, metallicity and normal of every point on its surface, and by the light that reaches it, its irradiance. Recovering these intrinsics from images is ambiguous, and methods that predict them per pixel give the same surface point a different decomposition in every view. We introduce PointX, a simple feed-forward model that predicts intrinsics per 3D surface point instead. A multi-view transformer encodes a set of unposed images, and for any queried surface point, PointX pools the point's tokens across the views in which it appears and decodes the point's intrinsics once. Each point of a 3D reconstruction of the scene, such as a point cloud or a mesh, thus receives a single prediction, which is exactly consistent across views by construction and enables view-consistent relighting and editing. The same model also predicts per-view maps, from one image or many, by querying the point seen at every pixel. These maps agree across views up to the precision of the estimated geometry and correspondences. PointX is significantly more consistent than existing methods, while remaining competitive in accuracy from a single image and improving as views are added. Project page: https://pointx-paper.github.io/",
+    "url": "https://arxiv.org/abs/2611.33157v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.33157v1",
+    "relevance_score": 0.696,
+    "processed_date": "2026-11-25",
+    "summary": "Addressing critical demands in Computer Vision, this research investigates the appearance of a scene is determined by the albedo, roughness, metallicity and normal of every point on its surface, and by the light that reaches it, its irradiance. We introduce PointX, a simple feed-forward model that predicts intrinsics per 3D surface point instead. Project page: https://pointx-paper.github.io/ The appearance of a scene is determined by the albedo, roughness, metallicity and normal of every point on its surface, and by the light that reaches it, its irradiance. Recovering these intrinsics from images is ambiguous, and methods that predict them per pixel give the same surface point a different decomposition in every view.",
+    "key_concepts": [
+      "Point Cloud",
+      "Surface Point",
+      "Accuracy Single",
+      "Added Project",
+      "Agree Views",
+      "Albedo Roughness"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Computer Vision and existing computational workflows.",
+      "approach": "We introduce PointX, a simple feed-forward model that predicts intrinsics per 3D surface point instead.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Point Cloud, Surface Point.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Computer Vision"
+  },
+  {
+    "arxiv_id": "2611.33144",
+    "raw_id": "http://arxiv.org/abs/2611.33144v1",
+    "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
+    "authors": [
+      "Feixiang Ruan",
+      "Guodong Lv",
+      "Kewei Zhang",
+      "Wenbo Huang",
+      "Yintianrun Zhang",
+      "Qiang Wang",
+      "Ruiyang Si",
+      "Shunyu Yang",
+      "Shulong Jiang",
+      "Weicheng Duan",
+      "Rui Ni",
+      "Jianxin Bi",
+      "Lekai Wang",
+      "Yuze Fan",
+      "Haobo Li",
+      "Zeliang Fu",
+      "Jiankun Zhang",
+      "Duomin Wang",
+      "Enze Xie",
+      "Daquan Zhou"
+    ],
+    "published_date": "2026-11-24T18:56:44Z",
+    "updated_date": "2026-11-24T18:56:44Z",
+    "categories": [
+      "cs.RO"
+    ],
+    "abstract": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables coding agents to develop dexterous manipulation through programmatic policy, without the need of demonstrations. The programmatic policy is developed in two stages: during exploration, multiple agents explore in parallel for task skills and ways to compose them, and a distilling agent condenses the successful attempts into a task library and one program. During refinement, this program is improved through randomized layouts for enhanced robustness and execution efficiency. In simulated environments, PyRUA-Dex achieves SOTA on Bench2Dex with a score of 72.9 and reaches 81.0% success on DexJoCo under full randomization, ahead of every trained policy on both benchmarks. In real world experiments on a bimanual platform with two 22-DoF hands, PyRUA-Dex learns to play piano, write calligraphy, and other tasks efficiently: learning a new piece from sheet music takes as little as 30 minutes. These results suggest that PyRUA-Dex is an effective framework for developing dexterous manipulation policies with coding agents in the absence of high quality dexterous manipulation demonstrations.",
+    "url": "https://arxiv.org/abs/2611.33144v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.33144v1",
+    "relevance_score": 0.687,
+    "processed_date": "2026-11-25",
+    "summary": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up. We present PyRUA-Dex, a framework that enables coding agents to develop dexterous manipulation through programmatic policy, without the need of demonstrations. In simulated environments, PyRUA-Dex achieves SOTA on Bench2Dex with a score of 72.9 and reaches 81.0% success on DexJoCo under full randomization, ahead of every trained policy on both benchmarks. These results suggest that PyRUA-Dex is an effective framework for developing dexterous manipulation policies with coding agents in the absence of high quality dexterous manipulation demonstrations.",
+    "key_concepts": [
+      "Dexterous Manipulation",
+      "Manipulation",
+      "Agent Condenses",
+      "Bimanual Platform",
+      "Programmatic Policy"
+    ],
+    "insights": {
+      "problem": "Learning for dexterous manipulation is limited by the scarcity of high-quality demonstrations: retargeting from human video is imprecise, teleoperation gives no force feedback to the operator, and exoskeleton-based collection is hard to scale up.",
+      "approach": "We present PyRUA-Dex, a framework that enables coding agents to develop dexterous manipulation through programmatic policy, without the need of demonstrations.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Dexterous Manipulation, Manipulation.",
+      "results": "In simulated environments, PyRUA-Dex achieves SOTA on Bench2Dex with a score of 72.9 and reaches 81.0% success on DexJoCo under full randomization, ahead of every trained policy on both benchmarks.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Robotics"
+  },
+  {
+    "arxiv_id": "2611.33019",
+    "raw_id": "http://arxiv.org/abs/2611.33019v1",
+    "title": "Blockchain-IoT Convergence for Spatiotemporal Data Systems: Challenges, Solutions, and Research Gaps",
+    "authors": [
+      "Natalia Chaudhry",
+      "Muhammad Murtaza Yousaf"
+    ],
+    "published_date": "2026-11-24T17:35:14Z",
+    "updated_date": "2026-11-24T17:35:14Z",
+    "categories": [
+      "cs.DC"
+    ],
+    "abstract": "Blockchain in conjunction with the Internet of Things (IoT) is changing the management of spatiotemporal data in a way that has never been possible before now. In the process of gathering geospatial and time-stamped data from a large network of IoT devices, data authenticity, accuracy, and timely processing are major issues. Spatiotemporal indexing in a blockchain environment is necessary for ensure quick data retrieval; supporting real time data processing requirement. Blockchain with its decentralized consensus mechanism is a possible solution for preventing data fabrication, unauthorized access, and single point of failure in IoT based spatiotemporal applications. This paper aims to describe how Blockchain and IoT indexing can be combined to enhance the spatiotemporal data management (specifically indexing and querying of data). Literature solutions will be reviewed and compared to highlight challenges and insights for future blockchain-integrated IoT in resilient spatiotemporal data ecosystems.",
+    "url": "https://arxiv.org/abs/2611.33019v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.33019v1",
+    "relevance_score": 0.687,
+    "processed_date": "2026-11-25",
+    "summary": "Addressing critical demands in IoT & Edge AI, this research investigates blockchain in conjunction with the internet of things (iot) is changing the management of spatiotemporal data in a way that has never been possible before now. In the process of gathering geospatial and time-stamped data from a large network of IoT devices, data authenticity, accuracy, and timely processing are major issues. Spatiotemporal indexing in a blockchain environment is necessary for ensure quick data retrieval; supporting real time data processing requirement. Literature solutions will be reviewed and compared to highlight challenges and insights for future blockchain-integrated IoT in resilient spatiotemporal data ecosystems.",
+    "key_concepts": [
+      "Access Single",
+      "Accuracy Timely",
+      "Aims Blockchain",
+      "Authenticity Accuracy",
+      "Blockchain Conjunction",
+      "Blockchain Decentralized"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in IoT & Edge AI and existing computational workflows.",
+      "approach": "In the process of gathering geospatial and time-stamped data from a large network of IoT devices, data authenticity, accuracy, and timely processing are major issues.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Access Single, Accuracy Timely.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Low-power edge AI devices, embedded IoT sensor networks, and distributed on-device inference.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "IoT & Edge AI"
   }
 ]

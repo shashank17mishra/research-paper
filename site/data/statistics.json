@@ -1,17 +1,17 @@
 {
-  "total_papers": 458,
-  "total_runs": 58,
-  "last_run_date": "2026-11-24",
+  "total_papers": 468,
+  "total_runs": 59,
+  "last_run_date": "2026-11-25",
   "categories_breakdown": {
-    "cs.RO": 199,
-    "cs.AI": 169,
-    "cs.LG": 140,
-    "cs.CV": 130,
-    "cs.CL": 81,
+    "cs.RO": 202,
+    "cs.AI": 171,
+    "cs.LG": 142,
+    "cs.CV": 133,
+    "cs.CL": 83,
     "eess.SY": 17,
     "cs.MA": 12,
+    "cs.DC": 5,
     "cs.NE": 5,
-    "cs.DC": 4,
     "stat.ML": 4,
     "cs.GR": 3,
     "cs.CY": 3,
@@ -20,12 +20,12 @@
     "cs.SI": 2
   },
   "topics_breakdown": {
-    "Robotics": 154,
-    "Machine Learning": 126,
-    "Artificial Intelligence": 118,
-    "Natural Language Processing": 40,
-    "Computer Vision": 12,
-    "IoT & Edge AI": 8
+    "Robotics": 156,
+    "Machine Learning": 127,
+    "Artificial Intelligence": 122,
+    "Natural Language Processing": 41,
+    "Computer Vision": 13,
+    "IoT & Edge AI": 9
   },
   "daily_counts": {
     "2026-10-08": 51,
@@ -72,6 +72,7 @@
     "2026-11-21": 10,
     "2026-11-22": 10,
     "2026-11-23": 10,
-    "2026-11-24": 10
+    "2026-11-24": 10,
+    "2026-11-25": 10
   }
 }
