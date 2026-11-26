@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[25 November 2026 Report](reports/2026/11/25/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[26 November 2026 Report](reports/2026/11/26/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/25/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/26/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/25/infographic.png)](reports/2026/11/25/infographic.png)
+[![Daily Infographic](reports/2026/11/26/infographic.png)](reports/2026/11/26/infographic.png)
 
 ---
 
@@ -25,9 +25,9 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `5` |
+| **Artificial Intelligence (AI)** | `3` |
 | **Machine Learning (ML)** | `3` |
-| **Robotics** | `3` |
+| **Robotics** | `5` |
 | **IoT & Edge AI** | `1` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Blockchain-IoT Convergence for Spatiotemporal Data Systems: Challenges, ...** | `IoT & Edge AI` | `0.69` | [arXiv](https://arxiv.org/abs/2611.33019v1) |
-| 2 | **PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipul...** | `Robotics` | `0.69` | [arXiv](https://arxiv.org/abs/2611.33144v1) |
-| 3 | **PointX: Multi-View Consistent Intrinsics by Querying Surface Points** | `Computer Vision` | `0.70` | [arXiv](https://arxiv.org/abs/2611.33157v1) |
-| 4 | **Hybrid AI for AI-Native RAN Control: A Functional Perspective** | `Artificial Intelligence` | `0.70` | [arXiv](https://arxiv.org/abs/2611.33035v1) |
-| 5 | **CoT-Proxy: Cross-Format Transfer for Distilling Long-Horizon Policies** | `Artificial Intelligence` | `0.70` | [arXiv](https://arxiv.org/abs/2611.33148v1) |
+| 1 | **LuxAvatar: Real-Time Relightable Head Avatars via Causal Neural Shading ...** | `Machine Learning` | `0.67` | [arXiv](https://arxiv.org/abs/2611.34940v1) |
+| 2 | **Deep Reinforcement Learning for Multi-UAV Data Harvesting Under Variable...** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2611.34818v1) |
+| 3 | **Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than...** | `Artificial Intelligence` | `0.70` | [arXiv](https://arxiv.org/abs/2611.34813v1) |
+| 4 | **Memory Is Not Ground Truth: Revising Navigation Authority under Unreliab...** | `Robotics` | `0.72` | [arXiv](https://arxiv.org/abs/2611.34915v1) |
+| 5 | **Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation** | `Artificial Intelligence` | `0.72` | [arXiv](https://arxiv.org/abs/2611.34907v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `468`
-- **Total Operational Runs**: `59 days`
+- **Total Papers Analyzed**: `478`
+- **Total Operational Runs**: `60 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Machine Learning, Artificial Intelligence, Natural Language Processing
 

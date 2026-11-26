@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-25T09:39:25.456001",
-  "total_entries": 468,
+  "updated_at": "2026-11-26T09:14:59.614577",
+  "total_entries": 478,
   "months": [
     "2026-11",
     "2026-10"
@@ -19921,6 +19921,431 @@
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "IoT & Edge AI"
+    },
+    {
+      "arxiv_id": "2611.34925",
+      "raw_id": "http://arxiv.org/abs/2611.34925v1",
+      "title": "One Ocean, Many Tasks: A Data-Grounded Simulation Suite and Benchmark for Marine Robotics",
+      "authors": [
+        "Shuaijun Liu",
+        "Qifu Wen",
+        "Xingwei Chen",
+        "Xinwen Hu",
+        "Feiyang You",
+        "Sijia Chen",
+        "Ningxin Su"
+      ],
+      "published_date": "2026-11-25T18:58:56Z",
+      "updated_date": "2026-11-25T18:58:56Z",
+      "categories": [
+        "cs.RO",
+        "cs.DB"
+      ],
+      "abstract": "Simulation is essential for marine robotics, yet existing platforms often trade off between visually realistic worlds, high-throughput experimentation, and ocean-condition realism grounded in real data. We present OneOcean, a data-grounded simulation suite and benchmark built around a unified spatiotemporal ocean-environment product that harmonizes bathymetry with data-driven currents and tides, with optional pollution fields for cleanup-related evaluation. On top of this environment representation, OneOcean defines a task ladder spanning navigation and station-keeping under currents, waypoint and route following, depth-profile tracking, area scanning, pipeline inspection, and multi-agent coordination, including formation transit, fish protection and patrol (herding), and surface pollution localization, containment, and cleanup. The suite supports multi-agent settings with 2-10 vehicles. Our simulator supports three to six Degrees of Freedom (DoF) and produces standardized metrics and reproducible run manifests, enabling consistent aggregation across tasks, difficulties, and scaling settings. Experiments across dataset variants and scenes systematically stress planning and control under data-grounded disturbances and reveal trade-offs among heuristic baselines, Behavior Cloning (BC), and a Large Language Model (LLM)-based planner.",
+      "url": "https://arxiv.org/abs/2611.34925v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34925v1",
+      "relevance_score": 0.822,
+      "processed_date": "2026-11-26",
+      "summary": "Addressing critical demands in Robotics, this research investigates simulation is essential for marine robotics, yet existing platforms often trade off between visually realistic worlds, high-throughput experimentation, and ocean-condition realism grounded in real data. We present OneOcean, a data-grounded simulation suite and benchmark built around a unified spatiotemporal ocean-environment product that harmonizes bathymetry with data-driven currents and tides, with optional pollution fields for cleanup-related evaluation. On top of this environment representation, OneOcean defines a task ladder spanning navigation and station-keeping under currents, waypoint and route following, depth-profile tracking, area scanning, pipeline inspection, and multi-agent coordination, including formation transit, fish protection and patrol (herding), and surface pollution localization, containment, and cleanup. Experiments across dataset variants and scenes systematically stress planning and control under data-grounded disturbances and reveal trade-offs among heuristic baselines, Behavior Cloning (BC), and a Large Language Model (LLM)-based planner.",
+      "key_concepts": [
+        "Large Language Model",
+        "Area Scanning",
+        "Baselines Behavior",
+        "Bathymetry Data-driven",
+        "Behavior Cloning",
+        "Built Unified"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We present OneOcean, a data-grounded simulation suite and benchmark built around a unified spatiotemporal ocean-environment product that harmonizes bathymetry with data-driven currents and tides, with optional pollution fields for cleanup-related evaluation.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Large Language Model, Area Scanning.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.34943",
+      "raw_id": "http://arxiv.org/abs/2611.34943v1",
+      "title": "Tracking Any Point with Agentic Visual Reasoning",
+      "authors": [
+        "Xuweiyi Chen",
+        "Jin Yao",
+        "Linzhan Mou",
+        "Lei Gong",
+        "Di Liu",
+        "Cheng Zhang",
+        "Ziqiao Ma",
+        "Sihan Xu",
+        "Adam W. Harley",
+        "Shengyi Qian",
+        "Zezhou Cheng"
+      ],
+      "published_date": "2026-11-25T18:59:58Z",
+      "updated_date": "2026-11-25T18:59:58Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition. However, point correspondence is known to be challenging for VLMs since it goes beyond object-level recognition: it requires pixel-level localization of the same physical surface point across observations, even when appearance changes or the point disappears and later reappears. In this paper, we introduce AgenTAP, a VLM-based agent that directly predicts point coordinates and visibility and actively reasons over videos. Starting from its own estimate, the agent autonomously chooses what to inspect and uses the resulting evidence to verify point identity and refine its predictions. With GPT-6 Astra, it surpasses expert vision models in both point localization and visibility prediction, without correspondence-specific fine-tuning. We further use AgenTAP to re-identify physical points after disappearance and reconnect fragmented tracks, constructing EgoTAP-4D, a dataset of 3D point trajectories in long real-world egocentric videos. On sampled reappearing points, its predictions approach human agreement, and adding EgoTAP-4D to D4RT training improves average 3D tracking performance.",
+      "url": "https://arxiv.org/abs/2611.34943v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34943v1",
+      "relevance_score": 0.76,
+      "processed_date": "2026-11-26",
+      "summary": "However, point correspondence is known to be challenging for VLMs since it goes beyond object-level recognition: it requires pixel-level localization of the same physical surface point across observations, even when appearance changes or the point disappears and later reappears. In this paper, we introduce AgenTAP, a VLM-based agent that directly predicts point coordinates and visibility and actively reasons over videos. With GPT-6 Astra, it surpasses expert vision models in both point localization and visibility prediction, without correspondence-specific fine-tuning. On sampled reappearing points, its predictions approach human agreement, and adding EgoTAP-4D to D4RT training improves average 3D tracking performance. A general-purpose Vision-Language Model (VLM) has surpassed expert vision models in many domains such as object detection and video recognition.",
+      "key_concepts": [
+        "Actively Reasons",
+        "Adding Egotap-",
+        "Agent Autonomously",
+        "Agent Directly",
+        "Agentap Re-identify",
+        "Agentap Vlm-based"
+      ],
+      "insights": {
+        "problem": "However, point correspondence is known to be challenging for VLMs since it goes beyond object-level recognition: it requires pixel-level localization of the same physical surface point across observations, even when appearance changes or the point disappears and later reappears.",
+        "approach": "In this paper, we introduce AgenTAP, a VLM-based agent that directly predicts point coordinates and visibility and actively reasons over videos.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Actively Reasons, Adding Egotap-.",
+        "results": "With GPT-6 Astra, it surpasses expert vision models in both point localization and visibility prediction, without correspondence-specific fine-tuning.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.34936",
+      "raw_id": "http://arxiv.org/abs/2611.34936v1",
+      "title": "DexLink: Synthesizing Dexterous Behaviors from Chained Hand-object Poses",
+      "authors": [
+        "Meenal Parakh",
+        "Deep Patel",
+        "Beining Han",
+        "Jia Deng"
+      ],
+      "published_date": "2026-11-25T18:59:36Z",
+      "updated_date": "2026-11-25T18:59:36Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Synthesizing diverse dexterous manipulation policies is challenging: existing simulation-based approaches rely on human demonstrations which are difficult to scale, or use generic reward functions, which provide limited control over the hand-object interactions. We propose DexLink, which addresses these limitations by synthesizing diverse dexterous behaviors from sparse, reusable hand-object interaction templates. Given key task waypoints, DexLink retargets static interaction templates to target objects using an optimization that preserves spatial hand-object relationships. It then links the retargeted poses into an approximate reference trajectory and uses residual reinforcement learning to refine this reference into a closed-loop policy in simulation. Experiments spanning single-hand, bimanual, articulated, and dynamic tasks demonstrate that DexLink provides fine-grained control over task timing, grasp types, and high-level execution. The modular interaction templates transfer reliably across object scales, instances, and categories; without object-specific human demonstrations, the framework also matches the performance of dense reference-tracking methods. Finally, zero-shot deployment of policies trained purely in simulation shows promise for the simulation-based framework.",
+      "url": "https://arxiv.org/abs/2611.34936v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34936v1",
+      "relevance_score": 0.754,
+      "processed_date": "2026-11-26",
+      "summary": "Synthesizing diverse dexterous manipulation policies is challenging: existing simulation-based approaches rely on human demonstrations which are difficult to scale, or use generic reward functions, which provide limited control over the hand-object interactions. We propose DexLink, which addresses these limitations by synthesizing diverse dexterous behaviors from sparse, reusable hand-object interaction templates. Given key task waypoints, DexLink retargets static interaction templates to target objects using an optimization that preserves spatial hand-object relationships. Finally, zero-shot deployment of policies trained purely in simulation shows promise for the simulation-based framework. It then links the retargeted poses into an approximate reference trajectory and uses residual reinforcement learning to refine this reference into a closed-loop policy in simulation.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Zero-shot Deployment",
+        "Dexterous Manipulation",
+        "Manipulation",
+        "Addresses Limitations",
+        "Approaches Rely"
+      ],
+      "insights": {
+        "problem": "Synthesizing diverse dexterous manipulation policies is challenging: existing simulation-based approaches rely on human demonstrations which are difficult to scale, or use generic reward functions, which provide limited control over the hand-object interactions.",
+        "approach": "We propose DexLink, which addresses these limitations by synthesizing diverse dexterous behaviors from sparse, reusable hand-object interaction templates.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Zero-shot Deployment.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "We propose DexLink, which addresses these limitations by synthesizing diverse dexterous behaviors from sparse, reusable hand-object interaction templates."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.34884",
+      "raw_id": "http://arxiv.org/abs/2611.34884v1",
+      "title": "FineDex: Bridging Fine-Grained Human-Object Interaction Generation to Dexterous Humanoid Manipulation",
+      "authors": [
+        "Yujia Zeng",
+        "Yuxin Chen",
+        "Yuzhen Song",
+        "Runhan Huang",
+        "Chensheng Peng",
+        "Yiyang Shao",
+        "Koushil Sreenath",
+        "Masayoshi Tomizuka",
+        "Yilun Du"
+      ],
+      "published_date": "2026-11-25T18:40:47Z",
+      "updated_date": "2026-11-25T18:40:47Z",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "abstract": "Dexterity is, at its core, finger-level control, yet existing dexterous manipulation and human-object interaction (HOI) generation methods rarely let one specify how an interaction is performed: five-fingered hands are often reduced to grippers, or finger usage is copied from individual human demonstrations. We present FineDex, a framework that makes finger-level intent both expressible and executable. FineDex learns coordinated human body, hand, and object motions that follow fine-grained instructions on hand selection, individual fingers, and contacts with articulated objects. To bridge generation and execution, FineDex leverages generated interactions as actionable priors for an agent that discovers physically feasible contact strategies through practice in a physics-based digital twin. By adapting at test time without per-instance retraining, FineDex generalizes across fine-grained instructions and object configurations. Experiments demonstrate state-of-the-art HOI generation quality and fine-grained controllability, substantial improvements in dexterous manipulation success, and successful deployment on a real dexterous humanoid robot.",
+      "url": "https://arxiv.org/abs/2611.34884v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34884v1",
+      "relevance_score": 0.754,
+      "processed_date": "2026-11-26",
+      "summary": "Addressing critical demands in Robotics, this research investigates dexterity is, at its core, finger-level control, yet existing dexterous manipulation and human-object interaction (hoi) generation methods rarely let one specify how an interaction is performed: five-fingered hands are often reduced to grippers, or finger usage is copied from individual human demonstrations. We present FineDex, a framework that makes finger-level intent both expressible and executable. Experiments demonstrate state-of-the-art HOI generation quality and fine-grained controllability, substantial improvements in dexterous manipulation success, and successful deployment on a real dexterous humanoid robot. Dexterity is, at its core, finger-level control, yet existing dexterous manipulation and human-object interaction (HOI) generation methods rarely let one specify how an interaction is performed: five-fingered hands are often reduced to grippers, or finger usage is copied from individual human demonstrations.",
+      "key_concepts": [
+        "Dexterous Manipulation",
+        "Manipulation",
+        "Actionable Priors",
+        "Adapting Test",
+        "Agent Discovers",
+        "Articulated Objects"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We present FineDex, a framework that makes finger-level intent both expressible and executable.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Dexterous Manipulation, Manipulation.",
+        "results": "Experiments demonstrate state-of-the-art HOI generation quality and fine-grained controllability, substantial improvements in dexterous manipulation success, and successful deployment on a real dexterous humanoid robot.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.34932",
+      "raw_id": "http://arxiv.org/abs/2611.34932v1",
+      "title": "MERLoc: Robust Robot Localization in Dynamic Environments with Pose-Based Retrieval over 3D Gaussian Splatting References",
+      "authors": [
+        "Michael Baumgartner",
+        "Dario Mylonopoulos",
+        "Sammy Christen",
+        "Markus Gross",
+        "Moritz Bacher"
+      ],
+      "published_date": "2026-11-25T18:59:23Z",
+      "updated_date": "2026-11-25T18:59:23Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Robots operating in previously mapped spaces must localize accurately despite moving people and rearranged objects. Most localization pipelines match the query against a sparse set of captured reference images retrieved by appearance, which is brittle under scene change and repeating structures. We present MERLoc, which turns a single metric 3D Gaussian Splatting scan into a dense Functional Reference Memory. Reference views are sampled over the navigable space for the robot's morphology and sensors at a target density and rendered offline. Pre-encoding them for the chosen off-the-shelf localizer removes the reference encoder from inference. A pose-based retrieval strategy then selects references by spatial proximity and viewing direction rather than appearance, sidestepping visual ambiguities whenever a prior exists. Across one classical and four learned localizers in simulated and real dynamic scenes, pose-based retrieval matches or outperforms appearance retrieval in most cases, even when the latter is gated by the same prior. On real data, it lowers position RMSE by 15-60 % in nine of ten backend/split combinations, and the rendered memory outperforms real-image caches posed by Structure-from-Motion. The system runs onboard a Jetson Orin NX at 5 Hz, enabling a navigation policy to successfully traverse a hallway with people roaming and rearranging objects.",
+      "url": "https://arxiv.org/abs/2611.34932v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34932v1",
+      "relevance_score": 0.737,
+      "processed_date": "2026-11-26",
+      "summary": "Robots operating in previously mapped spaces must localize accurately despite moving people and rearranged objects. We present MERLoc, which turns a single metric 3D Gaussian Splatting scan into a dense Functional Reference Memory. Across one classical and four learned localizers in simulated and real dynamic scenes, pose-based retrieval matches or outperforms appearance retrieval in most cases, even when the latter is gated by the same prior. The system runs onboard a Jetson Orin NX at 5 Hz, enabling a navigation policy to successfully traverse a hallway with people roaming and rearranging objects. Most localization pipelines match the query against a sparse set of captured reference images retrieved by appearance, which is brittle under scene change and repeating structures.",
+      "key_concepts": [
+        "Gaussian Splatting",
+        "Pose-based Retrieval",
+        "Accurately Despite",
+        "Ambiguities Prior",
+        "Appearance Brittle",
+        "Appearance Retrieval"
+      ],
+      "insights": {
+        "problem": "Robots operating in previously mapped spaces must localize accurately despite moving people and rearranged objects.",
+        "approach": "We present MERLoc, which turns a single metric 3D Gaussian Splatting scan into a dense Functional Reference Memory.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Gaussian Splatting, Pose-based Retrieval.",
+        "results": "Across one classical and four learned localizers in simulated and real dynamic scenes, pose-based retrieval matches or outperforms appearance retrieval in most cases, even when the latter is gated by the same prior.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.34907",
+      "raw_id": "http://arxiv.org/abs/2611.34907v1",
+      "title": "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
+      "authors": [
+        "Shaoteng Liu",
+        "Shuai Yang",
+        "Wei Huang",
+        "Luozhou Wang",
+        "Song Han",
+        "Yukang Chen"
+      ],
+      "published_date": "2026-11-25T18:54:03Z",
+      "updated_date": "2026-11-25T18:54:03Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Real-time autoregressive video generators stream minutes of video and accept new prompts on the fly, but struggle to keep people, objects, and places consistent over a long interactive story. Agent systems provide such memory for offline multi-shot generation, yet they read the whole script in advance, plan each shot before generating it, and regenerate failed shots, which a live stream does not allow. We present Agentic LongLive, an asynchronous agentic memory for long video generation. A memory agent on separate GPUs reads only the prompts revealed so far, never the generated video, and keeps a text state and evolving images for every person, object, and scene. From this entity memory it composes a global image and a per-shot memory image, which an auxiliary GPU prefills into the generator's attention sink before the next shot starts, and writes entity cards for the prompts that name them, so the video never waits for memory and video errors are not written back. A small language model, trained with reinforcement learning and an image reward calibrated using downstream video outcomes, decides what to remember before the next prompt is known. On LongStory-Online, a new benchmark of 25 stories (857 shots) revealed one shot at a time, Agentic LongLive improves persistent-state accuracy of LongLive-2.0, its base generator, by 26.3 points, protagonist identity by 44.9, and revisited-place consistency by 40.4, at about 1% extra generation time on H100. The full system streams faster than real time on one 8xB200 node with the generator in BF16 (34.3 FPS), keeps image quality stable over 14-minute stories, and improves identity on two MiniMax-H3 generators, one of which, LongLive-H3, also runs in real time with it. To our knowledge, it is the first real-time video generator with text and image memory kept by an LLM agent.",
+      "url": "https://arxiv.org/abs/2611.34907v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34907v1",
+      "relevance_score": 0.723,
+      "processed_date": "2026-11-26",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates real-time autoregressive video generators stream minutes of video and accept new prompts on the fly, but struggle to keep people, objects, and places consistent over a long interactive story. We present Agentic LongLive, an asynchronous agentic memory for long video generation. To our knowledge, it is the first real-time video generator with text and image memory kept by an LLM agent. Real-time autoregressive video generators stream minutes of video and accept new prompts on the fly, but struggle to keep people, objects, and places consistent over a long interactive story. Agent systems provide such memory for offline multi-shot generation, yet they read the whole script in advance, plan each shot before generating it, and regenerate failed shots, which a live stream does not allow.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Agentic Longlive",
+        "Video Generation",
+        "Real Time",
+        "Time Streams Faster",
+        "Video Accept"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "We present Agentic LongLive, an asynchronous agentic memory for long video generation.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Agentic Longlive.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.34915",
+      "raw_id": "http://arxiv.org/abs/2611.34915v1",
+      "title": "Memory Is Not Ground Truth: Revising Navigation Authority under Unreliable VLM Evidence for Persistent Semantic Navigation",
+      "authors": [
+        "Sumukh Shrote",
+        "Shenbagaraj Kannapiran",
+        "Eric Eaton",
+        "Camillo Jose Taylor"
+      ],
+      "published_date": "2026-11-25T18:57:52Z",
+      "updated_date": "2026-11-25T18:57:52Z",
+      "categories": [
+        "cs.RO"
+      ],
+      "abstract": "Vision-language models (VLMs) enable robots to reason about semantic and spatio-temporal context, verify task-relevant objects, and guide sensing and navigation. Persistent memory can reduce redundant search for field robots, but when should a memory continue to guide behavior? Repeated misses may suggest that a memory is stale. Our experiments show why this evidence can remain ambiguous under VLM-based perception. Using a Boston Dynamics Spot with four fixed cameras and a persistent spatio-temporal visual memory, we measure negative-verification behavior across targets, viewpoints, language queries, and repeated revisits. False-negative rates vary substantially across objects, nearby revisits often reproduce the same detector outcome, and some matched target-present and target-removed experiments yield identical miss histories. This ambiguity persists under changed observation geometry, identity-preserving query reformulation, and conditioning on a previously verified target image. These findings raise two questions: is the object still there, and is this memory still useful for navigation? We introduce a dependence-aware, reversible memory-update mechanism that avoids double-counting correlated misses and stops using unsupported memories as direct navigation goals without claiming that the object is absent. Later positive evidence can restore a memory's use for navigation. One resident onboard VLM is shared across memory verification, semantic frontier reasoning, and in-motion perception. In three matched real-robot decision contexts, an episode-local baseline selected a stale memory as its navigation objective in every case, whereas our method selected semantic frontiers in all three. A complementary trial re-verified the target during motion and promoted fresh memory. These results support revising memory actionability rather than interpreting failed detection as object absence.",
+      "url": "https://arxiv.org/abs/2611.34915v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34915v1",
+      "relevance_score": 0.717,
+      "processed_date": "2026-11-26",
+      "summary": "Addressing critical demands in Robotics, this research investigates vision-language models (vlms) enable robots to reason about semantic and spatio-temporal context, verify task-relevant objects, and guide sensing and navigation. We introduce a dependence-aware, reversible memory-update mechanism that avoids double-counting correlated misses and stops using unsupported memories as direct navigation goals without claiming that the object is absent. Repeated misses may suggest that a memory is stale. These results support revising memory actionability rather than interpreting failed detection as object absence. Vision-language models (VLMs) enable robots to reason about semantic and spatio-temporal context, verify task-relevant objects, and guide sensing and navigation. Persistent memory can reduce redundant search for field robots, but when should a memory continue to guide behavior?",
+      "key_concepts": [
+        "Absent Later",
+        "Actionability Interpreting",
+        "Ambiguity Persists",
+        "Ambiguous Vlm-based",
+        "Avoids Double-counting",
+        "Behavior Repeated"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Robotics and existing computational workflows.",
+        "approach": "We introduce a dependence-aware, reversible memory-update mechanism that avoids double-counting correlated misses and stops using unsupported memories as direct navigation goals without claiming that the object is absent.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Absent Later, Actionability Interpreting.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.34813",
+      "raw_id": "http://arxiv.org/abs/2611.34813v1",
+      "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+      "authors": [
+        "Dezhi Luo",
+        "Fengyuan Yu",
+        "Haotian Zhang",
+        "Zehong Zhao",
+        "Ran Ji",
+        "Siyuan An",
+        "Huayi Qin",
+        "Qingying Gao",
+        "Zhongang Cai",
+        "Lei Yang",
+        "Ziqi Huang",
+        "Ruisi Wang",
+        "Maijunxian Wang",
+        "Hokin Deng"
+      ],
+      "published_date": "2026-11-25T18:01:22Z",
+      "updated_date": "2026-11-25T18:01:22Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "cs.MM"
+      ],
+      "abstract": "Video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out? The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the frames rather than through language or code. Whether this native route is in fact the more reliable path to visual reasoning has not been tested against a symbolic alternative under the same conditions. We therefore pose the same tasks, with identical inputs, output specification and evaluator, to both media: rather than denoising pixels, a coding agent writes a program that renders the answer video, which an unmodified rule-based evaluator scores. On VBVR-Pro-Bench (Xu et al., 2026), a 500-instance suite spanning five cognitive categories with symbolic ground truth, the agent receives the same first frame and prompt as the video model, with no access to ground truth, metadata or generation models, and one attempt per instance. Three closed-model agents (Codex with gpt-6-astra, Claude Code with Fable 5.1 and Gemini CLI with Gemini 3.1 Pro) score 0.923, 0.894 and 0.893, each more than 0.22 above the strongest video model. Among 23 runnable open-weight models, the best, GLM-5, reaches 0.572, above all video models except the RL-trained one. Together, we show that for tasks whose solutions can be computed from a first frame and a prompt, program synthesis is currently a substantially more reliable route to visual reasoning than video generation. We further distinguish depictive programs, which navigate the image to recover a transferable scheme, from propositional programs, which operate on hard-coded values, revealing how visual reasoning unfolds in agent-written programs and what it implies for its nature of reasoning in general.",
+      "url": "https://arxiv.org/abs/2611.34813v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34813v1",
+      "relevance_score": 0.703,
+      "processed_date": "2026-11-26",
+      "summary": "Addressing critical demands in Artificial Intelligence, this research investigates video generation models are increasingly evaluated as visual reasoners: given a first frame and a natural-language prompt, can the model produce the video in which the specified task is carried out?. The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the frames rather than through language or code. Whether this native route is in fact the more reliable path to visual reasoning has not been tested against a symbolic alternative under the same conditions. We further distinguish depictive programs, which navigate the image to recover a transferable scheme, from propositional programs, which operate on hard-coded values, revealing how visual reasoning unfolds in agent-written programs and what it implies for its nature of reasoning in general.",
+      "key_concepts": [
+        "Ground Truth",
+        "Synthesis Currently",
+        "Tested Symbolic",
+        "Transferable Scheme",
+        "Truth Agent",
+        "Truth Metadata"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+        "approach": "The paradigm is considered advantageous because the reasoning is native to the visual medium, unfolding directly in the frames rather than through language or code.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Ground Truth, Synthesis Currently.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.34818",
+      "raw_id": "http://arxiv.org/abs/2611.34818v1",
+      "title": "Deep Reinforcement Learning for Multi-UAV Data Harvesting Under Variable Team Sizes and Agent Loss",
+      "authors": [
+        "Thiago de Souza Lamenza",
+        "Bruno José Olivieri de Souza",
+        "Markus Endler"
+      ],
+      "published_date": "2026-11-25T18:03:00Z",
+      "updated_date": "2026-11-25T18:03:00Z",
+      "categories": [
+        "cs.LG",
+        "cs.DC"
+      ],
+      "abstract": "Collecting data from wireless sensors can be challenging when limited communication infrastructure prevents them from offloading their measurements. In such settings, unmanned aerial vehicles (UAVs) can exploit their mobility to harvest data locally, while coordinated UAV teams can provide efficient and redundant coverage of remote areas. Multi-agent reinforcement learning (MARL) enables such teams to learn decentralized coordination policies. However, training separate policies for different team and sensor populations is costly, and fixed-population policies may be vulnerable to agent failures. This work proposes F-MADDPG, a flexible variant of Multi-Agent Deep Deterministic Policy Gradient (MADDPG) that supports data harvesting with varying numbers of wireless sensors and UAVs. The framework also accommodates unexpected catastrophic failures that permanently remove agents during a mission. We compare F-MADDPG with a MADDPG baseline that uses multilayer perceptrons (MLPs) and evaluate training strategies based on team-size sampling and exposure to agent terminations. The results show that F-MADDPG learns across the evaluated population sizes, completes missions faster than the baseline on average, benefits from inverse-cardinality team-size sampling compared with uniform sampling, remains effective after permanent agent losses, and gains no consistent benefit from exposure to failures during training.",
+      "url": "https://arxiv.org/abs/2611.34818v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34818v1",
+      "relevance_score": 0.693,
+      "processed_date": "2026-11-26",
+      "summary": "However, training separate policies for different team and sensor populations is costly, and fixed-population policies may be vulnerable to agent failures. In such settings, unmanned aerial vehicles (UAVs) can exploit their mobility to harvest data locally, while coordinated UAV teams can provide efficient and redundant coverage of remote areas. The results show that F-MADDPG learns across the evaluated population sizes, completes missions faster than the baseline on average, benefits from inverse-cardinality team-size sampling compared with uniform sampling, remains effective after permanent agent losses, and gains no consistent benefit from exposure to failures during training. Collecting data from wireless sensors can be challenging when limited communication infrastructure prevents them from offloading their measurements.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Accommodates Unexpected",
+        "Aerial Vehicles",
+        "Agent Failures",
+        "Agent Losses",
+        "Agent Terminations"
+      ],
+      "insights": {
+        "problem": "However, training separate policies for different team and sensor populations is costly, and fixed-population policies may be vulnerable to agent failures.",
+        "approach": "In such settings, unmanned aerial vehicles (UAVs) can exploit their mobility to harvest data locally, while coordinated UAV teams can provide efficient and redundant coverage of remote areas.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Accommodates Unexpected.",
+        "results": "The results show that F-MADDPG learns across the evaluated population sizes, completes missions faster than the baseline on average, benefits from inverse-cardinality team-size sampling compared with uniform sampling, remains effective after permanent agent losses, and gains no consistent benefit from exposure to failures during training.",
+        "applications": "Low-power edge AI devices, embedded IoT sensor networks, and distributed on-device inference.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.34940",
+      "raw_id": "http://arxiv.org/abs/2611.34940v1",
+      "title": "LuxAvatar: Real-Time Relightable Head Avatars via Causal Neural Shading of 3D Intrinsic Proxies",
+      "authors": [
+        "Yipengjing Sun",
+        "Chenyang Wang",
+        "Boyao Zhou",
+        "Jiapeng Zhu",
+        "Ka Leong Cheng",
+        "Shengping Zhang"
+      ],
+      "published_date": "2026-11-25T18:59:46Z",
+      "updated_date": "2026-11-25T18:59:46Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "We present LuxAvatar, a feed-forward framework for real-time head avatar animation and relighting from a single portrait. To achieve both 3D controllability and complex facial light transport, we factorize avatar synthesis into an animatable 3D intrinsic Gaussian proxy and a causal autoregressive neural shader. This proxy disentangles canonical geometry and reflectance attributes, rapidly rasterizing deformed Gaussians into view- and motion-consistent PBR buffers. Conditioned on these buffers, our neural shader formulates forward rendering as a conditional video diffusion process, bypassing explicit PBR computation to synthesize realistic shading effects under target illumination. We achieve real-time streaming through heterogeneous distillation from a pretrained multi-step bidirectional relighting teacher to a two-step causal autoregressive neural shader, inheriting broad synthetic lighting priors while minimizing conditioning and decoding latency. To further specialize these priors to human heads, we construct a hybrid relighting dataset for domain-specific fine-tuning, capturing authentic facial dynamics and physically grounded light transport. Extensive experiments show that our framework enables 3D-controllable, real-time portrait animation and relighting, outperforming state-of-the-art methods in visual fidelity, motion control, and lighting accuracy.",
+      "url": "https://arxiv.org/abs/2611.34940v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34940v1",
+      "relevance_score": 0.674,
+      "processed_date": "2026-11-26",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates we present luxavatar, a feed-forward framework for real-time head avatar animation and relighting from a single portrait. We present LuxAvatar, a feed-forward framework for real-time head avatar animation and relighting from a single portrait. This proxy disentangles canonical geometry and reflectance attributes, rapidly rasterizing deformed Gaussians into view- and motion-consistent PBR buffers. Extensive experiments show that our framework enables 3D-controllable, real-time portrait animation and relighting, outperforming state-of-the-art methods in visual fidelity, motion control, and lighting accuracy. To achieve both 3D controllability and complex facial light transport, we factorize avatar synthesis into an animatable 3D intrinsic Gaussian proxy and a causal autoregressive neural shader.",
+      "key_concepts": [
+        "Achieve Real-time",
+        "Animatable Intrinsic",
+        "Animation Relighting",
+        "Attributes Rapidly",
+        "Authentic Facial",
+        "Autoregressive Neural"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We present LuxAvatar, a feed-forward framework for real-time head avatar animation and relighting from a single portrait.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Achieve Real-time, Animatable Intrinsic.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
     }
   ]
 }
