@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[26 November 2026 Report](reports/2026/11/26/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[27 November 2026 Report](reports/2026/11/27/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/26/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/27/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/26/infographic.png)](reports/2026/11/26/infographic.png)
+[![Daily Infographic](reports/2026/11/27/infographic.png)](reports/2026/11/27/infographic.png)
 
 ---
 
@@ -25,10 +25,10 @@
 | Metric | Count |
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
-| **Artificial Intelligence (AI)** | `3` |
-| **Machine Learning (ML)** | `3` |
-| **Robotics** | `5` |
-| **IoT & Edge AI** | `1` |
+| **Artificial Intelligence (AI)** | `4` |
+| **Machine Learning (ML)** | `8` |
+| **Robotics** | `2` |
+| **IoT & Edge AI** | `0` |
 
 ---
 
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **LuxAvatar: Real-Time Relightable Head Avatars via Causal Neural Shading ...** | `Machine Learning` | `0.67` | [arXiv](https://arxiv.org/abs/2611.34940v1) |
-| 2 | **Deep Reinforcement Learning for Multi-UAV Data Harvesting Under Variable...** | `Machine Learning` | `0.69` | [arXiv](https://arxiv.org/abs/2611.34818v1) |
-| 3 | **Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than...** | `Artificial Intelligence` | `0.70` | [arXiv](https://arxiv.org/abs/2611.34813v1) |
-| 4 | **Memory Is Not Ground Truth: Revising Navigation Authority under Unreliab...** | `Robotics` | `0.72` | [arXiv](https://arxiv.org/abs/2611.34915v1) |
-| 5 | **Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation** | `Artificial Intelligence` | `0.72` | [arXiv](https://arxiv.org/abs/2611.34907v1) |
+| 1 | **Focus Only on What's Important: Training-Free Focus Maps for Frozen Visi...** | `Computer Vision` | `0.61` | [arXiv](https://arxiv.org/abs/2611.34863v1) |
+| 2 | **Not all world models can doubt: how training objective and architecture ...** | `Artificial Intelligence` | `0.61` | [arXiv](https://arxiv.org/abs/2611.34830v1) |
+| 3 | **Towards Closing the Performance Gap in Cross-Modal Place Recognition** | `Machine Learning` | `0.64` | [arXiv](https://arxiv.org/abs/2611.34877v1) |
+| 4 | **Stranger Things: When Objects Appear Without Their Typical Neighbors** | `Machine Learning` | `0.64` | [arXiv](https://arxiv.org/abs/2611.34881v1) |
+| 5 | **Cairn: Object-Centric 3D Trajectory Priors for Steering Frozen VLAs** | `Machine Learning` | `0.64` | [arXiv](https://arxiv.org/abs/2611.34914v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `478`
-- **Total Operational Runs**: `60 days`
+- **Total Papers Analyzed**: `488`
+- **Total Operational Runs**: `61 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Machine Learning, Artificial Intelligence, Natural Language Processing
 

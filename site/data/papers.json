@@ -20339,5 +20339,411 @@
       "limitations": "Not specified in the available abstract."
     },
     "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.34864",
+    "raw_id": "http://arxiv.org/abs/2611.34864v1",
+    "title": "RePace: Reasoning about Demonstration Speedup for Faster Vision-Language-Action Policies",
+    "authors": [
+      "Insup Lee",
+      "Hojin Jeon",
+      "Sunguk Shin",
+      "Seoungbin Bae",
+      "Taekwan Kim",
+      "Jinwoo Shin",
+      "Dongsu Han"
+    ],
+    "published_date": "2026-11-25T18:30:43Z",
+    "updated_date": "2026-11-25T18:30:43Z",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "abstract": "Since vision-language-action (VLA) policies can inherit the slow pace of human demonstrations, accelerating these demonstrations before fine-tuning can lead to faster VLA policies without an additional speed-selection module at deployment. Several offline speedup methods have focused on identifying segments that require less precision and assigning predefined speedup factors to the segments. However, even within a single segment, a speedup factor suitable for steady motion may be too high when precise alignment is required. To this end, this paper presents RePace, an offline reasoning framework that determines how much to accelerate each part of a demonstration. For the same recorded movement, RePace measures how much each candidate speedup factor shortens the sequence and compares the resulting observation-action pairs used for training. Given the task instruction, a pretrained language model uses the visual context and original motion of successive windows to interpret these candidate retiming effects and select a speedup profile for the complete episode. Experimental results demonstrate that RePace outperforms the baselines in overall task execution efficiency on both LIBERO and RoboCasa-Kitchen. On all three tasks with a gripper-equipped Franka Research 3 arm, RePace matches or exceeds the acceleration baselines in success rate and completes successful trials faster.",
+    "url": "https://arxiv.org/abs/2611.34864v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.34864v1",
+    "relevance_score": 0.66,
+    "processed_date": "2026-11-27",
+    "summary": "However, even within a single segment, a speedup factor suitable for steady motion may be too high when precise alignment is required. To this end, this paper presents RePace, an offline reasoning framework that determines how much to accelerate each part of a demonstration. Experimental results demonstrate that RePace outperforms the baselines in overall task execution efficiency on both LIBERO and RoboCasa-Kitchen. On all three tasks with a gripper-equipped Franka Research 3 arm, RePace matches or exceeds the acceleration baselines in success rate and completes successful trials faster. Since vision-language-action (VLA) policies can inherit the slow pace of human demonstrations, accelerating these demonstrations before fine-tuning can lead to faster VLA policies without an additional speed-selection module at deployment.",
+    "key_concepts": [
+      "Accelerate Demonstration",
+      "Accelerating Demonstrations",
+      "Acceleration Baselines",
+      "Additional Speed-selection",
+      "Alignment Required",
+      "Arm Repace"
+    ],
+    "insights": {
+      "problem": "However, even within a single segment, a speedup factor suitable for steady motion may be too high when precise alignment is required.",
+      "approach": "To this end, this paper presents RePace, an offline reasoning framework that determines how much to accelerate each part of a demonstration.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Accelerate Demonstration, Accelerating Demonstrations.",
+      "results": "Experimental results demonstrate that RePace outperforms the baselines in overall task execution efficiency on both LIBERO and RoboCasa-Kitchen.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.34823",
+    "raw_id": "http://arxiv.org/abs/2611.34823v1",
+    "title": "The Linguistic Knowledge Benchmark: Do Language Models Know the Foundations of Early-Grade Literacy?",
+    "authors": [
+      "Maxime Lelièvre",
+      "Alasdair Mackintosh",
+      "Dominic Andrews",
+      "Tobias Murray",
+      "Moritz Boos",
+      "Oliver G. B. Garrod"
+    ],
+    "published_date": "2026-11-25T18:07:44Z",
+    "updated_date": "2026-11-25T18:07:44Z",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Many languages of instruction in low- and middle-income countries (LMICs) are poorly represented in the data used to train language models. Before these models can support early-grade literacy in such languages, we need to know whether they hold the linguistic knowledge of each language that literacy teaching relies on. To test this, we present the Linguistic Knowledge Benchmark and the reproducible, largely automated pipeline that turns curriculum documents, teacher guides and pupil books into a vetted question set organised on a fixed grid of nine linguistic domains and seven grade levels. The pipeline combines LLM-driven source survey, feature consolidation, item generation and quality control with an item-selection step inspired by item response theory and a final expert review. We instantiate it for Kiswahili (Kenya; 135 items) and English (United Kingdom; 137 items) and evaluate 121 and 119 models respectively. Frontier models exceed 90% accuracy in both languages, but accuracy falls steeply for smaller and cheaper models, and more so in Kiswahili. The two best models under 10 billion parameters reach 91.7% and 73.0% in English but only 51.9% and 40.7% in Kiswahili, and the mean accuracy of models deployable on mobile and tablet hardware is 47% in English against 24% in Kiswahili. The models most practical for low-resource classrooms are therefore the least capable in the languages they would serve. We release a 20-item sample per language, all pipeline prompts, open-source code, and a public leaderboard. This is the first rung of a three-level evaluation ladder for measuring and generating decodable text to support foundational literacy.",
+    "url": "https://arxiv.org/abs/2611.34823v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.34823v1",
+    "relevance_score": 0.647,
+    "processed_date": "2026-11-27",
+    "summary": "Addressing critical demands in Natural Language Processing, this research investigates many languages of instruction in low- and middle-income countries (lmics) are poorly represented in the data used to train language models. To test this, we present the Linguistic Knowledge Benchmark and the reproducible, largely automated pipeline that turns curriculum documents, teacher guides and pupil books into a vetted question set organised on a fixed grid of nine linguistic domains and seven grade levels. This is the first rung of a three-level evaluation ladder for measuring and generating decodable text to support foundational literacy. Many languages of instruction in low- and middle-income countries (LMICs) are poorly represented in the data used to train language models.",
+    "key_concepts": [
+      "Linguistic Knowledge",
+      "Billion Parameters",
+      "Books Vetted",
+      "English Kiswahili",
+      "Teacher Guides Pupil",
+      "Teaching Relies"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Natural Language Processing and existing computational workflows.",
+      "approach": "To test this, we present the Linguistic Knowledge Benchmark and the reproducible, largely automated pipeline that turns curriculum documents, teacher guides and pupil books into a vetted question set organised on a fixed grid of nine linguistic domains and seven grade levels.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Linguistic Knowledge, Billion Parameters.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Low-power edge AI devices, embedded IoT sensor networks, and distributed on-device inference. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Natural Language Processing"
+  },
+  {
+    "arxiv_id": "2611.34944",
+    "raw_id": "http://arxiv.org/abs/2611.34944v1",
+    "title": "AnyCam: Anything Can Represent Camera for Video Generation",
+    "authors": [
+      "Weijie Lyu",
+      "Zhixin Shu",
+      "Yuntian Ke",
+      "Ming-Hsuan Yang"
+    ],
+    "published_date": "2026-11-25T18:59:59Z",
+    "updated_date": "2026-11-25T18:59:59Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "Camera-controlled video generation re-renders a video along a target camera trajectory, yet moving the camera around an object, the most natural way to change the viewpoint of an object-centric scene, remains difficult. Existing methods condition either on camera parameters, which are scale-ambiguous in monocular video, or on explicit geometry such as warped point clouds or depth, which breaks down under large viewpoint changes. We present AnyCam, a method that represents the camera with an anchor object in the scene: we reconstruct it in 3D and render it along the target trajectory, a camera signal that is scale-aware, view-complete and easy to specify relative to the object. A video diffusion model transfers the content and dynamics of the source video to the new viewpoint. Its H-Concat layout aligns source and target frames in time, so the model can be distilled into AnyCam-AR, a streaming few-step generator for on-the-fly camera control. Both models are trained on paired videos with pixel-aligned anchor renderings from multi-camera videos and static-scene captures. Experiments on diverse datasets and trajectories show that AnyCam performs favorably against camera-controlled video generation and 3D reconstruction methods in camera control and visual quality.",
+    "url": "https://arxiv.org/abs/2611.34944v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.34944v1",
+    "relevance_score": 0.64,
+    "processed_date": "2026-11-27",
+    "summary": "Camera-controlled video generation re-renders a video along a target camera trajectory, yet moving the camera around an object, the most natural way to change the viewpoint of an object-centric scene, remains difficult. We present AnyCam, a method that represents the camera with an anchor object in the scene: we reconstruct it in 3D and render it along the target trajectory, a camera signal that is scale-aware, view-complete and easy to specify relative to the object. Experiments on diverse datasets and trajectories show that AnyCam performs favorably against camera-controlled video generation and 3D reconstruction methods in camera control and visual quality.",
+    "key_concepts": [
+      "Diffusion Model",
+      "Video Generation",
+      "Aligns Source",
+      "Anchor Object",
+      "Anchor Renderings",
+      "Anycam Performs"
+    ],
+    "insights": {
+      "problem": "Camera-controlled video generation re-renders a video along a target camera trajectory, yet moving the camera around an object, the most natural way to change the viewpoint of an object-centric scene, remains difficult.",
+      "approach": "We present AnyCam, a method that represents the camera with an anchor object in the scene: we reconstruct it in 3D and render it along the target trajectory, a camera signal that is scale-aware, view-complete and easy to specify relative to the object.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Diffusion Model, Video Generation.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.34935",
+    "raw_id": "http://arxiv.org/abs/2611.34935v1",
+    "title": "Can image generation help visual reasoning? An empirical study",
+    "authors": [
+      "Xueyang Yu",
+      "Yifan Jing",
+      "Taiming Lu",
+      "Linrong Cai",
+      "Zhipeng Cai",
+      "Yunyang Xiong",
+      "Gabriel Sarch",
+      "Zhuang Liu"
+    ],
+    "published_date": "2026-11-25T18:59:31Z",
+    "updated_date": "2026-11-25T18:59:31Z",
+    "categories": [
+      "cs.LG",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "abstract": "Language models think in words; then multimodal models might think in images. We test whether a generated helper improves the answer to a visual question. A model describes the helper it needs and then answers using the original and generated images together. Across 13 vision-language model and generator pairs, generation lowers mean accuracy by 3.7 percentage points, with declines on nine of ten tasks. Two unified models, BAGEL and Janus-Pro-7B, each lose accuracy on eight tasks. On VSTAR, adding a generated image to the same planning hint lowers accuracy by 10.47 points. Repeated image edits yield different outcomes across tasks. ChartQAPro and MathVista stay below their no-generation baselines, while ERQA gains three points after ten edits.",
+    "url": "https://arxiv.org/abs/2611.34935v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.34935v1",
+    "relevance_score": 0.64,
+    "processed_date": "2026-11-27",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates language models think in words; then multimodal models might think in images. We test whether a generated helper improves the answer to a visual question. A model describes the helper it needs and then answers using the original and generated images together. ChartQAPro and MathVista stay below their no-generation baselines, while ERQA gains three points after ten edits. Language models think in words; then multimodal models might think in images. Across 13 vision-language model and generator pairs, generation lowers mean accuracy by 3.7 percentage points, with declines on nine of ten tasks.",
+    "key_concepts": [
+      "Accuracy Percentage",
+      "Accuracy Points",
+      "Adding Generated",
+      "Answer Visual",
+      "Bagel Janus-pro-",
+      "Baselines Erqa"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "We test whether a generated helper improves the answer to a visual question.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Accuracy Percentage, Accuracy Points.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision. Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.34934",
+    "raw_id": "http://arxiv.org/abs/2611.34934v1",
+    "title": "Attack Policy Selection can Mislead Monitor Evaluators",
+    "authors": [
+      "Charlie Griffin",
+      "Oliver Makins",
+      "Asa Cooper Stickland",
+      "Alessandro Abate",
+      "Yarin Gal",
+      "Abby D'Cruz",
+      "Xander Davies"
+    ],
+    "published_date": "2026-11-25T18:59:28Z",
+    "updated_date": "2026-11-25T18:59:28Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "abstract": "AI monitors, classifiers that flag dangerous behaviour by AI agents, are often evaluated against transcripts generated by attack policies acting as proxies for dangerous behaviour in deployment. We evaluate an ex-production OpenAI monitor as a case study and find that measured false negative rate is highly sensitive to both the method used to generate attack policies and the level of optimisation applied within that method. This rate ranged from 0.5\\% to 20.8\\% across optimisation levels of a single method (reinforcement learning), and from 6.4\\% to 23.0\\% across methods at their best observed optimisation level (optimised prompting vs.\\ transcript editing). Every attack policy was developed against proxy monitors only: all reported results show attacks transferring to the held-out GPT-5.4 target monitor. Our results suggest that monitor evasion evaluations can easily mislead: an evaluation using only basic attack methods may give false confidence that a monitor is strong. The sensitivity to attack-policy choice raises a problem: interpreting any particular result as evidence about deployment performance requires justification. The transcripts produced by attack policies are proxies for the dangerous behaviour a monitor must flag in deployment. These proxies can introduce visible artefacts, such as reasoning about a ``side task'' absent from the instructions shown to the monitor, that affect monitor judgements. Given the sensitivity above, the choice of proxy can change an evaluation's conclusion. Reading these results as evidence about deployment therefore requires a separate legitimacy argument for why the proxies are informative, including any justification of conservativeness. Making convincing arguments remains an open problem.",
+    "url": "https://arxiv.org/abs/2611.34934v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.34934v1",
+    "relevance_score": 0.64,
+    "processed_date": "2026-11-27",
+    "summary": "The sensitivity to attack-policy choice raises a problem: interpreting any particular result as evidence about deployment performance requires justification. We evaluate an ex-production OpenAI monitor as a case study and find that measured false negative rate is highly sensitive to both the method used to generate attack policies and the level of optimisation applied within that method. Every attack policy was developed against proxy monitors only: all reported results show attacks transferring to the held-out GPT-5.4 target monitor. Making convincing arguments remains an open problem. AI monitors, classifiers that flag dangerous behaviour by AI agents, are often evaluated against transcripts generated by attack policies acting as proxies for dangerous behaviour in deployment.",
+    "key_concepts": [
+      "Reinforcement Learning",
+      "Artefacts Reasoning",
+      "Attack Policies",
+      "Dangerous Behaviour",
+      "Evidence Deployment",
+      "Proxies Dangerous"
+    ],
+    "insights": {
+      "problem": "The sensitivity to attack-policy choice raises a problem: interpreting any particular result as evidence about deployment performance requires justification.",
+      "approach": "We evaluate an ex-production OpenAI monitor as a case study and find that measured false negative rate is highly sensitive to both the method used to generate attack policies and the level of optimisation applied within that method.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Artefacts Reasoning.",
+      "results": "Every attack policy was developed against proxy monitors only: all reported results show attacks transferring to the held-out GPT-5.4 target monitor.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.34914",
+    "raw_id": "http://arxiv.org/abs/2611.34914v1",
+    "title": "Cairn: Object-Centric 3D Trajectory Priors for Steering Frozen VLAs",
+    "authors": [
+      "Agelos Kratimenos",
+      "Kostas Daniilidis",
+      "Evangelos Chatzipantazis"
+    ],
+    "published_date": "2026-11-25T18:57:29Z",
+    "updated_date": "2026-11-25T18:57:29Z",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "abstract": "Vision-language-action models (VLAs) are capable low-level controllers, but they tie where objects go to the layouts they were trained on: when objects are moved or obstacles block the way, they carry them to the wrong place or into collisions. Fine-tuning on new layouts needs robot data for each one and erodes skills the model already has. We introduce Cairn, which keeps the VLA frozen and steers it at test time along learned 3D trajectories of the object in its gripper. A small prior reads point clouds of the scene and the held object, along with its pose when grasped and the instruction, and samples SE(3) trajectories up to its release that lead it around obstacles and turn it to fit through gaps. The prior and the VLA form the two levels of a hierarchical planner in which feedback runs both ways: the VLA's intended motion chooses and reshapes the trajectories, and the chosen one guides the VLA's denoising. Its predicted actions, mapped to the held object's poses through the grasp, are pulled toward the next waypoint, while the VLA's weights stay untouched. Across 1,941 held-out LIBERO scenes with displaced objects and obstacles, Cairn raises the success rate of a frozen π0.5 from 24.5% to 95.1%, above that of a π0.5 fine-tuned on our training layouts, without hurting standard LIBERO. On the third-party LIBERO-PRO benchmark, it raises success from 27.3% to 38.0%, and from 54.4% to 81.1% on the episodes it steers. On a real Franka, with a prior trained purely in simulation, it guides the frozen DROID π0.5 around an obstacle and to a placement at the limit of the arm's reach, where it otherwise fails. All code, models and data will be made public.",
+    "url": "https://arxiv.org/abs/2611.34914v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.34914v1",
+    "relevance_score": 0.64,
+    "processed_date": "2026-11-27",
+    "summary": "Addressing critical demands in Machine Learning, this research investigates vision-language-action models (vlas) are capable low-level controllers, but they tie where objects go to the layouts they were trained on: when objects are moved or obstacles block the way, they carry them to the wrong place or into collisions. We introduce Cairn, which keeps the VLA frozen and steers it at test time along learned 3D trajectories of the object in its gripper. All code, models and data will be made public. Vision-language-action models (VLAs) are capable low-level controllers, but they tie where objects go to the layouts they were trained on: when objects are moved or obstacles block the way, they carry them to the wrong place or into collisions.",
+    "key_concepts": [
+      "Cairn Keeps Vla",
+      "Cairn Raises",
+      "Capable Low-level",
+      "Carry Wrong",
+      "Held Object",
+      "Raises Success"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+      "approach": "We introduce Cairn, which keeps the VLA frozen and steers it at test time along learned 3D trajectories of the object in its gripper.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Cairn Keeps Vla, Cairn Raises.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.34881",
+    "raw_id": "http://arxiv.org/abs/2611.34881v1",
+    "title": "Stranger Things: When Objects Appear Without Their Typical Neighbors",
+    "authors": [
+      "Siddhartha Gairola",
+      "Jiahao Xie",
+      "Anna Kukleva",
+      "Francesco Locatello",
+      "Bernt Schiele"
+    ],
+    "published_date": "2026-11-25T18:39:28Z",
+    "updated_date": "2026-11-25T18:39:28Z",
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "abstract": "Visual context is a powerful cue for object recognition: scenes inform what, where, and at what scale objects are likely to appear. Yet over-reliance on context becomes a failure mode when models predict objects based on their typical neighbors rather than the objects' own visual features, which we call typicality bias. While extensively studied in the pre-Transformer era, it has often been assumed that architectural and scale improvements would naturally solve it, and a systematic diagnostic across the modern vision stack remains absent. We provide such a diagnostic framework. We measure typicality bias via normalized pointwise mutual information (NPMI) over object pairs, and introduce STRANGE-Bench (Synthetic Typicality-RANked Grounded Evaluation Benchmark): a photorealistic, layout-controlled benchmark spanning 17 sub-tiers from typical to never-co-occurring object pairs. Across five model families (specialist detectors, open-vocabulary detectors, self-supervised, vision-language, and multimodal large language models) and three recognition tasks (supervised detection, open-vocabulary detection, and classification), the bias is prevalent: gaps of 5-11 p.p. persist when objects appear outside their typical company, and do not consistently shrink with scale. To mitigate it, we turn to data augmentation: existing augmentations are designed for visual diversity, not for breaking co-occurrence shortcuts, and sample from the very distribution that produces typicality bias. We propose Anchor-Atypicality Sampling (AAS), a simple sampling rule for paste-based augmentations that uses the NPMI signal to tilt the training-time co-occurrence distribution toward atypical partners. AAS reduces the typicality gap by up to 1.6 p.p. on natural-image COCO splits and 23.0 p.p. on synthetic STRANGE-Bench across three model families, without sacrificing overall performance.",
+    "url": "https://arxiv.org/abs/2611.34881v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.34881v1",
+    "relevance_score": 0.64,
+    "processed_date": "2026-11-27",
+    "summary": "Addressing critical demands in Machine Learning, this research investigates visual context is a powerful cue for object recognition: scenes inform what, where, and at what scale objects are likely to appear. We propose Anchor-Atypicality Sampling (AAS), a simple sampling rule for paste-based augmentations that uses the NPMI signal to tilt the training-time co-occurrence distribution toward atypical partners. AAS reduces the typicality gap by up to 1.6 p.p. on synthetic STRANGE-Bench across three model families, without sacrificing overall performance. Visual context is a powerful cue for object recognition: scenes inform what, where, and at what scale objects are likely to appear.",
+    "key_concepts": [
+      "Typical Neighbors",
+      "Appear Outside Typical",
+      "Appear Over-reliance",
+      "Assumed Architectural",
+      "Object Pairs",
+      "Typical Company"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+      "approach": "We propose Anchor-Atypicality Sampling (AAS), a simple sampling rule for paste-based augmentations that uses the NPMI signal to tilt the training-time co-occurrence distribution toward atypical partners.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Typical Neighbors, Appear Outside Typical.",
+      "results": "AAS reduces the typicality gap by up to 1.6 p.p.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.34877",
+    "raw_id": "http://arxiv.org/abs/2611.34877v1",
+    "title": "Towards Closing the Performance Gap in Cross-Modal Place Recognition",
+    "authors": [
+      "Ofer Idan",
+      "Dan Badur",
+      "Yoli Shavit"
+    ],
+    "published_date": "2026-11-25T18:38:09Z",
+    "updated_date": "2026-11-25T18:38:09Z",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "Cross-modal place recognition (CMPR) matches natural language descriptions against databases of geo-tagged reference images, enabling localization without visual queries. Despite its potential for language-guided navigation, existing vision-language models lag far behind visual place recognition (VPR) baselines, even after task adaptation. Unlike general-purpose text-to-image retrieval, place recognition relies on subtle local cues to distinguish visually similar locations. We therefore hypothesize that a primary bottleneck in CMPR is capturing fine-grained correspondences between image regions and text details, which requires higher visual token granularity, strong text representation capacity, and local cross-modal matching. To address this challenge, we propose CrossPlace, a two-stage CMPR framework. Stage 1 performs global retrieval by pairing a jointly aligned DINOv2-B/14 visual backbone with a progressively fine-tuned BGE-Large text encoder, while Stage 2 refines top candidates using a lightweight token-level cross-attention reranker. Through systematic analysis, we isolate the drivers of retrieval accuracy and show that visual token density provides the largest performance improvement, while text encoder capacity and task fine-tuning offer complementary gains. To evaluate robustness under realistic conditions, we also extend CMPR evaluation to city-scale and severe weather and illumination settings. Across all existing and new benchmarks, CrossPlace achieves double-digit Recall@1 improvements over prior cross-modal methods, closes the gap to unimodal text retrieval, and narrows it to unimodal VPR. Code and benchmarks are available at https://github.com/oferidan1/CrossPlace",
+    "url": "https://arxiv.org/abs/2611.34877v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.34877v1",
+    "relevance_score": 0.64,
+    "processed_date": "2026-11-27",
+    "summary": "Despite its potential for language-guided navigation, existing vision-language models lag far behind visual place recognition (VPR) baselines, even after task adaptation. To address this challenge, we propose CrossPlace, a two-stage CMPR framework. Unlike general-purpose text-to-image retrieval, place recognition relies on subtle local cues to distinguish visually similar locations. Code and benchmarks are available at https://github.com/oferidan1/CrossPlace Cross-modal place recognition (CMPR) matches natural language descriptions against databases of geo-tagged reference images, enabling localization without visual queries. We therefore hypothesize that a primary bottleneck in CMPR is capturing fine-grained correspondences between image regions and text details, which requires higher visual token granularity, strong text representation capacity, and local cross-modal matching.",
+    "key_concepts": [
+      "Place Recognition",
+      "Aligned Visual Backbone",
+      "Available Https",
+      "Backbone Progressively",
+      "Text Encoder",
+      "Visual Place"
+    ],
+    "insights": {
+      "problem": "Despite its potential for language-guided navigation, existing vision-language models lag far behind visual place recognition (VPR) baselines, even after task adaptation.",
+      "approach": "To address this challenge, we propose CrossPlace, a two-stage CMPR framework.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Place Recognition, Aligned Visual Backbone.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Machine Learning"
+  },
+  {
+    "arxiv_id": "2611.34830",
+    "raw_id": "http://arxiv.org/abs/2611.34830v1",
+    "title": "Not all world models can doubt: how training objective and architecture shape epistemic uncertainty in JEPA and RSSM world models",
+    "authors": [
+      "Simon Baur",
+      "Wojciech Samek",
+      "Jackie Ma"
+    ],
+    "published_date": "2026-11-25T18:11:49Z",
+    "updated_date": "2026-11-25T18:11:49Z",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "abstract": "World models predict how an environment responds to actions, so that candidate actions can be evaluated before execution. Executed actions, or decisions, taken in this manner are only as reliable as the model's predictive capabilities, and predictions in turn are only reliable within the model's experience. Epistemic uncertainty (EU) is the signal that marks where that experience ends. In this work we offer an extensive empirical study on how training objectives and architectures shape epistemic uncertainty of world models. More precisely, we present a controlled comparison of post-hoc EU (last-layer Laplace and ensembles) between two dominant models of different paradigms: 1) LeWorldModel (LeWM): A joint-embedding predictive architecture (JEPA), which predicts the next embedding without a decoder, and 2) DreamerV3: A recurrent state-space model (RSSM), which reconstructs the observation from a recurrent latent state. In ten simulated visual-control environments, we follow a controlled state perturbation of the environment state through every stage of the models up to the final EU estimate. We find that the RSSM attenuates the state perturbation through two mechanisms before it reaches an estimator on the predictor feature. Its recurrent update averages over context, so a change in a single frame reaches the state at a fraction of its size and recovers only as the change persists. Its reconstruction objective weights an entity by the pixels it covers, so a small object can be lost due to the training objective. The JEPA has neither mechanism and passes the change through all stages to the uncertainty. We further show that this translates to gaps in five uncertainty related downstream tasks, from unfamiliar-state detection to uncertainty-penalised planning: the RSSM uncertainty misses deviations that its own posterior registers, whereas the JEPA uncertainty reports what its model sees.",
+    "url": "https://arxiv.org/abs/2611.34830v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.34830v1",
+    "relevance_score": 0.614,
+    "processed_date": "2026-11-27",
+    "summary": "Addressing critical demands in Artificial Intelligence, this research investigates world models predict how an environment responds to actions, so that candidate actions can be evaluated before execution. More precisely, we present a controlled comparison of post-hoc EU (last-layer Laplace and ensembles) between two dominant models of different paradigms: 1) LeWorldModel (LeWM): A joint-embedding predictive architecture (JEPA), which predicts the next embedding without a decoder, and 2) DreamerV3: A recurrent state-space model (RSSM), which reconstructs the observation from a recurrent latent state. Epistemic uncertainty (EU) is the signal that marks where that experience ends. We further show that this translates to gaps in five uncertainty related downstream tasks, from unfamiliar-state detection to uncertainty-penalised planning: the RSSM uncertainty misses deviations that its own posterior registers, whereas the JEPA uncertainty reports what its model sees.",
+    "key_concepts": [
+      "Epistemic Uncertainty",
+      "Averages Context",
+      "Candidate Actions",
+      "Capabilities Predictions",
+      "State Perturbation",
+      "Translates Gaps Uncertainty"
+    ],
+    "insights": {
+      "problem": "Addresses foundational constraints in Artificial Intelligence and existing computational workflows.",
+      "approach": "More precisely, we present a controlled comparison of post-hoc EU (last-layer Laplace and ensembles) between two dominant models of different paradigms: 1) LeWorldModel (LeWM): A joint-embedding predictive architecture (JEPA), which predicts the next embedding without a decoder, and 2) DreamerV3: A recurrent state-space model (RSSM), which reconstructs the observation from a recurrent latent state.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Epistemic Uncertainty, Averages Context.",
+      "results": "Not specified in the available abstract.",
+      "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Artificial Intelligence"
+  },
+  {
+    "arxiv_id": "2611.34863",
+    "raw_id": "http://arxiv.org/abs/2611.34863v1",
+    "title": "Focus Only on What's Important: Training-Free Focus Maps for Frozen Vision Transformers in Long-Video Object Segmentation",
+    "authors": [
+      "Harsha Karipineni",
+      "Rajesh Reddy Chintha"
+    ],
+    "published_date": "2026-11-25T18:30:28Z",
+    "updated_date": "2026-11-25T18:30:28Z",
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "abstract": "Vision transformers are strong but costly image encoders for video object segmentation. Training-free token merging cuts compute uniformly across the frame, including on tracked objects. We give a frozen DINOv3 ViT inside a trained Cutie head a training-free focus map: full resolution where the segmenter expects its objects and coarser merging elsewhere. Protecting only the previous frame's mask works on short clips but fails on long videos, where fast motion pushes targets outside the margin and into background merging, locking in loss. Our policy instead takes the union of velocity-shifted and block-matched masks, runs a camera-compensated surprise check, delegates uncertain regions to the compared merger, and falls back to it when all objects are lost. On long videos (LVOS V2 valid, pre-specified protocol, three ViT-S seeds), it beats ALGM 0.98 by +2.76 J&F (95% object CI [+1.22,+4.44]; video-cluster [+0.99,+4.52]) at 16% fewer counted encoder FLOPs (0.385 vs. 0.459), sitting 1.0 J&F point below the dense-encoder baseline; at ViT-B the gain over ALGM 0.95 is +3.89 [+2.03,+5.87]. On DAVIS 2017 val it stays within -0.19 J&F of the dense encoder at ViT-S (-0.12 at ViT-B). Controls qualify the result: protecting only the previous mask under ALGM matches or exceeds accuracy at higher FLOPs (0.486), so expectation and surprise mainly reduce counted encoder compute. Practically, lower counted encoder compute did not reduce startup-inclusive mean Cutie step time on a 12-video LVOS sample (3%-8% lower in steady state; an equally engineered ALGM is faster at ViT-S and ViT-B). Section 5.2 separately examines a Cutie permanent-memory schedule and its latency and memory trade-offs. Code: https://github.com/boletoms/focused-cv",
+    "url": "https://arxiv.org/abs/2611.34863v1",
+    "pdf_url": "https://arxiv.org/pdf/2611.34863v1",
+    "relevance_score": 0.607,
+    "processed_date": "2026-11-27",
+    "summary": "Vision transformers are strong but costly image encoders for video object segmentation. Training-free token merging cuts compute uniformly across the frame, including on tracked objects. We give a frozen DINOv3 ViT inside a trained Cutie head a training-free focus map: full resolution where the segmenter expects its objects and coarser merging elsewhere. Code: https://github.com/boletoms/focused-cv Protecting only the previous frame's mask works on short clips but fails on long videos, where fast motion pushes targets outside the margin and into background merging, locking in loss. Our policy instead takes the union of velocity-shifted and block-matched masks, runs a camera-compensated surprise check, delegates uncertain regions to the compared merger, and falls back to it when all objects are lost.",
+    "key_concepts": [
+      "Vision Transformers",
+      "Beats Algm",
+      "Block-matched Masks",
+      "Counted Encoder",
+      "Encoder Compute",
+      "Long Videos"
+    ],
+    "insights": {
+      "problem": "Vision transformers are strong but costly image encoders for video object segmentation.",
+      "approach": "Training-free token merging cuts compute uniformly across the frame, including on tracked objects.",
+      "key_innovation": "Formulates an integrated mechanism leveraging Vision Transformers, Beats Algm.",
+      "results": "Not specified in the available abstract.",
+      "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+      "limitations": "Not specified in the available abstract."
+    },
+    "primary_topic": "Computer Vision"
   }
 ]
