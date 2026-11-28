@@ -1,6 +1,6 @@
 {
   "month": "2026-11",
-  "total_papers": 250,
+  "total_papers": 260,
   "papers": [
     {
       "arxiv_id": "2611.03648",
@@ -10618,6 +10618,436 @@
         "limitations": "Not specified in the available abstract."
       },
       "primary_topic": "Computer Vision"
+    },
+    {
+      "arxiv_id": "2611.34929",
+      "raw_id": "http://arxiv.org/abs/2611.34929v1",
+      "title": "High-Fidelity Image Matting with Pixel-Space Diffusion Transformers",
+      "authors": [
+        "Baihan Yang",
+        "Xin Lin",
+        "Yufan Wei",
+        "Baiang Li",
+        "Yuheng Liu",
+        "Juanxi Tian",
+        "Xiaohui Xie",
+        "Truong Nguyen"
+      ],
+      "published_date": "2026-11-25T18:59:12Z",
+      "updated_date": "2026-11-25T18:59:12Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "Diffusion models have shown strong potential for image matting by transferring generative priors learned from large-scale pretraining. However, existing approaches largely rely on latent diffusion models, whose compressed representations and VAE-based reconstruction introduce a mismatch with the high-frequency precision required for matting. We present PixelMatte, a framework that adapts pretrained pixel-space diffusion transformers for high-fidelity image matting. We show that strong image-conditioned matting capabilities can be acquired even from a pure text-to-image model without paired image-to-image pretraining. Our approach reuses the backbone's native patch embedding to jointly process the input image, trimap, and noisy alpha matte as spatially aligned tokens, enabling direct pixel-space prediction without additional condition encoders or adapters. With pixel-accurate synthetic supervision and real-image fine-tuning, PixelMatte predicts alpha mattes in a single forward pass. Two lightweight calibration modules, LayerShift and High-Pass Refiner, further improve regional opacity accuracy and boundary fidelity. Experiments across four benchmarks and two distinct pixel diffusion backbones demonstrate substantial improvements over existing methods, reducing SAD and gradient errors by 24-44% relative to RenderMatte on P3M-500-NP and AM-2K, while achieving competitive performance on AIM-500 and RenderMatte-2K. These results demonstrate the effectiveness of pixel-space generative priors for precision-sensitive image matting. Project page: https://white-yc.github.io/pixelmatte/.",
+      "url": "https://arxiv.org/abs/2611.34929v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34929v1",
+      "relevance_score": 0.583,
+      "processed_date": "2026-11-28",
+      "summary": "However, existing approaches largely rely on latent diffusion models, whose compressed representations and VAE-based reconstruction introduce a mismatch with the high-frequency precision required for matting. We present PixelMatte, a framework that adapts pretrained pixel-space diffusion transformers for high-fidelity image matting. Project page: https://white-yc.github.io/pixelmatte/. Diffusion models have shown strong potential for image matting by transferring generative priors learned from large-scale pretraining. We show that strong image-conditioned matting capabilities can be acquired even from a pure text-to-image model without paired image-to-image pretraining. Our approach reuses the backbone's native patch embedding to jointly process the input image, trimap, and noisy alpha matte as spatially aligned tokens, enabling direct pixel-space prediction without additional condition encoders or adapters.",
+      "key_concepts": [
+        "Image Matting",
+        "Generative Priors",
+        "Representations Vae-based Reconstruction",
+        "Required Matting",
+        "Reuses Backbone",
+        "Sad Gradient Errors"
+      ],
+      "insights": {
+        "problem": "However, existing approaches largely rely on latent diffusion models, whose compressed representations and VAE-based reconstruction introduce a mismatch with the high-frequency precision required for matting.",
+        "approach": "We present PixelMatte, a framework that adapts pretrained pixel-space diffusion transformers for high-fidelity image matting.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Image Matting, Generative Priors.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.34923",
+      "raw_id": "http://arxiv.org/abs/2611.34923v1",
+      "title": "Mixture-of-Loops Transformer",
+      "authors": [
+        "Lianghui Zhu",
+        "Shijie Wang",
+        "Xinggang Wang",
+        "Jinze Bai",
+        "Bo Wang",
+        "Xiang Bai"
+      ],
+      "published_date": "2026-11-25T18:58:53Z",
+      "updated_date": "2026-11-25T18:58:53Z",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops. Under loop residual, MoLT-R retains the residual stream and reads local KV across loops for expressivity. Under loop KV, MoLT-KV instead restarts from embeddings and reads current-loop local KV with preceding-loop memory KV at earlier positions for efficiency. MoLT-KV eliminates same-position cross-loop dependence and, paired with loop forcing for parallel training, unlocks single-traversal Mixture-of-Loops (MoL) decoding beyond the training loop horizon. To balance efficiency and quality, we introduce U-shaped MoLT (U-MoLT), which separates memory construction from prediction readout and skips unused decoder traversals without changing predictions. In 400B-token pretraining, U-MoLT outperforms OLMo3 across 700M/1.5B dense and 3B MoE models, achieving 1.7x validation cross-entropy (CE) token efficiency at 700M while improving 3B MoE 10-domain perplexity by 0.75 and 10-task accuracy by 2.1 percentage points. In 100B-token continued pretraining of Qwen3.5-0.8B-Base, our U-MoLT adaptation lowers CE on all 11 domains over the matched baseline with 1.4x mean token efficiency. At inference, U-MoLT with MoL-Hybrid-2 matches non-looped OLMo3 latency at 996.6 vs. 1,000.6 ms on S-size (~113M) models. Code is available at https://github.com/hustvl/MoLT",
+      "url": "https://arxiv.org/abs/2611.34923v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34923v1",
+      "relevance_score": 0.583,
+      "processed_date": "2026-11-28",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates looped transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops. In 400B-token pretraining, U-MoLT outperforms OLMo3 across 700M/1.5B dense and 3B MoE models, achieving 1.7x validation cross-entropy (CE) token efficiency at 700M while improving 3B MoE 10-domain perplexity by 0.75 and 10-task accuracy by 2.1 percentage points. Code is available at https://github.com/hustvl/MoLT Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency.",
+      "key_concepts": [
+        "Rethinking Core Mechanism",
+        "Same-position Cross-loop Dependence",
+        "Selective Reuse",
+        "Separates Memory",
+        "Shared Layers",
+        "Single-traversal Mixture-of-loops"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Rethinking Core Mechanism, Same-position Cross-loop Dependence.",
+        "results": "In 400B-token pretraining, U-MoLT outperforms OLMo3 across 700M/1.5B dense and 3B MoE models, achieving 1.7x validation cross-entropy (CE) token efficiency at 700M while improving 3B MoE 10-domain perplexity by 0.75 and 10-task accuracy by 2.1 percentage points.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.34912",
+      "raw_id": "http://arxiv.org/abs/2611.34912v1",
+      "title": "LiveVAE: Causal Window Attention Makes Efficient Streaming Video VAE",
+      "authors": [
+        "Jiachen An",
+        "Sijie Zhao",
+        "Le Li",
+        "Hongyu Liu",
+        "Zhiyuan Li",
+        "Tianyu Yang",
+        "Xiaoyu Kong",
+        "Xunliang Cai",
+        "Yong Zhang",
+        "Chi-Man Pun",
+        "Xiaoming Wei",
+        "Xiaodong Cun"
+      ],
+      "published_date": "2026-11-25T18:57:14Z",
+      "updated_date": "2026-11-25T18:57:14Z",
+      "categories": [
+        "cs.CV"
+      ],
+      "abstract": "While video diffusion models have grown faster and increasingly streamable, the video VAE remains a primary latency bottleneck across interactive generation and editing pipelines. Existing VAEs and their acceleration methods rely mainly on heavy convolutions or full frame attention, and most focus only on decoding, leaving encoding costly for streaming conditional generation and editing. This raises a natural question: Do video VAE encoding and decoding actually require such global spatiotemporal modeling? By analyzing the effective receptive fields of pretrained video VAEs, we find that both encoding and decoding a patch rely almost entirely on its spatial and temporal neighbors. To exploit this strong locality, we introduce LiveVAE, a streaming encoder and decoder built on causal window attention, which cuts per frame compute while keeping the temporal KV cache bounded for streaming. Decoupled encoder/decoder distillation followed by joint finetuning preserves the pretrained latent space, making LiveVAE a drop-in replacement for the original VAE. On MiniMax-H3, LiveVAE achieves 5.2-6.2x faster encoding and 3.0-3.3x faster decoding than the official VAE with higher PSNR. Paired with our dedicated inference infrastructure, LiveVAE pushes the speedup to 13.4x with almost no quality loss. Code and models will be released.",
+      "url": "https://arxiv.org/abs/2611.34912v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34912v1",
+      "relevance_score": 0.583,
+      "processed_date": "2026-11-28",
+      "summary": "While video diffusion models have grown faster and increasingly streamable, the video VAE remains a primary latency bottleneck across interactive generation and editing pipelines. To exploit this strong locality, we introduce LiveVAE, a streaming encoder and decoder built on causal window attention, which cuts per frame compute while keeping the temporal KV cache bounded for streaming. This raises a natural question: Do video VAE encoding and decoding actually require such global spatiotemporal modeling? Code and models will be released. Existing VAEs and their acceleration methods rely mainly on heavy convolutions or full frame attention, and most focus only on decoding, leaving encoding costly for streaming conditional generation and editing.",
+      "key_concepts": [
+        "Causal Window",
+        "Video Vae",
+        "Acceleration Methods",
+        "Achieves Faster",
+        "Actually Require",
+        "Attention Cuts"
+      ],
+      "insights": {
+        "problem": "While video diffusion models have grown faster and increasingly streamable, the video VAE remains a primary latency bottleneck across interactive generation and editing pipelines.",
+        "approach": "To exploit this strong locality, we introduce LiveVAE, a streaming encoder and decoder built on causal window attention, which cuts per frame compute while keeping the temporal KV cache bounded for streaming.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Causal Window, Video Vae.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.34858",
+      "raw_id": "http://arxiv.org/abs/2611.34858v1",
+      "title": "From Prediction to Decision: Decision-Focused Fine-Tuning of Autoregressive Tabular Transformers for Cost-Sensitive Financial Events",
+      "authors": [
+        "Ashkan Golgoon",
+        "Giacomo Domeniconi",
+        "Samuel Atkins",
+        "Sergio Servantez",
+        "Zain Khandwala"
+      ],
+      "published_date": "2026-11-25T18:27:48Z",
+      "updated_date": "2026-11-25T18:27:48Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Autoregressive transformers trained on tokenized tabular event streams are a simple and strong baseline for predicting financial events such as fraud. Yet institutions do not act on probabilities; they act on decisions whose consequences are asymmetric and heteroscedastic: the cost of a missed high-value fraud and that of a wrongly declined small purchase are not the same. The standard bridge is post-hoc Bayes-optimal thresholding of calibrated probabilities under a cost matrix. We ask whether fine-tuning the model to the decision objective can do better. We fine-tune the same pretrained model so that its restricted softmax over label tokens (already a distribution over business actions) maximizes expected utility under an institution-specified, amount-scaled cost matrix. Because the reward is a known function of (action, outcome, amount) and the outcome is observed in the data, the expected-utility objective and its gradient are available in closed form. This is example-dependent cost-sensitive learning whose per-example loss is linear in the predicted probability, with no sampling, critics, or advantage estimation. A KL anchor to the pretrained model and an auxiliary language-modeling term preserve calibration and the generative event model. A sampled, group-normalized (GRPO-style) variant provides the extension point to trajectory-level rewards.",
+      "url": "https://arxiv.org/abs/2611.34858v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34858v1",
+      "relevance_score": 0.583,
+      "processed_date": "2026-11-28",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates autoregressive transformers trained on tokenized tabular event streams are a simple and strong baseline for predicting financial events such as fraud. Yet institutions do not act on probabilities; they act on decisions whose consequences are asymmetric and heteroscedastic: the cost of a missed high-value fraud and that of a wrongly declined small purchase are not the same. The standard bridge is post-hoc Bayes-optimal thresholding of calibrated probabilities under a cost matrix. A sampled, group-normalized (GRPO-style) variant provides the extension point to trajectory-level rewards. Autoregressive transformers trained on tokenized tabular event streams are a simple and strong baseline for predicting financial events such as fraud.",
+      "key_concepts": [
+        "Act Decisions",
+        "Act Probabilities",
+        "Action Outcome",
+        "Actions Maximizes",
+        "Advantage Estimation",
+        "Amount-scaled Cost"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "Yet institutions do not act on probabilities; they act on decisions whose consequences are asymmetric and heteroscedastic: the cost of a missed high-value fraud and that of a wrongly declined small purchase are not the same.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Act Decisions, Act Probabilities.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.34831",
+      "raw_id": "http://arxiv.org/abs/2611.34831v1",
+      "title": "Repairing the Trustworthiness of Distilled Language Models",
+      "authors": [
+        "Kumar Shubham",
+        "Devendra Vyas",
+        "Vidushi Agarwal",
+        "Jayin Khanna",
+        "Prathosh AP"
+      ],
+      "published_date": "2026-11-25T18:12:20Z",
+      "updated_date": "2026-11-25T18:12:20Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Knowledge distillation enables the deployment of large language models through smaller student models, but the compression process can introduce regressions in trustworthiness even when downstream performance is preserved. Repairing such failures is challenging because the original distillation corpus is often unavailable, while direct preference optimization may alter capabilities inherited from the teacher. We propose a targeted repair framework based on the proximal Bregman response function (PBRF) that addresses both limitations. We estimate the curvature required for PBRF using a surrogate proxy dataset, removing dependence on the original transfer corpus, and extend the framework to preference-based supervision through an odds-ratio objective. This enables the use of preferred and dispreferred response pairs while constraining changes to the distilled model. Our results show that the proposed approach improves targeted trustworthiness behaviors for both pre-training and post-training models while largely preserving downstream performance, providing a practical alternative to re-distillation or unconstrained preference optimization. Our experiment results show that across different distilled models, the trustworthy regression can be improved by up to 8% with less than 1% decrement in perplexity.",
+      "url": "https://arxiv.org/abs/2611.34831v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34831v1",
+      "relevance_score": 0.583,
+      "processed_date": "2026-11-28",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates knowledge distillation enables the deployment of large language models through smaller student models, but the compression process can introduce regressions in trustworthiness even when downstream performance is preserved. We propose a targeted repair framework based on the proximal Bregman response function (PBRF) that addresses both limitations. Our results show that the proposed approach improves targeted trustworthiness behaviors for both pre-training and post-training models while largely preserving downstream performance, providing a practical alternative to re-distillation or unconstrained preference optimization. Our experiment results show that across different distilled models, the trustworthy regression can be improved by up to 8% with less than 1% decrement in perplexity.",
+      "key_concepts": [
+        "Knowledge Distillation",
+        "Addresses Limitations",
+        "Alter Capabilities",
+        "Alternative Re-distillation",
+        "Behaviors Pre-training",
+        "Bregman Response"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We propose a targeted repair framework based on the proximal Bregman response function (PBRF) that addresses both limitations.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Knowledge Distillation, Addresses Limitations.",
+        "results": "Our results show that the proposed approach improves targeted trustworthiness behaviors for both pre-training and post-training models while largely preserving downstream performance, providing a practical alternative to re-distillation or unconstrained preference optimization.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "We propose a targeted repair framework based on the proximal Bregman response function (PBRF) that addresses both limitations."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.34840",
+      "raw_id": "http://arxiv.org/abs/2611.34840v1",
+      "title": "Provably Efficient Offline Discounted Reinforcement Learning under Recursive Entropic Risk",
+      "authors": [
+        "Amirparsa Bahrami",
+        "Oliver Mortensen",
+        "Mohammad Sadegh Talebi"
+      ],
+      "published_date": "2026-11-25T18:18:53Z",
+      "updated_date": "2026-11-25T18:18:53Z",
+      "categories": [
+        "cs.LG",
+        "eess.SY",
+        "stat.ML"
+      ],
+      "abstract": "We study risk-sensitive reinforcement learning in finite discounted infinite-horizon Markov Decision Processes with recursive entropic risk measures (ERM), parameterized by β\\neq 0. We consider both risk-averse (β>0) and risk-seeking (β<0) settings. We consider the offline RL setting, where the agent is provided with a fixed dataset and wishes to learn a near-optimal policy using this dataset. We introduce a model-based algorithm, called ERM Value Iteration Lower Confidence Bound (ERM-VI-LCB) and derive a PAC-type bound on its sample complexity. We also establish a corresponding lower bound, demonstrating that exponential dependence on |β|/(1-γ) asserted by the upper bound is unavoidable in the worst case. The presented bounds provide the first rigorous sample complexity guarantees for offline RL under recursive ERM across both risk-averse and risk-seeking regimes.",
+      "url": "https://arxiv.org/abs/2611.34840v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34840v1",
+      "relevance_score": 0.576,
+      "processed_date": "2026-11-28",
+      "summary": "Addressing critical demands in Machine Learning, this research investigates we study risk-sensitive reinforcement learning in finite discounted infinite-horizon markov decision processes with recursive entropic risk measures (erm), parameterized by β\\neq 0. We introduce a model-based algorithm, called ERM Value Iteration Lower Confidence Bound (ERM-VI-LCB) and derive a PAC-type bound on its sample complexity. We consider the offline RL setting, where the agent is provided with a fixed dataset and wishes to learn a near-optimal policy using this dataset. The presented bounds provide the first rigorous sample complexity guarantees for offline RL under recursive ERM across both risk-averse and risk-seeking regimes.",
+      "key_concepts": [
+        "Reinforcement Learning",
+        "Agent Provided",
+        "Algorithm Called",
+        "Asserted Upper",
+        "Bound Demonstrating",
+        "Bound Erm-vi-lcb"
+      ],
+      "insights": {
+        "problem": "Addresses foundational constraints in Machine Learning and existing computational workflows.",
+        "approach": "We introduce a model-based algorithm, called ERM Value Iteration Lower Confidence Bound (ERM-VI-LCB) and derive a PAC-type bound on its sample complexity.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Reinforcement Learning, Agent Provided.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous agentic reasoning, multi-agent coordination, and decision-support platforms.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Machine Learning"
+    },
+    {
+      "arxiv_id": "2611.34825",
+      "raw_id": "http://arxiv.org/abs/2611.34825v1",
+      "title": "Routeability Before Routing: Routeability Audit Protocol (RAP) and RouteabilityBench for Audited LLM Model Selection",
+      "authors": [
+        "Yihang Lu",
+        "Denica Kjorvezir",
+        "Ana Gjorgjevikj",
+        "Carola Doerr",
+        "Tome Eftimov"
+      ],
+      "published_date": "2026-11-25T18:08:01Z",
+      "updated_date": "2026-11-25T18:08:01Z",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "LLM routing aims to choose, for each prompt, which model in a portfolio is most likely to answer correctly. This only makes sense when the benchmark contains enough prompt-specific variation for different models to be best on different inputs. On coarse-scored LLM benchmarks, however, many models often tie for the best score, and the single best model may already leave little room for improvement. We therefore propose a routeability-first audit, instantiated as RAP and RouteabilityBench, a runnable claim-verification package. The audit is retrospective: it runs once the benchmark-portfolio score matrix exists and before router comparisons are interpreted as general evidence, rather than certifying a portfolio that has not yet been evaluated. Across four benchmarks and 66 LLMs, generic routing enhancements such as larger embedding sets, dimensionality reduction, selective abstention, clustering, and stronger regressors do not consistently outperform the single best model. The clearest positive evidence is concentrated in portfolio-dependent Omni-MATH settings, while GPQA, MMLU-Pro, and IFEval show different ways in which routing can remain hard or predictor-sensitive. Our practical recommendation is that routing gains should be reported together with routeability diagnostics, tied-best analysis, portfolio construction details, and family-corrected statistical tests.",
+      "url": "https://arxiv.org/abs/2611.34825v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34825v1",
+      "relevance_score": 0.576,
+      "processed_date": "2026-11-28",
+      "summary": "On coarse-scored LLM benchmarks, however, many models often tie for the best score, and the single best model may already leave little room for improvement. This only makes sense when the benchmark contains enough prompt-specific variation for different models to be best on different inputs. Our practical recommendation is that routing gains should be reported together with routeability diagnostics, tied-best analysis, portfolio construction details, and family-corrected statistical tests. LLM routing aims to choose, for each prompt, which model in a portfolio is most likely to answer correctly. We therefore propose a routeability-first audit, instantiated as RAP and RouteabilityBench, a runnable claim-verification package.",
+      "key_concepts": [
+        "Abstention Clustering",
+        "Aims Choose",
+        "Answer Correctly",
+        "Audit Instantiated",
+        "Audit Retrospective",
+        "Benchmark-portfolio Score Matrix"
+      ],
+      "insights": {
+        "problem": "On coarse-scored LLM benchmarks, however, many models often tie for the best score, and the single best model may already leave little room for improvement.",
+        "approach": "This only makes sense when the benchmark contains enough prompt-specific variation for different models to be best on different inputs.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Abstention Clustering, Aims Choose.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Natural Language Processing"
+    },
+    {
+      "arxiv_id": "2611.34894",
+      "raw_id": "http://arxiv.org/abs/2611.34894v1",
+      "title": "What a Drop Reveals: Sim-to-Real Material Estimation for Deformable Objects from Video",
+      "authors": [
+        "Ziyue Peng",
+        "Yanxi Hu",
+        "Junyoung Kim",
+        "Andrew Chen",
+        "Jin Yang",
+        "Chandrajit L. Bajaj",
+        "Etienne Vouga",
+        "William T. Freeman",
+        "Qixing Huang",
+        "Brandon Y. Feng"
+      ],
+      "published_date": "2026-11-25T18:47:56Z",
+      "updated_date": "2026-11-25T18:47:56Z",
+      "categories": [
+        "cs.CV",
+        "cs.GR",
+        "cs.LG"
+      ],
+      "abstract": "How an object deforms when it hits the ground reveals what it is made of. From a single real video of a drop, we estimate a deformable object's density-normalized stiffness E/ρ, and its yield stress σ_Y/ρ when the impact causes plastic deformation, with a feed-forward predictor trained only in simulation. Real videos carry no material labels, so such predictors are developed and validated on synthetic data alone. We show that synthetic validation ranks their geometric inputs in the wrong order. Material acts through 3D deformation, and tracklets lifted to 3D with estimated depth are indeed the most accurate input in simulation. However, on real drops they are the least accurate, and better depth does not repair them: the failure persists with simulator depth in training, LiDAR depth at test time, and exact depth on rendered replays of the real drops. Short 2D optical-flow tracklets do the opposite: they improve nothing in simulation, yet they transfer best. Material is therefore better read from what perception measures consistently in both domains than from what is most informative in simulation. Our predictor, PhysReader, reads the video and 2D tracklets and learns the lift to 3D in simulation by matching a teacher that sees exact 3D deformation. To measure transfer, we introduce PhysReader-Real: 16 everyday objects dropped five times each, with reference materials fit jointly to each object's drops and checked against tensile tests. On PhysReader-Real, PhysReader is closer to the reference materials than every other input and baseline. The one exception is a per-scene optimizer started from PhysReader's prediction, which ends slightly closer but takes 49 minutes per video instead of 12 seconds.",
+      "url": "https://arxiv.org/abs/2611.34894v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34894v1",
+      "relevance_score": 0.564,
+      "processed_date": "2026-11-28",
+      "summary": "However, on real drops they are the least accurate, and better depth does not repair them: the failure persists with simulator depth in training, LiDAR depth at test time, and exact depth on rendered replays of the real drops. To measure transfer, we introduce PhysReader-Real: 16 everyday objects dropped five times each, with reference materials fit jointly to each object's drops and checked against tensile tests. Real videos carry no material labels, so such predictors are developed and validated on synthetic data alone. The one exception is a per-scene optimizer started from PhysReader's prediction, which ends slightly closer but takes 49 minutes per video instead of 12 seconds.",
+      "key_concepts": [
+        "Sim-to-Real Transfer",
+        "Real Drops",
+        "Reference Materials",
+        "Simulation Real",
+        "Takes Minutes",
+        "Teacher Sees"
+      ],
+      "insights": {
+        "problem": "However, on real drops they are the least accurate, and better depth does not repair them: the failure persists with simulator depth in training, LiDAR depth at test time, and exact depth on rendered replays of the real drops.",
+        "approach": "To measure transfer, we introduce PhysReader-Real: 16 everyday objects dropped five times each, with reference materials fit jointly to each object's drops and checked against tensile tests.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Sim-to-Real Transfer, Real Drops.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Autonomous robotic manipulation, sim-to-real transfer, and agile mobile navigation systems. High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Robotics"
+    },
+    {
+      "arxiv_id": "2611.34928",
+      "raw_id": "http://arxiv.org/abs/2611.34928v1",
+      "title": "Diverse Alternative Reasoning Traces for Hard Math Problems",
+      "authors": [
+        "Lukas Aichberger",
+        "Adam Golinski",
+        "Arno Blaas",
+        "Arwen Bradley",
+        "Jacob Springer",
+        "Mehrdad Farajtabar",
+        "Michael Kirchhof",
+        "Sinead Williamson"
+      ],
+      "published_date": "2026-11-25T18:59:11Z",
+      "updated_date": "2026-11-25T18:59:11Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Post-training large language models (LLMs) for mathematical reasoning often relies on accepted traces whose final answers pass a verifier. For hard math problems, however, such traces can be rare under independent Monte Carlo (MC) sampling. To address this, we propose Diverse Alternative Reasoning Traces (DART), a trace-mining method that starts from a rejected trace, decomposes it into reasoning steps, and ranks them by position-weighted uncertainty. It then generates deliberately distinct alternative candidates for highly ranked steps using reference-answer guidance and a meta-thought before completing the resulting traces. On greedy-unsolved DeepMath-103K problems, DART recovers 37% more problems than MC sampling at a matched number of generated traces. Its estimated generation cost per recovered problem is nearly identical, while its cost per accepted trace is 30% lower. Post-training Llama-3.1-8B-Instruct on traces mined by DART achieves the highest point estimate in five of six evaluations across MATH-500 and AIME benchmarks. These results demonstrate that revisiting rejected traces with DART can expand problem coverage and provide effective post-training data.",
+      "url": "https://arxiv.org/abs/2611.34928v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34928v1",
+      "relevance_score": 0.563,
+      "processed_date": "2026-11-28",
+      "summary": "For hard math problems, however, such traces can be rare under independent Monte Carlo (MC) sampling. To address this, we propose Diverse Alternative Reasoning Traces (DART), a trace-mining method that starts from a rejected trace, decomposes it into reasoning steps, and ranks them by position-weighted uncertainty. These results demonstrate that revisiting rejected traces with DART can expand problem coverage and provide effective post-training data. Post-training large language models (LLMs) for mathematical reasoning often relies on accepted traces whose final answers pass a verifier. It then generates deliberately distinct alternative candidates for highly ranked steps using reference-answer guidance and a meta-thought before completing the resulting traces.",
+      "key_concepts": [
+        "Alternative Reasoning",
+        "Accepted Trace",
+        "Achieves Highest",
+        "Alternative Candidates",
+        "Answers Pass",
+        "Candidates Highly"
+      ],
+      "insights": {
+        "problem": "For hard math problems, however, such traces can be rare under independent Monte Carlo (MC) sampling.",
+        "approach": "To address this, we propose Diverse Alternative Reasoning Traces (DART), a trace-mining method that starts from a rejected trace, decomposes it into reasoning steps, and ranks them by position-weighted uncertainty.",
+        "key_innovation": "Formulates an integrated mechanism leveraging Alternative Reasoning, Accepted Trace.",
+        "results": "Not specified in the available abstract.",
+        "applications": "Next-generation large language model workflows, retrieval-augmented intelligence, and structured document parsing.",
+        "limitations": "Not specified in the available abstract."
+      },
+      "primary_topic": "Artificial Intelligence"
+    },
+    {
+      "arxiv_id": "2611.34899",
+      "raw_id": "http://arxiv.org/abs/2611.34899v1",
+      "title": "Enhancing Maritime Domain Awareness using Latent Space Representations",
+      "authors": [
+        "Rikard Vinge",
+        "Miguel A. Belenguer-Plomer",
+        "Isabelle Wittmann",
+        "Octavian Dumitru",
+        "Michele Lazzarini",
+        "Sergio Albani",
+        "Conrad M Albrecht"
+      ],
+      "published_date": "2026-11-25T18:51:36Z",
+      "updated_date": "2026-11-25T18:51:36Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This work presents a novel application of Earth Observation (EO) embeddings for Maritime Domain Awareness (MDA) from the perspective of the geospatial foundation model TerraMind. By operating directly on compressed latent-space representations rather than on the original Sentinel-1 imagery, this approach directly addresses the data gravity bottleneck that increasingly constrains operational EO processing, in line with the objectives of the Embed2Scale project. In particular, linear and non-linear probing of compressed embeddings, latent space representations of synthetic aperture radar (SAR) imagery, is used to detect, localise, and characterise vessels from Sentinel-1 GRD images. Vessel detection achieves a ROC-AUC of 0.95, while vessel localisation has a median error of around 300 m for vessels longer than 100 m, and vessel AIS type-code classification achieves 62% accuracy for the majority classes. The latter, however, is highly correlated with vessel length. These results reveal both the potential and current limitations of Geospatial Foundation Models (GeoFMs) when applied to fine-grained MDA understanding in real-world scenarios. Additionally, a new maritime remote sensing dataset is released, pairing about 2,000 Sentinel-1 images with temporally aligned AIS signals from commercial vessels. Through manual inspection, each candidate sample was verified for bounding-box quality and for consistency between the AIS-reported vessel length and the observed vessel extent, cross-checking vessel identity and location against publicly available vessel records and, where available, photographs. The dataset was made ready for use with the NeuCo-Bench neural compression benchmark framework, publicly available on HuggingFace through https://huggingface.co/datasets/embed2scale/S1-single-ship-downstream .",
+      "url": "https://arxiv.org/abs/2611.34899v1",
+      "pdf_url": "https://arxiv.org/pdf/2611.34899v1",
+      "relevance_score": 0.563,
+      "processed_date": "2026-11-28",
+      "summary": "By operating directly on compressed latent-space representations rather than on the original Sentinel-1 imagery, this approach directly addresses the data gravity bottleneck that increasingly constrains operational EO processing, in line with the objectives of the Embed2Scale project. By operating directly on compressed latent-space representations rather than on the original Sentinel-1 imagery, this approach directly addresses the data gravity bottleneck that increasingly constrains operational EO processing, in line with the objectives of the Embed2Scale project. This work presents a novel application of Earth Observation (EO) embeddings for Maritime Domain Awareness (MDA) from the perspective of the geospatial foundation model TerraMind. In particular, linear and non-linear probing of compressed embeddings, latent space representations of synthetic aperture radar (SAR) imagery, is used to detect, localise, and characterise vessels from Sentinel-1 GRD images. The dataset was made ready for use with the NeuCo-Bench neural compression benchmark framework, publicly available on HuggingFace through https://huggingface.co/datasets/embed2scale/S1-single-ship-downstream .",
+      "key_concepts": [
+        "Foundation Model",
+        "Geospatial Foundation",
+        "Publicly Available",
+        "Type-code Classification Achieves",
+        "Understanding Real-world",
+        "Use Neuco-bench"
+      ],
+      "insights": {
+        "problem": "By operating directly on compressed latent-space representations rather than on the original Sentinel-1 imagery, this approach directly addresses the data gravity bottleneck that increasingly constrains operational EO processing, in line with the objectives of the Embed2Scale project.",
+        "approach": "By operating directly on compressed latent-space representations rather than on the original Sentinel-1 imagery, this approach directly addresses the data gravity bottleneck that increasingly constrains operational EO processing, in line with the objectives of the Embed2Scale project.",
+        "key_innovation": "This work presents a novel application of Earth Observation (EO) embeddings for Maritime Domain Awareness (MDA) from the perspective of the geospatial foundation model TerraMind.",
+        "results": "Not specified in the available abstract.",
+        "applications": "High-resolution real-time visual perception, automated 3D reconstruction, and embodied vision.",
+        "limitations": "These results reveal both the potential and current limitations of Geospatial Foundation Models (GeoFMs) when applied to fine-grained MDA understanding in real-world scenarios."
+      },
+      "primary_topic": "Machine Learning"
     }
   ]
 }

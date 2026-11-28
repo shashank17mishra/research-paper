@@ -12,11 +12,11 @@
 
 ## Latest Report
 
-📅 **[27 November 2026 Report](reports/2026/11/27/report.md)** — *10 new breakthrough papers analyzed today.*
+📅 **[28 November 2026 Report](reports/2026/11/28/report.md)** — *10 new breakthrough papers analyzed today.*
 
-[Read Full Report →](reports/2026/11/27/report.md) | [Explore Interactive Dashboard →](site/index.html)
+[Read Full Report →](reports/2026/11/28/report.md) | [Explore Interactive Dashboard →](site/index.html)
 
-[![Daily Infographic](reports/2026/11/27/infographic.png)](reports/2026/11/27/infographic.png)
+[![Daily Infographic](reports/2026/11/28/infographic.png)](reports/2026/11/28/infographic.png)
 
 ---
 
@@ -26,8 +26,8 @@
 | :--- | :---: |
 | **Papers Analyzed Today** | `10` |
 | **Artificial Intelligence (AI)** | `4` |
-| **Machine Learning (ML)** | `8` |
-| **Robotics** | `2` |
+| **Machine Learning (ML)** | `10` |
+| **Robotics** | `1` |
 | **IoT & Edge AI** | `0` |
 
 ---
@@ -36,18 +36,18 @@
 
 | # | Paper Title | Topic | Relevance | Link |
 | :-: | :--- | :---: | :-: | :---: |
-| 1 | **Focus Only on What's Important: Training-Free Focus Maps for Frozen Visi...** | `Computer Vision` | `0.61` | [arXiv](https://arxiv.org/abs/2611.34863v1) |
-| 2 | **Not all world models can doubt: how training objective and architecture ...** | `Artificial Intelligence` | `0.61` | [arXiv](https://arxiv.org/abs/2611.34830v1) |
-| 3 | **Towards Closing the Performance Gap in Cross-Modal Place Recognition** | `Machine Learning` | `0.64` | [arXiv](https://arxiv.org/abs/2611.34877v1) |
-| 4 | **Stranger Things: When Objects Appear Without Their Typical Neighbors** | `Machine Learning` | `0.64` | [arXiv](https://arxiv.org/abs/2611.34881v1) |
-| 5 | **Cairn: Object-Centric 3D Trajectory Priors for Steering Frozen VLAs** | `Machine Learning` | `0.64` | [arXiv](https://arxiv.org/abs/2611.34914v1) |
+| 1 | **Enhancing Maritime Domain Awareness using Latent Space Representations** | `Machine Learning` | `0.56` | [arXiv](https://arxiv.org/abs/2611.34899v1) |
+| 2 | **Diverse Alternative Reasoning Traces for Hard Math Problems** | `Artificial Intelligence` | `0.56` | [arXiv](https://arxiv.org/abs/2611.34928v1) |
+| 3 | **What a Drop Reveals: Sim-to-Real Material Estimation for Deformable Obje...** | `Robotics` | `0.56` | [arXiv](https://arxiv.org/abs/2611.34894v1) |
+| 4 | **Routeability Before Routing: Routeability Audit Protocol (RAP) and Route...** | `Natural Language Processing` | `0.58` | [arXiv](https://arxiv.org/abs/2611.34825v1) |
+| 5 | **Provably Efficient Offline Discounted Reinforcement Learning under Recur...** | `Machine Learning` | `0.58` | [arXiv](https://arxiv.org/abs/2611.34840v1) |
 
 ---
 
 ## Project Statistics
 
-- **Total Papers Analyzed**: `488`
-- **Total Operational Runs**: `61 days`
+- **Total Papers Analyzed**: `498`
+- **Total Operational Runs**: `62 days`
 - **Categories Tracked**: `15 categories`
 - **Primary Focus Areas**: Robotics, Machine Learning, Artificial Intelligence, Natural Language Processing
 
